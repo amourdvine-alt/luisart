@@ -1,0 +1,19 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luisart · Importer les données</title>
+<style>body{margin:0;font:16px/1.5 system-ui,-apple-system,sans-serif;background:#0d1118;color:#f3ead8;padding:24px}main{max-width:520px;margin:auto}h1{font:600 26px Georgia,serif;color:#e6c27e}button{width:100%;min-height:52px;border:0;border-radius:26px;background:linear-gradient(135deg,#e8c983,#c39a48);color:#1c1408;font-weight:700;font-size:16px;margin:10px 0}button:disabled{opacity:.5}#log{white-space:pre-wrap;background:#ffffff10;border-radius:14px;padding:12px;font-size:13px;min-height:60px}</style>
+<script src="firebase-config.js"></script><script src="luisart-firebase.js"></script></head><body><main>
+<h1>Importer les données de la bêta</h1>
+<p>À faire <b>une seule fois</b>, connecté avec votre compte Google d’administrateur. Vos œuvres, votre profil, les actualités et les expositions de la version bêta sont copiés dans votre nouvelle base.</p>
+<button id="g">1. Me connecter avec Google</button>
+<button id="i" disabled>2. Importer les données</button>
+<div id="log">…</div>
+<p><a href="./" style="color:#e6c27e">Ouvrir Luisart</a></p>
+</main><script>
+const L=t=>{document.getElementById('log').textContent+= '\n'+t};
+document.getElementById('g').onclick=()=>luisartAuth.signInGoogle();
+(async()=>{const i=await luisartAuth.info();document.getElementById('log').textContent=i?('Connecté : '+(i.email||'anonyme')+(i.owner?' (administrateur)':'')):'Pas connecté';
+ if(i&&i.owner)document.getElementById('i').disabled=false;else L('Connectez-vous avec le compte administrateur pour importer.')})();
+document.getElementById('i').onclick=async()=>{const b=document.getElementById('i');b.disabled=true;
+ try{const data=await (await fetch('data/luisart-export.json',{cache:'no-store'})).json();const db=await claude.use('db');let n=0;
+  for(const [p,d] of Object.entries(data)){try{await db.doc(p).set(d);n++;L('✓ '+p)}catch(e){L('✗ '+p+' : '+(e.code||e.message))}}
+  L('\nTerminé : '+n+' éléments importés.')}catch(e){L('Erreur : '+(e.message||e));b.disabled=false}};
+</script></body></html>

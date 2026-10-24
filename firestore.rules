@@ -1,0 +1,50 @@
+rules_version = '2';
+// Règles de sécurité Luisart (à coller dans Firebase › Firestore Database › Règles)
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function owner() {
+      return signedIn() && request.auth.token.email != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in ['amourdvine@gmail.com'];
+    }
+    function touches(keys) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasAny(keys);
+    }
+
+    // Réglages du site : lecture pour tous, modification par l'administrateur seulement
+    match /cfg/{id} {
+      allow read: if true;
+      allow write: if owner();
+    }
+
+    // Profils : chacun crée et modifie le sien ; badges, Pro et validation réservés à l'administrateur
+    match /artists/{id} {
+      allow read: if true;
+      allow create: if owner() || (signedIn() && id == request.auth.uid);
+      allow update: if owner()
+        || (signedIn() && id == request.auth.uid && !touches(['pro', 'cert', 'proUntil', 'demo']))
+        || (signedIn() && !touches(['mem', 'pro', 'cert', 'proUntil', 'name', 'role', 'tel', 'mail', 'demo', 'avatar']));
+      allow delete: if owner();
+    }
+
+    // Données privées de chaque personne
+    match /data/users/{uid}/{rest=**} {
+      allow read, write: if signedIn() && (request.auth.uid == uid || owner());
+    }
+
+    // Journal d'administration et paiements : administrateur seulement
+    match /logs/{id} { allow read, write: if owner(); }
+    match /pay/{id} { allow read: if signedIn(); allow write: if owner(); }
+
+    // Tout le reste (œuvres, messages, publications, expositions…) : lecture libre, écriture par les membres connectés
+    match /{col}/{id} {
+      allow read: if true;
+      allow write: if signedIn();
+    }
+    match /{col}/{id}/{sub}/{sid} {
+      allow read: if true;
+      allow write: if signedIn();
+    }
+  }
+}
