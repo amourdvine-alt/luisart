@@ -5054,11 +5054,106 @@ window.confSheet=confSheet;
 .lsx.go .lss{justify-content:flex-start!important}
 @media (min-height:761px){.lsx.go .lslogo{width:96px!important;height:96px!important}.lsx.go .lsbrand h1{font-size:38px!important;margin:14px 0 6px!important}.lsx.go .lsbrand p{font-size:10.5px!important}}
 </style><script>(function(){function fit(){var t=document.getElementById('lss');if(!t||!document.querySelector('.lsx.go'))return;var k=Math.round(t.scrollLeft/Math.max(1,t.clientWidth)),c=t.children[k];if(!c)return;var h=0,n=0;for(var j=0;j<c.children.length;j++){var e=c.children[j],st=getComputedStyle(e);if(st.display==='none')continue;h+=e.offsetHeight+parseFloat(st.marginTop)+parseFloat(st.marginBottom);n++}h+=parseFloat(getComputedStyle(c).paddingTop)+parseFloat(getComputedStyle(c).paddingBottom)+Math.max(0,n-1)*6+4;var nh=Math.ceil(h)+'px';if(t.style.height!==nh)t.style.height=nh}
-setInterval(fit,200);document.addEventListener('scroll',function(ev){if(ev.target&&ev.target.id==='lss')fit()},true);window.addEventListener('resize',fit)})();</script><script>if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script><script>/* Actualités automatiques (robot de veille GitHub) */
+setInterval(fit,200);document.addEventListener('scroll',function(ev){if(ev.target&&ev.target.id==='lss')fit()},true);window.addEventListener('resize',fit)})();</script><script>
+/* =================== OUVERTURE STABLE : écran de lancement + bienvenue =================== */
+(function(){
+const T=t=>{try{return trS(t)}catch(er){return t}};
+const SEEN=()=>{try{return !!localStorage.getItem('luisart_seen')}catch(er){return false}};
+let root=null,step=0,phase='',busy=false;
+const STEPS=[
+ {t:'Bienvenue sur Luisart',d:'La maison des artistes : une galerie, une boutique et un réseau pour l’art de Côte d’Ivoire et d’Afrique.'},
+ {t:'Pour qui ?',l:[['palette','Artistes et artisans','Montrez et vendez votre travail'],['heart','Amateurs et collectionneurs','Découvrez et achetez des œuvres'],['museum','Galeries et organisateurs','Exposez, formez, recrutez']]},
+ {t:'Ce que vous pouvez faire',l:[['pimg','Découvrir et acheter des œuvres','Directement auprès des artistes'],['museum','Visiter la galerie en 3D','Comme dans une vraie exposition'],['mail','Écrire ou appeler un artiste','Messages, appels et lives']]},
+ {t:'Vous êtes… ?',d:'Luisart s’adapte à vous.',who:1}];
+function css(){if(document.getElementById('lxcss'))return;const s=document.createElement('style');s.id='lxcss';s.textContent=`
+#lx{position:fixed;inset:0;z-index:99990;background:var(--bg,#faf6ef);color:var(--fg,#231d14);display:flex;flex-direction:column;align-items:center;opacity:1;transition:opacity .35s ease;-webkit-user-select:none;user-select:none;touch-action:pan-y}
+#lx.out{opacity:0;pointer-events:none}
+#lx .lxsp{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .35s ease}
+#lx .lxlogo{width:92px;height:92px;opacity:0;transform:scale(.96);animation:lxin .55s ease-out .05s forwards}
+#lx .lxlogo svg{width:100%;height:100%;display:block}
+#lx .lxfoot{position:absolute;left:0;right:0;bottom:calc(34px + env(safe-area-inset-bottom,0px));text-align:center;opacity:0;animation:lxin .5s ease-out .25s forwards}
+#lx .lxfoot b{display:block;font:600 17px/1.2 Georgia,'Times New Roman',serif;color:var(--fg,#231d14)}
+#lx .lxfoot small{display:block;margin-top:5px;font-size:10.5px;letter-spacing:.3em;color:#a8823a;font-weight:700}
+@keyframes lxin{to{opacity:1;transform:none}}
+#lx .lxob{position:absolute;inset:0;display:flex;flex-direction:column;opacity:0;transition:opacity .35s ease;padding:calc(12px + env(safe-area-inset-top,0px)) 20px calc(18px + env(safe-area-inset-bottom,0px));box-sizing:border-box;max-width:560px;margin:0 auto}
+#lx.ob .lxob{opacity:1}#lx.ob .lxsp{opacity:0;pointer-events:none}
+#lx .lxtop{flex:none;height:44px;display:flex;align-items:center;justify-content:space-between}
+#lx .lxtop button{height:36px;padding:0 14px;border-radius:18px;border:1px solid var(--bd,#e7dfd0);background:var(--cd,#fff);color:var(--fg,#231d14);font-size:14px;display:flex;align-items:center;gap:6px}
+#lx .lxtop .lxskip.hid{visibility:hidden}
+#lx .lxmark{flex:none;display:flex;justify-content:center;margin:14px 0 6px}
+#lx .lxmark .lxlogo{width:58px;height:58px;opacity:1;transform:none;animation:none}
+#lx .lxbody{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;transition:opacity .22s ease,transform .22s ease}
+#lx .lxbody.fade{opacity:0;transform:translateY(8px)}
+#lx h2{margin:0 0 10px;text-align:center;font:600 26px/1.2 Georgia,'Times New Roman',serif;color:var(--fg,#231d14)}
+#lx .lxd{margin:0 auto;text-align:center;font-size:15.5px;line-height:1.55;color:var(--mu,#6b5f4c);max-width:330px}
+#lx .lxl{margin:12px auto 0;width:100%;max-width:360px;border-radius:18px;background:var(--cd,#fff);border:1px solid var(--bd,#e7dfd0);overflow:hidden}
+#lx .lxl>div{display:flex;align-items:center;gap:14px;padding:13px 16px}
+#lx .lxl>div+div{border-top:1px solid var(--bd,#efe7d8)}
+#lx .lxl i{flex:none;display:flex;color:#a8823a}
+#lx .lxl p{margin:0;display:flex;flex-direction:column}
+#lx .lxl b{font-size:15px}#lx .lxl small{font-size:13px;color:var(--mu,#6b5f4c);margin-top:2px}
+#lx .lxwho{display:flex;gap:10px;margin:16px auto 0;width:100%;max-width:360px}
+#lx .lxwho button{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:18px 10px;border-radius:18px;border:1.5px solid var(--bd,#e7dfd0);background:var(--cd,#fff);color:var(--fg,#231d14)}
+#lx .lxwho button svg{color:#a8823a}#lx .lxwho b{font-size:15px}#lx .lxwho small{font-size:12.5px;color:var(--mu,#6b5f4c);line-height:1.35}
+#lx .lxwho button.on{border-color:#c39a48;background:#c39a4814;box-shadow:0 0 0 3px #c39a4826}
+#lx .lxbot{flex:none}
+#lx .lxdots{display:flex;justify-content:center;gap:6px;margin:14px 0 16px}
+#lx .lxdots i{width:7px;height:7px;border-radius:4px;background:var(--bd,#ddd2bf);transition:all .25s}
+#lx .lxdots i.on{width:22px;background:#c39a48}
+#lx .lxgo{width:100%;min-height:52px;border:0;border-radius:26px;background:linear-gradient(135deg,#e8c983,#c39a48);color:#1c1408;font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center;gap:8px}
+#lx .lxalt{width:100%;min-height:46px;margin-top:8px;border:0;background:none;color:var(--fg,#231d14);font-size:15px;font-weight:600}
+#lx .lxalt.hid{visibility:hidden}
+@media (max-height:640px){#lx .lxmark{margin:4px 0 0}#lx .lxmark .lxlogo{width:44px;height:44px}#lx h2{font-size:22px}#lx .lxl>div{padding:9px 14px}}
+@media (prefers-reduced-motion:reduce){#lx *{animation-duration:.01s!important;transition-duration:.01s!important}}`;document.head.appendChild(s)}
+const logo=()=>`<div class="lxlogo">${window.LUIS_LOGO||(typeof LUIS_LOGO!=='undefined'?LUIS_LOGO:'')}</div>`;
+function body(){const s=STEPS[step],who=(()=>{try{return localStorage.getItem('luisart_who')||''}catch(er){return ''}})();
+ return `<h2>${T(s.t)}</h2>${s.d?`<p class="lxd">${T(s.d)}</p>`:''}${s.l?`<div class="lxl">${s.l.map(([i,t,d])=>`<div><i>${ic(i,22)}</i><p><b>${T(t)}</b><small>${T(d)}</small></p></div>`).join('')}</div>`:''}${s.who?`<div class="lxwho"><button type="button" data-lxwho="art" class="${who==='art'?'on':''}">${ic('palette',26)}<b>${T('Je suis artiste')}</b><small>${T('Je crée et je veux montrer mon travail')}</small></button><button type="button" data-lxwho="fan" class="${who==='fan'?'on':''}">${ic('heart',26)}<b>${T('J’aime l’art')}</b><small>${T('Je découvre, je soutiens, j’achète')}</small></button></div>`:''}`}
+function paintBottom(){if(!root)return;const last=step===STEPS.length-1,mem=(()=>{try{return isMem()}catch(er){return false}})();
+ root.querySelectorAll('.lxdots i').forEach((d,k)=>d.classList.toggle('on',k===step));
+ const go=root.querySelector('.lxgo'),alt=root.querySelector('.lxalt');
+ go.innerHTML=last?(mem?ic('right',18)+' '+T('Entrer'):ic('users',18)+' '+T('Créer mon compte')):ic('right',18)+' '+T('Suivant');
+ alt.textContent=T('Visiter en invité');alt.classList.toggle('hid',!last||mem);
+ root.querySelector('.lxskip').classList.toggle('hid',last)}
+function goStep(k){if(busy||k<0||k>=STEPS.length||k===step)return;busy=true;const b=root.querySelector('.lxbody');b.classList.add('fade');
+ setTimeout(()=>{step=k;b.innerHTML=body();paintBottom();requestAnimationFrame(()=>{b.classList.remove('fade');setTimeout(()=>busy=false,230)})},200)}
+function close(then){if(!root)return;phase='done';root.classList.add('out');const r=root;root=null;setTimeout(()=>r.remove(),380);if(then)then()}
+function enter(join){try{localStorage.setItem('luisart_seen','1')}catch(er){}close(()=>{try{act('start',undefined,join?'join':undefined)}catch(er){}})}
+function onboarding(){phase='ob';step=0;const ob=root.querySelector('.lxob');
+ ob.innerHTML=`<div class="lxtop"><button type="button" class="lxskip">${T('Passer')}</button><button type="button" class="lxlang">${ic('globe',15)} ${(()=>{try{return(LANGS.find(z=>z[0]===LANG)||LANGS[0])[1]}catch(er){return 'Français'}})()}</button></div>
+ <div class="lxmark">${logo()}</div><div class="lxbody">${body()}</div>
+ <div class="lxbot"><div class="lxdots">${STEPS.map(()=>'<i></i>').join('')}</div><button type="button" class="lxgo"></button><button type="button" class="lxalt"></button></div>`;
+ paintBottom();root.classList.add('ob')}
+function bind(){root.addEventListener('click',ev=>{const t=ev.target;
+ const w=t.closest('[data-lxwho]');if(w){try{localStorage.setItem('luisart_who',w.dataset.lxwho)}catch(er){}root.querySelectorAll('[data-lxwho]').forEach(x=>x.classList.toggle('on',x===w));return}
+ if(t.closest('.lxskip')){goStep(STEPS.length-1);return}
+ if(t.closest('.lxlang')){try{lsLang()}catch(er){}return}
+ if(t.closest('.lxgo')){if(step<STEPS.length-1)goStep(step+1);else{let mem=false;try{mem=isMem()}catch(er){}enter(!mem)}return}
+ if(t.closest('.lxalt')){enter(false);return}});
+ let sx=0,sy=0;root.addEventListener('touchstart',ev=>{const p=ev.touches[0];sx=p.clientX;sy=p.clientY},{passive:true});
+ root.addEventListener('touchend',ev=>{if(phase!=='ob')return;const p=ev.changedTouches[0],dx=p.clientX-sx,dy=p.clientY-sy;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.4)goStep(step+(dx<0?1:-1))},{passive:true})}
+let resume=false;
+function start(r){if(root||phase==='done')return;resume=!!r;css();
+ root=document.createElement('div');root.id='lx';root.setAttribute('data-noi18n','');
+ root.innerHTML=`<div class="lxsp">${logo()}<div class="lxfoot"><b>Luisart</b><small>${T('LA MAISON DES ARTISTES')}</small></div></div><div class="lxob"></div>`;
+ document.body.appendChild(root);bind();
+ const t0=Date.now(),seen=SEEN();
+ const ready=()=>window.__ownerok||Date.now()-t0>2600;
+ (function wait(){if(!root)return;if(Date.now()-t0<(resume?800:1100)||!ready())return setTimeout(wait,120);if(resume||(typeof started!=='undefined'&&started))close();else if(seen)enter(false);else onboarding()})()}
+/* le rendu de l'appli ne touche plus l'écran d'ouverture : il vit à part, une seule fois */
+window.startView=function(){setTimeout(start,0);return '<div class="lxph"></div>'};
+let once=false;try{once=!!sessionStorage.getItem('lx_once');sessionStorage.setItem('lx_once','1')}catch(er){}
+if(typeof started!=='undefined'&&!started)setTimeout(start,0);else if(!once)start(true);
+/* bulles d'aide : disparaissent dès qu'on touche l'écran ou qu'on fait défiler */
+const hideTip=()=>{const b=document.getElementById('tipb');if(b&&b.classList.contains('on'))b.classList.remove('on')};
+addEventListener('scroll',hideTip,{capture:true,passive:true});addEventListener('touchstart',hideTip,{capture:true,passive:true});addEventListener('pointerdown',ev=>{if(!(ev.target.closest&&ev.target.closest('#tipb')))hideTip()},true);addEventListener('wheel',hideTip,{passive:true});
+})();
+</script>
+<style id="lxhide">.lsx{display:none!important}</style>
+<script>/* Actualités automatiques (robot de veille GitHub) */
 (function(){let AUTO=[];
 window.__nwMerge=l=>{const links=new Set(l.map(x=>x.link).filter(Boolean));return [...l,...AUTO.filter(x=>!links.has(x.link))]};
 async function load(){try{const r=await fetch('data/news-auto.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'});if(!r.ok)return;const d=await r.json();const now=Date.now();
  AUTO=(d.items||[]).filter(x=>!(x.deadline&&Date.parse(x.deadline)<now-864e5)&&!(x.end&&Date.parse(x.end)<now-864e5));
  window.__nwAutoInfo={updated:d.updated,count:AUTO.length};
  if(typeof NW0!=='undefined'){NW0=window.__nwMerge(window.__NWL||[]).sort((a,b)=>b.ts-a.ts);try{schApply();render()}catch(er){}}}catch(er){}}
-load();setInterval(load,3*3600000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});})();</script></body></html>
+load();setInterval(load,3*3600000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});})();</script><script>if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script></body></html>
