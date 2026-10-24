@@ -1,0 +1,11 @@
+rules_version = '2';
+// Règles de stockage Luisart (Firebase › Storage › Règles)
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /u/{uid}/{file} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == uid
+        && request.resource.size < 20 * 1024 * 1024;
+    }
+  }
+}

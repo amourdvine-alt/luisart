@@ -1,0 +1,39 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luisart · Mise en ligne</title>
+<style>body{margin:0;font:16px/1.6 system-ui,-apple-system,sans-serif;background:#faf6ee;color:#231d14;padding:20px}main{max-width:640px;margin:auto}h1{font:600 28px Georgia,serif;margin:.2em 0}h2{font:600 20px Georgia,serif;margin:1.6em 0 .4em;color:#8a6420}ol{padding-left:1.3em}li{margin:.35em 0}code{background:#efe6d3;padding:1px 6px;border-radius:6px;font-size:.92em}.n{background:#fff;border:1px solid #e7dccb;border-radius:14px;padding:12px 14px;margin:12px 0}</style></head><body><main>
+<h1>Luisart · mettre l’application en ligne</h1>
+<p>Ce dossier contient la vraie application Luisart, indépendante de Claude : comptes, messages entre membres, photos, appels vidéo avec caméra et micro, installation sur le téléphone.</p>
+
+<h2>Contenu du dossier</h2>
+<ul><li><code>index.html</code> : l’application.</li><li><code>firebase-config.js</code> : la seule chose à remplir (vos clés Firebase).</li><li><code>luisart-firebase.js</code> : le branchement à Firebase (ne pas modifier).</li><li><code>import.html</code> : copie vos œuvres et votre profil de la bêta.</li><li><code>firestore.rules</code>, <code>storage.rules</code> : la sécurité de la base.</li><li><code>manifest.webmanifest</code>, <code>sw.js</code>, <code>icons/</code> : installation sur le téléphone.</li></ul>
+
+<h2>Étape 1 · Créer la base Firebase (gratuit)</h2>
+<ol>
+<li>Ouvrez <b>console.firebase.google.com</b> avec votre compte Google, puis « Créer un projet » nommé <code>luisart</code>. Google Analytics peut être désactivé.</li>
+<li>Dans le projet, touchez l’icône <b>Web &lt;/&gt;</b> pour ajouter une application, nom « Luisart ». Copiez le bloc <code>firebaseConfig</code> qui s’affiche.</li>
+<li><b>Authentication</b> › Commencer › Méthodes de connexion : activez <b>Anonyme</b> et <b>Google</b>.</li>
+<li><b>Firestore Database</b> › Créer une base de données › mode production, région la plus proche (Europe). Puis onglet <b>Règles</b> : remplacez tout par le contenu de <code>firestore.rules</code> et touchez Publier.</li>
+</ol>
+<div class="n"><b>Photos et documents joints :</b> les photos des œuvres fonctionnent déjà sans rien de plus. Pour les documents (PDF…) envoyés dans les messages, il faut activer <b>Storage</b>, qui demande d’ajouter une carte bancaire au projet (offre « Blaze » ; les premiers 5 Go restent gratuits). À faire plus tard.</div>
+
+<h2>Étape 2 · Héberger l’application</h2>
+<p><b>Option simple depuis le téléphone, GitHub Pages (gratuit)</b></p>
+<ol>
+<li>Créez un compte sur <b>github.com</b>, puis un dépôt public vide nommé <code>luisart</code>.</li>
+<li>Envoyez le nom du dépôt à Claude : il y dépose tous les fichiers. Sinon : « Add file › Upload files » et ajoutez le contenu de ce dossier.</li>
+<li>Dans le dépôt : Settings › Pages › Branch <code>main</code> › Save. Votre adresse sera <code>https://VOTRE-PSEUDO.github.io/luisart/</code>.</li>
+<li>Dans Firebase : Authentication › Paramètres › <b>Domaines autorisés</b> › ajoutez <code>VOTRE-PSEUDO.github.io</code>.</li>
+</ol>
+
+<h2>Étape 3 · Remplir la configuration</h2>
+<p>Collez les valeurs copiées à l’étape 1 dans <code>firebase-config.js</code> (sur GitHub : ouvrir le fichier › crayon › Commit). Vous pouvez aussi simplement envoyer le bloc <code>firebaseConfig</code> à Claude, qui le remplit pour vous. Ces clés ne sont pas secrètes : la sécurité vient des règles.</p>
+
+<h2>Étape 4 · Importer vos données de la bêta</h2>
+<ol><li>Ouvrez <code>https://VOTRE-PSEUDO.github.io/luisart/import.html</code>.</li><li>« Me connecter avec Google » avec <b>amourdvine@gmail.com</b> (le compte administrateur).</li><li>« Importer les données ». Vos œuvres, votre profil, les actualités et les expositions sont copiés.</li></ol>
+
+<h2>Étape 5 · Installer et partager</h2>
+<ul><li><b>Android</b> (Chrome) : ouvrez l’adresse › menu ⋮ › « Installer l’application ».</li><li><b>iPhone</b> (Safari) : bouton Partager › « Sur l’écran d’accueil ».</li><li>Partagez l’adresse à vos artistes : chacun crée son compte et peut se connecter avec Google pour le retrouver sur tous ses appareils.</li></ul>
+
+<h2>Ensuite</h2>
+<ul><li><b>Play Store</b> : pwabuilder.com transforme l’adresse en application Android (compte développeur Google : 25 $ une fois).</li><li><b>App Store</b> : compte développeur Apple (99 $ par an).</li><li><b>Nom de domaine</b> (luisart.ci, luisart.art…) : à relier à GitHub Pages ou Firebase Hosting.</li><li><b>Paiements Mobile Money</b> : compte marchand CinetPay ou PayDunya.</li><li><b>Notifications</b> : Firebase Cloud Messaging, à brancher dans une prochaine version.</li></ul>
+<p class="n">Votre administrateur est défini par l’adresse <code>amourdvine@gmail.com</code> dans <code>firebase-config.js</code> et <code>firestore.rules</code>. Pour ajouter un autre administrateur, ajoutez son adresse aux deux endroits.</p>
+</main></body></html>

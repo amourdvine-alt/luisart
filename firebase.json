@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", "*.rules", "LISEZMOI.html", "**/.*"],
+    "headers": [
+      {"source": "sw.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]},
+      {"source": "**/*.html", "headers": [{"key": "Cache-Control", "value": "no-cache"}]}
+    ]
+  },
+  "firestore": {"rules": "firestore.rules"},
+  "storage": {"rules": "storage.rules"}
+}
