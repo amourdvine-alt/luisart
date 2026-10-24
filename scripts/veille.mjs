@@ -134,6 +134,8 @@ const fr = v => { const d = new Date(v); return d.getUTCDate() + ' ' + ['janvier
 
 function classify(it, hint) {
   const t = norm(it.title + ' ' + it.desc);
+  const tt = norm(it.title);
+  if (has(tt, W.junk) || has(tt, ['parc des expositions', 'music', 'musique', 'chanteur', 'chanteuse'])) return null;
   if (has(t, W.junk) && !has(t, W.art.slice(1))) return null;
   if (!has(t, W.art)) return null;
   const ci = has(t, W.ci), af = ci || has(t, W.africa);
