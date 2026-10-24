@@ -78,16 +78,20 @@ async function get(url) {
 
 /* ---------------- intelligence : classement, dates limites, pertinence ---------------- */
 const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-const has = (t, words) => words.some(w => t.includes(w));
+const RX = new Map();
+const has = (t, words) => { let r = RX.get(words); if (!r) { r = new RegExp('(^|[^a-z0-9])(' + words.map(w => w.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'i'); RX.set(words, r); } return r.test(t); };
 const W = {
-  call: ['appel a candidature', 'appel a projet', 'open call', 'call for artists', 'call for applications', 'call for entries', 'residence d\'artiste', 'residence artistique', 'artist residency', 'residency', 'bourse', 'grant', 'fellowship', 'prix ', 'prize', 'award', 'concours', 'competition', 'candidatez', 'apply now', 'deadline', 'date limite'],
+  call: ['appel a candidature', 'appels a candidature', 'appel a projet', 'appel a participation', 'open call', 'call for', 'candidatez', 'candidatures ouvertes', 'inscriptions ouvertes', 'apply now', 'apply by', 'applications open', 'deadline', 'date limite', 'opportunities for artists', 'opportunites pour artistes'],
+  call2: ['residence', 'residency', 'bourse', 'grant', 'fellowship', 'prix', 'prize', 'award', 'concours', 'competition'],
+  callApply: ['candidat', 'apply', 'application', 'submit', 'soumettre', 'inscri', 'postuler', 'eligib'],
+  notCall: ['laureat', 'laureate', 'winner', 'wins ', 'won ', 'awarded', 'remporte', 'sacre', 'decerne', 'announces new', 'devoile les', 'prized'],
   ci: ['abidjan', 'cote d\'ivoire', 'cote divoire', 'ivoirien', 'ivoirienne', 'ivory coast', 'bingerville', 'grand-bassam', 'yamoussoukro', 'bouake', 'insaac'],
   africa: ['afrique', 'africa', 'african', 'africain', 'dakar', 'lagos', 'accra', 'bamako', 'ouagadougou', 'kinshasa', 'lubumbashi', 'nairobi', 'johannesburg', 'cotonou', 'lome', 'douala', 'yaounde', 'marrakech', 'diaspora', 'senegal', 'nigeria', 'ghana', 'benin', 'cameroun', 'mali', 'burkina'],
-  art: ['art', 'artiste', 'artist', 'peint', 'paint', 'exposition', 'exhibition', 'galerie', 'gallery', 'musee', 'museum', 'sculpt', 'photograph', 'biennale', 'biennial', 'vernissage', 'curat', 'commissaire', 'oeuvre', 'artwork', 'collection'],
-  local: ['vernissage', 'exposition', 'expo ', 'galerie', 'exhibition', 'festival'],
+  art: ['art ', 'arts', 'art,', 'art.', 'artiste', 'artistic', 'artistique', 'artist', 'peint', 'paint', 'exposition', 'exhibition', 'galerie', 'gallery', 'musee', 'museum', 'sculpt', 'photograph', 'biennale', 'biennial', 'vernissage', 'curat', 'commissaire', 'oeuvre', 'artwork', 'collection'],
+  local: ['vernissage', 'exposition ', 'galerie', 'exhibition', 'photo', 'peint', 'sculpt', 'atelier'],
   major: ['biennale', 'biennial', 'documenta', 'retrospective', 'museum', 'musee', 'louvre', 'tate', 'moma', 'pompidou', 'zeitz', 'mocaa', 'art basel', 'frieze', '1-54'],
   event: ['festival', 'foire', 'art fair', 'salon', 'rencontre', 'conference', 'atelier', 'workshop', 'masterclass', 'forum'],
-  junk: ['football', 'match', 'election', 'crypto', 'horoscope', 'recette', 'martial art', 'state of the art', 'art of the deal', 'mma', 'politique', 'tribunal', 'accident'],
+  junk: ['concert', 'gospel', 'music conference', 'agroalimentaire', 'salon de l\'auto', 'football', 'match', 'election', 'crypto', 'horoscope', 'recette', 'martial art', 'state of the art', 'art of the deal', 'mma', 'politique', 'tribunal', 'accident'],
 };
 
 const MONTHS = { janvier: 0, fevrier: 1, mars: 2, avril: 3, mai: 4, juin: 5, juillet: 6, aout: 7, septembre: 8, octobre: 9, novembre: 10, decembre: 11,
@@ -132,9 +136,10 @@ function classify(it, hint) {
   const t = norm(it.title + ' ' + it.desc);
   if (has(t, W.junk) && !has(t, W.art.slice(1))) return null;
   if (!has(t, W.art)) return null;
-  const ci = has(t, W.ci), af = ci || has(t, W.africa), call = has(t, W.call) || hint === 'call';
+  const ci = has(t, W.ci), af = ci || has(t, W.africa);
+  const call = !has(t, W.notCall) && (has(t, W.call) || (has(t, W.call2) && has(t, W.callApply)));
   let cat;
-  if (call && (has(t, W.call))) cat = 'Appels à candidatures';
+  if (call) cat = 'Appels à candidatures';
   else if (ci && has(t, W.local)) cat = 'Vernissages locaux';
   else if (has(t, W.major)) cat = 'Expositions majeures';
   else if (has(t, W.event)) cat = 'Événements';
@@ -213,7 +218,8 @@ async function main() {
   }
   // équilibre : au moins quelques appels et quelques nouvelles locales en tête
   const byCat = c => kept.filter(k => k.cat === c);
-  const final = [...new Set([...byCat('Appels à candidatures').slice(0, 15), ...byCat('Vernissages locaux').slice(0, 10), ...kept])].slice(0, MAX_ITEMS);
+  const world = new Set(byCat('Art mondial').slice(12));
+  const final = [...new Set([...byCat('Appels à candidatures').slice(0, 18), ...byCat('Vernissages locaux').slice(0, 10), ...kept.filter(k => !world.has(k))])].slice(0, MAX_ITEMS);
 
   if (!final.length && previous.length) { console.warn('Aucune nouvelle donnée : on garde le fichier précédent.'); return; }
   const out = { updated: new Date(NOW).toISOString(), sources: { ok: stats.ok, fail: stats.fail, read: stats.read }, count: final.length,
