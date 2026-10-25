@@ -1,12 +1,88 @@
 {
- "updated": "2026-10-24T17:32:00.105Z",
+ "updated": "2026-10-25T05:42:44.608Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 972
+  "read": 985
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1yyc40p",
+   "cat": "Nouveautés",
+   "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
+   "sub": "RFI",
+   "text": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer» RFI",
+   "date": "Publié le 24 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQNnhrX0tDbG5EQXpsd2U1Z0JMRnpfWWdsMjhHMV80V1dLZ0JxVkw5LXNQbG5JQllFWjVlVUU5ZFU4R1ljMmVXeU5qWFJkcWJ0Q09tUzdxUTJqOV93dFRrRl81VzJRX0MtQmYzdDMxdHVPQ1RMMXdGeUZwXzdMNmZjaDY1emQ2b0JEVzZhYjVVVFlzNUh4cmxGZnYzbVhlY1dDRldOM29QSWd4U2ZOUjlkOVd3cFlqOVBXZ2RWaHBqcEFrajZuNFJtSXdDZkRscXRnY3VTSXNCN0ozUl80azVqckhDczNkS2pJTS1yT0gzc1dLX1NnTGJ3Z2Y0VGNPaERTZWw2eXAzVEx6WHpMX0RYQmdMN3RSNTdjXzItQlU4UmI?oc=5",
+   "src": "RFI",
+   "img": "",
+   "ts": 1792881480000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1ljysmw",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
+   "sub": "Africa News Agency",
+   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
+   "date": "Publié le 24 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU19qYUtCNGRIamVHWmpUMFNCWFl1VVdUVEYwd211bXhlTjNIT0NWUXhUQ29oS3FxYjhFVGlOS19iZW1LS2t4YlhhUUdFekRnNTVaOXB5VXo3NVJxcEplY3hjS1NqZUZ4X2xUSU5BM0JSeGM1M0Ytc3dtMk0xVFR0U3g4X1YxaVpJMGhhcGM0cTZUQlV1cFdzT2hKNE1UTThfRlJZWEdTM1Y?oc=5",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792871754000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_ur4q1h",
+   "cat": "Art mondial",
+   "title": "Artists Take to the Streets Amid Massive Protests in France",
+   "sub": "Hyperallergic",
+   "text": "Tens of thousands gathered at Porte d’Italie in Paris for a march led in part by culture-sector coalitions demanding a better life for artists.",
+   "date": "Publié le 24 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/artists-take-to-the-streets-amid-massive-protests-in-france/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2301256119--1-.jpg",
+   "ts": 1792871333000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_rwhlxx",
+   "cat": "Expositions majeures",
+   "title": "« Je me suis lancée dans une chasse aux trésors » : au Petit Palais à Paris, Prune Nourry ressuscite 18 sculptrices oubliées",
+   "sub": "Connaissance des Arts",
+   "text": "Dans le cadre d’une saison 100 % féminine, le Petit Palais a donné carte blanche à Prune Nourry pour occuper l’ensemble de ses espaces. De ce projet sont nés des bustes monumentaux inédits figurant des sculptrices connues, méconnues et inconnues, ainsi qu’une conversation entre des œuvres préexistantes de la plasticienne et les collections du musée. Cet article « Je me suis lancée dans une chasse aux trésors » : au…",
+   "date": "Publié le 24 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/je-me-suis-lancee-dans-une-chasse-aux-tresors-au-petit-palais-a-paris-prune-nourry-ressuscite-18-sculptrices-oubliees-11217420/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_prune_nourry_petit_palais_claudel-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1792864802000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_9dtmeh",
    "cat": "Art mondial",
@@ -24,26 +100,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_cranach_1-tt-width-653-height-994-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792854045000,
    "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_1ljysmw",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
-   "sub": "Africa News Agency",
-   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU19qYUtCNGRIamVHWmpUMFNCWFl1VVdUVEYwd211bXhlTjNIT0NWUXhUQ29oS3FxYjhFVGlOS19iZW1LS2t4YlhhUUdFekRnNTVaOXB5VXo3NVJxcEplY3hjS1NqZUZ4X2xUSU5BM0JSeGM1M0Ytc3dtMk0xVFR0U3g4X1YxaVpJMGhhcGM0cTZUQlV1cFdzT2hKNE1UTThfRlJZWEdTM1Y?oc=5",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792850154000,
-   "auto": 1,
-   "_score": 8
+   "_score": 5.3
   },
   {
    "id": "auto_1n5bf9l",
@@ -62,7 +119,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/The_Disciple_Cilvaringz.jpg?w=400",
    "ts": 1792848120000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_cml6g8",
@@ -81,7 +138,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une20250927_fete-la-parcelle-388c-le19m-nicolas-melemis-1300x975.jpg",
    "ts": 1792846806000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1f2l0w9",
@@ -100,7 +157,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_majorelle_marrakech_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792839638000,
    "auto": 1,
-   "_score": 8.4
+   "_score": 8.3
   },
   {
    "id": "auto_103ax8h",
@@ -119,7 +176,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/class-war.jpg",
    "ts": 1792836000000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_7qo9i4",
@@ -138,7 +195,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_1rybhra",
@@ -157,7 +214,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_cathedrale_nantes_incendie_1-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792828809000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_rszrxp",
@@ -176,7 +233,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_secrets_d_atelier_martin_claudel_taillandier_marteau_pillon-tt-width-653-height-429-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792818020000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_3tkr50",
@@ -195,7 +252,7 @@
    "img": "",
    "ts": 1792788108000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_4t7dep",
@@ -214,7 +271,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/abp1.jpg",
    "ts": 1792785372000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1dddcnu",
@@ -233,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Enayet-Khan-Woman.jpg",
    "ts": 1792785012000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1dno605",
@@ -252,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/5-MAPPLETHORPE.jpg",
    "ts": 1792783474000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_c1fix9",
@@ -271,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/image.jpg",
    "ts": 1792782840000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_qljcii",
@@ -290,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/TBA_Wen-Liu-at-UTAC_06_detail-Web.jpg",
    "ts": 1792782085000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_9byqja",
@@ -309,102 +366,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 7.8
-  },
-  {
-   "id": "auto_1xtejzn",
-   "cat": "Expositions majeures",
-   "title": "Ces images qui ont marqué une semaine de l’art 2026 hors norme",
-   "sub": "Beaux Arts Magazine",
-   "text": "Voilà une édition 2026 d’Art Basel Paris qui n’aura ressemblé à aucune autre ! Alors …",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/ces-images-qui-ont-marque-une-semaine-de-lart-2026-hors-norme/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/alicja-kwade-manfred-pernice_lelevation-des-mondes_bank-group_2026_galerie-mennour_galeries-anton-kern-et-neu_courtesy-art-basel-1300x866.jpg",
-   "ts": 1792778424000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_j0fc9s",
-   "cat": "Art mondial",
-   "title": "Scientists Contest Dating of Van Gogh’s \"The Starry Night\"",
-   "sub": "Hyperallergic",
-   "text": "The researchers identified discrepancies between the celestial alignments in June 1889 and Vincent van Gogh’s painted night sky.",
-   "date": "À partir du 18 juin 2027",
-   "deadline": "",
-   "start": "2027-06-18",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/scientists-contest-dating-of-van-goghs-the-starry-night/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2150340435.jpg",
-   "ts": 1792774526000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1j88hkh",
-   "cat": "Événements",
-   "title": "Asia Now, Akaa, Offscreen, Paris Internationale, Outsider Paris, Design Miami.Paris, Ceramic Art Fair : nos plus belles découvertes 2026 des…",
-   "sub": "Beaux Arts Magazine",
-   "text": "Cette année encore, la rédaction de Beaux Arts est allée arpenter les multiples foires qui …",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/asia-now-akaa-offscreen-paris-internationale-outsider-paris-design-miami-paris-ceramic-art-fair-nos-plus-belles-decouvertes-2026-des-foires-off/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/livia-melzi-offscreen-3376-hd-credit-romain-darnaud-romaindarnaudphoto-courtesy-salon-h-une-1300x975.jpg",
-   "ts": 1792773588000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1aa559b",
-   "cat": "Expositions majeures",
-   "title": "Comcast Cofounder Gives $20 M. to Philadelphia Museum of Art, One of its Largest Gifts, To Greatly Expand Education Spaces",
-   "sub": "ARTnews",
-   "text": "“We don’t have much in the way of dedicated space for education, so it’s been slightly improvisational,” said director and CEO Daniel Weiss.",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/comcast-cofounder-20m-philadelphia-museum-art-education-1234803636/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/philadelphia-museum-of-art.jpg?w=400",
-   "ts": 1792768500000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_7md24p",
-   "cat": "Art mondial",
-   "title": "Adjugé 50 millions d’euros, le tableau Iris de Monet devient l’œuvre d’art la plus chère vendue aux enchères en France",
-   "sub": "Connaissance des Arts",
-   "text": "Jeudi 22 octobre, Sotheby’s a vendu aux enchères Iris de Claude Monet. Exposé pour la première fois au public quelques jours avant, le tableau a été adjugé 50 millions d’euros. Un nouveau record en France. Cet article Adjugé 50 millions d’euros, le tableau Iris de Monet devient l’œuvre d’art la plus chère vendue aux enchères en France est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-22",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/adjuge-50-millions-deuros-le-tableau-iris-de-monet-devient-loeuvre-dart-la-plus-chere-vendue-aux-encheres-en-france-11217698/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_iris_claude_monet_tableau-tt-width-653-height-580-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792767638000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 7.6
   },
   {
    "id": "auto_1quh8rp",
@@ -423,7 +385,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_row3aj",
@@ -442,7 +404,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 15.7
+   "_score": 15.6
   },
   {
    "id": "auto_17jql84",
@@ -461,7 +423,7 @@
    "img": "",
    "ts": 1792751408000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.5
   },
   {
    "id": "auto_brxur5",
@@ -480,7 +442,7 @@
    "img": "",
    "ts": 1792635119000,
    "auto": 1,
-   "_score": 8.3
+   "_score": 6.8
   },
   {
    "id": "auto_3osz7o",
@@ -499,7 +461,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 7
   },
   {
    "id": "auto_fjyvj5",
@@ -518,7 +480,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 7.1
+   "_score": 7
   },
   {
    "id": "auto_guyq2n",
@@ -537,7 +499,7 @@
    "img": "",
    "ts": 1792523777000,
    "auto": 1,
-   "_score": 7
+   "_score": 6.9
   },
   {
    "id": "auto_mvb0j3",
@@ -556,7 +518,26 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1c7a0pg",
+   "cat": "Événements",
+   "title": "Une foire d'art africain inaugure une section consacrée à la photographie",
+   "sub": "Time Out Paris",
+   "text": "Une foire d'art africain inaugure une section consacrée à la photographie Time Out Paris",
+   "date": "Publié le 20 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORlMwXzlPSjM3VS1GdVFpcFdYSjZTN2tBSkluRzJqdDcwU3l1VXlIZjR2WE40VnpIZXZ0akQ4djZnOEJyanNnNGxWVGhnaHRpTG5jbl8ya0prZWF3M2NXM2hZOTNUekxvNFpLRGZqVHdEczhzWV9Gd2N0ckp4bW5nUkhmQlFXc2tHSTNzWlpkRUpJeHoyaGl5RmFmVTlBMnR4aFl2aE1zT1I0N1VFSnFJQ0MwWkJxYUdFR05n?oc=5",
+   "src": "Time Out Paris",
+   "img": "",
+   "ts": 1792490143000,
+   "auto": 1,
+   "_score": 6.8
   },
   {
    "id": "auto_dy22a3",
@@ -575,7 +556,7 @@
    "img": "",
    "ts": 1792473464000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 6.7
   },
   {
    "id": "auto_ey4fnl",
@@ -594,7 +575,7 @@
    "img": "",
    "ts": 1792431534000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.6
   },
   {
    "id": "auto_1x0gubd",
@@ -613,7 +594,7 @@
    "img": "",
    "ts": 1792408083000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.6
   },
   {
    "id": "auto_embi0p",
@@ -632,7 +613,7 @@
    "img": "",
    "ts": 1792322523000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_6e41j6",
@@ -651,7 +632,7 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6
   },
   {
    "id": "auto_1kxkgij",
@@ -670,7 +651,7 @@
    "img": "",
    "ts": 1792206558000,
    "auto": 1,
-   "_score": 6.1
+   "_score": 6
   },
   {
    "id": "auto_1jdoie7",
@@ -689,7 +670,7 @@
    "img": "",
    "ts": 1792189016000,
    "auto": 1,
-   "_score": 6
+   "_score": 5.9
   },
   {
    "id": "auto_1errh1d",
@@ -708,26 +689,7 @@
    "img": "",
    "ts": 1792153105000,
    "auto": 1,
-   "_score": 5.9
-  },
-  {
-   "id": "auto_164cifi",
-   "cat": "Expositions majeures",
-   "title": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi - ACP",
-   "sub": "ACP | Agence Congolaise de Presse",
-   "text": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi ACP | Agence Congolaise de Presse",
-   "date": "Publié le 16 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGlHa2lMV1ktcXJuYkhqNElnRHFwSDlSTGVTeFJyaGw0Z3BxMEkxUlJ4NkNvRDE4eFZPMFkyUF95UmNUdTYtQ1NDaEpXMXhWZnhTWnFOV3Z2RGZQaXB6a0plaWswMk8wOWJYNWFObWdtbXlXc0lrOHI0RHFrb2hNbTBXY2VFY1NfMEs1Vld0TWlVLUI3ZFlFMlhvcDlqQjhqNEpnTW5tUHVldGpHc0oxYjRqSQ?oc=5",
-   "src": "ACP | Agence Congolaise de Presse",
-   "img": "",
-   "ts": 1792142726000,
-   "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
    "id": "auto_pfq6px",
@@ -746,7 +708,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
    "id": "auto_qspgid",
@@ -765,7 +727,7 @@
    "img": "",
    "ts": 1792130295000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
    "id": "auto_pq3mpi",
@@ -784,7 +746,7 @@
    "img": "",
    "ts": 1792084221000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.6
   },
   {
    "id": "auto_qehbx7",
@@ -803,7 +765,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 13.7
+   "_score": 13.6
   },
   {
    "id": "auto_18ki7iu",
@@ -822,7 +784,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 5.6
+   "_score": 5.5
   },
   {
    "id": "auto_brpy0l",
@@ -841,7 +803,7 @@
    "img": "",
    "ts": 1791985443000,
    "auto": 1,
-   "_score": 9.5
+   "_score": 9.3
   },
   {
    "id": "auto_y13t9p",
@@ -860,7 +822,7 @@
    "img": "",
    "ts": 1791964134000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_u85eom",
@@ -879,7 +841,7 @@
    "img": "",
    "ts": 1791958906000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_e42xu8",
@@ -898,7 +860,7 @@
    "img": "",
    "ts": 1791946800000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_11w5zml",
@@ -917,7 +879,45 @@
    "img": "",
    "ts": 1791943753000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
+  },
+  {
+   "id": "auto_1vejymo",
+   "cat": "Nouveautés",
+   "title": "Côte d’Ivoire : La Maison de l’Art de Grand-Bassam attire près de 12 000 visiteurs en un an",
+   "sub": "Sika Finance",
+   "text": "Côte d’Ivoire : La Maison de l’Art de Grand-Bassam attire près de 12 000 visiteurs en un an Sika Finance",
+   "date": "Publié le 12 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "Côte d'Ivoire",
+   "country": "Côte d'Ivoire",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdTRlaUlDakNwMlFob2puRlVRY004NENDUVd0MnZ6Q0x6MnNoaEVPMTEwQlczNXpOUHlRNU9uWkUtbFp5VkxlTGpreVBZc3JmVjEtOXpnYkkzaF9KZ080aUJTR1U2ZFRsMG0wRDd3cWxqcjg4c09fdWh0ODc4M0E4YXV2ZXVfY0hDY1BQbkdSVE5ad1dlT1l3MDlfQnZzLUlnUHdqTl9UeTB0bWsyR2YyeHNfcEo5ZThPeDBqQW1kNTh4WVNlNGVzUg?oc=5",
+   "src": "Sika Finance",
+   "img": "",
+   "ts": 1791788400000,
+   "auto": 1,
+   "_score": 12.8
+  },
+  {
+   "id": "auto_d3k04k",
+   "cat": "Vernissages locaux",
+   "title": "Côte d’Ivoire : à la découverte de la Galerie Jacobleu - le nouveau cœur battant de l’art à Abidjan",
+   "sub": "Africa24 TV",
+   "text": "Côte d’Ivoire : à la découverte de la Galerie Jacobleu - le nouveau cœur battant de l’art à Abidjan Africa24 TV",
+   "date": "Publié le 9 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "Côte d'Ivoire",
+   "country": "Côte d'Ivoire",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3J1eXNDOGF2aHBfcjY3eWQ0bmlMOXBiU0lKTS1JUWIzWk5NT1FKLXBDM24yMkdfSXJoNmNPS0NPWFVrNnVoSkx3bV93SFRYMlVDYXE1Q1hPbDdiNzlqY0pER2luVm1qekhfSnVRVVJFMzhoOXF2WlkzX195Wll3SUZIQWU3Wk0xR19GLUdjX3A0SHhNTWxhY3RYeGNRSzdyWTNlZW02d0hPazg4UVJaazhzaTItRHhyV2c?oc=5",
+   "src": "Africa24 TV",
+   "img": "",
+   "ts": 1791529200000,
+   "auto": 1,
+   "_score": 12
   },
   {
    "id": "auto_eyy2sp",
@@ -936,7 +936,26 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": 4.1
+   "_score": 4
+  },
+  {
+   "id": "auto_19h2dz7",
+   "cat": "Nouveautés",
+   "title": "Côte d’Ivoire-AIP/Recycl’Art met en lumière 18 jeunes artistes plasticiens engagés pour la valorisation des déchets - AIP",
+   "sub": "AIP - Agence Ivoirienne de Presse",
+   "text": "Côte d’Ivoire-AIP/Recycl’Art met en lumière 18 jeunes artistes plasticiens engagés pour la valorisation des déchets AIP - Agence Ivoirienne de Presse",
+   "date": "Publié le 29 septembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "Côte d'Ivoire",
+   "country": "Côte d'Ivoire",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUENDeHo3Qi1xaDZDeF9ZYXZnOTZKekltLVg3ekU3WGdPeGlJY3IyM0ZETHZQdVVkR1FBYUtyV2xxVFlmUGUxME0xbDBqRzhmYlU2b0FjRlhNb19wZ3FyNmVmX1dLVy1iQzV6M0gtdEMtRERWbEJ6ZlVRemE0NmplR1MxejFjODN0cWhTUDFRR2JHUmhtR0pFZ0NlMFhNZlpyR2syLU5fX3lUcFBiUmtVSi0tam5GSmhUMTFFSW5XdFdjUDlrdWdoTjlKVkR3UdIB1gFBVV95cUxPZzhJTS13SXRMc0pPMEtiWGlVeDVwZjRvZkdlbi04UnhZbXBXM2xma0x1RG5DQ2lPLXFldzNBaVM3VUdUMzJCa1NNUndWekpyVkhpTnBqajk3c1lFTmhDajNvOHo1OTctM1dPeVEyZExGRGF3VWN5TDZtcHNZT19TUEFPQXFzejFaZjVnVnZhb2gzSXhqZjIxRjlpZWJFNm8wOHJULTU1dk9lNUZQMWFGbFhqLXBidzE2THJlUlVSOGg3eDhHZ3ZEcmliMmxTZ3ZqYzJ2eEZ3?oc=5",
+   "src": "AIP - Agence Ivoirienne de Presse",
+   "img": "",
+   "ts": 1790697710000,
+   "auto": 1,
+   "_score": 11
   },
   {
    "id": "auto_1paxmue",
@@ -1106,25 +1125,6 @@
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1789536740000,
-   "auto": 1,
-   "_score": 4
-  },
-  {
-   "id": "auto_19mrv71",
-   "cat": "Appels à candidatures",
-   "title": "Appel à candidatures pour les bourses de mobilité pour artistes de l’institut GOETHE - YOP L-FRII",
-   "sub": "YOP L-FRII",
-   "text": "Appel à candidatures pour les bourses de mobilité pour artistes de l’institut GOETHE YOP L-FRII",
-   "date": "Publié le 14 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTXBsaWJGNnFCczlueDhUbXRmYWxidTFZUTRKbnM4ckhlbkQ1ZHE4MXlqRGtqY1BMZXF2cm4wYkl4ZXNZOWFydEkzRWI0bk9PNm5CVmNPbVlsT25wSDJRWEVrdXQtcnByM3Yzc2RuZm5ELUNOenY0WTg2ZTFpVlA1Ykw0TzRLSGpSdW1UN200WlcwMnNBUTlUY0M5eU9KVXhoQTl1OFlfRmJVb00?oc=5",
-   "src": "YOP L-FRII",
-   "img": "",
-   "ts": 1789423535000,
    "auto": 1,
    "_score": 4
   },
