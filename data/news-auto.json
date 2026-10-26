@@ -1,12 +1,50 @@
 {
- "updated": "2026-10-25T15:41:11.299Z",
+ "updated": "2026-10-26T05:48:04.370Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 995
+  "read": 1028
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_u85eom",
+   "cat": "Appels à candidatures",
+   "title": "Open Call for Palestinian Artists in Helsinki Residency Program",
+   "sub": "fundsforNGOs",
+   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs",
+   "date": "Publié le 25 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
+   "src": "fundsforNGOs",
+   "img": "",
+   "ts": 1792959240000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_11i6u8o",
+   "cat": "Art mondial",
+   "title": "Degas, Friedrich, Rosa Bonheur : à Paris, une exposition révèle les chefs-d’œuvre intimes du dessin au XIXe siècle",
+   "sub": "Connaissance des Arts",
+   "text": "Sous le titre « Mes chers amis » se cache une des très belles expositions de la rentrée parisienne. La Fondation Custodia, rue de Lille, s’intéresse jusqu’au 17 janvier 2027 aux dessins possédés par les artistes français du XIXe siècle. Cet article Degas, Friedrich, Rosa Bonheur : à Paris, une exposition révèle les chefs-d’œuvre intimes du dessin au XIXe siècle est apparu en premier sur Connaissance des Arts .",
+   "date": "Du 17 janvier 2027 au 20 janvier 2027",
+   "deadline": "",
+   "start": "2027-01-17",
+   "end": "2027-01-20",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/degas-friedrich-rosa-bonheur-a-paris-une-exposition-revele-les-chefs-doeuvre-intimes-du-dessin-au-xixe-siecle-11217670/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_dessin_custodia_1-tt-width-653-height-460-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1792944040000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_17o96cx",
    "cat": "Nouveautés",
@@ -24,7 +62,7 @@
    "img": "",
    "ts": 1792924661000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_17tzzjs",
@@ -43,7 +81,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_joatton_2-tt-width-653-height-844-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792918846000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1m11b10",
@@ -62,7 +100,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/WR-123-PRT_composite.jpg?w=400",
    "ts": 1792918800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_136m5x0",
@@ -81,7 +119,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une469362-e05092-naked-models-with-long-hair-in-technicolor-hues-2004-irving-penn-image-de-reference-1-1300x975.jpg",
    "ts": 1792908055000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1d4jjky",
@@ -100,7 +138,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_vente_empreintes_artisans_japonais_conoka-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792908010000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1yyc40p",
@@ -119,7 +157,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_1ljysmw",
@@ -138,7 +176,7 @@
    "img": "",
    "ts": 1792871754000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.6
   },
   {
    "id": "auto_ur4q1h",
@@ -157,7 +195,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2301256119--1-.jpg",
    "ts": 1792871333000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_rwhlxx",
@@ -176,7 +214,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_prune_nourry_petit_palais_claudel-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792864802000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_9dtmeh",
@@ -195,7 +233,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_cranach_1-tt-width-653-height-994-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792854045000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1n5bf9l",
@@ -214,7 +252,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/The_Disciple_Cilvaringz.jpg?w=400",
    "ts": 1792848120000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_cml6g8",
@@ -233,7 +271,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une20250927_fete-la-parcelle-388c-le19m-nicolas-melemis-1300x975.jpg",
    "ts": 1792846806000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1f2l0w9",
@@ -252,7 +290,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_majorelle_marrakech_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792839638000,
    "auto": 1,
-   "_score": 8.2
+   "_score": 8.1
   },
   {
    "id": "auto_103ax8h",
@@ -271,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/class-war.jpg",
    "ts": 1792836000000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_7qo9i4",
@@ -290,7 +328,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.5
   },
   {
    "id": "auto_1rybhra",
@@ -309,7 +347,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_cathedrale_nantes_incendie_1-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792828809000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_rszrxp",
@@ -328,7 +366,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_secrets_d_atelier_martin_claudel_taillandier_marteau_pillon-tt-width-653-height-429-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792818020000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_3tkr50",
@@ -347,7 +385,7 @@
    "img": "",
    "ts": 1792788108000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.4
   },
   {
    "id": "auto_9byqja",
@@ -366,7 +404,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.4
   },
   {
    "id": "auto_1quh8rp",
@@ -385,7 +423,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.3
   },
   {
    "id": "auto_row3aj",
@@ -404,7 +442,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 15.5
+   "_score": 15.3
   },
   {
    "id": "auto_17jql84",
@@ -423,7 +461,7 @@
    "img": "",
    "ts": 1792751408000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_brxur5",
@@ -442,7 +480,7 @@
    "img": "",
    "ts": 1792635119000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 3.8
   },
   {
    "id": "auto_3osz7o",
@@ -461,7 +499,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 6.8
   },
   {
    "id": "auto_fjyvj5",
@@ -480,7 +518,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 6.7
   },
   {
    "id": "auto_guyq2n",
@@ -499,7 +537,7 @@
    "img": "",
    "ts": 1792523777000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.6
   },
   {
    "id": "auto_mvb0j3",
@@ -518,7 +556,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 7.6
   },
   {
    "id": "auto_1c7a0pg",
@@ -537,7 +575,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.5
   },
   {
    "id": "auto_dy22a3",
@@ -556,7 +594,7 @@
    "img": "",
    "ts": 1792473464000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_ey4fnl",
@@ -564,7 +602,7 @@
    "title": "AKAA 2026, la photographie africaine à Paris (23-25 octobre)",
    "sub": "Mondafrique",
    "text": "AKAA 2026, la photographie africaine à Paris (23-25 octobre) Mondafrique",
-   "date": "À partir du 25 octobre 2026",
+   "date": "Publié le 19 octobre 2026",
    "deadline": "",
    "start": "2026-10-25",
    "end": "",
@@ -575,7 +613,7 @@
    "img": "",
    "ts": 1792431534000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_1x0gubd",
@@ -594,7 +632,7 @@
    "img": "",
    "ts": 1792408083000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.3
   },
   {
    "id": "auto_embi0p",
@@ -613,7 +651,7 @@
    "img": "",
    "ts": 1792322523000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6.1
   },
   {
    "id": "auto_6e41j6",
@@ -632,7 +670,7 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
    "id": "auto_1kxkgij",
@@ -651,26 +689,7 @@
    "img": "",
    "ts": 1792206558000,
    "auto": 1,
-   "_score": 5.9
-  },
-  {
-   "id": "auto_1jdoie7",
-   "cat": "Nouveautés",
-   "title": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine",
-   "sub": "EcoActu.ma",
-   "text": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine EcoActu.ma",
-   "date": "Publié le 16 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdjJ1Y0JYSF9MQ0oxakp2Yng0S2x3b0lZOG9nQ28zdmlWczRZUHFSSHEwN3BIQmNEeVlBdDZwOW91OU96RVRIem5HZWdWTXAyUmpuUVJNeW9nNldWQ19vR1U2WDh0R2EwWjFfN09GRlh5TjI3Q283ZzA5ZzVJQQ?oc=5",
-   "src": "EcoActu.ma",
-   "img": "",
-   "ts": 1792189016000,
-   "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_1errh1d",
@@ -689,7 +708,7 @@
    "img": "",
    "ts": 1792153105000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.6
   },
   {
    "id": "auto_164cifi",
@@ -708,7 +727,7 @@
    "img": "",
    "ts": 1792142726000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.5
   },
   {
    "id": "auto_pfq6px",
@@ -727,7 +746,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.5
   },
   {
    "id": "auto_qspgid",
@@ -744,9 +763,9 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcENrM3pTcnZ2dXJZaXp4bnlDU1RaQ21PeUQzS25xbmpmZkhoWXZpZ1FCVUxNTExWQWY5R0FJemozVXlDSUcxSkhBdjdaa0duRldOZ2ZhVXAyMVE5ZVU5MTJaVkRRalE2RjdYSnlyU255bmQ4Y1RtRFppLTItZV9QMkNWcHcwMUU0TllSV3JXWVRuelY2SktMN0xla2t4MUdvLVFsRHFnTEFXc2pDdlo4YWJB?oc=5",
    "src": "The Art Newspaper",
    "img": "",
-   "ts": 1792130295000,
+   "ts": 1792134000000,
    "auto": 1,
-   "_score": 5.6
+   "_score": 5.5
   },
   {
    "id": "auto_pq3mpi",
@@ -765,7 +784,7 @@
    "img": "",
    "ts": 1792084221000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_qehbx7",
@@ -784,7 +803,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 13.5
+   "_score": 13.3
   },
   {
    "id": "auto_18ki7iu",
@@ -803,7 +822,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_brpy0l",
@@ -822,26 +841,26 @@
    "img": "",
    "ts": 1791985443000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 9.1
   },
   {
-   "id": "auto_u85eom",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Palestinian Artists in Helsinki Residency Program",
-   "sub": "fundsforNGOs",
-   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs",
+   "id": "auto_y13t9p",
+   "cat": "Nouveautés",
+   "title": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies",
+   "sub": "ART AFRICA Magazine",
+   "text": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies ART AFRICA Magazine",
    "date": "Publié le 14 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
-   "src": "fundsforNGOs",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWtMVVNvMk8wQVdDUDRmdW5KQVBkX3p2VENray1JZXRBQmVVTFBWSDgwRVlWZnBDbnhjZUlOenJPZHV6NFQ0XzJ4WTRtMHJzbVg1UW9qVGpEUWhYejU4VG5wT2M0anJQeGR3dlBEWU83dms0LVl3Y0tybS03TFlrdk5pWERuUnppVk94Qll3cUUzbUpsMUpueTl1eTJQbW9BRG03Q3pFLTFuQQ?oc=5",
+   "src": "ART AFRICA Magazine",
    "img": "",
-   "ts": 1791958906000,
+   "ts": 1791964134000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 5
   },
   {
    "id": "auto_e42xu8",
@@ -860,7 +879,7 @@
    "img": "",
    "ts": 1791946800000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_11w5zml",
@@ -879,7 +898,7 @@
    "img": "",
    "ts": 1791943753000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1vejymo",
@@ -898,7 +917,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 12.7
+   "_score": 12.5
   },
   {
    "id": "auto_d3k04k",
@@ -917,7 +936,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 11.9
+   "_score": 11.8
   },
   {
    "id": "auto_eyy2sp",
@@ -1108,25 +1127,6 @@
    "ts": 1789542000000,
    "auto": 1,
    "_score": 7
-  },
-  {
-   "id": "auto_q6c0e0",
-   "cat": "Appels à candidatures",
-   "title": "Social Dive Open Call for Art Projects at Tokyo Biennale - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Social Dive Open Call for Art Projects at Tokyo Biennale fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 16 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUlNR0w4bl9aVFRuRkd3Mk1Tb1JUeVdEUklkMmFqRl9hNVZ1RXZtWFlQdFhUZW9GZE5XaHpxMXpWNTgyVURNZi05YkltNHA4MjFJOUFJRjFTb2VmTUdRWHpZVWZUaEYyeTBMUElLRlZ4SFN4WTdVWnlpN09rUHduU1R2VEVCX0xVbl9ZY2U0dXBxeW1nMm5XdlFUUWlRZkFB0gGmAUFVX3lxTE1yMWdqRVpNSUdJcndLNWQ5djNvbEg1c3NJMG1PZThNSHdTV3J6REQxSkhqYnZuak9jdXV5UFF5czZmUkZJQ1hLZlZfRTFMX1hpLXB2OWFRMHhvZmdrdTNLNUFQU3RRajU1MUFnUm5nLXZuTmJPdTlhSUxoNjJXeWRfRzFLVUUxMWlMY0NaUFFhOVJINlRsQ2ViY2tzSlRjWWY0LTAzMnc?oc=5",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1789536740000,
-   "auto": 1,
-   "_score": 2.5
   },
   {
    "id": "auto_1eqhp6e",
