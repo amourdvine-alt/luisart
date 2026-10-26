@@ -1,12 +1,221 @@
 {
- "updated": "2026-10-26T05:48:04.370Z",
+ "updated": "2026-10-26T16:10:59.201Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 1028
+  "read": 963
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_119f7pa",
+   "cat": "Expositions majeures",
+   "title": "« Un micro à la DGSE » : sur Arte, cette série documentaire animée nous plonge dans les coulisses de la vie d’espion",
+   "sub": "Beaux Arts Magazine",
+   "text": "Si vous avez adoré Le Bureau des légendes, cette nouvelle série documentaire d’Arte risque bien …",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/lifestyle/un-micro-a-la-dgse-sur-arte-cette-serie-documentaire-animee-nous-plonge-dans-les-coulisses-de-la-vie-despion/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/unevisuel-folle-routine-filatures-micro-dgse-1300x975.jpg",
+   "ts": 1793030422000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1yer4vd",
+   "cat": "Art mondial",
+   "title": "Kusama, Warhol, Basquiat… Au printemps, The Broad s’invite à la fondation Louis Vuitton le temps d’une exposition spectaculaire",
+   "sub": "Beaux Arts Magazine",
+   "text": "L’annonce est tombée pendant la semaine de l’art : au printemps prochain, un événement inédit …",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/kusama-warhol-basquiat-au-printemps-the-broad-sinvite-a-la-fondation-louis-vuitton-le-temps-dune-exposition-spectaculaire/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2024/11/webhemis_3658961-copie-1300x868.jpg",
+   "ts": 1793026613000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_oz1vvn",
+   "cat": "Art mondial",
+   "title": "Indian Artist Jogen Chowdhury Has Died, $80 M. Klimt Heads to Christie’s, and More: Morning Links for October 26, 2026",
+   "sub": "ARTnews",
+   "text": "Here's what we're reading this morning.",
+   "date": "À partir du 26 octobre 2026",
+   "deadline": "",
+   "start": "2026-10-26",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/indian-artist-jogen-chowdhury-has-died-1234803769/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793021700000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_fbv9r6",
+   "cat": "Art mondial",
+   "title": "Sotheby’s Deepens Abu Dhabi Relationship With Inaugural Fine Art Auction in December",
+   "sub": "ARTnews",
+   "text": "The auction sale on December 10 will coincide with many events happening in the city, from the opening of Guggenheim Abu Dhabi to the F1.",
+   "date": "À partir du 10 décembre 2026",
+   "deadline": "",
+   "start": "2026-12-10",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/sothebys-abu-dhabi-fine-art-auction-warhol-monet-1234803739/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Andy-Warhol-Ads-1985-estimate-2000000-3000000.jpg?w=400",
+   "ts": 1793020134000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_13wyq42",
+   "cat": "Art mondial",
+   "title": "Cezanne face à Matisse, Gauguin, de Staël : 6 duels de tableaux qui révèlent l’influence secrète du peintre sur l’art moderne",
+   "sub": "Connaissance des Arts",
+   "text": "Jamais reconnu de son vivant, Paul Cezanne est pourtant devenu le père discret de l'art moderne. Au Grand Palais, six face-à-face avec Matisse, Gauguin ou Nicolas de Staël retracent cet héritage traversant plus d'un siècle de création. Cet article Cezanne face à Matisse, Gauguin, de Staël : 6 duels de tableaux qui révèlent l’influence secrète du peintre sur l’art moderne est apparu en premier sur Connaissance des…",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/cezanne-face-a-matisse-gauguin-de-stael-6-duels-de-tableaux-qui-revelent-linfluence-secrete-du-peintre-sur-lart-moderne-11216224/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasept26_facea-face-cezanne_pichet-tt-width-653-height-544-fill-0-crop-0-bgcolor-eeeeee.jpeg",
+   "ts": 1793016005000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_100oo7j",
+   "cat": "Art mondial",
+   "title": "En vidéo : Au château de Chambord, quatre grands festins recréés le temps d’une alléchante exposition",
+   "sub": "Beaux Arts Magazine",
+   "text": "Si vous pouviez voyager dans le temps pour rendre visite à nos prédécesseurs, n’aimeriez-vous pas …",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/videos/en-video-au-chateau-de-chambord-quatre-grands-festins-recrees-le-temps-dune-allechante-exposition/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/couv-chambrd-article-1300x975.jpg",
+   "ts": 1793013632000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_jwq3ny",
+   "cat": "Expositions majeures",
+   "title": "Le musée Carnavalet met à l’honneur Jacques Villeglé pour le centenaire de sa naissance",
+   "sub": "Beaux Arts Magazine",
+   "text": "Il s’est plié à cet exercice quotidien durant près de 70 ans, du tournant des …",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/le-musee-carnavalet-met-a-lhonneur-jacques-villegle-pour-le-centenaire-de-sa-naissance/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/5.-harry-shunk-jacques-villegle-montparnasse-paris-1300x978.jpeg",
+   "ts": 1793012432000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_dptbgl",
+   "cat": "Appels à candidatures",
+   "title": "Moselle : les artistes peuvent candidater à des résidences culturelles pour 2027",
+   "sub": "La Gazette France",
+   "text": "Moselle : les artistes peuvent candidater à des résidences culturelles pour 2027 La Gazette France",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTkhUTVNGZ0hqQUpMQnNyQXpTaENpNlZwX21rOWhNVUNJQ3Q0aXV2b3FiU3JyM1pzWXVDT2dUb3ZOZmtCeVk2bjBwUWtqVkZhUnBpRFZXeExXMHl3X0VzZHJwYklEaE04NGpoaGRreVptY0s4XzZTSEV6b0JScGNvTlprd0lSMk1pNm5ONFcyZGNVSmNvXzFXUXk5blhxM2RVLU95cHZnMjdLQlg1N2FUbEdLLXBkRGMw?oc=5",
+   "src": "La Gazette France",
+   "img": "",
+   "ts": 1793008940000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_1frpxl3",
+   "cat": "Art mondial",
+   "title": "Christie’s Brings a Blockbuster Klimt Landscape to Auction, Tagged at $80 M. and Guaranteed to Sell",
+   "sub": "ARTnews",
+   "text": "Six of the Austrian artist’s top 10 prices at auction were paid for landscapes, some from the same site.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/christies-blockbuster-klimt-landscape-80m-guaranteed-1234803727/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2024/05/GettyImages-857209806.jpg?w=400",
+   "ts": 1793008800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_sultcr",
+   "cat": "Art mondial",
+   "title": "From Paris, In Solidarity",
+   "sub": "Hyperallergic",
+   "text": "Surreal scenes from an art week amid protests, lessons from the NEA Four, and Kid Cudi’s Basquiat biopic.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/from-paris-in-solidarity/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/PHOTO-2026-10-24-14-26-14-8-1-1.jpg",
+   "ts": 1793008800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_mpi3zg",
+   "cat": "Expositions majeures",
+   "title": "Pour sa 31e édition à Paris, le Salon international du Patrimoine culturel joue la carte de la lumière",
+   "sub": "Connaissance des Arts",
+   "text": "Pour sa 31e édition, le Salon international du Patrimoine culturel met en lumière luminaires, dorures et vitraux d'exception : du 29 octobre au 1er novembre, le Carrousel du Louvre célèbre le thème « Patrimoine en lumières ». Cet article Pour sa 31e édition à Paris, le Salon international du Patrimoine culturel joue la carte de la lumière est apparu en premier sur Connaissance des Arts .",
+   "date": "Du 29 octobre 2026 au 1 novembre 2026",
+   "deadline": "",
+   "start": "2026-10-29",
+   "end": "2026-11-01",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/metiers_art/savoir-faire/pour-sa-31e-edition-a-paris-le-salon-international-du-patrimoine-culturel-joue-la-carte-de-la-lumiere-11217550/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_atelier-taduy-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1792994426000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_u85eom",
    "cat": "Appels à candidatures",
@@ -24,7 +233,7 @@
    "img": "",
    "ts": 1792959240000,
    "auto": 1,
-   "_score": 8.9
+   "_score": 8.8
   },
   {
    "id": "auto_11i6u8o",
@@ -43,7 +252,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_dessin_custodia_1-tt-width-653-height-460-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792944040000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_17o96cx",
@@ -62,7 +271,7 @@
    "img": "",
    "ts": 1792924661000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_17tzzjs",
@@ -81,7 +290,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_joatton_2-tt-width-653-height-844-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792918846000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1m11b10",
@@ -100,7 +309,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/WR-123-PRT_composite.jpg?w=400",
    "ts": 1792918800000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_136m5x0",
@@ -119,7 +328,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une469362-e05092-naked-models-with-long-hair-in-technicolor-hues-2004-irving-penn-image-de-reference-1-1300x975.jpg",
    "ts": 1792908055000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1d4jjky",
@@ -138,7 +347,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_vente_empreintes_artisans_japonais_conoka-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792908010000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1yyc40p",
@@ -157,7 +366,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_1ljysmw",
@@ -176,7 +385,7 @@
    "img": "",
    "ts": 1792871754000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.5
   },
   {
    "id": "auto_ur4q1h",
@@ -195,7 +404,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2301256119--1-.jpg",
    "ts": 1792871333000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_rwhlxx",
@@ -214,7 +423,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_prune_nourry_petit_palais_claudel-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792864802000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_9dtmeh",
@@ -233,45 +442,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_cranach_1-tt-width-653-height-994-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792854045000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1n5bf9l",
-   "cat": "Art mondial",
-   "title": "In a Historic Blunder, Wu-Tang Clan Sold an Album as a Unique Artwork—A New Doc Tells the Story of an Architect of the Sale",
-   "sub": "ARTnews",
-   "text": "Unfortunately, the architect of the project doesn’t prove a compelling presence on screen.",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/reviews/wu-tang-clan-sold-album-artwork-once-upon-time-shaolin-film-1234803666/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/The_Disciple_Cilvaringz.jpg?w=400",
-   "ts": 1792848120000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_cml6g8",
-   "cat": "Art mondial",
-   "title": "À la Fondation du doute de Blois, la démesure carnavalesque de Clément Courgeon",
-   "sub": "Beaux Arts Magazine",
-   "text": "Entrez dans le monde pittoresque de Clément Courgeon, dit Triboulet ! Mi-catcheur, mi-bouffon, l’artiste dévoile …",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/a-la-fondation-du-doute-de-blois-la-demesure-carnavalesque-de-clement-courgeon/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/une20250927_fete-la-parcelle-388c-le19m-nicolas-melemis-1300x975.jpg",
-   "ts": 1792846806000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1f2l0w9",
@@ -290,26 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_majorelle_marrakech_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792839638000,
    "auto": 1,
-   "_score": 8.1
-  },
-  {
-   "id": "auto_103ax8h",
-   "cat": "Art mondial",
-   "title": "This Is Class War",
-   "sub": "Hyperallergic",
-   "text": "The latest on the student protests in France, the art world’s AI problem, one-on-one with Rosana Paulino, and Beer With a Painter featuring Melissa Brown.",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/this-is-class-war/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/class-war.jpg",
-   "ts": 1792836000000,
-   "auto": 1,
-   "_score": 5
+   "_score": 7.9
   },
   {
    "id": "auto_7qo9i4",
@@ -328,64 +480,26 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.4
   },
   {
-   "id": "auto_1rybhra",
-   "cat": "Art mondial",
-   "title": "Ravagée par l’incendie de 2020, la grande verrière d’Anne de Bretagne de la cathédrale de Nantes va être remplacée par un vitrail…",
-   "sub": "Connaissance des Arts",
-   "text": "Olivier Beer, Philippe Cognée, Pascal Convert et Laure Prouvost : le nom des quatre candidats retenus pour concevoir les nouveaux vitraux contemporains de la cathédrale de Nantes a été dévoilé le mardi 13 octobre. Une commande de la DRAC des Pays de la Loire pour panser les plaies de l’incendie de 2020. Cet article Ravagée par l’incendie de 2020, la grande verrière d’Anne de Bretagne de la cathédrale de Nantes va…",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-13",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/ravagee-par-lincendie-de-2020-la-grande-verriere-danne-de-bretagne-de-la-cathedrale-de-nantes-va-etre-remplacee-par-un-vitrail-contemporain-11217658/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_cathedrale_nantes_incendie_1-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792828809000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_rszrxp",
-   "cat": "Événements",
-   "title": "Secrets d’atelier : en Bretagne, Martin Claudel ravive le feu de la taillanderie, un métier sans école ni diplôme",
-   "sub": "Connaissance des Arts",
-   "text": "Forger le fer à chaud pour façonner des outils au tranchant redoutable − haches, serpes ou instruments de charpente. Dans son atelier breton, le taillandier Martin Claudel fait revivre ce métier oublié, aujourd'hui remis en lumière par les grands chantiers patrimoniaux. Cet article Secrets d’atelier : en Bretagne, Martin Claudel ravive le feu de la taillanderie, un métier sans école ni diplôme est apparu en premier…",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/secrets-datelier-en-bretagne-martin-claudel-ravive-le-feu-de-la-taillanderie-un-metier-sans-ecole-ni-diplome-11217636/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_secrets_d_atelier_martin_claudel_taillandier_marteau_pillon-tt-width-653-height-429-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792818020000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_3tkr50",
+   "id": "auto_1dmks87",
    "cat": "Nouveautés",
    "title": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal",
-   "sub": "Boursorama",
-   "text": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal Boursorama",
+   "sub": "Yahoo Actualités",
+   "text": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal Yahoo Actualités",
    "date": "Publié le 23 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOd20ydExKa3liWWIySkp6LUgtSkZEQlpKSVVWT3REbTlMTVFlUTFxeHFTdHlNUVdBRkxoZ1NqV2VDMUNxRzlnU1VOS05TVUtVRU5KWXI4bUxwMmk0Y1UtRDhJeWFlbjRSTFFlcFM1RVMwdm93UTNVeUxheVkyRk9TcFZSTkozUmZ2V3NmczFnRllQeVBuTjJzZ1pCY1JYWkFkQ1FIZFVYMFVnNlhlWEpPNXhTOGdPcjhobURNdWdva1o1Vno3NmU3Wm5BQ0s5N0ZlTUJSYWQtaTFIUV9IUDlTa9IB4AFBVV95cUxOd20ydExKa3liWWIySkp6LUgtSkZEQlpKSVVWT3REbTlMTVFlUTFxeHFTdHlNUVdBRkxoZ1NqV2VDMUNxRzlnU1VOS05TVUtVRU5KWXI4bUxwMmk0Y1UtRDhJeWFlbjRSTFFlcFM1RVMwdm93UTNVeUxheVkyRk9TcFZSTkozUmZ2V3NmczFnRllQeVBuTjJzZ1pCY1JYWkFkQ1FIZFVYMFVnNlhlWEpPNXhTOGdPcjhobURNdWdva1o1Vno3NmU3Wm5BQ0s5N0ZlTUJSYWQtaTFIUV9IUDlTaw?oc=5",
-   "src": "Boursorama",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWJSb0FLTFI3anNkWGp5VW5JcHg2bnFEY1U3a0F6RDhwTHRURE81b2ZkbmtsVkZtVkd6VlFyYzJJT0ZtRkFtT2xXZDlFN3VibVkySF9sclYtYzloNE1Kbm8wQ3JQeUYxVEczTGZSSGJZNkxTR3ROeVkxM3F6Q0llRQ?oc=5",
+   "src": "Yahoo Actualités",
    "img": "",
-   "ts": 1792788108000,
+   "ts": 1792788029000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_9byqja",
@@ -404,7 +518,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_1quh8rp",
@@ -423,7 +537,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 7.2
   },
   {
    "id": "auto_row3aj",
@@ -442,7 +556,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 15.3
+   "_score": 15.2
   },
   {
    "id": "auto_17jql84",
@@ -461,7 +575,7 @@
    "img": "",
    "ts": 1792751408000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 7.2
   },
   {
    "id": "auto_brxur5",
@@ -480,7 +594,7 @@
    "img": "",
    "ts": 1792635119000,
    "auto": 1,
-   "_score": 3.8
+   "_score": 2.3
   },
   {
    "id": "auto_3osz7o",
@@ -499,7 +613,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 5.3
   },
   {
    "id": "auto_fjyvj5",
@@ -518,7 +632,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.6
   },
   {
    "id": "auto_guyq2n",
@@ -537,7 +651,7 @@
    "img": "",
    "ts": 1792523777000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_mvb0j3",
@@ -556,7 +670,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.5
   },
   {
    "id": "auto_1c7a0pg",
@@ -575,7 +689,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_dy22a3",
@@ -594,7 +708,7 @@
    "img": "",
    "ts": 1792473464000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_ey4fnl",
@@ -613,7 +727,7 @@
    "img": "",
    "ts": 1792431534000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_1x0gubd",
@@ -632,7 +746,26 @@
    "img": "",
    "ts": 1792408083000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 6.2
+  },
+  {
+   "id": "auto_1cdob0n",
+   "cat": "Événements",
+   "title": "AKAA - Also known as Africa : la foire d'art contemporain de retour au Carreau du Temple ce week-end",
+   "sub": "Sortir à Paris",
+   "text": "AKAA - Also known as Africa : la foire d'art contemporain de retour au Carreau du Temple ce week-end Sortir à Paris",
+   "date": "Publié le 19 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcURhNDVSckVGeE9SOTZ6VGhxbEpPby1IS1BmRG9YNGxYZlRYWHBCUEdCbm5jOVZ5UE9GQU8xeHlfMU5ZUHBfUmxwSW1UQ1VLa00wclMySHZNenNoNEVERktvN055eGRyVkhIRlFhQ0FrME5QZVBrRkhiT0JVbW01U1JqZHR1ZDJqZTJQNjY4NkZKbDc2RkpoLWxEMTczcV83NkxRS3dCR25YSXlSajRCU1hDWUpUT0NSMnlfUTZqQ0NXeGVzRkl1dHdCV2s2bGN0VGo3VGZ3N1BCWHZ3YXFXSXVGcExhSWVya2Z6TFpvSlY3YmliVEZv?oc=5",
+   "src": "Sortir à Paris",
+   "img": "",
+   "ts": 1792393200000,
+   "auto": 1,
+   "_score": 6.2
   },
   {
    "id": "auto_embi0p",
@@ -651,7 +784,7 @@
    "img": "",
    "ts": 1792322523000,
    "auto": 1,
-   "_score": 6.1
+   "_score": 5.9
   },
   {
    "id": "auto_6e41j6",
@@ -670,7 +803,7 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_1kxkgij",
@@ -689,7 +822,7 @@
    "img": "",
    "ts": 1792206558000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.6
   },
   {
    "id": "auto_1errh1d",
@@ -708,7 +841,7 @@
    "img": "",
    "ts": 1792153105000,
    "auto": 1,
-   "_score": 5.6
+   "_score": 5.5
   },
   {
    "id": "auto_164cifi",
@@ -727,26 +860,7 @@
    "img": "",
    "ts": 1792142726000,
    "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_pfq6px",
-   "cat": "Nouveautés",
-   "title": "L'exposition AfriConnections fait escale à Bruxelles après une tournée dans quatre capitales africaines",
-   "sub": "BruxellesToday",
-   "text": "L'exposition AfriConnections fait escale à Bruxelles après une tournée dans quatre capitales africaines BruxellesToday",
-   "date": "Publié le 16 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ1pIdG1kMnpRQXRENVl0THh5VUZBOUdPWjFrQUxZWEs1Qk1jbHBVck9ERUlHblpzbXhkeVZXcWhLMUsxak1KNGFDRnF1RnNNS2lJWm9nNXZKcER6UjJWWUdiZTg4eUloUjkyN0w5OFNZMVdvdTFNQmw2M3A3S1VHMEJzRDd6d0xvaXM2VkZrN2cxaUlOVUVrdlRGZnc?oc=5",
-   "src": "BruxellesToday",
-   "img": "",
-   "ts": 1792134000000,
-   "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_qspgid",
@@ -765,7 +879,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_pq3mpi",
@@ -784,7 +898,7 @@
    "img": "",
    "ts": 1792084221000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_qehbx7",
@@ -803,7 +917,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 13.3
+   "_score": 11.8
   },
   {
    "id": "auto_18ki7iu",
@@ -822,7 +936,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_brpy0l",
@@ -841,64 +955,7 @@
    "img": "",
    "ts": 1791985443000,
    "auto": 1,
-   "_score": 9.1
-  },
-  {
-   "id": "auto_y13t9p",
-   "cat": "Nouveautés",
-   "title": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies",
-   "sub": "ART AFRICA Magazine",
-   "text": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies ART AFRICA Magazine",
-   "date": "Publié le 14 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWtMVVNvMk8wQVdDUDRmdW5KQVBkX3p2VENray1JZXRBQmVVTFBWSDgwRVlWZnBDbnhjZUlOenJPZHV6NFQ0XzJ4WTRtMHJzbVg1UW9qVGpEUWhYejU4VG5wT2M0anJQeGR3dlBEWU83dms0LVl3Y0tybS03TFlrdk5pWERuUnppVk94Qll3cUUzbUpsMUpueTl1eTJQbW9BRG03Q3pFLTFuQQ?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1791964134000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_e42xu8",
-   "cat": "Expositions majeures",
-   "title": "1-54 London: A new perspective on African art",
-   "sub": "Wanted Online",
-   "text": "1-54 London: A new perspective on African art Wanted Online",
-   "date": "Publié le 14 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbUZOOHVzNWU4QWVVc2RZQTZLTlNKSkdINEVoNUZOTnBlNjZwQVlVMDR6SDdDU2IyblVJSXFqZjFqMDI5cERGLTRJaDhwTDlxV1VSZlhFVllmanl4cFBLRFZWUi1YRC1qbEV0T2Nza0tST00yTkJQS0RoalZXVXVoTk1iTVZjNGZnQy1jMG5nSzY3SnlNVzI5RV82QV9mVzZMMmVsZmtBVDYyUFJLUnRj?oc=5",
-   "src": "Wanted Online",
-   "img": "",
-   "ts": 1791946800000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_11w5zml",
-   "cat": "Nouveautés",
-   "title": "Modern & Contemporary African Art",
-   "sub": "Artnet",
-   "text": "Modern & Contemporary African Art Artnet",
-   "date": "Publié le 14 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaWxvQWF5cVVwNW5ETUl2TEcxWnhpS3ZtLTY5UnM0Z1NqWldrekFyZTFwekFwZTZTZ1ZBWDAtaXdBOGVfLWZKRHEwbGhKNVNLOFZJS3YxSURHYmdiTXc1UVhwN0R4SjNkbXczSzRSeEtHNGN5LWY1VERZcDRSWUg4N2Y2aWhUNjIyQ280d0NqN1d3bFowVHE3ZnUwRjY1cXluQVRr?oc=5",
-   "src": "Artnet",
-   "img": "",
-   "ts": 1791943753000,
-   "auto": 1,
-   "_score": 5
+   "_score": 9
   },
   {
    "id": "auto_1vejymo",
@@ -917,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 12.5
+   "_score": 12.4
   },
   {
    "id": "auto_d3k04k",
@@ -936,7 +993,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 11.8
+   "_score": 11.7
   },
   {
    "id": "auto_eyy2sp",
@@ -1070,63 +1127,6 @@
    "ts": 1789974000000,
    "auto": 1,
    "_score": 4
-  },
-  {
-   "id": "auto_gp13e0",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Artists from Portugal and Portuguese-Speaking African Nations",
-   "sub": "ART AFRICA Magazine",
-   "text": "Open Call for Artists from Portugal and Portuguese-Speaking African Nations ART AFRICA Magazine",
-   "date": "Publié le 16 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ2poNXJmLVBsc0I3QkJoVXhUUW5QLUQ5UldzV2FrLUNZZEYtSXNBTGNQcWVyeVRrdXp3ZVAzOVZsUjNvakN0RjFWajJibXZfeXJXX0J3ZmNzaVVfcG95Wm96TWtPWGV4U1F5NW5ZMDFQd0w3WUVIU2FMQm45RVFxVXpPVjBlS3lndWpSTnh3YTZiS0l0XzRDencwejd5NzI3MWgxM0dnWGJfQQ?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1789542000000,
-   "auto": 1,
-   "_score": 7
-  },
-  {
-   "id": "auto_d7nr3l",
-   "cat": "Appels à candidatures",
-   "title": "Flying Rivers: Open Call for Cultural Institutions",
-   "sub": "ART AFRICA Magazine",
-   "text": "Flying Rivers: Open Call for Cultural Institutions ART AFRICA Magazine",
-   "date": "Publié le 16 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjJpaVJqMzctSWJhb0JfV3U1ck1oZG16VTVOVzJEN1pIRERfSjdzS1pWWktIcGhVdGNhSjNEMlVpYUNPMWUyUTQzNnRHQV9jWV9SS1M2bmNhcWNtSmNjZFBDYmxUN2MteGRhcE5URFRwZ2s1YXphb0NfTUY4aXN3aWZkUU9CU3c?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1789542000000,
-   "auto": 1,
-   "_score": 7
-  },
-  {
-   "id": "auto_1o1snj1",
-   "cat": "Appels à candidatures",
-   "title": "NWU Gallery Open Call for Exhibition Proposals 2027–2030",
-   "sub": "ART AFRICA Magazine",
-   "text": "NWU Gallery Open Call for Exhibition Proposals 2027–2030 ART AFRICA Magazine",
-   "date": "Publié le 16 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaHphLWNVUHk4Y1dFM2MzbE1FTnJ5QjY0Tno0bzNXaWpyUFFHUmstTEZCNnhUbE5ZU2xnQUJhZmFpYjJDc3ZOaEJ5SEl5eDZNWGJPM1BuWm1RcFRGeUh2NU1Fbk9kREVqQjBaeW80bGFfNk5pQ0xxUVlqMklLMnVLWVBKNGhla2Y4a3diMHgwRUI?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1789542000000,
-   "auto": 1,
-   "_score": 7
   },
   {
    "id": "auto_1eqhp6e",
