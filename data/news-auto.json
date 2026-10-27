@@ -1,12 +1,240 @@
 {
- "updated": "2026-10-26T16:10:59.201Z",
+ "updated": "2026-10-27T05:45:37.905Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 963
+  "read": 783
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_u85eom",
+   "cat": "Appels à candidatures",
+   "title": "Open Call for Palestinian Artists in Helsinki Residency Program",
+   "sub": "fundsforNGOs",
+   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
+   "src": "fundsforNGOs",
+   "img": "",
+   "ts": 1793056534000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_5254h5",
+   "cat": "Événements",
+   "title": "At 60, a Legendary LA Print Workshop Still Urges Us to Pay Attention",
+   "sub": "Hyperallergic",
+   "text": "From Robert Rauschenberg and Josef Albers to Vija Celmins and Julie Mehretu, artists have tinkered outside their comfort zones at Gemini G.E.L.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/at-60-a-legendary-la-print-workshop-still-urges-us-to-pay-attention/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Oldenburg-1.jpg",
+   "ts": 1793050346000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_12y8g5b",
+   "cat": "Art mondial",
+   "title": "Bill Koch to Sell More Than $40 M. in Art at Christie’s, Led by Monet and Cezanne Paintings",
+   "sub": "ARTnews",
+   "text": "The announcement marks the latest chapter in what has become a very lucrative relationship between Koch and the auction house.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/bill-koch-christies-sale-november-2026-monet-cezanne-1234803874/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/PAUL-CEZANNE-Tasse-verre-et-fruits-1.jpg?w=400",
+   "ts": 1793049524000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_g5i66c",
+   "cat": "Art mondial",
+   "title": "Friedel Dzubas Dreamed of Showing His Paintings in a Church—Now He Has His Wish",
+   "sub": "ARTnews",
+   "text": "More than 30 years after his death, Friedel Dzubas's rarely seen black paintings are getting another look in a New York gallery with an unlikely connection to the artist's religious ambitions.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/friedel-dzubas-black-paintings-nathalie-karg-jules-lazare-1234803815/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/install_4.jpg?w=400",
+   "ts": 1793046181000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_otbcar",
+   "cat": "Expositions majeures",
+   "title": "Milwaukee Art Museum Receives $10 M. Gift to Preserve Santiago Calatrava–Designed Building",
+   "sub": "ARTnews",
+   "text": "The gift is the first major donation secured by director Kim Sajet, who joined the museum just over a year ago.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/milwaukee-art-museum-10-million-gift-quadracci-pavilion-1234803847/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/RS6407_r_m2001_176_hpr.jpg?w=400",
+   "ts": 1793046148000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_sqenjv",
+   "cat": "Art mondial",
+   "title": "Paul Pfeiffer on the Spectacle of Politics",
+   "sub": "Hyperallergic",
+   "text": "“Perhaps the stadium is actually the replacement for the UN as a symbolic gathering point to conduct world politics,” the artist told Hyperallergic in an interview.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/paul-pfeiffer-on-the-spectacle-of-politics/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Portrait-of-Paul-Pfeiffer-1.jpg",
+   "ts": 1793044493000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1fx6t0w",
+   "cat": "Expositions majeures",
+   "title": "Nathan Fielder Is a Performance Artist in Disguise",
+   "sub": "Hyperallergic",
+   "text": "“You Can See Everything” is toted as a documentary, but is Fielder a performance artist playing a documentarian?",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/nathan-fielder-is-a-performance-artist-in-disguise/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/YCSE_EH-TH.jpg",
+   "ts": 1793043826000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_14ts77u",
+   "cat": "Art mondial",
+   "title": "Giant Ofrenda Arrives in Manhattan Ahead of Día de Muertos",
+   "sub": "Hyperallergic",
+   "text": "Designed by artisans from Mestiz Studio in Mexico, the public altar welcomes passersby to make offerings to their loved ones.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/giant-ofrenda-arrives-in-manhattan-ahead-of-dia-de-muertos/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/image-3-copy-1.png",
+   "ts": 1793043695000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1xed1ks",
+   "cat": "Expositions majeures",
+   "title": "‘Desiring Machines’ Dares Us to Imagine a Healthy Relationship with Technology",
+   "sub": "ARTnews",
+   "text": "“Desiring Machines”, a new exhibition at the Museum of Contemporary Art in Mar del Plata, Argentina, asks viewers not to fear merging with technology.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/desiring-machines-dares-us-to-imagine-a-healthy-relationship-with-technology-1234803816/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/6.jpeg?w=400",
+   "ts": 1793043022000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1uiczwn",
+   "cat": "Expositions majeures",
+   "title": "Mamdani Votes Early at The Met. What Other NYC Museums Are Polling Sites?",
+   "sub": "Hyperallergic",
+   "text": "\"It only took five minutes,\" said the NYC mayor in a social media video. More museums and cultural institutions across the city serve as early voting sites.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/mamdani-votes-early-at-the-met-what-other-nyc-museums-are-polling-sites/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Screenshot-2026-10-26-at-1.24.16---PM.png",
+   "ts": 1793041907000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_a11va9",
+   "cat": "Art mondial",
+   "title": "« J’ai besoin de la peinture comme de l’air » : Suzanne Valadon, peintre de Montmartre, bouleversante sous les traits de Catherine Hiegel au…",
+   "sub": "Connaissance des Arts",
+   "text": "Porté par un texte solide et l’immense Catherine Hiegel, Suzanne, au théâtre Montparnasse, fait revivre une Valadon plus vraie que nature, confrontée à son fils Maurice Utrillo dans un face à face aux répliques ciselées. Jusqu’au 20 décembre. Cet article « J’ai besoin de la peinture comme de l’air » : Suzanne Valadon, peintre de Montmartre, bouleversante sous les traits de Catherine Hiegel au théâtre à Paris est…",
+   "date": "À partir du 20 décembre 2026",
+   "deadline": "",
+   "start": "2026-12-20",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/jai-besoin-de-la-peinture-comme-de-lair-suzanne-valadon-peintre-de-montmartre-bouleversante-sous-les-traits-de-catherine-hiegel-au-theatre-a-paris-11217761/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct2_suzanne_2_jeanlouisfernandez-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793035808000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1v932ug",
+   "cat": "Art mondial",
+   "title": "The Artist Who Dined Among Lions",
+   "sub": "Hyperallergic",
+   "text": "California performance artist Bonnie Ora Sherk was a cultural trickster and proactive spoiler in the business of everyday life.",
+   "date": "Publié le 26 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-artist-who-dined-among-lions/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Sherk-Sitting-Still-IMG_5548-1.jpg",
+   "ts": 1793031382000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_119f7pa",
    "cat": "Expositions majeures",
@@ -24,7 +252,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unevisuel-folle-routine-filatures-micro-dgse-1300x975.jpg",
    "ts": 1793030422000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1yer4vd",
@@ -43,45 +271,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/11/webhemis_3658961-copie-1300x868.jpg",
    "ts": 1793026613000,
    "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_oz1vvn",
-   "cat": "Art mondial",
-   "title": "Indian Artist Jogen Chowdhury Has Died, $80 M. Klimt Heads to Christie’s, and More: Morning Links for October 26, 2026",
-   "sub": "ARTnews",
-   "text": "Here's what we're reading this morning.",
-   "date": "À partir du 26 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-26",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/indian-artist-jogen-chowdhury-has-died-1234803769/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793021700000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_fbv9r6",
-   "cat": "Art mondial",
-   "title": "Sotheby’s Deepens Abu Dhabi Relationship With Inaugural Fine Art Auction in December",
-   "sub": "ARTnews",
-   "text": "The auction sale on December 10 will coincide with many events happening in the city, from the opening of Guggenheim Abu Dhabi to the F1.",
-   "date": "À partir du 10 décembre 2026",
-   "deadline": "",
-   "start": "2026-12-10",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/sothebys-abu-dhabi-fine-art-auction-warhol-monet-1234803739/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Andy-Warhol-Ads-1985-estimate-2000000-3000000.jpg?w=400",
-   "ts": 1793020134000,
-   "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_13wyq42",
@@ -100,7 +290,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasept26_facea-face-cezanne_pichet-tt-width-653-height-544-fill-0-crop-0-bgcolor-eeeeee.jpeg",
    "ts": 1793016005000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_100oo7j",
@@ -119,7 +309,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/couv-chambrd-article-1300x975.jpg",
    "ts": 1793013632000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_jwq3ny",
@@ -138,7 +328,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/5.-harry-shunk-jacques-villegle-montparnasse-paris-1300x978.jpeg",
    "ts": 1793012432000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_dptbgl",
@@ -157,26 +347,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 8.9
-  },
-  {
-   "id": "auto_1frpxl3",
-   "cat": "Art mondial",
-   "title": "Christie’s Brings a Blockbuster Klimt Landscape to Auction, Tagged at $80 M. and Guaranteed to Sell",
-   "sub": "ARTnews",
-   "text": "Six of the Austrian artist’s top 10 prices at auction were paid for landscapes, some from the same site.",
-   "date": "Publié le 26 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/christies-blockbuster-klimt-landscape-80m-guaranteed-1234803727/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2024/05/GettyImages-857209806.jpg?w=400",
-   "ts": 1793008800000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 8.8
   },
   {
    "id": "auto_sultcr",
@@ -195,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/PHOTO-2026-10-24-14-26-14-8-1-1.jpg",
    "ts": 1793008800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_mpi3zg",
@@ -214,26 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_atelier-taduy-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792994426000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_u85eom",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Palestinian Artists in Helsinki Residency Program",
-   "sub": "fundsforNGOs",
-   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
-   "src": "fundsforNGOs",
-   "img": "",
-   "ts": 1792959240000,
-   "auto": 1,
-   "_score": 8.8
+   "_score": 5.3
   },
   {
    "id": "auto_11i6u8o",
@@ -252,7 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_dessin_custodia_1-tt-width-653-height-460-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792944040000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_17o96cx",
@@ -271,7 +423,7 @@
    "img": "",
    "ts": 1792924661000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_17tzzjs",
@@ -290,45 +442,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_joatton_2-tt-width-653-height-844-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792918846000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1m11b10",
-   "cat": "Expositions majeures",
-   "title": "Walid Raad’s Way of Working Is Inspired by the Mirrors in Vampire Movies",
-   "sub": "ARTnews",
-   "text": "His work in the Venice Biennale and elsewhere turns history’s absences into artworks.",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-in-america/features/walid-raad-icons-venice-biennale-paula-cooper-1234803667/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/WR-123-PRT_composite.jpg?w=400",
-   "ts": 1792918800000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_136m5x0",
-   "cat": "Art mondial",
-   "title": "À la Bourse de Commerce, un éblouissant déferlement d’images pour le bicentenaire de la photographie",
-   "sub": "Beaux Arts Magazine",
-   "text": "Plus de 700 photos, un focus sur Irving Penn, un autre sur Raymond Depardon, une …",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/a-la-bourse-de-commerce-un-eblouissant-deferlement-dimages-pour-le-bicentenaire-de-la-photographie/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/une469362-e05092-naked-models-with-long-hair-in-technicolor-hues-2004-irving-penn-image-de-reference-1-1300x975.jpg",
-   "ts": 1792908055000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1d4jjky",
@@ -347,7 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_vente_empreintes_artisans_japonais_conoka-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792908010000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1yyc40p",
@@ -366,7 +480,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.4
   },
   {
    "id": "auto_1ljysmw",
@@ -385,64 +499,7 @@
    "img": "",
    "ts": 1792871754000,
    "auto": 1,
-   "_score": 7.5
-  },
-  {
-   "id": "auto_ur4q1h",
-   "cat": "Art mondial",
-   "title": "Artists Take to the Streets Amid Massive Protests in France",
-   "sub": "Hyperallergic",
-   "text": "Tens of thousands gathered at Porte d’Italie in Paris for a march led in part by culture-sector coalitions demanding a better life for artists.",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/artists-take-to-the-streets-amid-massive-protests-in-france/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2301256119--1-.jpg",
-   "ts": 1792871333000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_rwhlxx",
-   "cat": "Expositions majeures",
-   "title": "« Je me suis lancée dans une chasse aux trésors » : au Petit Palais à Paris, Prune Nourry ressuscite 18 sculptrices oubliées",
-   "sub": "Connaissance des Arts",
-   "text": "Dans le cadre d’une saison 100 % féminine, le Petit Palais a donné carte blanche à Prune Nourry pour occuper l’ensemble de ses espaces. De ce projet sont nés des bustes monumentaux inédits figurant des sculptrices connues, méconnues et inconnues, ainsi qu’une conversation entre des œuvres préexistantes de la plasticienne et les collections du musée. Cet article « Je me suis lancée dans une chasse aux trésors » : au…",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/je-me-suis-lancee-dans-une-chasse-aux-tresors-au-petit-palais-a-paris-prune-nourry-ressuscite-18-sculptrices-oubliees-11217420/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_prune_nourry_petit_palais_claudel-tt-width-653-height-817-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792864802000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_9dtmeh",
-   "cat": "Art mondial",
-   "title": "Exposition gratuite à Paris : ce mystérieux portrait de Lucas Cranach l’Ancien cache « une critique voilée de la hiérarchie catholique »",
-   "sub": "Connaissance des Arts",
-   "text": "Peint par Lucas Cranach l'Ancien, ce portrait d'une inconnue au chapeau de velours rouge cache une critique voilée de l'Église. Sa présentation accompagne l'ouverture des nouveaux locaux parisiens de la galerie De Jonckheere, jusqu'au 20 novembre. Cet article Exposition gratuite à Paris : ce mystérieux portrait de Lucas Cranach l’Ancien cache « une critique voilée de la hiérarchie catholique » est apparu en premier…",
-   "date": "À partir du 20 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-20",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/exposition-gratuite-a-paris-ce-mysterieux-portrait-de-lucas-cranach-lancien-cache-une-critique-voilee-de-la-hierarchie-catholique-11217669/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_cranach_1-tt-width-653-height-994-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792854045000,
-   "auto": 1,
-   "_score": 5
+   "_score": 6
   },
   {
    "id": "auto_1f2l0w9",
@@ -461,7 +518,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_majorelle_marrakech_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792839638000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_7qo9i4",
@@ -480,7 +537,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 5.9
   },
   {
    "id": "auto_1dmks87",
@@ -499,7 +556,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 7.2
   },
   {
    "id": "auto_9byqja",
@@ -518,7 +575,26 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 7.1
+  },
+  {
+   "id": "auto_ey4fnl",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026, la photographie africaine à Paris (23-25 octobre)",
+   "sub": "Mondafrique",
+   "text": "AKAA 2026, la photographie africaine à Paris (23-25 octobre) Mondafrique",
+   "date": "Publié le 23 octobre 2026",
+   "deadline": "",
+   "start": "2026-10-25",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnQyVkljdG9ubTJXRS0ycEtSdFQ0V2FZalF2OHZTNzBFMElBVjhBWWplUXBoMUdldnNrcjRBVUR4NXVKYTNZQVpNa2R2TVNKYzJFbkVhTF9XVjE1OVBRNnF4dmJOb1Z4aDV4OEVXNVBRZktPcS1xc3lYamUyQlVib3JvTGdOQUtwX0I1MG00YXR2N2V2NmZQaFpncEVqTjg?oc=5",
+   "src": "Mondafrique",
+   "img": "",
+   "ts": 1792777080000,
+   "auto": 1,
+   "_score": 7.1
   },
   {
    "id": "auto_1quh8rp",
@@ -537,7 +613,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 5.7
   },
   {
    "id": "auto_row3aj",
@@ -556,7 +632,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 15.2
+   "_score": 15.1
   },
   {
    "id": "auto_17jql84",
@@ -575,7 +651,7 @@
    "img": "",
    "ts": 1792751408000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 7
   },
   {
    "id": "auto_brxur5",
@@ -594,26 +670,7 @@
    "img": "",
    "ts": 1792635119000,
    "auto": 1,
-   "_score": 2.3
-  },
-  {
-   "id": "auto_3osz7o",
-   "cat": "Événements",
-   "title": "National Arts Festival Seeks New Artistic Director",
-   "sub": "ART AFRICA Magazine",
-   "text": "National Arts Festival Seeks New Artistic Director ART AFRICA Magazine",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGdyZ2Y1YWhlWkVwbjRGVGJwTjFHWTQ4LWtxcHdZNU5OOGs0eEdXTG1NYTRfUXZIMVBtSmV5MGIwcXFLbDR5Nlh6bGV3aG83ZWF1T2pHZDdLQXNTODhVNlF4ZDBwSDMzTGpBcEVpN05uVXdJUGZoZVpoaXZ5TkdlLWZkWjJia3Qy?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1792577475000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 0.8
   },
   {
    "id": "auto_fjyvj5",
@@ -632,7 +689,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_guyq2n",
@@ -651,7 +708,7 @@
    "img": "",
    "ts": 1792523777000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 5
   },
   {
    "id": "auto_mvb0j3",
@@ -670,7 +727,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 6
   },
   {
    "id": "auto_1c7a0pg",
@@ -689,7 +746,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_dy22a3",
@@ -708,26 +765,7 @@
    "img": "",
    "ts": 1792473464000,
    "auto": 1,
-   "_score": 6.4
-  },
-  {
-   "id": "auto_ey4fnl",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026, la photographie africaine à Paris (23-25 octobre)",
-   "sub": "Mondafrique",
-   "text": "AKAA 2026, la photographie africaine à Paris (23-25 octobre) Mondafrique",
-   "date": "Publié le 19 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-25",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnQyVkljdG9ubTJXRS0ycEtSdFQ0V2FZalF2OHZTNzBFMElBVjhBWWplUXBoMUdldnNrcjRBVUR4NXVKYTNZQVpNa2R2TVNKYzJFbkVhTF9XVjE1OVBRNnF4dmJOb1Z4aDV4OEVXNVBRZktPcS1xc3lYamUyQlVib3JvTGdOQUtwX0I1MG00YXR2N2V2NmZQaFpncEVqTjg?oc=5",
-   "src": "Mondafrique",
-   "img": "",
-   "ts": 1792431534000,
-   "auto": 1,
-   "_score": 6.3
+   "_score": 6.2
   },
   {
    "id": "auto_1x0gubd",
@@ -746,7 +784,7 @@
    "img": "",
    "ts": 1792408083000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6.1
   },
   {
    "id": "auto_1cdob0n",
@@ -765,7 +803,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6
   },
   {
    "id": "auto_embi0p",
@@ -784,64 +822,26 @@
    "img": "",
    "ts": 1792322523000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
-   "id": "auto_6e41j6",
+   "id": "auto_1jdoie7",
    "cat": "Nouveautés",
-   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
-   "sub": "Africa News Agency",
-   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
-   "date": "Publié le 17 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMm5Md2ZVbGFFT3VJZ2pqNzB3b2hQX2h2bEdYQTFocXZZbU9IWF9TcnpiN251NzZQNHpiZ3dmelo5RTRSaERRT1dMZUhQR1dGTjgtZWhKV3l6NWoyLXdJaWFkNk1iMlJ3NGw3X19RbktVUmd4eEVTUTA3TVRFZHhvcmhheE8ySHpyeHVFVjlPbHpPUUo4aGp4Znp1X2J1WVZLakJfWUxnTFZKSEIwSWpR?oc=5",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792226088000,
-   "auto": 1,
-   "_score": 5.7
-  },
-  {
-   "id": "auto_1kxkgij",
-   "cat": "Nouveautés",
-   "title": "When Sogal Auction Celebrates African Art With ‘Echoes Of Legacy",
-   "sub": "Independent Newspaper Nigeria",
-   "text": "When Sogal Auction Celebrates African Art With ‘Echoes Of Legacy Independent Newspaper Nigeria",
-   "date": "Publié le 17 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONVRoLXRMQWx0NUZPb2x0dHlnWXBrUVQzVFltMUZLZTFnTXVfQmY0a2NwRlJJTmdfVnZtQjI2bDZZTHMwcnYtT2tqY2hpMDZhaDg0VkhXY0RUU1Q2ek8ta2JvTkpGUW4tM2FDLXE3N2RWZ2FOR2I1NFdJTGQ1UkVZUUdwUERoN3FYUzJHZ0h5UWE?oc=5",
-   "src": "Independent Newspaper Nigeria",
-   "img": "",
-   "ts": 1792206558000,
-   "auto": 1,
-   "_score": 5.6
-  },
-  {
-   "id": "auto_1errh1d",
-   "cat": "Nouveautés",
-   "title": "Brussels Airlines’ African art exhibition arrives at Tour & Taxis",
-   "sub": "Aviation24.be",
-   "text": "Brussels Airlines’ African art exhibition arrives at Tour & Taxis Aviation24.be",
+   "title": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine",
+   "sub": "EcoActu.ma",
+   "text": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine EcoActu.ma",
    "date": "Publié le 16 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlBkUDFQN3E4Z1BJT3NoWHVUVDBMZ0F1Q3F2MExfbU91OXctdGdzaTZEV1YyYWdTdUJ4dHZabXRrUDdzWHdGX0dKbVpGLXZxWEJSSG1NaHJRejRHbW5qTlI5MzhuTklnbU9WYlFKd2NLTEcxSUw2c2tKLVBIV0lESnA2MFlvNmg4YWF6UnFRU1d0b1dRd0ZVUHBMLW9rMVpJdm11d2NLY3RWM0NwUmZpN1I5bloyUWwtQ1BadGlJSUZJdEpRNktONl9qV0PSAdIBQVVfeXFMUDBCV1Jzb184aUE4R3ZkQXVGQW5yQzh6MkNWLS14Ml9oOXB5OU1mVUhuazhRdDFqaWNhbjlWX1BtWEN0RlByZTdQQk42eHNJMWNta21Jamt1Rk9iWEpiWnoxT1J5d2JQM3I1R2YzR2FYeUIxRXY2RC1pb2g1Uk1jM1NyZFYzQnVTS1g1VmdFV0ZIbk1IQ0RLV3AxcDlfOVZpWTdJUF9UNUdMMXhDX1BpeWoyeXZjRFZPUGxma3czVVVFaXp5ZWNiczVUMHdhYWdZNGZn?oc=5",
-   "src": "Aviation24.be",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdjJ1Y0JYSF9MQ0oxakp2Yng0S2x3b0lZOG9nQ28zdmlWczRZUHFSSHEwN3BIQmNEeVlBdDZwOW91OU96RVRIem5HZWdWTXAyUmpuUVJNeW9nNldWQ19vR1U2WDh0R2EwWjFfN09GRlh5TjI3Q283ZzA5ZzVJQQ?oc=5",
+   "src": "EcoActu.ma",
    "img": "",
-   "ts": 1792153105000,
+   "ts": 1792189016000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_164cifi",
@@ -860,7 +860,7 @@
    "img": "",
    "ts": 1792142726000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_qspgid",
@@ -879,7 +879,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_pq3mpi",
@@ -898,7 +898,7 @@
    "img": "",
    "ts": 1792084221000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_qehbx7",
@@ -917,7 +917,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 11.8
+   "_score": 10.3
   },
   {
    "id": "auto_18ki7iu",
@@ -936,7 +936,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_brpy0l",
@@ -955,7 +955,7 @@
    "img": "",
    "ts": 1791985443000,
    "auto": 1,
-   "_score": 9
+   "_score": 7.5
   },
   {
    "id": "auto_1vejymo",
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 12.4
+   "_score": 12.3
   },
   {
    "id": "auto_d3k04k",
@@ -993,7 +993,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 11.7
+   "_score": 11.5
   },
   {
    "id": "auto_eyy2sp",
@@ -1012,7 +1012,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_19h2dz7",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1789974000000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   }
  ]
 }
