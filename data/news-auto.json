@@ -1,18 +1,246 @@
 {
- "updated": "2026-10-28T05:54:21.001Z",
+ "updated": "2026-10-28T15:58:52.963Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 824
+  "read": 589
  },
  "count": 60,
  "items": [
   {
+   "id": "auto_1bau8vt",
+   "cat": "Art mondial",
+   "title": "Outsider Artist Josef Hofer, Whose Developmental Disability Made Him a Target in Nazi-Occupied Austria, Has Died at 80",
+   "sub": "ARTnews",
+   "text": "Hofer, who signed his works “Pepi,” rarely spoke, instead expressing himself through raw, figurative drawings that reflected his own life and observations.",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/outsider-artist-josef-hofer-developmental-disability-target-in-nazi-occupied-austria-has-died-at-80-1234804069/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Josef-Hofer-sans-titre-2010.-crayon-de-couleur-et-graphite-sur-papier-29.6-x-42-cm.jpg?w=400",
+   "ts": 1793202874000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_gxk7vt",
+   "cat": "Art mondial",
+   "title": "San Francisco’s Galleries Explore Alternative Routes for Survival",
+   "sub": "Hyperallergic",
+   "text": "Amid a cost-of-living crisis and the closure of local arts organizations, some are turning to different models to foster community, from nonprofit status to retail businesses.",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/san-franciscos-galleries-explore-alternative-routes-for-survival/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Kevin-Cohya-Valor-and-family--Cushion-Works--2026.jpeg",
+   "ts": 1793201936000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_d0o7km",
+   "cat": "Expositions majeures",
+   "title": "Discover Marcel Duchamp at the Philadelphia Museum of Art",
+   "sub": "Hyperallergic",
+   "text": "See 300+ unique works by Marcel Duchamp, including the permanently installed masterpiece “Étant donnés”, exclusively at the Philadelphia Museum of Art.",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/discover-marcel-duchamp-at-the-philadelphia-museum-of-art/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1148-MKTG-DuchampHyperAllergicNewsLetter_10.8.jpg",
+   "ts": 1793199600000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_gtzck2",
+   "cat": "Expositions majeures",
+   "title": "Vers une sortie de crise au musée du Louvre ? Les syndicats vont signer un accord après onze mois de grève",
+   "sub": "Beaux Arts Magazine",
+   "text": "Une sortie de crise se profile enfin au Louvre. À l’issue d’une assemblée générale organisée …",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/vers-une-sortie-de-crise-au-musee-du-louvre-les-syndicats-vont-signer-un-accord-apres-onze-mois-de-greve/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/websipa_ap23003143_000011.jpg",
+   "ts": 1793198011000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_uraw4w",
+   "cat": "Art mondial",
+   "title": "University of Connecticut Offers a Funded MFA in Studio Art",
+   "sub": "Hyperallergic",
+   "text": "Develop your creative practice. Gain teaching experience. Join a community of artists and educators.",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/university-of-connecticut-offers-a-fully-funded-mfa-in-studio-art/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/UConn_School_of_Fine_Arts.JPG",
+   "ts": 1793196900000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_6zq4o3",
+   "cat": "Art mondial",
+   "title": "Dubuffet, Arman, Tinguely : l’art contemporain reprend les commandes de l’île Seguin",
+   "sub": "Connaissance des Arts",
+   "text": "Même si sa desserte mérite d’être améliorée pour l’instant, Le Large devient dès son ouverture un lieu indispensable pour l’art contemporain à Paris tant son propos et son ambition portent en germe d’incroyables promesses. Cet article Dubuffet, Arman, Tinguely : l’art contemporain reprend les commandes de l’île Seguin est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/dubuffet-arman-tinguely-lart-contemporain-reprend-les-commandes-de-lile-seguin-11217802/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_large_1-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793190600000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_637ola",
+   "cat": "Art mondial",
+   "title": "L’art au départ de la Route du Rhum avec le Maxi Edmond de Rothschild Gitana 18",
+   "sub": "Beaux Arts Magazine",
+   "text": "Dimanche 1er novembre, le Maxi Edmond de Rothschild Gitana 18 s’élancera de Saint-Malo pour la …",
+   "date": "À partir du 1 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-01",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/reportages/lart-au-depart-de-la-route-du-rhum-avec-le-maxi-edmond-de-rothschild-gitana-18/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/une260525_stichelbaut_gitana_094109-6--e.stichelbaut-polaryse-gitana-sa-1300x975.jpg",
+   "ts": 1793188821000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_3bnh06",
+   "cat": "Art mondial",
+   "title": "Remembering Ursula von Rydingsvard",
+   "sub": "Hyperallergic",
+   "text": "The monumental sculptor dies at 84; plus, how an artist snuck his own work into The Met, and a dispute over watercolors of Roma victims of the Holocaust.",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/remembering-ursula-von-rydingsvard/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/PCZ_3078-1.jpg",
+   "ts": 1793181600000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_vb82b6",
+   "cat": "Art mondial",
+   "title": "Peintre « du soleil et de la vie », l’impressionniste belge Jenny Montigny mise en lumière dans une expo inédite à Gand",
+   "sub": "Beaux Arts Magazine",
+   "text": "À la fois peintre, dessinatrice et graveuse de talent, l’impressionniste belge Jenny Montigny bénéficie d’une …",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/peintre-du-soleil-et-la-vie-limpressionniste-belge-jenny-montigny-mise-en-lumiere-dans-une-expo-inedite-a-gand/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/une03_jenny-montigny-de-veestal-1907-msk-gent-1300x975.jpg",
+   "ts": 1793178055000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1370snd",
+   "cat": "Appels à candidatures",
+   "title": "Appel à candidatures à La Maison des arts plastiques Rosa Bonheur",
+   "sub": "ArtsHebdoMédias",
+   "text": "Appel à candidatures à La Maison des arts plastiques Rosa Bonheur ArtsHebdoMédias",
+   "date": "Publié le 28 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMkJqeU1la2E3X3dWbHZnOFhpdHdzQU1HX0pNOVVXdC1aZERhaFlyNm5LR0ZqN01JY0RzYTQzTUNJbXFiWEl3cDVuSkthV0pwb0ctMXQyRG1GdGZzeHBRWlR1TnN5YjRsVGxPdUMtUXlwRDZiOU0zbDNZdUVpc0NKZC1uaUtWSkpLUC1ZYkpUdHdIQklTU2p5bUs2QTNqWWZkVEtwemJPekE?oc=5",
+   "src": "ArtsHebdoMédias",
+   "img": "",
+   "ts": 1793177872000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_2un0hp",
+   "cat": "Art mondial",
+   "title": "Retrouvé après plus de 200 ans, cet étonnant « bol-sein » de Marie-Antoinette pourrait atteindre 2 millions d’euros aux enchères",
+   "sub": "Connaissance des Arts",
+   "text": "Disparue depuis deux siècles, cette jatte téton de Sèvres conçue pour Marie-Antoinette est le seul exemplaire encore en mains privées. Elle sera vendue à Drouot le 26 novembre, estimée jusqu'à 2 millions d’euros. Cet article Retrouvé après plus de 200 ans, cet étonnant « bol-sein » de Marie-Antoinette pourrait atteindre 2 millions d’euros aux enchères est apparu en premier sur Connaissance des Arts .",
+   "date": "À partir du 26 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-26",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/retrouve-apres-plus-de-200-ans-cet-etonnant-bol-sein-de-marie-antoinette-pourrait-atteindre-2-millions-deuros-aux-encheres-11217824/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vente_encheres_bol_marie-antoinette_sevres_detail-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793174405000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_16ebwqg",
+   "cat": "Art mondial",
+   "title": "Au Château de Versailles, les bassins du Dragon et du Bain des nymphes, chefs-d’œuvre du XVIIe siècle, retrouvent leurs ors après une…",
+   "sub": "Connaissance des Arts",
+   "text": "Conçus au XVIIe siècle, les bassins du Bain des nymphes et du Dragon, deux des fontaines du parterre nord, se refont une beauté. Après restauration de leurs sculptures et bas-reliefs, ils retrouveront en avril 2027 la magnificence de leurs jeux d’eau et l’éclat de leurs dorures disparues. Cet article Au Château de Versailles, les bassins du Dragon et du Bain des nymphes, chefs-d’œuvre du XVIIe siècle, retrouvent…",
+   "date": "À partir du 20 avril 2027",
+   "deadline": "",
+   "start": "2027-04-20",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/au-chateau-de-versailles-les-bassins-du-dragon-et-du-bain-des-nymphes-chefs-doeuvre-du-xviie-siecle-retrouvent-leurs-ors-apres-une-restauration-inedite-11217781/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_restauration_bassin_nymphes_dragons_versailles-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793167218000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
    "id": "auto_u85eom",
    "cat": "Appels à candidatures",
-   "title": "Open Call for Palestinian Artists in Helsinki Residency Program",
-   "sub": "fundsforNGOs",
-   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs",
+   "title": "Open Call for Palestinian Artists in Helsinki Residency Program - fundsforNGOs",
+   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
+   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs - Grants and Resources for Sustainability",
    "date": "Publié le 27 octobre 2026",
    "deadline": "",
    "start": "",
@@ -20,11 +248,11 @@
    "place": "",
    "country": "",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
-   "src": "fundsforNGOs",
+   "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 8.9
+   "_score": 8.8
   },
   {
    "id": "auto_1z0arwl",
@@ -43,7 +271,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Screenshot-2026-10-27-at-6.17.29---PM-2-1.jpg",
    "ts": 1793137200000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1ulco29",
@@ -62,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Bey_1185_TheSecretsWeKeep_hires.jpg",
    "ts": 1793135623000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_xjc735",
@@ -81,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/image-2.jpg",
    "ts": 1793135480000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_m9cf07",
@@ -100,7 +328,7 @@
    "img": "",
    "ts": 1793132591000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1yq9c1t",
@@ -119,83 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Copy-of-gm_35391501-1.jpg",
    "ts": 1793131033000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_t8jfp7",
-   "cat": "Art mondial",
-   "title": "In Battle Over Auschwitz Watercolors, Roma Victims Are Getting Left Behind",
-   "sub": "Hyperallergic",
-   "text": "As the legal dispute over the paintings’ ownership continues, no one seems to be asking: What were their names? Who may still be grieving their deaths? What decision would best honor them?",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/in-battle-over-auschwitz-watercolors-roma-victims-are-getting-left-behind/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/031148868399.jpg",
-   "ts": 1793130538000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_pe4ol8",
-   "cat": "Art mondial",
-   "title": "Un Baiser de Man Ray estimé jusqu’à 350 000 € : les enchères de novembre mettent Paris en émoi",
-   "sub": "Connaissance des Arts",
-   "text": "La rédaction de Connaissance des Arts a retenu, de Man Ray à Invader et de Dürer à Guillaumin, les ventes aux enchères parisiennes qui marqueront novembre. Cet article Un Baiser de Man Ray estimé jusqu’à 350 000 € : les enchères de novembre mettent Paris en émoi est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/un-baiser-de-man-ray-estime-jusqua-350-000-e-les-encheres-de-novembre-mettent-paris-en-emoi-11217772/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanove26_encheres_man-ray-tt-width-653-height-847-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793124026000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_26a22e",
-   "cat": "Art mondial",
-   "title": "Christie’s Will Offer $8 M. in Works from Mickey Cartin’s Collection, from Netherlandish Painting to Contemporary Art to Rare Books",
-   "sub": "ARTnews",
-   "text": "Cartin was an ARTnews Top 200 collector from 2007 to 2013.",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/christies-mickey-cartin-collection-sale-1234803988/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/OPALKA-1965-Roman-Opalka-Christies-Cartin-Nov-26.jpg?w=400",
-   "ts": 1793124000000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1phc8za",
-   "cat": "Art mondial",
-   "title": "Ursula von Rydingsvard, Who Sculpted Monuments of Cedar, Dies at 84",
-   "sub": "Hyperallergic",
-   "text": "\"She was like the sun. She was this force that pulled people in and kept them orbiting around her,\" said her studio manager.",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/ursula-von-rydingsvard-who-sculpted-monuments-of-cedar-dies-at-84/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-472222496.jpg",
-   "ts": 1793118769000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_zv6l9f",
@@ -214,7 +366,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unehenri-de-toulouse-lautrec-la-clownesse-cha-u-kao-1895-huile-sur-carton-58-x-43-cm-paris-musee-dorsay--grandpalaisrmn-ph.-franck-raux-1300x975.jpg",
    "ts": 1793116849000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1q5l81e",
@@ -233,83 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/de-marolles-daphne_rgb_300dpi_20-tt-width-653-height-661-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793115011000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1myiyam",
-   "cat": "Art mondial",
-   "title": "Layli Long Soldier’s Poetic Lifeblood",
-   "sub": "Hyperallergic",
-   "text": "I spoke to the poet, who is my longtime friend and colleague, about her new book, the threads connecting poetry and visual art, and how Lakota philosophy suffuses her work.",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/layli-long-soldiers-poetic-lifeblood/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Long-Soldier--Layli--Ben-Calabaza--COLOR.jpg",
-   "ts": 1793113200000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_ogvb07",
-   "cat": "Art mondial",
-   "title": "Studying Contemporary Art at Sotheby's Institute",
-   "sub": "Hyperallergic",
-   "text": "Where critical thinking meets contemporary practice across key art world capitals.",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/studying-contemporary-art-at-sothebys-institute/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SIA_Image3_2400x1350.png",
-   "ts": 1793113200000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1lcfm64",
-   "cat": "Art mondial",
-   "title": "Estimé 80 millions de dollars, un tableau charnière de Kandinsky pourrait battre un nouveau record mondial aux enchères",
-   "sub": "Connaissance des Arts",
-   "text": "Le 17 novembre prochain, Christie’s vendra à New York « Betonte Ecken » de Kandinsky. Le tableau est estimé entre 60 et 80 millions de dollars et pourrait devenir l’œuvre la plus chère de l’artiste aux enchères. Cet article Estimé 80 millions de dollars, un tableau charnière de Kandinsky pourrait battre un nouveau record mondial aux enchères est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 17 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-17",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estime-80-millions-de-dollars-un-tableau-charniere-de-kandinsky-pourrait-battre-un-nouveau-record-mondial-aux-encheres-11217810/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_kandinsky_christie_s_encheres-tt-width-653-height-651-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793102452000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_6w5cs5",
-   "cat": "Art mondial",
-   "title": "Comment l’AFP fait revivre ses exceptionnelles archives photographiques",
-   "sub": "Beaux Arts Magazine",
-   "text": "Dans les sous-sols de l’Agence France-Presse (AFP), près de six millions de photographies argentiques racontent …",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/reportages/comment-lafp-fait-revivre-ses-exceptionnelles-archives-photographiques/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/une06.-des-religieuses-peruvienne-a-lourdes-1300x975.jpg",
-   "ts": 1793102439000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_19o8fus",
@@ -328,26 +404,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/webbdc_remember_me-1-c-11h45-bd-2.jpg",
    "ts": 1793091621000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_mzhcwh",
-   "cat": "Art mondial",
-   "title": "Trois « trésors nationaux » de Cezanne retirés in extremis d’une vente aux enchères record pourraient revenir en Provence",
-   "sub": "Connaissance des Arts",
-   "text": "Jeudi 22 octobre, à 18 h, trois fragments du décor peint par Cezanne au Jas de Bouffan, classés « trésors nationaux », ont été retirés in extremis de la vente Schlumberger chez Sotheby's. Cet article Trois « trésors nationaux » de Cezanne retirés in extremis d’une vente aux enchères record pourraient revenir en Provence est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-22",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/musees/acquisitions/trois-tresors-nationaux-de-cezanne-retires-in-extremis-dune-vente-aux-encheres-record-pourraient-revenir-en-provence-11217759/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_actu_monet_record_encheres_iris-tt-width-653-height-367-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793080826000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_5254h5",
@@ -366,7 +423,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Oldenburg-1.jpg",
    "ts": 1793050346000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 3.7
   },
   {
    "id": "auto_1fx6t0w",
@@ -385,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/YCSE_EH-TH.jpg",
    "ts": 1793043826000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_1uiczwn",
@@ -404,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Screenshot-2026-10-26-at-1.24.16---PM.png",
    "ts": 1793041907000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_119f7pa",
@@ -423,7 +480,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unevisuel-folle-routine-filatures-micro-dgse-1300x975.jpg",
    "ts": 1793030422000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_jwq3ny",
@@ -442,7 +499,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/5.-harry-shunk-jacques-villegle-montparnasse-paris-1300x978.jpeg",
    "ts": 1793012432000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_dptbgl",
@@ -461,7 +518,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 5.7
   },
   {
    "id": "auto_mpi3zg",
@@ -480,7 +537,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_atelier-taduy-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1792994426000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_17o96cx",
@@ -499,26 +556,7 @@
    "img": "",
    "ts": 1792924661000,
    "auto": 1,
-   "_score": 7.3
-  },
-  {
-   "id": "auto_1d4jjky",
-   "cat": "Événements",
-   "title": "À Paris, 13 artisans d’art japonais dévoilent les secrets du Mingei au concept store Empreintes",
-   "sub": "Connaissance des Arts",
-   "text": "Au cœur du Marais à Paris, le concept store Empreintes, boutique permanente d’Ateliers d’Art de France, invite pour la première fois 13 créateurs japonais à présenter une sélection de 300 pièces, imprégnées de l’esprit Mingei. Cet article À Paris, 13 artisans d’art japonais dévoilent les secrets du Mingei au concept store Empreintes est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/a-paris-13-artisans-dart-japonais-devoilent-les-secrets-du-mingei-au-concept-store-empreintes-11217703/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_exposition_vente_empreintes_artisans_japonais_conoka-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792908010000,
-   "auto": 1,
-   "_score": 4.8
+   "_score": 5.8
   },
   {
    "id": "auto_1yyc40p",
@@ -537,26 +575,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 5.8
-  },
-  {
-   "id": "auto_1f2l0w9",
-   "cat": "Nouveautés",
-   "title": "Une journée à Marrakech : notre itinéraire exclusif, heure par heure, dans l’art contemporain",
-   "sub": "Connaissance des Arts",
-   "text": "Prêt pour une immersion culturelle au cœur de Marrakech ? Classique, moderne ou contemporain, l’art se dévoile à chaque coin de rue. Cet article Une journée à Marrakech : notre itinéraire exclusif, heure par heure, dans l’art contemporain est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/une-journee-a-marrakech-notre-itineraire-exclusif-heure-par-heure-dans-lart-contemporain-11210220/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_majorelle_marrakech_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792839638000,
-   "auto": 1,
-   "_score": 4.8
+   "_score": 7.1
   },
   {
    "id": "auto_7qo9i4",
@@ -575,7 +594,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 4.2
   },
   {
    "id": "auto_1dmks87",
@@ -594,7 +613,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_9byqja",
@@ -613,7 +632,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_ey4fnl",
@@ -632,7 +651,7 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_1quh8rp",
@@ -651,7 +670,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_row3aj",
@@ -670,26 +689,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.8
-  },
-  {
-   "id": "auto_brxur5",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Residency Jatiwangi Art Factory 2027 - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Open Call for Residency Jatiwangi Art Factory 2027 fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 22 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdzV6TVNVOVA3S243SDRxbzhsNVlIZGZGUXFjTG5NM09HeS03NUpsTjR6U3E3M3g1cmg5aU1IWTd3ckhZeUVKOUxkNVZhd3FtNzhRQWEzME5yeVI1Zlo1Vy1lTVI1RHRsSUE4R01seDk4cjNNdDdxZ0d6UTRzWWxsSUhzdFhaOWprNm53SnZ4ZllSMndaeHluTNIBngFBVV95cUxNZkxzcC1qcVRBU1lKMFp1Y2NHWF9LRERnQlVqMzFsNGtoNlRsS1djVklGTF92SnJNbjJmdEV6dTgySUxGTE1HV1RHaXpVanppTmgxQjUtVml4ZFNSMTEwV1BJclpobUFRTmY4RVdhZWI3UDlURW9NNmtXNUE5TmdjalBSaWYzWFd1QkxHLUNsUUFWVzlrTUhENmhQVlc4QQ?oc=5",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1792635119000,
-   "auto": 1,
-   "_score": -2.2
+   "_score": 14.7
   },
   {
    "id": "auto_3osz7o",
@@ -708,7 +708,26 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
+  },
+  {
+   "id": "auto_brxur5",
+   "cat": "Appels à candidatures",
+   "title": "Open Call for Residency Jatiwangi Art Factory 2027 - fundsforNGOs",
+   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
+   "text": "Open Call for Residency Jatiwangi Art Factory 2027 fundsforNGOs - Grants and Resources for Sustainability",
+   "date": "Publié le 21 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdzV6TVNVOVA3S243SDRxbzhsNVlIZGZGUXFjTG5NM09HeS03NUpsTjR6U3E3M3g1cmg5aU1IWTd3ckhZeUVKOUxkNVZhd3FtNzhRQWEzME5yeVI1Zlo1Vy1lTVI1RHRsSUE4R01seDk4cjNNdDdxZ0d6UTRzWWxsSUhzdFhaOWprNm53SnZ4ZllSMndaeHluTNIBngFBVV95cUxNZkxzcC1qcVRBU1lKMFp1Y2NHWF9LRERnQlVqMzFsNGtoNlRsS1djVklGTF92SnJNbjJmdEV6dTgySUxGTE1HV1RHaXpVanppTmgxQjUtVml4ZFNSMTEwV1BJclpobUFRTmY4RVdhZWI3UDlURW9NNmtXNUE5TmdjalBSaWYzWFd1QkxHLUNsUUFWVzlrTUhENmhQVlc4QQ?oc=5",
+   "src": "fundsforNGOs - Grants and Resources for Sustainability",
+   "img": "",
+   "ts": 1792566000000,
+   "auto": 1,
+   "_score": 7.2
   },
   {
    "id": "auto_fjyvj5",
@@ -727,26 +746,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_guyq2n",
-   "cat": "Nouveautés",
-   "title": "Four African Painters Explore Memory and Identity Through Unfinished Lines",
-   "sub": "My Modern Met",
-   "text": "Four African Painters Explore Memory and Identity Through Unfinished Lines My Modern Met",
-   "date": "Publié le 20 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdWpRVDlsMy1DTE9Pc2VMRWF0LVA5OG5ZLTgwb2V1ZkNUcW9WSEpEd0Jxc0t4cjVoeWJWaW9TWERWNk9GeUZrNngxMVZzUTNoWktycUkzb1F2S2dvb2V5ZHgyNXZOaG1nWWJ3cEk0ekpzeWg3OEdROVlWSnR0NlJGQXdKcE9ZZw?oc=5",
-   "src": "My Modern Met",
-   "img": "",
-   "ts": 1792523777000,
-   "auto": 1,
-   "_score": 4.8
+   "_score": 3.4
   },
   {
    "id": "auto_mvb0j3",
@@ -765,7 +765,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 7.1
+   "_score": 5.6
   },
   {
    "id": "auto_1c7a0pg",
@@ -784,7 +784,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 6
+   "_score": 5.9
   },
   {
    "id": "auto_dy22a3",
@@ -801,9 +801,9 @@
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQlMxWjRUTE5jY2U4bUQ2dGlSRlNLeDFYQ0hwMEJGZ1VYQUh6TWVUUzFEd1ZUcjRhNEV1RDlHMUdFZ0NsYThPQ0hVU1RPV093OWNJdjdkTXVXZUY4NVVOTnBVSDJGM19lcEZmWTh6RHNLY2U4SVlYYlgzUE1EcFhaRTdQRUhLUjcwbFQyOWRreWdMWlpBSlZPcnBuUkgwZDBKMVA2ZHFqV1B6QjhYdzVmcGNHYWFWMk5nckFkZlR3ckhKeTVKb2E3dzh5c1Fsdy1ydUlud2ExSWRTMEt4?oc=5",
    "src": "tv5monde",
    "img": "",
-   "ts": 1792473464000,
+   "ts": 1792479600000,
    "auto": 1,
-   "_score": 6
+   "_score": 5.9
   },
   {
    "id": "auto_1x0gubd",
@@ -822,7 +822,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_6e41j6",
@@ -841,7 +841,26 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 3.8
+  },
+  {
+   "id": "auto_1jdoie7",
+   "cat": "Nouveautés",
+   "title": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine",
+   "sub": "EcoActu.ma",
+   "text": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine EcoActu.ma",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdjJ1Y0JYSF9MQ0oxakp2Yng0S2x3b0lZOG9nQ28zdmlWczRZUHFSSHEwN3BIQmNEeVlBdDZwOW91OU96RVRIem5HZWdWTXAyUmpuUVJNeW9nNldWQ19vR1U2WDh0R2EwWjFfN09GRlh5TjI3Q283ZzA5ZzVJQQ?oc=5",
+   "src": "EcoActu.ma",
+   "img": "",
+   "ts": 1792189016000,
+   "auto": 1,
+   "_score": 5.1
   },
   {
    "id": "auto_qspgid",
@@ -860,7 +879,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_qehbx7",
@@ -879,26 +898,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 7.3
-  },
-  {
-   "id": "auto_y13t9p",
-   "cat": "Nouveautés",
-   "title": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies",
-   "sub": "ART AFRICA Magazine",
-   "text": "Beyond Boundaries: Art Explora Opens Applications for 2027 Paris Residencies ART AFRICA Magazine",
-   "date": "Publié le 14 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWtMVVNvMk8wQVdDUDRmdW5KQVBkX3p2VENray1JZXRBQmVVTFBWSDgwRVlWZnBDbnhjZUlOenJPZHV6NFQ0XzJ4WTRtMHJzbVg1UW9qVGpEUWhYejU4VG5wT2M0anJQeGR3dlBEWU83dms0LVl3Y0tybS03TFlrdk5pWERuUnppVk94Qll3cUUzbUpsMUpueTl1eTJQbW9BRG03Q3pFLTFuQQ?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1791964134000,
-   "auto": 1,
-   "_score": 4.5
+   "_score": 5.8
   },
   {
    "id": "auto_brpy0l",
@@ -917,7 +917,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 8.5
+   "_score": 7
   },
   {
    "id": "auto_2l6hyz",
@@ -936,7 +936,7 @@
    "img": "",
    "ts": 1791874800000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 4.2
   },
   {
    "id": "auto_1vejymo",
@@ -955,7 +955,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 12
+   "_score": 10.5
   },
   {
    "id": "auto_d3k04k",
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 11.3
+   "_score": 9.8
   },
   {
    "id": "auto_eyy2sp",
@@ -993,7 +993,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -0.5
+   "_score": -2
   },
   {
    "id": "auto_19h2dz7",
@@ -1012,7 +1012,7 @@
    "img": "",
    "ts": 1790697710000,
    "auto": 1,
-   "_score": 11
+   "_score": 9.5
   },
   {
    "id": "auto_1paxmue",
@@ -1107,7 +1107,7 @@
    "img": "",
    "ts": 1790406000000,
    "auto": 1,
-   "_score": 11
+   "_score": 9.5
   },
   {
    "id": "auto_voh04f",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1789974000000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   }
  ]
 }
