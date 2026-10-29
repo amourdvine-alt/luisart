@@ -1,12 +1,183 @@
 {
- "updated": "2026-10-29T05:54:50.361Z",
+ "updated": "2026-10-29T16:01:49.861Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 733
+  "read": 772
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1d6hdh3",
+   "cat": "Expositions majeures",
+   "title": "Naomi Beckwith Adds Four to Documenta 16’s Curatorial Team, Including Artist Raven Chacon",
+   "sub": "ARTnews",
+   "text": "Chacon will be a curator-at-large.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/documenta-16-curatorial-team-expansion-raven-chacon-1234804205/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793289518000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_122s6ow",
+   "cat": "Art mondial",
+   "title": "ARTPOWER’s New Platform Helps Artists Build Financial Confidence",
+   "sub": "Hyperallergic",
+   "text": "Designed to answer one of creative work's toughest questions: \"What should I charge?\"",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/artpowers-new-platform-helps-artists-build-financial-confidence/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/bawj-5-3.jpg",
+   "ts": 1793286900000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1whfsrz",
+   "cat": "Art mondial",
+   "title": "Estimée jusqu’à 7,2 millions d’euros, « l’une des plus belles pièces d’orfèvrerie de l’histoire » exposée exceptionnellement à Paris",
+   "sub": "Connaissance des Arts",
+   "text": "Une inestimable terrine signée Juste-Aurèle Meissonnier sera proposé à la vente des 1er et 2 décembre 2026, durant la « Classic Week » de Christie’s, à Londres. Cet article Estimée jusqu’à 7,2 millions d’euros, « l’une des plus belles pièces d’orfèvrerie de l’histoire » exposée exceptionnellement à Paris est apparu en premier sur Connaissance des Arts .",
+   "date": "À partir du 2 décembre 2026",
+   "deadline": "",
+   "start": "2026-12-02",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estimee-jusqua-72-millions-deuros-lune-des-plus-belles-pieces-dorfevrerie-de-lhistoire-exposee-exceptionnellement-a-paris-11217921/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/christies-art-handler-with-the-meissonnier-tureen-image-1-of-2-tt-width-653-height-635-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793282410000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1nv9mk5",
+   "cat": "Expositions majeures",
+   "title": "À Paris, une galerie de 4 mètres carrés expose des mini-œuvres pour la biennale de la Petite Photographie",
+   "sub": "Beaux Arts Magazine",
+   "text": "En art, la taille, ça compte ? Pour les marchands, oui, le prix augmentant proportionnellement …",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/a-paris-une-galerie-de-4-metres-carres-expose-des-mini-oeuvres-pour-la-biennale-de-la-petite-photographie/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/unebertrand-hugues_2025-06-1300x975.jpg",
+   "ts": 1793275697000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1cm1isq",
+   "cat": "Nouveautés",
+   "title": "Elle propose un dialogue entre héritage orientaliste, modernité marocaine et expressions africaines : Artcurial célèbre l’art marocain et…",
+   "sub": "Aujourd'hui le Maroc",
+   "text": "Elle propose un dialogue entre héritage orientaliste, modernité marocaine et expressions africaines : Artcurial célèbre l’art marocain et africain à Marrakech Aujourd'hui le Maroc",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOVEtHQmxscDh6THdoZXBEYmM5T2w4VEtISTRnQnFuNGdGMVQ3Z0w1c25rUzNnRnBzbzZmUFpkcDVYQlhkYml1QUViZk5EWXR4dkZzUEl3Vy1MTHhXSEJJcWJnWHlkTUpVX0RmQjgyMHRLSVZkdWpPT3pQOTlxZ1lnQjVfMmE3c0g5RUlkWmw1czI3MDdlcVpQNzJialNyWDJpU0FHRnl5a3E2WVBkSVBpQ1VhUmR5Ymc0NHBSdmpmNWF0Y2xuUHdERzE3QkFZQmstSnlBV2NBSHJ4bTJFcUw1Sm5fclgzSU0xWnh0cnFFZW9keDVvdE5LQ0s2ZWt3aktaaHpCT19WSUZkOERzWEhkeWtR?oc=5",
+   "src": "Aujourd'hui le Maroc",
+   "img": "",
+   "ts": 1793271933000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1o4e9pj",
+   "cat": "Expositions majeures",
+   "title": "An Epstein Survivor’s Message for MoMA",
+   "sub": "Hyperallergic",
+   "text": "Dani Bensky explains why the museum must drop Leon Black from its board. Also: The Vatican is serious about protecting artists from AI.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/an-epstein-survivors-message-for-moma/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/moma1200.jpg",
+   "ts": 1793268000000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_14inmub",
+   "cat": "Art mondial",
+   "title": "At 96, Surrealist Painter Cossette Zeno Is Finally Having Her Moment",
+   "sub": "ARTnews",
+   "text": "While most people are sleeping, the Puerto Rican artist is painting late into the night.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/artists/cossette-zeno-surrealist-painter-1234804106/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Zeno_Ni-hablar-del-peluquin-No-Use-to-Talk-about-the-Little-Wig-…-1952.jpg?w=400",
+   "ts": 1793264400000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_mgagag",
+   "cat": "Expositions majeures",
+   "title": "Face au château de Versailles, le centre de restauration des musées de France rouvre l’écrin où les chefs-d’œuvre retrouvent leur éclat",
+   "sub": "Connaissance des Arts",
+   "text": "Après plusieurs années de travaux, l'aile de Sceaux de la Petite Écurie du roi rouvre à Versailles : le C2RMF y retrouve réserves climatisées, laboratoires et ateliers repensés pour la conservation des chefs-d'œuvre des musées de France. Cet article Face au château de Versailles, le centre de restauration des musées de France rouvre l’écrin où les chefs-d’œuvre retrouvent leur éclat est apparu en premier sur…",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/musees/restauration/face-au-chateau-de-versailles-le-centre-de-restauration-des-musees-de-france-rouvre-lecrin-ou-les-chefs-doeuvre-retrouvent-leur-eclat-11217867/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_c2rmf_versailles_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793260836000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_q27inf",
+   "cat": "Expositions majeures",
+   "title": "Salon du Patrimoine Culturel à Paris : 9 savoir-faire rares à découvrir ce weekend au Carrousel du Louvre",
+   "sub": "Connaissance des Arts",
+   "text": "Verre soufflé bicentenaire, parchemin rarissime, éventails en plumes et numérisation 3D de monuments : au Salon International du Patrimoine Culturel 2026, neuf artisans d'exception réinventent le thème « Patrimoine en lumières » au Carrousel du Louvre. Cet article Salon du Patrimoine Culturel à Paris : 9 savoir-faire rares à découvrir ce weekend au Carrousel du Louvre est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/salon-du-patrimoine-culturel-a-paris-9-savoir-faire-rares-a-decouvrir-ce-weekend-au-carrousel-du-louvre-11217744/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_dagues-tt-width-653-height-923-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793253649000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_20n3gn",
    "cat": "Expositions majeures",
@@ -24,7 +195,7 @@
    "img": "",
    "ts": 1793218832000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 3.4
   },
   {
    "id": "auto_1cn84hv",
@@ -43,26 +214,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_romain_duris_fantome_de_l_opera-tt-width-653-height-522-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793214043000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_eb93d0",
-   "cat": "Art mondial",
-   "title": "Works From Agnes Gund’s Collection Head to Christie’s, Led by $8 M. Vija Celmins Painting",
-   "sub": "ARTnews",
-   "text": "Works by Vija Celmins, Alexander Calder, Cy Twombly, and Robert Ryman are among the highlights of the November sales, with proceeds benefiting the Gund Art Foundation.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/agnes-gund-collection-christies-auction-vija-celmins-1234804088/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/CY-TWOMBLY-Untitled.jpg?w=400",
-   "ts": 1793204153000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_l2fzqs",
@@ -81,26 +233,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/relais-damboise_opening_sept_2026-24-1300x732.jpg",
    "ts": 1793203208000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1bau8vt",
-   "cat": "Art mondial",
-   "title": "Outsider Artist Josef Hofer, Whose Developmental Disability Made Him a Target in Nazi-Occupied Austria, Has Died at 80",
-   "sub": "ARTnews",
-   "text": "Hofer, who signed his works “Pepi,” rarely spoke, instead expressing himself through raw, figurative drawings that reflected his own life and observations.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/outsider-artist-josef-hofer-developmental-disability-target-in-nazi-occupied-austria-has-died-at-80-1234804069/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Josef-Hofer-sans-titre-2010.-crayon-de-couleur-et-graphite-sur-papier-29.6-x-42-cm.jpg?w=400",
-   "ts": 1793202874000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_13leogw",
@@ -119,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/ART-CUT-Broteria-Foto-2.jpg",
    "ts": 1793202300000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_1hjbv9n",
@@ -138,7 +271,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/9781636812281_4_Web-1.jpg",
    "ts": 1793202120000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_gxk7vt",
@@ -157,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Kevin-Cohya-Valor-and-family--Cushion-Works--2026.jpeg",
    "ts": 1793201936000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_c5pj5w",
@@ -176,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/LS26_02MissingMountain-HotPink-_install_small.jpg",
    "ts": 1793201700000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_d0o7km",
@@ -195,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1148-MKTG-DuchampHyperAllergicNewsLetter_10.8.jpg",
    "ts": 1793199600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_gtzck2",
@@ -214,7 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/websipa_ap23003143_000011.jpg",
    "ts": 1793198011000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_uraw4w",
@@ -233,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/UConn_School_of_Fine_Arts.JPG",
    "ts": 1793196900000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_6zq4o3",
@@ -252,7 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_large_1-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793190600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_637ola",
@@ -271,26 +404,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une260525_stichelbaut_gitana_094109-6--e.stichelbaut-polaryse-gitana-sa-1300x975.jpg",
    "ts": 1793188821000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_3bnh06",
-   "cat": "Art mondial",
-   "title": "Remembering Ursula von Rydingsvard",
-   "sub": "Hyperallergic",
-   "text": "The monumental sculptor dies at 84; plus, how an artist snuck his own work into The Met, and a dispute over watercolors of Roma victims of the Holocaust.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/remembering-ursula-von-rydingsvard/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/PCZ_3078-1.jpg",
-   "ts": 1793181600000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1370snd",
@@ -309,7 +423,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 8.8
+   "_score": 8.7
   },
   {
    "id": "auto_u85eom",
@@ -328,7 +442,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 5.8
   },
   {
    "id": "auto_xjc735",
@@ -347,26 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/image-2.jpg",
    "ts": 1793135480000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_m9cf07",
-   "cat": "Expositions majeures",
-   "title": "Christie’s First Abu Dhabi Art Auction to Be Accompanied by Exhibition of $60 M.–$80 M. Kandinsky",
-   "sub": "ARTnews",
-   "text": "As Frieze, Sotheby's, and the Guggenheim descend on Abu Dhabi, Christie's will stage its first art auction in the emirate.",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/christies-first-abu-dhabi-art-auction-kandinsky-exhibition-1234803967/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793132591000,
-   "auto": 1,
-   "_score": 3.3
+   "_score": 3.7
   },
   {
    "id": "auto_zv6l9f",
@@ -385,7 +480,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unehenri-de-toulouse-lautrec-la-clownesse-cha-u-kao-1895-huile-sur-carton-58-x-43-cm-paris-musee-dorsay--grandpalaisrmn-ph.-franck-raux-1300x975.jpg",
    "ts": 1793116849000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1q5l81e",
@@ -404,7 +499,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/de-marolles-daphne_rgb_300dpi_20-tt-width-653-height-661-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793115011000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_19o8fus",
@@ -423,26 +518,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/webbdc_remember_me-1-c-11h45-bd-2.jpg",
    "ts": 1793091621000,
    "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_119f7pa",
-   "cat": "Expositions majeures",
-   "title": "« Un micro à la DGSE » : sur Arte, cette série documentaire animée nous plonge dans les coulisses de la vie d’espion",
-   "sub": "Beaux Arts Magazine",
-   "text": "Si vous avez adoré Le Bureau des légendes, cette nouvelle série documentaire d’Arte risque bien …",
-   "date": "Publié le 26 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/un-micro-a-la-dgse-sur-arte-cette-serie-documentaire-animee-nous-plonge-dans-les-coulisses-de-la-vie-despion/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/unevisuel-folle-routine-filatures-micro-dgse-1300x975.jpg",
-   "ts": 1793030422000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 3.5
   },
   {
    "id": "auto_dptbgl",
@@ -461,45 +537,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 8.3
-  },
-  {
-   "id": "auto_mpi3zg",
-   "cat": "Expositions majeures",
-   "title": "Pour sa 31e édition à Paris, le Salon international du Patrimoine culturel joue la carte de la lumière",
-   "sub": "Connaissance des Arts",
-   "text": "Pour sa 31e édition, le Salon international du Patrimoine culturel met en lumière luminaires, dorures et vitraux d'exception : du 29 octobre au 1er novembre, le Carrousel du Louvre célèbre le thème « Patrimoine en lumières ». Cet article Pour sa 31e édition à Paris, le Salon international du Patrimoine culturel joue la carte de la lumière est apparu en premier sur Connaissance des Arts .",
-   "date": "Du 29 octobre 2026 au 1 novembre 2026",
-   "deadline": "",
-   "start": "2026-10-29",
-   "end": "2026-11-01",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/metiers_art/savoir-faire/pour-sa-31e-edition-a-paris-le-salon-international-du-patrimoine-culturel-joue-la-carte-de-la-lumiere-11217550/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_atelier-taduy-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1792994426000,
-   "auto": 1,
-   "_score": 3.4
-  },
-  {
-   "id": "auto_17o96cx",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026 : quand l'art contemporain d'Afrique et de sa diaspora se conjugue au féminin en cinq œuvres",
-   "sub": "franceinfo",
-   "text": "AKAA 2026 : quand l'art contemporain d'Afrique et de sa diaspora se conjugue au féminin en cinq œuvres franceinfo",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNb3ZBVjVfcWFDelh2bTJhMEZOeHFISXcxbUZCVFllTC1TbUNNTVptY3ZIYV90clRVVVRrUHp1ZXFXcDhHMVNhbWpLZzlWNUhmNERrNlpNVWFpczRMV2ozX19jMmE1dk5UX3p0VFV5aWNDM2x4VndrQlNteXlPTlpzQWxQUU05ZnZkUGdxaTI0S3FHa2NscUxvVHI4ODQ3dVY3M0c3VDliQVZuZ0ZxZUNka05qY0FtUE9fbG9WOUtrR3pxc29LQ0tPN3lLZkM0Qk5kZURxcDdxb3lxOVdSbkIybzM0WldMU2tsS0xEeGJON1ZUdzdtNG83dG02M2lNdHdLRnZMVg?oc=5",
-   "src": "franceinfo",
-   "img": "",
-   "ts": 1792924661000,
-   "auto": 1,
-   "_score": 4.3
+   "_score": 8.2
   },
   {
    "id": "auto_1yyc40p",
@@ -518,7 +556,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 6.8
   },
   {
    "id": "auto_1dmks87",
@@ -537,7 +575,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.5
   },
   {
    "id": "auto_9byqja",
@@ -556,7 +594,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_ey4fnl",
@@ -575,7 +613,7 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_row3aj",
@@ -594,7 +632,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.6
+   "_score": 14.4
   },
   {
    "id": "auto_3osz7o",
@@ -613,7 +651,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 3.3
+   "_score": 5.9
   },
   {
    "id": "auto_brxur5",
@@ -632,7 +670,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 7
+   "_score": 6.9
   },
   {
    "id": "auto_fjyvj5",
@@ -651,7 +689,7 @@
    "img": "",
    "ts": 1792560000000,
    "auto": 1,
-   "_score": 6
+   "_score": 5.9
   },
   {
    "id": "auto_mvb0j3",
@@ -670,7 +708,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 6.8
   },
   {
    "id": "auto_1c7a0pg",
@@ -689,7 +727,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_dy22a3",
@@ -708,7 +746,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_1x0gubd",
@@ -727,7 +765,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_embi0p",
@@ -746,7 +784,7 @@
    "img": "",
    "ts": 1792322523000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_6e41j6",
@@ -765,7 +803,7 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_1jdoie7",
@@ -784,7 +822,7 @@
    "img": "",
    "ts": 1792189016000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_qspgid",
@@ -803,7 +841,7 @@
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_qehbx7",
@@ -822,7 +860,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 2.8
   },
   {
    "id": "auto_18ki7iu",
@@ -841,7 +879,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
    "id": "auto_pq3mpi",
@@ -860,7 +898,7 @@
    "img": "",
    "ts": 1792047600000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
    "id": "auto_brpy0l",
@@ -879,7 +917,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_2l6hyz",
@@ -898,7 +936,7 @@
    "img": "",
    "ts": 1791874800000,
    "auto": 1,
-   "_score": 4
+   "_score": 3.9
   },
   {
    "id": "auto_1vejymo",
@@ -917,7 +955,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 11.8
+   "_score": 11.7
   },
   {
    "id": "auto_d3k04k",
@@ -939,25 +977,6 @@
    "_score": 11
   },
   {
-   "id": "auto_u7hjhf",
-   "cat": "Expositions majeures",
-   "title": "75 artistes à la Biennale de Dakar",
-   "sub": "Le Quotidien de l'Art",
-   "text": "75 artistes à la Biennale de Dakar Le Quotidien de l'Art",
-   "date": "Publié le 6 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS1RLc2JTZjhCX3diRUVMRS1vcXBCNi1MR3dhNFV4QjA0NnBmcm5SeXRDWlBKXzZUUHh4aTc2TUtOeGV5dzlVSXBOWFNlOW1kNWdyX09BemtMTmt0eFdSaGNxUlI2SDlhWkIwYzhPT2NacXBoejZqWjdxUEt6bmU3WnRKUHZYT0p2UFQwd0ZmeUZsTGlkRExrMA?oc=5",
-   "src": "Le Quotidien de l'Art",
-   "img": "",
-   "ts": 1791270000000,
-   "auto": 1,
-   "_score": 3
-  },
-  {
    "id": "auto_eyy2sp",
    "cat": "Appels à candidatures",
    "title": "Open Call: Grants for Creative and Artistic Practitioners",
@@ -974,26 +993,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -3.5
-  },
-  {
-   "id": "auto_1aaidmw",
-   "cat": "Expositions majeures",
-   "title": "Morad Montazami, directeur artistique de la Biennale de Dakar: «C’est dans une certaine adversité qu’on trouve des ressources inattendues",
-   "sub": "Le360",
-   "text": "Morad Montazami, directeur artistique de la Biennale de Dakar: «C’est dans une certaine adversité qu’on trouve des ressources inattendues Le360",
-   "date": "Publié le 3 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPT1gxbXU4eXRyc2VQQUEzZE9FRzBzNlgxVjM1bGVyN3pxbVEwRzR1X09vakpWVG9PdWxSWUFobUF4RlJlVEwwQXdkaGp4WHJWY2tleklwVFdYeGxwVmFxNjZwSHFUSW9JdURWeDBjQzRFS01udEhxMFVnOHZsTUhJVC1pb0l2NGhhODViWDFwOTdYc2d4Ty1JZzlHNjZXSzdkT3g4M0lRazVRVFZERUlYZkxZWVlfUGRWeUx0eU9FS0kzV3pES25PMURKNWNoTmllUmJXZTBiR3Y2TG5oWW9teWE2RWgtN2pvR3c?oc=5",
-   "src": "Le360",
-   "img": "",
-   "ts": 1791010800000,
-   "auto": 1,
-   "_score": 3
+   "_score": -5
   },
   {
    "id": "auto_19h2dz7",
@@ -1031,7 +1031,7 @@
    "img": "",
    "ts": 1790578800000,
    "auto": 1,
-   "_score": 7
+   "_score": 5.5
   },
   {
    "id": "auto_1enjwke",
