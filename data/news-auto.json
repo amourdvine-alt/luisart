@@ -1,30 +1,220 @@
 {
- "updated": "2026-10-30T05:55:24.703Z",
+ "updated": "2026-10-30T15:57:32.013Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 853
+  "read": 904
  },
  "count": 60,
  "items": [
   {
-   "id": "auto_bazucj",
+   "id": "auto_cdtx21",
    "cat": "Expositions majeures",
-   "title": "MoMA, Centre Pompidou, and M+ Will Treat Their Holdings as One Collection in Unprecedented Alliance",
-   "sub": "ARTnews",
-   "text": "“If we succeed, we will be more than the sum of our parts, and I think that is something quite new,” Pompidou president Laurent Le Bon said.",
+   "title": "Surprise! US Pavilion Needs More Cash to Ship Works Home",
+   "sub": "Hyperallergic",
+   "text": "Commissioner Jenni Parido sent a letter to donors pleading for \"urgent funding\" for deinstallation and shipping as the Venice Biennale comes to an end.",
    "date": "Publié le 30 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://www.artnews.com/art-news/news/moma-centre-pompidou-m-plus-alliance-shared-collection-1234804101/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793330100000,
+   "link": "https://hyperallergic.com/surprise-us-pavilion-needs-more-cash-to-ship-works-home/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/us-pavilion1.jpg",
+   "ts": 1793374925000,
    "auto": 1,
-   "_score": 5
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1otxi9g",
+   "cat": "Art mondial",
+   "title": "A View From the Easel: Anna Pajak",
+   "sub": "Hyperallergic",
+   "text": "“I wanted it to feel like a chapel, a place for everything I believe in. My painting chapel.”",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/a-view-from-the-easel-anna-pajak/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/anna-pajak-outside.jpeg",
+   "ts": 1793371670000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_foz8q4",
+   "cat": "Art mondial",
+   "title": "Otis College of Art and Design in LA Offers a Two-Year MFA Fine Arts Degree Program",
+   "sub": "Hyperallergic",
+   "text": "Refine your artistic vision and join a diverse community at the first professional school of the arts in Los Angeles.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/otis-college-of-art-and-design-in-la-offers-a-two-year-mfa-degree-program/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/OtisCollegeMFAFineArts.jpeg",
+   "ts": 1793371500000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_ib8r6j",
+   "cat": "Art mondial",
+   "title": "Fabien Lacouture : « Roger Federer a fait de son jeu et de sa personnalité une œuvre d’art »",
+   "sub": "Beaux Arts Magazine",
+   "text": "Roger Federer peut-il être considéré comme un artiste ? Dans un essai publié aux éditions …",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/fabien-lacouture-roger-federer-a-fait-de-son-jeu-et-de-sa-personnalite-une-oeuvre-dart/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/unesipa_shutterstock41404749_000002-2-1300x975.jpg",
+   "ts": 1793362860000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1p4p8t0",
+   "cat": "Expositions majeures",
+   "title": "« Une sorte de poupée Barbie » : au Domaine royal de Marly, Madame Du Barry prend sa revanche avec près de 150 œuvres",
+   "sub": "Connaissance des Arts",
+   "text": "Basée sur la biographie de la dernière maîtresse de Louis XV par Emmanuel de Waresquiel et montée par Karen Chastagnol, l’exposition du musée du Domaine royal de Marly réunit près de cent cinquante œuvres racontant la vie de Jeanne Bécu devenue la comtesse Du Barry. Cet article « Une sorte de poupée Barbie » : au Domaine royal de Marly, Madame Du Barry prend sa revanche avec près de 150 œuvres est apparu en premier…",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/une-sorte-de-poupee-barbie-au-domaine-royal-de-marly-madame-du-barry-prend-sa-revanche-avec-pres-de-150-oeuvres-11217855/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_du_barry_1-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793361652000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_yn4tnc",
+   "cat": "Nouveautés",
+   "title": "Brutal correction for contemporary African art but modern holds up",
+   "sub": "African Business",
+   "text": "Brutal correction for contemporary African art but modern holds up African Business",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdjNwMEMxcS1Vb3dwOWZKcVdRV2NPQzlyLVhuN3RPZE1GQXExSzZnbTdNT0JiQlpwYWlEOEJoOE04cDFlU1FYY0ZtTUdOUmVjN0Y5SUVhdktnNy1rdF9IcFJsbVktQ08tMU44bVVsaFJfTEo2QUtnUndFRlEtdjV1X1EzYkNfRnptTzFHTFk2NFlMMlVpUmMtQXhWbWpiMmc0QjNsRC1ySzRmVktPenFkaFpR?oc=5",
+   "src": "African Business",
+   "img": "",
+   "ts": 1793358139000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1pl2j5n",
+   "cat": "Expositions majeures",
+   "title": "A Retrospective Introduces Francis Picabia to a New Generation—with Funhouse Mirrors and a Peep Show",
+   "sub": "ARTnews",
+   "text": "“Picabia. Open the Gates of Night” is curated by the artist’s great-granddaughter, Anne Berest.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-in-america/aia-reviews/francis-picabia-retrospective-palazzo-reale-milan-anne-berest-1234804213/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/01_GC_Francis-Picabia-Lano-c.1938-Pencil-gouache-and-oil-on-cardboard-Private-collection-Archives-Comite-Picabia.jpg?w=400",
+   "ts": 1793350800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_7wf4er",
+   "cat": "Art mondial",
+   "title": "In Postwar Rural France, Alexander Calder Found Respite from Pressures of Fame and a Chance to Dream Big",
+   "sub": "ARTnews",
+   "text": "“He was using being there to quiet his nervous system,” Alexander S.C. Rower, the artist's grandson and president of the Calder Foundation said.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/alexander-calder-exhibition-hauser-and-wirth-paris-1234804262/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/CALDEiv-HWP-2610-NB-view05-hires.jpg?w=400",
+   "ts": 1793350800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_lwnbzz",
+   "cat": "Appels à candidatures",
+   "title": "Ville et Métropole de Montpellier : lancement d’un appel à candidatures pour accueillir des artistes locaux en résidence",
+   "sub": "Midi Libre",
+   "text": "Ville et Métropole de Montpellier : lancement d’un appel à candidatures pour accueillir des artistes locaux en résidence Midi Libre",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPY2pKY3pDcG42VzVSN09NTDEtTG1ta1FqYkNNcUhta0MwV0szOWowV1ZENHF3b3hVeXVxSHVZbUp2ZWRxZV9SbFhET182TW52MFBvMlM3enl5ZktVNjRTLVZuRzZOaENzYS10clB4X0xoelo4SEszenZRYXlBYXFuaER6Yk9STnBiLWxjcWx6dm5vX1A0clhTMkRjTGhDSE9HNUxPcmJRNV9UVkRxV1d3VTdleFFMWFhHUDllVXJpNDBQc2QzZG1IMG1PTWdxMDZvcWMySWpPRGQxT1BGUE9DeWc1Ykg0QkplUFN1TXlLRGtVeWgxR2l6aG9B?oc=5",
+   "src": "Midi Libre",
+   "img": "",
+   "ts": 1793347860000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_j19596",
+   "cat": "Art mondial",
+   "title": "Un trésor du MADD Bordeaux : la restauration d’un somptueux coffret du XVIIe siècle éclaire les débuts méconnus de l’ébénisterie française",
+   "sub": "Connaissance des Arts",
+   "text": "La restauration d’un coffret du XVIIe siècle révèle bien plus qu’un simple objet précieux : elle éclaire les débuts de l’ébénisterie en France. Entre enquête scientifique, choix de conservation et réattribution, l’œuvre raconte une histoire renouvelée du mobilier. Cet article Un trésor du MADD Bordeaux : la restauration d’un somptueux coffret du XVIIe siècle éclaire les débuts méconnus de l’ébénisterie française est…",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/musees/restauration/un-tresor-du-madd-bordeaux-la-restauration-dun-somptueux-coffret-du-xviie-siecle-eclaire-les-debuts-meconnus-de-lebenisterie-francaise-11217873/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_coffret_1-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793347224000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_10c4yqh",
+   "cat": "Art mondial",
+   "title": "« Le seul exemplaire connu » : un rarissime bureau d’un grand décorateur des années 1950 estimé jusqu’à 50 000 euros découvert dans une cave",
+   "sub": "Connaissance des Arts",
+   "text": "La maison de vente Gros et Delettrez a découvert dans une cave l’unique exemplaire connu du bureau Œuf imaginé en 1954 par Jean Royère. Il appartient à un ensemble qui comptait à l’origine une dizaine de pièces. Cet article « Le seul exemplaire connu » : un rarissime bureau d’un grand décorateur des années 1950 estimé jusqu’à 50 000 euros découvert dans une cave est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/le-seul-exemplaire-connu-un-rarissime-bureau-dun-grand-decorateur-des-annees-1950-estime-jusqua-50-000-euros-decouvert-dans-une-cave-11217933/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_bureau_oeuf_royere_2-tt-width-653-height-604-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793340045000,
+   "auto": 1,
+   "_score": 5.4
   },
   {
    "id": "auto_jzywik",
@@ -43,26 +233,7 @@
    "img": "",
    "ts": 1793313993000,
    "auto": 1,
-   "_score": 8.9
-  },
-  {
-   "id": "auto_1nh298j",
-   "cat": "Expositions majeures",
-   "title": "U.S. Pavilion at Venice Biennale Is $1 M. Short, and Its Sculptures May Be Stuck in Italy",
-   "sub": "ARTnews",
-   "text": "Despite months of controversy, the United States managed to get Alma Allen's sculptures to Venice. Getting them home is proving more difficult.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/u-s-pavilion-venice-biennale-1-million-short-alma-allen-1234804285/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793309831000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 7.4
   },
   {
    "id": "auto_qeyaa2",
@@ -81,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/documenta.jpg",
    "ts": 1793308506000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_ado11q",
@@ -100,7 +271,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-584663406.jpg",
    "ts": 1793306199000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_5rdh82",
@@ -119,7 +290,7 @@
    "img": "",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": 8.9
+   "_score": 8.8
   },
   {
    "id": "auto_1d295ua",
@@ -138,7 +309,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/07/GettyImages-2286438756.jpg?w=400",
    "ts": 1793301853000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_2s42kf",
@@ -157,26 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/horro2.jpg",
    "ts": 1793300037000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1xkpdjn",
-   "cat": "Expositions majeures",
-   "title": "Suspected Thieves Flee Dresden Museum Complex After Being Spotted by Security Guard",
-   "sub": "ARTnews",
-   "text": "Two unidentified men entered the Zwinger's open courtyard through the Crown Gate. Whatever they had planned, they didn't get very far.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/dresden-zwinger-museum-attempted-burglary-porcelain-collection-1234804220/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793295573000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 5.3
   },
   {
    "id": "auto_1816b11",
@@ -195,7 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/10/webles-tuileries-en-automne-1300x975.jpg",
    "ts": 1793294172000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_93xmdx",
@@ -214,26 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/260929_PW_Install_043.jpg",
    "ts": 1793293596000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1jlntrg",
-   "cat": "Événements",
-   "title": "Dallas Art Fair Is Moving to Southern Methodist University in 2027",
-   "sub": "ARTnews",
-   "text": "The fair plans to work with SMU on internships and educational programs connecting students to the art world.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/dallas-art-fair-smu-campus-relocation-2027-1234804201/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793293200000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 5.3
   },
   {
    "id": "auto_r2bri9",
@@ -252,26 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_dernier_train_pour_busan-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793290505000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1d6hdh3",
-   "cat": "Expositions majeures",
-   "title": "Naomi Beckwith Adds Four to Documenta 16’s Curatorial Team, Including Artist Raven Chacon",
-   "sub": "ARTnews",
-   "text": "Chacon will be a curator-at-large.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/documenta-16-curatorial-team-expansion-raven-chacon-1234804205/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793289518000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 5.3
   },
   {
    "id": "auto_122s6ow",
@@ -290,7 +404,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/bawj-5-3.jpg",
    "ts": 1793286900000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1whfsrz",
@@ -309,7 +423,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/christies-art-handler-with-the-meissonnier-tureen-image-1-of-2-tt-width-653-height-635-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793282410000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1nv9mk5",
@@ -328,7 +442,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebertrand-hugues_2025-06-1300x975.jpg",
    "ts": 1793275697000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1cm1isq",
@@ -347,7 +461,7 @@
    "img": "",
    "ts": 1793271933000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_1o4e9pj",
@@ -366,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/moma1200.jpg",
    "ts": 1793268000000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_mgagag",
@@ -385,7 +499,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_c2rmf_versailles_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793260836000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_q27inf",
@@ -404,7 +518,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_dagues-tt-width-653-height-923-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793253649000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1cn84hv",
@@ -423,7 +537,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_romain_duris_fantome_de_l_opera-tt-width-653-height-522-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793214043000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_l2fzqs",
@@ -442,83 +556,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/relais-damboise_opening_sept_2026-24-1300x732.jpg",
    "ts": 1793203208000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_13leogw",
-   "cat": "Art mondial",
-   "title": "Vatican Exhibition Series Centers \"Fundamentally Human\" Art Over AI",
-   "sub": "Hyperallergic",
-   "text": "A triennale across seven cities expands on Pope Leo XIV's message that artificial intelligence models “lack the affective, relational and spiritual perspective” necessary to create art.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/vatican-exhibition-series-centers-fundamentally-human-art-over-ai/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/ART-CUT-Broteria-Foto-2.jpg",
-   "ts": 1793202300000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1hjbv9n",
-   "cat": "Art mondial",
-   "title": "Beverly Buchanan at the Raw Edge of Art",
-   "sub": "Hyperallergic",
-   "text": "Instead of leaving the South behind, the polymath artist carried it into her writings, zines, paintings, and “shack sculptures” that echo the architecture of her childhood.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/beverly-buchanan-at-the-raw-edge-of-art/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/9781636812281_4_Web-1.jpg",
-   "ts": 1793202120000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_gxk7vt",
-   "cat": "Art mondial",
-   "title": "San Francisco’s Galleries Explore Alternative Routes for Survival",
-   "sub": "Hyperallergic",
-   "text": "Amid a cost-of-living crisis and the closure of local arts organizations, some are turning to different models to foster community, from nonprofit status to retail businesses.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/san-franciscos-galleries-explore-alternative-routes-for-survival/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Kevin-Cohya-Valor-and-family--Cushion-Works--2026.jpeg",
-   "ts": 1793201936000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_c5pj5w",
-   "cat": "Art mondial",
-   "title": "Lisa Sanditz’s Seismic Sublime",
-   "sub": "Hyperallergic",
-   "text": "Her environmental paintings ask: What can we do to change our destiny? What effect can we have on the place we inhabit?",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/lisa-sanditzs-seismic-sublime/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/LS26_02MissingMountain-HotPink-_install_small.jpg",
-   "ts": 1793201700000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_gtzck2",
@@ -537,45 +575,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/websipa_ap23003143_000011.jpg",
    "ts": 1793198011000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_6zq4o3",
-   "cat": "Art mondial",
-   "title": "Dubuffet, Arman, Tinguely : l’art contemporain reprend les commandes de l’île Seguin",
-   "sub": "Connaissance des Arts",
-   "text": "Même si sa desserte mérite d’être améliorée pour l’instant, Le Large devient dès son ouverture un lieu indispensable pour l’art contemporain à Paris tant son propos et son ambition portent en germe d’incroyables promesses. Cet article Dubuffet, Arman, Tinguely : l’art contemporain reprend les commandes de l’île Seguin est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/dubuffet-arman-tinguely-lart-contemporain-reprend-les-commandes-de-lile-seguin-11217802/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_large_1-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793190600000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_637ola",
-   "cat": "Art mondial",
-   "title": "L’art au départ de la Route du Rhum avec le Maxi Edmond de Rothschild Gitana 18",
-   "sub": "Beaux Arts Magazine",
-   "text": "Dimanche 1er novembre, le Maxi Edmond de Rothschild Gitana 18 s’élancera de Saint-Malo pour la …",
-   "date": "À partir du 1 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-01",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/reportages/lart-au-depart-de-la-route-du-rhum-avec-le-maxi-edmond-de-rothschild-gitana-18/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/une260525_stichelbaut_gitana_094109-6--e.stichelbaut-polaryse-gitana-sa-1300x975.jpg",
-   "ts": 1793188821000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1370snd",
@@ -594,7 +594,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 8.5
+   "_score": 8.4
   },
   {
    "id": "auto_u85eom",
@@ -613,7 +613,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 2.8
   },
   {
    "id": "auto_dptbgl",
@@ -632,7 +632,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.9
   },
   {
    "id": "auto_1yyc40p",
@@ -651,7 +651,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.6
   },
   {
    "id": "auto_7qo9i4",
@@ -670,7 +670,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_1dmks87",
@@ -689,7 +689,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 5
+   "_score": 6.3
   },
   {
    "id": "auto_9byqja",
@@ -708,7 +708,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 5
+   "_score": 6.3
   },
   {
    "id": "auto_ey4fnl",
@@ -727,7 +727,7 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_1quh8rp",
@@ -746,7 +746,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 6.2
   },
   {
    "id": "auto_row3aj",
@@ -765,7 +765,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.3
+   "_score": 14.2
   },
   {
    "id": "auto_3osz7o",
@@ -784,7 +784,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_brxur5",
@@ -803,7 +803,26 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
+  },
+  {
+   "id": "auto_fjyvj5",
+   "cat": "Nouveautés",
+   "title": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger",
+   "sub": "Radio VINCI Autoroutes",
+   "text": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger Radio VINCI Autoroutes",
+   "date": "Publié le 21 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1pKRENiNXlUOHNxMzh4NjliNWh3djlBSU5pUXVScW81QXJ6aHFadEhhN0dJbmswcmY5eXlwUVVCTWltcFJ2cS15OGxFd044OU5lTEJCVll3T181dG9ISkdsV2VwYnlCUGpveTlEaEZtaDg2RUtCWC15X1RnaU1TZk1wd1FZVXF1c0R6eklpZWQ1OWF5SlhndzNNQXNzeEw1OEVIY2VxOVlBUk1KRDVOeTA4c0RTWWVXT2xzQUlZMENmcDBpYlFxY0lyRW02V3lINHZJQVgweG45QQ?oc=5",
+   "src": "Radio VINCI Autoroutes",
+   "img": "",
+   "ts": 1792560000000,
+   "auto": 1,
+   "_score": 5.6
   },
   {
    "id": "auto_mvb0j3",
@@ -822,7 +841,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 3.8
   },
   {
    "id": "auto_1c7a0pg",
@@ -841,7 +860,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_dy22a3",
@@ -860,7 +879,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_guyq2n",
@@ -879,7 +898,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1x0gubd",
@@ -898,26 +917,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_6e41j6",
-   "cat": "Nouveautés",
-   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
-   "sub": "Africa News Agency",
-   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
-   "date": "Publié le 17 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMm5Md2ZVbGFFT3VJZ2pqNzB3b2hQX2h2bEdYQTFocXZZbU9IWF9TcnpiN251NzZQNHpiZ3dmelo5RTRSaERRT1dMZUhQR1dGTjgtZWhKV3l6NWoyLXdJaWFkNk1iMlJ3NGw3X19RbktVUmd4eEVTUTA3TVRFZHhvcmhheE8ySHpyeHVFVjlPbHpPUUo4aGp4Znp1X2J1WVZLakJfWUxnTFZKSEIwSWpR?oc=5",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792226088000,
-   "auto": 1,
-   "_score": 4.8
+   "_score": 5.2
   },
   {
    "id": "auto_qehbx7",
@@ -936,7 +936,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 1.3
+   "_score": -0.2
   },
   {
    "id": "auto_brpy0l",
@@ -955,7 +955,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 8
+   "_score": 6.5
   },
   {
    "id": "auto_1vejymo",
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 11.5
+   "_score": 11.4
   },
   {
    "id": "auto_d3k04k",
@@ -1031,7 +1031,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -6.5
+   "_score": -8
   },
   {
    "id": "auto_19h2dz7",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 4
   }
  ]
 }
