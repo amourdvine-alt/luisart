@@ -1,12 +1,259 @@
 {
- "updated": "2026-10-29T16:01:49.861Z",
+ "updated": "2026-10-30T05:55:24.703Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 772
+  "read": 853
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_bazucj",
+   "cat": "Expositions majeures",
+   "title": "MoMA, Centre Pompidou, and M+ Will Treat Their Holdings as One Collection in Unprecedented Alliance",
+   "sub": "ARTnews",
+   "text": "“If we succeed, we will be more than the sum of our parts, and I think that is something quite new,” Pompidou president Laurent Le Bon said.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/moma-centre-pompidou-m-plus-alliance-shared-collection-1234804101/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793330100000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_jzywik",
+   "cat": "Appels à candidatures",
+   "title": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
+   "sub": "www.thisiscolossal.com",
+   "text": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists www.thisiscolossal.com",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXMzSDEycFZ3V2RKZHZLdUFUaVMxTFdhdWlaNTFBQnJseS1vRG9Ubmp5Q29mZnB6TE5kRlVvSnVGbjVLa1kwVXJMOUR3aExlUGtjS094b003VXRWcjFPamNzSTYwUVNxWFdVOG5ITmpTdkdkVGtvc2x1akJVU09oNUFJN1VCbFNiWmdYbEtaZjZjTWFjdThlT2Qxd2VRVjRqRElfemVmTHI5S0ItVXVXYzVOZw?oc=5",
+   "src": "www.thisiscolossal.com",
+   "img": "",
+   "ts": 1793313993000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_1nh298j",
+   "cat": "Expositions majeures",
+   "title": "U.S. Pavilion at Venice Biennale Is $1 M. Short, and Its Sculptures May Be Stuck in Italy",
+   "sub": "ARTnews",
+   "text": "Despite months of controversy, the United States managed to get Alma Allen's sculptures to Venice. Getting them home is proving more difficult.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/u-s-pavilion-venice-biennale-1-million-short-alma-allen-1234804285/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793309831000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_qeyaa2",
+   "cat": "Expositions majeures",
+   "title": "Documenta 16 Names Four New Curatorial Team Members",
+   "sub": "Hyperallergic",
+   "text": "The embattled German exhibition's latest appointments, artist Catherine Opie wins a Yale University award, and Dallas Art Fair partners with … a university?",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/documenta-16-names-four-new-curatorial-team-members/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/documenta.jpg",
+   "ts": 1793308506000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_ado11q",
+   "cat": "Art mondial",
+   "title": "How Édouard Manet's Black Cat Became a Symbol of Modernity",
+   "sub": "Hyperallergic",
+   "text": "Long associated with witchcraft and bad luck, the black feline became an emblem of artistic rebellion and urban life in 19th-century Paris.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/how-edouard-manets-black-cat-became-a-symbol-of-modernity/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-584663406.jpg",
+   "ts": 1793306199000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_5rdh82",
+   "cat": "Appels à candidatures",
+   "title": "Appel à candidatures pour les Résidences artistiques \"Darkoum\" ouvert jusqu'au 30 novembre",
+   "sub": "Maroc24",
+   "text": "Appel à candidatures pour les Résidences artistiques \"Darkoum\" ouvert jusqu'au 30 novembre Maroc24",
+   "date": "Date limite : 30 novembre 2026",
+   "deadline": "2026-11-30",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkZnU2tveDFGSDM4ZjZRNmVKY3hwT1NYWjJXbl9IeUpKdTZnUWxzaDhneDEtM0swR1VSdG1XNGVpdFBURXJ2czVSRE5XeDRyUUdzS1lKOVhLV21SYXp5QXN6Wnd2TzhtT0N2bWZDZE5WQU1YOTdkWDBUbEtKeXo2dDkxSGRZY25zVXo3bzhwLTFTVWlaRmVnSnFCcUhDVVJSSDZjUElJZVZrdlNMaVF2QWNBYVJCUzM2TjJVczk3Z0Q?oc=5",
+   "src": "Maroc24",
+   "img": "",
+   "ts": 1793305740000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_1d295ua",
+   "cat": "Expositions majeures",
+   "title": "After a Museum Explores Homes Destroyed by US-Made Munitions, House Republicans Demand Information on Smithsonian’s Curatorial Process",
+   "sub": "ARTnews",
+   "text": "A commissioned project by Mona Chalabi and SITU Research about ‘domicide’ in Iraq, Syria and Gaza raised the lawmakers’ ire.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/house-republicans-demand-smithsonian-curatorial-process-1234804234/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/07/GettyImages-2286438756.jpg?w=400",
+   "ts": 1793301853000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_2s42kf",
+   "cat": "Expositions majeures",
+   "title": "Why Do Horror Films Have Such a Hold on Our Imaginations?",
+   "sub": "Hyperallergic",
+   "text": "An exhibition at the Academy Museum explores the transgressive power of scary movies, channeling our deepest fears about life, death, and the unknown.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/why-do-horror-films-have-such-a-hold-on-our-imaginations/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/horro2.jpg",
+   "ts": 1793300037000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1xkpdjn",
+   "cat": "Expositions majeures",
+   "title": "Suspected Thieves Flee Dresden Museum Complex After Being Spotted by Security Guard",
+   "sub": "ARTnews",
+   "text": "Two unidentified men entered the Zwinger's open courtyard through the Crown Gate. Whatever they had planned, they didn't get very far.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/dresden-zwinger-museum-attempted-burglary-porcelain-collection-1234804220/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793295573000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_1816b11",
+   "cat": "Expositions majeures",
+   "title": "Que faire à Paris ce 1er novembre ? Quels musées sont ouverts ?",
+   "sub": "Beaux Arts Magazine",
+   "text": "Cette année, le 1er novembre est également un dimanche… Pour vous y retrouver, on fait …",
+   "date": "À partir du 1 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-01",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/que-faire-a-paris-ce-1er-novembre-quels-musees-sont-ouverts/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2024/10/webles-tuileries-en-automne-1300x975.jpg",
+   "ts": 1793294172000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_93xmdx",
+   "cat": "Art mondial",
+   "title": "Before AI There Was the Octopus",
+   "sub": "Hyperallergic",
+   "text": "Helsinki-based artist Tuomas Laitinen gives us an intelligence with no central brain, no fixed shape, and no interest in being legible to us.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/before-ai-there-was-the-octopus/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/260929_PW_Install_043.jpg",
+   "ts": 1793293596000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1jlntrg",
+   "cat": "Événements",
+   "title": "Dallas Art Fair Is Moving to Southern Methodist University in 2027",
+   "sub": "ARTnews",
+   "text": "The fair plans to work with SMU on internships and educational programs connecting students to the art world.",
+   "date": "Publié le 29 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/dallas-art-fair-smu-campus-relocation-2027-1234804201/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793293200000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_r2bri9",
+   "cat": "Expositions majeures",
+   "title": "Visites guidées, cinéma, nocturnes… 5 meilleures idées de sorties au musée pour Halloween",
+   "sub": "Connaissance des Arts",
+   "text": "Les soirs d’Halloween à Paris, ce ne sont pas les idées qui manquent : 5 musées et institutions proposent leur propre vision originale du 31 octobre. Cet article Visites guidées, cinéma, nocturnes… 5 meilleures idées de sorties au musée pour Halloween est apparu en premier sur Connaissance des Arts .",
+   "date": "À partir du 31 octobre 2026",
+   "deadline": "",
+   "start": "2026-10-31",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/visites-guidees-cinema-nocturnes-5-meilleures-idees-de-sorties-au-musee-pour-halloween-11217940/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_dernier_train_pour_busan-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793290505000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_1d6hdh3",
    "cat": "Expositions majeures",
@@ -24,7 +271,7 @@
    "img": "",
    "ts": 1793289518000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_122s6ow",
@@ -43,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/bawj-5-3.jpg",
    "ts": 1793286900000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1whfsrz",
@@ -62,7 +309,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/christies-art-handler-with-the-meissonnier-tureen-image-1-of-2-tt-width-653-height-635-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793282410000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1nv9mk5",
@@ -81,7 +328,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebertrand-hugues_2025-06-1300x975.jpg",
    "ts": 1793275697000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1cm1isq",
@@ -100,7 +347,7 @@
    "img": "",
    "ts": 1793271933000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_1o4e9pj",
@@ -119,26 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/moma1200.jpg",
    "ts": 1793268000000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_14inmub",
-   "cat": "Art mondial",
-   "title": "At 96, Surrealist Painter Cossette Zeno Is Finally Having Her Moment",
-   "sub": "ARTnews",
-   "text": "While most people are sleeping, the Puerto Rican artist is painting late into the night.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/artists/cossette-zeno-surrealist-painter-1234804106/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Zeno_Ni-hablar-del-peluquin-No-Use-to-Talk-about-the-Little-Wig-…-1952.jpg?w=400",
-   "ts": 1793264400000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_mgagag",
@@ -157,7 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_c2rmf_versailles_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793260836000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_q27inf",
@@ -176,26 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_dagues-tt-width-653-height-923-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793253649000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_20n3gn",
-   "cat": "Expositions majeures",
-   "title": "Leah Ke Yi Zheng Joins Antenna Space, Pérez Art Museum Miami to Honor Nicolas Berggruen, and More: Industry Moves for October 28, 2026",
-   "sub": "ARTnews",
-   "text": "Plus, Vielmetter now represents Patrick Eugène and Sandra Terdjman named Bard's 2026–27 Keith Haring Chair in Art and Activism.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-28",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/market/leah-ke-yi-zheng-nicolas-berggruen-industry-moves-1234804150/",
-   "src": "ARTnews",
-   "img": "",
-   "ts": 1793218832000,
-   "auto": 1,
-   "_score": 3.4
+   "_score": 5.3
   },
   {
    "id": "auto_1cn84hv",
@@ -214,7 +423,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_romain_duris_fantome_de_l_opera-tt-width-653-height-522-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793214043000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_l2fzqs",
@@ -233,7 +442,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/relais-damboise_opening_sept_2026-24-1300x732.jpg",
    "ts": 1793203208000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_13leogw",
@@ -252,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/ART-CUT-Broteria-Foto-2.jpg",
    "ts": 1793202300000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1hjbv9n",
@@ -271,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/9781636812281_4_Web-1.jpg",
    "ts": 1793202120000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_gxk7vt",
@@ -290,7 +499,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Kevin-Cohya-Valor-and-family--Cushion-Works--2026.jpeg",
    "ts": 1793201936000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_c5pj5w",
@@ -309,26 +518,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/LS26_02MissingMountain-HotPink-_install_small.jpg",
    "ts": 1793201700000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_d0o7km",
-   "cat": "Expositions majeures",
-   "title": "Discover Marcel Duchamp at the Philadelphia Museum of Art",
-   "sub": "Hyperallergic",
-   "text": "See 300+ unique works by Marcel Duchamp, including the permanently installed masterpiece “Étant donnés”, exclusively at the Philadelphia Museum of Art.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/discover-marcel-duchamp-at-the-philadelphia-museum-of-art/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1148-MKTG-DuchampHyperAllergicNewsLetter_10.8.jpg",
-   "ts": 1793199600000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_gtzck2",
@@ -347,26 +537,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/websipa_ap23003143_000011.jpg",
    "ts": 1793198011000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_uraw4w",
-   "cat": "Art mondial",
-   "title": "University of Connecticut Offers a Funded MFA in Studio Art",
-   "sub": "Hyperallergic",
-   "text": "Develop your creative practice. Gain teaching experience. Join a community of artists and educators.",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/university-of-connecticut-offers-a-fully-funded-mfa-in-studio-art/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/UConn_School_of_Fine_Arts.JPG",
-   "ts": 1793196900000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_6zq4o3",
@@ -385,7 +556,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_large_1-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793190600000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_637ola",
@@ -404,7 +575,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une260525_stichelbaut_gitana_094109-6--e.stichelbaut-polaryse-gitana-sa-1300x975.jpg",
    "ts": 1793188821000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1370snd",
@@ -423,7 +594,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 8.7
+   "_score": 8.5
   },
   {
    "id": "auto_u85eom",
@@ -442,83 +613,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 5.8
-  },
-  {
-   "id": "auto_xjc735",
-   "cat": "Expositions majeures",
-   "title": "Artist Sneaks His Work Into the Met Museum",
-   "sub": "Hyperallergic",
-   "text": "David Mitlaski says his oil pastel painting of the Met Gala captures “A-list celebrities prancing, while the world outside the museum gates is collapsing.”",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/artist-sneaks-his-work-into-the-met-museum/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/image-2.jpg",
-   "ts": 1793135480000,
-   "auto": 1,
-   "_score": 3.7
-  },
-  {
-   "id": "auto_zv6l9f",
-   "cat": "Expositions majeures",
-   "title": "Au musée de Montmartre, comment le cirque Fernando a stimulé l’inspiration des artistes",
-   "sub": "Beaux Arts Magazine",
-   "text": "Ils se sont laissé étourdir par ses lumières et ses couleurs vives, par la grâce …",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/au-musee-de-montmartre-comment-le-cirque-fernando-a-stimule-linspiration-des-artistes/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/unehenri-de-toulouse-lautrec-la-clownesse-cha-u-kao-1895-huile-sur-carton-58-x-43-cm-paris-musee-dorsay--grandpalaisrmn-ph.-franck-raux-1300x975.jpg",
-   "ts": 1793116849000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_1q5l81e",
-   "cat": "Expositions majeures",
-   "title": "« Concilier investissement et coup de foudre » : les conseils d’une experte pour bien débuter sa collection d’art",
-   "sub": "Connaissance des Arts",
-   "text": "Au lendemain d’Art Basel Paris 2026, Daphné de Marolles, responsable Souscription, Art & Specie and Private Clients chez AXA XL, détaille les bons réflexes pour constituer et protéger une collection privée. Cet article « Concilier investissement et coup de foudre » : les conseils d’une experte pour bien débuter sa collection d’art est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/concilier-investissement-et-coup-de-foudre-les-conseils-dune-experte-pour-bien-debuter-sa-collection-dart-11217750/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/de-marolles-daphne_rgb_300dpi_20-tt-width-653-height-661-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793115011000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_19o8fus",
-   "cat": "Expositions majeures",
-   "title": "Quels expos et musées voir en nocturne en ce mois de novembre à Paris ?",
-   "sub": "Beaux Arts Magazine",
-   "text": "Envie d’une escapade culturelle à la tombée de la nuit dans les plus beaux musées …",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/les-nocturnes-des-musees-parisiens-quel-musee-visiter-quel-jour/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/webbdc_remember_me-1-c-11h45-bd-2.jpg",
-   "ts": 1793091621000,
-   "auto": 1,
-   "_score": 3.5
+   "_score": 4.3
   },
   {
    "id": "auto_dptbgl",
@@ -537,7 +632,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 8.2
+   "_score": 8
   },
   {
    "id": "auto_1yyc40p",
@@ -556,7 +651,26 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
+  },
+  {
+   "id": "auto_7qo9i4",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026: How Contemporary African Art Is Rewriting Cultural Narratives",
+   "sub": "Africa News Agency",
+   "text": "AKAA 2026: How Contemporary African Art Is Rewriting Cultural Narratives Africa News Agency",
+   "date": "Publié le 24 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnhRQllTUzVSUF9PeElpa1pzNFhaZTBFbnNjQ1Nqc3VWb2tYNGVLQi1HdlRNVTRBZzRIMWVyN1VYUXRxVDh6cXJUaERFQUtUWmhjeE0xRjlJeWZCZF93ZTRHaXB2c0VZYlM5MC04ODFuU2VMak5TSHA4WjZRRzFEdG11bW1IWmlRNDRPbkhpV1p1QXVpSVcyR0xfNm1rOXFzVFl0eE1n?oc=5",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792831562000,
+   "auto": 1,
+   "_score": 6.5
   },
   {
    "id": "auto_1dmks87",
@@ -575,7 +689,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 5
   },
   {
    "id": "auto_9byqja",
@@ -594,7 +708,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 5
   },
   {
    "id": "auto_ey4fnl",
@@ -613,7 +727,26 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
+  },
+  {
+   "id": "auto_1quh8rp",
+   "cat": "Expositions majeures",
+   "title": "1-54 celebrates 14 years of African art in the heart of the UK",
+   "sub": "New African Magazine",
+   "text": "1-54 celebrates 14 years of African art in the heart of the UK New African Magazine",
+   "date": "Publié le 23 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnNqWkg0U1pyZkdCSXRKUGdqaTRtV0dKNXFMUXM2MWlsSk5OcmlkZnVvZ1VYakJXMi1kWGFLRzBWbGszcjBPMXdnRHNOdW1iam0zcGV1Qnp0blkyTXUxSjRDRGFha1VsOUR1S1M2QzByOWVCQlpZSmdGN3NaOXVfZmtxVkxjS1l4LXJjSFpnZFk1cEN0am1kYUJZakJFdFo1Q2o3RmRhTkl0aUk?oc=5",
+   "src": "New African Magazine",
+   "img": "",
+   "ts": 1792757012000,
+   "auto": 1,
+   "_score": 6.3
   },
   {
    "id": "auto_row3aj",
@@ -632,7 +765,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.4
+   "_score": 14.3
   },
   {
    "id": "auto_3osz7o",
@@ -651,7 +784,7 @@
    "img": "",
    "ts": 1792577475000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 5.8
   },
   {
    "id": "auto_brxur5",
@@ -670,26 +803,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 6.9
-  },
-  {
-   "id": "auto_fjyvj5",
-   "cat": "Nouveautés",
-   "title": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger",
-   "sub": "Radio VINCI Autoroutes",
-   "text": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger Radio VINCI Autoroutes",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1pKRENiNXlUOHNxMzh4NjliNWh3djlBSU5pUXVScW81QXJ6aHFadEhhN0dJbmswcmY5eXlwUVVCTWltcFJ2cS15OGxFd044OU5lTEJCVll3T181dG9ISkdsV2VwYnlCUGpveTlEaEZtaDg2RUtCWC15X1RnaU1TZk1wd1FZVXF1c0R6eklpZWQ1OWF5SlhndzNNQXNzeEw1OEVIY2VxOVlBUk1KRDVOeTA4c0RTWWVXT2xzQUlZMENmcDBpYlFxY0lyRW02V3lINHZJQVgweG45QQ?oc=5",
-   "src": "Radio VINCI Autoroutes",
-   "img": "",
-   "ts": 1792560000000,
-   "auto": 1,
-   "_score": 5.9
+   "_score": 6.8
   },
   {
    "id": "auto_mvb0j3",
@@ -708,7 +822,7 @@
    "img": "",
    "ts": 1792522168000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 5.3
   },
   {
    "id": "auto_1c7a0pg",
@@ -727,7 +841,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.5
   },
   {
    "id": "auto_dy22a3",
@@ -746,7 +860,26 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.5
+  },
+  {
+   "id": "auto_guyq2n",
+   "cat": "Nouveautés",
+   "title": "Four African Painters Explore Memory and Identity Through Unfinished Lines",
+   "sub": "My Modern Met",
+   "text": "Four African Painters Explore Memory and Identity Through Unfinished Lines My Modern Met",
+   "date": "Publié le 20 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdWpRVDlsMy1DTE9Pc2VMRWF0LVA5OG5ZLTgwb2V1ZkNUcW9WSEpEd0Jxc0t4cjVoeWJWaW9TWERWNk9GeUZrNngxMVZzUTNoWktycUkzb1F2S2dvb2V5ZHgyNXZOaG1nWWJ3cEk0ekpzeWg3OEdROVlWSnR0NlJGQXdKcE9ZZw?oc=5",
+   "src": "My Modern Met",
+   "img": "",
+   "ts": 1792479600000,
+   "auto": 1,
+   "_score": 5.5
   },
   {
    "id": "auto_1x0gubd",
@@ -765,26 +898,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_embi0p",
-   "cat": "Nouveautés",
-   "title": "Prix Ellipse : 23 artistes ouest-africains réunis à Paris pour valoriser la diversité culturelle",
-   "sub": "Le Nouveau Reporter",
-   "text": "Prix Ellipse : 23 artistes ouest-africains réunis à Paris pour valoriser la diversité culturelle Le Nouveau Reporter",
-   "date": "Publié le 18 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVmRfcEd1cWpqcml0Zi1QOVFPN2RHX3VNTFRYNzNIRHppS001ZlBFN092dEgtTE5VWExzdENReWFLZG94UzFTdGpTd3daaFF3UzlkbC1MdVRtXzgzODdEWHVyT1NLNlZLTzhlZmVnZl9YWkFNVVRYeUxheXpqNGVxRlg2dnI1bnVnUE1CLTE5anN0VUdDenJDbmFubkhZdnFvOTRkdXp4dW9aLTNpNTZQSld0SFRtSG1vNnB6U2RrWTUwSWM?oc=5",
-   "src": "Le Nouveau Reporter",
-   "img": "",
-   "ts": 1792322523000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.3
   },
   {
    "id": "auto_6e41j6",
@@ -803,45 +917,7 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_1jdoie7",
-   "cat": "Nouveautés",
-   "title": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine",
-   "sub": "EcoActu.ma",
-   "text": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine EcoActu.ma",
-   "date": "Publié le 16 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdjJ1Y0JYSF9MQ0oxakp2Yng0S2x3b0lZOG9nQ28zdmlWczRZUHFSSHEwN3BIQmNEeVlBdDZwOW91OU96RVRIem5HZWdWTXAyUmpuUVJNeW9nNldWQ19vR1U2WDh0R2EwWjFfN09GRlh5TjI3Q283ZzA5ZzVJQQ?oc=5",
-   "src": "EcoActu.ma",
-   "img": "",
-   "ts": 1792189016000,
-   "auto": 1,
    "_score": 4.8
-  },
-  {
-   "id": "auto_qspgid",
-   "cat": "Expositions majeures",
-   "title": "Modernists brought into the mix at 1-54 Contemporary African art fair",
-   "sub": "The Art Newspaper",
-   "text": "Modernists brought into the mix at 1-54 Contemporary African art fair The Art Newspaper",
-   "date": "Publié le 16 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcENrM3pTcnZ2dXJZaXp4bnlDU1RaQ21PeUQzS25xbmpmZkhoWXZpZ1FCVUxNTExWQWY5R0FJemozVXlDSUcxSkhBdjdaa0duRldOZ2ZhVXAyMVE5ZVU5MTJaVkRRalE2RjdYSnlyU255bmQ4Y1RtRFppLTItZV9QMkNWcHcwMUU0TllSV3JXWVRuelY2SktMN0xla2t4MUdvLVFsRHFnTEFXc2pDdlo4YWJB?oc=5",
-   "src": "The Art Newspaper",
-   "img": "",
-   "ts": 1792134000000,
-   "auto": 1,
-   "_score": 4.7
   },
   {
    "id": "auto_qehbx7",
@@ -860,45 +936,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": 2.8
-  },
-  {
-   "id": "auto_18ki7iu",
-   "cat": "Nouveautés",
-   "title": "Art contemporain : à Londres, l’art moderniste africain reprend sa place dans l’histoire",
-   "sub": "Africa News Agency",
-   "text": "Art contemporain : à Londres, l’art moderniste africain reprend sa place dans l’histoire Africa News Agency",
-   "date": "Publié le 15 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2RDaTBGZkhacmxpRXBpaFV3Z3p4NnhEMHBIcVpDQmVSd2YtVGIyZU8wamYxMjJMMmZ6WTdscHZLS3dlaWpHWFp0cWszS0NwUVRPTmZGU3h3blNWYWY1bk15aWhnZG1JWVF1bm5EN3k4bmdGYnhpeFdHM0x6N0thVHFRVVdENGh6MGJFYmhFcUtqYnB1Zk5jWkZkS1d0bGx1ZHVBWERmaHVTczVtZ0QxUzFaTlNJUQ?oc=5",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792047600000,
-   "auto": 1,
-   "_score": 4.4
-  },
-  {
-   "id": "auto_pq3mpi",
-   "cat": "Nouveautés",
-   "title": "L’art contemporain africain appelé à renforcer son autonomie culturelle, selon un critique d’art - ACP",
-   "sub": "ACP | Agence Congolaise de Presse",
-   "text": "L’art contemporain africain appelé à renforcer son autonomie culturelle, selon un critique d’art ACP | Agence Congolaise de Presse",
-   "date": "Publié le 15 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFVCNkttMmw2Vjc3RDdnalJwWWpMcHNwNnB0WUV4UVU5T0t6RS1tdHAwYkZ0cWd3VGFmWTJHX0hNeUFoVldCdFN1aXZraE9RaXpfSzUxZTRZaEg2STNBTDliT1d3S1ZQdi0xeFpjYlJVNUJLOEJPaVhkTFQ0RHE4REdGMHk5ZEd0Z2VxWFg2VFZ6R0N0TFoxRVc2SVBjM3d5aWdDVV8xNktFNWJJT1FUUi00Wk1qMjJp?oc=5",
-   "src": "ACP | Agence Congolaise de Presse",
-   "img": "",
-   "ts": 1792047600000,
-   "auto": 1,
-   "_score": 4.4
+   "_score": 1.3
   },
   {
    "id": "auto_brpy0l",
@@ -917,26 +955,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 4
-  },
-  {
-   "id": "auto_2l6hyz",
-   "cat": "Expositions majeures",
-   "title": "1-54 Contemporary African Art Fair opens in London this week – here’s what we’re looking forward to",
-   "sub": "Wallpaper*",
-   "text": "1-54 Contemporary African Art Fair opens in London this week – here’s what we’re looking forward to Wallpaper*",
-   "date": "Publié le 13 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeU8wWEhLZXIwTm5QMHFBcDRZUDdkMVJIbnRIVy1oS2NJV0lNY0xOTDhxRWU4WjBPbm53cDRKVEh0and0aGVVbTBvZG9oRVR4OVdXNjFHaFhnZG5qcTY3WFF5WjBDN1ZDOXdrSHZWMjhOcWNyRVhXcm9xVzZYYlBwaDdGUW9wamVCbG1OekpYRExrRk1La0VUQi10Z0pUOThBLUE?oc=5",
-   "src": "Wallpaper*",
-   "img": "",
-   "ts": 1791874800000,
-   "auto": 1,
-   "_score": 3.9
+   "_score": 8
   },
   {
    "id": "auto_1vejymo",
@@ -955,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 11.7
+   "_score": 11.5
   },
   {
    "id": "auto_d3k04k",
@@ -977,6 +996,25 @@
    "_score": 11
   },
   {
+   "id": "auto_1nd0yc1",
+   "cat": "Appels à candidatures",
+   "title": "CFAs: Residency Open Call for Lebanese Artists based in Lebanon - fundsforNGOs",
+   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
+   "text": "CFAs: Residency Open Call for Lebanese Artists based in Lebanon fundsforNGOs - Grants and Resources for Sustainability",
+   "date": "Publié le 6 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNloxRmVjajJabk11V25jdVJPZ01rbDZnb2VCeTVOWEJNSF91dDM0aTNrcHNMZjJmWHBGM3UzMWVzTENobDNERkF1WV81TkJ3MV84Y2p2R1ctM1NuYWt1Ti1RLWVvMEVLZi1YOUFxTXNYNE45Z25JcmRZeXV3SVdxamlONEcxWFZIU0xPeE1QVGloWnNjZDdJa2VudVFGWFRqN2p6TmNQM3LSAa4BQVVfeXFMTms3aGp4dGRraFZaSTZfSlZSWWlsV2lQeWt6VUUxSjQ5Qlg1T3h5d1hzdjZIQ1UwRFVFODFYNjJjb0lSRXJqV2NJTWFNN29rN2w0cHFvUmtwdmUtT3ZFN1ZWZ0RHOTdvcG9jQ3RZaW5YaEpSb3V3bjJ2d0dxTUNNOFBwY3RiNUhXSzF4eC1lS2pLRllGT21VT19lbWRlR0ZpcHFwcWlFR2VOdm1Takdn?oc=5",
+   "src": "fundsforNGOs - Grants and Resources for Sustainability",
+   "img": "",
+   "ts": 1791270000000,
+   "auto": 1,
+   "_score": 4
+  },
+  {
    "id": "auto_eyy2sp",
    "cat": "Appels à candidatures",
    "title": "Open Call: Grants for Creative and Artistic Practitioners",
@@ -993,7 +1031,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -5
+   "_score": -6.5
   },
   {
    "id": "auto_19h2dz7",
@@ -1013,44 +1051,6 @@
    "ts": 1790697710000,
    "auto": 1,
    "_score": 11
-  },
-  {
-   "id": "auto_1paxmue",
-   "cat": "Appels à candidatures",
-   "title": "Residency Open Call for Artists Based in East Africa",
-   "sub": "fundsforNGOs",
-   "text": "Residency Open Call for Artists Based in East Africa fundsforNGOs",
-   "date": "Publié le 28 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUHZEMHVXT2YyM3poMDZjWlliV3VocWZBNzRkVkluYlJodVNfc2JaMFNLUkM1ckRZNHpnYzYtbDVDV0FabW1MMU1DT1djVEhXaU04VGtvbWR6Q1hkcl83SHpka2dWcFQyMk5CR2VOZkZaSmdlYkpKLXlIXzVJQ25GbnJ6NHNtTTNhbnptR0gtR1daX192bEliZFlhd9IBoAFBVV95cUxQNkktTWVHTlNsTVBndUp6VW5jVmljdU1oVDVCVlhtWXEwNXpBdnl5ckZCTEZoelBTS0NKXzJXd0s5amFnTFZ1WlRhOHRsRE8xaXdNbTlQSnl1cUducDNNUFpDbWF1T1lPaV9FQkJZM2wzUmhFbHFLY1hSZ0ltY0gtWU5tc2poUVdqRG5UMDJtSG42RFhKNGF6ajBqbjJPbWpo?oc=5",
-   "src": "fundsforNGOs",
-   "img": "",
-   "ts": 1790578800000,
-   "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_1enjwke",
-   "cat": "Appels à candidatures",
-   "title": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
-   "sub": "www.thisiscolossal.com",
-   "text": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists www.thisiscolossal.com",
-   "date": "Publié le 28 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUDZHX25IeTZ1bTNVeEZKckY0bW8xTHNfRnNVRS1FdXB1QnVKc2loMWh1eG5lY3VYelUxRUo0bWtLQ2xBcnctYmZWOERPRzVGZHZXV0VpTS1JYTA1RWNfdUgtdVJJWkt6d0NQWVZxOVg4aGFZX1ZISVRKVHdweFJrWmpOamQ?oc=5",
-   "src": "www.thisiscolossal.com",
-   "img": "",
-   "ts": 1790578800000,
-   "auto": 1,
-   "_score": 4
   },
   {
    "id": "auto_iqyatz",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   }
  ]
 }
