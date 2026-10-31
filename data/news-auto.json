@@ -1,12 +1,202 @@
 {
- "updated": "2026-10-30T15:57:32.013Z",
+ "updated": "2026-10-31T05:52:06.699Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 904
+  "read": 700
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_cuoyiz",
+   "cat": "Expositions majeures",
+   "title": "In Reply to Senators’ Amicus Briefs, Austria, Albertina, and Leopold Museum Double Down on Unconstitutionality of HEAR Act",
+   "sub": "ARTnews",
+   "text": "Senators Blumenthal and Cornyn submitted their briefs in support of the HEAR Act in September.",
+   "date": "Publié le 31 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/austria-albertina-leopold-senator-amicus-brief-response-1234804373/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793417107000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_12qic5v",
+   "cat": "Art mondial",
+   "title": "The Greatest Art Costumes From Hyperallergic's Halloween Party",
+   "sub": "Hyperallergic",
+   "text": "From “Las Dos Fridas” to a walking Eva Hesse sculpture, Hyperallergic members, readers, friends, and artists brought the spirit of the season to our second annual costume contest.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-greatest-art-costumes-from-hyperallergics-halloween-party-2026/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMG_1696.jpg",
+   "ts": 1793399844000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1qqvzby",
+   "cat": "Art mondial",
+   "title": "10 Years Later, Magenta Plains Is Still Embracing the Unexpected",
+   "sub": "Hyperallergic",
+   "text": "An anniversary exhibition spotlights the artists who’ve made the gallery one of Lower Manhattan’s most adventurous success stories.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/10-years-later-magenta-plains-is-still-embracing-the-unexpected/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Don_Stahl_MAGENTA-PLAINS-003.jpg",
+   "ts": 1793394002000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1uh93nq",
+   "cat": "Expositions majeures",
+   "title": "MoMA, Centre Pompidou, and M+ Announce Novel Collection Alliance",
+   "sub": "Hyperallergic",
+   "text": "The partnership between the museums will include intermuseum loans and joint exhibitions.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/moma-centre-pompidou-and-m-announce-novel-collection-alliance/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1_Joint-Portrait-3.jpg",
+   "ts": 1793393820000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_17m6i72",
+   "cat": "Art mondial",
+   "title": "Pipo Nguyen-duy, Beloved Photography Professor, Murdered at 64",
+   "sub": "Hyperallergic",
+   "text": "\"He took a lot of joy in his everyday life. He sought to make really beautiful photos, and strove to make the world a more beautiful place,\" said his former student.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/pipo-nguyen-duy-beloved-photography-professor-murdered-at-64/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/RS93607_PipoNguyen-duy-007_lpr.jpg",
+   "ts": 1793393464000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_bp0ayq",
+   "cat": "Expositions majeures",
+   "title": "Ukraine Charges a Russian General in Absentia Over the Missile Strike That Destroyed the Skovoroda Museum",
+   "sub": "ARTnews",
+   "text": "The attack happened in in the country’s Kharkiv region in the spring of 2022.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/ukraine-charge-russian-general-skovoroda-museum-1234804358/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793385828000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_whc6w1",
+   "cat": "Art mondial",
+   "title": "Archéologie : découverte dans un lac volcanique en Italie, une épée vieille de 3200 ans intrigue les archéologues",
+   "sub": "Connaissance des Arts",
+   "text": "Une épée en bronze vieille de plus de trois millénaires vient d’être mise au jour dans le lac de Mezzano, en Italie centrale. Découverte parmi plusieurs armes et objets métalliques, elle soulève de nouvelles questions sur les pratiques de dépôt dans les sociétés de l’âge du Bronze. Cet article Archéologie : découverte dans un lac volcanique en Italie, une épée vieille de 3200 ans intrigue les archéologues est apparu…",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/archeologie/archeologie-decouverte-dans-un-lac-volcanique-en-italie-une-epee-vieille-de-3200-ans-intrigue-les-archeologues-11217992/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_archeologie_decouverte_epee_mezzano_2-tt-width-620-height-752-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793385000000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1qn8l5a",
+   "cat": "Art mondial",
+   "title": "In South Carolina, Artistic Freedom Is on the Ballot This November",
+   "sub": "Hyperallergic",
+   "text": "A governor-appointed arts commission has denied funding from two LGBTQ+ organizations and an artist focused on immigration issues.",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/in-south-carolina-artistic-freedom-is-on-the-ballot-this-november/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2208165797-1.jpg",
+   "ts": 1793376780000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_vszha6",
+   "cat": "Expositions majeures",
+   "title": "Le Centre Pompidou inscrit aux Monuments historiques : « Notre-Dame-des-Tuyaux » entre au patrimoine",
+   "sub": "Connaissance des Arts",
+   "text": "À l'approche de ses 50 ans, le Centre Pompidou est inscrit au titre des monuments historiques. Cette protection, adoptée à l'unanimité, consacre Beaubourg comme un jalon du patrimoine contemporain, alors que le chantier « Centre Pompidou 2030 » se poursuit. Cet article Le Centre Pompidou inscrit aux Monuments historiques : « Notre-Dame-des-Tuyaux » entre au patrimoine est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 30 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/musees/centre-pompidou/le-centre-pompidou-inscrit-aux-monuments-historiques-notre-dame-des-tuyaux-entre-au-patrimoine-11217990/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/2023-centre-pompidou-architectes-renzo-piano-et-3-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793376654000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_q350jw",
+   "cat": "Expositions majeures",
+   "title": "The Met Museum and Vacheron Constantin Unveil Artworks Produced Through New Residency",
+   "sub": "ARTnews",
+   "text": "The Swiss luxury watch company launched the 18-month residency program with the Met in May 2025.",
+   "date": "À partir du 20 mai 2027",
+   "deadline": "",
+   "start": "2027-05-20",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/metropolitan-museum-art-vacheron-constantin-residency-1234804336/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793375053000,
+   "auto": 1,
+   "_score": 4.9
+  },
   {
    "id": "auto_cdtx21",
    "cat": "Expositions majeures",
@@ -24,7 +214,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/us-pavilion1.jpg",
    "ts": 1793374925000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1otxi9g",
@@ -43,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/anna-pajak-outside.jpeg",
    "ts": 1793371670000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_foz8q4",
@@ -62,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/OtisCollegeMFAFineArts.jpeg",
    "ts": 1793371500000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_ib8r6j",
@@ -81,7 +271,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unesipa_shutterstock41404749_000002-2-1300x975.jpg",
    "ts": 1793362860000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1p4p8t0",
@@ -100,7 +290,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_du_barry_1-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793361652000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_yn4tnc",
@@ -117,9 +307,9 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdjNwMEMxcS1Vb3dwOWZKcVdRV2NPQzlyLVhuN3RPZE1GQXExSzZnbTdNT0JiQlpwYWlEOEJoOE04cDFlU1FYY0ZtTUdOUmVjN0Y5SUVhdktnNy1rdF9IcFJsbVktQ08tMU44bVVsaFJfTEo2QUtnUndFRlEtdjV1X1EzYkNfRnptTzFHTFk2NFlMMlVpUmMtQXhWbWpiMmc0QjNsRC1ySzRmVktPenFkaFpR?oc=5",
    "src": "African Business",
    "img": "",
-   "ts": 1793358139000,
+   "ts": 1793358273000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_1pl2j5n",
@@ -138,7 +328,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/01_GC_Francis-Picabia-Lano-c.1938-Pencil-gouache-and-oil-on-cardboard-Private-collection-Archives-Comite-Picabia.jpg?w=400",
    "ts": 1793350800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_7wf4er",
@@ -157,7 +347,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/CALDEiv-HWP-2610-NB-view05-hires.jpg?w=400",
    "ts": 1793350800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_lwnbzz",
@@ -176,7 +366,7 @@
    "img": "",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 8.9
+   "_score": 8.8
   },
   {
    "id": "auto_j19596",
@@ -195,7 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_coffret_1-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793347224000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_10c4yqh",
@@ -214,7 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_bureau_oeuf_royere_2-tt-width-653-height-604-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793340045000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_jzywik",
@@ -233,7 +423,7 @@
    "img": "",
    "ts": 1793313993000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 8.7
   },
   {
    "id": "auto_qeyaa2",
@@ -252,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/documenta.jpg",
    "ts": 1793308506000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_ado11q",
@@ -271,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-584663406.jpg",
    "ts": 1793306199000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_5rdh82",
@@ -290,26 +480,7 @@
    "img": "",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": 8.8
-  },
-  {
-   "id": "auto_1d295ua",
-   "cat": "Expositions majeures",
-   "title": "After a Museum Explores Homes Destroyed by US-Made Munitions, House Republicans Demand Information on Smithsonian’s Curatorial Process",
-   "sub": "ARTnews",
-   "text": "A commissioned project by Mona Chalabi and SITU Research about ‘domicide’ in Iraq, Syria and Gaza raised the lawmakers’ ire.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/house-republicans-demand-smithsonian-curatorial-process-1234804234/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/07/GettyImages-2286438756.jpg?w=400",
-   "ts": 1793301853000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 8.7
   },
   {
    "id": "auto_2s42kf",
@@ -328,7 +499,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/horro2.jpg",
    "ts": 1793300037000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1816b11",
@@ -347,26 +518,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/10/webles-tuileries-en-automne-1300x975.jpg",
    "ts": 1793294172000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_93xmdx",
-   "cat": "Art mondial",
-   "title": "Before AI There Was the Octopus",
-   "sub": "Hyperallergic",
-   "text": "Helsinki-based artist Tuomas Laitinen gives us an intelligence with no central brain, no fixed shape, and no interest in being legible to us.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/before-ai-there-was-the-octopus/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/260929_PW_Install_043.jpg",
-   "ts": 1793293596000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_r2bri9",
@@ -385,45 +537,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_dernier_train_pour_busan-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793290505000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_122s6ow",
-   "cat": "Art mondial",
-   "title": "ARTPOWER’s New Platform Helps Artists Build Financial Confidence",
-   "sub": "Hyperallergic",
-   "text": "Designed to answer one of creative work's toughest questions: \"What should I charge?\"",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/artpowers-new-platform-helps-artists-build-financial-confidence/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/bawj-5-3.jpg",
-   "ts": 1793286900000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1whfsrz",
-   "cat": "Art mondial",
-   "title": "Estimée jusqu’à 7,2 millions d’euros, « l’une des plus belles pièces d’orfèvrerie de l’histoire » exposée exceptionnellement à Paris",
-   "sub": "Connaissance des Arts",
-   "text": "Une inestimable terrine signée Juste-Aurèle Meissonnier sera proposé à la vente des 1er et 2 décembre 2026, durant la « Classic Week » de Christie’s, à Londres. Cet article Estimée jusqu’à 7,2 millions d’euros, « l’une des plus belles pièces d’orfèvrerie de l’histoire » exposée exceptionnellement à Paris est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 2 décembre 2026",
-   "deadline": "",
-   "start": "2026-12-02",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estimee-jusqua-72-millions-deuros-lune-des-plus-belles-pieces-dorfevrerie-de-lhistoire-exposee-exceptionnellement-a-paris-11217921/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/christies-art-handler-with-the-meissonnier-tureen-image-1-of-2-tt-width-653-height-635-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793282410000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1nv9mk5",
@@ -442,7 +556,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebertrand-hugues_2025-06-1300x975.jpg",
    "ts": 1793275697000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1cm1isq",
@@ -461,26 +575,7 @@
    "img": "",
    "ts": 1793271933000,
    "auto": 1,
-   "_score": 7.7
-  },
-  {
-   "id": "auto_1o4e9pj",
-   "cat": "Expositions majeures",
-   "title": "An Epstein Survivor’s Message for MoMA",
-   "sub": "Hyperallergic",
-   "text": "Dani Bensky explains why the museum must drop Leon Black from its board. Also: The Vatican is serious about protecting artists from AI.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/an-epstein-survivors-message-for-moma/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/moma1200.jpg",
-   "ts": 1793268000000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 6.2
   },
   {
    "id": "auto_mgagag",
@@ -499,7 +594,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_c2rmf_versailles_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793260836000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_q27inf",
@@ -517,63 +612,6 @@
    "src": "Connaissance des Arts",
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_dagues-tt-width-653-height-923-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793253649000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1cn84hv",
-   "cat": "Art mondial",
-   "title": "Cinéma : pour la première fois, le Fantôme de l’Opéra hante vraiment le Palais Garnier",
-   "sub": "Connaissance des Arts",
-   "text": "Mercredi 28 octobre, le Fantôme de l’Opéra revient au cinéma dans un film français inédit. Pour la première fois, le Palais Garnier s’est transformé en plateau de tournage exceptionnel, donnant un rôle principal au monument historique. Cet article Cinéma : pour la première fois, le Fantôme de l’Opéra hante vraiment le Palais Garnier est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-28",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/cinema-pour-la-premiere-fois-le-fantome-de-lopera-hante-vraiment-le-palais-garnier-11217893/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_romain_duris_fantome_de_l_opera-tt-width-653-height-522-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793214043000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_l2fzqs",
-   "cat": "Art mondial",
-   "title": "Amboise, Uzès, Jouy-en-Josas… 6 hôtels parfaits pour des découvertes entre art et patrimoine",
-   "sub": "Beaux Arts Magazine",
-   "text": "Ils abritent une galerie d’art, un cabinet de curiosités, un parc de sculptures, un spa …",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/amboise-uzes-jouy-en-josas-6-hotels-parfaits-pour-des-decouvertes-entre-art-et-patrimoine/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/relais-damboise_opening_sept_2026-24-1300x732.jpg",
-   "ts": 1793203208000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_gtzck2",
-   "cat": "Expositions majeures",
-   "title": "Vers une sortie de crise au musée du Louvre ? Les syndicats vont signer un accord après onze mois de grève",
-   "sub": "Beaux Arts Magazine",
-   "text": "Une sortie de crise se profile enfin au Louvre. À l’issue d’une assemblée générale organisée …",
-   "date": "Publié le 28 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/vers-une-sortie-de-crise-au-musee-du-louvre-les-syndicats-vont-signer-un-accord-apres-onze-mois-de-greve/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/websipa_ap23003143_000011.jpg",
-   "ts": 1793198011000,
    "auto": 1,
    "_score": 5
   },
@@ -594,7 +632,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 8.4
+   "_score": 6.9
   },
   {
    "id": "auto_u85eom",
@@ -613,7 +651,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 2.8
+   "_score": 1.3
   },
   {
    "id": "auto_dptbgl",
@@ -632,7 +670,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 6.4
   },
   {
    "id": "auto_1yyc40p",
@@ -651,7 +689,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 5.1
   },
   {
    "id": "auto_7qo9i4",
@@ -670,7 +708,7 @@
    "img": "",
    "ts": 1792831562000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 4.9
   },
   {
    "id": "auto_1dmks87",
@@ -689,7 +727,7 @@
    "img": "",
    "ts": 1792788029000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
   },
   {
    "id": "auto_9byqja",
@@ -708,7 +746,7 @@
    "img": "",
    "ts": 1792780101000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
   },
   {
    "id": "auto_ey4fnl",
@@ -727,7 +765,7 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
   },
   {
    "id": "auto_1quh8rp",
@@ -746,7 +784,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 4.7
   },
   {
    "id": "auto_row3aj",
@@ -765,26 +803,7 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.2
-  },
-  {
-   "id": "auto_3osz7o",
-   "cat": "Événements",
-   "title": "National Arts Festival Seeks New Artistic Director",
-   "sub": "ART AFRICA Magazine",
-   "text": "National Arts Festival Seeks New Artistic Director ART AFRICA Magazine",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGdyZ2Y1YWhlWkVwbjRGVGJwTjFHWTQ4LWtxcHdZNU5OOGs0eEdXTG1NYTRfUXZIMVBtSmV5MGIwcXFLbDR5Nlh6bGV3aG83ZWF1T2pHZDdLQXNTODhVNlF4ZDBwSDMzTGpBcEVpN05uVXdJUGZoZVpoaXZ5TkdlLWZkWjJia3Qy?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1792577475000,
-   "auto": 1,
-   "_score": 5.7
+   "_score": 14.1
   },
   {
    "id": "auto_brxur5",
@@ -803,45 +822,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 6.7
-  },
-  {
-   "id": "auto_fjyvj5",
-   "cat": "Nouveautés",
-   "title": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger",
-   "sub": "Radio VINCI Autoroutes",
-   "text": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger Radio VINCI Autoroutes",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1pKRENiNXlUOHNxMzh4NjliNWh3djlBSU5pUXVScW81QXJ6aHFadEhhN0dJbmswcmY5eXlwUVVCTWltcFJ2cS15OGxFd044OU5lTEJCVll3T181dG9ISkdsV2VwYnlCUGpveTlEaEZtaDg2RUtCWC15X1RnaU1TZk1wd1FZVXF1c0R6eklpZWQ1OWF5SlhndzNNQXNzeEw1OEVIY2VxOVlBUk1KRDVOeTA4c0RTWWVXT2xzQUlZMENmcDBpYlFxY0lyRW02V3lINHZJQVgweG45QQ?oc=5",
-   "src": "Radio VINCI Autoroutes",
-   "img": "",
-   "ts": 1792560000000,
-   "auto": 1,
-   "_score": 5.6
-  },
-  {
-   "id": "auto_mvb0j3",
-   "cat": "Appels à candidatures",
-   "title": "Art Explora Residency 2027 in Paris: Artists and Researchers Around the World Invited to Apply by 30 October",
-   "sub": "Global South Opportunities",
-   "text": "Art Explora Residency 2027 in Paris: Artists and Researchers Around the World Invited to Apply by 30 October Global South Opportunities",
-   "date": "Date limite : 30 octobre 2026",
-   "deadline": "2026-10-30",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVNGZscU5TRXItWG0zLTEtWHVyTkZLSEFWMk82bWZDVFlXMmd0WFgyUUhRVUdpczROQ2lEUnJqVDItLWJKZGVSLWxqeWhrbkRQVDgtSk5hTHVMWUlLZVp5NG53SXBuZzRtRGx0Ng?oc=5",
-   "src": "Global South Opportunities",
-   "img": "",
-   "ts": 1792522168000,
-   "auto": 1,
-   "_score": 3.8
+   "_score": 6.5
   },
   {
    "id": "auto_1c7a0pg",
@@ -860,7 +841,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_dy22a3",
@@ -879,26 +860,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_guyq2n",
-   "cat": "Nouveautés",
-   "title": "Four African Painters Explore Memory and Identity Through Unfinished Lines",
-   "sub": "My Modern Met",
-   "text": "Four African Painters Explore Memory and Identity Through Unfinished Lines My Modern Met",
-   "date": "Publié le 20 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdWpRVDlsMy1DTE9Pc2VMRWF0LVA5OG5ZLTgwb2V1ZkNUcW9WSEpEd0Jxc0t4cjVoeWJWaW9TWERWNk9GeUZrNngxMVZzUTNoWktycUkzb1F2S2dvb2V5ZHgyNXZOaG1nWWJ3cEk0ekpzeWg3OEdROVlWSnR0NlJGQXdKcE9ZZw?oc=5",
-   "src": "My Modern Met",
-   "img": "",
-   "ts": 1792479600000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1x0gubd",
@@ -917,7 +879,45 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
+  },
+  {
+   "id": "auto_6e41j6",
+   "cat": "Nouveautés",
+   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
+   "sub": "Africa News Agency",
+   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMm5Md2ZVbGFFT3VJZ2pqNzB3b2hQX2h2bEdYQTFocXZZbU9IWF9TcnpiN251NzZQNHpiZ3dmelo5RTRSaERRT1dMZUhQR1dGTjgtZWhKV3l6NWoyLXdJaWFkNk1iMlJ3NGw3X19RbktVUmd4eEVTUTA3TVRFZHhvcmhheE8ySHpyeHVFVjlPbHpPUUo4aGp4Znp1X2J1WVZLakJfWUxnTFZKSEIwSWpR?oc=5",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792226088000,
+   "auto": 1,
+   "_score": 4.5
+  },
+  {
+   "id": "auto_164cifi",
+   "cat": "Expositions majeures",
+   "title": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi - ACP",
+   "sub": "ACP | Agence Congolaise de Presse",
+   "text": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi ACP | Agence Congolaise de Presse",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGlHa2lMV1ktcXJuYkhqNElnRHFwSDlSTGVTeFJyaGw0Z3BxMEkxUlJ4NkNvRDE4eFZPMFkyUF95UmNUdTYtQ1NDaEpXMXhWZnhTWnFOV3Z2RGZQaXB6a0plaWswMk8wOWJYNWFObWdtbXlXc0lrOHI0RHFrb2hNbTBXY2VFY1NfMEs1Vld0TWlVLUI3ZFlFMlhvcDlqQjhqNEpnTW5tUHVldGpHc0oxYjRqSQ?oc=5",
+   "src": "ACP | Agence Congolaise de Presse",
+   "img": "",
+   "ts": 1792134000000,
+   "auto": 1,
+   "_score": 4.3
   },
   {
    "id": "auto_qehbx7",
@@ -936,7 +936,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -0.2
+   "_score": -1.7
   },
   {
    "id": "auto_brpy0l",
@@ -955,7 +955,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 7.8
   },
   {
    "id": "auto_1vejymo",
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 11.4
+   "_score": 11.3
   },
   {
    "id": "auto_d3k04k",
@@ -1031,7 +1031,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -8
+   "_score": -9.5
   },
   {
    "id": "auto_19h2dz7",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1789974000000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   }
  ]
 }
