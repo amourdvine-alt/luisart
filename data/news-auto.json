@@ -1,12 +1,88 @@
 {
- "updated": "2026-10-31T05:52:06.699Z",
+ "updated": "2026-10-31T15:43:39.866Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 700
+  "read": 667
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_46915w",
+   "cat": "Expositions majeures",
+   "title": "« Les sorcières sont parmi nous ! » L’histoire méconnue de la chasse aux sorcières du Pays basque révélée dans une exposition à Bordeaux",
+   "sub": "Connaissance des Arts",
+   "text": "Jusqu’au 23 mai 2027, le musée d’Aquitaine présente une exposition inédite autour de la figure ambiguë des sorcières, de l’Antiquité à aujourd’hui et révèle le tragique épisode de la chasse aux sorcières au Pays basque. Cet article « Les sorcières sont parmi nous ! » L’histoire méconnue de la chasse aux sorcières du Pays basque révélée dans une exposition à Bordeaux est apparu en premier sur Connaissance des Arts .",
+   "date": "Du 20 mai 2027 au 23 mai 2027",
+   "deadline": "",
+   "start": "2027-05-20",
+   "end": "2027-05-23",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/bordeaux/les-sorcieres-sont-parmi-nous-lhistoire-meconnue-de-la-chasse-aux-sorcieres-du-pays-basque-revelee-dans-une-exposition-a-bordeaux-11218012/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_expo_sorcieres_hecate_sculpture-tt-width-653-height-896-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793445026000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_v4hitk",
+   "cat": "Expositions majeures",
+   "title": "To Live Is to Believe",
+   "sub": "Hyperallergic",
+   "text": "Remembering Ursula von Rydingsvard, an Epstein survivor’s message for MoMA, interviews with Paul Pfeiffer and Layli Long Soldier, and the best costumes of our artsy Halloween party.",
+   "date": "Publié le 31 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/to-live-is-to-believe/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMG_6025.JPG",
+   "ts": 1793440800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_kmromk",
+   "cat": "Art mondial",
+   "title": "Mystères à Paris : des coulisses aux souterrains, quels ténébreux secrets cache l’Opéra Garnier ?",
+   "sub": "Connaissance des Arts",
+   "text": "Y a-t-il un fantôme à l’Opéra ? Plusieurs faits divers mystérieux sont attribués à l’énigmatique résident, tels qu’un machiniste vraisemblablement pendu mais dont la corde reste introuvable. Si une grande partie de sa réputation est due au génie créatif de Gaston Leroux, force est de constater que derrière les ors du spectacle se cachent de sombres légendes… Cet article Mystères à Paris : des coulisses aux…",
+   "date": "Publié le 31 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/mysteres-a-paris-des-coulisses-aux-souterrains-quels-tenebreux-secrets-cache-lopera-garnier-11217818/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_opera-legendes_25-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793437249000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1y5dby9",
+   "cat": "Art mondial",
+   "title": "Fantômes, spectres et revenants : de Gustave Moreau à Hokusai, 16 chefs-d’œuvre qui hantent l’histoire de l’art",
+   "sub": "Connaissance des Arts",
+   "text": "En cette nuit d'Halloween, seuil de la saison sombre, les apparitions de Shakespeare, les lavandières bretonnes et les visions de Blake rappellent combien légendes, littérature et spiritisme ont nourri l'imaginaire des artistes. Cet article Fantômes, spectres et revenants : de Gustave Moreau à Hokusai, 16 chefs-d’œuvre qui hantent l’histoire de l’art est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 31 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/fantomes-spectres-et-revenants-de-gustave-moreau-a-hokusai-16-chefs-doeuvre-qui-hantent-lhistoire-de-lart-11217960/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/la_caza_salvaje_de_odin_por_peter_nicolai_arbo-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793426411000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_cuoyiz",
    "cat": "Expositions majeures",
@@ -24,7 +100,7 @@
    "img": "",
    "ts": 1793417107000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_12qic5v",
@@ -43,7 +119,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMG_1696.jpg",
    "ts": 1793399844000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1qqvzby",
@@ -62,7 +138,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Don_Stahl_MAGENTA-PLAINS-003.jpg",
    "ts": 1793394002000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1uh93nq",
@@ -81,7 +157,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1_Joint-Portrait-3.jpg",
    "ts": 1793393820000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_17m6i72",
@@ -100,7 +176,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/RS93607_PipoNguyen-duy-007_lpr.jpg",
    "ts": 1793393464000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_bp0ayq",
@@ -119,7 +195,7 @@
    "img": "",
    "ts": 1793385828000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_whc6w1",
@@ -138,7 +214,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_archeologie_decouverte_epee_mezzano_2-tt-width-620-height-752-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793385000000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1qn8l5a",
@@ -157,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2208165797-1.jpg",
    "ts": 1793376780000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_vszha6",
@@ -176,7 +252,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/2023-centre-pompidou-architectes-renzo-piano-et-3-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793376654000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_q350jw",
@@ -195,7 +271,7 @@
    "img": "",
    "ts": 1793375053000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_cdtx21",
@@ -214,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/us-pavilion1.jpg",
    "ts": 1793374925000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_1otxi9g",
@@ -233,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/anna-pajak-outside.jpeg",
    "ts": 1793371670000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_foz8q4",
@@ -252,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/OtisCollegeMFAFineArts.jpeg",
    "ts": 1793371500000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_ib8r6j",
@@ -271,7 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unesipa_shutterstock41404749_000002-2-1300x975.jpg",
    "ts": 1793362860000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1p4p8t0",
@@ -290,7 +366,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_du_barry_1-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793361652000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_yn4tnc",
@@ -309,7 +385,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_1pl2j5n",
@@ -328,7 +404,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/01_GC_Francis-Picabia-Lano-c.1938-Pencil-gouache-and-oil-on-cardboard-Private-collection-Archives-Comite-Picabia.jpg?w=400",
    "ts": 1793350800000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_7wf4er",
@@ -347,7 +423,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/CALDEiv-HWP-2610-NB-view05-hires.jpg?w=400",
    "ts": 1793350800000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_lwnbzz",
@@ -366,7 +442,7 @@
    "img": "",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 8.8
+   "_score": 8.7
   },
   {
    "id": "auto_j19596",
@@ -385,26 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_coffret_1-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793347224000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_10c4yqh",
-   "cat": "Art mondial",
-   "title": "« Le seul exemplaire connu » : un rarissime bureau d’un grand décorateur des années 1950 estimé jusqu’à 50 000 euros découvert dans une cave",
-   "sub": "Connaissance des Arts",
-   "text": "La maison de vente Gros et Delettrez a découvert dans une cave l’unique exemplaire connu du bureau Œuf imaginé en 1954 par Jean Royère. Il appartient à un ensemble qui comptait à l’origine une dizaine de pièces. Cet article « Le seul exemplaire connu » : un rarissime bureau d’un grand décorateur des années 1950 estimé jusqu’à 50 000 euros découvert dans une cave est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 30 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/le-seul-exemplaire-connu-un-rarissime-bureau-dun-grand-decorateur-des-annees-1950-estime-jusqua-50-000-euros-decouvert-dans-une-cave-11217933/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_bureau_oeuf_royere_2-tt-width-653-height-604-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793340045000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_jzywik",
@@ -423,7 +480,7 @@
    "img": "",
    "ts": 1793313993000,
    "auto": 1,
-   "_score": 8.7
+   "_score": 7.2
   },
   {
    "id": "auto_qeyaa2",
@@ -442,26 +499,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/documenta.jpg",
    "ts": 1793308506000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_ado11q",
-   "cat": "Art mondial",
-   "title": "How Édouard Manet's Black Cat Became a Symbol of Modernity",
-   "sub": "Hyperallergic",
-   "text": "Long associated with witchcraft and bad luck, the black feline became an emblem of artistic rebellion and urban life in 19th-century Paris.",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/how-edouard-manets-black-cat-became-a-symbol-of-modernity/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-584663406.jpg",
-   "ts": 1793306199000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_5rdh82",
@@ -480,7 +518,7 @@
    "img": "",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": 8.7
+   "_score": 8.5
   },
   {
    "id": "auto_2s42kf",
@@ -499,7 +537,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/horro2.jpg",
    "ts": 1793300037000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1816b11",
@@ -518,7 +556,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/10/webles-tuileries-en-automne-1300x975.jpg",
    "ts": 1793294172000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_r2bri9",
@@ -537,7 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_dernier_train_pour_busan-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793290505000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1nv9mk5",
@@ -556,7 +594,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebertrand-hugues_2025-06-1300x975.jpg",
    "ts": 1793275697000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1cm1isq",
@@ -575,45 +613,7 @@
    "img": "",
    "ts": 1793271933000,
    "auto": 1,
-   "_score": 6.2
-  },
-  {
-   "id": "auto_mgagag",
-   "cat": "Expositions majeures",
-   "title": "Face au château de Versailles, le centre de restauration des musées de France rouvre l’écrin où les chefs-d’œuvre retrouvent leur éclat",
-   "sub": "Connaissance des Arts",
-   "text": "Après plusieurs années de travaux, l'aile de Sceaux de la Petite Écurie du roi rouvre à Versailles : le C2RMF y retrouve réserves climatisées, laboratoires et ateliers repensés pour la conservation des chefs-d'œuvre des musées de France. Cet article Face au château de Versailles, le centre de restauration des musées de France rouvre l’écrin où les chefs-d’œuvre retrouvent leur éclat est apparu en premier sur…",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/musees/restauration/face-au-chateau-de-versailles-le-centre-de-restauration-des-musees-de-france-rouvre-lecrin-ou-les-chefs-doeuvre-retrouvent-leur-eclat-11217867/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_c2rmf_versailles_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793260836000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_q27inf",
-   "cat": "Expositions majeures",
-   "title": "Salon du Patrimoine Culturel à Paris : 9 savoir-faire rares à découvrir ce weekend au Carrousel du Louvre",
-   "sub": "Connaissance des Arts",
-   "text": "Verre soufflé bicentenaire, parchemin rarissime, éventails en plumes et numérisation 3D de monuments : au Salon International du Patrimoine Culturel 2026, neuf artisans d'exception réinventent le thème « Patrimoine en lumières » au Carrousel du Louvre. Cet article Salon du Patrimoine Culturel à Paris : 9 savoir-faire rares à découvrir ce weekend au Carrousel du Louvre est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/salon-du-patrimoine-culturel-a-paris-9-savoir-faire-rares-a-decouvrir-ce-weekend-au-carrousel-du-louvre-11217744/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_salon-patrimoine_dagues-tt-width-653-height-923-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793253649000,
-   "auto": 1,
-   "_score": 5
+   "_score": 4.7
   },
   {
    "id": "auto_1370snd",
@@ -632,7 +632,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 5.4
   },
   {
    "id": "auto_u85eom",
@@ -651,7 +651,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": 1.3
+   "_score": -0.2
   },
   {
    "id": "auto_dptbgl",
@@ -670,102 +670,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 6.4
-  },
-  {
-   "id": "auto_1yyc40p",
-   "cat": "Nouveautés",
-   "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
-   "sub": "RFI",
-   "text": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer» RFI",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQNnhrX0tDbG5EQXpsd2U1Z0JMRnpfWWdsMjhHMV80V1dLZ0JxVkw5LXNQbG5JQllFWjVlVUU5ZFU4R1ljMmVXeU5qWFJkcWJ0Q09tUzdxUTJqOV93dFRrRl81VzJRX0MtQmYzdDMxdHVPQ1RMMXdGeUZwXzdMNmZjaDY1emQ2b0JEVzZhYjVVVFlzNUh4cmxGZnYzbVhlY1dDRldOM29QSWd4U2ZOUjlkOVd3cFlqOVBXZ2RWaHBqcEFrajZuNFJtSXdDZkRscXRnY3VTSXNCN0ozUl80azVqckhDczNkS2pJTS1yT0gzc1dLX1NnTGJ3Z2Y0VGNPaERTZWw2eXAzVEx6WHpMX0RYQmdMN3RSNTdjXzItQlU4UmI?oc=5",
-   "src": "RFI",
-   "img": "",
-   "ts": 1792881480000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_7qo9i4",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026: How Contemporary African Art Is Rewriting Cultural Narratives",
-   "sub": "Africa News Agency",
-   "text": "AKAA 2026: How Contemporary African Art Is Rewriting Cultural Narratives Africa News Agency",
-   "date": "Publié le 24 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnhRQllTUzVSUF9PeElpa1pzNFhaZTBFbnNjQ1Nqc3VWb2tYNGVLQi1HdlRNVTRBZzRIMWVyN1VYUXRxVDh6cXJUaERFQUtUWmhjeE0xRjlJeWZCZF93ZTRHaXB2c0VZYlM5MC04ODFuU2VMak5TSHA4WjZRRzFEdG11bW1IWmlRNDRPbkhpV1p1QXVpSVcyR0xfNm1rOXFzVFl0eE1n?oc=5",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792831562000,
-   "auto": 1,
    "_score": 4.9
-  },
-  {
-   "id": "auto_1dmks87",
-   "cat": "Nouveautés",
-   "title": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal",
-   "sub": "Yahoo Actualités",
-   "text": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal Yahoo Actualités",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWJSb0FLTFI3anNkWGp5VW5JcHg2bnFEY1U3a0F6RDhwTHRURE81b2ZkbmtsVkZtVkd6VlFyYzJJT0ZtRkFtT2xXZDlFN3VibVkySF9sclYtYzloNE1Kbm8wQ3JQeUYxVEczTGZSSGJZNkxTR3ROeVkxM3F6Q0llRQ?oc=5",
-   "src": "Yahoo Actualités",
-   "img": "",
-   "ts": 1792788029000,
-   "auto": 1,
-   "_score": 4.8
-  },
-  {
-   "id": "auto_9byqja",
-   "cat": "Nouveautés",
-   "title": "\"Les artistes caribéens ont toute leur place ici\" : AKAA, le plus grand rendez-vous d'art contemporain africain en France célèbre les…",
-   "sub": "Outre-mer La 1ère",
-   "text": "\"Les artistes caribéens ont toute leur place ici\" : AKAA, le plus grand rendez-vous d'art contemporain africain en France célèbre les créateurs d'Afrique et de ses diasporas Outre-mer La 1ère",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPaDZ2bko5enFZR1VlWjVUYWRsWXFTbGhxVlVkUXI5YUh6amsyREUyZmh0VmY5anU0d2N5QTVoc0U1VXFuYThXRmpkRDZNa2ZGc2pWeWJRSUxVU1M0OXNpQUw2ejBiY2gtcVlpbE5PdXFDaTJZd0lWTW1ZaDU1cDB6U1BCVm5mWFQtMzAwNUMwT0pEYjdyMjZEelBZVlRtbEdkamg4REluVXREMDdheV9HRkFZN1NaYlBEMHhlZURiX2tyRmMxMEt3VzQ2Z3N3U043VUNoY3BnNklBaG5WT3Y2YWp4bmxlWmhtVFdYUU53QXlQY09zQkwtVVJnc01oOFRvblpINDJ0QTlkYjdHNVRLWkFBd1k4ZFUwU3BPWTBESWNNZE9oVXhmVnE1V1ppaF9yMzJSNmV4Yi02N0JyWEdrLQ?oc=5",
-   "src": "Outre-mer La 1ère",
-   "img": "",
-   "ts": 1792780101000,
-   "auto": 1,
-   "_score": 4.8
-  },
-  {
-   "id": "auto_ey4fnl",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026, la photographie africaine à Paris (23-25 octobre)",
-   "sub": "Mondafrique",
-   "text": "AKAA 2026, la photographie africaine à Paris (23-25 octobre) Mondafrique",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "2026-10-25",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnQyVkljdG9ubTJXRS0ycEtSdFQ0V2FZalF2OHZTNzBFMElBVjhBWWplUXBoMUdldnNrcjRBVUR4NXVKYTNZQVpNa2R2TVNKYzJFbkVhTF9XVjE1OVBRNnF4dmJOb1Z4aDV4OEVXNVBRZktPcS1xc3lYamUyQlVib3JvTGdOQUtwX0I1MG00YXR2N2V2NmZQaFpncEVqTjg?oc=5",
-   "src": "Mondafrique",
-   "img": "",
-   "ts": 1792777080000,
-   "auto": 1,
-   "_score": 4.8
   },
   {
    "id": "auto_1quh8rp",
@@ -784,7 +689,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 6
   },
   {
    "id": "auto_row3aj",
@@ -803,7 +708,26 @@
    "img": "",
    "ts": 1792753399000,
    "auto": 1,
-   "_score": 14.1
+   "_score": 14
+  },
+  {
+   "id": "auto_3osz7o",
+   "cat": "Événements",
+   "title": "National Arts Festival Seeks New Artistic Director",
+   "sub": "ART AFRICA Magazine",
+   "text": "National Arts Festival Seeks New Artistic Director ART AFRICA Magazine",
+   "date": "Publié le 21 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGdyZ2Y1YWhlWkVwbjRGVGJwTjFHWTQ4LWtxcHdZNU5OOGs0eEdXTG1NYTRfUXZIMVBtSmV5MGIwcXFLbDR5Nlh6bGV3aG83ZWF1T2pHZDdLQXNTODhVNlF4ZDBwSDMzTGpBcEVpN05uVXdJUGZoZVpoaXZ5TkdlLWZkWjJia3Qy?oc=5",
+   "src": "ART AFRICA Magazine",
+   "img": "",
+   "ts": 1792577475000,
+   "auto": 1,
+   "_score": 5.4
   },
   {
    "id": "auto_brxur5",
@@ -822,7 +746,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_1c7a0pg",
@@ -841,7 +765,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_dy22a3",
@@ -860,7 +784,26 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
+  },
+  {
+   "id": "auto_guyq2n",
+   "cat": "Nouveautés",
+   "title": "Four African Painters Explore Memory and Identity Through Unfinished Lines",
+   "sub": "My Modern Met",
+   "text": "Four African Painters Explore Memory and Identity Through Unfinished Lines My Modern Met",
+   "date": "Publié le 20 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdWpRVDlsMy1DTE9Pc2VMRWF0LVA5OG5ZLTgwb2V1ZkNUcW9WSEpEd0Jxc0t4cjVoeWJWaW9TWERWNk9GeUZrNngxMVZzUTNoWktycUkzb1F2S2dvb2V5ZHgyNXZOaG1nWWJ3cEk0ekpzeWg3OEdROVlWSnR0NlJGQXdKcE9ZZw?oc=5",
+   "src": "My Modern Met",
+   "img": "",
+   "ts": 1792479600000,
+   "auto": 1,
+   "_score": 5.2
   },
   {
    "id": "auto_1x0gubd",
@@ -879,7 +822,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_6e41j6",
@@ -898,26 +841,102 @@
    "img": "",
    "ts": 1792226088000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
-   "id": "auto_164cifi",
+   "id": "auto_n901yd",
    "cat": "Expositions majeures",
-   "title": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi - ACP",
-   "sub": "ACP | Agence Congolaise de Presse",
-   "text": "Haut-Katanga : lancement des activités de la neuvième édition de la biennale de Lubumbashi ACP | Agence Congolaise de Presse",
+   "title": "The Best Booths at 1-54 London, From 3D-Printed Chairs to Futuristic Visions of Lagos’s Waterfront",
+   "sub": "ARTnews.com",
+   "text": "The Best Booths at 1-54 London, From 3D-Printed Chairs to Futuristic Visions of Lagos’s Waterfront ARTnews.com",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdFUxeTJvdnNpcVhMN1ZmX2lDYWV4eGxFYkRkeTRMWlB4aXlNeFZYV1Juc1BfVzR4VWJHWGJSb01lVG5Wb0FMTUdIY0RRQUtlZlU2R2NUVldobm5sR2U0dzJtMjdRWGlZOG9uTmx1N2hDdzJ5eWRQTDR4WkJWMS1VVm1YVmhjTnM0dmFGUnNB?oc=5",
+   "src": "ARTnews.com",
+   "img": "",
+   "ts": 1792220400000,
+   "auto": 1,
+   "_score": 4.4
+  },
+  {
+   "id": "auto_1kxkgij",
+   "cat": "Nouveautés",
+   "title": "When Sogal Auction Celebrates African Art With ‘Echoes Of Legacy",
+   "sub": "Independent Newspaper Nigeria",
+   "text": "When Sogal Auction Celebrates African Art With ‘Echoes Of Legacy Independent Newspaper Nigeria",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONVRoLXRMQWx0NUZPb2x0dHlnWXBrUVQzVFltMUZLZTFnTXVfQmY0a2NwRlJJTmdfVnZtQjI2bDZZTHMwcnYtT2tqY2hpMDZhaDg0VkhXY0RUU1Q2ek8ta2JvTkpGUW4tM2FDLXE3N2RWZ2FOR2I1NFdJTGQ1UkVZUUdwUERoN3FYUzJHZ0h5UWE?oc=5",
+   "src": "Independent Newspaper Nigeria",
+   "img": "",
+   "ts": 1792220400000,
+   "auto": 1,
+   "_score": 4.4
+  },
+  {
+   "id": "auto_1jdoie7",
+   "cat": "Nouveautés",
+   "title": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine",
+   "sub": "EcoActu.ma",
+   "text": "Émergences 2026 : Casablanca confirme son rôle de tremplin pour la nouvelle scène artistique africaine EcoActu.ma",
    "date": "Publié le 16 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGlHa2lMV1ktcXJuYkhqNElnRHFwSDlSTGVTeFJyaGw0Z3BxMEkxUlJ4NkNvRDE4eFZPMFkyUF95UmNUdTYtQ1NDaEpXMXhWZnhTWnFOV3Z2RGZQaXB6a0plaWswMk8wOWJYNWFObWdtbXlXc0lrOHI0RHFrb2hNbTBXY2VFY1NfMEs1Vld0TWlVLUI3ZFlFMlhvcDlqQjhqNEpnTW5tUHVldGpHc0oxYjRqSQ?oc=5",
-   "src": "ACP | Agence Congolaise de Presse",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JdjJ1Y0JYSF9MQ0oxakp2Yng0S2x3b0lZOG9nQ28zdmlWczRZUHFSSHEwN3BIQmNEeVlBdDZwOW91OU96RVRIem5HZWdWTXAyUmpuUVJNeW9nNldWQ19vR1U2WDh0R2EwWjFfN09GRlh5TjI3Q283ZzA5ZzVJQQ?oc=5",
+   "src": "EcoActu.ma",
+   "img": "",
+   "ts": 1792189016000,
+   "auto": 1,
+   "_score": 4.3
+  },
+  {
+   "id": "auto_qspgid",
+   "cat": "Expositions majeures",
+   "title": "Modernists brought into the mix at 1-54 Contemporary African art fair",
+   "sub": "The Art Newspaper",
+   "text": "Modernists brought into the mix at 1-54 Contemporary African art fair The Art Newspaper",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcENrM3pTcnZ2dXJZaXp4bnlDU1RaQ21PeUQzS25xbmpmZkhoWXZpZ1FCVUxNTExWQWY5R0FJemozVXlDSUcxSkhBdjdaa0duRldOZ2ZhVXAyMVE5ZVU5MTJaVkRRalE2RjdYSnlyU255bmQ4Y1RtRFppLTItZV9QMkNWcHcwMUU0TllSV3JXWVRuelY2SktMN0xla2t4MUdvLVFsRHFnTEFXc2pDdlo4YWJB?oc=5",
+   "src": "The Art Newspaper",
    "img": "",
    "ts": 1792134000000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 4.2
+  },
+  {
+   "id": "auto_1errh1d",
+   "cat": "Nouveautés",
+   "title": "Brussels Airlines’ African art exhibition arrives at Tour & Taxis",
+   "sub": "Aviation24.be",
+   "text": "Brussels Airlines’ African art exhibition arrives at Tour & Taxis Aviation24.be",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUlBkUDFQN3E4Z1BJT3NoWHVUVDBMZ0F1Q3F2MExfbU91OXctdGdzaTZEV1YyYWdTdUJ4dHZabXRrUDdzWHdGX0dKbVpGLXZxWEJSSG1NaHJRejRHbW5qTlI5MzhuTklnbU9WYlFKd2NLTEcxSUw2c2tKLVBIV0lESnA2MFlvNmg4YWF6UnFRU1d0b1dRd0ZVUHBMLW9rMVpJdm11d2NLY3RWM0NwUmZpN1I5bloyUWwtQ1BadGlJSUZJdEpRNktONl9qV0PSAdIBQVVfeXFMUDBCV1Jzb184aUE4R3ZkQXVGQW5yQzh6MkNWLS14Ml9oOXB5OU1mVUhuazhRdDFqaWNhbjlWX1BtWEN0RlByZTdQQk42eHNJMWNta21Jamt1Rk9iWEpiWnoxT1J5d2JQM3I1R2YzR2FYeUIxRXY2RC1pb2g1Uk1jM1NyZFYzQnVTS1g1VmdFV0ZIbk1IQ0RLV3AxcDlfOVZpWTdJUF9UNUdMMXhDX1BpeWoyeXZjRFZPUGxma3czVVVFaXp5ZWNiczVUMHdhYWdZNGZn?oc=5",
+   "src": "Aviation24.be",
+   "img": "",
+   "ts": 1792134000000,
+   "auto": 1,
+   "_score": 4.2
   },
   {
    "id": "auto_qehbx7",
@@ -936,7 +955,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -1.7
+   "_score": -3.2
   },
   {
    "id": "auto_brpy0l",
@@ -955,7 +974,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 6.3
   },
   {
    "id": "auto_1vejymo",
@@ -974,7 +993,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 11.3
+   "_score": 9.8
   },
   {
    "id": "auto_d3k04k",
@@ -993,7 +1012,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 11
+   "_score": 9.5
   },
   {
    "id": "auto_1nd0yc1",
@@ -1031,7 +1050,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -9.5
+   "_score": -11
   },
   {
    "id": "auto_19h2dz7",
@@ -1050,7 +1069,7 @@
    "img": "",
    "ts": 1790697710000,
    "auto": 1,
-   "_score": 11
+   "_score": 9.5
   },
   {
    "id": "auto_iqyatz",
@@ -1107,26 +1126,7 @@
    "img": "",
    "ts": 1790406000000,
    "auto": 1,
-   "_score": 11
-  },
-  {
-   "id": "auto_voh04f",
-   "cat": "Appels à candidatures",
-   "title": "Ses12naus lance un appel à candidatures pour des résidences artistiques à Ibiza en 2026/27.",
-   "sub": "Welcometoibiza.com",
-   "text": "Ses12naus lance un appel à candidatures pour des résidences artistiques à Ibiza en 2026/27. Welcometoibiza.com",
-   "date": "Publié le 21 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUUNfQnRnMUQxV19ab2JIMl9MNGFHWGc5QkdrYTdjd1RFTWZTcXYzNktpOXV2NW5ZcmlaeUxkUkR2SFpkSnpZcklpaURqTnVhOGlfd3Nxa2YtRzlWVTYyNzZuRlZoTEpBNy14S25qd0Rfa3ZvOGVwRDBvVUJ5ZmhQeXljN0pPZjVub2pydDY1c1lJbXk2TFBqQm5PZWFZWnNwS2JhTU8wbXV1T1BVak5NN05Mb05kcFc1?oc=5",
-   "src": "Welcometoibiza.com",
-   "img": "",
-   "ts": 1789974000000,
-   "auto": 1,
-   "_score": 2.5
+   "_score": 9.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   }
  ]
 }
