@@ -1,12 +1,107 @@
 {
- "updated": "2026-11-01T15:43:06.839Z",
+ "updated": "2026-11-02T06:13:46.339Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 684
+  "read": 761
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1dtduca",
+   "cat": "Expositions majeures",
+   "title": "Le 19M s’installe à Shanghai avec un fabuleux dialogue franco-chinois autour des métiers d’art",
+   "sub": "Beaux Arts Magazine",
+   "text": "Le Museum of Art Pudong, à Shanghai, accueille cet automne la nouvelle édition des itinérances …",
+   "date": "Publié le 2 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/le-19m-sinstalle-a-shanghai-avec-un-fabuleux-dialogue-franco-chinois-autour-des-metiers-dart/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/unemax05181_1-1300x975.jpg",
+   "ts": 1793599224000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1dm6ju0",
+   "cat": "Art mondial",
+   "title": "« Nous serons dignes de Cezanne » : Picasso, De Staël, Vasarely… les artistes de l’après-guerre sous l’emprise du Maître d’Aix",
+   "sub": "Connaissance des Arts",
+   "text": "Après 1945, la peinture de Cezanne continue d’irriguer l’art, des expressionnistes abstraits jusqu’aux artistes contemporains en passant par la mouvance postmoderne. L’hétérogénéité des pratiques et des postures donne lieu à autant de regards singuliers, et chacun s’approprie « son » Cezanne. Cet article « Nous serons dignes de Cezanne » : Picasso, De Staël, Vasarely… les artistes de l’après-guerre sous l’emprise du…",
+   "date": "Publié le 2 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/nous-serons-dignes-de-cezanne-picasso-de-stael-vasarely-les-artistes-de-lapres-guerre-sous-lemprise-du-maitre-daix-11216073/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasept26_cezanne-apres-guerre_bibemus-tt-width-653-height-813-fill-0-crop-0-bgcolor-eeeeee.jpeg",
+   "ts": 1793599214000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1ro4hsj",
+   "cat": "Art mondial",
+   "title": "Simone Fattal en 2 minutes",
+   "sub": "Beaux Arts Magazine",
+   "text": "Entre peinture, sculpture et céramique, Simone Fattal (née en 1942) développe depuis 50 ans une …",
+   "date": "Publié le 2 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/simone-fattal-en-2-minutes/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/uneweb6.-fattal_dionysos-1999-1300x975.jpg",
+   "ts": 1793595641000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_189elnp",
+   "cat": "Nouveautés",
+   "title": "11th Edition of ART X Lagos 2026 Will Explore How Cultural Inheritance Informs Contemporary Art",
+   "sub": "My Modern Met",
+   "text": "11th Edition of ART X Lagos 2026 Will Explore How Cultural Inheritance Informs Contemporary Art My Modern Met",
+   "date": "Publié le 1 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBREZrU3VTZUpkNUN6cEN3MUNaUUxXRHVKWXYwN2VCOTVnZVZOVTVBTUZXRkp1MjlfSkUxM2p4bHpUWU9OVkxsNXhqcEtIVHZSYkgybnEyTlZxNkU5elE?oc=5",
+   "src": "My Modern Met",
+   "img": "",
+   "ts": 1793552256000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_25iskx",
+   "cat": "Art mondial",
+   "title": "« Je suis obsédé par la question du regard » : à Paris, l’exposition d’Ali Cherri au Palais de Tokyo fait déborder le cinéma de l’écran",
+   "sub": "Connaissance des Arts",
+   "text": "Né à Beyrouth en 1976, ce créateur autodidacte travaille autant l’image en mouvement que la sculpture, l’installation et le dessin, plongeant le spectateur dans des univers immersifs où le sens du politique et de l’Histoire n’est jamais loin. Cet article « Je suis obsédé par la question du regard » : à Paris, l’exposition d’Ali Cherri au Palais de Tokyo fait déborder le cinéma de l’écran est apparu en premier sur…",
+   "date": "Publié le 1 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/je-suis-obsede-par-la-question-du-regard-a-paris-lexposition-dali-cherri-au-palais-de-tokyo-fait-deborder-le-cinema-de-lecran-11217819/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_cherri_1-1-tt-width-653-height-489-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793548810000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_147p25",
    "cat": "Événements",
@@ -24,7 +119,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_lavier-itw_7-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793523629000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_16aw1vq",
@@ -43,7 +138,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanove26_galeries_fournier-tt-width-653-height-432-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793512821000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_1u50h5y",
@@ -62,7 +157,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/10/numerisation-3web-1-1300x975.jpg",
    "ts": 1793509209000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.2
   },
   {
    "id": "auto_1urhdhu",
@@ -81,7 +176,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanov26_pavarotti_1-tt-width-653-height-845-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793473255000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_80kl7e",
@@ -100,7 +195,7 @@
    "img": "",
    "ts": 1793462412000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.6
   },
   {
    "id": "auto_46915w",
@@ -119,7 +214,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_expo_sorcieres_hecate_sculpture-tt-width-653-height-896-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793445026000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_v4hitk",
@@ -138,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMG_6025.JPG",
    "ts": 1793440800000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_kmromk",
@@ -157,7 +252,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_opera-legendes_25-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793437249000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_1y5dby9",
@@ -176,7 +271,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/la_caza_salvaje_de_odin_por_peter_nicolai_arbo-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793426411000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_cuoyiz",
@@ -195,7 +290,7 @@
    "img": "",
    "ts": 1793417107000,
    "auto": 1,
-   "_score": 4.6
+   "_score": 4.5
   },
   {
    "id": "auto_12qic5v",
@@ -214,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMG_1696.jpg",
    "ts": 1793399844000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 4.9
   },
   {
    "id": "auto_1qqvzby",
@@ -233,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Don_Stahl_MAGENTA-PLAINS-003.jpg",
    "ts": 1793394002000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 4.9
   },
   {
    "id": "auto_1uh93nq",
@@ -252,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/1_Joint-Portrait-3.jpg",
    "ts": 1793393820000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 4.9
   },
   {
    "id": "auto_17m6i72",
@@ -271,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/RS93607_PipoNguyen-duy-007_lpr.jpg",
    "ts": 1793393464000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 4.9
   },
   {
    "id": "auto_bp0ayq",
@@ -290,7 +385,7 @@
    "img": "",
    "ts": 1793385828000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
    "id": "auto_whc6w1",
@@ -309,7 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_archeologie_decouverte_epee_mezzano_2-tt-width-620-height-752-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793385000000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_1qn8l5a",
@@ -328,26 +423,26 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/GettyImages-2208165797-1.jpg",
    "ts": 1793376780000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
-   "id": "auto_vszha6",
+   "id": "auto_q350jw",
    "cat": "Expositions majeures",
-   "title": "Le Centre Pompidou inscrit aux Monuments historiques : « Notre-Dame-des-Tuyaux » entre au patrimoine",
-   "sub": "Connaissance des Arts",
-   "text": "À l'approche de ses 50 ans, le Centre Pompidou est inscrit au titre des monuments historiques. Cette protection, adoptée à l'unanimité, consacre Beaubourg comme un jalon du patrimoine contemporain, alors que le chantier « Centre Pompidou 2030 » se poursuit. Cet article Le Centre Pompidou inscrit aux Monuments historiques : « Notre-Dame-des-Tuyaux » entre au patrimoine est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 30 octobre 2026",
+   "title": "The Met Museum and Vacheron Constantin Unveil Artworks Produced Through New Residency",
+   "sub": "ARTnews",
+   "text": "The Swiss luxury watch company launched the 18-month residency program with the Met in May 2025.",
+   "date": "À partir du 20 mai 2027",
    "deadline": "",
-   "start": "",
+   "start": "2027-05-20",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://www.connaissancedesarts.com/musees/centre-pompidou/le-centre-pompidou-inscrit-aux-monuments-historiques-notre-dame-des-tuyaux-entre-au-patrimoine-11217990/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/2023-centre-pompidou-architectes-renzo-piano-et-3-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793376654000,
+   "link": "https://www.artnews.com/art-news/news/metropolitan-museum-art-vacheron-constantin-residency-1234804336/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793375053000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.3
   },
   {
    "id": "auto_cdtx21",
@@ -366,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/us-pavilion1.jpg",
    "ts": 1793374925000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.8
   },
   {
    "id": "auto_1otxi9g",
@@ -385,64 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/anna-pajak-outside.jpeg",
    "ts": 1793371670000,
    "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_foz8q4",
-   "cat": "Art mondial",
-   "title": "Otis College of Art and Design in LA Offers a Two-Year MFA Fine Arts Degree Program",
-   "sub": "Hyperallergic",
-   "text": "Refine your artistic vision and join a diverse community at the first professional school of the arts in Los Angeles.",
-   "date": "Publié le 30 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/otis-college-of-art-and-design-in-la-offers-a-two-year-mfa-degree-program/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/OtisCollegeMFAFineArts.jpeg",
-   "ts": 1793371500000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_ib8r6j",
-   "cat": "Art mondial",
-   "title": "Fabien Lacouture : « Roger Federer a fait de son jeu et de sa personnalité une œuvre d’art »",
-   "sub": "Beaux Arts Magazine",
-   "text": "Roger Federer peut-il être considéré comme un artiste ? Dans un essai publié aux éditions …",
-   "date": "Publié le 30 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/fabien-lacouture-roger-federer-a-fait-de-son-jeu-et-de-sa-personnalite-une-oeuvre-dart/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/10/unesipa_shutterstock41404749_000002-2-1300x975.jpg",
-   "ts": 1793362860000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_1p4p8t0",
-   "cat": "Expositions majeures",
-   "title": "« Une sorte de poupée Barbie » : au Domaine royal de Marly, Madame Du Barry prend sa revanche avec près de 150 œuvres",
-   "sub": "Connaissance des Arts",
-   "text": "Basée sur la biographie de la dernière maîtresse de Louis XV par Emmanuel de Waresquiel et montée par Karen Chastagnol, l’exposition du musée du Domaine royal de Marly réunit près de cent cinquante œuvres racontant la vie de Jeanne Bécu devenue la comtesse Du Barry. Cet article « Une sorte de poupée Barbie » : au Domaine royal de Marly, Madame Du Barry prend sa revanche avec près de 150 œuvres est apparu en premier…",
-   "date": "Publié le 30 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/une-sorte-de-poupee-barbie-au-domaine-royal-de-marly-madame-du-barry-prend-sa-revanche-avec-pres-de-150-oeuvres-11217855/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_exposition_du_barry_1-tt-width-653-height-446-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793361652000,
-   "auto": 1,
-   "_score": 5
+   "_score": 4.8
   },
   {
    "id": "auto_yn4tnc",
@@ -461,7 +499,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.3
   },
   {
    "id": "auto_1pl2j5n",
@@ -480,26 +518,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/10/01_GC_Francis-Picabia-Lano-c.1938-Pencil-gouache-and-oil-on-cardboard-Private-collection-Archives-Comite-Picabia.jpg?w=400",
    "ts": 1793350800000,
    "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_7wf4er",
-   "cat": "Art mondial",
-   "title": "In Postwar Rural France, Alexander Calder Found Respite from Pressures of Fame and a Chance to Dream Big",
-   "sub": "ARTnews",
-   "text": "“He was using being there to quiet his nervous system,” Alexander S.C. Rower, the artist's grandson and president of the Calder Foundation said.",
-   "date": "Publié le 30 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/alexander-calder-exhibition-hauser-and-wirth-paris-1234804262/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/10/CALDEiv-HWP-2610-NB-view05-hires.jpg?w=400",
-   "ts": 1793350800000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_lwnbzz",
@@ -518,26 +537,7 @@
    "img": "",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 8.4
-  },
-  {
-   "id": "auto_jzywik",
-   "cat": "Appels à candidatures",
-   "title": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
-   "sub": "www.thisiscolossal.com",
-   "text": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists www.thisiscolossal.com",
-   "date": "Publié le 29 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXMzSDEycFZ3V2RKZHZLdUFUaVMxTFdhdWlaNTFBQnJseS1vRG9Ubmp5Q29mZnB6TE5kRlVvSnVGbjVLa1kwVXJMOUR3aExlUGtjS094b003VXRWcjFPamNzSTYwUVNxWFdVOG5ITmpTdkdkVGtvc2x1akJVU09oNUFJN1VCbFNiWmdYbEtaZjZjTWFjdThlT2Qxd2VRVjRqRElfemVmTHI5S0ItVXVXYzVOZw?oc=5",
-   "src": "www.thisiscolossal.com",
-   "img": "",
-   "ts": 1793313993000,
-   "auto": 1,
-   "_score": 4.2
+   "_score": 8.3
   },
   {
    "id": "auto_qeyaa2",
@@ -556,7 +556,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/documenta.jpg",
    "ts": 1793308506000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_5rdh82",
@@ -575,7 +575,7 @@
    "img": "",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": 6.9
+   "_score": 5.4
   },
   {
    "id": "auto_2s42kf",
@@ -594,7 +594,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/horro2.jpg",
    "ts": 1793300037000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.6
   },
   {
    "id": "auto_1816b11",
@@ -602,7 +602,7 @@
    "title": "Que faire à Paris ce 1er novembre ? Quels musées sont ouverts ?",
    "sub": "Beaux Arts Magazine",
    "text": "Cette année, le 1er novembre est également un dimanche… Pour vous y retrouver, on fait …",
-   "date": "À partir du 1 novembre 2026",
+   "date": "Publié le 29 octobre 2026",
    "deadline": "",
    "start": "2026-11-01",
    "end": "",
@@ -613,7 +613,7 @@
    "img": "https://media.beauxarts.com/uploads/2024/10/webles-tuileries-en-automne-1300x975.jpg",
    "ts": 1793294172000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.6
   },
   {
    "id": "auto_1370snd",
@@ -632,7 +632,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 5
   },
   {
    "id": "auto_u85eom",
@@ -651,7 +651,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": -3.2
+   "_score": -4.7
   },
   {
    "id": "auto_dptbgl",
@@ -670,7 +670,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 6
+   "_score": 4.5
   },
   {
    "id": "auto_17o96cx",
@@ -689,7 +689,7 @@
    "img": "",
    "ts": 1792924661000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 4.7
   },
   {
    "id": "auto_1ljysmw",
@@ -708,7 +708,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 4.7
   },
   {
    "id": "auto_1yyc40p",
@@ -727,7 +727,7 @@
    "img": "",
    "ts": 1792881480000,
    "auto": 1,
-   "_score": 6.1
+   "_score": 5.9
   },
   {
    "id": "auto_ey4fnl",
@@ -746,7 +746,7 @@
    "img": "",
    "ts": 1792777080000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 4.3
   },
   {
    "id": "auto_1quh8rp",
@@ -765,7 +765,7 @@
    "img": "",
    "ts": 1792757012000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 4.2
   },
   {
    "id": "auto_row3aj",
@@ -784,26 +784,7 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 13.7
-  },
-  {
-   "id": "auto_1dmks87",
-   "cat": "Nouveautés",
-   "title": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal",
-   "sub": "Yahoo Actualités",
-   "text": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal Yahoo Actualités",
-   "date": "Publié le 23 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWJSb0FLTFI3anNkWGp5VW5JcHg2bnFEY1U3a0F6RDhwTHRURE81b2ZkbmtsVkZtVkd6VlFyYzJJT0ZtRkFtT2xXZDlFN3VibVkySF9sclYtYzloNE1Kbm8wQ3JQeUYxVEczTGZSSGJZNkxTR3ROeVkxM3F6Q0llRQ?oc=5",
-   "src": "Yahoo Actualités",
-   "img": "",
-   "ts": 1792738800000,
-   "auto": 1,
-   "_score": 5.7
+   "_score": 13.5
   },
   {
    "id": "auto_9byqja",
@@ -822,7 +803,45 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1dmks87",
+   "cat": "Nouveautés",
+   "title": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal",
+   "sub": "Yahoo Actualités",
+   "text": "Gabriel Dia à AKAA : l'art, les tabous et l'homosexualité au Sénégal Yahoo Actualités",
+   "date": "Publié le 23 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTWJSb0FLTFI3anNkWGp5VW5JcHg2bnFEY1U3a0F6RDhwTHRURE81b2ZkbmtsVkZtVkd6VlFyYzJJT0ZtRkFtT2xXZDlFN3VibVkySF9sclYtYzloNE1Kbm8wQ3JQeUYxVEczTGZSSGJZNkxTR3ROeVkxM3F6Q0llRQ?oc=5",
+   "src": "Yahoo Actualités",
+   "img": "",
+   "ts": 1792738800000,
+   "auto": 1,
+   "_score": 4.2
+  },
+  {
+   "id": "auto_3osz7o",
+   "cat": "Événements",
+   "title": "National Arts Festival Seeks New Artistic Director",
+   "sub": "ART AFRICA Magazine",
+   "text": "National Arts Festival Seeks New Artistic Director ART AFRICA Magazine",
+   "date": "Publié le 21 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGdyZ2Y1YWhlWkVwbjRGVGJwTjFHWTQ4LWtxcHdZNU5OOGs0eEdXTG1NYTRfUXZIMVBtSmV5MGIwcXFLbDR5Nlh6bGV3aG83ZWF1T2pHZDdLQXNTODhVNlF4ZDBwSDMzTGpBcEVpN05uVXdJUGZoZVpoaXZ5TkdlLWZkWjJia3Qy?oc=5",
+   "src": "ART AFRICA Magazine",
+   "img": "",
+   "ts": 1792577475000,
+   "auto": 1,
+   "_score": 5
   },
   {
    "id": "auto_brxur5",
@@ -841,26 +860,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 6.2
-  },
-  {
-   "id": "auto_fjyvj5",
-   "cat": "Nouveautés",
-   "title": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger",
-   "sub": "Radio VINCI Autoroutes",
-   "text": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger Radio VINCI Autoroutes",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1pKRENiNXlUOHNxMzh4NjliNWh3djlBSU5pUXVScW81QXJ6aHFadEhhN0dJbmswcmY5eXlwUVVCTWltcFJ2cS15OGxFd044OU5lTEJCVll3T181dG9ISkdsV2VwYnlCUGpveTlEaEZtaDg2RUtCWC15X1RnaU1TZk1wd1FZVXF1c0R6eklpZWQ1OWF5SlhndzNNQXNzeEw1OEVIY2VxOVlBUk1KRDVOeTA4c0RTWWVXT2xzQUlZMENmcDBpYlFxY0lyRW02V3lINHZJQVgweG45QQ?oc=5",
-   "src": "Radio VINCI Autoroutes",
-   "img": "",
-   "ts": 1792560000000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 6
   },
   {
    "id": "auto_1c7a0pg",
@@ -879,7 +879,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_dy22a3",
@@ -898,26 +898,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_guyq2n",
-   "cat": "Nouveautés",
-   "title": "Four African Painters Explore Memory and Identity Through Unfinished Lines",
-   "sub": "My Modern Met",
-   "text": "Four African Painters Explore Memory and Identity Through Unfinished Lines My Modern Met",
-   "date": "Publié le 20 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdWpRVDlsMy1DTE9Pc2VMRWF0LVA5OG5ZLTgwb2V1ZkNUcW9WSEpEd0Jxc0t4cjVoeWJWaW9TWERWNk9GeUZrNngxMVZzUTNoWktycUkzb1F2S2dvb2V5ZHgyNXZOaG1nWWJ3cEk0ekpzeWg3OEdROVlWSnR0NlJGQXdKcE9ZZw?oc=5",
-   "src": "My Modern Met",
-   "img": "",
-   "ts": 1792479600000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1x0gubd",
@@ -936,7 +917,7 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 4.5
   },
   {
    "id": "auto_qehbx7",
@@ -955,7 +936,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -6.2
+   "_score": -7.7
   },
   {
    "id": "auto_brpy0l",
@@ -974,7 +955,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 3.3
+   "_score": 1.8
   },
   {
    "id": "auto_1vejymo",
@@ -993,7 +974,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 9.5
+   "_score": 8
   },
   {
    "id": "auto_d3k04k",
@@ -1012,7 +993,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 9.5
+   "_score": 8
   },
   {
    "id": "auto_eyy2sp",
@@ -1031,7 +1012,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -14
+   "_score": -15.5
   },
   {
    "id": "auto_19h2dz7",
@@ -1050,7 +1031,26 @@
    "img": "",
    "ts": 1790697710000,
    "auto": 1,
-   "_score": 9.5
+   "_score": 8
+  },
+  {
+   "id": "auto_1enjwke",
+   "cat": "Appels à candidatures",
+   "title": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
+   "sub": "www.thisiscolossal.com",
+   "text": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists www.thisiscolossal.com",
+   "date": "Publié le 28 septembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUDZHX25IeTZ1bTNVeEZKckY0bW8xTHNfRnNVRS1FdXB1QnVKc2loMWh1eG5lY3VYelUxRUo0bWtLQ2xBcnctYmZWOERPRzVGZHZXV0VpTS1JYTA1RWNfdUgtdVJJWkt6d0NQWVZxOVg4aGFZX1ZISVRKVHdweFJrWmpOamQ?oc=5",
+   "src": "www.thisiscolossal.com",
+   "img": "",
+   "ts": 1790578800000,
+   "auto": 1,
+   "_score": 4
   },
   {
    "id": "auto_iqyatz",
@@ -1107,7 +1107,7 @@
    "img": "",
    "ts": 1790406000000,
    "auto": 1,
-   "_score": 9.5
+   "_score": 8
   },
   {
    "id": "auto_edxhna",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1790243846000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_1eqhp6e",
