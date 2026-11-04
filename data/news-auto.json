@@ -1,12 +1,145 @@
 {
- "updated": "2026-11-04T06:10:37.545Z",
+ "updated": "2026-11-04T16:00:29.477Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 715
+  "read": 498
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_clenpc",
+   "cat": "Appels à candidatures",
+   "title": "School of the Art Institute of Chicago’s Graduate Programs and Deadlines",
+   "sub": "Hyperallergic",
+   "text": "Explore graduate study at the most influential art and design school in the United States.",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/school-of-the-art-institute-of-chicagos-graduate-programs-and-deadlines/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
+   "ts": 1793807100000,
+   "auto": 1,
+   "_score": 9.5
+  },
+  {
+   "id": "auto_11rx0rg",
+   "cat": "Art mondial",
+   "title": "Courbet, Signac, Vallotton, Banksy… « Ni Dieu, ni maître ! » à Roubaix, l’exposition qui montre comment la soif de liberté a révolutionné…",
+   "sub": "Connaissance des Arts",
+   "text": "Extrêmement fournie, avec plus de 400 œuvres, cette première exposition en date à aborder les liens entre arts et anarchie embrasse large, des origines de la pensée libertaire, au milieu du XIXe siècle, jusqu’à nos jours. Cet article Courbet, Signac, Vallotton, Banksy… « Ni Dieu, ni maître ! » à Roubaix, l’exposition qui montre comment la soif de liberté a révolutionné l’art est apparu en premier sur Connaissance des…",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/courbet-signac-vallotton-banksy-ni-dieu-ni-maitre-a-roubaix-lexposition-qui-montre-comment-la-soif-de-liberte-a-revolutionne-lart-11218102/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_exposition_roubaix_anarchie_2-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793795404000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_18n5djd",
+   "cat": "Expositions majeures",
+   "title": "« Louvre Photo » : des débuts de la photographie à nos jours, le musée se raconte en 300 images",
+   "sub": "Beaux Arts Magazine",
+   "text": "Le Louvre comme vous ne l’avez jamais vu ! À travers 300 photographies, des premiers …",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/louvre-photo-des-debuts-de-la-photographie-a-nos-jours-le-musee-se-raconte-en-300-images/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/une127_hl.phot_.2005.169-1300x975.jpg",
+   "ts": 1793793477000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1vakv0m",
+   "cat": "Expositions majeures",
+   "title": "À Bruges, un nouveau centre d’art et une pluie de découvertes",
+   "sub": "Beaux Arts Magazine",
+   "text": "Véritable ville-musée et ville de musées, Bruges n’a pas fini de nous surprendre ! Au-delà …",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/series/a-bruges-un-nouveau-centre-dart-et-une-pluie-de-decouvertes/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/06/brusk_une_photo-13.24.52-1300x975.jpg",
+   "ts": 1793790887000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1diuycb",
+   "cat": "Art mondial",
+   "title": "The Art of Showing Up",
+   "sub": "Hyperallergic",
+   "text": "Voting stickers adorn memorials to ICE victims, Jeremy Shaw talks grief and ecstasy, and a portable archive of East LA.",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-art-of-showing-up/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/public-trust-1.png",
+   "ts": 1793790000000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_15qq1kh",
+   "cat": "Art mondial",
+   "title": "Du Palais de Tokyo au ministère de la Culture, pourquoi le monde de l’art se passionne pour la ruralité",
+   "sub": "Beaux Arts Magazine",
+   "text": "En 2024, le ministère de la Culture lançait le “Printemps de la ruralité”, avant de …",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/du-palais-de-tokyo-au-ministere-de-la-culture-pourquoi-le-monde-de-lart-se-passionne-pour-la-ruralite/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/une15.-bas-morand-1300x975.jpg",
+   "ts": 1793782821000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_113os0j",
+   "cat": "Expositions majeures",
+   "title": "Toulouse : après 25 ans de restauration, le musée des Augustins dévoile ses sculptures gothiques « littéralement transfigurées »",
+   "sub": "Connaissance des Arts",
+   "text": "Aboutissement d’un long programme de restauration, les sculptures gothiques du musée des Augustins de Toulouse ont retrouvé leurs couleurs d’origine et s’installent dans les salles médiévales de l’ancien couvent. Cet article Toulouse : après 25 ans de restauration, le musée des Augustins dévoile ses sculptures gothiques « littéralement transfigurées » est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 4 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/musees/restauration/toulouse-apres-25-ans-de-restauration-le-musee-des-augustins-devoile-ses-sculptures-gothiques-litteralement-transfigurees-11218094/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_augustins_1-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793779232000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_1kytpo0",
    "cat": "Art mondial",
@@ -24,7 +157,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_hcb-entretien_1-tt-width-653-height-975-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793772044000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_185n38s",
@@ -43,7 +176,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebalet_muybridge-1300x975.jpg",
    "ts": 1793772010000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_563x13",
@@ -62,7 +195,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Screenshot-2026-11-03-at-4.08.25---PM-1.png",
    "ts": 1793743507000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_kb0r1o",
@@ -81,7 +214,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Image-3_Al-Said---Horse.jpg",
    "ts": 1793742794000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_12kn0wy",
@@ -100,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/097_Rosa_9780593447260_art_r1.JPG",
    "ts": 1793742179000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_134hkvh",
@@ -119,7 +252,7 @@
    "img": "",
    "ts": 1793738183000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_etz0il",
@@ -138,7 +271,7 @@
    "img": "",
    "ts": 1793738135000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_yuxggv",
@@ -157,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/paul-rj.JPG",
    "ts": 1793735458000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_czfarw",
@@ -176,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Leila-dec2024-1.jpg",
    "ts": 1793734915000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_sxdy4l",
@@ -195,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/37---DAY-POEM---shadow-2.jpg",
    "ts": 1793733732000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_186j92o",
@@ -214,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Jeremy_Shaw_2025_foto_Paulin_Hildesheim_A-1.jpg",
    "ts": 1793733521000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1lxejbe",
@@ -233,64 +366,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/alekos-fassianos-nonchalante-huile-sur-toile-133--173-cm-1983-1300x975.jpg",
    "ts": 1793732411000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1uxg1u2",
-   "cat": "Art mondial",
-   "title": "Miquel Navarro, Sculptor of Large-Scale, Pared-Down Cities and Valencia’s Beloved ‘Pink Panther,’ Dies at 81",
-   "sub": "ARTnews",
-   "text": "“Even my most schematic sculptures, without entirely abandoning the figurative, always bear the marks of man,” the artist once said of his “Cities.”",
-   "date": "Publié le 3 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/miquel-navarro-sculptor-dead-1234804567/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Navarro_M_Ciudad-muralla_1995-2000-scaled-1.jpg?w=400",
-   "ts": 1793732148000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_9hlvvi",
-   "cat": "Art mondial",
-   "title": "France Opens War Crimes Investigation into Israeli Bombing of Beirut that Killed Artist Ali Cherri’s Parents",
-   "sub": "ARTnews",
-   "text": "Cherri, one of Lebanon’s most prominent contemporary artists, accused the Israeli military in a complaint of intentionally targeting a residential building in Beirut, killing seven people.",
-   "date": "Publié le 3 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/france-war-crimes-investigation-israeli-bombing-beirut-ali-cherri-1234804565/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1240175021.jpg?w=400",
-   "ts": 1793730243000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_ufxafl",
-   "cat": "Art mondial",
-   "title": "Archéologie : à Pompéi, une armoire vieille de 2000 ans révèle les secrets d’une habitante disparue",
-   "sub": "Connaissance des Arts",
-   "text": "En fouillant une maison de Pompéi, des archéologues ont découvert les vestiges d’une armoire qui aurait appartenu à une habitante de la ville antique. Ce meuble, vieux de près de 2000 ans, renfermait des ustensiles de maquillage, un flacon à parfum, 38 pièces de monnaie en bronze et des objets personnels, dont certains pourraient avoir une grande valeur sentimentale. Cet article Archéologie : à Pompéi, une armoire…",
-   "date": "Publié le 3 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/archeologie/archeologie-a-pompei-une-armoire-vieille-de-2000-ans-revele-les-secrets-dune-habitante-disparue-11218108/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_archeo_pompei_armoire_1-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793728809000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_18wsgz2",
@@ -309,7 +385,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneh22868-l448276010-1300x975.jpg",
    "ts": 1793717743000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1pzq6s2",
@@ -328,26 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_salons_novembre_approche_montage_hajek-tt-width-653-height-922-fill-0-crop-0-bgcolor-eeeeee.png",
    "ts": 1793685631000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1smzvot",
-   "cat": "Expositions majeures",
-   "title": "French Galleries Accuse Art Basel Paris of \"Disrespect, Even Contempt\"",
-   "sub": "Hyperallergic",
-   "text": "A group representing over a quarter of the exhibitors released a letter demanding compensation following the fair's abrupt closure.",
-   "date": "Publié le 2 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/french-galleries-accuse-art-basel-paris-of-disrespect-even-contempt/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/GettyImages-2301366203.jpg",
-   "ts": 1793649862000,
-   "auto": 1,
-   "_score": 3.8
+   "_score": 5.1
   },
   {
    "id": "auto_1q1lpb8",
@@ -366,26 +423,7 @@
    "img": "",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": 5.9
-  },
-  {
-   "id": "auto_1cnbroq",
-   "cat": "Expositions majeures",
-   "title": "Ana Mendieta's Lasting Imprint on Art",
-   "sub": "Hyperallergic",
-   "text": "A major survey at Tate Modern asks us to take notice of the earth, the power of the female body, and the artist’s remarkable practice.",
-   "date": "Publié le 2 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/ana-mendietas-lasting-imprint-on-art/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/2-1-1.jpg",
-   "ts": 1793641518000,
-   "auto": 1,
-   "_score": 3.8
+   "_score": 4.4
   },
   {
    "id": "auto_10ewtf5",
@@ -404,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 6.3
   },
   {
    "id": "auto_zv0e9m",
@@ -423,26 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_bourgeois_2-tt-width-653-height-334-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793635660000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1c23ywj",
-   "cat": "Expositions majeures",
-   "title": "Barbara Takenaga’s ‘Awestruck’",
-   "sub": "Hyperallergic",
-   "text": "At Kemper Museum of Contemporary Art, 40 paintings invite viewers into an exhibition where scale, pattern, and perception are explored and celebrated.",
-   "date": "Publié le 2 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/barbara-takenagas-awestruck/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/Forte-54x135.jpg",
-   "ts": 1793635200000,
-   "auto": 1,
-   "_score": 3.7
+   "_score": 5
   },
   {
    "id": "auto_19xs21b",
@@ -461,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 6.2
   },
   {
    "id": "auto_1swrhcb",
@@ -480,7 +499,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_salon_resonances_vue_salon_exposants_2025-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793621685000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_o2ql14",
@@ -499,7 +518,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/une2-karma-2025-1300x975.jpg",
    "ts": 1793620803000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_1dtduca",
@@ -518,7 +537,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unemax05181_1-1300x975.jpg",
    "ts": 1793599224000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_189elnp",
@@ -537,7 +556,7 @@
    "img": "",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_147p25",
@@ -556,7 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_lavier-itw_7-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793523629000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 3.3
   },
   {
    "id": "auto_yn4tnc",
@@ -575,7 +594,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
   },
   {
    "id": "auto_lwnbzz",
@@ -594,7 +613,7 @@
    "img": "",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 3.7
+   "_score": 2.2
   },
   {
    "id": "auto_5rdh82",
@@ -613,7 +632,7 @@
    "img": "",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": 3.5
+   "_score": 2
   },
   {
    "id": "auto_1370snd",
@@ -632,7 +651,7 @@
    "img": "",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": 3.2
+   "_score": 1.7
   },
   {
    "id": "auto_u85eom",
@@ -651,7 +670,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": -10.7
+   "_score": -12.2
   },
   {
    "id": "auto_dptbgl",
@@ -670,7 +689,7 @@
    "img": "",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": 2.7
+   "_score": 1.2
   },
   {
    "id": "auto_1yyc40p",
@@ -689,7 +708,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1ljysmw",
@@ -708,7 +727,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_17o96cx",
@@ -727,7 +746,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_row3aj",
@@ -746,7 +765,7 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 13
+   "_score": 12.9
   },
   {
    "id": "auto_ey4fnl",
@@ -765,7 +784,7 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_1dmks87",
@@ -784,7 +803,7 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_9byqja",
@@ -803,7 +822,7 @@
    "img": "",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_brxur5",
@@ -822,64 +841,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": 1.4
-  },
-  {
-   "id": "auto_3osz7o",
-   "cat": "Événements",
-   "title": "National Arts Festival Seeks New Artistic Director",
-   "sub": "ART AFRICA Magazine",
-   "text": "National Arts Festival Seeks New Artistic Director ART AFRICA Magazine",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGdyZ2Y1YWhlWkVwbjRGVGJwTjFHWTQ4LWtxcHdZNU5OOGs0eEdXTG1NYTRfUXZIMVBtSmV5MGIwcXFLbDR5Nlh6bGV3aG83ZWF1T2pHZDdLQXNTODhVNlF4ZDBwSDMzTGpBcEVpN05uVXdJUGZoZVpoaXZ5TkdlLWZkWjJia3Qy?oc=5",
-   "src": "ART AFRICA Magazine",
-   "img": "",
-   "ts": 1792566000000,
-   "auto": 1,
-   "_score": 4.5
-  },
-  {
-   "id": "auto_fjyvj5",
-   "cat": "Nouveautés",
-   "title": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger",
-   "sub": "Radio VINCI Autoroutes",
-   "text": "Près de Tours, L’art contemporain africain prend possession des ruines du château de Montgoger Radio VINCI Autoroutes",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1pKRENiNXlUOHNxMzh4NjliNWh3djlBSU5pUXVScW81QXJ6aHFadEhhN0dJbmswcmY5eXlwUVVCTWltcFJ2cS15OGxFd044OU5lTEJCVll3T181dG9ISkdsV2VwYnlCUGpveTlEaEZtaDg2RUtCWC15X1RnaU1TZk1wd1FZVXF1c0R6eklpZWQ1OWF5SlhndzNNQXNzeEw1OEVIY2VxOVlBUk1KRDVOeTA4c0RTWWVXT2xzQUlZMENmcDBpYlFxY0lyRW02V3lINHZJQVgweG45QQ?oc=5",
-   "src": "Radio VINCI Autoroutes",
-   "img": "",
-   "ts": 1792566000000,
-   "auto": 1,
-   "_score": 4.5
-  },
-  {
-   "id": "auto_1bjznyi",
-   "cat": "Expositions majeures",
-   "title": "Arts : Le Caire accueille une biennale d'art contemporain africain",
-   "sub": "Afriquinfos",
-   "text": "Arts : Le Caire accueille une biennale d'art contemporain africain Afriquinfos",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fdjlHWENwRWlDakpZSXRGN2R5MGw5emZXRmtPcHEyMzI0akhMRURhcFlaR0VKSTQ5cXlPZmw5dHJhelctOWY0THdOWWxVY2p4YThDR0pPaXowZERkb0d4MDRNb0hkRGVwb1lIc0hn?oc=5",
-   "src": "Afriquinfos",
-   "img": "",
-   "ts": 1792566000000,
-   "auto": 1,
-   "_score": 4.5
+   "_score": -0.1
   },
   {
    "id": "auto_1c7a0pg",
@@ -898,7 +860,7 @@
    "img": "",
    "ts": 1792490143000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 4.2
   },
   {
    "id": "auto_dy22a3",
@@ -917,7 +879,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 4.2
   },
   {
    "id": "auto_1x0gubd",
@@ -936,7 +898,45 @@
    "img": "",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 4
+   "_score": 3.9
+  },
+  {
+   "id": "auto_6e41j6",
+   "cat": "Nouveautés",
+   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
+   "sub": "Africa News Agency",
+   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMm5Md2ZVbGFFT3VJZ2pqNzB3b2hQX2h2bEdYQTFocXZZbU9IWF9TcnpiN251NzZQNHpiZ3dmelo5RTRSaERRT1dMZUhQR1dGTjgtZWhKV3l6NWoyLXdJaWFkNk1iMlJ3NGw3X19RbktVUmd4eEVTUTA3TVRFZHhvcmhheE8ySHpyeHVFVjlPbHpPUUo4aGp4Znp1X2J1WVZLakJfWUxnTFZKSEIwSWpR?oc=5",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792226088000,
+   "auto": 1,
+   "_score": 3.4
+  },
+  {
+   "id": "auto_qspgid",
+   "cat": "Expositions majeures",
+   "title": "Modernists brought into the mix at 1-54 Contemporary African art fair",
+   "sub": "The Art Newspaper",
+   "text": "Modernists brought into the mix at 1-54 Contemporary African art fair The Art Newspaper",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcENrM3pTcnZ2dXJZaXp4bnlDU1RaQ21PeUQzS25xbmpmZkhoWXZpZ1FCVUxNTExWQWY5R0FJemozVXlDSUcxSkhBdjdaa0duRldOZ2ZhVXAyMVE5ZVU5MTJaVkRRalE2RjdYSnlyU255bmQ4Y1RtRFppLTItZV9QMkNWcHcwMUU0TllSV3JXWVRuelY2SktMN0xla2t4MUdvLVFsRHFnTEFXc2pDdlo4YWJB?oc=5",
+   "src": "The Art Newspaper",
+   "img": "",
+   "ts": 1792134000000,
+   "auto": 1,
+   "_score": 3.2
   },
   {
    "id": "auto_qehbx7",
@@ -955,7 +955,7 @@
    "img": "",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -13.7
+   "_score": -15.2
   },
   {
    "id": "auto_brpy0l",
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -4.2
+   "_score": -5.7
   },
   {
    "id": "auto_1vejymo",
@@ -993,7 +993,7 @@
    "img": "",
    "ts": 1791788400000,
    "auto": 1,
-   "_score": 8
+   "_score": 6.5
   },
   {
    "id": "auto_d3k04k",
@@ -1012,7 +1012,7 @@
    "img": "",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 8
+   "_score": 6.5
   },
   {
    "id": "auto_eyy2sp",
@@ -1031,7 +1031,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -21.5
+   "_score": -23
   },
   {
    "id": "auto_19h2dz7",
@@ -1050,7 +1050,7 @@
    "img": "",
    "ts": 1790697710000,
    "auto": 1,
-   "_score": 8
+   "_score": 6.5
   },
   {
    "id": "auto_1enjwke",
@@ -1069,7 +1069,7 @@
    "img": "",
    "ts": 1790578800000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   },
   {
    "id": "auto_iqyatz",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1790406000000,
    "auto": 1,
-   "_score": 8
+   "_score": 6.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   }
  ]
 }
