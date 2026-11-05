@@ -1,0 +1,29 @@
+name: Robot de candidature Luisart
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # toutes les 30 minutes : traite les candidatures « C'est fait »
+  workflow_dispatch: {}
+permissions:
+  contents: read
+concurrency:
+  group: candidature
+  cancel-in-progress: false
+jobs:
+  robot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Installer les outils du robot
+        run: |
+          cd scripts/candidature
+          npm init -y >/dev/null
+          npm i --no-audit --no-fund firebase-admin@12 playwright@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Traiter les candidatures
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node scripts/candidature/robot.cjs
