@@ -51,7 +51,7 @@ service cloud.firestore {
         && get(chemin('artists', request.auth.uid)).data.get('mem', '') == 'ok';
     }
     function adhesionAuto() {
-      return !exists(chemin('cfg', 'site')) || get(chemin('cfg', 'site')).data.get('memm', '') != 'man';
+      return exists(chemin('cfg', 'site')) && get(chemin('cfg', 'site')).data.get('memm', '') == 'auto';
     }
 
     // ------------------------------------------------- réglages et actualités

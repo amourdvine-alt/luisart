@@ -83,6 +83,8 @@ async function main() {
 
   const snap = await db.collectionGroup('cand').where('st', '==', 'relais').limit(20).get();
   console.log('Candidatures à traiter :', snap.size);
+  // Signe de vie : l'application n'affiche la candidature semi-automatique que si le robot tourne.
+  await db.doc('cfg/robot').set({ ts: Date.now() }, { merge: true });
   if (!snap.size) return;
   const browser = await chromium.launch({ args: ['--no-sandbox'] });
   try {
