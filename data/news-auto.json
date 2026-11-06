@@ -1,12 +1,126 @@
 {
- "updated": "2026-11-06T15:56:53.760Z",
+ "updated": "2026-11-06T18:53:34.537Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 500
+  "read": 498
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_15ay8nm",
+   "cat": "Expositions majeures",
+   "title": "Rome’s Galleria Borghese’s $11.15 M. Extension Is Moving Forward Despite Pushback",
+   "sub": "ARTnews",
+   "text": "The competition for the extension is being organized by the Italian engineering firm Proger Spa, also a patron of the museum.",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/romes-galleria-borghese-opens-competition-extension-1234804922/",
+   "src": "ARTnews",
+   "img": "",
+   "ts": 1793989033000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_jb8m4w",
+   "cat": "Art mondial",
+   "title": "Expos gratuites à Paris : les bons plans du moment",
+   "sub": "Beaux Arts Magazine",
+   "text": "Paris gratuit ? C’est possible ! Car l’art est aussi accessible aux budgets serrés et …",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/selections/bons-plans-a-paris-le-meilleur-des-expos-et-musees-gratuits/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2023/12/public-dans-les-nympheas_-4-1300x874.jpg",
+   "ts": 1793984241000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_7xjm1b",
+   "cat": "Art mondial",
+   "title": "Jordan Poorman Cocker’s Vision of Global Indigeneity",
+   "sub": "Hyperallergic",
+   "text": "The curator, who just organized a major rehang of Indigenous art at Crystal Bridges, reflects on the ways institutions can create space for Native artists to flourish.",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/jordan-poorman-cockers-vision-of-global-indigeneity/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7503-1-1.jpg",
+   "ts": 1793984162000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_17io61j",
+   "cat": "Expositions majeures",
+   "title": "« J’ai décidé que je deviendrais soit une gangster, soit une artiste » : à Londres, l’œuvre inclassable d’Ana Mendieta embrase la Tate…",
+   "sub": "Connaissance des Arts",
+   "text": "Jusqu'au 17 janvier 2027, la Tate Modern de Londres consacre une exposition à Ana Mendieta, dont l'œuvre unit le corps à la terre, entre rites et cosmos. Cet article « J’ai décidé que je deviendrais soit une gangster, soit une artiste » : à Londres, l’œuvre inclassable d’Ana Mendieta embrase la Tate Modern est apparu en premier sur Connaissance des Arts .",
+   "date": "À partir du 17 janvier 2027",
+   "deadline": "",
+   "start": "2027-01-17",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/londres/jai-decide-que-je-deviendrais-soit-une-gangster-soit-une-artiste-a-londres-loeuvre-inclassable-dana-mendieta-embrase-la-tate-modern-11218191/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1793980828000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_pomasq",
+   "cat": "Art mondial",
+   "title": "De la Lorraine à l’Alsace, 5 expos pour filer dans le Grand Est",
+   "sub": "Beaux Arts Magazine",
+   "text": "De la peinture foisonnante de Séraphine Louis à Metz aux vases d’Émile Gallé à Nancy, …",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/de-la-lorraine-a-lalsace-5-expos-pour-filer-dans-le-grand-est/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/uneestopia-diana-serghiuta-familiar-landscape-c-courtesy-estopia-1300x975.jpg",
+   "ts": 1793980825000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1g1iirq",
+   "cat": "Art mondial",
+   "title": "Intermedia + Digital Arts MFA Program at UMBC Now Accepting Applications",
+   "sub": "Hyperallergic",
+   "text": "Funding for tuition, healthcare, and stipends is available. Apply to the University of Maryland, Baltimore County program by Feb 1 to be considered for financial support.",
+   "date": "À partir du 1 février 2027",
+   "deadline": "",
+   "start": "2027-02-01",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/intermedia-digital-arts-mfa-program-at-umbc-now-accepting-applications/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMDA_Announcement-Nguyen_HA_26.jpg",
+   "ts": 1793980800000,
+   "auto": 1,
+   "_score": 5.5
+  },
   {
    "id": "auto_3p0haz",
    "cat": "Expositions majeures",
@@ -43,7 +157,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_boitelle_5-tt-width-653-height-978-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793966435000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_19z3q7t",
@@ -62,7 +176,7 @@
    "img": "",
    "ts": 1793965156000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_2rel6n",
@@ -176,7 +290,7 @@
    "img": "",
    "ts": 1793914438000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 6.3
   },
   {
    "id": "auto_vhk3rj",
@@ -214,26 +328,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_archeologie_statue_menhir_champigny_4-tt-width-653-height-688-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793902564000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_bmf0tm",
-   "cat": "Expositions majeures",
-   "title": "Rana Hadid on Taking the Zaha Hadid Foundation Into the Future",
-   "sub": "ARTnews",
-   "text": "The Zaha Hadid Foundation has a slew of major museum retrospectives planned for the next two years, including one in Iraq.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/rana-hadid-taking-the-zaha-hadid-foundation-into-the-future-1234804752/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Zaha-Hadid-Foundation-10-Bowling-Green-Lane-London-2026.-Luke-Hayes-Courtesy-of-Zaha-Hadid-Foundation-5.jpg?w=400",
-   "ts": 1793902107000,
-   "auto": 1,
-   "_score": 3.9
+   "_score": 5.2
   },
   {
    "id": "auto_1jslpyf",
@@ -252,7 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unefigures-militantes-par-helene-aldeguer-1-1300x975.jpg",
    "ts": 1793898648000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1ck0yyl",
@@ -271,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_6265.jpeg",
    "ts": 1793898600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1kn8dhd",
@@ -290,7 +385,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unefred-forest-bridgeman.2693840-1300x975.jpg",
    "ts": 1793895903000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_j81sx0",
@@ -361,9 +456,9 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWFFEMUlNVVAzd29GWHgtUDVuU2Zqa3ZtdHVNaTh0Y1FOcDA1Ujh2VTlra2FHdkxtZXdRdTBvaWlmRE5YcERoem5kWldyc3hFd25VN0pZM1IyZE16ZUdmX0NnX2FmdGw5dXE3U3NValdYamh0MlJ3czdtdTNpbkd3VGJZTUlrczNFT1h4OGw5SQ?oc=5",
+   "link": "https://artafricamagazine.org/beyond-borders-photography-across-three-european-cities/",
    "src": "ART AFRICA Magazine",
-   "img": "",
+   "img": "https://artafricamagazine.org/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-13.08.14.png",
    "ts": 1793889302000,
    "auto": 1,
    "_score": 7.7
@@ -426,6 +521,25 @@
    "_score": 5.2
   },
   {
+   "id": "auto_8cffwa",
+   "cat": "Appels à candidatures",
+   "title": "À Carrare, les jeunes sculpteurs réinventent le monument public : lancement d'un appel à candidatures pour une résidence consacrée au marbre",
+   "sub": "Finestre sull'Arte",
+   "text": "À Carrare, les jeunes sculpteurs réinventent le monument public : lancement d'un appel à candidatures pour une résidence consacrée au marbre Finestre sull'Arte",
+   "date": "Publié le 5 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.finestresullarte.info/fr/art-contemporain/a-carrare-les-jeunes-sculpteurs-reinventent-le-monument-public-lancement-d-un-appel-a-candidatures-pour-une-residence-consacree-au-marbre",
+   "src": "Finestre sull'Arte",
+   "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
+   "ts": 1793875281000,
+   "auto": 1,
+   "_score": 8.7
+  },
+  {
    "id": "auto_d2qklt",
    "cat": "Appels à candidatures",
    "title": "L’appel à candidatures pour la résidence artistique de la Ville de Fribourg, à Paris, est ouvert",
@@ -437,12 +551,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdWtHbWQ5U2w1cFdQMXJ3NU82ZW5ySVR5YTltSURkWDBybEdLV3hYV2ZQZ2FQVkZwWDFCY3NLenoxTjNqWG1XaEFlMlUyOXA1SF9RcDQycXFBMjlzUnRodUtnSXUxUlhaSnN3OTNMbnVxdm5KTWw1cEM5YUFpMzd1YzNEV0tQTDZhTVBKOXhoa2VTVWY3V2Nxb2ViU29JQ0lRU2VhUjd5b18yR1FLZWFKUXhyZXU4OXlaU0ZESEdnRVNEQ0dVNk50dGlGNjVPQUpkd2tSaWdPRUdZZ0lNMnRQU3ZadEU?oc=5",
+   "link": "https://www.laliberte.ch/articles/regions/canton/lappel-a-candidatures-pour-la-residence-artistique-de-la-ville-de-fribourg-a-paris-est-ouvert-1479605",
    "src": "La Liberté",
-   "img": "",
+   "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": 8.7
+   "_score": 7.2
   },
   {
    "id": "auto_1qy5rj8",
@@ -461,7 +575,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/knoebel-kartoffelbild-28-ed.-20112023-peinture-acrylique-sur-feuille-plastifiee-433x662cm-ed.-62ea1-courtesy-galerie-fahnemann-copyright-knoebel-1300x971.jpeg",
    "ts": 1793865654000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 3.7
   },
   {
    "id": "auto_1pjeelv",
@@ -480,7 +594,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_cassatt_orsay_1-tt-width-653-height-472-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793865652000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1b84viy",
@@ -499,7 +613,7 @@
    "img": "",
    "ts": 1793865556000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_9ulogq",
@@ -537,26 +651,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unecatherine-meurisse-1300x975.jpg",
    "ts": 1793858414000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1act7vm",
-   "cat": "Art mondial",
-   "title": "Daniel Sikkema Sentenced to Life for Murder of Art Dealer Brent Sikkema",
-   "sub": "Hyperallergic",
-   "text": "The 56-year-old man is accountable for a \"cold, calculated murder-for-hire plot,\" said US Attorney Jamie McDonald.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/daniel-sikkema-sentenced-to-life-for-murder-of-art-dealer-brent-sikkema/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/b-sikkema-1.jpg",
-   "ts": 1793835386000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_7jeied",
@@ -578,63 +673,6 @@
    "_score": 5
   },
   {
-   "id": "auto_164wsug",
-   "cat": "Art mondial",
-   "title": "The Prior Occupants of Westbeth Are Just Beyond Reach",
-   "sub": "Hyperallergic",
-   "text": "A little more legibility would've benefited Alison Nguyen's fragmented short film about the famed NYC artists' housing complex.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/the-prior-occupants-of-westbeth-are-just-beyond-reach/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/HC_AlisonNguyen_Still_0010_4096px.jpg",
-   "ts": 1793824200000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_1kbt0px",
-   "cat": "Art mondial",
-   "title": "France Opens War Crimes Investigation Into Israeli Airstrike That Killed Artist Ali Cherri's Parents",
-   "sub": "Hyperallergic",
-   "text": "Amnesty International found that Israeli forces had no evidence of a verifiable military target at the site of the strike.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/france-opens-war-crimes-investigation-into-israeli-airstrike-that-killed-artist-ali-cherris-parents/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/crop-ali-cherri-getty.jpeg",
-   "ts": 1793823985000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_wj6q5s",
-   "cat": "Art mondial",
-   "title": "Mamdani's Five Ballot Questions Pass, But Arts Groups Remain Skeptical",
-   "sub": "Hyperallergic",
-   "text": "Concerns over landmark sites and lack of public input have dampened trust in Proposal 3, in particular.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/mamdanis-five-ballot-questions-pass-but-arts-groups-remain-skeptical/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/GettyImages-2302948796.jpg",
-   "ts": 1793823780000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
    "id": "auto_1m0d5k",
    "cat": "Expositions majeures",
    "title": "Miquel Navarro, Sculptor of Cities Real and Imagined, Dies at 81",
@@ -651,26 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/731068470_122256453638101762_2123432363795170107_n-1.jpg",
    "ts": 1793821498000,
    "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_9ht9hz",
-   "cat": "Expositions majeures",
-   "title": "Peintre des arbres et sculptrice des hommes, l’artiste libano-américaine Simone Fattal se révèle au musée d’Art moderne de Paris",
-   "sub": "Beaux Arts Magazine",
-   "text": "Longtemps restée confidentielle, l’œuvre de Simone Fattal se révèle cet automne au musée d’Art moderne …",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/peintre-des-arbres-et-sculptrice-des-hommes-lartiste-libanaise-simone-fattal-se-revele-au-musee-dart-moderne-de-paris/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une3.-fattal_spring-in-baghdad-1974-1300x975.jpg",
-   "ts": 1793809848000,
-   "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_clenpc",
@@ -689,26 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": 6.2
-  },
-  {
-   "id": "auto_18n5djd",
-   "cat": "Expositions majeures",
-   "title": "« Louvre Photo » : des débuts de la photographie à nos jours, le musée se raconte en 300 images",
-   "sub": "Beaux Arts Magazine",
-   "text": "Le Louvre comme vous ne l’avez jamais vu ! À travers 300 photographies, des premiers …",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/louvre-photo-des-debuts-de-la-photographie-a-nos-jours-le-musee-se-raconte-en-300-images/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une127_hl.phot_.2005.169-1300x975.jpg",
-   "ts": 1793793477000,
-   "auto": 1,
-   "_score": 3.6
+   "_score": 4.7
   },
   {
    "id": "auto_1q1lpb8",
@@ -727,7 +727,7 @@
    "img": "",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -1.6
+   "_score": -3.1
   },
   {
    "id": "auto_10ewtf5",
@@ -746,7 +746,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": 0.3
+   "_score": -1.2
   },
   {
    "id": "auto_19xs21b",
@@ -765,7 +765,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": 0.2
+   "_score": -1.3
   },
   {
    "id": "auto_189elnp",
@@ -779,12 +779,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBREZrU3VTZUpkNUN6cEN3MUNaUUxXRHVKWXYwN2VCOTVnZVZOVTVBTUZXRkp1MjlfSkUxM2p4bHpUWU9OVkxsNXhqcEtIVHZSYkgybnEyTlZxNkU5elE?oc=5",
+   "link": "https://mymodernmet.com/art-x-lagos-2026-preview/",
    "src": "My Modern Met",
-   "img": "",
+   "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
   },
   {
    "id": "auto_yn4tnc",
@@ -817,12 +817,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPY2pKY3pDcG42VzVSN09NTDEtTG1ta1FqYkNNcUhta0MwV0szOWowV1ZENHF3b3hVeXVxSHVZbUp2ZWRxZV9SbFhET182TW52MFBvMlM3enl5ZktVNjRTLVZuRzZOaENzYS10clB4X0xoelo4SEszenZRYXlBYXFuaER6Yk9STnBiLWxjcWx6dm5vX1A0clhTMkRjTGhDSE9HNUxPcmJRNV9UVkRxV1d3VTdleFFMWFhHUDllVXJpNDBQc2QzZG1IMG1PTWdxMDZvcWMySWpPRGQxT1BGUE9DeWc1Ykg0QkplUFN1TXlLRGtVeWgxR2l6aG9B?oc=5",
+   "link": "https://www.midilibre.fr/2026/10/30/ville-et-metropole-de-montpellier-lancement-dun-appel-a-candidatures-pour-accueillir-des-artistes-locaux-en-residence-13626579.php",
    "src": "Midi Libre",
-   "img": "",
+   "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 4.4
+   "_score": 2.9
   },
   {
    "id": "auto_5rdh82",
@@ -836,12 +836,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkZnU2tveDFGSDM4ZjZRNmVKY3hwT1NYWjJXbl9IeUpKdTZnUWxzaDhneDEtM0swR1VSdG1XNGVpdFBURXJ2czVSRE5XeDRyUUdzS1lKOVhLV21SYXp5QXN6Wnd2TzhtT0N2bWZDZE5WQU1YOTdkWDBUbEtKeXo2dDkxSGRZY25zVXo3bzhwLTFTVWlaRmVnSnFCcUhDVVJSSDZjUElJZVZrdlNMaVF2QWNBYVJCUzM2TjJVczk3Z0Q?oc=5",
+   "link": "https://www.maroc24.com/fr/203993-appel-a-candidatures-pour-les-residences-artistiques-darkoum-ouvert-jusqu-au-30-novembre/",
    "src": "Maroc24",
-   "img": "",
+   "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -4
+   "_score": -5.5
   },
   {
    "id": "auto_1370snd",
@@ -855,12 +855,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMkJqeU1la2E3X3dWbHZnOFhpdHdzQU1HX0pNOVVXdC1aZERhaFlyNm5LR0ZqN01JY0RzYTQzTUNJbXFiWEl3cDVuSkthV0pwb0ctMXQyRG1GdGZzeHBRWlR1TnN5YjRsVGxPdUMtUXlwRDZiOU0zbDNZdUVpc0NKZC1uaUtWSkpLUC1ZYkpUdHdIQklTU2p5bUs2QTNqWWZkVEtwemJPekE?oc=5",
+   "link": "https://www.artshebdomedias.com/article/appel-a-candidature-a-la-maison-des-arts-plastiques-rosa-bonheur/",
    "src": "ArtsHebdoMédias",
-   "img": "",
+   "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -4.3
+   "_score": -5.8
   },
   {
    "id": "auto_u85eom",
@@ -879,7 +879,7 @@
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": -18.2
+   "_score": -19.7
   },
   {
    "id": "auto_dptbgl",
@@ -893,12 +893,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTkhUTVNGZ0hqQUpMQnNyQXpTaENpNlZwX21rOWhNVUNJQ3Q0aXV2b3FiU3JyM1pzWXVDT2dUb3ZOZmtCeVk2bjBwUWtqVkZhUnBpRFZXeExXMHl3X0VzZHJwYklEaE04NGpoaGRreVptY0s4XzZTSEV6b0JScGNvTlprd0lSMk1pNm5ONFcyZGNVSmNvXzFXUXk5blhxM2RVLU95cHZnMjdLQlg1N2FUbEdLLXBkRGMw?oc=5",
+   "link": "https://www.lagazettefrance.fr/article/moselle-les-artistes-peuvent-candidater-a-des-residences-culturelles-pour-2027",
    "src": "La Gazette France",
-   "img": "",
+   "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -4.8
+   "_score": -6.3
   },
   {
    "id": "auto_1yyc40p",
@@ -912,9 +912,9 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQNnhrX0tDbG5EQXpsd2U1Z0JMRnpfWWdsMjhHMV80V1dLZ0JxVkw5LXNQbG5JQllFWjVlVUU5ZFU4R1ljMmVXeU5qWFJkcWJ0Q09tUzdxUTJqOV93dFRrRl81VzJRX0MtQmYzdDMxdHVPQ1RMMXdGeUZwXzdMNmZjaDY1emQ2b0JEVzZhYjVVVFlzNUh4cmxGZnYzbVhlY1dDRldOM29QSWd4U2ZOUjlkOVd3cFlqOVBXZ2RWaHBqcEFrajZuNFJtSXdDZkRscXRnY3VTSXNCN0ozUl80azVqckhDczNkS2pJTS1yT0gzc1dLX1NnTGJ3Z2Y0VGNPaERTZWw2eXAzVEx6WHpMX0RYQmdMN3RSNTdjXzItQlU4UmI?oc=5",
+   "link": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20261024-sitor-senghor-akaa-les-artistes-africains-dans-les-grandes-galeries-occidentales-continuent-%C3%A0-y-%C3%AAtre-et-%C3%A0-prosp%C3%A9rer",
    "src": "RFI",
-   "img": "",
+   "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
    "_score": 4.9
@@ -974,7 +974,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -6.1
+   "_score": -7.6
   },
   {
    "id": "auto_dy22a3",
@@ -993,7 +993,7 @@
    "img": "",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 3.7
+   "_score": 3.6
   },
   {
    "id": "auto_qehbx7",
@@ -1007,12 +1007,12 @@
    "end": "",
    "place": "Côte d'Ivoire",
    "country": "Côte d'Ivoire",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNzVpRndfa0pWWE5VMk0zQlpPeWxrakw4RWQ2Y0xHZTA4MmJIZWJGTHdzUjJMVDl6cDFXcklPakpJZFBVZ3JBajdTY0wxT09EQlpPUHpueTZueVVpMWtta2dWY3Zrd2lnc3Bna0kxdkdlSW8xLURMVkNWQWVxQ0U5Z2FHN0V4TnZLeXJiZnhBSTVoUnIyU01HU1poVTdjdzA0d0lVbjVvN0pVRHFJeE50VXFfLXMtTlVfSjZvNlRYSWRWbHFabUlLcVM2QUN3WWNIZ2luN3l3LUVRT21aMWk0VjNNVlU?oc=5",
+   "link": "https://www.sortiraparis.com/arts-culture/exposition/articles/354737-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo",
    "src": "Sortir à Paris",
-   "img": "",
+   "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -21.2
+   "_score": -22.7
   },
   {
    "id": "auto_brpy0l",
@@ -1026,12 +1026,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNE1qMEVzV3ZHNkJwb2tBNEEyMG5zYTN5bmpCQS1qZFBsNW4wWGk1c3hDRWl2MWdTSGlTREI3Um5fT1ZOVncwSnpkbks5UUlGQ1hpQ1ZJcjJoSm5RVzN1dkNld0pPdWN1Y1ZRS1lBNWptbElhdGtZQ0s1bndfbnhqNjJHcnVIMzNSWFY2QTZFUTR0TEgtT1Bhc2djZ3N5WEk?oc=5",
+   "link": "https://artafricamagazine.org/space-to-create-new-art-exchange-announces-reside-2027-28-open-call/",
    "src": "ART AFRICA Magazine",
-   "img": "",
+   "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -11.7
+   "_score": -13.2
   },
   {
    "id": "auto_d3k04k",
@@ -1045,12 +1045,12 @@
    "end": "",
    "place": "Côte d'Ivoire",
    "country": "Côte d'Ivoire",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3J1eXNDOGF2aHBfcjY3eWQ0bmlMOXBiU0lKTS1JUWIzWk5NT1FKLXBDM24yMkdfSXJoNmNPS0NPWFVrNnVoSkx3bV93SFRYMlVDYXE1Q1hPbDdiNzlqY0pER2luVm1qekhfSnVRVVJFMzhoOXF2WlkzX195Wll3SUZIQWU3Wk0xR19GLUdjX3A0SHhNTWxhY3RYeGNRSzdyWTNlZW02d0hPazg4UVJaazhzaTItRHhyV2c?oc=5",
+   "link": "https://africa24tv.com/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan/",
    "src": "Africa24 TV",
-   "img": "",
+   "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": 0.5
+   "_score": -1
   },
   {
    "id": "auto_eyy2sp",
@@ -1121,12 +1121,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUDZHX25IeTZ1bTNVeEZKckY0bW8xTHNfRnNVRS1FdXB1QnVKc2loMWh1eG5lY3VYelUxRUo0bWtLQ2xBcnctYmZWOERPRzVGZHZXV0VpTS1JYTA1RWNfdUgtdVJJWkt6d0NQWVZxOVg4aGFZX1ZISVRKVHdweFJrWmpOamQ?oc=5",
+   "link": "https://www.thisiscolossal.com/2026/09/october-2026-opportunities-for-artists/",
    "src": "www.thisiscolossal.com",
-   "img": "",
+   "img": "https://www.thisiscolossal.com/wp-content/uploads/2021/02/agnetun-6.jpg",
    "ts": 1790578800000,
    "auto": 1,
-   "_score": -5
+   "_score": -6.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1140,12 +1140,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNjBlWUpHLVRUWjhULUl0SmpsSDlRaUcyNHZucmFOMEdKX0RDdVhOWTdDQ3dZUG9sdzVXeFNicUdmQnI3Y3RiTm1fNFowN0lIbW9JYloyQVluOXJrdko3NzhGekVRLV9pYjk0ZEhtX190a2k5RGdlTG8xbTZ5eUhRdk9Xd21LM2lHYWxjcGpva0xZVnJvR1cyc1NrZnNPekVmMzltR19JTWQ0UXNFOTNIUjZRTG5hYjFKYUFoc0d6Z3Awdnc?oc=5",
+   "link": "https://www.adiac-congo.com/content/residence-artistique-lappel-candidatures-au-alserkal-arts-ouvert-jusquau-1er-janvier-2020",
    "src": "Adiac",
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -3.5
+   "_score": -5
   }
  ]
 }
