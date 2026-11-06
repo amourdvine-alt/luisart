@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Test live Agora</title>
+<style>
+:root{--bg:#f6f1e9;--ink:#1d1812;--mu:#6d6254;--gd:#a87a2a;--card:#fff;--line:#e2d8c8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15120e;--ink:#f3ebdd;--mu:#a89c8a;--gd:#d9b26f;--card:#201b15;--line:#3a3024}}
+:root[data-theme="dark"]{--bg:#15120e;--ink:#f3ebdd;--mu:#a89c8a;--gd:#d9b26f;--card:#201b15;--line:#3a3024}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:16px}
+h1{font-size:20px;margin:4px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px}
+label{display:block;font-size:12px;color:var(--mu);margin:8px 0 4px}
+input,select{width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+button{padding:11px 14px;border-radius:14px;border:0;background:var(--gd);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+button.out{background:transparent;color:var(--ink);border:1px solid var(--line)}
+button:disabled{opacity:.45}
+#stage{position:relative;width:100%;aspect-ratio:9/16;max-height:70vh;background:#000;border-radius:16px;overflow:hidden;touch-action:none}
+#stage video{width:100%;height:100%;object-fit:cover}
+#stats{font-variant-numeric:tabular-nums;font-size:14px;display:grid;grid-template-columns:1fr 1fr;gap:6px 12px}
+#log{font:12px/1.4 ui-monospace,Menlo,monospace;white-space:pre-wrap;max-height:200px;overflow:auto;color:var(--mu)}
+.note{font-size:13px;color:var(--mu)}
+</style>
+</head>
+<body>
+<h1>Test du live (Agora)</h1>
+<p class="note">Page de test seule : elle ne touche ni à Luisart ni à ses données. Elle demande l’identifiant de projet Agora et un jeton temporaire (jamais le certificat secret). Ouvrez-la sur deux téléphones : un en « Hôte » (la diffusion), un en « Spectateur ».</p>
+
+<div class="card">
+  <label for="appid">Identifiant de projet Agora (App ID)</label>
+  <input id="appid" placeholder="collez ici l’App ID de la console Agora" autocomplete="off">
+  <label for="tok">Jeton temporaire (console Agora › votre projet › « Générer un jeton temporaire », même nom de live)</label>
+  <input id="tok" placeholder="collez le jeton temporaire (valable 24 h)" autocomplete="off">
+  <label for="chan">Nom du live (même nom sur les deux téléphones)</label>
+  <input id="chan" value="test-luisart" autocomplete="off">
+  <label for="role">Rôle de cet appareil</label>
+  <select id="role"><option value="host">Hôte : je diffuse</option><option value="audience">Spectateur : je regarde</option></select>
+  <div class="row">
+    <button id="join">Rejoindre</button>
+    <button id="leave" class="out" disabled>Quitter</button>
+    <button id="flip" class="out" disabled>Caméra avant / arrière</button>
+  </div>
+</div>
+
+<div class="card">
+  <div id="stage"><div id="lbl" style="position:absolute;left:10px;top:10px;color:#fff;font-size:13px;background:#0008;padding:4px 8px;border-radius:8px">Hors ligne</div></div>
+  <div class="note" id="zoomnote" style="margin-top:8px">Zoom au pincement : en attente.</div>
+</div>
+
+<div class="card">
+  <div id="stats">
+    <div>Spectateurs : <b id="viewers">0</b></div>
+    <div>Délai réseau : <b id="rtt">—</b></div>
+    <div>Qualité vidéo : <b id="res">—</b></div>
+    <div>Caméras : <b id="cams">—</b></div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="note">Journal</div>
+  <div id="log"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/agora-rtc-sdk-ng@4.22.0/AgoraRTC_N-4.22.0.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const log = m => { const t = new Date().toLocaleTimeString('fr-FR'); $('log').textContent = t + '  ' + m + '\n' + $('log').textContent; };
+  let client = null, localVideo = null, localAudio = null, facing = 'user', cams = [], camIdx = 0, timer = null;
+  const appIdKey = 'luisart_test_appid';
+  try { $('appid').value = localStorage.getItem(appIdKey) || ''; $('tok').value = localStorage.getItem(appIdKey + '_tok') || ''; } catch (e) {}
+
+  if (typeof AgoraRTC === 'undefined') { log('SDK Agora non chargé : vérifiez la connexion internet ou le chemin du fichier.'); }
+  else { AgoraRTC.setLogLevel(2); }
+
+  // Zoom au pincement : fonctionne seulement si le navigateur expose le zoom de la caméra (surtout Android / Chrome)
+  let zoomCap = null, zoomVal = 1, pinch0 = 0, zoom0 = 1;
+  const applyZoom = async z => {
+    if (!localVideo) return;
+    const track = localVideo.getMediaStreamTrack();
+    const caps = track.getCapabilities ? track.getCapabilities() : {};
+    if (!caps.zoom) { $('zoomnote').textContent = 'Zoom matériel non disponible sur cet appareil ou ce navigateur.'; return; }
+    zoomVal = Math.min(caps.zoom.max, Math.max(caps.zoom.min, z));
+    try { await track.applyConstraints({ advanced: [{ zoom: zoomVal }] }); $('zoomnote').textContent = 'Zoom : ' + zoomVal.toFixed(1) + '×'; }
+    catch (e) { $('zoomnote').textContent = 'Zoom refusé par le navigateur : ' + e.message; }
+  };
+  const stage = $('stage');
+  stage.addEventListener('touchstart', e => { if (e.touches.length === 2) { pinch0 = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); zoom0 = zoomVal; } }, { passive: true });
+  stage.addEventListener('touchmove', e => { if (e.touches.length === 2 && pinch0 && localVideo) { e.preventDefault(); const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); applyZoom(zoom0 * d / pinch0); } }, { passive: false });
+
+  const refreshCams = async () => {
+    try { cams = await AgoraRTC.getCameras(); $('cams').textContent = cams.length + ' détectée(s)'; } catch (e) { cams = []; }
+  };
+
+  const setStats = () => {
+    const n = client ? client.remoteUsers.filter(u => u.hasVideo || u.hasAudio).length : 0;
+    $('viewers').textContent = n;
+    try { const s = client && client.getRTCStats(); $('rtt').textContent = s && s.RTT != null ? s.RTT + ' ms' : '—'; } catch (e) {}
+    const vs = localVideo ? localVideo.getSettings && localVideo.getMediaStreamTrack().getSettings() : null;
+    if (vs && vs.width) $('res').textContent = vs.width + '×' + vs.height;
+  };
+
+  $('join').onclick = async () => {
+    if (typeof AgoraRTC === 'undefined') return;
+    const appId = $('appid').value.trim();
+    if (!appId) { log('Collez d’abord l’App ID.'); return; }
+    try { localStorage.setItem(appIdKey, appId); localStorage.setItem(appIdKey + '_tok', $('tok').value.trim()); } catch (e) {}
+    const role = $('role').value, chan = $('chan').value.trim() || 'test', tok = $('tok').value.trim() || null;
+    client = AgoraRTC.createClient({ mode: 'live', codec: 'vp8' });
+    client.setClientRole(role === 'host' ? 'host' : 'audience');
+    client.on('user-published', async (u, mediaType) => {
+      await client.subscribe(u, mediaType);
+      if (mediaType === 'video') { u.videoTrack.play(stage); $('lbl').textContent = 'En direct'; }
+      if (mediaType === 'audio') u.audioTrack.play();
+      log('Diffuseur reçu (' + mediaType + ')');
+    });
+    client.on('user-unpublished', () => { $('lbl').textContent = 'Le direct est terminé ou la vidéo est coupée'; });
+    client.on('user-joined', () => log('Quelqu’un a rejoint'));
+    client.on('user-left', () => log('Quelqu’un a quitté'));
+    try {
+      await client.join(appId, chan, tok, null);
+      log('Connecté au live « ' + chan + ' » en tant que ' + (role === 'host' ? 'hôte' : 'spectateur'));
+      if (role === 'host') {
+        [localAudio, localVideo] = await AgoraRTC.createMicrophoneAndCameraTracks({}, { encoderConfig: '720p_2', facingMode: facing });
+        localVideo.play(stage);
+        $('lbl').textContent = 'En direct';
+        await client.publish([localAudio, localVideo]);
+        log('Vidéo publiée (720p)');
+        await refreshCams();
+        $('flip').disabled = false;
+        zoomVal = 1;
+        const caps = localVideo.getMediaStreamTrack().getCapabilities ? localVideo.getMediaStreamTrack().getCapabilities() : {};
+        $('zoomnote').textContent = caps.zoom ? 'Pincez l’écran pour zoomer.' : 'Zoom matériel non disponible sur cet appareil ou ce navigateur.';
+      } else {
+        $('lbl').textContent = 'En attente du diffuseur…';
+      }
+      $('leave').disabled = false; $('join').disabled = true;
+      timer = setInterval(setStats, 1000);
+    } catch (e) { log('Erreur : ' + e.message); }
+  };
+
+  $('flip').onclick = async () => {
+    if (!localVideo) return;
+    await refreshCams();
+    if (cams.length < 2) { log('Une seule caméra détectée : bascule impossible ici.'); return; }
+    camIdx = (camIdx + 1) % cams.length;
+    try { await localVideo.setDevice(cams[camIdx].deviceId); log('Caméra : ' + (cams[camIdx].label || 'suivante')); zoomVal = 1; }
+    catch (e) { log('Bascule impossible : ' + e.message); }
+  };
+
+  $('leave').onclick = async () => {
+    clearInterval(timer);
+    try {
+      if (localVideo) { localVideo.stop(); localVideo.close(); }
+      if (localAudio) { localAudio.stop(); localAudio.close(); }
+      if (client) await client.leave();
+    } catch (e) {}
+    localVideo = localAudio = client = null;
+    stage.querySelectorAll('video').forEach(v => v.remove());
+    $('lbl').textContent = 'Hors ligne';
+    $('leave').disabled = true; $('join').disabled = false; $('flip').disabled = true;
+    $('viewers').textContent = '0'; $('rtt').textContent = '—';
+    log('Déconnecté');
+  };
+})();
+</script>
+</body>
+</html>
