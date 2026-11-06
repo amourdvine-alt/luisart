@@ -30,16 +30,16 @@ exports.liveToken = onCall({ secrets: [AGORA_APP_ID, AGORA_APP_CERT], region: 'e
   const snap = await ref.get();
   if (!snap.exists) throw new HttpsError('not-found', 'Ce live n’existe pas.');
   const live = snap.data();
-  if (live.status !== 'on') throw new HttpsError('failed-precondition', 'Ce live n’est pas en cours.');
+  if ((live.st || live.status) !== 'on') throw new HttpsError('failed-precondition', 'Ce live n’est pas en cours.');
 
   if (role === 'host') {
-    if (live.hostUid !== uid) throw new HttpsError('permission-denied', 'Seule l’artiste peut diffuser ce live.');
+    if ((live.host || live.hostUid || liveId) !== uid) throw new HttpsError('permission-denied', 'Seule l’artiste peut diffuser ce live.');
   } else if (role === 'guest') {
     // L'invité doit avoir été accepté par l'artiste, et la limite n'est pas dépassée.
     const g = (live.guests || []);
     if (!g.includes(uid)) throw new HttpsError('permission-denied', 'Vous n’êtes pas invité sur scène.');
     // La même limite doit être appliquée au moment où l'artiste accepte un invité (voir la note ci-dessous).
-    if (g.length > MAX_GUESTS) throw new HttpsError('resource-exhausted', 'Scène complète.');
+    if (g.indexOf(uid) >= MAX_GUESTS) throw new HttpsError('resource-exhausted', 'Scène complète.');
   }
 
   const appId = AGORA_APP_ID.value();

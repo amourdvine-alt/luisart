@@ -1,50 +1,302 @@
 rules_version = '2';
-// Règles de sécurité Luisart (à coller dans Firebase › Firestore Database › Règles)
+// ============================================================================
+// Règles de sécurité Luisart (Firestore)
+// À publier dans : console Firebase › Firestore Database › Règles › Publier.
+//
+// Principes
+//  • Tout ce qui n'est pas prévu ici est refusé.
+//  • Chaque visiteur a un compte (anonyme au départ, Google ensuite) : il ne
+//    peut créer ou modifier que SES propres documents.
+//  • L'administrateur (amourdvine@gmail.com, e-mail vérifié) peut tout gérer.
+//  • Les rôles d'équipe (assoc, modo, support) reprennent exactement les
+//    permissions de l'application, seulement si les rôles sont activés.
+//  • Messages privés, demandes, tickets, paiements, commandes, téléphones :
+//    visibles uniquement par les personnes concernées.
+// ============================================================================
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signedIn() { return request.auth != null; }
-    function owner() {
-      return signedIn() && request.auth.token.email != null
-        && request.auth.token.email_verified == true
-        && request.auth.token.email.lower() in ['amourdvine@gmail.com'];
+
+    // ---------------------------------------------------------------- outils
+    function connecte() { return request.auth != null; }
+    function admin() {
+      return request.auth != null
+        && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && request.auth.token.get('email_verified', false) == true
+        && request.auth.token.get('email', '').lower() in ['amourdvine@gmail.com'];
     }
-    function touches(keys) {
-      return request.resource.data.diff(resource.data).affectedKeys().hasAny(keys);
+    // « soi(x) » : x est la personne connectée (ou l'administrateur, dont
+    // l'identifiant dans l'application diffère de son compte).
+    function soi(x) { return connecte() && (x == request.auth.uid || admin()); }
+    function chemin(c, id) { return /databases/$(database)/documents/$(c)/$(id); }
+    function monRole() { return get(chemin('artists', request.auth.uid)).data.get('adm', ''); }
+    function rolesActifs() {
+      return exists(chemin('cfg', 'site')) && get(chemin('cfg', 'site')).data.get('roles', false) == true;
+    }
+    // Permissions identiques à l'application (PERM)
+    function peut(p) {
+      return admin() || (connecte() && rolesActifs() && exists(chemin('artists', request.auth.uid)) && (
+           (monRole() == 'assoc'   && p in ['dash', 'req', 'tk', 'rep', 'val', 'mem'])
+        || (monRole() == 'modo'    && p in ['dash', 'rep', 'mem', 'val'])
+        || (monRole() == 'support' && p in ['dash', 'req', 'tk'])));
+    }
+    function equipe() { return peut('dash'); }
+    function modifies() { return request.resource.data.diff(resource.data).affectedKeys(); }
+    function seulement(l) { return modifies().hasOnly(l); }
+    function aucun(l) { return !modifies().hasAny(l); }
+    function inchange(k) { return request.resource.data.get(k, null) == resource.data.get(k, null); }
+    function nouveau() { return request.resource.data; }
+    function texteCourt(k, n) { return !(k in nouveau()) || (nouveau()[k] is string && nouveau()[k].size() <= n); }
+    function membreValide() {
+      return exists(chemin('artists', request.auth.uid))
+        && get(chemin('artists', request.auth.uid)).data.get('mem', '') == 'ok';
+    }
+    function adhesionAuto() {
+      return !exists(chemin('cfg', 'site')) || get(chemin('cfg', 'site')).data.get('memm', '') != 'man';
     }
 
-    // Réglages du site : lecture pour tous, modification par l'administrateur seulement
-    match /cfg/{id} {
-      allow read: if true;
-      allow write: if owner();
-    }
+    // ------------------------------------------------- réglages et actualités
+    match /cfg/{id}    { allow read: if true; allow write: if admin(); }
+    match /news/{id}   { allow read: if true; allow write: if admin(); }
+    match /veille/{id} { allow read, write: if admin(); }
 
-    // Profils : chacun crée et modifie le sien ; badges, Pro et validation réservés à l'administrateur
+    // ---------------------------------------------------------------- profils
+    // Champs réservés : statut Pro, certification, rôle d'équipe, sanctions.
+    // Le téléphone et l'e-mail ne vont jamais dans le profil public (voir « priv »).
     match /artists/{id} {
       allow read: if true;
-      allow create: if owner() || (signedIn() && id == request.auth.uid);
-      allow update: if owner()
-        || (signedIn() && id == request.auth.uid && !touches(['pro', 'cert', 'proUntil', 'demo']))
-        || (signedIn() && !touches(['mem', 'pro', 'cert', 'proUntil', 'name', 'role', 'tel', 'mail', 'demo', 'avatar']));
-      allow delete: if owner();
+      allow create: if admin() || (connecte() && id == request.auth.uid
+        && nouveau().get('adm', '') == ''
+        && nouveau().get('pro', false) != true
+        && nouveau().get('cert', false) != true
+        && nouveau().get('proUntil', 0) == 0
+        && nouveau().get('demo', false) != true
+        && nouveau().get('susp', 0) == 0
+        && nouveau().get('warn', 0) == 0
+        && !nouveau().keys().hasAny(['tel', 'mail'])
+        && (nouveau().get('mem', '') != 'ok' || adhesionAuto())
+        && texteCourt('name', 120) && texteCourt('bio', 5000));
+      allow update: if admin()
+        || (connecte() && id == request.auth.uid
+            && aucun(['adm', 'pro', 'cert', 'proUntil', 'demo', 'susp', 'warn', 'wlc', 'badge'])
+            && !(modifies().hasAny(['tel', 'mail']) && nouveau().keys().hasAny(['tel', 'mail']))
+            && (nouveau().get('mem', '') != 'ok' || resource.data.get('mem', '') == 'ok' || adhesionAuto())
+            && texteCourt('name', 120) && texteCourt('bio', 5000))
+        || (peut('mem') && seulement(['mem', 'memwhy', 'mdts', 'warn', 'susp']))
+        || (peut('rep') && seulement(['warn', 'susp']))
+        || ((peut('req') || peut('val')) && seulement(['cert']));
+      allow delete: if admin();
+    }
+    // Coordonnées privées (téléphone, e-mail, WhatsApp de candidature)
+    match /priv/{id} {
+      allow read: if soi(id) || peut('mem');
+      allow create, update: if soi(id) && nouveau().uid == id
+        && texteCourt('tel', 20) && texteCourt('mail', 120) && texteCourt('wa', 20);
+      allow delete: if admin();
+    }
+    // Données personnelles (abonnements, dossiers de candidature…)
+    match /data/users/{uid}/{rest=**} { allow read, write: if soi(uid); }
+
+    // ------------------------------------------------------- messages privés
+    match /dm/{id} {
+      allow read: if soi(resource.data.from) || soi(resource.data.to);
+      allow create: if soi(nouveau().from) && nouveau().to is string
+        && nouveau().to != nouveau().from && texteCourt('text', 5000);
+      allow update: if (soi(resource.data.from) || soi(resource.data.to))
+        && inchange('from') && inchange('to')
+        && seulement(['text', 'img', 'au', 'stk', 'wk', 'loc', 'ex', 'rp', 're', 'of', 'del']);
+      allow delete: if soi(resource.data.from);
+    }
+    // Accusés de lecture : identifiant = lecteur_interlocuteur
+    match /dmr/{id} {
+      allow read: if soi(resource.data.a) || soi(resource.data.b);
+      allow create, update: if soi(nouveau().a) && id == nouveau().a + '_' + nouveau().b;
+    }
+    // Demandes de message : identifiant = destinataire_expéditeur
+    match /dmok/{id} {
+      allow read: if soi(resource.data.from) || soi(resource.data.to);
+      allow create: if soi(nouveau().from) && nouveau().st == 'att'
+        && id == nouveau().to + '_' + nouveau().from;
+      allow update: if soi(resource.data.to) && nouveau().st in ['ok', 'no'] && seulement(['st', 'dts']);
+      allow delete: if admin();
+    }
+    // Blocages : identifiant = bloqueur_bloqué
+    match /blk/{id} {
+      allow read: if soi(resource.data.from) || soi(resource.data.to);
+      allow create: if soi(nouveau().from) && id == nouveau().from + '_' + nouveau().to;
+      allow delete: if soi(resource.data.from);
     }
 
-    // Données privées de chaque personne
-    match /data/users/{uid}/{rest=**} {
-      allow read, write: if signedIn() && (request.auth.uid == uid || owner());
-    }
-
-    // Journal d'administration et paiements : administrateur seulement
-    match /logs/{id} { allow read, write: if owner(); }
-    match /pay/{id} { allow read: if signedIn(); allow write: if owner(); }
-
-    // Tout le reste (œuvres, messages, publications, expositions…) : lecture libre, écriture par les membres connectés
-    match /{col}/{id} {
+    // ------------------------------------------------- abonnements et présence
+    match /fol/{id} {
       allow read: if true;
-      allow write: if signedIn();
+      allow create: if soi(nouveau().from) && id == nouveau().from + '_' + nouveau().to;
+      allow delete: if soi(resource.data.from);
     }
-    match /{col}/{id}/{sub}/{sid} {
+    match /pres/{id} {
+      allow read: if connecte();
+      allow write: if soi(id);
+    }
+    match /pv/{id} {
+      allow read: if soi(resource.data.a) || soi(resource.data.v);
+      allow create, update: if soi(nouveau().v) && id.matches('.*_' + nouveau().v);
+    }
+    match /pvp/{id} {
+      allow read: if soi(resource.data.a) || soi(resource.data.v);
+      allow create, update: if soi(nouveau().v) && id.matches('.*_' + nouveau().v);
+    }
+
+    // ------------------------------------------ contenus publiés par les membres
+    // L'auteur crée et gère les siens ; l'équipe modère (masquer, valider, supprimer).
+    match /works/{id} {
       allow read: if true;
-      allow write: if signedIn();
+      allow create: if soi(nouveau().aid) && texteCourt('title', 200);
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid']))
+        || (peut('val') && seulement(['hid', 'pend']));
+      allow delete: if soi(resource.data.aid) || peut('rep');
     }
+    match /wimg/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid);
+      allow update: if soi(resource.data.aid) && inchange('aid');
+      allow delete: if soi(resource.data.aid) || peut('rep');
+    }
+    match /posts/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && texteCourt('text', 5000);
+      allow update: if soi(resource.data.aid) && inchange('aid') && aucun(['hid']);
+      allow delete: if soi(resource.data.aid) || peut('rep');
+    }
+    match /stat/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && texteCourt('text', 2000);
+      allow update: if soi(resource.data.aid) && inchange('aid');
+      allow delete: if soi(resource.data.aid) || peut('rep');
+    }
+    match /sv/{id} {
+      allow read: if soi(resource.data.a) || soi(resource.data.v);
+      allow create: if soi(nouveau().v) && id == nouveau().s + '_' + nouveau().v;
+    }
+    match /svl/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().v) && id == nouveau().s + '_' + nouveau().v;
+      allow delete: if soi(resource.data.v);
+    }
+    // Annonces soumises à validation : un non-membre publie « en attente »
+    match /places/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val'));
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid'])) || peut('val');
+      allow delete: if soi(resource.data.aid) || peut('val');
+    }
+    match /mat/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val'));
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid'])) || peut('val');
+      allow delete: if soi(resource.data.aid) || peut('val');
+    }
+    match /offers/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val'));
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid'])) || peut('val');
+      allow delete: if soi(resource.data.aid) || peut('val');
+    }
+    // Certificats d'authenticité : vérifiables par tous ; seule l'équipe révoque
+    match /certs/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid);
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['rev'])) || peut('val');
+      allow delete: if admin();
+    }
+    // Visite guidée d'une œuvre (identifiant = identifiant de l'œuvre)
+    match /tour/{id} {
+      allow read: if true;
+      allow write: if equipe() || (connecte() && exists(chemin('works', id))
+        && get(chemin('works', id)).data.aid == request.auth.uid);
+    }
+
+    // -------------------------------------------------------------- expositions
+    match /expo/{id} { allow read: if true; allow write: if equipe(); }
+    match /eapp/{id} {
+      allow read: if soi(resource.data.aid) || equipe() || resource.data.st == 'ok';
+      allow create: if soi(nouveau().aid) && nouveau().st == 'att'
+        && !nouveau().keys().hasAny(['paid', 'amt', 'dec']);
+      allow update: if equipe()
+        || (soi(resource.data.aid) && inchange('aid') && inchange('st') && seulement(['wids', 'note', 'up', 'ts']));
+      allow delete: if soi(resource.data.aid) || equipe();
+    }
+    match /evis/{id} {
+      allow read: if equipe();
+      allow create: if soi(nouveau().u);
+    }
+
+    // ---------------------------------------------- appels audio/vidéo et lives
+    match /calls/{id} {
+      allow read: if soi(resource.data.from) || soi(resource.data.to);
+      allow create: if soi(nouveau().from);
+      allow update: if (soi(resource.data.from) || soi(resource.data.to)) && inchange('from') && inchange('to');
+    }
+    match /lives/{id} {
+      allow read: if true;
+      allow create, update: if soi(id) && nouveau().get('host', id) == id
+        && nouveau().get('guests', []).size() <= 3;
+      allow delete: if soi(id);
+    }
+    match /livej/{id} {
+      allow read: if soi(resource.data.host) || soi(resource.data.viewer);
+      allow create: if soi(nouveau().viewer);
+      allow update, delete: if (soi(resource.data.host) || soi(resource.data.viewer))
+        && inchange('host') && inchange('viewer');
+    }
+    match /livec/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().uid) && texteCourt('t', 500);
+      allow delete: if soi(resource.data.uid) || peut('rep');
+    }
+
+    // ------------------------------------------ assistance, commandes, demandes
+    match /tickets/{id} {
+      allow read: if soi(resource.data.uid) || peut('tk');
+      allow create: if soi(nouveau().uid) && nouveau().st == 'ouvert';
+      allow update: if (soi(resource.data.uid) && inchange('uid') && inchange('pr')) || peut('tk');
+    }
+    match /orders/{id} {
+      allow read: if soi(resource.data.buyer) || soi(resource.data.seller);
+      allow create: if soi(nouveau().buyer);
+      allow update: if (soi(resource.data.buyer) || soi(resource.data.seller))
+        && inchange('buyer') && inchange('seller') && inchange('total');
+    }
+    match /resv/{id} {
+      allow read: if soi(resource.data.uid) || soi(resource.data.aid);
+      allow create: if soi(nouveau().uid) || soi(nouveau().aid);
+      allow delete: if soi(resource.data.uid) || soi(resource.data.aid);
+    }
+    match /reports/{id} {
+      allow read: if soi(resource.data.by) || peut('rep');
+      allow create: if soi(nouveau().by) && nouveau().st == 'att' && texteCourt('note', 500);
+      allow update: if peut('rep');
+      allow delete: if admin();
+    }
+    // Demandes Pro / certification / suppression : identifiant = type_membre
+    match /proreq/{id} {
+      allow read: if soi(resource.data.uid) || peut('req');
+      allow create: if soi(nouveau().uid) && nouveau().st == 'att' && id == nouveau().k + '_' + nouveau().uid;
+      allow update: if peut('req')
+        || (soi(resource.data.uid) && inchange('uid') && inchange('k') && nouveau().st in ['att', 'non']);
+      allow delete: if soi(resource.data.uid) || peut('req');
+    }
+
+    // ------------------------------------------------ paiements et journal
+    // Les paiements ne sont enregistrés que par l'administrateur (ou, plus tard,
+    // par le serveur du prestataire de paiement, qui ne passe pas par ces règles).
+    match /pay/{id} {
+      allow read: if soi(resource.data.uid);
+      allow write: if admin();
+    }
+    match /logs/{id} {
+      allow read: if equipe();
+      allow create: if equipe() && soi(nouveau().by);
+    }
+
+    // Tout le reste est refusé.
   }
 }

@@ -1,11 +1,19 @@
 rules_version = '2';
-// Règles de stockage Luisart (Firebase › Storage › Règles)
+// Règles de stockage Luisart (console Firebase › Storage › Règles › Publier)
+// • Chaque compte n'écrit que dans son dossier u/<son identifiant>/.
+// • On peut ouvrir un fichier dont on a le lien, mais personne ne peut
+//   parcourir (lister) les fichiers des autres.
+// • 20 Mo maximum ; les pages web, SVG et scripts sont refusés
+//   (ils pourraient servir à héberger une fausse page).
 service firebase.storage {
   match /b/{bucket}/o {
     match /u/{uid}/{file} {
-      allow read: if true;
-      allow write: if request.auth != null && request.auth.uid == uid
-        && request.resource.size < 20 * 1024 * 1024;
+      allow get: if true;
+      allow list: if false;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.size < 20 * 1024 * 1024
+        && !request.resource.contentType.matches('(?i).*(html|javascript|ecmascript|svg|xml).*');
+      allow delete: if request.auth != null && request.auth.uid == uid;
     }
   }
 }
