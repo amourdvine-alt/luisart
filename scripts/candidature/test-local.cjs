@@ -6,7 +6,7 @@ const { analyse } = require('./robot.cjs');
   const b = await chromium.launch({ args: ['--no-sandbox'] });
   const page = await b.newPage();
   const url = 'file://' + path.join(__dirname, 'fixture-appel.html');
-  const r = await analyse(page, url, { name: 'Artiste Test', whatsapp: '+2250700000000', city: 'Bingerville', bio: 'Peintre.' });
+  const r = await analyse(page, url, { name: 'Artiste Test', portfolio: 'https://amourdvine-alt.github.io/luisart/#a=test', whatsapp: '+2250700000000', city: 'Bingerville', bio: 'Peintre.' });
   console.log(JSON.stringify(r, null, 1));
   await b.close();
 })();

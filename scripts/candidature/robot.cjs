@@ -7,6 +7,7 @@
 'use strict';
 
 const LABEL_RULES = [
+  { key: 'portfolio', re: /portfolio|site\s*(web|internet)|website|lien|link|url|book|instagram/i },
   { key: 'name',     re: /nom|name|artiste|prénom|prenom|full/i },
   { key: 'whatsapp', re: /t[ée]l|phone|mobile|whatsapp|portable/i },
   { key: 'city',     re: /ville|city|localit|adresse|address/i },
