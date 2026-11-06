@@ -1737,6 +1737,8 @@ a.cnlk{display:block;text-decoration:none;box-sizing:border-box;text-align:cente
 /* accueil : cartes plus grandes */
 .hpa-on #app .hrow{--cw:clamp(185px,52vw,260px)!important}
 .hpa-on #app .sc>*{flex:0 0 clamp(160px,44vw,220px)!important}
+/* étiquette « En cours », « Clôture dans… » : petite pastille */
+.nposter em.nst{position:absolute!important;display:inline-block!important;top:7px!important;left:7px!important;right:auto!important;width:auto!important;max-width:calc(100% - 14px);margin:0!important;padding:1px 6px!important;border:0!important;border-radius:6px!important;font-size:9px!important;line-height:1.35!important;font-weight:700;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;gap:0!important;min-height:0!important}
 /* rubrique agrandie */
 #hpa-x{position:fixed;inset:0;z-index:9000;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:0 10px calc(24px + env(safe-area-inset-bottom,0px));animation:hpa-in .25s ease-out}
 @keyframes hpa-in{from{opacity:0;transform:translateY(12px)}}
