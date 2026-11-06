@@ -71,7 +71,7 @@ button:disabled{opacity:.45}
   const log = m => { const t = new Date().toLocaleTimeString('fr-FR'); $('log').textContent = t + '  ' + m + '\n' + $('log').textContent; };
   let client = null, localVideo = null, localAudio = null, facing = 'user', cams = [], camIdx = 0, timer = null;
   const appIdKey = 'luisart_test_appid';
-  try { $('appid').value = localStorage.getItem(appIdKey) || ''; $('tok').value = localStorage.getItem(appIdKey + '_tok') || ''; } catch (e) {}
+  try { $('appid').value = localStorage.getItem(appIdKey) || 'f519e591cd2544caa603e5407858d7cc'; $('tok').value = localStorage.getItem(appIdKey + '_tok') || ''; } catch (e) {}
 
   if (typeof AgoraRTC === 'undefined') { log('SDK Agora non chargé : vérifiez la connexion internet ou le chemin du fichier.'); }
   else { AgoraRTC.setLogLevel(2); }
