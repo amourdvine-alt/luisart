@@ -4480,14 +4480,27 @@ window.isLive=isLive;window.liveList=()=>Object.keys(LIVES).filter(isLive);
 const refresh=()=>{try{if(typeof v!=='undefined'&&(v==='msg'||v==='home')&&!document.querySelector('#msq:focus,#lvv.on input:focus')){if(typeof soft==='function')soft();else render()}}catch(er){}};
 /* ---------- écran ---------- */
 function ui(){let o=document.getElementById('lvv');if(!o){o=document.createElement('div');o.id='lvv';document.body.appendChild(o);o.addEventListener('click',onClick);
- const vv=window.visualViewport;if(vv){const fixKb=()=>{const b=o.querySelector('.lvbot'),kb=Math.max(0,innerHeight-vv.height);
-  if(o.classList.contains('on')&&kb>80){o.style.top=vv.offsetTop+'px';o.style.height=innerHeight+'px';o.style.bottom='auto';if(b)b.style.bottom=kb+'px';o.classList.add('kb')}
-  else{o.style.top=o.style.height=o.style.bottom='';if(b)b.style.bottom='';o.classList.remove('kb')}};
-  vv.addEventListener('resize',fixKb);vv.addEventListener('scroll',fixKb);o.addEventListener('focusout',()=>setTimeout(fixKb,60))}
+ const vv=window.visualViewport;{const fixKb=()=>{const b=o.querySelector('.lvbot'),ae=document.activeElement,foc=!!(ae&&ae.id==='lvin'),vh=vv?vv.height:innerHeight,vt=vv?(vv.offsetTop||0):0;
+  if(!foc||!o.__h0)o.__h0=Math.max(innerHeight,vh+vt);const H=o.__h0,kb=Math.max(0,H-vh);
+  if(o.classList.contains('on')){o.style.height=H+'px';o.style.bottom='auto';
+   if(foc&&kb>80){o.style.top=vt+'px';if(b)b.style.bottom=kb+'px';o.classList.add('kb');if(window.scrollY)window.scrollTo(0,0)}
+   else{o.style.top='0px';if(b)b.style.bottom='';o.classList.remove('kb')}}
+  else{o.style.top=o.style.height=o.style.bottom='';if(b)b.style.bottom='';o.classList.remove('kb');o.__h0=0}};
+  o.__fix=fixKb;if(vv){vv.addEventListener('resize',fixKb);vv.addEventListener('scroll',fixKb)}addEventListener('resize',fixKb);
+  o.addEventListener('focusin',()=>{[30,150,350,700].forEach(t=>setTimeout(fixKb,t))});o.addEventListener('focusout',()=>{[60,300].forEach(t=>setTimeout(fixKb,t))})}
  const dist=ev=>Math.hypot(ev.touches[0].clientX-ev.touches[1].clientX,ev.touches[0].clientY-ev.touches[1].clientY);
  o.addEventListener('touchstart',ev=>{if(LV&&LV.role==='host'&&ev.touches.length===2){ZC.p0=dist(ev);ZC.z0=ZC.z}},{passive:true});
  o.addEventListener('touchmove',ev=>{if(LV&&LV.role==='host'&&ev.touches.length===2&&ZC.p0){ev.preventDefault();zoomTo(ZC.z0*dist(ev)/ZC.p0)}},{passive:false});
  o.addEventListener('touchend',ev=>{if(!ev.touches||ev.touches.length<2)ZC.p0=0},{passive:true});o.addEventListener('keydown',ev=>{if(ev.key==='Enter'&&ev.target.id==='lvin'){ev.preventDefault();sendCom()}})}return o}
+/* caméra en portrait, plein écran comme TikTok : l'iPhone interprète largeur/hauteur à l'envers selon les cas,
+   donc on vérifie l'image obtenue et on redemande dans l'autre sens si elle est en paysage */
+async function getCam(face,aud,big){const want=innerHeight>=innerWidth,w=big?720:480,h=big?1280:640;
+ const mk=d=>navigator.mediaDevices.getUserMedia({audio:aud?{echoCancellation:true,noiseSuppression:true}:false,video:{facingMode:face,frameRate:{ideal:30},...d}});
+ const tries=[{width:{ideal:w},height:{ideal:h}},{width:{ideal:h},height:{ideal:w}},{aspectRatio:{ideal:9/16}}];
+ for(let k=0;k<tries.length;k++){let st;try{st=await mk(tries[k])}catch(er){if(k===0)throw er;continue}
+  const g=(st.getVideoTracks()[0].getSettings&&st.getVideoTracks()[0].getSettings())||{},port=!(g.width&&g.height)||g.height>g.width;
+  if(port||!want)return st;st.getTracks().forEach(t=>t.stop());await new Promise(r=>setTimeout(r,120))}
+ return mk(tries[0])}
 /* zoom au pincement (caméra de l'artiste) : agit sur la caméra elle-même, donc les spectateurs voient le zoom */
 const ZC={p0:0,z0:1,z:1,busy:0,next:0};
 async function zoomTo(z){const t=LV&&LV.stream&&LV.stream.getVideoTracks()[0];if(!t||!t.getCapabilities)return;const c=t.getCapabilities()||{};
@@ -4495,7 +4508,7 @@ async function zoomTo(z){const t=LV&&LV.stream&&LV.stream.getVideoTracks()[0];if
  z=Math.min(c.zoom.max,Math.max(c.zoom.min,z));ZC.z=z;if(ZC.busy){ZC.next=z;return}ZC.busy=1;
  try{await t.applyConstraints({advanced:[{zoom:z}]})}catch(er){}ZC.busy=0;zLbl();if(ZC.next&&ZC.next!==z){const n=ZC.next;ZC.next=0;zoomTo(n)}else ZC.next=0}
 function zLbl(){const o=document.getElementById('lvv');if(!o)return;let b=o.querySelector('.lvzm');if(!b){b=document.createElement('span');b.className='lvzm';o.appendChild(b)}b.textContent=ZC.z.toFixed(1)+'×';b.classList.add('on');clearTimeout(ZC.ht);ZC.ht=setTimeout(()=>b.classList.remove('on'),1200)}
-function paint(){const o=ui();if(!LV){o.classList.remove('on');o.innerHTML='';document.documentElement.classList.remove('calllock');return}
+function paint(){const o=ui();try{o.__fix&&o.__fix()}catch(er){}if(!LV){o.classList.remove('on');o.innerHTML='';document.documentElement.classList.remove('calllock');return}
  const host=LV.role==='host',hid=host?uid:LV.host,l=LIVES[hid]||{};
  if(!o.classList.contains('on')){o.innerHTML=`<video class="lvvid" playsinline autoplay ${host?'muted':''}></video><div class="lvsh"></div>
   <div class="lvtop"><span class="lvav">${av(hid)}</span><div class="lvnm"><b>${e(nm(hid))}</b><small class="lvti"></small></div><span class="lvpill">● ${T('EN DIRECT')}</span><span class="lvcnt">${ic('eye',14)} <i>0</i></span><button type="button" class="lvx" data-lvc="close" aria-label="${T('Fermer')}">${ic('x',22)}</button></div>
@@ -4543,7 +4556,7 @@ function extSheet(){const l=LIVES[uid]||{};mSheet(`<div class="pcl"><span class=
  const sh=document.getElementById('msh');sh.onclick=async ev=>{if(!ev.target.closest('[data-lve]'))return;sh.onclick=null;mSheetX();try{await db.doc('lives/'+uid).update({st:'off',te:Date.now()})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';refresh();toast(T('Live terminé'))}}
 async function startLive(title){if(window.__callState&&window.__callState())return toast(T('Un appel est déjà en cours'));
  LV={role:'host',pcs:{},face:'user',st:'conn'};ZC.z=1;ZC.p0=0;paint();
- try{LV.stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:{facingMode:'user',width:{ideal:720},height:{ideal:1280}}})}catch(er){LV=null;paint();toast(T('Autorisez la caméra et le micro pour lancer un live'));return setTimeout(()=>preLive(true),400)}
+ try{LV.stream=await getCam('user',true,true)}catch(er){LV=null;paint();toast(T('Autorisez la caméra et le micro pour lancer un live'));return setTimeout(()=>preLive(true),400)}
  const now=Date.now();LV.st='live';LV.t0=now;LV.ts=now;
  const au=agOK()?await agAuth():null;try{await db.doc('lives/'+uid).set({host:uid,st:'on',ts:now,hb:now,title:title||'',n:0,tr:au?'ag':'p2p',hostAuth:au||'',guests:[]})}catch(er){toast(T('Impossible de démarrer le live'));return endLive(true)}
  LIVES[uid]={host:uid,st:'on',ts:now,hb:now,title:title||'',tr:au?'ag':'p2p',hostAuth:au||'',guests:[]};paint();refresh();subCom(uid);
@@ -4560,7 +4573,7 @@ async function onJoin(id,j){if(!LV||LV.role!=='host'||!j||j.ls!==LV.ts)return;
  try{await pc.setRemoteDescription(j.offer);await pc.setLocalDescription(await pc.createAnswer());await gather(pc);if(!LV)return;
   try{pc.getSenders().forEach(s=>{if(s.track&&s.track.kind==='video'){const p=s.getParameters();if(!p.encodings||!p.encodings.length)p.encodings=[{}];p.encodings[0].maxBitrate=700000;s.setParameters(p).catch(()=>{})}})}catch(er){}
   await db.doc('livej/'+id).update({answer:sd(pc.localDescription),ta:Date.now()})}catch(er){try{pc.close()}catch(e2){}delete LV.pcs[id]}}
-async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await navigator.mediaDevices.getUserMedia({video:{facingMode:LV.face}});const nt=s.getVideoTracks()[0];if(LV.ag&&LV.ag.vt)await agSwapVideo(nt);for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);ZC.z=1;ZC.p0=0;const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
+async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await getCam(LV.face,false,true);const nt=s.getVideoTracks()[0];if(LV.ag&&LV.ag.vt)await agSwapVideo(nt);for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);ZC.z=1;ZC.p0=0;const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
 async function endLive(silent){if(!LV)return;const L=LV;clearInterval(L.hb);clearInterval(L.tk);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;Object.values(L.pcs||{}).forEach(p=>{try{p.close()}catch(er){}});agClose(L);try{L.stream&&L.stream.getTracks().forEach(t=>t.stop())}catch(er){}try{L.wl&&L.wl.release()}catch(er){}
  try{await db.doc('lives/'+uid).update({st:'off',te:Date.now(),n:0,guests:[]})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';
  const d=L.t0?Math.round((Date.now()-L.t0)/1000):0;LV=null;paint();refresh();if(!silent&&d)toast(T('Live terminé')+' · '+fmt(d))}
@@ -4630,7 +4643,7 @@ async function agKick(v){if(!LV||LV.role!=='host')return;const ng=guestsOf(uid).
 async function agDown(){if(!LV||!LV.onStage)return;LV.noStage=1;await agUnstage();try{await db.doc('livej/'+LV.id).update({down:Date.now(),hand:0,ok:0})}catch(er){}}
 async function agStage(){if(!LV||LV.role!=='view'||!LV.ag)return;const inG=guestsOf(LV.host).includes(uid);if(!inG)LV.noStage=0;
  if(inG&&!LV.onStage&&!LV.staging&&!LV.noStage){LV.staging=1;try{const AR=window.AgoraRTC,c=LV.ag.c;const r=await agToken(LV.host,'guest');await c.renewToken(r.token);
-   LV.gs=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:{facingMode:'user',width:{ideal:480},height:{ideal:640}}});
+   LV.gs=await getCam('user',true,false);
    await c.setClientRole('host');LV.ag.gv=AR.createCustomVideoTrack({mediaStreamTrack:LV.gs.getVideoTracks()[0],bitrateMax:600});LV.ag.ga=AR.createCustomAudioTrack({mediaStreamTrack:LV.gs.getAudioTracks()[0]});
    await c.publish([LV.ag.ga,LV.ag.gv]);LV.onStage=true;LV.hand=0;toast(T('Vous êtes sur scène'))}catch(er){toast(T('Impossible de monter sur scène : autorisez la caméra et le micro'));try{LV.gs&&LV.gs.getTracks().forEach(t=>t.stop())}catch(e2){}LV.gs=null}LV.staging=0;paint()}
  else if(!inG&&LV.onStage)await agUnstage()}
