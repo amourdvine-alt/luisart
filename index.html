@@ -1734,6 +1734,9 @@ a.cnlk{display:block;text-decoration:none;box-sizing:border-box;text-align:cente
 .ncard .nmeta:last-of-type{margin-bottom:0!important}
 .ncard .nmeta span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ncard .nmeta svg{width:12px!important;height:12px!important}
+/* accueil : cartes plus grandes */
+.hpa-on #app .hrow{--cw:clamp(185px,52vw,260px)!important}
+.hpa-on #app .sc>*{flex:0 0 clamp(160px,44vw,220px)!important}
 /* rubrique agrandie */
 #hpa-x{position:fixed;inset:0;z-index:9000;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:0 10px calc(24px + env(safe-area-inset-bottom,0px));animation:hpa-in .25s ease-out}
 @keyframes hpa-in{from{opacity:0;transform:translateY(12px)}}
