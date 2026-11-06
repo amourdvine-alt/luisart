@@ -168,6 +168,60 @@ function cleanTitle(it) {
 }
 const cut = (s, n) => s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n)).replace(/[,;:]$/, '') + '…';
 
+
+/* ---------------- images : pour les annonces sans photo, on lit l'article d'origine ---------------- */
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
+async function fetchT(url, opt = {}, ms = 12000) {
+  const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), ms);
+  try { const r = await fetch(url, { redirect: 'follow', signal: ctl.signal, ...opt, headers: { 'user-agent': UA, 'accept-language': 'fr,en;q=0.8', ...(opt.headers || {}) } });
+    if (!r.ok) throw new Error('HTTP ' + r.status); return { text: await r.text(), url: r.url }; }
+  finally { clearTimeout(t); }
+}
+/* Les liens Google Actualités sont des redirections : on retrouve l'adresse réelle de l'article */
+async function gnReal(link) {
+  const m = link.match(/news\.google\.com\/(?:rss\/)?articles\/([^?/]+)/); if (!m) return link;
+  const id = m[1];
+  const { text } = await fetchT(`https://news.google.com/rss/articles/${id}`);
+  const sg = (text.match(/data-n-a-sg="([^"]+)"/) || [])[1], ts = (text.match(/data-n-a-ts="([^"]+)"/) || [])[1];
+  if (!sg || !ts) throw new Error('signature Google absente');
+  const req = [[['Fbv4je', JSON.stringify(['garturlreq', [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1], 'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0], id, +ts, sg]), null, 'generic']]];
+  const r = await fetchT('https://news.google.com/_/DotsSplashUi/data/batchexecute', { method: 'POST', headers: { 'content-type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: 'f.req=' + encodeURIComponent(JSON.stringify(req)) });
+  const part = r.text.split('\n\n')[1]; const arr = JSON.parse(part);
+  const real = JSON.parse(arr[0][2])[1];
+  if (!/^https?:\/\//.test(real)) throw new Error('adresse non décodée');
+  return real;
+}
+const metaImg = (html, base) => {
+  const pick = n => { const re1 = new RegExp(`<meta[^>]+(?:property|name)=["']${n}["'][^>]*content=["']([^"']+)`, 'i'), re2 = new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']${n}["']`, 'i');
+    const x = html.match(re1) || html.match(re2); return x ? decode(x[1]).trim() : ''; };
+  let u = pick('og:image:secure_url') || pick('og:image') || pick('twitter:image') || pick('twitter:image:src');
+  if (!u) { const l = html.match(/<link[^>]+rel=["']image_src["'][^>]*href=["']([^"']+)/i); u = l ? decode(l[1]) : ''; }
+  if (!u) return '';
+  try { u = new URL(u, base).href; } catch { return ''; }
+  if (u.startsWith('http://')) u = 'https://' + u.slice(7);
+  if (!/^https:\/\//.test(u) || /logo|favicon|placeholder|default[-_]?(og|share)|blank\.(png|gif)/i.test(u)) return '';
+  return u;
+};
+async function enrichImages(items, previous) {
+  const old = new Map(previous.filter(p => p.img).map(p => [p.id, p]));
+  const todo = items.filter(it => !it.img);
+  let ok = 0, reused = 0, fail = 0;
+  for (const it of todo) { const p = old.get(it.id); if (p) { it.img = p.img; if (p.link && !p.link.includes('news.google')) it.link = p.link; reused++; } }
+  const queue = todo.filter(it => !it.img); const N = 5;
+  await Promise.all(Array.from({ length: N }, async () => {
+    while (queue.length) { const it = queue.shift();
+      try {
+        const real = await gnReal(it.link);
+        const page = await fetchT(real, { headers: { accept: 'text/html,application/xhtml+xml' } });
+        const img = metaImg(page.text.slice(0, 400000), page.url || real);
+        if (real !== it.link) it.link = page.url || real;
+        if (img) { it.img = img; ok++; } else fail++;
+      } catch (e) { fail++; console.warn('  image ✗', it.src, String(e.message || e).slice(0, 60)); }
+    }
+  }));
+  console.log(`Images : ${ok} trouvées, ${reused} reprises, ${fail} sans image`);
+}
+
 /* ---------------- programme principal ---------------- */
 async function main() {
   let previous = [];
@@ -223,6 +277,7 @@ async function main() {
   const world = new Set(byCat('Art mondial').slice(12));
   const final = [...new Set([...byCat('Appels à candidatures').slice(0, 18), ...byCat('Vernissages locaux').slice(0, 10), ...kept.filter(k => !world.has(k))])].slice(0, MAX_ITEMS);
 
+  try { await enrichImages(final, previous); } catch (e) { console.warn('Images : étape ignorée', e.message); }
   if (!final.length && previous.length) { console.warn('Aucune nouvelle donnée : on garde le fichier précédent.'); return; }
   const out = { updated: new Date(NOW).toISOString(), sources: { ok: stats.ok, fail: stats.fail, read: stats.read }, count: final.length,
     items: final.sort((a, b) => b.ts - a.ts).map(({ _score, ...x }) => ({ ...x, _score: Math.round(_score * 10) / 10 })) };
