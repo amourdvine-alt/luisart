@@ -1682,6 +1682,7 @@ a.cnlk{display:block;text-decoration:none;box-sizing:border-box;text-align:cente
 #lvv .lvreq{position:absolute;left:12px;right:112px;top:86px;z-index:4;display:flex;flex-direction:column;gap:6px;align-items:flex-start}#lvv .lvrq{display:flex;align-items:center;gap:6px;background:#000b;color:#fff;border-radius:14px;padding:6px 8px;font-size:12px}#lvv .lvrq p{margin:0;flex:1}#lvv .lvrq button{border:0;border-radius:10px;padding:6px 9px;font-weight:600;font-size:12px;background:var(--gd,#a87a2a);color:#fff}#lvv .lvrq button.no{background:#fff3}#lvv .lvgn{background:#000a;color:#fff;border-radius:10px;padding:3px 8px;font-size:11px}#lvv .lvhand{border:0;border-radius:16px;padding:8px 12px;background:#000b;color:#fff;font-weight:600;font-size:13px}#lvv .lvhand.on{background:#c0392b}#lvv .lvhand[disabled]{opacity:.7}
 #lvv .lvzm{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);z-index:5;background:#000a;color:#fff;font-weight:700;font-size:20px;padding:8px 14px;border-radius:14px;opacity:0;transition:opacity .25s;pointer-events:none}#lvv .lvzm.on{opacity:1}
 #lvv .lvvid.fit{object-fit:contain}#lvv.kb .lvbot{padding-bottom:8px}#lvv.kb .lvcom{max-height:22vh}
+#lvv .lvbot{will-change:transform;transition:none}#lvv{will-change:transform}
 </style><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#121821"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Luisart"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Luisart, la maison des artistes : galerie, boutique et réseau pour l’art de Côte d’Ivoire et d’Afrique."><script src="firebase-config.js"></script><script src="luisart-firebase.js"></script></head><body><div id="app"></div><nav id="nav"></nav>
 <script>
 /* =================== LANGUE (FR / EN) =================== */
@@ -4480,27 +4481,20 @@ window.isLive=isLive;window.liveList=()=>Object.keys(LIVES).filter(isLive);
 const refresh=()=>{try{if(typeof v!=='undefined'&&(v==='msg'||v==='home')&&!document.querySelector('#msq:focus,#lvv.on input:focus')){if(typeof soft==='function')soft();else render()}}catch(er){}};
 /* ---------- écran ---------- */
 function ui(){let o=document.getElementById('lvv');if(!o){o=document.createElement('div');o.id='lvv';document.body.appendChild(o);o.addEventListener('click',onClick);
- const vv=window.visualViewport;{const fixKb=()=>{const b=o.querySelector('.lvbot'),ae=document.activeElement,foc=!!(ae&&ae.id==='lvin'),vh=vv?vv.height:innerHeight,vt=vv?(vv.offsetTop||0):0;
-  if(!foc||!o.__h0)o.__h0=Math.max(innerHeight,vh+vt);const H=o.__h0,kb=Math.max(0,H-vh);
-  if(o.classList.contains('on')){o.style.height=H+'px';o.style.bottom='auto';
-   if(foc&&kb>80){o.style.top=vt+'px';if(b)b.style.bottom=kb+'px';o.classList.add('kb');if(window.scrollY)window.scrollTo(0,0)}
-   else{o.style.top='0px';if(b)b.style.bottom='';o.classList.remove('kb')}}
-  else{o.style.top=o.style.height=o.style.bottom='';if(b)b.style.bottom='';o.classList.remove('kb');o.__h0=0}};
-  o.__fix=fixKb;if(vv){vv.addEventListener('resize',fixKb);vv.addEventListener('scroll',fixKb)}addEventListener('resize',fixKb);
-  o.addEventListener('focusin',()=>{[30,150,350,700].forEach(t=>setTimeout(fixKb,t))});o.addEventListener('focusout',()=>{[60,300].forEach(t=>setTimeout(fixKb,t))})}
+ {const vv=window.visualViewport;let raf=0,lt=-1,lb=-1;
+  const step=()=>{const b=o.querySelector('.lvbot'),vh=vv?vv.height:innerHeight,vt=vv?Math.round(vv.offsetTop||0):0,H=o.__h0||innerHeight,kb=Math.max(0,Math.round(H-vh));
+   if(vt!==lt){lt=vt;o.style.transform=vt?'translate3d(0,'+vt+'px,0)':''}
+   const up=kb>80?kb:0;if(up!==lb){lb=up;if(b)b.style.transform=up?'translate3d(0,'+(-up)+'px,0)':'';o.classList.toggle('kb',!!up)}
+   raf=requestAnimationFrame(step)};
+  o.addEventListener('focusin',ev=>{if(ev.target.id!=='lvin'||raf)return;o.__h0=Math.max(innerHeight,vv?Math.round(vv.height+(vv.offsetTop||0)):0);o.style.height=o.__h0+'px';o.style.bottom='auto';lt=lb=-1;raf=requestAnimationFrame(step)});
+  o.addEventListener('focusout',ev=>{if(ev.target.id!=='lvin')return;setTimeout(()=>{if(document.activeElement&&document.activeElement.id==='lvin')return;cancelAnimationFrame(raf);raf=0;const b=o.querySelector('.lvbot');o.style.transform=o.style.height=o.style.bottom='';if(b)b.style.transform='';o.classList.remove('kb');o.__h0=0},350)})}
  const dist=ev=>Math.hypot(ev.touches[0].clientX-ev.touches[1].clientX,ev.touches[0].clientY-ev.touches[1].clientY);
  o.addEventListener('touchstart',ev=>{if(LV&&LV.role==='host'&&ev.touches.length===2){ZC.p0=dist(ev);ZC.z0=ZC.z}},{passive:true});
  o.addEventListener('touchmove',ev=>{if(LV&&LV.role==='host'&&ev.touches.length===2&&ZC.p0){ev.preventDefault();zoomTo(ZC.z0*dist(ev)/ZC.p0)}},{passive:false});
  o.addEventListener('touchend',ev=>{if(!ev.touches||ev.touches.length<2)ZC.p0=0},{passive:true});o.addEventListener('keydown',ev=>{if(ev.key==='Enter'&&ev.target.id==='lvin'){ev.preventDefault();sendCom()}})}return o}
 /* caméra en portrait, plein écran comme TikTok : l'iPhone interprète largeur/hauteur à l'envers selon les cas,
    donc on vérifie l'image obtenue et on redemande dans l'autre sens si elle est en paysage */
-async function getCam(face,aud,big){const want=innerHeight>=innerWidth,w=big?720:480,h=big?1280:640;
- const mk=d=>navigator.mediaDevices.getUserMedia({audio:aud?{echoCancellation:true,noiseSuppression:true}:false,video:{facingMode:face,frameRate:{ideal:30},...d}});
- const tries=[{width:{ideal:w},height:{ideal:h}},{width:{ideal:h},height:{ideal:w}},{aspectRatio:{ideal:9/16}}];
- for(let k=0;k<tries.length;k++){let st;try{st=await mk(tries[k])}catch(er){if(k===0)throw er;continue}
-  const g=(st.getVideoTracks()[0].getSettings&&st.getVideoTracks()[0].getSettings())||{},port=!(g.width&&g.height)||g.height>g.width;
-  if(port||!want)return st;st.getTracks().forEach(t=>t.stop());await new Promise(r=>setTimeout(r,120))}
- return mk(tries[0])}
+async function getCam(face,aud){return navigator.mediaDevices.getUserMedia({audio:aud?{echoCancellation:true,noiseSuppression:true}:false,video:{facingMode:face}})}
 /* zoom au pincement (caméra de l'artiste) : agit sur la caméra elle-même, donc les spectateurs voient le zoom */
 const ZC={p0:0,z0:1,z:1,busy:0,next:0};
 async function zoomTo(z){const t=LV&&LV.stream&&LV.stream.getVideoTracks()[0];if(!t||!t.getCapabilities)return;const c=t.getCapabilities()||{};
@@ -4508,15 +4502,14 @@ async function zoomTo(z){const t=LV&&LV.stream&&LV.stream.getVideoTracks()[0];if
  z=Math.min(c.zoom.max,Math.max(c.zoom.min,z));ZC.z=z;if(ZC.busy){ZC.next=z;return}ZC.busy=1;
  try{await t.applyConstraints({advanced:[{zoom:z}]})}catch(er){}ZC.busy=0;zLbl();if(ZC.next&&ZC.next!==z){const n=ZC.next;ZC.next=0;zoomTo(n)}else ZC.next=0}
 function zLbl(){const o=document.getElementById('lvv');if(!o)return;let b=o.querySelector('.lvzm');if(!b){b=document.createElement('span');b.className='lvzm';o.appendChild(b)}b.textContent=ZC.z.toFixed(1)+'×';b.classList.add('on');clearTimeout(ZC.ht);ZC.ht=setTimeout(()=>b.classList.remove('on'),1200)}
-function paint(){const o=ui();try{o.__fix&&o.__fix()}catch(er){}if(!LV){o.classList.remove('on');o.innerHTML='';document.documentElement.classList.remove('calllock');return}
+function paint(){const o=ui();if(!LV){o.classList.remove('on');o.innerHTML='';document.documentElement.classList.remove('calllock');return}
  const host=LV.role==='host',hid=host?uid:LV.host,l=LIVES[hid]||{};
  if(!o.classList.contains('on')){o.innerHTML=`<video class="lvvid" playsinline autoplay ${host?'muted':''}></video><div class="lvsh"></div>
   <div class="lvtop"><span class="lvav">${av(hid)}</span><div class="lvnm"><b>${e(nm(hid))}</b><small class="lvti"></small></div><span class="lvpill">● ${T('EN DIRECT')}</span><span class="lvcnt">${ic('eye',14)} <i>0</i></span><button type="button" class="lvx" data-lvc="close" aria-label="${T('Fermer')}">${ic('x',22)}</button></div>
   <div class="lvmid"><div class="lvst"></div></div><div class="lvhearts"></div>
   <div class="lvbot"><div class="lvcom"></div><div class="lvrow"><input id="lvin" placeholder="${e(T('Commenter…'))}" maxlength="140" autocomplete="off"><button type="button" class="lvb" data-lvc="send" aria-label="${T('Envoyer')}">${ic('send',18)}</button>${host?`<button type="button" class="lvb" data-lvc="flip" aria-label="${T('Retourner')}">${ic('flip',19)}</button><button type="button" class="lvb lvmu" data-lvc="mute" aria-label="${T('Muet')}">${ic('mic',19)}</button><button type="button" class="lvend" data-lvc="end">${T('Terminer')}</button>`:`<button type="button" class="lvb lvhb" data-lvc="heart" aria-label="❤">❤</button>`}</div></div>`;o.classList.add('on');document.documentElement.classList.add('calllock')}
  o.classList.toggle('host',host);
- const vd=o.querySelector('.lvvid'),s=host?LV.stream:LV.remote;if(!vd.__fit){vd.__fit=1;const f=()=>{const vw=vd.videoWidth,vh=vd.videoHeight;if(!vw||!vh)return;const vr=vw/vh,sr=innerWidth/innerHeight;vd.classList.toggle('fit',Math.min(vr,sr)/Math.max(vr,sr)<0.7)};vd.addEventListener('loadedmetadata',f);vd.addEventListener('resize',f);addEventListener('resize',f)}
- if(s&&vd.srcObject!==s){vd.srcObject=s;vd.play&&vd.play().catch(()=>{})}vd.classList.toggle('mir',host&&LV.face!=='environment');
+ const vd=o.querySelector('.lvvid'),s=host?LV.stream:LV.remote; if(s&&vd.srcObject!==s){vd.srcObject=s;vd.play&&vd.play().catch(()=>{})}vd.classList.toggle('mir',host&&LV.face!=='environment');
  const st=o.querySelector('.lvst');st.innerHTML=LV.st==='ended'?`<b>${T('Le live est terminé')}</b><button type="button" class="lvok" data-lvc="close">${T('Fermer')}</button>`:LV.st==='conn'?`<span class="lvspin"></span>${T('Connexion au live…')}`:LV.st==='fail'?`<b>${T('Impossible de rejoindre le live sur ce réseau')}</b><button type="button" class="lvok" data-lvc="retry">${T('Réessayer')}</button>`:'';st.style.display=st.innerHTML?'':'none';
  o.querySelector('.lvti').textContent=(l.title?l.title+' · ':'')+(LV.t0?fmt((Date.now()-LV.t0)/1000):'');
  o.querySelector('.lvcnt i').textContent=host?(LV.ag?audN():Object.values(LV.pcs||{}).filter(p=>p.connectionState==='connected').length):(l.n||0);
@@ -4556,7 +4549,7 @@ function extSheet(){const l=LIVES[uid]||{};mSheet(`<div class="pcl"><span class=
  const sh=document.getElementById('msh');sh.onclick=async ev=>{if(!ev.target.closest('[data-lve]'))return;sh.onclick=null;mSheetX();try{await db.doc('lives/'+uid).update({st:'off',te:Date.now()})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';refresh();toast(T('Live terminé'))}}
 async function startLive(title){if(window.__callState&&window.__callState())return toast(T('Un appel est déjà en cours'));
  LV={role:'host',pcs:{},face:'user',st:'conn'};ZC.z=1;ZC.p0=0;paint();
- try{LV.stream=await getCam('user',true,true)}catch(er){LV=null;paint();toast(T('Autorisez la caméra et le micro pour lancer un live'));return setTimeout(()=>preLive(true),400)}
+ try{LV.stream=await getCam('user',true)}catch(er){LV=null;paint();toast(T('Autorisez la caméra et le micro pour lancer un live'));return setTimeout(()=>preLive(true),400)}
  const now=Date.now();LV.st='live';LV.t0=now;LV.ts=now;
  const au=agOK()?await agAuth():null;try{await db.doc('lives/'+uid).set({host:uid,st:'on',ts:now,hb:now,title:title||'',n:0,tr:au?'ag':'p2p',hostAuth:au||'',guests:[]})}catch(er){toast(T('Impossible de démarrer le live'));return endLive(true)}
  LIVES[uid]={host:uid,st:'on',ts:now,hb:now,title:title||'',tr:au?'ag':'p2p',hostAuth:au||'',guests:[]};paint();refresh();subCom(uid);
@@ -4573,7 +4566,7 @@ async function onJoin(id,j){if(!LV||LV.role!=='host'||!j||j.ls!==LV.ts)return;
  try{await pc.setRemoteDescription(j.offer);await pc.setLocalDescription(await pc.createAnswer());await gather(pc);if(!LV)return;
   try{pc.getSenders().forEach(s=>{if(s.track&&s.track.kind==='video'){const p=s.getParameters();if(!p.encodings||!p.encodings.length)p.encodings=[{}];p.encodings[0].maxBitrate=700000;s.setParameters(p).catch(()=>{})}})}catch(er){}
   await db.doc('livej/'+id).update({answer:sd(pc.localDescription),ta:Date.now()})}catch(er){try{pc.close()}catch(e2){}delete LV.pcs[id]}}
-async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await getCam(LV.face,false,true);const nt=s.getVideoTracks()[0];if(LV.ag&&LV.ag.vt)await agSwapVideo(nt);for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);ZC.z=1;ZC.p0=0;const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
+async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await getCam(LV.face,false);const nt=s.getVideoTracks()[0];if(LV.ag&&LV.ag.vt)await agSwapVideo(nt);for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);ZC.z=1;ZC.p0=0;const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
 async function endLive(silent){if(!LV)return;const L=LV;clearInterval(L.hb);clearInterval(L.tk);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;Object.values(L.pcs||{}).forEach(p=>{try{p.close()}catch(er){}});agClose(L);try{L.stream&&L.stream.getTracks().forEach(t=>t.stop())}catch(er){}try{L.wl&&L.wl.release()}catch(er){}
  try{await db.doc('lives/'+uid).update({st:'off',te:Date.now(),n:0,guests:[]})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';
  const d=L.t0?Math.round((Date.now()-L.t0)/1000):0;LV=null;paint();refresh();if(!silent&&d)toast(T('Live terminé')+' · '+fmt(d))}
@@ -4643,7 +4636,7 @@ async function agKick(v){if(!LV||LV.role!=='host')return;const ng=guestsOf(uid).
 async function agDown(){if(!LV||!LV.onStage)return;LV.noStage=1;await agUnstage();try{await db.doc('livej/'+LV.id).update({down:Date.now(),hand:0,ok:0})}catch(er){}}
 async function agStage(){if(!LV||LV.role!=='view'||!LV.ag)return;const inG=guestsOf(LV.host).includes(uid);if(!inG)LV.noStage=0;
  if(inG&&!LV.onStage&&!LV.staging&&!LV.noStage){LV.staging=1;try{const AR=window.AgoraRTC,c=LV.ag.c;const r=await agToken(LV.host,'guest');await c.renewToken(r.token);
-   LV.gs=await getCam('user',true,false);
+   LV.gs=await getCam('user',true);
    await c.setClientRole('host');LV.ag.gv=AR.createCustomVideoTrack({mediaStreamTrack:LV.gs.getVideoTracks()[0],bitrateMax:600});LV.ag.ga=AR.createCustomAudioTrack({mediaStreamTrack:LV.gs.getAudioTracks()[0]});
    await c.publish([LV.ag.ga,LV.ag.gv]);LV.onStage=true;LV.hand=0;toast(T('Vous êtes sur scène'))}catch(er){toast(T('Impossible de monter sur scène : autorisez la caméra et le micro'));try{LV.gs&&LV.gs.getTracks().forEach(t=>t.stop())}catch(e2){}LV.gs=null}LV.staging=0;paint()}
  else if(!inG&&LV.onStage)await agUnstage()}
