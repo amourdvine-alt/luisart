@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T18:53:34.537Z",
+ "updated": "2026-11-06T18:54:48.324Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 498
+  "read": 497
  },
  "count": 60,
  "items": [
@@ -21,7 +21,7 @@
    "country": "",
    "link": "https://www.artnews.com/art-news/news/romes-galleria-borghese-opens-competition-extension-1234804922/",
    "src": "ARTnews",
-   "img": "",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1322406378.jpg?w=1024",
    "ts": 1793989033000,
    "auto": 1,
    "_score": 5
@@ -135,7 +135,7 @@
    "country": "",
    "link": "https://www.artnews.com/art-news/news/barbara-jakobson-art-collector-upper-east-side-townhouse-market-9-million-1234804913/",
    "src": "ARTnews",
-   "img": "",
+   "img": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-1164017447.jpg?w=1024",
    "ts": 1793979765000,
    "auto": 1,
    "_score": 5
@@ -173,7 +173,7 @@
    "country": "",
    "link": "https://www.artnews.com/art-news/news/2028-whitney-biennial-meg-onli-zack-winokur-curators-1234804890/",
    "src": "ARTnews",
-   "img": "",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/whitney-curators.jpg?w=960",
    "ts": 1793965156000,
    "auto": 1,
    "_score": 4.9
@@ -287,10 +287,10 @@
    "country": "",
    "link": "https://www.artnews.com/art-news/news/sweden-returns-benin-bronze-nigeria-indigenous-remains-bolivia-1234804791/",
    "src": "ARTnews",
-   "img": "",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1241646698.jpg?w=1024",
    "ts": 1793914438000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
   },
   {
    "id": "auto_vhk3rj",
@@ -556,26 +556,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": 7.2
-  },
-  {
-   "id": "auto_1qy5rj8",
-   "cat": "Événements",
-   "title": "Au Carreau du Temple, Signatures Art Fair met l’édition limitée à l’honneur",
-   "sub": "Beaux Arts Magazine",
-   "text": "Terminée, la saison des foires ? Loin de là ! Au mois de novembre, outre les rendez-vous …",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/au-carreau-du-temple-signatures-art-fair-met-ledition-limitee-a-lhonneur/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/knoebel-kartoffelbild-28-ed.-20112023-peinture-acrylique-sur-feuille-plastifiee-433x662cm-ed.-62ea1-courtesy-galerie-fahnemann-copyright-knoebel-1300x971.jpeg",
-   "ts": 1793865654000,
-   "auto": 1,
-   "_score": 3.7
+   "_score": 5.7
   },
   {
    "id": "auto_1pjeelv",
@@ -608,7 +589,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UZ0dkSlQ2cFZmRFFoMHZCSnZqRGllWGVRR1pQZUVnT25IbjJrVUJSUGNwNVl6VFpERDhEVURDMU5IN01fVEYxRmd3bHhnSFprSDBWU0V3V0ZBamVmU3pidEVkME1DTE80UWt6LUxtMWJZa0ctVW5BVnZZT2c?oc=5",
+   "link": "https://africabrief.substack.com/p/african-artists-showcase-contemporary",
    "src": "AfricaBrief",
    "img": "",
    "ts": 1793865556000,
@@ -635,25 +616,6 @@
    "_score": 5.1
   },
   {
-   "id": "auto_6niqmj",
-   "cat": "Expositions majeures",
-   "title": "Catherine Meurisse, Émilie Tronche, Blutch… 5 auteurs de BD signent des sérigraphies exceptionnelles pour les 40 ans du musée d’Orsay",
-   "sub": "Beaux Arts Magazine",
-   "text": "Le musée d’Orsay poursuit les festivités de son quarantième anniversaire. Après la collaboration annoncée il …",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/vu/catherine-meurisse-emilie-tronche-blutch-5-auteurs-de-bd-signent-des-serigraphies-exceptionnelles-pour-les-40-ans-du-musee-dorsay/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unecatherine-meurisse-1300x975.jpg",
-   "ts": 1793858414000,
-   "auto": 1,
-   "_score": 3.6
-  },
-  {
    "id": "auto_7jeied",
    "cat": "Expositions majeures",
    "title": "So You’ve Been Invited to Documenta 16. Here’s Our Advice.",
@@ -673,25 +635,6 @@
    "_score": 5
   },
   {
-   "id": "auto_1m0d5k",
-   "cat": "Expositions majeures",
-   "title": "Miquel Navarro, Sculptor of Cities Real and Imagined, Dies at 81",
-   "sub": "Hyperallergic",
-   "text": "In this column honoring those we lost in the art community, we remember a leading Spanish sculptor, a Dutch museum leader, and an Indian modernist.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/miquel-navarro-sculptor-of-cities-real-and-imagined-dies-at-81/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/731068470_122256453638101762_2123432363795170107_n-1.jpg",
-   "ts": 1793821498000,
-   "auto": 1,
-   "_score": 3.5
-  },
-  {
    "id": "auto_clenpc",
    "cat": "Appels à candidatures",
    "title": "School of the Art Institute of Chicago’s Graduate Programs and Deadlines",
@@ -708,7 +651,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 3.2
   },
   {
    "id": "auto_1q1lpb8",
@@ -724,10 +667,10 @@
    "country": "",
    "link": "https://www.artnews.com/art-in-america/columns/hard-truths-artist-apply-for-grants-1234804414/",
    "src": "ARTnews",
-   "img": "",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -3.1
+   "_score": -4.6
   },
   {
    "id": "auto_10ewtf5",
@@ -746,7 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": -1.2
+   "_score": -2.7
   },
   {
    "id": "auto_19xs21b",
@@ -765,7 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -1.3
+   "_score": -2.8
   },
   {
    "id": "auto_189elnp",
@@ -798,7 +741,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdjNwMEMxcS1Vb3dwOWZKcVdRV2NPQzlyLVhuN3RPZE1GQXExSzZnbTdNT0JiQlpwYWlEOEJoOE04cDFlU1FYY0ZtTUdOUmVjN0Y5SUVhdktnNy1rdF9IcFJsbVktQ08tMU44bVVsaFJfTEo2QUtnUndFRlEtdjV1X1EzYkNfRnptTzFHTFk2NFlMMlVpUmMtQXhWbWpiMmc0QjNsRC1ySzRmVktPenFkaFpR?oc=5",
+   "link": "https://african.business/2026/10/arts-culture/brutal-correction-for-contemporary-african-art-but-modern-holds-up",
    "src": "African Business",
    "img": "",
    "ts": 1793358273000,
@@ -822,7 +765,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": 2.9
+   "_score": 1.4
   },
   {
    "id": "auto_5rdh82",
@@ -841,7 +784,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -5.5
+   "_score": -7
   },
   {
    "id": "auto_1370snd",
@@ -860,7 +803,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -5.8
+   "_score": -7.3
   },
   {
    "id": "auto_u85eom",
@@ -874,12 +817,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbVY3TVFYZVhCTDFDckZjRmM3R1J1dkJrRzdieE9TQURsQ25OZk9JN2hQbUhDV0FZcUhhdUdWOWd3UGxlS1JjbnVFZDVfNmJCQ2M3VlRMbmJmdGZ1cGxQMkdrRHNCdFNRZ3hZVVppWmhHVjdwZjV2ZUVtc3p6dnBpVG81R3lic2ZCSG5GVUJqNkZ3REdfTGdrZzd1QkdRbmg3c0VZam12SE9VODZHTG5FRlln0gG3AUFVX3lxTE0wbmVxTFNCTzFOS1VSOG9HdUcxaVUzNEFwZHBjN20xbXNkTnBwYkZBMWx6cVdZT2J6RDlzVnU3aTF2ZU5QZkNTYW02MHJTRGlqcjV6Y0ZOTEw4bGRIdFlPUkNDSkl3eGhSYnFHdlZYWGROYTVDUXpTMGN2SUdhenotN3djSC1vU1Fjc0tmNGZfTl9Zck9IR1VZVEcwZmduNG5nRGRrZUxpVjVnbXMwQnZQNEFSZ3k0bw?oc=5",
+   "link": "https://www2.fundsforngos.org/individuals/open-call-for-palestinian-artists-in-helsinki-finland-for-spring-2027/",
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1793141886000,
    "auto": 1,
-   "_score": -19.7
+   "_score": -21.2
   },
   {
    "id": "auto_dptbgl",
@@ -898,7 +841,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -6.3
+   "_score": -7.8
   },
   {
    "id": "auto_1yyc40p",
@@ -931,7 +874,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU19qYUtCNGRIamVHWmpUMFNCWFl1VVdUVEYwd211bXhlTjNIT0NWUXhUQ29oS3FxYjhFVGlOS19iZW1LS2t4YlhhUUdFekRnNTVaOXB5VXo3NVJxcEplY3hjS1NqZUZ4X2xUSU5BM0JSeGM1M0Ytc3dtMk0xVFR0U3g4X1YxaVpJMGhhcGM0cTZUQlV1cFdzT2hKNE1UTThfRlJZWEdTM1Y?oc=5",
+   "link": "https://africa-news-agency.com/akaa-2026-quand-lart-contemporain-africain-reinvente-les-recits-culturels/",
    "src": "Africa News Agency",
    "img": "",
    "ts": 1792911600000,
@@ -950,9 +893,9 @@
    "end": "",
    "place": "Côte d'Ivoire",
    "country": "Côte d'Ivoire",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTjdzOWI0aUdsaWJCcW83OWIxaHRqd2M3dEw3QVZwcElmTzJrN1I4akhhUG5hZjRUQU56ZDZTQzVCYTViRG5GZ09uLVpfLVlHN0RQV0dmR0VnZXNrV2NOdXJDelU3R3U4M1JZdkZPY2VaUVRuUHFXZmFvdUxhdDBpaHAwQzBmbDNkVmp0Z0ZwRGV1UXA5ZDg5MVpGSmJTTjJ5VTMwUE14X1FRY2ZFd1J4UEtfOC0tNE9DVzZlOHY4TzRDQ21LbGpZ?oc=5",
+   "link": "https://www.rfi.fr/fr/culture/20261023-art-basel-paris-l-artiste-ivoirien-carl-%C3%A9douard-ke%C3%AFta-entre-new-york-et-abidjan",
    "src": "RFI",
-   "img": "",
+   "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
    "_score": 12.4
@@ -969,12 +912,12 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdzV6TVNVOVA3S243SDRxbzhsNVlIZGZGUXFjTG5NM09HeS03NUpsTjR6U3E3M3g1cmg5aU1IWTd3ckhZeUVKOUxkNVZhd3FtNzhRQWEzME5yeVI1Zlo1Vy1lTVI1RHRsSUE4R01seDk4cjNNdDdxZ0d6UTRzWWxsSUhzdFhaOWprNm53SnZ4ZllSMndaeHluTNIBngFBVV95cUxNZkxzcC1qcVRBU1lKMFp1Y2NHWF9LRERnQlVqMzFsNGtoNlRsS1djVklGTF92SnJNbjJmdEV6dTgySUxGTE1HV1RHaXpVanppTmgxQjUtVml4ZFNSMTEwV1BJclpobUFRTmY4RVdhZWI3UDlURW9NNmtXNUE5TmdjalBSaWYzWFd1QkxHLUNsUUFWVzlrTUhENmhQVlc4QQ?oc=5",
+   "link": "https://www2.fundsforngos.org/individuals/open-call-for-residency-jatiwangi-art-factory-2027/",
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -7.6
+   "_score": -9.1
   },
   {
    "id": "auto_dy22a3",
@@ -988,12 +931,50 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQlMxWjRUTE5jY2U4bUQ2dGlSRlNLeDFYQ0hwMEJGZ1VYQUh6TWVUUzFEd1ZUcjRhNEV1RDlHMUdFZ0NsYThPQ0hVU1RPV093OWNJdjdkTXVXZUY4NVVOTnBVSDJGM19lcEZmWTh6RHNLY2U4SVlYYlgzUE1EcFhaRTdQRUhLUjcwbFQyOWRreWdMWlpBSlZPcnBuUkgwZDBKMVA2ZHFqV1B6QjhYdzVmcGNHYWFWMk5nckFkZlR3ckhKeTVKb2E3dzh5c1Fsdy1ydUlud2ExSWRTMEt4?oc=5",
+   "link": "https://information.tv5monde.com/afrique/video/11e-edition-dakaa-le-rendez-vous-de-lart-contemporain-africain-debute-le-23-octobre-paris-2842378",
    "src": "tv5monde",
-   "img": "",
+   "img": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_tv5_jwplayer_field-3063376-6684566.jpg?itok=kpVxHNva",
    "ts": 1792479600000,
    "auto": 1,
    "_score": 3.6
+  },
+  {
+   "id": "auto_1x0gubd",
+   "cat": "Expositions majeures",
+   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art",
+   "sub": "Middle East Online",
+   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art Middle East Online",
+   "date": "Publié le 19 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://middle-east-online.com/en/erruas-bouhchichi-take-part-dakar-biennale-contemporary-african-art",
+   "src": "Middle East Online",
+   "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
+   "ts": 1792393200000,
+   "auto": 1,
+   "_score": 3.4
+  },
+  {
+   "id": "auto_6e41j6",
+   "cat": "Nouveautés",
+   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
+   "sub": "Africa News Agency",
+   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://africa-news-agency.com/contemporary-art-in-london-african-modernism-reclaims-its-place-in-art-history/",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792226088000,
+   "auto": 1,
+   "_score": 3
   },
   {
    "id": "auto_qehbx7",
@@ -1012,7 +993,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -22.7
+   "_score": -24.2
   },
   {
    "id": "auto_brpy0l",
@@ -1031,7 +1012,26 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -13.2
+   "_score": -14.7
+  },
+  {
+   "id": "auto_2l6hyz",
+   "cat": "Expositions majeures",
+   "title": "1-54 Contemporary African Art Fair opens in London this week – here’s what we’re looking forward to",
+   "sub": "Wallpaper*",
+   "text": "1-54 Contemporary African Art Fair opens in London this week – here’s what we’re looking forward to Wallpaper*",
+   "date": "Publié le 13 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.wallpaper.com/art/exhibitions-shows/1-54-contemporary-african-art-fair-london-2026-guide",
+   "src": "Wallpaper*",
+   "img": "https://cdn.mos.cms.futurecdn.net/GjzV4DNSHZP9aYRcYbQJzS-2560-80.jpg",
+   "ts": 1791874800000,
+   "auto": 1,
+   "_score": 3
   },
   {
    "id": "auto_d3k04k",
@@ -1050,7 +1050,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -1
+   "_score": -2.5
   },
   {
    "id": "auto_eyy2sp",
@@ -1064,7 +1064,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0VFQmlYeEhpZkFkX2xGUlBMV0Z0YjR4Qmg3ejNFb0R0OGhkc082UWdkLVl5QjdDZDNTUk5NbG9RNloyemM5NmdWb3VvdWlOdnpCYzJmeEpoYl93eGtFc1BvUFBBUnJxdW92Y1ZYOF92WDNNRXlHd1JVaE81bHBXNl9uRjdHWEswRXZpQ1o0elVHdTgxRjNQVzBZSzNFNzJO0gGmAUFVX3lxTE1uRmZqeWpucGViRXR1QWhxRHVJNXlpcDk0dTY4NV9LRXF4OFpVYkRtbDI1dE1XdnVCdVEwRDFDbXNmUG5xT0lsc2p0T01qamdBTHFRMzZiYlNxVUI4ejlyNWJocnUtbVAtSkhoeVBWVGkwYktQWTh3UV9wcnZBaDVaOGZIcWdqOHhWUjdPV2pSSmZLLUNRaWdiUS05WG9MeGhfS0djdVE?oc=5",
+   "link": "https://www2.fundsforngos.org/individuals/open-call-grants-for-creative-and-artistic-practitioners/",
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1791183600000,
@@ -1083,7 +1083,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTERvekpKRTlaVHRreEkyaklFWlpNNDVNRzlKVURsMzd1aXFPRmRyazd1anFmRGJXZEtpSEJDdDMzMjBrWmpQT1BId0x0TFZTUWVWWkszUkdlWFZWT2NDeHFiRmQwOC12N0lyS3NNeUtzbXRRQ3lfcGx1aUxUTnBtRnFOM0xXSzZqQ1hubTZ1cExZS3pTM1ZkbEp5Qk9wZEY3bGdQRGp2WTB4eEJnY3h0enl2bldaMVNqVmfSAb8BQVVfeXFMT0IyZnIxMnBFNmQ0aGhidGVrUW9pSkswcnFrRXM1UVpPb2RNeERqVTQzVlhoTzZlOU5GaG13aUdjZVZyMUtCQUdjcUNWWGptSmFZd1kyNFhsN0hmOGN2UVNEb0xacnFxTmFBVzlRR1oxY1UtaXY2Wk1xQW45SGM0Y0VtdG50QmJpSlNYUXl1YU0yaFp6SE10SU13SGdBWXJnSHlmekJrQVhSM2hYUzZrV2VRbVVsZmFSLU5OSXZWRkk?oc=5",
+   "link": "https://www2.fundsforngos.org/individuals/open-call-for-artists-from-portugal-and-portuguese-speaking-african-nations/",
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1791097200000,
@@ -1102,7 +1102,7 @@
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUHZEMHVXT2YyM3poMDZjWlliV3VocWZBNzRkVkluYlJodVNfc2JaMFNLUkM1ckRZNHpnYzYtbDVDV0FabW1MMU1DT1djVEhXaU04VGtvbWR6Q1hkcl83SHpka2dWcFQyMk5CR2VOZkZaSmdlYkpKLXlIXzVJQ25GbnJ6NHNtTTNhbnptR0gtR1daX192bEliZFlhd9IBoAFBVV95cUxQNkktTWVHTlNsTVBndUp6VW5jVmljdU1oVDVCVlhtWXEwNXpBdnl5ckZCTEZoelBTS0NKXzJXd0s5amFnTFZ1WlRhOHRsRE8xaXdNbTlQSnl1cUducDNNUFpDbWF1T1lPaV9FQkJZM2wzUmhFbHFLY1hSZ0ltY0gtWU5tc2poUVdqRG5UMDJtSG42RFhKNGF6ajBqbjJPbWpo?oc=5",
+   "link": "https://www2.fundsforngos.org/individuals/residency-open-call-for-artists-based-in-east-africa/",
    "src": "fundsforNGOs - Grants and Resources for Sustainability",
    "img": "",
    "ts": 1790578800000,
@@ -1126,7 +1126,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2021/02/agnetun-6.jpg",
    "ts": 1790578800000,
    "auto": 1,
-   "_score": -6.5
+   "_score": -8
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -5
+   "_score": -6.5
   }
  ]
 }
