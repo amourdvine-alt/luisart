@@ -207,7 +207,7 @@ async function enrichImages(items, previous) {
   const todo = items.filter(it => !it.img);
   let ok = 0, reused = 0, fail = 0;
   for (const it of todo) { const p = old.get(it.id); if (p) { it.img = p.img; if (p.link && !p.link.includes('news.google')) it.link = p.link; reused++; } }
-  const queue = todo.filter(it => !it.img); const N = 4; let micro = 0;
+  const queue = todo.filter(it => !it.img); const N = 4; let micro = 0, mlq = Promise.resolve();
   await Promise.all(Array.from({ length: N }, async () => {
     while (queue.length) { const it = queue.shift();
       let real = it.link, img = '', why = '';
@@ -217,6 +217,7 @@ async function enrichImages(items, previous) {
         img = metaImg(page.text.slice(0, 600000), page.url || real); if (!img) why = 'pas d’image dans la page';
       } catch (e) { why = 'site ' + String(e.message || e).slice(0, 40); }
       if (!img && micro < 40) { micro++;   // second essai : service Microlink (gratuit, ~50 liens par jour)
+        await (mlq = mlq.then(() => new Promise(r => setTimeout(r, 2500))));   // un appel à la fois, espacés
         try { const r = await fetchT('https://api.microlink.io/?url=' + encodeURIComponent(real), { headers: { accept: 'application/json' } }, 20000);
           const j = JSON.parse(r.text); const u = j && j.data && ((j.data.image && j.data.image.url) || (j.data.logo && 0));
           if (u && /^https:\/\//.test(u) && !/logo|favicon/i.test(u)) { img = u; why = ''; if (j.data.url && /^https?:/.test(j.data.url) && it.link.includes('news.google')) it.link = j.data.url; }
