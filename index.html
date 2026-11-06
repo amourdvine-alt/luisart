@@ -1678,6 +1678,8 @@ html.stl [data-a=demo],html.stl #demob{display:none!important}
 .cvav.sm img{width:100%;height:100%;object-fit:cover}.cvav.sm i{font-style:normal;font-size:26px;color:#f3d58f;font-weight:700}
 .aacts a{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;box-sizing:border-box;padding:13px;border-radius:16px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);font-size:15px;text-decoration:none}
 a.cnlk{display:block;text-decoration:none;box-sizing:border-box;text-align:center}a.cndb.cnlk{text-align:left;color:inherit}
+#lvv .lvgst{position:absolute;right:10px;top:86px;display:flex;flex-direction:column;gap:8px;z-index:4}#lvv .lvg{width:92px;height:128px;border-radius:12px;overflow:hidden;background:#111;position:relative;box-shadow:0 2px 10px #0007}#lvv .lvg video,#lvv .lvg div{width:100%!important;height:100%!important;object-fit:cover}#lvv .lvg.me video{transform:scaleX(-1)}#lvv .lvg b{position:absolute;left:5px;bottom:4px;z-index:2;font-size:10px;color:#fff;text-shadow:0 1px 3px #000;max-width:80px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}#lvv .lvg button{position:absolute;top:3px;right:3px;z-index:2;width:22px;height:22px;border-radius:50%;border:0;background:#000a;color:#fff;font-size:14px;line-height:22px;padding:0}
+#lvv .lvreq{position:absolute;left:12px;right:112px;top:86px;z-index:4;display:flex;flex-direction:column;gap:6px;align-items:flex-start}#lvv .lvrq{display:flex;align-items:center;gap:6px;background:#000b;color:#fff;border-radius:14px;padding:6px 8px;font-size:12px}#lvv .lvrq p{margin:0;flex:1}#lvv .lvrq button{border:0;border-radius:10px;padding:6px 9px;font-weight:600;font-size:12px;background:var(--gd,#a87a2a);color:#fff}#lvv .lvrq button.no{background:#fff3}#lvv .lvgn{background:#000a;color:#fff;border-radius:10px;padding:3px 8px;font-size:11px}#lvv .lvhand{border:0;border-radius:16px;padding:8px 12px;background:#000b;color:#fff;font-weight:600;font-size:13px}#lvv .lvhand.on{background:#c0392b}#lvv .lvhand[disabled]{opacity:.7}
 </style><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#121821"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Luisart"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Luisart, la maison des artistes : galerie, boutique et réseau pour l’art de Côte d’Ivoire et d’Afrique."><script src="firebase-config.js"></script><script src="luisart-firebase.js"></script></head><body><div id="app"></div><nav id="nav"></nav>
 <script>
 /* =================== LANGUE (FR / EN) =================== */
@@ -4486,15 +4488,15 @@ function paint(){const o=ui();if(!LV){o.classList.remove('on');o.innerHTML='';do
  const vd=o.querySelector('.lvvid'),s=host?LV.stream:LV.remote;if(s&&vd.srcObject!==s){vd.srcObject=s;vd.play&&vd.play().catch(()=>{})}vd.classList.toggle('mir',host&&LV.face!=='environment');
  const st=o.querySelector('.lvst');st.innerHTML=LV.st==='ended'?`<b>${T('Le live est terminé')}</b><button type="button" class="lvok" data-lvc="close">${T('Fermer')}</button>`:LV.st==='conn'?`<span class="lvspin"></span>${T('Connexion au live…')}`:LV.st==='fail'?`<b>${T('Impossible de rejoindre le live sur ce réseau')}</b><button type="button" class="lvok" data-lvc="retry">${T('Réessayer')}</button>`:'';st.style.display=st.innerHTML?'':'none';
  o.querySelector('.lvti').textContent=(l.title?l.title+' · ':'')+(LV.t0?fmt((Date.now()-LV.t0)/1000):'');
- o.querySelector('.lvcnt i').textContent=host?Object.values(LV.pcs||{}).filter(p=>p.connectionState==='connected').length:(l.n||0);
+ o.querySelector('.lvcnt i').textContent=host?(LV.ag?audN():Object.values(LV.pcs||{}).filter(p=>p.connectionState==='connected').length):(l.n||0);
  const mu=o.querySelector('.lvmu');if(mu){mu.classList.toggle('on',!!LV.mute);mu.innerHTML=ic(LV.mute?'micoff':'mic',19)}
- o.querySelector('.lvcom').innerHTML=COM.slice(-7).map(c=>`<div class="lvc"><span class="lvca">${av(c.uid)}</span><p><b>${e(c.uid===hid?nm(c.uid)+' ★':nm(c.uid))}</b> ${e(c.t)}</p></div>`).join('')}
+ o.querySelector('.lvcom').innerHTML=COM.slice(-7).map(c=>`<div class="lvc"><span class="lvca">${av(c.uid)}</span><p><b>${e(c.uid===hid?nm(c.uid)+' ★':nm(c.uid))}</b> ${e(c.t)}</p></div>`).join('');try{agPaint(o,host,hid)}catch(er){}}
 function heart(){const h=document.querySelector('#lvv .lvhearts');if(!h)return;const s=document.createElement('span');s.textContent=['❤','💛','🧡','💖'][Math.floor(Math.random()*4)];s.style.left=(Math.random()*30)+'px';h.appendChild(s);setTimeout(()=>s.remove(),2200)}
 function onClick(ev){const b=ev.target.closest('[data-lvc]');if(!b)return;const k=b.dataset.lvc;
  if(k==='close'){if(LV&&LV.role==='host'&&LV.st!=='ended'){if(!confirm(T('Terminer le live ?')))return;return endLive()}leave()}
  else if(k==='end')endLive();else if(k==='send')sendCom();else if(k==='heart'){heart();postCom('❤',1)}
  else if(k==='mute'&&LV.stream){LV.mute=!LV.mute;LV.stream.getAudioTracks().forEach(t=>t.enabled=!LV.mute);paint()}
- else if(k==='flip')flip();else if(k==='retry'){const h=LV.host;leave();setTimeout(()=>watchLive(h),200)}}
+ else if(k==='flip')flip();else if(k==='hand')agHand();else if(k==='acc')agAcc(b.dataset.x);else if(k==='rej')agRej(b.dataset.x);else if(k==='kick')agKick(b.dataset.x);else if(k==='down')agDown();else if(k==='retry'){const h=LV.host;leave();setTimeout(()=>watchLive(h),200)}}
 async function postCom(t,hrt){if(!LV||!db||!uid)return;const lid=LV.role==='host'?uid:LV.host;try{await db.doc('livec/c'+Date.now()+uid.slice(-4)).set({lid,uid,t,ts:Date.now(),h:hrt?1:0,ls:(LIVES[lid]||{}).ts||0})}catch(er){}}
 function sendCom(){const i=document.getElementById('lvin');const t=(i&&i.value||'').trim();if(!t)return;i.value='';postCom(t,0)}
 function subCom(lid){try{SUBC&&SUBC()}catch(er){}COM=[];let hs=new Set();const t0=(LIVES[lid]||{}).ts||Date.now();
@@ -4525,12 +4527,14 @@ async function startLive(title){if(window.__callState&&window.__callState())retu
  LV={role:'host',pcs:{},face:'user',st:'conn'};paint();
  try{LV.stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:{facingMode:'user',width:{ideal:720},height:{ideal:1280}}})}catch(er){LV=null;paint();toast(T('Autorisez la caméra et le micro pour lancer un live'));return setTimeout(()=>preLive(true),400)}
  const now=Date.now();LV.st='live';LV.t0=now;LV.ts=now;
- try{await db.doc('lives/'+uid).set({host:uid,st:'on',ts:now,hb:now,title:title||'',n:0})}catch(er){toast(T('Impossible de démarrer le live'));return endLive(true)}
- LIVES[uid]={host:uid,st:'on',ts:now,hb:now,title:title||''};paint();refresh();subCom(uid);
+ const au=agOK()?await agAuth():null;try{await db.doc('lives/'+uid).set({host:uid,st:'on',ts:now,hb:now,title:title||'',n:0,tr:au?'ag':'p2p',hostAuth:au||'',guests:[]})}catch(er){toast(T('Impossible de démarrer le live'));return endLive(true)}
+ LIVES[uid]={host:uid,st:'on',ts:now,hb:now,title:title||'',tr:au?'ag':'p2p',hostAuth:au||'',guests:[]};paint();refresh();subCom(uid);
+ if(au)agHost(au).catch(()=>{if(!LV||LV.role!=='host')return;agClose(LV);LIVES[uid].tr='p2p';db.doc('lives/'+uid).update({tr:'p2p'}).catch(()=>{})});
  try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(w=>{if(LV)LV.wl=w}).catch(()=>{})}catch(er){}
- LV.hb=setInterval(()=>{if(!LV)return;const n=Object.values(LV.pcs).filter(p=>p.connectionState==='connected').length;db.doc('lives/'+uid).update({hb:Date.now(),n}).catch(()=>{});paint()},15000);LV.tk=setInterval(()=>{if(LV)paint()},1000);
+ LV.hb=setInterval(()=>{if(!LV)return;const n=LV.ag?audN():Object.values(LV.pcs).filter(p=>p.connectionState==='connected').length;db.doc('lives/'+uid).update({hb:Date.now(),n}).catch(()=>{});paint()},15000);LV.tk=setInterval(()=>{if(LV)paint()},1000);
  LV.unj=db.collection('livej').where('host','==',uid).onSnapshot(sn=>sn.docs.forEach(d=>onJoin(d.id,d.data())))}
 async function onJoin(id,j){if(!LV||LV.role!=='host'||!j||j.ls!==LV.ts)return;
+ if(j.st==='a'||(LV.aud&&LV.aud[id])){LV.aud=LV.aud||{};LV.aud[id]=j;if(j.st==='x'||j.down){const g=guestsOf(uid);if(g.includes(j.viewer)){const ng=g.filter(x=>x!==j.viewer);LIVES[uid]={...(LIVES[uid]||{}),guests:ng};db.doc('lives/'+uid).update({guests:ng}).catch(()=>{})}}if(j.st==='x')delete LV.aud[id];return paint()}
  if(j.st==='x'){const p=LV.pcs[id];if(p){try{p.close()}catch(er){}delete LV.pcs[id];paint()}return}
  if(!j.offer||j.answer||LV.pcs[id])return;
  const pc=new RTCPeerConnection(ICE());LV.pcs[id]=pc;LV.stream.getTracks().forEach(t=>pc.addTrack(t,LV.stream));
@@ -4538,13 +4542,14 @@ async function onJoin(id,j){if(!LV||LV.role!=='host'||!j||j.ls!==LV.ts)return;
  try{await pc.setRemoteDescription(j.offer);await pc.setLocalDescription(await pc.createAnswer());await gather(pc);if(!LV)return;
   try{pc.getSenders().forEach(s=>{if(s.track&&s.track.kind==='video'){const p=s.getParameters();if(!p.encodings||!p.encodings.length)p.encodings=[{}];p.encodings[0].maxBitrate=700000;s.setParameters(p).catch(()=>{})}})}catch(er){}
   await db.doc('livej/'+id).update({answer:sd(pc.localDescription),ta:Date.now()})}catch(er){try{pc.close()}catch(e2){}delete LV.pcs[id]}}
-async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await navigator.mediaDevices.getUserMedia({video:{facingMode:LV.face}});const nt=s.getVideoTracks()[0];for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
-async function endLive(silent){if(!LV)return;const L=LV;clearInterval(L.hb);clearInterval(L.tk);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;Object.values(L.pcs||{}).forEach(p=>{try{p.close()}catch(er){}});try{L.stream&&L.stream.getTracks().forEach(t=>t.stop())}catch(er){}try{L.wl&&L.wl.release()}catch(er){}
- try{await db.doc('lives/'+uid).update({st:'off',te:Date.now(),n:0})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';
+async function flip(){if(!LV||!LV.stream)return;LV.face=LV.face==='user'?'environment':'user';try{const s=await navigator.mediaDevices.getUserMedia({video:{facingMode:LV.face}});const nt=s.getVideoTracks()[0];if(LV.ag&&LV.ag.vt)await agSwapVideo(nt);for(const pc of Object.values(LV.pcs)){const x=pc.getSenders().find(z=>z.track&&z.track.kind==='video');if(x)await x.replaceTrack(nt)}LV.stream.getVideoTracks().forEach(t=>{t.stop();LV.stream.removeTrack(t)});LV.stream.addTrack(nt);const vd=document.querySelector('#lvv .lvvid');if(vd){vd.srcObject=null;vd.srcObject=LV.stream}paint()}catch(er){toast(T('Impossible de changer de caméra'))}}
+async function endLive(silent){if(!LV)return;const L=LV;clearInterval(L.hb);clearInterval(L.tk);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;Object.values(L.pcs||{}).forEach(p=>{try{p.close()}catch(er){}});agClose(L);try{L.stream&&L.stream.getTracks().forEach(t=>t.stop())}catch(er){}try{L.wl&&L.wl.release()}catch(er){}
+ try{await db.doc('lives/'+uid).update({st:'off',te:Date.now(),n:0,guests:[]})}catch(er){}if(LIVES[uid])LIVES[uid].st='off';
  const d=L.t0?Math.round((Date.now()-L.t0)/1000):0;LV=null;paint();refresh();if(!silent&&d)toast(T('Live terminé')+' · '+fmt(d))}
 /* ---------- spectateur ---------- */
 async function watchLive(host){if(!uid||!db)return toast(T('Connexion requise'));if(host===uid)return preLive();if(LV)return;{const l=LIVES[host];if(l&&l.ext&&isLive(host)){try{window.open(l.ext,'_blank','noopener')}catch(er){location.href=l.ext}return}}
  if(!isLive(host))return toast(T('Ce live est terminé'));if(window.__callState&&window.__callState())return toast(T('Un appel est déjà en cours'));
+ if((LIVES[host]||{}).tr==='ag')return agWatch(host);
  const ls=(LIVES[host]||{}).ts||0,id=host+'_'+uid;LV={role:'view',host,st:'conn',ls,id,t0:ls};paint();subCom(host);
  const pc=new RTCPeerConnection(ICE());LV.pc=pc;pc.addTransceiver('video',{direction:'recvonly'});pc.addTransceiver('audio',{direction:'recvonly'});
  pc.ontrack=ev=>{if(!LV)return;LV.remote=ev.streams[0]||LV.remote||new MediaStream();if(!ev.streams[0])LV.remote.addTrack(ev.track);paint()};
@@ -4553,12 +4558,70 @@ async function watchLive(host){if(!uid||!db)return toast(T('Connexion requise'))
  try{await pc.setLocalDescription(await pc.createOffer());await gather(pc);if(!LV)return;await db.doc('livej/'+id).set({host,viewer:uid,ls,offer:sd(pc.localDescription),ts:Date.now(),st:'w'})}catch(er){LV.st='fail';return paint()}
  LV.unj=db.collection('livej').where('viewer','==',uid).onSnapshot(sn=>sn.docs.forEach(d=>{if(d.id!==id||!LV||LV.ans)return;const j=d.data();if(j.answer){LV.ans=1;pc.setRemoteDescription(j.answer).catch(()=>{if(LV){LV.st='fail';paint()}})}}));
  LV.to=setTimeout(()=>{if(LV&&LV.st==='conn'){LV.st='fail';paint()}},30000)}
-function leave(){if(!LV)return;const L=LV;clearInterval(L.tk);clearTimeout(L.to);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;try{L.pc&&L.pc.close()}catch(er){}
+function leave(){if(!LV)return;const L=LV;clearInterval(L.tk);clearTimeout(L.to);try{L.unj&&L.unj()}catch(er){}try{SUBC&&SUBC()}catch(er){}SUBC=null;try{L.pc&&L.pc.close()}catch(er){}agClose(L);
  if(L.role==='view'&&L.id)db.doc('livej/'+L.id).update({st:'x'}).catch(()=>{});LV=null;paint()}
+
+/* ---------- transport Agora (jusqu'à ~1 000 spectateurs, 3 invités sur scène) ----------
+   Utilisé seulement si le serveur de jetons (fonction liveToken) répond ; sinon le live
+   reste en connexion directe (WebRTC) comme avant. Le certificat Agora ne quitte jamais le serveur. */
+const AGSDK='https://cdn.jsdelivr.net/npm/agora-rtc-sdk-ng@4.22.0/AgoraRTC_N-4.22.0.js',MAXG=3;
+let AGP=null;
+const agLoad=()=>AGP||(AGP=new Promise((ok,ko)=>{if(window.AgoraRTC)return ok(window.AgoraRTC);const sc=document.createElement('script');sc.src=AGSDK;sc.onload=()=>{try{AgoraRTC.setLogLevel(3)}catch(er){}ok(window.AgoraRTC)};sc.onerror=()=>{AGP=null;ko(new Error('sdk'))};document.head.appendChild(sc)}));
+const agOK=()=>{try{return !!(window.luisartAuth&&window.luisartAuth.idToken&&window.LUISART_FIREBASE&&!(CFGS&&CFGS.agora===false))}catch(er){return false}};
+const agAuth=async()=>{try{const i=await window.luisartAuth.info();return i&&i.uid||null}catch(er){return null}};
+const h32=x=>{let h=2166136261;x=String(x||'');for(let i=0;i<x.length;i++){h^=x.charCodeAt(i);h=Math.imul(h,16777619)}return Math.abs(h|0)%2000000000||1};
+async function agToken(liveId,role){const tk=await window.luisartAuth.idToken();if(!tk)throw new Error('auth');const pid=((window.LUISART_FIREBASE||{}).config||{}).projectId;const ac=new AbortController(),to=setTimeout(()=>ac.abort(),9000);
+ try{const r=await fetch('https://europe-west1-'+pid+'.cloudfunctions.net/liveToken',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+tk},body:JSON.stringify({data:{liveId,role}}),signal:ac.signal});const j=await r.json().catch(()=>({}));if(!r.ok||!j.result||!j.result.token)throw new Error((j.error&&j.error.message)||('http '+r.status));return j.result}finally{clearTimeout(to)}}
+const audN=()=>Object.values((LV&&LV.aud)||{}).filter(j=>j.st==='a').length;
+const guestsOf=hid=>((LIVES[hid]||{}).guests||[]).slice(0,MAXG);
+function agWire(c,hid){c.on('user-published',async(u,mt)=>{try{await c.subscribe(u,mt)}catch(er){return}agRender()});c.on('user-unpublished',()=>agRender());c.on('user-left',()=>agRender());
+ c.on('token-privilege-will-expire',async()=>{try{const r=await agToken(hid,LV&&LV.role==='host'?'host':LV&&LV.onStage?'guest':'audience');await c.renewToken(r.token)}catch(er){}})}
+function agRender(){if(!LV||!LV.ag)return;const c=LV.ag.c,hid=LV.role==='host'?uid:LV.host,l=LIVES[hid]||{},main=h32(l.hostAuth||hid);
+ const o=document.getElementById('lvv');if(!o)return;let g=o.querySelector('.lvgst');if(!g){g=document.createElement('div');g.className='lvgst';o.appendChild(g)}
+ const keep=new Set();
+ c.remoteUsers.forEach(u=>{if(u.uid===main){if(LV.role!=='host'){const vt=u.videoTrack&&u.videoTrack.getMediaStreamTrack(),at=u.audioTrack&&u.audioTrack.getMediaStreamTrack();const sig=(vt?vt.id:'')+(at?at.id:'');if(vt&&LV.rsig!==sig){LV.rsig=sig;LV.remote=new MediaStream([vt,...(at?[at]:[])]);LV.st='live';clearTimeout(LV.to);paint()}}return}
+  keep.add(String(u.uid));let t=g.querySelector('[data-ag="'+u.uid+'"]');
+  if(!t){t=document.createElement('div');t.className='lvg';t.dataset.ag=u.uid;const gid=guestsOf(hid).find(x=>h32(x)===u.uid)||'';t.innerHTML=`<b>${e(gid?nm(gid):T('Invité'))}</b>${LV.role==='host'&&gid?`<button type="button" data-lvc="kick" data-x="${e(gid)}" aria-label="${e(T('Faire descendre de scène'))}">×</button>`:''}`;g.appendChild(t)}
+  if(u.videoTrack&&!u.videoTrack.isPlaying){try{u.videoTrack.play(t,{fit:'cover'})}catch(er){}}
+  if(u.audioTrack&&!u.audioTrack.isPlaying){try{u.audioTrack.play()}catch(er){}}});
+ if(LV.onStage&&LV.gs){keep.add('me');let t=g.querySelector('[data-ag="me"]');if(!t){t=document.createElement('div');t.className='lvg me';t.dataset.ag='me';t.innerHTML=`<video playsinline autoplay muted></video><b>${e(T('Vous'))}</b>`;g.appendChild(t);const vd=t.querySelector('video');vd.srcObject=LV.gs;vd.play&&vd.play().catch(()=>{})}}
+ g.querySelectorAll('.lvg').forEach(t=>{if(!keep.has(t.dataset.ag))t.remove()})}
+function agPaint(o,host,hid){if(!LV||!LV.ag)return;let r=o.querySelector('.lvreq');if(!r){r=document.createElement('div');r.className='lvreq';o.appendChild(r)}
+ const gs=guestsOf(hid);
+ if(host){const w=Object.values(LV.aud||{}).filter(j=>j.st==='a'&&j.hand&&!j.ok&&!j.no&&!gs.includes(j.viewer)).slice(0,3);
+  r.innerHTML=w.map(j=>`<div class="lvrq"><span class="lvca">${av(j.viewer)}</span><p><b>${e(nm(j.viewer))}</b> ${e(T('veut monter sur scène'))}</p><button type="button" data-lvc="acc" data-x="${e(j.viewer)}">${e(T('Accepter'))}</button><button type="button" class="no" data-lvc="rej" data-x="${e(j.viewer)}">${e(T('Refuser'))}</button></div>`).join('')+(gs.length?`<small class="lvgn">${e(T('Sur scène'))} : ${gs.length}/${MAXG}</small>`:'')}
+ else{const on=LV.onStage,asked=LV.hand&&!on;r.innerHTML=LV.st==='live'?`<button type="button" class="lvhand${on?' on':''}" data-lvc="${on?'down':'hand'}"${asked?' disabled':''}>${on?'⬇ '+e(T('Descendre de scène')):asked?'✋ '+e(T('Demande envoyée')):'✋ '+e(T('Monter sur scène'))}</button>`:''}
+ agRender()}
+async function agHost(au){const AR=await agLoad();const r=await agToken(uid,'host');if(!LV||LV.role!=='host')return;
+ const c=AR.createClient({mode:'live',codec:'vp8'});agWire(c,uid);await c.setClientRole('host');await c.join(r.appId,uid,r.token,r.uid);
+ const vt=AR.createCustomVideoTrack({mediaStreamTrack:LV.stream.getVideoTracks()[0],bitrateMax:1200}),at=AR.createCustomAudioTrack({mediaStreamTrack:LV.stream.getAudioTracks()[0]});
+ await c.publish([at,vt]);LV.ag={c,vt,at};LV.aud=LV.aud||{};paint()}
+async function agSwapVideo(nt){const a=LV&&LV.ag;if(!a||!a.vt)return;try{await a.c.unpublish(a.vt)}catch(er){}const AR=window.AgoraRTC;a.vt=AR.createCustomVideoTrack({mediaStreamTrack:nt,bitrateMax:1200});try{await a.c.publish(a.vt)}catch(er){}}
+function agClose(L){const a=L&&L.ag;if(!a)return;L.ag=null;try{a.vt&&a.vt.close();a.at&&a.at.close()}catch(er){}try{a.gv&&a.gv.close();a.ga&&a.ga.close()}catch(er){}try{L.gs&&L.gs.getTracks().forEach(t=>t.stop())}catch(er){}try{a.c.leave()}catch(er){}}
+async function agWatch(host){const l=LIVES[host]||{},ls=l.ts||0,id=host+'_'+uid;
+ LV={role:'view',host,st:'conn',ls,id,t0:ls,aud:{}};paint();subCom(host);LV.tk=setInterval(()=>{if(LV)paint()},1000);
+ try{await db.doc('livej/'+id).set({host,viewer:uid,ls,st:'a',ts:Date.now(),hand:0,ok:0,no:0})}catch(er){}
+ try{const AR=await agLoad();const r=await agToken(host,'audience');if(!LV||LV.host!==host)return;
+  const c=AR.createClient({mode:'live',codec:'vp8'});agWire(c,host);await c.setClientRole('audience',{level:1});await c.join(r.appId,host,r.token,r.uid);LV.ag={c};agRender()}catch(er){if(LV&&LV.host===host){LV.st='fail';paint()}return}
+ LV.to=setTimeout(()=>{if(LV&&LV.st==='conn'){LV.st='fail';paint()}},30000)}
+async function agHand(){if(!LV||!LV.ag||LV.role!=='view'||LV.onStage)return;LV.hand=1;paint();try{await db.doc('livej/'+LV.id).update({hand:Date.now(),no:0,ok:0})}catch(er){}toast(T('Demande envoyée à l’artiste'))}
+async function agAcc(v){if(!LV||LV.role!=='host')return;const g=guestsOf(uid);if(g.includes(v))return;if(g.length>=MAXG)return toast(T('Scène complète : 3 invités maximum'));
+ const ng=[...g,v];try{await db.doc('lives/'+uid).update({guests:ng});LIVES[uid]={...(LIVES[uid]||{}),guests:ng};await db.doc('livej/'+uid+'_'+v).update({ok:1})}catch(er){toast(T('Impossible d’inviter cette personne'))}paint()}
+async function agRej(v){if(!LV||LV.role!=='host')return;try{await db.doc('livej/'+uid+'_'+v).update({no:1,hand:0})}catch(er){}if(LV.aud&&LV.aud[uid+'_'+v])LV.aud[uid+'_'+v].no=1;paint()}
+async function agKick(v){if(!LV||LV.role!=='host')return;const ng=guestsOf(uid).filter(x=>x!==v);try{await db.doc('lives/'+uid).update({guests:ng});LIVES[uid]={...(LIVES[uid]||{}),guests:ng};await db.doc('livej/'+uid+'_'+v).update({ok:0,hand:0})}catch(er){}paint()}
+async function agDown(){if(!LV||!LV.onStage)return;LV.noStage=1;await agUnstage();try{await db.doc('livej/'+LV.id).update({down:Date.now(),hand:0,ok:0})}catch(er){}}
+async function agStage(){if(!LV||LV.role!=='view'||!LV.ag)return;const inG=guestsOf(LV.host).includes(uid);if(!inG)LV.noStage=0;
+ if(inG&&!LV.onStage&&!LV.staging&&!LV.noStage){LV.staging=1;try{const AR=window.AgoraRTC,c=LV.ag.c;const r=await agToken(LV.host,'guest');await c.renewToken(r.token);
+   LV.gs=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:{facingMode:'user',width:{ideal:480},height:{ideal:640}}});
+   await c.setClientRole('host');LV.ag.gv=AR.createCustomVideoTrack({mediaStreamTrack:LV.gs.getVideoTracks()[0],bitrateMax:600});LV.ag.ga=AR.createCustomAudioTrack({mediaStreamTrack:LV.gs.getAudioTracks()[0]});
+   await c.publish([LV.ag.ga,LV.ag.gv]);LV.onStage=true;LV.hand=0;toast(T('Vous êtes sur scène'))}catch(er){toast(T('Impossible de monter sur scène : autorisez la caméra et le micro'));try{LV.gs&&LV.gs.getTracks().forEach(t=>t.stop())}catch(e2){}LV.gs=null}LV.staging=0;paint()}
+ else if(!inG&&LV.onStage)await agUnstage()}
+async function agUnstage(){if(!LV||!LV.ag||!LV.onStage)return;const a=LV.ag;try{await a.c.unpublish([a.ga,a.gv].filter(Boolean))}catch(er){}try{a.gv&&a.gv.close();a.ga&&a.ga.close()}catch(er){}a.gv=a.ga=null;try{LV.gs&&LV.gs.getTracks().forEach(t=>t.stop())}catch(er){}LV.gs=null;try{await a.c.setClientRole('audience',{level:1})}catch(er){}LV.onStage=false;paint()}
+
 /* ---------- suivi des lives ---------- */
 function onLives(sn){const prev=LIVES;LIVES={};sn.docs.forEach(d=>{LIVES[d.id]={...d.data(),id:d.id}});
  Object.keys(LIVES).forEach(i=>{const l=LIVES[i];const k=i+':'+l.ts;if(i!==uid&&isLive(i)&&!SEENL.has(k)){SEENL.add(k);if(!FIRST&&Date.now()-l.ts<120000)toast('🔴 '+nm(i)+' '+T('est en direct'))}});FIRST=false;
- if(LV&&LV.role==='view'){const l=LIVES[LV.host];if(!l||l.st!=='on'||l.ts!==LV.ls){LV.st='ended';try{LV.pc&&LV.pc.close()}catch(er){}paint()}}
+ if(LV&&LV.role==='view'){const l=LIVES[LV.host];if(!l||l.st!=='on'||l.ts!==LV.ls){LV.st='ended';try{LV.pc&&LV.pc.close()}catch(er){}agClose(LV);paint()}else{try{agStage()}catch(er){}}}
  const ch=JSON.stringify(Object.keys(LIVES).filter(isLive))!==JSON.stringify(Object.keys(prev).filter(i=>{const l=prev[i];return l&&l.st==='on'&&Date.now()-(l.hb||l.ts||0)<75000}));if(ch)refresh()}
 (function(){let n=0;const t=setInterval(()=>{if(++n>120)return clearInterval(t);if(typeof db==='undefined'||!db||typeof uid==='undefined'||!uid)return;clearInterval(t);try{db.collection('lives').onSnapshot(onLives)}catch(er){}setInterval(()=>{if(Object.keys(LIVES).length)refresh()},60000)},500)})();
 window.preLive=preLive;window.watchLive=watchLive;window.__liveState=()=>LV;

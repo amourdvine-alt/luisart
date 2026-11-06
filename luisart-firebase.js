@@ -91,7 +91,7 @@ async function signInGoogle(){const r=await ready;if(!r)return;const auth=r.auth
    else{try{await auth.signInWithPopup(p)}catch(e){if(/popup/.test(e.code||''))return auth.signInWithRedirect(p);throw e}}
    location.reload()}catch(e){console.error(e);alert('Connexion Google impossible : '+(e.message||e.code))}}
 async function signOut(){const r=await ready;if(!r)return;try{await r.auth.signOut()}catch(e){}}
-window.luisartAuth={signInGoogle,signOut,ready,info:async()=>{const r=await ready;const u=r&&r.auth.currentUser;return u?{uid:u.uid,appId:appId(u),email:u.email||'',anonymous:u.isAnonymous,owner:isOwnerU(u)}:null}};
+window.luisartAuth={signInGoogle,signOut,ready,idToken:async()=>{const r=await ready;const u=r&&r.auth.currentUser;return u?u.getIdToken():null},info:async()=>{const r=await ready;const u=r&&r.auth.currentUser;return u?{uid:u.uid,appId:appId(u),email:u.email||'',anonymous:u.isAnonymous,owner:isOwnerU(u)}:null}};
 
 /* carte « Continuer avec Google » sur Profil et Créer mon compte, tant que la personne n'est pas connectée */
 const CSS='.lfbg{display:flex;align-items:center;gap:12px;margin:12px 16px;padding:14px 16px;border-radius:18px;background:var(--cd,#fff);border:1px solid var(--bd,#e7dfd0)}.lfbg p{margin:0;flex:1;font-size:13.5px;line-height:1.35}.lfbg b{display:block;font-size:14.5px}.lfbg button{flex:none;display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:22px;border:1px solid var(--bd,#ddd);background:#fff;color:#222;font-weight:600;font-size:14px}';

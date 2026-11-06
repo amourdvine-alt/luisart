@@ -33,7 +33,8 @@ exports.liveToken = onCall({ secrets: [AGORA_APP_ID, AGORA_APP_CERT], region: 'e
   if ((live.st || live.status) !== 'on') throw new HttpsError('failed-precondition', 'Ce live n’est pas en cours.');
 
   if (role === 'host') {
-    if ((live.host || live.hostUid || liveId) !== uid) throw new HttpsError('permission-denied', 'Seule l’artiste peut diffuser ce live.');
+    // L'artiste est le propriétaire du live (son identifiant d'application ou, pour l'administrateur, son compte).
+    if ((live.host || liveId) !== uid && live.hostAuth !== uid) throw new HttpsError('permission-denied', 'Seule l’artiste peut diffuser ce live.');
   } else if (role === 'guest') {
     // L'invité doit avoir été accepté par l'artiste, et la limite n'est pas dépassée.
     const g = (live.guests || []);
