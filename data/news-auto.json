@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:42:19.892Z",
+ "updated": "2026-11-07T15:46:33.265Z",
  "sources": {
   "ok": 16,
   "fail": 3,
@@ -328,7 +328,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-1164017447.jpg?w=1024",
    "ts": 1793979765000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_e2ncpl",
@@ -499,7 +499,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-13.08.14.png",
    "ts": 1793889302000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 3.2
   },
   {
    "id": "auto_tcr9wm",
@@ -537,7 +537,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": 7
+   "_score": 5.5
   },
   {
    "id": "auto_d2qklt",
@@ -556,7 +556,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": 1.2
+   "_score": -0.3
   },
   {
    "id": "auto_1pjeelv",
@@ -597,25 +597,6 @@
    "_score": 7.4
   },
   {
-   "id": "auto_9ulogq",
-   "cat": "Événements",
-   "title": "1,15 million d’euros : c’est le prix pour vivre dans l’atelier que Toulouse-Lautrec aurait occupé à Montmartre",
-   "sub": "Connaissance des Arts",
-   "text": "Aperçu à la vente chez Sotheby’s : un studio de 83 mètres carrés ayant potentiellement servi d’atelier à Henri de Toulouse-Lautrec, en plein cœur de Montmartre. Cet article 1,15 million d’euros : c’est le prix pour vivre dans l’atelier que Toulouse-Lautrec aurait occupé à Montmartre est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/115-million-deuros-cest-le-prix-pour-vivre-dans-latelier-que-toulouse-lautrec-aurait-occupe-a-montmartre-11218144/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2025/04/cda25_affiches_corps3-tt-width-653-height-433-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793858435000,
-   "auto": 1,
-   "_score": 3.5
-  },
-  {
    "id": "auto_clenpc",
    "cat": "Appels à candidatures",
    "title": "School of the Art Institute of Chicago’s Graduate Programs and Deadlines",
@@ -632,7 +613,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -1.3
+   "_score": -2.8
   },
   {
    "id": "auto_1mvr1sq",
@@ -670,7 +651,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -9.1
+   "_score": -10.6
   },
   {
    "id": "auto_10ewtf5",
@@ -689,7 +670,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": -7.2
+   "_score": -8.7
   },
   {
    "id": "auto_19xs21b",
@@ -708,7 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -7.3
+   "_score": -8.8
   },
   {
    "id": "auto_189elnp",
@@ -727,7 +708,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_yn4tnc",
@@ -765,7 +746,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -3.1
+   "_score": -4.6
   },
   {
    "id": "auto_5rdh82",
@@ -784,7 +765,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -11.5
+   "_score": -13
   },
   {
    "id": "auto_1370snd",
@@ -803,7 +784,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -11.8
+   "_score": -13.3
   },
   {
    "id": "auto_dptbgl",
@@ -822,7 +803,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -12.3
+   "_score": -13.8
   },
   {
    "id": "auto_1yyc40p",
@@ -898,7 +879,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -13.6
+   "_score": -15.1
   },
   {
    "id": "auto_dy22a3",
@@ -993,7 +974,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -28.7
+   "_score": -30.2
   },
   {
    "id": "auto_brpy0l",
@@ -1012,7 +993,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -19.2
+   "_score": -20.7
   },
   {
    "id": "auto_2l6hyz",
@@ -1050,7 +1031,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -7
+   "_score": -8.5
   },
   {
    "id": "auto_u7hjhf",
@@ -1088,7 +1069,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   },
   {
    "id": "auto_1538qsn",
@@ -1107,7 +1088,7 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 4
   },
   {
    "id": "auto_1aaidmw",
@@ -1129,6 +1110,25 @@
    "_score": 3
   },
   {
+   "id": "auto_tkkys9",
+   "cat": "Nouveautés",
+   "title": "Contemporary African Sculpture: Indigenous Logics Of The Fractured Self - Bowman Sculpture",
+   "sub": "Artlyst",
+   "text": "Contemporary African Sculpture: Indigenous Logics Of The Fractured Self - Bowman Sculpture Artlyst",
+   "date": "Publié le 1 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://artlyst.com/contemporary-african-sculpture-indigenous-logics-of-the-fractured-self-bowman-sculpture/",
+   "src": "Artlyst",
+   "img": "https://artlyst.com/wp-content/uploads/2026/10/Adora-Mba-ADA-Contemporary-Founder.jpeg",
+   "ts": 1790838000000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
    "id": "auto_1eqhp6e",
    "cat": "Appels à candidatures",
    "title": "Résidence artistique : l’appel à candidatures au Alserkal arts ouvert jusqu'au 1er janvier 2020",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -11
+   "_score": -12.5
   }
  ]
 }
