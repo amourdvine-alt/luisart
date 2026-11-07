@@ -1,12 +1,41 @@
 {
   "hosting": {
     "public": ".",
-    "ignore": ["firebase.json", "*.rules", "LISEZMOI.html", "**/.*"],
+    "ignore": [
+      "firebase.json",
+      "*.rules",
+      "LISEZMOI.html",
+      "**/.*",
+      "firestore.indexes.json",
+      "functions/**",
+      "scripts/**"
+    ],
     "headers": [
-      {"source": "sw.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]},
-      {"source": "**/*.html", "headers": [{"key": "Cache-Control", "value": "no-cache"}]}
+      {
+        "source": "sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
     ]
   },
-  "firestore": {"rules": "firestore.rules"},
-  "storage": {"rules": "storage.rules"}
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
 }
