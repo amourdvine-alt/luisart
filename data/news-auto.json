@@ -1,12 +1,107 @@
 {
- "updated": "2026-11-06T18:55:38.625Z",
+ "updated": "2026-11-07T05:56:51.079Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 498
+  "read": 501
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_48iu98",
+   "cat": "Art mondial",
+   "title": "A New Hudson Valley Art Space Promises to Be As Accessible as It Is In Flux",
+   "sub": "ARTnews",
+   "text": "Branchline in Katonah, New York, opens November 6 with an exhibition 'Line Break' of Indigenous artists.",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-06",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/branchline-gochman-family-collection-opening-1234805014/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/BRANCHLINE_EXHIBITION_00480.jpg?w=400",
+   "ts": 1794006974000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1yp8v3z",
+   "cat": "Art mondial",
+   "title": "The Jewish Sisters in Renoir’s “Pink and Blue”",
+   "sub": "Hyperallergic",
+   "text": "Author Catherine Ostler follows the lives of the two cherubic girls, whose rarefied lives in an elite, artistic French family would be toppled by the horrors of the Holocaust.",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-jewish-sisters-in-renoirs-pink-and-blue/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Pink-and-Blue_History-and-Art-Collection_Alamy-2.jpg",
+   "ts": 1794002450000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_11tn7ps",
+   "cat": "Art mondial",
+   "title": "Pablo Helguera to Helm the New School’s Vera List Center",
+   "sub": "Hyperallergic",
+   "text": "Upon his appointment, the artist reflected on the urgency he feels to “make sense of rapidly unfolding events, question prevailing narratives, and imagine alternative futures.”",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/pablo-helguera-to-helm-the-new-schools-vera-list-center/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/DSC00245.jpg",
+   "ts": 1794000733000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_6i94k3",
+   "cat": "Expositions majeures",
+   "title": "Biennale de Dakar : OH Gallery fait dialoguer les héritages africains et l’art contemporain",
+   "sub": "Senego.com",
+   "text": "Biennale de Dakar : OH Gallery fait dialoguer les héritages africains et l’art contemporain Senego.com",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://senego.com/biennale-de-dakar-oh-gallery-fait-dialoguer-les-heritages-africains-et-lart-contemporain_2021183.html",
+   "src": "Senego.com",
+   "img": "https://senego.com/wp-content/uploads/2026/11/oh-gallary-oh.jpg",
+   "ts": 1793994518000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1994k26",
+   "cat": "Expositions majeures",
+   "title": "Meg Onli and Zack Winokur to Curate 2028 Whitney Biennial",
+   "sub": "Hyperallergic",
+   "text": "Having co-curated the 2024 Biennial, Onli returns to the next edition with Winokur, who founded the American Modern Opera Company.",
+   "date": "Publié le 6 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/meg-onli-and-zack-winokur-to-curate-2028-whitney-biennial/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/whitney2028biennial0818-copy-1.jpeg",
+   "ts": 1793993079000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_15ay8nm",
    "cat": "Expositions majeures",
@@ -24,7 +119,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1322406378.jpg?w=1024",
    "ts": 1793989033000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_jb8m4w",
@@ -43,7 +138,7 @@
    "img": "https://media.beauxarts.com/uploads/2023/12/public-dans-les-nympheas_-4-1300x874.jpg",
    "ts": 1793984241000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_7xjm1b",
@@ -62,7 +157,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7503-1-1.jpg",
    "ts": 1793984162000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_17io61j",
@@ -81,7 +176,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793980828000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_pomasq",
@@ -100,7 +195,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneestopia-diana-serghiuta-familiar-landscape-c-courtesy-estopia-1300x975.jpg",
    "ts": 1793980825000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1g1iirq",
@@ -119,7 +214,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMDA_Announcement-Nguyen_HA_26.jpg",
    "ts": 1793980800000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_3p0haz",
@@ -138,7 +233,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-1164017447.jpg?w=1024",
    "ts": 1793979765000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_e2ncpl",
@@ -157,26 +252,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_boitelle_5-tt-width-653-height-978-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793966435000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_19z3q7t",
-   "cat": "Expositions majeures",
-   "title": "2028 Whitney Biennial to Be Curated by Meg Onli and Zack Winokur",
-   "sub": "ARTnews",
-   "text": "Onli will curate the Biennial for the second time.",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/2028-whitney-biennial-meg-onli-zack-winokur-curators-1234804890/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/whitney-curators.jpg?w=960",
-   "ts": 1793965156000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 5.3
   },
   {
    "id": "auto_2rel6n",
@@ -195,7 +271,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/metgala.jpg",
    "ts": 1793962800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1ajowm6",
@@ -214,7 +290,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/The-90s-Art-and-Fashion-at-Tate-Britain.-Photo-Tate-Lucy-Green-1.jpg?w=400",
    "ts": 1793959200000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 3.9
   },
   {
    "id": "auto_1npdv3o",
@@ -233,7 +309,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_japon-bnf_2-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793952057000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_197lukq",
@@ -252,7 +328,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_planque-entretien_2-tt-width-653-height-905-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793944824000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_xdcdka",
@@ -271,26 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Confessions-of-a-Working-Class-Artist_03_Mark-Alice-Durant_Jacob-Lawrence-1.jpg",
    "ts": 1793915798000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1j7nowb",
-   "cat": "Expositions majeures",
-   "title": "Sweden Returns Benin Bronze Trove to Nigeria, Indigenous Remains to Bolivia",
-   "sub": "ARTnews",
-   "text": "Seventy-seven objects belonging to the Kallawaya people, including human remains, are also set to be received by the Archaeological Museum in La Paz, Bolivia.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/sweden-returns-benin-bronze-nigeria-indigenous-remains-bolivia-1234804791/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1241646698.jpg?w=1024",
-   "ts": 1793914438000,
-   "auto": 1,
-   "_score": 3.3
+   "_score": 5.2
   },
   {
    "id": "auto_vhk3rj",
@@ -309,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/8-1.jpg",
    "ts": 1793909940000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_c0bb01",
@@ -328,7 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_archeologie_statue_menhir_champigny_4-tt-width-653-height-688-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793902564000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1jslpyf",
@@ -347,7 +404,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unefigures-militantes-par-helene-aldeguer-1-1300x975.jpg",
    "ts": 1793898648000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1ck0yyl",
@@ -366,45 +423,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_6265.jpeg",
    "ts": 1793898600000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1kn8dhd",
-   "cat": "Art mondial",
-   "title": "Fred Forest, pionnier fantasque de l’art vidéo et du net art, est mort à 93 ans",
-   "sub": "Beaux Arts Magazine",
-   "text": "Même dans la mort, Fred Forest (1933-2026) aura tenu à rester créatif. Décédé à l’âge …",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/fred-forest-pionnier-fantasque-de-lart-video-et-du-net-art-est-mort-a-93-ans/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unefred-forest-bridgeman.2693840-1300x975.jpg",
-   "ts": 1793895903000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_j81sx0",
-   "cat": "Art mondial",
-   "title": "De Bercy à Sotheby’s et Christie’s : qui est Guillaume Cerutti, le nouveau président du château de Versailles ?",
-   "sub": "Connaissance des Arts",
-   "text": "Guillaume Cerutti a été nommé à la tête du Château de Versailles. Ancien dirigeant de Sotheby’s et de Christie’s, il prendra ses fonctions le 9 novembre, 8 mois après le départ de son prédécesseur Christophe Leribault. Cet article De Bercy à Sotheby’s et Christie’s : qui est Guillaume Cerutti, le nouveau président du château de Versailles ? est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 9 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-09",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/depeches-art/nominations/de-bercy-a-sothebys-et-christies-qui-est-guillaume-cerutti-le-nouveau-president-du-chateau-de-versailles-11218177/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_guillaume-cerutti_versailles_domaine-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793894055000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1tl2zd7",
@@ -423,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/BRANCUSI_PRESS_006-1600x2000-1-1.jpeg",
    "ts": 1793893500000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_h69j9",
@@ -442,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/FINAL-TaraDaly2026-2400px.jpg",
    "ts": 1793892300000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_13uh3qm",
@@ -461,26 +480,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-13.08.14.png",
    "ts": 1793889302000,
    "auto": 1,
-   "_score": 7.7
-  },
-  {
-   "id": "auto_125w7it",
-   "cat": "Art mondial",
-   "title": "Long-Lost Georgia O’Keeffe Landscape Goes to Auction",
-   "sub": "Hyperallergic",
-   "text": "Her painting “Near Abiquiu, New Mexico I” was stashed in an East Village closet for decades. Now it might sell for up to $3 million.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/long-lost-georgia-okeeffe-landscape-goes-to-auction/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Near-Abiquiu--New-Mexico-I-by-Georgia-O-Keeffe--1-.jpg",
-   "ts": 1793880000000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 6.2
   },
   {
    "id": "auto_tcr9wm",
@@ -499,7 +499,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_orleans_buveur_vol_full-tt-width-653-height-907-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793879639000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1eodir6",
@@ -518,7 +518,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/image--6-.png",
    "ts": 1793876400000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 3.7
   },
   {
    "id": "auto_8cffwa",
@@ -537,7 +537,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": 8.7
+   "_score": 8.5
   },
   {
    "id": "auto_d2qklt",
@@ -556,7 +556,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": 4.2
+   "_score": 2.7
   },
   {
    "id": "auto_1pjeelv",
@@ -575,7 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_cassatt_orsay_1-tt-width-653-height-472-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793865652000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1b84viy",
@@ -591,10 +591,10 @@
    "country": "",
    "link": "https://africabrief.substack.com/p/african-artists-showcase-contemporary",
    "src": "AfricaBrief",
-   "img": "",
+   "img": "https://substackcdn.com/image/fetch/$s_!xgwm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F322ef867-8432-42e5-ad67-0ad60efcb8de_2560x1707.jpeg",
    "ts": 1793865556000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 6.1
   },
   {
    "id": "auto_9ulogq",
@@ -613,7 +613,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2025/04/cda25_affiches_corps3-tt-width-653-height-433-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793858435000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_7jeied",
@@ -632,7 +632,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/GettyImages-1241379730.jpg",
    "ts": 1793825023000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_clenpc",
@@ -651,7 +651,26 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": 1.7
+   "_score": 0.2
+  },
+  {
+   "id": "auto_1mvr1sq",
+   "cat": "Appels à candidatures",
+   "title": "Residency Open Call for Artists Based in Brazil - fundsforNGOs",
+   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
+   "text": "Residency Open Call for Artists Based in Brazil fundsforNGOs - Grants and Resources for Sustainability",
+   "date": "Publié le 3 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www2.fundsforngos.org/individuals/residency-open-call-for-artists-based-in-brazil/",
+   "src": "fundsforNGOs - Grants and Resources for Sustainability",
+   "img": "",
+   "ts": 1793692800000,
+   "auto": 1,
+   "_score": 8
   },
   {
    "id": "auto_1q1lpb8",
@@ -670,7 +689,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -6.1
+   "_score": -7.6
   },
   {
    "id": "auto_10ewtf5",
@@ -689,7 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": -4.2
+   "_score": -5.7
   },
   {
    "id": "auto_19xs21b",
@@ -708,7 +727,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -4.3
+   "_score": -5.8
   },
   {
    "id": "auto_189elnp",
@@ -727,7 +746,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 6.7
+   "_score": 6.6
   },
   {
    "id": "auto_yn4tnc",
@@ -746,7 +765,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6.1
   },
   {
    "id": "auto_lwnbzz",
@@ -765,7 +784,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -0.1
+   "_score": -1.6
   },
   {
    "id": "auto_5rdh82",
@@ -784,7 +803,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -8.5
+   "_score": -10
   },
   {
    "id": "auto_1370snd",
@@ -803,26 +822,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -8.8
-  },
-  {
-   "id": "auto_u85eom",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Palestinian Artists in Helsinki Residency Program - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Open Call for Palestinian Artists in Helsinki Residency Program fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 27 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www2.fundsforngos.org/individuals/open-call-for-palestinian-artists-in-helsinki-finland-for-spring-2027/",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1793141886000,
-   "auto": 1,
-   "_score": -22.7
+   "_score": -10.3
   },
   {
    "id": "auto_dptbgl",
@@ -841,7 +841,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -9.3
+   "_score": -10.8
   },
   {
    "id": "auto_1yyc40p",
@@ -860,7 +860,7 @@
    "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1ljysmw",
@@ -879,7 +879,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_row3aj",
@@ -898,7 +898,7 @@
    "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 12.4
+   "_score": 12.3
   },
   {
    "id": "auto_brxur5",
@@ -917,7 +917,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -10.6
+   "_score": -12.1
   },
   {
    "id": "auto_dy22a3",
@@ -936,7 +936,7 @@
    "img": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_tv5_jwplayer_field-3063376-6684566.jpg?itok=kpVxHNva",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 3.6
+   "_score": 3.5
   },
   {
    "id": "auto_1x0gubd",
@@ -955,7 +955,7 @@
    "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 3.4
+   "_score": 3.3
   },
   {
    "id": "auto_6e41j6",
@@ -977,6 +977,25 @@
    "_score": 3
   },
   {
+   "id": "auto_qspgid",
+   "cat": "Expositions majeures",
+   "title": "Modernists brought into the mix at 1-54 Contemporary African art fair",
+   "sub": "The Art Newspaper",
+   "text": "Modernists brought into the mix at 1-54 Contemporary African art fair The Art Newspaper",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.theartnewspaper.com/2026/10/16/modernists-brought-into-the-mix-by-1-54-contemporary-african-art-fair",
+   "src": "The Art Newspaper",
+   "img": "https://cdn.sanity.io/images/cxgd3urn/production/52a09504576affe79d75fd7b4895ab3c24cd615d-616x850.jpg?rect=0,240,616,370&w=1200&h=720&q=85&fit=crop&auto=format",
+   "ts": 1792134000000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
    "id": "auto_qehbx7",
    "cat": "Vernissages locaux",
    "title": "Paul Kodjo : Photoromance, l’exposition photo qui raconte Abidjan au Palais de Tokyo",
@@ -993,7 +1012,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -25.7
+   "_score": -27.2
   },
   {
    "id": "auto_brpy0l",
@@ -1012,7 +1031,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -16.2
+   "_score": -17.7
   },
   {
    "id": "auto_2l6hyz",
@@ -1050,7 +1069,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -4
+   "_score": -5.5
   },
   {
    "id": "auto_eyy2sp",
@@ -1091,25 +1110,6 @@
    "_score": 7
   },
   {
-   "id": "auto_1paxmue",
-   "cat": "Appels à candidatures",
-   "title": "Residency Open Call for Artists Based in East Africa - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Residency Open Call for Artists Based in East Africa fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 28 septembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www2.fundsforngos.org/individuals/residency-open-call-for-artists-based-in-east-africa/",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1790578800000,
-   "auto": 1,
-   "_score": 7
-  },
-  {
    "id": "auto_1enjwke",
    "cat": "Appels à candidatures",
    "title": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
@@ -1126,7 +1126,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2021/02/agnetun-6.jpg",
    "ts": 1790578800000,
    "auto": 1,
-   "_score": -9.5
+   "_score": -11
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -8
+   "_score": -9.5
   }
  ]
 }
