@@ -82,10 +82,19 @@ async function main() {
   const db = admin.firestore();
   const { chromium } = require('playwright');
 
-  const snap = await db.collectionGroup('cand').where('st', '==', 'relais').limit(20).get();
-  console.log('Candidatures à traiter :', snap.size);
   // Signe de vie : l'application n'affiche la candidature semi-automatique que si le robot tourne.
   await db.doc('cfg/robot').set({ ts: Date.now() }, { merge: true });
+  let snap;
+  try { snap = await db.collectionGroup('cand').where('st', '==', 'relais').limit(20).get(); }
+  catch (e) {
+    if (e.code !== 9) throw e;
+    // Index Firestore absent : on lit toutes les candidatures et on filtre ici (fonctionne sans index).
+    console.warn('Index « cand / st » absent — lecture complète en attendant sa création.');
+    const all = await db.collectionGroup('cand').get();
+    const docs = all.docs.filter(d => d.get('st') === 'relais').slice(0, 20);
+    snap = { size: docs.length, docs };
+  }
+  console.log('Candidatures à traiter :', snap.size);
   if (!snap.size) return;
   const browser = await chromium.launch({ args: ['--no-sandbox'] });
   try {
