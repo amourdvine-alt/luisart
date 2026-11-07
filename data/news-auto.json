@@ -1,12 +1,107 @@
 {
- "updated": "2026-11-07T05:56:51.079Z",
+ "updated": "2026-11-07T15:42:19.892Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 501
+  "read": 503
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_lgtt95",
+   "cat": "Expositions majeures",
+   "title": "Death Row’s Last Meals Anchor a Museum-Wide Survey of Incarceration Art",
+   "sub": "ARTnews",
+   "text": "From now through January 2027, the Grand Rapids Art Museum is host to three solo exhibitions of art by or about people once incarcerated within the United States.",
+   "date": "À partir du 20 janvier 2027",
+   "deadline": "",
+   "start": "2027-01-20",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/reviews/grand-rapids-museum-of-art-hosts-surveys-of-prison-art-1234804902/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Gary-Tyler-Rebirth-GRAM-Installation-2.jpg?w=400",
+   "ts": 1794058800000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_kzwahs",
+   "cat": "Art mondial",
+   "title": "How Going Blind Made Doris Salcedo’s Art Bigger and Better",
+   "sub": "ARTnews",
+   "text": "The Colombian artist spent three years crafting a monumental structure out of human hair for her new show at White Cube in New York.",
+   "date": "Publié le 7 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/artists/doris-salcedo-blind-white-cube-house-hair-1234804779/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/DS_Retratos_2026__DSF13321.jpg?w=400",
+   "ts": 1794045600000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_f6b6pw",
+   "cat": "Expositions majeures",
+   "title": "Spolié par les nazis, un tableau du XVIIe siècle choisi par Goering est restitué aux ayants droit et reviendra bientôt à Tarbes",
+   "sub": "Connaissance des Arts",
+   "text": "Saisi en 1942, exposé au Jeu de Paume puis choisi par Goering, le Portrait de femme en bleu retrouvera bientôt les salles du musée Massey de Tarbes, après sa restitution aux ayants droit de Gabrielle Philippson. Cet article Spolié par les nazis, un tableau du XVIIe siècle choisi par Goering est restitué aux ayants droit et reviendra bientôt à Tarbes est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 7 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/musees/acquisitions/spolie-par-les-nazis-un-tableau-du-xviie-siecle-choisi-par-goering-est-restitue-aux-ayants-droit-et-reviendra-bientot-a-tarbes-11218262/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_restitution_femme_en_bleu_dos_tableau-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794042055000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1ovbcju",
+   "cat": "Art mondial",
+   "title": "« Un maelström de modernité artistique et intellectuelle » : le Petit Palais fait revivre le Bruxelles des avant-gardes, de Ensor à…",
+   "sub": "Connaissance des Arts",
+   "text": "L’exposition du Petit Palais révèle comment, au basculement dans le XXe siècle, la capitale de la jeune Belgique est devenue un berceau d’effervescence artistique, entre traditions et Art nouveau. Cet article « Un maelström de modernité artistique et intellectuelle » : le Petit Palais fait revivre le Bruxelles des avant-gardes, de Ensor à Spilliaert est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 7 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/un-maelstrom-de-modernite-artistique-et-intellectuelle-le-petit-palais-fait-revivre-le-bruxelles-des-avant-gardes-de-ensor-a-spilliaert-11217961/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanov26_bxl-1900_salon-tt-width-653-height-1075-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794031220000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1deu10z",
+   "cat": "Art mondial",
+   "title": "Ces 10 calendriers de l’Avent artistiques et créatifs qui nous donnent envie d’attendre Noël",
+   "sub": "Beaux Arts Magazine",
+   "text": "Signés par des illustrateurs confirmés, soufflés par des maîtres verriers, pittoresques comme des villages provençaux …",
+   "date": "Publié le 7 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/lifestyle/ces-10-calendriers-de-lavent-artistiques-et-creatifs-qui-nous-donnent-envie-dattendre-noel/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/uneca_noel26_orsay-musee-lifestyle1-paysage-1300x975.jpg",
+   "ts": 1794031208000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_48iu98",
    "cat": "Art mondial",
@@ -24,7 +119,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/BRANCHLINE_EXHIBITION_00480.jpg?w=400",
    "ts": 1794006974000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1yp8v3z",
@@ -43,7 +138,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Pink-and-Blue_History-and-Art-Collection_Alamy-2.jpg",
    "ts": 1794002450000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_11tn7ps",
@@ -62,7 +157,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/DSC00245.jpg",
    "ts": 1794000733000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_6i94k3",
@@ -81,7 +176,7 @@
    "img": "https://senego.com/wp-content/uploads/2026/11/oh-gallary-oh.jpg",
    "ts": 1793994518000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_1994k26",
@@ -100,7 +195,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/whitney2028biennial0818-copy-1.jpeg",
    "ts": 1793993079000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_15ay8nm",
@@ -119,7 +214,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1322406378.jpg?w=1024",
    "ts": 1793989033000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_jb8m4w",
@@ -138,7 +233,7 @@
    "img": "https://media.beauxarts.com/uploads/2023/12/public-dans-les-nympheas_-4-1300x874.jpg",
    "ts": 1793984241000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_7xjm1b",
@@ -157,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7503-1-1.jpg",
    "ts": 1793984162000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_17io61j",
@@ -176,7 +271,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793980828000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_pomasq",
@@ -195,7 +290,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneestopia-diana-serghiuta-familiar-landscape-c-courtesy-estopia-1300x975.jpg",
    "ts": 1793980825000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1g1iirq",
@@ -214,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMDA_Announcement-Nguyen_HA_26.jpg",
    "ts": 1793980800000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_3p0haz",
@@ -233,7 +328,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-1164017447.jpg?w=1024",
    "ts": 1793979765000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_e2ncpl",
@@ -252,7 +347,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_boitelle_5-tt-width-653-height-978-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793966435000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_2rel6n",
@@ -271,26 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/metgala.jpg",
    "ts": 1793962800000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1ajowm6",
-   "cat": "Expositions majeures",
-   "title": "Tate Britain’s ’90s Show Is All Scene, No Substance",
-   "sub": "ARTnews",
-   "text": "“The 90s: Art and Fashion” is meaningless anti-intellectualism.",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-in-america/aia-reviews/tate-britain-90s-art-fashion-edward-enniful-alexander-mcqueen-1234804772/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/The-90s-Art-and-Fashion-at-Tate-Britain.-Photo-Tate-Lucy-Green-1.jpg?w=400",
-   "ts": 1793959200000,
-   "auto": 1,
-   "_score": 3.9
+   "_score": 5.2
   },
   {
    "id": "auto_1npdv3o",
@@ -309,7 +385,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_japon-bnf_2-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793952057000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_197lukq",
@@ -328,26 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_planque-entretien_2-tt-width-653-height-905-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793944824000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_xdcdka",
-   "cat": "Art mondial",
-   "title": "It’s Time to Talk About Classism in the Art World",
-   "sub": "Hyperallergic",
-   "text": "In his memoiristic new book, photographer Mark Alice Durant weaves his personal experiences into a larger rebuke of the economic inequality that governs the art world.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/its-time-to-talk-about-classism-in-the-art-world/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Confessions-of-a-Working-Class-Artist_03_Mark-Alice-Durant_Jacob-Lawrence-1.jpg",
-   "ts": 1793915798000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_vhk3rj",
@@ -366,26 +423,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/8-1.jpg",
    "ts": 1793909940000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_c0bb01",
-   "cat": "Art mondial",
-   "title": "Archéologie : « Sa fonction reste encore à éclaircir », la statue-menhir monumentale de 9,7 tonnes de Champigny-sur-Marne surgit au milieu…",
-   "sub": "Connaissance des Arts",
-   "text": "Une fouille de l'Inrap a mis au jour un espace funéraire de 6 500 ans, rare en Île-de-France. Il réunit une trentaine de mégalithes, dont une statue-menhir couchée, une inhumation en position assise et un « ciment » rudimentaire. Cet article Archéologie : « Sa fonction reste encore à éclaircir », la statue-menhir monumentale de 9,7 tonnes de Champigny-sur-Marne surgit au milieu de onze sépultures néolithiques est…",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/archeologie/archeologie-sa-fonction-reste-encore-a-eclaircir-la-statue-menhir-monumentale-de-97-tonnes-de-champigny-sur-marne-surgit-au-milieu-de-onze-sepultures-neolithiques-11218189/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_archeologie_statue_menhir_champigny_4-tt-width-653-height-688-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793902564000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1jslpyf",
@@ -404,26 +442,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unefigures-militantes-par-helene-aldeguer-1-1300x975.jpg",
    "ts": 1793898648000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1ck0yyl",
-   "cat": "Art mondial",
-   "title": "The Glimchers Can’t Keep Up the Pace",
-   "sub": "Hyperallergic",
-   "text": "The mega gallery is struggling, Ebony L. Haynes joins Marian Goodman Gallery, longtime Manifesta director steps down, and more in Art Movements.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/the-glimchers-cant-keep-up-the-pace/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_6265.jpeg",
-   "ts": 1793898600000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1tl2zd7",
@@ -442,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/BRANCUSI_PRESS_006-1600x2000-1-1.jpeg",
    "ts": 1793893500000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_h69j9",
@@ -461,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/FINAL-TaraDaly2026-2400px.jpg",
    "ts": 1793892300000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_13uh3qm",
@@ -480,7 +499,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-13.08.14.png",
    "ts": 1793889302000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 4.7
   },
   {
    "id": "auto_tcr9wm",
@@ -499,26 +518,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_orleans_buveur_vol_full-tt-width-653-height-907-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793879639000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1eodir6",
-   "cat": "Expositions majeures",
-   "title": "Doris Salcedo Traces the Shape of Memory",
-   "sub": "Hyperallergic",
-   "text": "The Colombian artist reflects on the state’s attempts to erase history, and the people’s continued refusal. Also: How should artists decide whether to participate in documenta 16?",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/doris-salcedo-traces-the-shape-of-memory/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/image--6-.png",
-   "ts": 1793876400000,
-   "auto": 1,
-   "_score": 3.7
+   "_score": 5
   },
   {
    "id": "auto_8cffwa",
@@ -537,7 +537,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": 8.5
+   "_score": 7
   },
   {
    "id": "auto_d2qklt",
@@ -556,7 +556,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": 2.7
+   "_score": 1.2
   },
   {
    "id": "auto_1pjeelv",
@@ -575,7 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_cassatt_orsay_1-tt-width-653-height-472-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793865652000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_1b84viy",
@@ -594,7 +594,7 @@
    "img": "https://substackcdn.com/image/fetch/$s_!xgwm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F322ef867-8432-42e5-ad67-0ad60efcb8de_2560x1707.jpeg",
    "ts": 1793865556000,
    "auto": 1,
-   "_score": 6.1
+   "_score": 7.4
   },
   {
    "id": "auto_9ulogq",
@@ -612,25 +612,6 @@
    "src": "Connaissance des Arts",
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2025/04/cda25_affiches_corps3-tt-width-653-height-433-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793858435000,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_7jeied",
-   "cat": "Expositions majeures",
-   "title": "So You’ve Been Invited to Documenta 16. Here’s Our Advice.",
-   "sub": "Hyperallergic",
-   "text": "As two documenta 15 artists who were mercilessly vilified due to our support of Palestine, here’s what you need to consider when you make your choice.",
-   "date": "Publié le 4 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/so-youve-been-invited-to-documenta-16-heres-our-advice/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/GettyImages-1241379730.jpg",
-   "ts": 1793825023000,
    "auto": 1,
    "_score": 3.5
   },
@@ -651,7 +632,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": 0.2
+   "_score": -1.3
   },
   {
    "id": "auto_1mvr1sq",
@@ -670,7 +651,7 @@
    "img": "",
    "ts": 1793692800000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.9
   },
   {
    "id": "auto_1q1lpb8",
@@ -689,7 +670,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -7.6
+   "_score": -9.1
   },
   {
    "id": "auto_10ewtf5",
@@ -708,7 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": -5.7
+   "_score": -7.2
   },
   {
    "id": "auto_19xs21b",
@@ -727,7 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -5.8
+   "_score": -7.3
   },
   {
    "id": "auto_189elnp",
@@ -746,7 +727,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 5.1
   },
   {
    "id": "auto_yn4tnc",
@@ -765,7 +746,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 6.1
+   "_score": 6
   },
   {
    "id": "auto_lwnbzz",
@@ -784,7 +765,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -1.6
+   "_score": -3.1
   },
   {
    "id": "auto_5rdh82",
@@ -803,7 +784,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -10
+   "_score": -11.5
   },
   {
    "id": "auto_1370snd",
@@ -822,7 +803,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -10.3
+   "_score": -11.8
   },
   {
    "id": "auto_dptbgl",
@@ -841,7 +822,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -10.8
+   "_score": -12.3
   },
   {
    "id": "auto_1yyc40p",
@@ -860,7 +841,7 @@
    "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_1ljysmw",
@@ -879,7 +860,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_row3aj",
@@ -898,7 +879,7 @@
    "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 12.3
+   "_score": 12.2
   },
   {
    "id": "auto_brxur5",
@@ -917,7 +898,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -12.1
+   "_score": -13.6
   },
   {
    "id": "auto_dy22a3",
@@ -936,7 +917,7 @@
    "img": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_tv5_jwplayer_field-3063376-6684566.jpg?itok=kpVxHNva",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 3.5
+   "_score": 3.4
   },
   {
    "id": "auto_1x0gubd",
@@ -955,7 +936,7 @@
    "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
    "ts": 1792393200000,
    "auto": 1,
-   "_score": 3.3
+   "_score": 3.2
   },
   {
    "id": "auto_6e41j6",
@@ -1012,7 +993,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -27.2
+   "_score": -28.7
   },
   {
    "id": "auto_brpy0l",
@@ -1031,7 +1012,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -17.7
+   "_score": -19.2
   },
   {
    "id": "auto_2l6hyz",
@@ -1069,7 +1050,26 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -5.5
+   "_score": -7
+  },
+  {
+   "id": "auto_u7hjhf",
+   "cat": "Expositions majeures",
+   "title": "75 artistes à la Biennale de Dakar",
+   "sub": "Le Quotidien de l'Art",
+   "text": "75 artistes à la Biennale de Dakar Le Quotidien de l'Art",
+   "date": "Publié le 6 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.lequotidiendelart.com/articles/29614-75-artistes-%C3%A0-la-biennale-de-dakar.html",
+   "src": "Le Quotidien de l'Art",
+   "img": "https://www.lequotidiendelart.com/shared/article-image/57100.jpg",
+   "ts": 1791270000000,
+   "auto": 1,
+   "_score": 3
   },
   {
    "id": "auto_eyy2sp",
@@ -1088,7 +1088,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_1538qsn",
@@ -1107,26 +1107,26 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": 7
+   "_score": 5.5
   },
   {
-   "id": "auto_1enjwke",
-   "cat": "Appels à candidatures",
-   "title": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
-   "sub": "www.thisiscolossal.com",
-   "text": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists www.thisiscolossal.com",
-   "date": "Publié le 28 septembre 2026",
+   "id": "auto_1aaidmw",
+   "cat": "Expositions majeures",
+   "title": "Morad Montazami, directeur artistique de la Biennale de Dakar: «C’est dans une certaine adversité qu’on trouve des ressources inattendues",
+   "sub": "Le360",
+   "text": "Morad Montazami, directeur artistique de la Biennale de Dakar: «C’est dans une certaine adversité qu’on trouve des ressources inattendues Le360",
+   "date": "Publié le 3 octobre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://www.thisiscolossal.com/2026/09/october-2026-opportunities-for-artists/",
-   "src": "www.thisiscolossal.com",
-   "img": "https://www.thisiscolossal.com/wp-content/uploads/2021/02/agnetun-6.jpg",
-   "ts": 1790578800000,
+   "link": "https://fr.le360.ma/culture/morad-montazami-directeur-artistique-de-la-biennale-de-dakar-cest-dans-une-certaine-adversite-quon_FGVPUJVTGVFGLH7LJGZUR6L6RM/",
+   "src": "Le360",
+   "img": "https://fr.le360.ma/resizer/v2/EXU4K26NEZBSDAS7MX2YLVXYTI.jpg?auth=2a2b45eaa5adfa2cb261a5fe00b770f2bd32ac602a119bf23e8319917f45c10d&smart=true&width=1200&height=630",
+   "ts": 1791010800000,
    "auto": 1,
-   "_score": -11
+   "_score": 3
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -9.5
+   "_score": -11
   }
  ]
 }
