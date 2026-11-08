@@ -16,6 +16,8 @@ const ready=(async()=>{
   if(!window.firebase||!firebase.firestore){await load(BASE+'firebase-app-compat.js');await Promise.all(['auth','firestore'].concat(FB.storageBucket?['storage']:[]).map(n=>load(BASE+'firebase-'+n+'-compat.js')))}
   if(!firebase.apps.length)firebase.initializeApp(FB);
   const auth=firebase.auth(),fs=firebase.firestore();
+  /* e-mails de Firebase (confirmation, mot de passe oublié) dans la langue de la personne */
+  try{let L='';try{L=localStorage.getItem('sainte_lang')||''}catch(e){}L=(L||navigator.language||'fr').slice(0,2).toLowerCase();auth.languageCode=['fr','en','es','pt','ar','de','it'].includes(L)?L:'fr'}catch(e){}
   try{fs.settings({ignoreUndefinedProperties:true,merge:true})}catch(e){}
   try{await fs.enablePersistence({synchronizeTabs:true})}catch(e){}
   try{const r=await auth.getRedirectResult();if(r&&r.user)sessionStorage.setItem('lfb_just','1')}catch(e){if(e&&e.code==='auth/credential-already-in-use'&&e.credential){try{await auth.signInWithCredential(e.credential)}catch(x){}}}
