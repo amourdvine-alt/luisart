@@ -1748,6 +1748,9 @@ a.cnlk{display:block;text-decoration:none;box-sizing:border-box;text-align:cente
 .hpa-pg{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--mu);margin-right:58px}
 .hpa-pb{width:34px;height:34px;border-radius:10px;border:1px solid var(--bd);background:var(--cd);color:var(--gd);font-size:22px;line-height:1;cursor:pointer;padding:0}
 .hpa-pb:disabled{opacity:.35}
+/* changements de page sans défilement visible (les défilements voulus restent doux) */
+html{scroll-behavior:auto!important}
+#hpa-x.hpa-out{opacity:0;transition:opacity .18s ease-out}
 /* rubrique agrandie */
 #hpa-x{position:fixed;inset:0;z-index:9000;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:0 10px calc(24px + env(safe-area-inset-bottom,0px));animation:hpa-in .25s ease-out}
 @keyframes hpa-in{from{opacity:0;transform:translateY(12px)}}
@@ -3533,7 +3536,7 @@ document.addEventListener('click',ev=>{const b=ev.target.closest('[data-hpn]');i
   if(go)hpaGoN(dx<0?1:-1,1);else{ar.style.transition='transform .28s cubic-bezier(.2,.8,.2,1),opacity .28s';ar.style.transform='';ar.style.opacity=''}};
  document.addEventListener('touchend',end,{passive:true});document.addEventListener('touchcancel',end,{passive:true})})();
 const HPA_I='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg>';
-let HPA_R=[],HPA_X=null;
+let HPA_R=[],HPA_X=null;try{history.scrollRestoration='manual'}catch(er){}
 const hpaInit=()=>{const pv=window.__hpaLV2;window.__hpaLV2=v;if(v!=='home'&&v!=='news'&&v!=='o')window.__hpaRet=null;document.body.classList.toggle('hpa-on',v==='home');if(v!=='home'){hpaClose();HPA_R=[];return}HPA_R=[];
  document.querySelectorAll('#app .hrow,#app .sc').forEach(r=>{if(r.closest('#hpa-x'))return;if([...r.children].filter(c=>!c.classList.contains('lpc')).length<3)return;
   const isH=x=>x.matches('.rch,.grh,h3')||(x.matches('.row.sp')&&!!x.querySelector(':scope>h3'));
@@ -3552,9 +3555,9 @@ const hpaOpen=i=>{const d=HPA_R[i];if(!d)return;hpaClose();const el=document.cre
  el.querySelector('.hpa-xh b').textContent=d.t;el.querySelector('.hpa-xh small').textContent=d.s;document.body.appendChild(el);HPA_X={i:+i,el,sy:(window.__hpaSY!=null?window.__hpaSY:scrollY)};window.__hpaSY=null;hpaFill();
  el.addEventListener('click',ev=>{if(ev.target.closest('.hpa-xc')){hpaClose();return}const a=ev.target.closest('[data-a],[data-rc]');if(a&&!['like','add','fol'].includes(a.dataset.a)){if(a.dataset.a==='news'||a.dataset.rc)window.__hpaRet={i:HPA_X.i,y:HPA_X.el.scrollTop,sy:HPA_X.sy};setTimeout(()=>hpaClose(1),30)}});
  try{history.pushState({hpa:1},'');HPA_X.h=1}catch(er){}};
-const hpaRest=y=>{if(y==null||v!=='home')return;const go=()=>scrollTo(0,y);go();requestAnimationFrame(go);setTimeout(go,80);setTimeout(go,250)};
-const hpaClose=(nav)=>{if(!HPA_X)return;const p=HPA_X;HPA_X=null;p.el.remove();if(nav!==1)hpaRest(p.sy);if(p.h&&history.state&&history.state.hpa){try{history.back()}catch(er){}}};
-addEventListener('popstate',()=>{if(HPA_X){const p=HPA_X;HPA_X=null;p.el.remove();hpaRest(p.sy)}});
+const hpaRest=y=>{if(y==null||v!=='home')return;scrollTo({top:y,left:0,behavior:'instant'})};
+const hpaClose=(nav)=>{if(!HPA_X)return;const p=HPA_X;HPA_X=null;if(nav===1)p.el.remove();else{hpaRest(p.sy);p.el.style.pointerEvents='none';p.el.classList.add('hpa-out');let n=0;const fix=()=>{hpaRest(p.sy);if(++n<8&&Math.abs(scrollY-p.sy)>2)requestAnimationFrame(fix)};requestAnimationFrame(fix);setTimeout(()=>p.el.remove(),190)}if(p.h&&history.state&&history.state.hpa){try{history.back()}catch(er){}}};
+addEventListener('popstate',()=>{if(HPA_X){const p=HPA_X;HPA_X=null;hpaRest(p.sy);p.el.style.pointerEvents='none';p.el.classList.add('hpa-out');setTimeout(()=>{hpaRest(p.sy);p.el.remove()},190)}});
 document.addEventListener('click',ev=>{const b=ev.target.closest('.hpa-b');if(b){ev.stopPropagation();hpaOpen(b.dataset.hpa)}},true);
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&HPA_X)hpaClose()});
 const loopInit=()=>document.querySelectorAll('#app [data-loop]').forEach(r=>{if(r._lp)return;const n=r.children.length;if(n<2||r.scrollWidth<r.clientWidth*1.15)return;r._lp=1;const orig=[...r.children],addSet=()=>orig.forEach(c=>{const k=c.cloneNode(true);k.classList.add('lpc');k.setAttribute('aria-hidden','true');r.appendChild(k)});addSet();const half=()=>r.children[n].offsetLeft-r.children[0].offsetLeft;let g=0;while(r.scrollWidth-r.clientWidth<half()+80&&g++<6)addSet();
@@ -5003,7 +5006,7 @@ window.recoDebug=()=>({TS,POS,pos:myPos()});
 (function(){const MEM={};let KR='';
 const key=()=>{try{return v==='dm'||v==='bot'?'':v+'|'+(arg||'')+'|'+(v==='me'||v==='art'?(tab||''):'')}catch(er){return ''}};
 let t0=0;addEventListener('scroll',()=>{const k=key();if(k&&k===KR){MEM[k]=scrollY}},{passive:true});
-const restore=k=>{const y=MEM[k];if(y==null)return;const go=()=>{if(key()===k&&Math.abs(scrollY-y)>2)scrollTo(0,y)};requestAnimationFrame(go);setTimeout(go,60);setTimeout(go,250);setTimeout(go,600)};
+const restore=k=>{const y=MEM[k];if(y==null)return;const go=()=>{if(key()===k&&Math.abs(scrollY-y)>2)scrollTo({top:y,left:0,behavior:'instant'})};go();requestAnimationFrame(go);setTimeout(go,60);setTimeout(go,250)};
 let n=0;const t=setInterval(()=>{if(++n>200)return clearInterval(t);if(typeof render!=='function'||render.__sc)return;clearInterval(t);const r0=render;render=function(){const before=key();const o=r0.apply(this,arguments);const k=key();if(k!==KR){KR=k;if(k)restore(k)}return o};render.__sc=1;KR=key()},60);
 window.__scrollMem=MEM;})();
 </script><script>
