@@ -1,12 +1,88 @@
 {
- "updated": "2026-11-08T05:57:50.129Z",
+ "updated": "2026-11-08T15:45:09.555Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 495
+  "read": 498
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1a3shuv",
+   "cat": "Art mondial",
+   "title": "De Toronto à Québec en train : 5 étapes pour découvrir l’art canadien",
+   "sub": "Beaux Arts Magazine",
+   "text": "Cinq villes, un même itinéraire. De Toronto à Québec, en passant par Kingston, Ottawa et …",
+   "date": "Publié le 8 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/lifestyle/de-toronto-a-quebec-en-train-5-etapes-pour-decouvrir-lart-canadien/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/espace-riopelle-01-1300x975.jpg",
+   "ts": 1794142851000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1acy7sc",
+   "cat": "Art mondial",
+   "title": "Irving Penn, Stan Douglas, Susan Meiselas… 10 expos photo qui nous font flasher cet automne à Paris",
+   "sub": "Beaux Arts Magazine",
+   "text": "Le bicentenaire de la photographie donne le ton de l’agenda culturel de cet automne dans …",
+   "date": "Publié le 8 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/irving-penn-stan-douglas-susan-meiselas-10-expos-photo-qui-nous-font-flasher-cet-automne-a-paris/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/unerpv20230901t008-1300x975.jpg",
+   "ts": 1794117648000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1qvhlk",
+   "cat": "Expositions majeures",
+   "title": "Gustave Fayet, le « fada » de Béziers qui collectionnait Van Gogh et Gauguin",
+   "sub": "Connaissance des Arts",
+   "text": "Plus de 700 toiles sont passées entre les mains de Gustave Fayet, signées des plus grands noms de l’art moderne, au point que le collectionneur s’est constitué un petit « musée Gauguin » personnel. Des coups de cœur à la spéculation, les pratiques du mécène étaient iconoclastes. Cet article Gustave Fayet, le « fada » de Béziers qui collectionnait Van Gogh et Gauguin est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 8 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/gustave-fayet-le-fada-de-beziers-qui-collectionnait-van-gogh-et-gauguin-11216917/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_fayet_vg-tt-width-653-height-728-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794117604000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1c6mlwy",
+   "cat": "Nouveautés",
+   "title": "ART X Lagos 2026 and the Pleasures of Ladi Kwali",
+   "sub": "THISDAYLIVE",
+   "text": "ART X Lagos 2026 and the Pleasures of Ladi Kwali THISDAYLIVE",
+   "date": "Publié le 8 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.thisdaylive.com/2026/11/08/art-x-lagos-2026-and-the-pleasures-of-ladi-kwali/",
+   "src": "THISDAYLIVE",
+   "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
+   "ts": 1794101497000,
+   "auto": 1,
+   "_score": 7.9
+  },
   {
    "id": "auto_673tl1",
    "cat": "Art mondial",
@@ -24,7 +100,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_femme-celte_2-tt-width-653-height-280-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794073010000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_lgtt95",
@@ -43,7 +119,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/Gary-Tyler-Rebirth-GRAM-Installation-2.jpg?w=400",
    "ts": 1794058800000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_kzwahs",
@@ -62,7 +138,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/DS_Retratos_2026__DSF13321.jpg?w=400",
    "ts": 1794045600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_f6b6pw",
@@ -81,7 +157,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_restitution_femme_en_bleu_dos_tableau-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794042055000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1ovbcju",
@@ -100,7 +176,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanov26_bxl-1900_salon-tt-width-653-height-1075-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794031220000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_1deu10z",
@@ -119,7 +195,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneca_noel26_orsay-musee-lifestyle1-paysage-1300x975.jpg",
    "ts": 1794031208000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_48iu98",
@@ -138,7 +214,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/BRANCHLINE_EXHIBITION_00480.jpg?w=400",
    "ts": 1794006974000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1yp8v3z",
@@ -157,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Pink-and-Blue_History-and-Art-Collection_Alamy-2.jpg",
    "ts": 1794002450000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_11tn7ps",
@@ -176,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/DSC00245.jpg",
    "ts": 1794000733000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_6i94k3",
@@ -195,7 +271,7 @@
    "img": "https://senego.com/wp-content/uploads/2026/11/oh-gallary-oh.jpg",
    "ts": 1793994518000,
    "auto": 1,
-   "_score": 6.3
+   "_score": 4.8
   },
   {
    "id": "auto_1994k26",
@@ -214,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/whitney2028biennial0818-copy-1.jpeg",
    "ts": 1793993079000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_15ay8nm",
@@ -233,7 +309,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1322406378.jpg?w=1024",
    "ts": 1793989033000,
    "auto": 1,
-   "_score": 4.6
+   "_score": 4.5
   },
   {
    "id": "auto_jb8m4w",
@@ -252,7 +328,7 @@
    "img": "https://media.beauxarts.com/uploads/2023/12/public-dans-les-nympheas_-4-1300x874.jpg",
    "ts": 1793984241000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_7xjm1b",
@@ -271,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7503-1-1.jpg",
    "ts": 1793984162000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_17io61j",
@@ -290,7 +366,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793980828000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_pomasq",
@@ -309,26 +385,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneestopia-diana-serghiuta-familiar-landscape-c-courtesy-estopia-1300x975.jpg",
    "ts": 1793980825000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1g1iirq",
-   "cat": "Art mondial",
-   "title": "Intermedia + Digital Arts MFA Program at UMBC Now Accepting Applications",
-   "sub": "Hyperallergic",
-   "text": "Funding for tuition, healthcare, and stipends is available. Apply to the University of Maryland, Baltimore County program by Feb 1 to be considered for financial support.",
-   "date": "À partir du 1 février 2027",
-   "deadline": "",
-   "start": "2027-02-01",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/intermedia-digital-arts-mfa-program-at-umbc-now-accepting-applications/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/IMDA_Announcement-Nguyen_HA_26.jpg",
-   "ts": 1793980800000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_3p0haz",
@@ -347,7 +404,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-1164017447.jpg?w=1024",
    "ts": 1793979765000,
    "auto": 1,
-   "_score": 4.6
+   "_score": 4.5
   },
   {
    "id": "auto_wlshmv",
@@ -366,26 +423,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 8.6
-  },
-  {
-   "id": "auto_e2ncpl",
-   "cat": "Art mondial",
-   "title": "Lucille Boitelle, la peintre ornemaniste qui fait renaître l’esprit Arts & Crafts",
-   "sub": "Connaissance des Arts",
-   "text": "À la lisière des beaux-arts et des arts décoratifs, Lucille Boitelle réalise motifs et décors peints à la main pour de très nombreuses maisons de papiers peints. Cet article Lucille Boitelle, la peintre ornemaniste qui fait renaître l’esprit Arts & Crafts est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/lucille-boitelle-la-peintre-ornemaniste-qui-fait-renaitre-lesprit-arts-crafts-11218179/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_boitelle_5-tt-width-653-height-978-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793966435000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 8.5
   },
   {
    "id": "auto_2rel6n",
@@ -404,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/metgala.jpg",
    "ts": 1793962800000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_197lukq",
@@ -423,7 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_planque-entretien_2-tt-width-653-height-905-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793944824000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_vhk3rj",
@@ -442,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/8-1.jpg",
    "ts": 1793909940000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1jslpyf",
@@ -461,7 +499,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unefigures-militantes-par-helene-aldeguer-1-1300x975.jpg",
    "ts": 1793898648000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1tl2zd7",
@@ -480,7 +518,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/BRANCUSI_PRESS_006-1600x2000-1-1.jpeg",
    "ts": 1793893500000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.7
   },
   {
    "id": "auto_h69j9",
@@ -499,7 +537,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/FINAL-TaraDaly2026-2400px.jpg",
    "ts": 1793892300000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_tcr9wm",
@@ -518,7 +556,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_orleans_buveur_vol_full-tt-width-653-height-907-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793879639000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 3.3
   },
   {
    "id": "auto_8cffwa",
@@ -537,7 +575,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": 4
+   "_score": 2.5
   },
   {
    "id": "auto_d2qklt",
@@ -556,26 +594,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -1.8
-  },
-  {
-   "id": "auto_1pjeelv",
-   "cat": "Expositions majeures",
-   "title": "Cent ans après sa mort, 5 raisons d’aller voir Mary Cassatt, l’insoumise de l’impressionnisme, au musée d’Orsay",
-   "sub": "Connaissance des Arts",
-   "text": "Jusqu’au 31 janvier, le musée d’Orsay révèle l’œuvre complète de l’impressionniste américaine Mary Cassatt (1844-1926) en révelant de nombreux chefs-d’œuvre conservés aux États-Unis grâce à un accord avec le musée de Boston. Cet article Cent ans après sa mort, 5 raisons d’aller voir Mary Cassatt, l’insoumise de l’impressionnisme, au musée d’Orsay est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 31 janvier 2027",
-   "deadline": "",
-   "start": "2027-01-31",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/cent-ans-apres-sa-mort-5-raisons-daller-voir-mary-cassatt-linsoumise-de-limpressionnisme-au-musee-dorsay-11218157/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_cassatt_orsay_1-tt-width-653-height-472-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793865652000,
-   "auto": 1,
-   "_score": 3.4
+   "_score": -3.3
   },
   {
    "id": "auto_1b84viy",
@@ -594,7 +613,7 @@
    "img": "https://substackcdn.com/image/fetch/$s_!xgwm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F322ef867-8432-42e5-ad67-0ad60efcb8de_2560x1707.jpeg",
    "ts": 1793865556000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 4.4
   },
   {
    "id": "auto_clenpc",
@@ -613,7 +632,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -4.3
+   "_score": -5.8
   },
   {
    "id": "auto_1mvr1sq",
@@ -632,7 +651,7 @@
    "img": "",
    "ts": 1793692800000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 6.3
   },
   {
    "id": "auto_1q1lpb8",
@@ -651,7 +670,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -12.1
+   "_score": -13.6
   },
   {
    "id": "auto_10ewtf5",
@@ -670,7 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/autumn_2001.123.1-1.jpg",
    "ts": 1793637354000,
    "auto": 1,
-   "_score": -10.2
+   "_score": -11.7
   },
   {
    "id": "auto_19xs21b",
@@ -689,7 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -10.3
+   "_score": -11.8
   },
   {
    "id": "auto_189elnp",
@@ -708,7 +727,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 6.4
+   "_score": 6.3
   },
   {
    "id": "auto_yn4tnc",
@@ -727,7 +746,7 @@
    "img": "",
    "ts": 1793358273000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_lwnbzz",
@@ -746,7 +765,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -6.1
+   "_score": -7.6
   },
   {
    "id": "auto_5rdh82",
@@ -765,7 +784,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -14.5
+   "_score": -16
   },
   {
    "id": "auto_1370snd",
@@ -784,7 +803,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -14.8
+   "_score": -16.3
   },
   {
    "id": "auto_dptbgl",
@@ -803,7 +822,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -15.3
+   "_score": -16.8
   },
   {
    "id": "auto_1yyc40p",
@@ -822,7 +841,7 @@
    "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
    "id": "auto_1ljysmw",
@@ -841,7 +860,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 4.4
   },
   {
    "id": "auto_row3aj",
@@ -860,7 +879,7 @@
    "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 12
+   "_score": 11.9
   },
   {
    "id": "auto_brxur5",
@@ -879,7 +898,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -16.6
+   "_score": -18.1
   },
   {
    "id": "auto_dy22a3",
@@ -898,7 +917,7 @@
    "img": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_tv5_jwplayer_field-3063376-6684566.jpg?itok=kpVxHNva",
    "ts": 1792479600000,
    "auto": 1,
-   "_score": 3.3
+   "_score": 3.2
   },
   {
    "id": "auto_1x0gubd",
@@ -974,7 +993,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -31.7
+   "_score": -33.2
   },
   {
    "id": "auto_brpy0l",
@@ -993,7 +1012,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -22.2
+   "_score": -23.7
   },
   {
    "id": "auto_2l6hyz",
@@ -1031,7 +1050,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -10
+   "_score": -11.5
   },
   {
    "id": "auto_u7hjhf",
@@ -1069,7 +1088,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -0.5
+   "_score": -2
   },
   {
    "id": "auto_1538qsn",
@@ -1088,7 +1107,7 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   },
   {
    "id": "auto_1aaidmw",
@@ -1110,25 +1129,6 @@
    "_score": 3
   },
   {
-   "id": "auto_tkkys9",
-   "cat": "Nouveautés",
-   "title": "Contemporary African Sculpture: Indigenous Logics Of The Fractured Self - Bowman Sculpture",
-   "sub": "Artlyst",
-   "text": "Contemporary African Sculpture: Indigenous Logics Of The Fractured Self - Bowman Sculpture Artlyst",
-   "date": "Publié le 1 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://artlyst.com/contemporary-african-sculpture-indigenous-logics-of-the-fractured-self-bowman-sculpture/",
-   "src": "Artlyst",
-   "img": "https://artlyst.com/wp-content/uploads/2026/10/Adora-Mba-ADA-Contemporary-Founder.jpeg",
-   "ts": 1790838000000,
-   "auto": 1,
-   "_score": 3
-  },
-  {
    "id": "auto_1eqhp6e",
    "cat": "Appels à candidatures",
    "title": "Résidence artistique : l’appel à candidatures au Alserkal arts ouvert jusqu'au 1er janvier 2020",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -14
+   "_score": -15.5
   }
  ]
 }
