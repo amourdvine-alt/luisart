@@ -263,14 +263,17 @@ def main():
     import time
     out = sys.argv[1] if len(sys.argv) > 1 else '_site'
     get = lambda c: (coll(c) if True else [])
-    data = {}
+    data = {}; lus = set()
     for c in ('artists', 'works', 'news', 'expo'):
-        try: data[c] = get(c)
+        try: data[c] = get(c); lus.add(c)
         except Exception as er: print('lecture impossible :', c, type(er).__name__, str(er)[:160]); data[c] = []
     try: auto = json.load(open(os.path.join(ROOT, 'data', 'news-auto.json'))).get('items', [])
     except Exception: auto = []
     n = build(out, data['works'], data['artists'], data['news'] + auto, data['expo'], int(time.time() * 1000))
     print('pages de partage : %(w)d œuvres, %(a)d artistes, %(n)d actualités, %(x)d expositions' % n)
+    # témoin lu par l'application : elle n'utilise les liens d'aperçu que si ces pages existent vraiment
+    if {'artists', 'works'} <= lus:
+        os.makedirs(os.path.join(out, 'p'), exist_ok=True); json.dump({'ok': 1}, open(os.path.join(out, 'p', 'ok.json'), 'w'))
 
 if __name__ == '__main__':
     main()
