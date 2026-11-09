@@ -1,19 +1,8 @@
 [
  {
-  "f": "gnossienne-n1.mp3",
-  "t": "Gnossienne n°1",
-  "c": "Erik Satie",
-  "m": "Calme",
-  "d": 420,
-  "lic": "CC BY 4.0",
-  "by": "deSingel",
-  "src": "https://commons.wikimedia.org/wiki/File%3A161001_inleiding_Reinbert_De_Leeuw_%28audio%29.mp3",
-  "orig": "File:161001 inleiding Reinbert De Leeuw (audio).mp3"
- },
- {
   "f": "rverie.mp3",
-  "t": "Rêverie",
-  "c": "Claude Debussy",
+  "t": "Rêverie du soir",
+  "c": "Camille Saint-Saëns",
   "m": "Contemplatif",
   "d": 301,
   "lic": "Public domain",
@@ -24,7 +13,7 @@
  {
   "f": "nocturne-op-9-n2.mp3",
   "t": "Nocturne op. 9 n°2",
-  "c": "Frédéric Chopin",
+  "c": "Frédéric Chopin · Frank Lévy",
   "m": "Piano",
   "d": 271,
   "lic": "Public domain",
@@ -35,7 +24,7 @@
  {
   "f": "prlude-en-do-majeur.mp3",
   "t": "Prélude en do majeur",
-  "c": "J.-S. Bach",
+  "c": "J.-S. Bach · Kimiko Ishizaka",
   "m": "Piano",
   "d": 163,
   "lic": "Public domain",
@@ -45,8 +34,8 @@
  },
  {
   "f": "air-sur-la-corde-de-sol.mp3",
-  "t": "Air sur la corde de sol",
-  "c": "J.-S. Bach",
+  "t": "Air (Suite n°3)",
+  "c": "J.-S. Bach · U.S. Air Force Strings",
   "m": "Classique",
   "d": 183,
   "lic": "Public domain",
@@ -56,9 +45,9 @@
  },
  {
   "f": "trumerei.mp3",
-  "t": "Träumerei",
-  "c": "Robert Schumann",
-  "m": "Piano",
+  "t": "Dreaming",
+  "c": "Antti Luode",
+  "m": "Calme",
   "d": 180,
   "lic": "CC BY 3.0",
   "by": "Antti Luode",
@@ -68,34 +57,12 @@
  {
   "f": "au-matin-peer-gynt.mp3",
   "t": "Au matin (Peer Gynt)",
-  "c": "Edvard Grieg",
+  "c": "Edvard Grieg · Musopen",
   "m": "Classique",
   "d": 229,
   "lic": "Public domain",
   "by": "Edvard Grieg",
   "src": "https://commons.wikimedia.org/wiki/File%3AGrieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac",
   "orig": "File:Grieg - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood (Musopen Symphony).flac"
- },
- {
-  "f": "le-cygne.mp3",
-  "t": "Le Cygne",
-  "c": "Camille Saint-Saëns",
-  "m": "Classique",
-  "d": 230,
-  "lic": "Public domain",
-  "by": "Charles Baudelaire",
-  "src": "https://commons.wikimedia.org/wiki/File%3ALe_Cygne%2C_by_Charles_Baudelaire%2C_Audiocit%C3%A9.mp3",
-  "orig": "File:Le Cygne, by Charles Baudelaire, Audiocité.mp3"
- },
- {
-  "f": "pavane-pour-une-infante-dfunte.mp3",
-  "t": "Pavane pour une infante défunte",
-  "c": "Maurice Ravel",
-  "m": "Contemplatif",
-  "d": 420,
-  "lic": "CC BY 4.0",
-  "by": "deSingel",
-  "src": "https://commons.wikimedia.org/wiki/File%3AInleiding_Anna_Vinnitskaya_%28audio%29.mp3",
-  "orig": "File:Inleiding Anna Vinnitskaya (audio).mp3"
  }
 ]
