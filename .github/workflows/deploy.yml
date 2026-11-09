@@ -36,17 +36,16 @@ jobs:
           echo "type=$t" >> "$GITHUB_OUTPUT"
           if [ "$t" != "workflow" ]; then echo "::notice::Réglage Pages = $t. Rien à publier ici tant que la source n'est pas « GitHub Actions »."; fi
       - name: Préparer le site
-        if: steps.mode.outputs.type == 'workflow'
         run: |
           mkdir _site
           rsync -a --exclude .git --exclude .github --exclude _site --exclude scripts --exclude functions \
                 --exclude firestore.rules --exclude firestore.indexes.json --exclude storage.rules --exclude firebase.json ./ _site/
           touch _site/.nojekyll
       - name: Pages d'aperçu des liens partagés
-        if: steps.mode.outputs.type == 'workflow'
         run: |
           pip install --quiet pillow
           python3 scripts/share-pages.py _site || echo "::warning::Pages d'aperçu non générées cette fois (le site est publié quand même)"
+          echo "fichiers d'aperçu : $(ls _site/p 2>/dev/null | wc -l) pages, $(ls _site/p/i 2>/dev/null | wc -l) images, $(du -sh _site/p 2>/dev/null | cut -f1)"
       - name: Empreinte du site
         if: steps.mode.outputs.type == 'workflow'
         id: h
