@@ -64,5 +64,60 @@
   "by": "Edvard Grieg",
   "src": "https://commons.wikimedia.org/wiki/File%3AGrieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac",
   "orig": "File:Grieg - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood (Musopen Symphony).flac"
+ },
+ {
+  "f": "gymnopdie-n1.mp3",
+  "t": "Gymnopédie n°1",
+  "c": "Erik Satie",
+  "m": "Calme",
+  "d": 123,
+  "lic": "Public domain",
+  "by": "Mlaucke",
+  "src": "https://commons.wikimedia.org/wiki/File%3ASatie_Gymnopedie_No_3_performed_by_Michael_Laucke.flac",
+  "orig": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac"
+ },
+ {
+  "f": "clair-de-lune.mp3",
+  "t": "Clair de lune",
+  "c": "Claude Debussy",
+  "m": "Contemplatif",
+  "d": 242,
+  "lic": "Public domain",
+  "by": "Composition: Claude Debussy; Performance: United States Air Force Band of Flight, Wright Brass; Recording: United States",
+  "src": "https://commons.wikimedia.org/wiki/File%3AClair_de_Lune_-_Wright_Brass_-_United_States_Air_Force_Band_of_Flight.mp3",
+  "orig": "File:Clair de Lune - Wright Brass - United States Air Force Band of Flight.mp3"
+ },
+ {
+  "f": "le-cygne.mp3",
+  "t": "Le Cygne",
+  "c": "Camille Saint-Saëns",
+  "m": "Classique",
+  "d": 154,
+  "lic": "Public domain",
+  "by": "Judith Bokor",
+  "src": "https://commons.wikimedia.org/wiki/File%3AJudith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac",
+  "orig": "File:Judith Bokor plays Le Cygne by Saint-Saëns.flac"
+ },
+ {
+  "f": "prlude-la-goutte-deau.mp3",
+  "t": "Prélude « La goutte d’eau »",
+  "c": "Frédéric Chopin",
+  "m": "Piano",
+  "d": 295,
+  "lic": "CC0",
+  "by": "Frederic Chopin",
+  "src": "https://commons.wikimedia.org/wiki/File%3APrelude_Op._28_no._15.mp3",
+  "orig": "File:Prelude Op. 28 no. 15.mp3"
+ },
+ {
+  "f": "valse-op-64-n2.mp3",
+  "t": "Valse op. 64 n°2",
+  "c": "Frédéric Chopin",
+  "m": "Piano",
+  "d": 230,
+  "lic": "Public domain",
+  "by": "Frédéric Chopin",
+  "src": "https://commons.wikimedia.org/wiki/File%3AChopin_-_Waltz_No._7_in_C-sharp_minor%2C_Op._64_No._2_%28Olga_Gurevich%29.flac",
+  "orig": "File:Chopin - Waltz No. 7 in C-sharp minor, Op. 64 No. 2 (Olga Gurevich).flac"
  }
 ]
