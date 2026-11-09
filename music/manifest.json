@@ -1,0 +1,101 @@
+[
+ {
+  "f": "gnossienne-n1.mp3",
+  "t": "Gnossienne n°1",
+  "c": "Erik Satie",
+  "m": "Calme",
+  "d": 420,
+  "lic": "CC BY 4.0",
+  "by": "deSingel",
+  "src": "https://commons.wikimedia.org/wiki/File%3A161001_inleiding_Reinbert_De_Leeuw_%28audio%29.mp3",
+  "orig": "File:161001 inleiding Reinbert De Leeuw (audio).mp3"
+ },
+ {
+  "f": "rverie.mp3",
+  "t": "Rêverie",
+  "c": "Claude Debussy",
+  "m": "Contemplatif",
+  "d": 301,
+  "lic": "Public domain",
+  "by": "",
+  "src": "https://commons.wikimedia.org/wiki/File%3ACamille_Saint-Sa%C3%ABns_-_Suite_Alg%C3%A9rienne%2C_III._R%C3%AAverie_du_soir_%28%C3%A0_Blida%29.flac",
+  "orig": "File:Camille Saint-Saëns - Suite Algérienne, III. Rêverie du soir (à Blida).flac"
+ },
+ {
+  "f": "nocturne-op-9-n2.mp3",
+  "t": "Nocturne op. 9 n°2",
+  "c": "Frédéric Chopin",
+  "m": "Piano",
+  "d": 271,
+  "lic": "Public domain",
+  "by": "Frédéric Chopin / Frank Lévy",
+  "src": "https://commons.wikimedia.org/wiki/File%3AChopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac",
+  "orig": "File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac"
+ },
+ {
+  "f": "prlude-en-do-majeur.mp3",
+  "t": "Prélude en do majeur",
+  "c": "J.-S. Bach",
+  "m": "Piano",
+  "d": 163,
+  "lic": "Public domain",
+  "by": "Johann Sebastian Bach",
+  "src": "https://commons.wikimedia.org/wiki/File%3AKimiko_Ishizaka_-_Bach-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.flac",
+  "orig": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 01 Prelude No. 1 in C major, BWV 846.flac"
+ },
+ {
+  "f": "air-sur-la-corde-de-sol.mp3",
+  "t": "Air sur la corde de sol",
+  "c": "J.-S. Bach",
+  "m": "Classique",
+  "d": 183,
+  "lic": "Public domain",
+  "by": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Air Force Strings; Recording: United Stat",
+  "src": "https://commons.wikimedia.org/wiki/File%3AAir_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+  "orig": "File:Air - Air Force Strings - United States Air Force Band.mp3"
+ },
+ {
+  "f": "trumerei.mp3",
+  "t": "Träumerei",
+  "c": "Robert Schumann",
+  "m": "Piano",
+  "d": 180,
+  "lic": "CC BY 3.0",
+  "by": "Antti Luode",
+  "src": "https://commons.wikimedia.org/wiki/File%3ADreaming_%28Antti_Luode%29.mp3",
+  "orig": "File:Dreaming (Antti Luode).mp3"
+ },
+ {
+  "f": "au-matin-peer-gynt.mp3",
+  "t": "Au matin (Peer Gynt)",
+  "c": "Edvard Grieg",
+  "m": "Classique",
+  "d": 229,
+  "lic": "Public domain",
+  "by": "Edvard Grieg",
+  "src": "https://commons.wikimedia.org/wiki/File%3AGrieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac",
+  "orig": "File:Grieg - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood (Musopen Symphony).flac"
+ },
+ {
+  "f": "le-cygne.mp3",
+  "t": "Le Cygne",
+  "c": "Camille Saint-Saëns",
+  "m": "Classique",
+  "d": 230,
+  "lic": "Public domain",
+  "by": "Charles Baudelaire",
+  "src": "https://commons.wikimedia.org/wiki/File%3ALe_Cygne%2C_by_Charles_Baudelaire%2C_Audiocit%C3%A9.mp3",
+  "orig": "File:Le Cygne, by Charles Baudelaire, Audiocité.mp3"
+ },
+ {
+  "f": "pavane-pour-une-infante-dfunte.mp3",
+  "t": "Pavane pour une infante défunte",
+  "c": "Maurice Ravel",
+  "m": "Contemplatif",
+  "d": 420,
+  "lic": "CC BY 4.0",
+  "by": "deSingel",
+  "src": "https://commons.wikimedia.org/wiki/File%3AInleiding_Anna_Vinnitskaya_%28audio%29.mp3",
+  "orig": "File:Inleiding Anna Vinnitskaya (audio).mp3"
+ }
+]
