@@ -1,0 +1,14 @@
+name: Copier la bibliothèque 3D sur le site
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          mkdir -p vendor
+          curl -fsSL -o vendor/three.min.js https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js
+          head -c 120 vendor/three.min.js; echo; wc -c vendor/three.min.js
+          git config user.name "luisart-robot"; git config user.email "robot@users.noreply.github.com"
+          git add vendor && git commit -m "Bibliothèque 3D hébergée sur le site" && git pull --rebase && git push || echo rien
