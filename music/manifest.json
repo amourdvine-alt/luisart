@@ -67,8 +67,8 @@
  },
  {
   "f": "gymnopdie-n1.mp3",
-  "t": "Gymnopédie n°1",
-  "c": "Erik Satie",
+  "t": "Gymnopédie n°3",
+  "c": "Erik Satie · Michael Laucke",
   "m": "Calme",
   "d": 123,
   "lic": "Public domain",
@@ -78,8 +78,8 @@
  },
  {
   "f": "clair-de-lune.mp3",
-  "t": "Clair de lune",
-  "c": "Claude Debussy",
+  "t": "Clair de lune (cuivres)",
+  "c": "Claude Debussy · U.S. Air Force Band",
   "m": "Contemplatif",
   "d": 242,
   "lic": "Public domain",
@@ -90,7 +90,7 @@
  {
   "f": "le-cygne.mp3",
   "t": "Le Cygne",
-  "c": "Camille Saint-Saëns",
+  "c": "Camille Saint-Saëns · Judith Bokor",
   "m": "Classique",
   "d": 154,
   "lic": "Public domain",
@@ -112,7 +112,7 @@
  {
   "f": "valse-op-64-n2.mp3",
   "t": "Valse op. 64 n°2",
-  "c": "Frédéric Chopin",
+  "c": "Frédéric Chopin · Olga Gurevich",
   "m": "Piano",
   "d": 230,
   "lic": "Public domain",
