@@ -1,0 +1,71 @@
+name: Publier le site Luisart
+# Publie le site et fabrique, au passage, les pages d'aperçu des liens partagés
+# (œuvres, artistes, actualités, expositions). Ces pages ne sont jamais enregistrées
+# dans le dépôt : une œuvre supprimée disparaît à la publication suivante.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '7,37 * * * *'        # deux fois par heure : nouvelles œuvres, suppressions
+  workflow_run:
+    workflows: ["Veille actualités Luisart"]
+    types: [completed]
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Le site est-il réglé sur « GitHub Actions » ?
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          t=$(gh api "repos/${{ github.repository }}/pages" --jq .build_type 2>/dev/null || echo inconnu)
+          echo "type=$t" >> "$GITHUB_OUTPUT"
+          if [ "$t" != "workflow" ]; then echo "::notice::Réglage Pages = $t. Rien à publier ici tant que la source n'est pas « GitHub Actions »."; fi
+      - name: Préparer le site
+        if: steps.mode.outputs.type == 'workflow'
+        run: |
+          mkdir _site
+          rsync -a --exclude .git --exclude .github --exclude _site --exclude scripts --exclude functions \
+                --exclude firestore.rules --exclude firestore.indexes.json --exclude storage.rules --exclude firebase.json ./ _site/
+          touch _site/.nojekyll
+      - name: Pages d'aperçu des liens partagés
+        if: steps.mode.outputs.type == 'workflow'
+        run: |
+          pip install --quiet pillow
+          python3 scripts/share-pages.py _site || echo "::warning::Pages d'aperçu non générées cette fois (le site est publié quand même)"
+      - name: Empreinte du site
+        if: steps.mode.outputs.type == 'workflow'
+        id: h
+        run: echo "h=$(cd _site && find . -type f -print0 | sort -z | xargs -0 sha1sum | sha1sum | cut -c1-20)" >> "$GITHUB_OUTPUT"
+      - name: Déjà publié à l'identique ?
+        if: steps.mode.outputs.type == 'workflow'
+        id: deja
+        uses: actions/cache@v4
+        with:
+          path: .publie
+          key: site-${{ steps.h.outputs.h }}
+      - name: Marquer cette version
+        if: steps.mode.outputs.type == 'workflow' && steps.deja.outputs.cache-hit != 'true'
+        run: mkdir -p .publie && echo "${{ steps.h.outputs.h }}" > .publie/version
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.mode.outputs.type == 'workflow' && steps.deja.outputs.cache-hit != 'true'
+        with:
+          path: _site
+          retention-days: 1
+      - id: deploy
+        if: steps.mode.outputs.type == 'workflow' && steps.deja.outputs.cache-hit != 'true'
+        uses: actions/deploy-pages@v4

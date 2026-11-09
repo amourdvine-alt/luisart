@@ -1,0 +1,2 @@
+Lora et Inter : polices sous licence SIL Open Font License 1.1 (https://openfontlicense.org).
+Elles servent uniquement à dessiner les images d aperçu des liens partagés.
