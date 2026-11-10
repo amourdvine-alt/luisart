@@ -9,7 +9,8 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with: { node-version: 22 }
-      - run: cd scripts/diag && npm init -y >/dev/null && npm i --no-audit --no-fund firebase-admin@12 >/dev/null
+      - run: cd scripts/diag && npm init -y >/dev/null && npm i --no-audit --no-fund firebase-admin@12 playwright@1.47.2 >/dev/null && npx playwright install --with-deps chromium >/dev/null
       - env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: NODE_PATH=scripts/diag/node_modules node scripts/diag/live.cjs
+      - run: NODE_PATH=scripts/diag/node_modules node scripts/diag/turn.cjs
