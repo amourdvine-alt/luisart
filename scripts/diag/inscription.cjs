@@ -33,11 +33,7 @@ const crypto = require('crypto');
       for (const d of all.docs) { const x = d.data(), pb = []; if (x.uid !== d.id) pb.push('uid≠id'); for (const [k, m] of [['tel', 20], ['mail', 120], ['wa', 20]]) if (k in x && (typeof x[k] !== 'string' || x[k].length > m)) pb.push(k + ':' + typeof x[k] + '/' + String(x[k]).length); if (pb.length) { bad++; console.log('   fiche privée non conforme :', pb.join(' '), '| profil existe :', (await fs.doc('artists/' + d.id).get()).exists); } }
       console.log('fiches privées :', all.size, '| non conformes :', bad);
     } catch (e) { console.log('priv (contrôle) illisible', e.code || e.message); }
-    try { // un profil porte-t-il déjà le prénom de la testeuse ? (comparaison par empreinte)
-      const H = x => crypto.createHash('sha1').update(String(x || '').trim().toLowerCase()).digest('hex').slice(0, 12); const ar = await fs.collection('artists').get(); let hit = 0;
-      for (const d of ar.docs) { const x = d.data(); if (H(x.name) === '4c1d0e2a7b1f' || /^marl[eè]ne\b/i.test(String(x.name || ''))) { hit++; const p = await fs.doc('priv/' + d.id).get(); let au = null; try { au = await admin.auth().getUser(d.id) } catch (e) { au = e.code } console.log('   profil correspondant : mem=' + x.mem, '| rôle=' + x.role, '| créé il y a', Math.round((Date.now() - (x.since || 0)) / 3600e3), 'h | champs :', Object.keys(x).sort().join(','), '| fiche privée :', p.exists, '| compte :', typeof au === 'string' ? au : (au.providerData.length ? 'avec e-mail' : 'anonyme') + ', désactivé=' + au.disabled); } }
-      console.log('profils :', ar.size, '| correspondant au prénom :', hit, '| en attente :', ar.docs.filter(d => d.data().mem === 'att').length);
-    } catch (e) { console.log('profils illisibles', e.code || e.message); }
+    try { const ar = await fs.collection('artists').get(); console.log('profils :', ar.size, '| en attente :', ar.docs.filter(d => d.data().mem === 'att').length); } catch (e) { console.log('profils illisibles', e.code || e.message); }
   }
   // 2. inscription réelle depuis le site
   const b = await chromium.launch(); const pg = await (await b.newContext({ locale: 'fr-FR', viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, serviceWorkers: 'block' })).newPage();
