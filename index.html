@@ -3698,6 +3698,16 @@ const save=()=>uid&&db.doc('data/users/'+uid+'/follows').set(me).catch(()=>{}),t
 document.addEventListener('input',x=>{if(x.target.id==='q'){q=x.target.value;if(v==='home'&&q){v='gal'}render()}});
 document.addEventListener('keydown',x=>{if(x.key==='Enter'&&x.target.id==='mt')act(v==='bot'?'bsend':'send')});
 document.addEventListener('click',x=>{const t=x.target.closest('[data-a]');if(!t||x.target.closest('#sv'))return;const d=t.dataset;act(d.a,d.v,d.x)});
+/* une action a échoué : on garde la vraie cause, on répare la session si c'est elle, et on dit quoi faire */
+async function actFail(a,err){const c=String(err&&err.code||''),m=String(err&&err.message||err||'');try{console.error('action',a,err);window.__lastErr={a,c,m:m.slice(0,300),st:String(err&&err.stack||'').slice(0,700),t:Date.now()}}catch(er){}
+ const ref=' (réf. '+a+(c?' · '+c:'')+')';
+ if(c==='not_permitted'||c==='unauthenticated'){let r='';try{r=window.luisartRepair?await window.luisartRepair():''}catch(er){}
+  try{window.__lastErr.rep=r}catch(er){}
+  if(r==='new'){toast('Votre session avait expiré. Elle vient d’être renouvelée : la page se recharge, puis réessayez.');setTimeout(()=>location.reload(),2200);return}
+  if(r==='ok'){toast('Action non autorisée pour ce compte. Réessayez ; si cela continue, rechargez la page.'+ref);return}
+  toast('Connexion au serveur perdue. Rechargez la page puis réessayez.'+ref);return}
+ if(c==='unavailable'||/network|offline|Failed to fetch/i.test(m)){toast('Connexion internet insuffisante. Réessayez dans un instant.'+ref);return}
+ toast('Un problème est survenu. Rechargez la page puis réessayez.'+ref)}
 async function act(a,vv,x){try{if(a==='lslang'){lsLang();return}if(a==='nopen'){nOpen(true);return}if(BETACTS.has(a)&&await betaAct(a,vv,x))return;if(myRole()==='assoc'&&(FOUND_ONLY.includes(a)||(a==='rqok'&&(PRQ.find(z=>z.id===x)||{}).k==='del'))){toast('Action réservée au fondateur de Luisart');return}if(ACCACTS.has(a)&&await accAct(a,vv,x))return;if((GATE.has(a)||(a==="go"&&vv==="edit"))&&!isMem()){joinOpen(a);return}if(EXACTS.has(a)&&await exAct(a,vv,x))return;if(a==='tvrec'){vrecStart(x);return}
 if(a==='tvstop'){vrecStop();return}
 if(a==='tvedit'){TVE=TVE===x?null:x;render();setTimeout(()=>{const t=$('#tvx');t&&t.focus()},50);return}
@@ -3886,7 +3896,7 @@ else if(a==='msopen'){const l=stA(uid).sort((p,q)=>p.ts-q.ts),k=l.findIndex(z=>z
  else if(a==='psave'){if(!uid)return alert('Connexion requise');const t=$('#pt').value,f=DR.img_pi,l=$('#pl').value.trim(),tx=$('#px').value.trim();if(!tx&&!f&&!l)return alert('Contenu vide');if((t==='video'||t==='live')&&!meP()){alert('Les vidéos de création et l’annonce de lives sont réservées aux comptes Pro.');CMP=null;v='pro';render();return}const at=schAt('p');if(Number.isNaN(at)||(at&&at<Date.now()))return alert('Choisissez une date de publication à venir.');await db.doc('posts/p'+Date.now()+uid.slice(0,4)).set({...(at?{at}:{}),aid:uid,type:t,text:tx,link:l,img:f||'',ts:at||Date.now()});clr(['pt','px','pl','img_pi','schm_p','sch_p']);CMP=null;CMPH='';toast(at?'Publication programmée pour le '+schFmt(at):'Publication en ligne')}
  else if(a==='delp'){if(ARM!==x){ARM=x;setTimeout(()=>{if(ARM===x){ARM=null;render()}},4000)}else{ARM=null;await db.doc('posts/'+x).delete();toast('Publication supprimée')}}
  
- }catch(err){alert('Action refusée (accès Contributeur requis).')}render()}
+ }catch(err){actFail(a,err)}render()}
 render();
 (async()=>{try{const u=await claude.use('user');db=await claude.use('db');if(db){for(let i=0;i<60&&!window.__roWrap;i++)await new Promise(r=>setTimeout(r,25));if(window.__roWrap)db=await window.__roWrap(db,u)}if(u){uid=await u.id();owner=await u.isOwner()}window.__ownerok=1;setTimeout(async()=>{try{if(owner&&uid&&A[uid]&&!(A[uid].pro&&A[uid].cert&&!A[uid].proUntil))await db.doc('artists/'+uid).update({pro:true,cert:true,proUntil:0})}catch(er){}},2500);if(!db)return;
  db.collection('artists').onSnapshot(s=>{A={};s.docs.forEach(d=>A[d.id]={...d.data(),id:d.id});try{if(owner&&db){if(!CFGS.wlc0&&CFGS!==undefined&&window.__cfgok&&!window.__w0){window.__w0=1;db.doc('cfg/site').set({...CFGS,wlc0:Date.now()}).catch(()=>{})}else if(CFGS.wlc0)Object.entries(A).forEach(([i,a])=>{if(i!==uid&&!a.demo&&!a.wlc&&(a.since||0)>CFGS.wlc0&&!(window.__wl||(window.__wl={}))[i]){window.__wl[i]=1;sysDM(i,tpl('welcome',{nom:a.name||''})).then(()=>db.doc('artists/'+i).update({wlc:Date.now()})).catch(()=>{})}})}}catch(er){}

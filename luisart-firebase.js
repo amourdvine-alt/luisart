@@ -122,6 +122,13 @@ function emailSheet(){if(document.getElementById('lfbm'))return;const o=document
    try{if(m==='up')await signUpEmail(mail,pw);else await signInEmail(mail,pw)}catch(e){err(frErr(e));o.querySelectorAll('button').forEach(x=>x.disabled=false);b.textContent=m==='up'?'Créer mon compte':'Se connecter'}});
   o.addEventListener('keydown',ev=>{if(ev.key==='Enter'){const b=o.querySelector('[data-m="in"]');b&&b.click()}if(ev.key==='Escape')o.remove()})}
 async function signOut(){const r=await ready;if(!r)return;try{await r.auth.signOut()}catch(e){}}
+/* Session abîmée (compte anonyme supprimé, jeton refusé…) : on la renouvelle.
+   Renvoie 'ok' (session saine), 'new' (nouvelle session ouverte) ou 'ko:<code>'. */
+window.luisartRepair=async()=>{const r=await ready;if(!r)return 'ko:init';const auth=r.auth,u=auth.currentUser;
+  if(!u){try{await auth.signInAnonymously();return 'new'}catch(e){return 'ko:'+(e&&e.code||'signin')}}
+  try{await u.getIdToken(true);return 'ok'}catch(e){const c=String(e&&e.code||'');
+    if(/user-token-expired|user-not-found|user-disabled|invalid-user-token|invalid-credential|requires-recent-login/.test(c)){if(!u.isAnonymous)return 'ko:'+c;try{await auth.signOut()}catch(x){}try{await auth.signInAnonymously();return 'new'}catch(x){return 'ko:'+(x&&x.code||'signin')}}
+    return 'ko:'+c}};
 window.luisartAuth={signInGoogle,signInEmail,signUpEmail,resetEmail,emailSheet,signOut,ready,idToken:async()=>{const r=await ready;const u=r&&r.auth.currentUser;return u?u.getIdToken():null},info:async()=>{const r=await ready;const u=r&&r.auth.currentUser;return u?{uid:u.uid,appId:appId(u),email:u.email||'',anonymous:u.isAnonymous,owner:isOwnerU(u)}:null}};
 
 /* carte « Continuer avec Google » sur Profil et Créer mon compte, tant que la personne n'est pas connectée */

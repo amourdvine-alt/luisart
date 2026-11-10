@@ -63,6 +63,7 @@ const crypto = require('crypto');
   await pg2.waitForFunction("typeof uid!=='undefined'&&!!uid&&typeof db!=='undefined'&&!!db&&window.__cfgok", null, { timeout: 60000 }).catch(() => { });
   const r2 = await pg2.evaluate(async () => {
     const orig = db.doc; const tr = [];
+    for (let i = 0; i < 40 && !DEMO; i++) await new Promise(z => setTimeout(z, 250));
     started = true; const l = document.getElementById('lx'); if (l) l.remove(); v = 'join'; render(); await new Promise(z => setTimeout(z, 800));
     const g = i => document.getElementById(i); const out = { champs: ['jn', 'jtel', 'jmail', 'jok'].map(i => i + ':' + !!g(i)).join(' ') };
     if (g('jn')) { g('jn').value = 'Test technique Luisart'; g('jn').dispatchEvent(new Event('input', { bubbles: true })); }
@@ -71,7 +72,7 @@ const crypto = require('crypto');
     const t0 = []; const ot = window.toast; try { window.toast = m => { t0.push(String(m)); return ot && ot(m) } } catch (e) { }
     try { await act('jsend') } catch (e) { out.exception = String(e && e.stack || e).slice(0, 500) }
     await new Promise(z => setTimeout(z, 2500));
-    out.messages = [...document.querySelectorAll('.toast,#toast,.tst')].map(x => x.textContent).join(' | '); out.vue = v; out.profil = !!A[uid]; out.mem = (A[uid] || {}).mem; out.id = uid; return out;
+    out.messages = [...document.querySelectorAll('.toast,#toast,.tst')].map(x => x.textContent).join(' | '); out.vue = v; out.profil = !!A[uid]; out.mem = (A[uid] || {}).mem; out.demo = DEMO; out.stl = typeof STL === 'function' ? STL() : '?'; out.err = window.__lastErr || null; out.id = uid; return out;
   }).catch(e => ({ echec: String(e).slice(0, 400) }));
   const id2 = r2.id; delete r2.id; console.log('FORMULAIRE', JSON.stringify(r2, null, 1)); console.log('journal page 1 :', JSON.stringify(logs.slice(0, 8))); console.log('journal page 2 :', JSON.stringify(al.slice(0, 8)));
   await b.close();
