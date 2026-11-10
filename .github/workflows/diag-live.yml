@@ -1,0 +1,15 @@
+name: Diagnostic live
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: cd scripts/diag && npm init -y >/dev/null && npm i --no-audit --no-fund firebase-admin@12 >/dev/null
+      - env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: NODE_PATH=scripts/diag/node_modules node scripts/diag/live.cjs
