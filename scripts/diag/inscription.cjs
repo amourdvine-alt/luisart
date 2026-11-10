@@ -22,6 +22,23 @@ const crypto = require('crypto');
       for (const d of pv.docs) { const a = await fs.doc('artists/' + d.id).get(); console.log('   il y a', Math.round((Date.now() - d.data().ts) / 60000), 'min | profil créé :', a.exists, a.exists ? '| mem=' + a.data().mem + ' | champs : ' + Object.keys(a.data()).sort().join(',') : ''); }
     } catch (e) { console.log('priv illisible', e.code || e.message); }
   }
+  if (fs) {
+    try { // comptes : uniquement des nombres
+      let n = 0, anon = 0, d24 = 0, act2h = 0, tok = undefined; const now = Date.now();
+      do { const l = await admin.auth().listUsers(1000, tok); tok = l.pageToken; for (const u of l.users) { n++; if (!u.providerData.length) anon++; if (now - Date.parse(u.metadata.creationTime) < 864e5) d24++; if (u.metadata.lastRefreshTime && now - Date.parse(u.metadata.lastRefreshTime) < 2 * 3600e3) act2h++; } } while (tok);
+      console.log('comptes :', n, '| anonymes :', anon, '| créés depuis 24 h :', d24, '| actifs depuis 2 h :', act2h);
+    } catch (e) { console.log('comptes illisibles', e.code || e.message); }
+    try { // fiches privées qui ne respecteraient pas les règles (types et longueurs seulement)
+      const all = await fs.collection('priv').get(); let bad = 0;
+      for (const d of all.docs) { const x = d.data(), pb = []; if (x.uid !== d.id) pb.push('uid≠id'); for (const [k, m] of [['tel', 20], ['mail', 120], ['wa', 20]]) if (k in x && (typeof x[k] !== 'string' || x[k].length > m)) pb.push(k + ':' + typeof x[k] + '/' + String(x[k]).length); if (pb.length) { bad++; console.log('   fiche privée non conforme :', pb.join(' '), '| profil existe :', (await fs.doc('artists/' + d.id).get()).exists); } }
+      console.log('fiches privées :', all.size, '| non conformes :', bad);
+    } catch (e) { console.log('priv (contrôle) illisible', e.code || e.message); }
+    try { // un profil porte-t-il déjà le prénom de la testeuse ? (comparaison par empreinte)
+      const H = x => crypto.createHash('sha1').update(String(x || '').trim().toLowerCase()).digest('hex').slice(0, 12); const ar = await fs.collection('artists').get(); let hit = 0;
+      for (const d of ar.docs) { const x = d.data(); if (H(x.name) === '4c1d0e2a7b1f' || /^marl[eè]ne\b/i.test(String(x.name || ''))) { hit++; const p = await fs.doc('priv/' + d.id).get(); let au = null; try { au = await admin.auth().getUser(d.id) } catch (e) { au = e.code } console.log('   profil correspondant : mem=' + x.mem, '| rôle=' + x.role, '| créé il y a', Math.round((Date.now() - (x.since || 0)) / 3600e3), 'h | champs :', Object.keys(x).sort().join(','), '| fiche privée :', p.exists, '| compte :', typeof au === 'string' ? au : (au.providerData.length ? 'avec e-mail' : 'anonyme') + ', désactivé=' + au.disabled); } }
+      console.log('profils :', ar.size, '| correspondant au prénom :', hit, '| en attente :', ar.docs.filter(d => d.data().mem === 'att').length);
+    } catch (e) { console.log('profils illisibles', e.code || e.message); }
+  }
   // 2. inscription réelle depuis le site
   const b = await chromium.launch(); const pg = await (await b.newContext({ locale: 'fr-FR', viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, serviceWorkers: 'block' })).newPage();
   const logs = []; pg.on('console', m => { if (/error|warn/.test(m.type())) logs.push(m.text().slice(0, 300)); }); pg.on('pageerror', e => logs.push('PAGE ' + String(e).slice(0, 300)));
