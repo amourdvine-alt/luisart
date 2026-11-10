@@ -1,12 +1,278 @@
 {
- "updated": "2026-11-09T16:11:18.068Z",
+ "updated": "2026-11-10T06:03:07.528Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 503
+  "read": 504
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_37przz",
+   "cat": "Art mondial",
+   "title": "Paris Photo fête le bicentenaire de la photographie avec plus de 240 exposants réunis au Grand Palais pendant 4 jours",
+   "sub": "Connaissance des Arts",
+   "text": "Paris Photo 2026 célèbre les 200 ans de la photographie au Grand Palais du 12 au 15 novembre : 246 exposants et les femmes photographes à l'honneur. Cet article Paris Photo fête le bicentenaire de la photographie avec plus de 240 exposants réunis au Grand Palais pendant 4 jours est apparu en premier sur Connaissance des Arts .",
+   "date": "À partir du 15 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-15",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/photographie/paris-photo-fete-le-bicentenaire-de-la-photographie-avec-plus-de-240-exposants-reunis-au-grand-palais-pendant-4-jours-11218277/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_paris_photo_2-tt-width-653-height-857-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794290424000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_15icu77",
+   "cat": "Expositions majeures",
+   "title": "Que faire à Paris ce 11 novembre ? Quels sont les musées qui ouvrent leurs portes ?",
+   "sub": "Beaux Arts Magazine",
+   "text": "Souriez, c’est férié ! On en profite pour aller au musée, car nombreux sont ceux …",
+   "date": "À partir du 11 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-11",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/que-faire-a-paris-ce-11-novembre-quels-sont-les-rares-musees-qui-ouvrent-leurs-portes/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2025/10/weblouvre_fondation_cartier-_boegly-026-v7-1300x975.jpg",
+   "ts": 1794288636000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_7hdmh8",
+   "cat": "Art mondial",
+   "title": "Mona Chalabi Paints a Picture of Class Inequality",
+   "sub": "Hyperallergic",
+   "text": "“The crisis is the system that we’re in,” the Pulitzer Prize-winning data journalist and artist says in an interview with Hyperallegic about her first book, “Ten Lives.”",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/mona-chalabi-paints-a-picture-of-class-inequality/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/_Mona_Selects_010--1-.jpg",
+   "ts": 1794265353000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_zpr0bi",
+   "cat": "Art mondial",
+   "title": "Getty Pitches In on First-Ever Conservation of an Earthquake-Damaged 17th-Century Church in the Andean Highlands of Peru",
+   "sub": "ARTnews",
+   "text": "The Church of Rondocan has suffered earthquake damage, and its structure and art collections are at risk.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/getty-conservation-earthquake-damaged-church-peru-1234805336/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Church-of-Santo-Tomas-de-Aquino-Getty-3.jpg?w=400",
+   "ts": 1794260573000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_jmvu7n",
+   "cat": "Expositions majeures",
+   "title": "Clouds Were Once Photography’s Greatest Challenge",
+   "sub": "Hyperallergic",
+   "text": "The Met Museum’s “Chasing Clouds” is a pleasing romp through the technical problem of capturing clouds at photography’s beginning.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/clouds-were-once-photographys-greatest-challenge/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Cels_Cloud-Study-in-the-Late-Afternoon--October-1840.jpg",
+   "ts": 1794259132000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_19enjul",
+   "cat": "Art mondial",
+   "title": "Is Sexy Art Back, or Is It Just Me?",
+   "sub": "Hyperallergic",
+   "text": "From Willem de Kooning’s miserable nudes to Alexandra Barth’s hot and bothered architecture, sex is in the air in Chicago.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/is-sexy-art-back-or-is-it-just-me/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/SlowDance-MelanieMcLain2.png",
+   "ts": 1794255546000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1jn9mgf",
+   "cat": "Art mondial",
+   "title": "The Zen Mona Lisa",
+   "sub": "Hyperallergic",
+   "text": "A review of an ancient Chinese ink painting takes an art critic on a journey through his own past.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-zen-mona-lisa/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_8232.jpg",
+   "ts": 1794255140000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_vkxz2z",
+   "cat": "Art mondial",
+   "title": "Wexner Center for the Arts to Keep Name Despite Founder’s Epstein Ties",
+   "sub": "Hyperallergic",
+   "text": "Hundreds had urged Ohio State University to remove Les Wexner's name from campus buildings over his connections to Jeffrey Epstein.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/wexner-center-for-the-arts-to-keep-name-despite-founders-epstein-ties/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/wex.jpg",
+   "ts": 1794254223000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_11chxye",
+   "cat": "Expositions majeures",
+   "title": "Former Philadelphia Museum CFO Claims Severance Was Withheld as ‘Retaliation’",
+   "sub": "ARTnews",
+   "text": "In response, the museum claimed she wiped a cellphone containing records potentially relevant to Sasha Suda’s wrongful termination lawsuit.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/philadelphia-museum-cfo-lawsuit-severance-1234805288/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/01/GettyImages-461436167.jpg?w=1024",
+   "ts": 1794252492000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_rlvg7c",
+   "cat": "Art mondial",
+   "title": "Arpita Singh, Indian Painter Who Merged Fantasy and Gritty Realism, Dies at 89",
+   "sub": "ARTnews",
+   "text": "An acclaimed 2025 survey in London made her an international star.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/arpita-singh-painter-dead-1234805112/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/High-res_Arpita-Singh-Devi-Pistol-Wali-1990.-c-Museum-of-Art-Photography-Bengaluru-India.jpg?w=400",
+   "ts": 1794246181000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_i5hxor",
+   "cat": "Art mondial",
+   "title": "Rare Jan van Huysum Pendant Paintings Head to Christie’s for $10.7 M.",
+   "sub": "ARTnews",
+   "text": "In June, Christie’s sold Jan van Huysum’s Peaches and grapes in a wicker basket for $8.65 million.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/jan-van-huysums-paintings-christies-sale-1234805129/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Christies_-_Jan_van_Huysum_-_image_1_of_2.jpg?w=400",
+   "ts": 1794245659000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_g5zs58",
+   "cat": "Art mondial",
+   "title": "Estimé jusqu’à 5 millions de livres, un paysage oublié d’un maître de la Renaissance réapparaît après 70 ans : « l’une des découvertes les…",
+   "sub": "Connaissance des Arts",
+   "text": "Resté dans une collection privée suisse pendant 70 ans, un rare paysage d’Albrecht Altdorfer, figure majeure de la Renaissance allemande, sera mis en vente chez Sotheby’s à Londres le 9 décembre. Son estimation atteint 3 à 5 millions de livres sterling. Cet article Estimé jusqu’à 5 millions de livres, un paysage oublié d’un maître de la Renaissance réapparaît après 70 ans : « l’une des découvertes les plus…",
+   "date": "À partir du 9 décembre 2026",
+   "deadline": "",
+   "start": "2026-12-09",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estime-jusqua-5-millions-de-livres-un-paysage-oublie-dun-maitre-de-la-renaissance-reapparait-apres-70-ans-lune-des-decouvertes-les-plus-passionnantes-11218304/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_vente_encheres_paysage_altdorfer_1-tt-width-653-height-776-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794245434000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_wjyr7z",
+   "cat": "Expositions majeures",
+   "title": "The World’s Best Biennial Is in St. Louis",
+   "sub": "ARTnews",
+   "text": "In St. Louis, new commissions blur the line between art and infrastructure.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-in-america/aia-reviews/counterpublic-st-louis-triennial-tony-cokes-ryan-trecartin-glenn-ligon-1234804769/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Alice-Bucknell_Izaiah-Johnson_6.jpg?w=400",
+   "ts": 1794243769000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_18wq0kv",
+   "cat": "Art mondial",
+   "title": "Andy Warhol's Habibi Phase in Kuwait",
+   "sub": "Hyperallergic",
+   "text": "Raed Yassin's exhibition “Warhol of Arabia” reimagines the pop artist's 1977 visit to the Gulf country and a bygone era in the Middle East.",
+   "date": "Publié le 9 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/andy-warhols-habibi-phase-in-kuwait/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/warhol_kuwait.jpg",
+   "ts": 1794241963000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_1wmpk3z",
    "cat": "Appels à candidatures",
@@ -24,7 +290,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": 9
+   "_score": 8.9
   },
   {
    "id": "auto_1j7x388",
@@ -43,7 +309,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/web518-lesmusiciens-p94-95.jpg",
    "ts": 1794237757000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_qzkjv6",
@@ -62,7 +328,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_bourdelle_etoffe_artiste_1-tt-width-653-height-501-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794236284000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_1qg26ma",
@@ -81,26 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/webcouv_photomaton-2-1300x975.jpg",
    "ts": 1794235992000,
    "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_1xmv8xa",
-   "cat": "Expositions majeures",
-   "title": "Chicago Crowds Try and Fail to Move Anish Kapoor’s Bean, Art Lawyer Michael Ward Stout Has Died, Louvre President Says Mona Lisa’s Move Will…",
-   "sub": "ARTnews",
-   "text": "Here's what we're reading this morning.",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/chicago-crowds-try-and-fail-to-move-anish-kapoors-bean-1234805106/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2025/06/GettyImages-2156728239.jpg?w=1024",
-   "ts": 1794234000000,
-   "auto": 1,
-   "_score": 5
+   "_score": 5.3
   },
   {
    "id": "auto_185qcij",
@@ -119,7 +366,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/palomo-11-1300x866.jpeg",
    "ts": 1794229227000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_7izfxi",
@@ -138,7 +385,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_1021.jpg",
    "ts": 1794222000000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1pn6kvs",
@@ -157,7 +404,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2301275766.jpg?w=1024",
    "ts": 1794220200000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 3.4
   },
   {
    "id": "auto_1uvkiai",
@@ -176,26 +423,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/10/unebrodbeckdebarbuat-ls55-01333-1300x975.jpg",
    "ts": 1794214819000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1wjckxu",
-   "cat": "Art mondial",
-   "title": "Séraphine Louis en 2 minutes",
-   "sub": "Beaux Arts Magazine",
-   "text": "Pionnière de l’art naïf, Séraphine Louis, dite “de Senlis” (1864-1942), a signé des œuvres exubérantes …",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/encyclo/seraphine-louis-en-2-minutes/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2019/12/169576-2-854x1300.jpg",
-   "ts": 1794204044000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_16z1lvz",
@@ -214,7 +442,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_bauchet-bulhal_3-tt-width-653-height-419-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794204022000,
    "auto": 1,
-   "_score": 8.4
+   "_score": 8.2
   },
   {
    "id": "auto_vlqvi4",
@@ -233,7 +461,7 @@
    "img": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/02/01161949/Sanwo-Olu-67.jpg",
    "ts": 1794169152000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.6
   },
   {
    "id": "auto_1h9owko",
@@ -252,45 +480,7 @@
    "img": "",
    "ts": 1794163680000,
    "auto": 1,
-   "_score": 7.8
-  },
-  {
-   "id": "auto_1a3shuv",
-   "cat": "Art mondial",
-   "title": "De Toronto à Québec en train : 5 étapes pour découvrir l’art canadien",
-   "sub": "Beaux Arts Magazine",
-   "text": "Cinq villes, un même itinéraire. De Toronto à Québec, en passant par Kingston, Ottawa et …",
-   "date": "Publié le 8 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/de-toronto-a-quebec-en-train-5-etapes-pour-decouvrir-lart-canadien/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/espace-riopelle-01-1300x975.jpg",
-   "ts": 1794142851000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1acy7sc",
-   "cat": "Art mondial",
-   "title": "Irving Penn, Stan Douglas, Susan Meiselas… 10 expos photo qui nous font flasher cet automne à Paris",
-   "sub": "Beaux Arts Magazine",
-   "text": "Le bicentenaire de la photographie donne le ton de l’agenda culturel de cet automne dans …",
-   "date": "Publié le 8 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/irving-penn-stan-douglas-susan-meiselas-10-expos-photo-qui-nous-font-flasher-cet-automne-a-paris/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unerpv20230901t008-1300x975.jpg",
-   "ts": 1794117648000,
-   "auto": 1,
-   "_score": 5.1
+   "_score": 7.6
   },
   {
    "id": "auto_1qvhlk",
@@ -309,7 +499,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_fayet_vg-tt-width-653-height-728-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794117604000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1c6mlwy",
@@ -328,26 +518,7 @@
    "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
    "ts": 1794101497000,
    "auto": 1,
-   "_score": 7.6
-  },
-  {
-   "id": "auto_673tl1",
-   "cat": "Art mondial",
-   "title": "Archéologie : « Une découverte exceptionnelle » en Bavière, la riche tombe d’une femme celte révèle une surprenante offrande funéraire",
-   "sub": "Connaissance des Arts",
-   "text": "Lors de fouilles préventives menées à Senden en Allemagne, des archéologues ont découvert une tombe de l’âge du Fer vieille de 2300 ans. Cette sépulture remarquable renfermait la dépouille d’une femme celte, parée de précieux bijoux en bronze et accompagnée d’une étonnante offrande alimentaire. Cet article Archéologie : « Une découverte exceptionnelle » en Bavière, la riche tombe d’une femme celte révèle une…",
-   "date": "Publié le 7 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/archeologie/archeologie-une-decouverte-exceptionnelle-en-baviere-la-riche-tombe-dune-femme-celte-revele-une-surprenante-offrande-funeraire-11218229/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_femme-celte_2-tt-width-653-height-280-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794073010000,
-   "auto": 1,
-   "_score": 5
+   "_score": 7.5
   },
   {
    "id": "auto_lgtt95",
@@ -366,26 +537,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/Gary-Tyler-Rebirth-GRAM-Installation-2.jpg?w=400",
    "ts": 1794058800000,
    "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_kzwahs",
-   "cat": "Art mondial",
-   "title": "How Going Blind Made Doris Salcedo’s Art Bigger and Better",
-   "sub": "ARTnews",
-   "text": "The Colombian artist spent three years crafting a monumental structure out of human hair for her new show at White Cube in New York.",
-   "date": "Publié le 7 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/artists/doris-salcedo-blind-white-cube-house-hair-1234804779/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/DS_Retratos_2026__DSF13321.jpg?w=400",
-   "ts": 1794045600000,
-   "auto": 1,
-   "_score": 4.9
+   "_score": 3.5
   },
   {
    "id": "auto_f6b6pw",
@@ -403,101 +555,6 @@
    "src": "Connaissance des Arts",
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_restitution_femme_en_bleu_dos_tableau-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794042055000,
-   "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_1ovbcju",
-   "cat": "Art mondial",
-   "title": "« Un maelström de modernité artistique et intellectuelle » : le Petit Palais fait revivre le Bruxelles des avant-gardes, de Ensor à…",
-   "sub": "Connaissance des Arts",
-   "text": "L’exposition du Petit Palais révèle comment, au basculement dans le XXe siècle, la capitale de la jeune Belgique est devenue un berceau d’effervescence artistique, entre traditions et Art nouveau. Cet article « Un maelström de modernité artistique et intellectuelle » : le Petit Palais fait revivre le Bruxelles des avant-gardes, de Ensor à Spilliaert est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 7 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/un-maelstrom-de-modernite-artistique-et-intellectuelle-le-petit-palais-fait-revivre-le-bruxelles-des-avant-gardes-de-ensor-a-spilliaert-11217961/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdanov26_bxl-1900_salon-tt-width-653-height-1075-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794031220000,
-   "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_1deu10z",
-   "cat": "Art mondial",
-   "title": "Ces 10 calendriers de l’Avent artistiques et créatifs qui nous donnent envie d’attendre Noël",
-   "sub": "Beaux Arts Magazine",
-   "text": "Signés par des illustrateurs confirmés, soufflés par des maîtres verriers, pittoresques comme des villages provençaux …",
-   "date": "Publié le 7 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/ces-10-calendriers-de-lavent-artistiques-et-creatifs-qui-nous-donnent-envie-dattendre-noel/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/uneca_noel26_orsay-musee-lifestyle1-paysage-1300x975.jpg",
-   "ts": 1794031208000,
-   "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_48iu98",
-   "cat": "Art mondial",
-   "title": "A New Hudson Valley Art Space Promises to Be As Accessible as It Is In Flux",
-   "sub": "ARTnews",
-   "text": "Branchline in Katonah, New York, opens November 6 with an exhibition 'Line Break' of Indigenous artists.",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-06",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/branchline-gochman-family-collection-opening-1234805014/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/BRANCHLINE_EXHIBITION_00480.jpg?w=400",
-   "ts": 1794006974000,
-   "auto": 1,
-   "_score": 4.8
-  },
-  {
-   "id": "auto_1yp8v3z",
-   "cat": "Art mondial",
-   "title": "The Jewish Sisters in Renoir’s “Pink and Blue”",
-   "sub": "Hyperallergic",
-   "text": "Author Catherine Ostler follows the lives of the two cherubic girls, whose rarefied lives in an elite, artistic French family would be toppled by the horrors of the Holocaust.",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/the-jewish-sisters-in-renoirs-pink-and-blue/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Pink-and-Blue_History-and-Art-Collection_Alamy-2.jpg",
-   "ts": 1794002450000,
-   "auto": 1,
-   "_score": 4.8
-  },
-  {
-   "id": "auto_11tn7ps",
-   "cat": "Art mondial",
-   "title": "Pablo Helguera to Helm the New School’s Vera List Center",
-   "sub": "Hyperallergic",
-   "text": "Upon his appointment, the artist reflected on the urgency he feels to “make sense of rapidly unfolding events, question prevailing narratives, and imagine alternative futures.”",
-   "date": "Publié le 6 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/pablo-helguera-to-helm-the-new-schools-vera-list-center/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/DSC00245.jpg",
-   "ts": 1794000733000,
    "auto": 1,
    "_score": 4.8
   },
@@ -518,7 +575,7 @@
    "img": "https://senego.com/wp-content/uploads/2026/11/oh-gallary-oh.jpg",
    "ts": 1793994518000,
    "auto": 1,
-   "_score": 7.3
+   "_score": 5.8
   },
   {
    "id": "auto_1994k26",
@@ -537,7 +594,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/whitney2028biennial0818-copy-1.jpeg",
    "ts": 1793993079000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.6
   },
   {
    "id": "auto_17io61j",
@@ -556,7 +613,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793980828000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 4.6
   },
   {
    "id": "auto_wlshmv",
@@ -575,7 +632,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 8.2
+   "_score": 8.1
   },
   {
    "id": "auto_2rel6n",
@@ -594,7 +651,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/metgala.jpg",
    "ts": 1793962800000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 3.2
   },
   {
    "id": "auto_197lukq",
@@ -613,7 +670,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_planque-entretien_2-tt-width-653-height-905-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1793944824000,
    "auto": 1,
-   "_score": 4.6
+   "_score": 3.1
   },
   {
    "id": "auto_vhk3rj",
@@ -632,7 +689,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/8-1.jpg",
    "ts": 1793909940000,
    "auto": 1,
-   "_score": 4.5
+   "_score": 3
   },
   {
    "id": "auto_1tl2zd7",
@@ -651,26 +708,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/BRANCUSI_PRESS_006-1600x2000-1-1.jpeg",
    "ts": 1793893500000,
    "auto": 1,
-   "_score": 4.5
-  },
-  {
-   "id": "auto_h69j9",
-   "cat": "Expositions majeures",
-   "title": "Shape Your Artistic Future at UC Davis: The Maria Manetti Shrem Art Studio MFA Program",
-   "sub": "Hyperallergic",
-   "text": "Generously funded, renowned faculty and visiting artists, spacious studios, and an exhibition at the Manetti Shrem Museum of Art.",
-   "date": "Publié le 5 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/shape-your-artistic-future-at-uc-davis-the-maria-manetti-shrem-art-studio-mfa-program/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/FINAL-TaraDaly2026-2400px.jpg",
-   "ts": 1793892300000,
-   "auto": 1,
-   "_score": 3.1
+   "_score": 3
   },
   {
    "id": "auto_8cffwa",
@@ -689,7 +727,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": -0.5
+   "_score": -2
   },
   {
    "id": "auto_d2qklt",
@@ -708,7 +746,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -6.3
+   "_score": -7.8
   },
   {
    "id": "auto_clenpc",
@@ -727,26 +765,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -8.8
-  },
-  {
-   "id": "auto_1mvr1sq",
-   "cat": "Appels à candidatures",
-   "title": "Residency Open Call for Artists Based in Brazil - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Residency Open Call for Artists Based in Brazil fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 3 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www2.fundsforngos.org/individuals/residency-open-call-for-artists-based-in-brazil/",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1793692800000,
-   "auto": 1,
-   "_score": 3.3
+   "_score": -10.3
   },
   {
    "id": "auto_1q1lpb8",
@@ -765,7 +784,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -16.6
+   "_score": -18.1
   },
   {
    "id": "auto_19xs21b",
@@ -784,7 +803,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -14.8
+   "_score": -16.3
   },
   {
    "id": "auto_189elnp",
@@ -803,7 +822,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793552256000,
    "auto": 1,
-   "_score": 6
+   "_score": 5.9
   },
   {
    "id": "auto_lwnbzz",
@@ -822,7 +841,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -10.6
+   "_score": -12.1
   },
   {
    "id": "auto_yn4tnc",
@@ -841,7 +860,7 @@
    "img": "",
    "ts": 1793343600000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_5rdh82",
@@ -860,7 +879,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -19
+   "_score": -20.5
   },
   {
    "id": "auto_jzywik",
@@ -879,7 +898,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
    "ts": 1793257200000,
    "auto": 1,
-   "_score": 6.2
+   "_score": 6
   },
   {
    "id": "auto_1370snd",
@@ -898,7 +917,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -19.3
+   "_score": -20.8
   },
   {
    "id": "auto_dptbgl",
@@ -917,7 +936,7 @@
    "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
    "ts": 1793008940000,
    "auto": 1,
-   "_score": -19.8
+   "_score": -21.3
   },
   {
    "id": "auto_1yyc40p",
@@ -936,7 +955,7 @@
    "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.2
+   "_score": 4
   },
   {
    "id": "auto_1ljysmw",
@@ -955,7 +974,7 @@
    "img": "",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 4.2
+   "_score": 4
   },
   {
    "id": "auto_row3aj",
@@ -974,7 +993,7 @@
    "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 11.7
+   "_score": 11.5
   },
   {
    "id": "auto_brxur5",
@@ -993,45 +1012,7 @@
    "img": "",
    "ts": 1792566000000,
    "auto": 1,
-   "_score": -21.1
-  },
-  {
-   "id": "auto_1x0gubd",
-   "cat": "Expositions majeures",
-   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art",
-   "sub": "Middle East Online",
-   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art Middle East Online",
-   "date": "Publié le 19 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://middle-east-online.com/en/erruas-bouhchichi-take-part-dakar-biennale-contemporary-african-art",
-   "src": "Middle East Online",
-   "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
-   "ts": 1792393200000,
-   "auto": 1,
-   "_score": 3
-  },
-  {
-   "id": "auto_6e41j6",
-   "cat": "Nouveautés",
-   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
-   "sub": "Africa News Agency",
-   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
-   "date": "Publié le 17 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://africa-news-agency.com/contemporary-art-in-london-african-modernism-reclaims-its-place-in-art-history/",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792226088000,
-   "auto": 1,
-   "_score": 3
+   "_score": -22.6
   },
   {
    "id": "auto_qehbx7",
@@ -1050,7 +1031,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -36.2
+   "_score": -37.7
   },
   {
    "id": "auto_brpy0l",
@@ -1069,7 +1050,7 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": -26.7
+   "_score": -28.2
   },
   {
    "id": "auto_d3k04k",
@@ -1088,7 +1069,26 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -14.5
+   "_score": -16
+  },
+  {
+   "id": "auto_1nd0yc1",
+   "cat": "Appels à candidatures",
+   "title": "CFAs: Residency Open Call for Lebanese Artists based in Lebanon - fundsforNGOs",
+   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
+   "text": "CFAs: Residency Open Call for Lebanese Artists based in Lebanon fundsforNGOs - Grants and Resources for Sustainability",
+   "date": "Publié le 6 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www2.fundsforngos.org/individuals/cfas-residency-open-call-for-lebanese-artists-based-in-lebanon/",
+   "src": "fundsforNGOs - Grants and Resources for Sustainability",
+   "img": "",
+   "ts": 1791270000000,
+   "auto": 1,
+   "_score": 4
   },
   {
    "id": "auto_eyy2sp",
@@ -1107,7 +1107,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -5
+   "_score": -6.5
   },
   {
    "id": "auto_1538qsn",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": -2
+   "_score": -3.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -18.5
+   "_score": -20
   }
  ]
 }
