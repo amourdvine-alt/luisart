@@ -1,12 +1,240 @@
 {
- "updated": "2026-11-11T06:11:00.562Z",
+ "updated": "2026-11-11T15:58:40.356Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 509
+  "read": 516
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1vbvqny",
+   "cat": "Expositions majeures",
+   "title": "Art Week NYC Kicks off at Metropolitan Museum of Art with New York Pols and Art Leaders",
+   "sub": "ARTnews",
+   "text": "New York politicians touted their generous investments in the arts.",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/art-week-nyc-kicks-off-metropolitan-museum-art-1234805478/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/art-week-breakfast-metropolitan-museum-2-1.jpeg?w=400",
+   "ts": 1794411534000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_52sp3u",
+   "cat": "Art mondial",
+   "title": "Art Problems: Should I Get an MFA?",
+   "sub": "Hyperallergic",
+   "text": "Paddy Johnson breaks down the factors to consider when applying for your master’s, from loans and salaries to professional development.",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/art-problems-should-i-get-an-mfa/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/meme-2-copy.jpeg",
+   "ts": 1794410700000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_wyskd6",
+   "cat": "Expositions majeures",
+   "title": "Contemporary Beadworker Ken Williams Jr Awarded Rakow Commission by Corning Museum of Glass",
+   "sub": "Hyperallergic",
+   "text": "Marking the prize’s 40th year, \"I Am the Hungry Cat\" is the first Rakow Commission awarded for beadwork.",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/contemporary-beadworker-ken-williams-jr-awarded-rakow-commission-by-corning-museum-of-glass/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/I-Am-the-Hungry-Cat_Ken-Williams-Jr.jpg",
+   "ts": 1794410100000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_d8pnel",
+   "cat": "Expositions majeures",
+   "title": "Art Basel Offers 20 Percent Reduction on Exhibitor Booth Fees Due to Early Closure of Paris Fair, Tracey Emin’s New Arts and Community Space…",
+   "sub": "ARTnews",
+   "text": "Here's what we're reading this morning.",
+   "date": "À partir du 11 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-11",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/art-basel-paris-offers-20-percent-reduction-fees-1234805542/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Art-Basel-Paris-2025_Courtesy-of-Art-Basel_1.jpg?w=1024",
+   "ts": 1794408300000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_1pnsdqa",
+   "cat": "Expositions majeures",
+   "title": "Art Basel to Reduce Galleries’ Invoices by 20 Percent Due to Early Closure of Paris Fair",
+   "sub": "ARTnews",
+   "text": "“We felt that a 20 percent reduction was a fair and reasonable place to land,” Art Basel CEO Noah Horowitz told ARTnews.",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/art-basel-to-grant-20-discount-to-exhibitors-in-october-paris-edition-which-closed-early-1234805454/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/10/Print_approx_21_x_14_cm_ABP26__General_impressions__Avant_Premier_HiRes-2.jpg?w=1024",
+   "ts": 1794405900000,
+   "auto": 1,
+   "_score": 5
+  },
+  {
+   "id": "auto_cdssao",
+   "cat": "Événements",
+   "title": "À la rencontre d’un artiste de l’illusion, le peintre en décors Frantz Wehrlé",
+   "sub": "Beaux Arts Magazine",
+   "text": "Il recrée des décors patrimoniaux, transforme des cloisons sans qualité en murs de pierres, de …",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/reportages/a-la-rencontre-dun-artiste-de-lillusion-le-peintre-en-decors-frantz-wehrle/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/une9m2a9352-1300x975.jpg",
+   "ts": 1794398430000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_x7br8e",
+   "cat": "Nouveautés",
+   "title": "Prize dedicated to African women artists expands to Senegal, announces 2026 winners",
+   "sub": "The Art Newspaper",
+   "text": "Prize dedicated to African women artists expands to Senegal, announces 2026 winners The Art Newspaper",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.theartnewspaper.com/2026/11/11/prize-dedicated-to-african-women-artists-expands-to-senegal-announces-2026-winners",
+   "src": "The Art Newspaper",
+   "img": "https://cdn.sanity.io/images/cxgd3urn/production/0e446b3e940485a30025e8d1e7693475166c86b5-3500x2625.jpg?rect=0,263,3500,2100&w=1200&h=720&q=85&fit=crop&auto=format",
+   "ts": 1794395515000,
+   "auto": 1,
+   "_score": 8
+  },
+  {
+   "id": "auto_6wu0pp",
+   "cat": "Art mondial",
+   "title": "A New Home for Native Art in New York",
+   "sub": "Hyperallergic",
+   "text": "Inside the Gochman Family Collection’s Katonah space, artist Miles Greenberg takes us behind the scenes of his latest performance, and celebrating 10 years of Mrs. gallery.",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/a-new-home-for-native-art-in-new-york/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/branchline.png",
+   "ts": 1794394800000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_lqwhiw",
+   "cat": "Appels à candidatures",
+   "title": "Sea Point Promenade art initiative opens call for 20 local artists",
+   "sub": "Bizcommunity",
+   "text": "Sea Point Promenade art initiative opens call for 20 local artists Bizcommunity",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.bizcommunity.com/article/sea-point-promenade-art-initiative-opens-call-for-20-local-artists-306998a",
+   "src": "Bizcommunity",
+   "img": "https://biz-file.com/c/2611/827522-1200x624.jpg?5",
+   "ts": 1794394047000,
+   "auto": 1,
+   "_score": 8.9
+  },
+  {
+   "id": "auto_bn69b9",
+   "cat": "Art mondial",
+   "title": "RM’s SFMOMA Show Changed My Mind About Celebrity Curators",
+   "sub": "ARTnews",
+   "text": "When fame becomes the main draw, what happens to the art?",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/reviews/rm-sfmoma-review-1234805463/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/11_RM-x-SFMOMA-Installation-View_55.jpg?w=400",
+   "ts": 1794391200000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_eofum9",
+   "cat": "Expositions majeures",
+   "title": "800 dessins longtemps oubliés : le musée des beaux-arts d’orléans révèle les coulisses de l’expédition d’Égypte de Bonaparte",
+   "sub": "Connaissance des Arts",
+   "text": "Heureux propriétaire des œuvres préparatoires du plafond du Louvre intitulé L’Expédition d’Égypte sous les ordres de Bonaparte par Léon Cogniet (1835), le musée des Beaux-Arts d’Orléans s’est trouvé tout désigné pour accueillir la présentation des dessins des artistes partis sur les bords du Nil en 1798. Cet article 800 dessins longtemps oubliés : le musée des beaux-arts d’orléans révèle les coulisses de l’expédition…",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/dessin/800-dessins-longtemps-oublies-le-musee-des-beaux-arts-dorleans-revele-les-coulisses-de-lexpedition-degypte-de-bonaparte-11218290/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_egypte_orleans_1-tt-width-653-height-416-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794384045000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1misld4",
+   "cat": "Art mondial",
+   "title": "L’art comme levier d’émancipation : depuis 15 ans, Rubis Mécénat s’engage auprès de la création contemporaine",
+   "sub": "Beaux Arts Magazine",
+   "text": "Soutenir la jeune création, donner aux artistes les moyens de leurs ambitions, favoriser l’émancipation par …",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/lart-comme-levier-demancipation-depuis-15-ans-rubis-mecenat-sengage-aupres-de-la-creation-contemporaine/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/carte-blanche-a-remi-marcel-beaux-arts-de-paris-courtesy-rubis-mecenat-eglise-saint-eustache-2026.-photo-x3a-instant-productions11-1300x1029.jpeg",
+   "ts": 1794384039000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_168wci2",
    "cat": "Art mondial",
@@ -24,7 +252,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_restauration-xxe-siecle_perret-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794376843000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_8atkzm",
@@ -43,7 +271,26 @@
    "img": "https://images.ladepeche.fr/api/v1/images/view/6af321cf213d2eeec8059d55/hd/image.jpg?v=1",
    "ts": 1794375420000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.9
+  },
+  {
+   "id": "auto_yp8m06",
+   "cat": "Appels à candidatures",
+   "title": "La Maison des arts Pompidou lance l’appel à candidatures pour La Transalpine 2027",
+   "sub": "ladepeche.fr",
+   "text": "La Maison des arts Pompidou lance l’appel à candidatures pour La Transalpine 2027 ladepeche.fr",
+   "date": "Publié le 11 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.ladepeche.fr/2026/11/11/la-maison-des-arts-pompidou-lance-lappel-a-candidatures-pour-la-transalpine-2027-13646656.php",
+   "src": "ladepeche.fr",
+   "img": "https://assets.ladepeche.fr/img/lazy_standard.jpg?9931565c",
+   "ts": 1794370440000,
+   "auto": 1,
+   "_score": 8.9
   },
   {
    "id": "auto_tyf0mp",
@@ -62,7 +309,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2024/11/GettyImages-2175609364.jpg?w=1024",
    "ts": 1794350494000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_mnadue",
@@ -81,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/20261108_141933.jpg",
    "ts": 1794350125000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1o3emzy",
@@ -100,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Photo-Nov-05-2026--1-42-01-PM-1.jpg",
    "ts": 1794349458000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1fugap5",
@@ -119,7 +366,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_9417.jpeg",
    "ts": 1794347862000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_mvl2vz",
@@ -138,7 +385,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/1_RojoNegro--La-asamblea-del-barro.-Photo-by-Philipp-Scholz-Rittermann.-Courtesy-UC-San-Diego.jpg",
    "ts": 1794347177000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_pha426",
@@ -157,7 +404,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2303888442.jpg?w=1024",
    "ts": 1794343951000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1d7lp1q",
@@ -176,7 +423,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/1991_Target.jpg",
    "ts": 1794343013000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1drwgw8",
@@ -195,7 +442,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/AVZ-Denniston-Hill-6596.jpg?w=400",
    "ts": 1794341449000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1vjzpa7",
@@ -214,7 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_bruxelles_1900_art_nouveau_art_total_-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794333636000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_hcx860",
@@ -233,7 +480,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une08.-limperatrice-eugenie-1300x975.jpg",
    "ts": 1794330052000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_10zdmgw",
@@ -252,7 +499,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/10.-musee-national-eugenedelacroix-karen-knorr-sikanders-entrance-chandra-mahal-jaipur-city-palace-jaipur-2013-serie-india-song--courtesy-galerie-les-filles-du-calvaire-paris-1300x1044.jpg",
    "ts": 1794326442000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1lkwfw4",
@@ -271,7 +518,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_marche-releve_5-tt-width-653-height-436-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794326438000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1m0owcm",
@@ -290,7 +537,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7531.jpg",
    "ts": 1794326400000,
    "auto": 1,
-   "_score": 9.4
+   "_score": 9.3
   },
   {
    "id": "auto_689cj1",
@@ -309,7 +556,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Yale-UP-Hyperallergic-new-book-releases-Fall-2026.jpg",
    "ts": 1794324900000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1vvluqs",
@@ -328,7 +575,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/03_Greenberg--Miles_Portrait-by-Eva-Roefs.jpg",
    "ts": 1794324600000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_cefipj",
@@ -347,45 +594,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2303846494.jpg?w=1024",
    "ts": 1794321681000,
    "auto": 1,
-   "_score": 7.8
-  },
-  {
-   "id": "auto_71wrgq",
-   "cat": "Art mondial",
-   "title": "« Au fait, il y a un Georgia O’Keeffe dans le placard » : estimé jusqu’à 5 millions de dollars, un tableau de la pionnière du modernisme…",
-   "sub": "Connaissance des Arts",
-   "text": "Cachée sous des manteaux pendant des décennies, cette toile de 1930 de Georgia O'Keeffe, « Near Abiquiu, New Mexico I », est estimée entre 3 et 5 millions de dollars. Elle sera proposée chez Christie's le 17 novembre 2026. Cet article « Au fait, il y a un Georgia O’Keeffe dans le placard » : estimé jusqu’à 5 millions de dollars, un tableau de la pionnière du modernisme américain refait surface après 40 ans est apparu…",
-   "date": "Du 17 novembre 2026 au 20 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-17",
-   "end": "2026-11-20",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/au-fait-il-y-a-un-georgia-okeeffe-dans-le-placard-estime-jusqua-5-millions-de-dollars-un-tableau-de-la-pionniere-du-modernisme-americain-refait-surface-apre-11218300/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_christies_okeeffe_box-tt-width-653-height-375-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794312012000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_atjok5",
-   "cat": "Art mondial",
-   "title": "Mona Chalabi on Money and Art",
-   "sub": "Hyperallergic",
-   "text": "An interview with the Pulitzer Prize winner, Lori Waxman on bringing sexy back in Chicago, stolen Picasso prints found, and the problem with clouds.",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/mona-chalabi-on-money-and-art/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/For-export_0000s_0018_Image-8---Cycle-of-Care-copy-1.png",
-   "ts": 1794308400000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 6.3
   },
   {
    "id": "auto_15g7ye8",
@@ -403,44 +612,6 @@
    "src": "Beaux Arts Magazine",
    "img": "https://media.beauxarts.com/uploads/2026/11/unekunstformen-der-natur-1300x975.jpg",
    "ts": 1794301229000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_37przz",
-   "cat": "Art mondial",
-   "title": "Paris Photo fête le bicentenaire de la photographie avec plus de 240 exposants réunis au Grand Palais pendant 4 jours",
-   "sub": "Connaissance des Arts",
-   "text": "Paris Photo 2026 célèbre les 200 ans de la photographie au Grand Palais du 12 au 15 novembre : 246 exposants et les femmes photographes à l'honneur. Cet article Paris Photo fête le bicentenaire de la photographie avec plus de 240 exposants réunis au Grand Palais pendant 4 jours est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 15 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-15",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/photographie/paris-photo-fete-le-bicentenaire-de-la-photographie-avec-plus-de-240-exposants-reunis-au-grand-palais-pendant-4-jours-11218277/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_paris_photo_2-tt-width-653-height-857-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794290424000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_16vd0sc",
-   "cat": "Art mondial",
-   "title": "Quelle place pour la photographie dans le livre jeunesse ? Réponse dans une expo à Moulins",
-   "sub": "Beaux Arts Magazine",
-   "text": "Parmi les très nombreuses expositions célébrant le bicentenaire de la photographie, l’une des plus originales …",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/quelle-place-pour-la-photographie-dans-le-livre-jeunesse-un-exploration-inedite-dans-une-expo-a-moulins/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/webbrigitte-jean-tourane-ides-et-calendes-1-1300x975.jpg",
-   "ts": 1794290423000,
    "auto": 1,
    "_score": 5.2
   },
@@ -461,7 +632,7 @@
    "img": "https://media.beauxarts.com/uploads/2025/10/weblouvre_fondation_cartier-_boegly-026-v7-1300x975.jpg",
    "ts": 1794288636000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_jmvu7n",
@@ -480,7 +651,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Cels_Cloud-Study-in-the-Late-Afternoon--October-1840.jpg",
    "ts": 1794259132000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 3.7
   },
   {
    "id": "auto_1wmpk3z",
@@ -499,7 +670,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": 8.6
+   "_score": 8.5
   },
   {
    "id": "auto_qzkjv6",
@@ -518,64 +689,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_bourdelle_etoffe_artiste_1-tt-width-653-height-501-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794236284000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_1qg26ma",
-   "cat": "Expositions majeures",
-   "title": "Hassan Hajjaj, Eva Besnyő, Doisneau… 8 très beaux livres photo qui illuminent l’automne",
-   "sub": "Beaux Arts Magazine",
-   "text": "Il n’y a pas que dans les musées et les galeries que la photographie est …",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/hassan-hajjaj-eva-besnyo-doisneau-8-tres-beaux-livres-photo-qui-illuminent-lautomne/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/webcouv_photomaton-2-1300x975.jpg",
-   "ts": 1794235992000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_185qcij",
-   "cat": "Expositions majeures",
-   "title": "À Nice, l’image en mouvement à l’honneur de la biennale OVNi",
-   "sub": "Beaux Arts Magazine",
-   "text": "Amateurs d’art vidéo, à vos agendas : pour sa onzième édition, le festival annuel OVNi …",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/a-nice-limage-en-mouvement-a-lhonneur-de-la-biennale-ovni/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/palomo-11-1300x866.jpeg",
-   "ts": 1794229227000,
-   "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_7izfxi",
-   "cat": "Expositions majeures",
-   "title": "The People Against the Arch",
-   "sub": "Hyperallergic",
-   "text": "Protesters in DC roast the Arc de Trump, plus the Whitney Museum announces the next curators of its blockbuster biennial.",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/the-people-against-the-arch/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_1021.jpg",
-   "ts": 1794222000000,
-   "auto": 1,
-   "_score": 3.7
+   "_score": 5
   },
   {
    "id": "auto_16z1lvz",
@@ -594,7 +708,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_bauchet-bulhal_3-tt-width-653-height-419-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794204022000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.9
   },
   {
    "id": "auto_vlqvi4",
@@ -613,7 +727,7 @@
    "img": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/02/01161949/Sanwo-Olu-67.jpg",
    "ts": 1794169152000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_1h9owko",
@@ -632,7 +746,7 @@
    "img": "",
    "ts": 1794163680000,
    "auto": 1,
-   "_score": 6
+   "_score": 4.5
   },
   {
    "id": "auto_1qvhlk",
@@ -651,7 +765,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cdaoct26_fayet_vg-tt-width-653-height-728-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794117604000,
    "auto": 1,
-   "_score": 4.7
+   "_score": 4.6
   },
   {
    "id": "auto_1c6mlwy",
@@ -670,45 +784,7 @@
    "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
    "ts": 1794104692000,
    "auto": 1,
-   "_score": 7.2
-  },
-  {
-   "id": "auto_f6b6pw",
-   "cat": "Expositions majeures",
-   "title": "Spolié par les nazis, un tableau du XVIIe siècle choisi par Goering est restitué aux ayants droit et reviendra bientôt à Tarbes",
-   "sub": "Connaissance des Arts",
-   "text": "Saisi en 1942, exposé au Jeu de Paume puis choisi par Goering, le Portrait de femme en bleu retrouvera bientôt les salles du musée Massey de Tarbes, après sa restitution aux ayants droit de Gabrielle Philippson. Cet article Spolié par les nazis, un tableau du XVIIe siècle choisi par Goering est restitué aux ayants droit et reviendra bientôt à Tarbes est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 7 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/musees/acquisitions/spolie-par-les-nazis-un-tableau-du-xviie-siecle-choisi-par-goering-est-restitue-aux-ayants-droit-et-reviendra-bientot-a-tarbes-11218262/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_restitution_femme_en_bleu_dos_tableau-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794042055000,
-   "auto": 1,
-   "_score": 3.2
-  },
-  {
-   "id": "auto_17io61j",
-   "cat": "Expositions majeures",
-   "title": "« J’ai décidé que je deviendrais soit une gangster, soit une artiste » : à Londres, l’œuvre inclassable d’Ana Mendieta embrase la Tate…",
-   "sub": "Connaissance des Arts",
-   "text": "Jusqu'au 17 janvier 2027, la Tate Modern de Londres consacre une exposition à Ana Mendieta, dont l'œuvre unit le corps à la terre, entre rites et cosmos. Cet article « J’ai décidé que je deviendrais soit une gangster, soit une artiste » : à Londres, l’œuvre inclassable d’Ana Mendieta embrase la Tate Modern est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 17 janvier 2027",
-   "deadline": "",
-   "start": "2027-01-17",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/londres/jai-decide-que-je-deviendrais-soit-une-gangster-soit-une-artiste-a-londres-loeuvre-inclassable-dana-mendieta-embrase-la-tate-modern-11218191/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_ana-mendieta-_3-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1793980828000,
-   "auto": 1,
-   "_score": 3
+   "_score": 7.1
   },
   {
    "id": "auto_wlshmv",
@@ -727,7 +803,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_8cffwa",
@@ -746,7 +822,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": -5
+   "_score": -6.5
   },
   {
    "id": "auto_d2qklt",
@@ -765,7 +841,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -10.8
+   "_score": -12.3
   },
   {
    "id": "auto_clenpc",
@@ -784,7 +860,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -13.3
+   "_score": -14.8
   },
   {
    "id": "auto_1q1lpb8",
@@ -803,7 +879,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -21.1
+   "_score": -22.6
   },
   {
    "id": "auto_19xs21b",
@@ -822,7 +898,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -19.3
+   "_score": -20.8
   },
   {
    "id": "auto_189elnp",
@@ -841,7 +917,7 @@
    "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
    "ts": 1793516400000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_lwnbzz",
@@ -860,7 +936,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -15.1
+   "_score": -16.6
   },
   {
    "id": "auto_yn4tnc",
@@ -879,7 +955,7 @@
    "img": "",
    "ts": 1793343600000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_5rdh82",
@@ -898,7 +974,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -23.5
+   "_score": -25
   },
   {
    "id": "auto_jzywik",
@@ -917,7 +993,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
    "ts": 1793257200000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 5.7
   },
   {
    "id": "auto_1370snd",
@@ -936,64 +1012,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -23.8
-  },
-  {
-   "id": "auto_dptbgl",
-   "cat": "Appels à candidatures",
-   "title": "Moselle : les artistes peuvent candidater à des résidences culturelles pour 2027",
-   "sub": "La Gazette France",
-   "text": "Moselle : les artistes peuvent candidater à des résidences culturelles pour 2027 La Gazette France",
-   "date": "Publié le 26 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.lagazettefrance.fr/article/moselle-les-artistes-peuvent-candidater-a-des-residences-culturelles-pour-2027",
-   "src": "La Gazette France",
-   "img": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/10/adobestock-298117627-6ad8f00c54b09.jpg",
-   "ts": 1793008940000,
-   "auto": 1,
-   "_score": -24.3
-  },
-  {
-   "id": "auto_1yyc40p",
-   "cat": "Nouveautés",
-   "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
-   "sub": "RFI",
-   "text": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer» RFI",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20261024-sitor-senghor-akaa-les-artistes-africains-dans-les-grandes-galeries-occidentales-continuent-%C3%A0-y-%C3%AAtre-et-%C3%A0-prosp%C3%A9rer",
-   "src": "RFI",
-   "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
-   "ts": 1792911600000,
-   "auto": 1,
-   "_score": 3.8
-  },
-  {
-   "id": "auto_1ljysmw",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
-   "sub": "Africa News Agency",
-   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://africa-news-agency.com/akaa-2026-quand-lart-contemporain-africain-reinvente-les-recits-culturels/",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792911600000,
-   "auto": 1,
-   "_score": 3.8
+   "_score": -25.3
   },
   {
    "id": "auto_row3aj",
@@ -1012,26 +1031,7 @@
    "img": "https://s.rfi.fr/media/display/7a424afc-ced0-11f1-aab0-4b25c96ec90e/w:1280/p:16x9/Keita1-DSCF4583.jpg",
    "ts": 1792738800000,
    "auto": 1,
-   "_score": 11.3
-  },
-  {
-   "id": "auto_brxur5",
-   "cat": "Appels à candidatures",
-   "title": "Open Call for Residency Jatiwangi Art Factory 2027 - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Open Call for Residency Jatiwangi Art Factory 2027 fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 21 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www2.fundsforngos.org/individuals/open-call-for-residency-jatiwangi-art-factory-2027/",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1792566000000,
-   "auto": 1,
-   "_score": -25.6
+   "_score": 11.2
   },
   {
    "id": "auto_qehbx7",
@@ -1050,7 +1050,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -40.7
+   "_score": -42.2
   },
   {
    "id": "auto_d3k04k",
@@ -1069,7 +1069,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -19
+   "_score": -20.5
   },
   {
    "id": "auto_1nd0yc1",
@@ -1088,7 +1088,7 @@
    "img": "",
    "ts": 1791270000000,
    "auto": 1,
-   "_score": 2.5
+   "_score": 1
   },
   {
    "id": "auto_eyy2sp",
@@ -1107,7 +1107,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -9.5
+   "_score": -11
   },
   {
    "id": "auto_1538qsn",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": -6.5
+   "_score": -8
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -23
+   "_score": -24.5
   }
  ]
 }
