@@ -21,13 +21,13 @@ const attr = (x, n, a) => { const m = x.match(new RegExp(`<${n}\\b[^>]*\\b${a}=[
 const feed = xml => (xml.match(/<item\b[\s\S]*?<\/item>/gi) || xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || []).map(b => ({
   t: strip(tag(b, 'title')), url: (strip(tag(b, 'link')) || attr(b, 'link', 'href')).trim(), d: strip(tag(b, 'description') || tag(b, 'summary')), ts: Date.parse(strip(tag(b, 'pubDate') || tag(b, 'published') || tag(b, 'updated'))) || 0 }));
 
-const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-const ART = /(^|[^a-z])(art|arts|artiste|artist|peinture|painting|dessin|drawing|sculpture|aquarelle|watercolor|acrylique|huile|oil paint|gravure|printmaking|ceramique|ceramics|photograph|photo|illustration|design graphique|graphic design|esthetique|aesthetics|museum|musee|couleur|color theory|portrait|croquis|sketch|calligraph|batik|tissage|bronze|modelage|curat|commissariat)/;
+const norm = s => String(s || '').toLowerCase().replace(/[’‘`]/g, "'").normalize('NFD').replace(/[̀-ͯ]/g, '');
+const ART = /(^|[^a-z])((art|arts|dessin|huile|photo|couleur|portrait|croquis|bronze|musee|museum)(?![a-z])|artist|peint|paint|drawing|sculpt|aquarelle|watercolor|acrylique|gravure|printmaking|ceramiq|ceramic|photograph|illustration|design graphique|graphic design|esthetique|aesthetic|color theory|sketch|calligraph|batik|tissage|modelage|curat|commissariat|bande dessinee|bandes dessinees)/;
 const COURS = /(cours|course|formation|mooc|masterclass|atelier|workshop|tutoriel|tutorial|apprendre|learn|initiation|stage|classe|lesson|lecon|certificat|diplome|ecole)/;
-const JUNK = /(martial|state of the art|art of war|intelligence artificielle|artificial intelligence|machine learning|crypto|football|cuisine|recette|marketing|blockchain|nft trading)/;
+const JUNK = /(artificiel|automotive|auto design|ventilation|publier en ligne|k–6|k-6|k–12|k-12|martial|state of the art|art of war|intelligence artificielle|artificial intelligence|machine learning|crypto|football|cuisine|recette|marketing|blockchain|nft trading)/;
 const cat = x => { const s = norm(x.t + ' ' + x.d);
   if (/abidjan|cote d'ivoire|ivoirien|bingerville|bassam/.test(s)) return 'En Côte d’Ivoire';
-  if (/histoire de l'art|art history|renaissance|moderne|modern art|contemporain|contemporary|museum|musee|antiquite|ancient|african art|art africain/.test(s)) return 'Histoire de l’art';
+  if (/histoire de l'art|histoires d'art|art history|pop art|street art|art urbain|elles font l'art|louvre|beaubourg|moma|renaissance|moderne|modern art|contemporain|contemporary|museum|musee|antiquite|ancient|african art|art africain/.test(s)) return 'Histoire de l’art';
   if (/philosoph|esthetique|aesthetic|theorie|theory|critique|semiolog/.test(s)) return 'Philosophie et théorie';
   if (/photo/.test(s)) return 'Photographie';
   if (/peinture|painting|dessin|drawing|aquarelle|watercolor|acrylique|huile|sculpt|gravure|ceramiq|croquis|sketch|portrait|couleur|color|illustration|modelage/.test(s)) return 'Techniques et pratique';
@@ -40,17 +40,12 @@ const add = (src, lang, l, opt = {}) => { let n = 0; for (const x of l) { if (!x
     items.push({ t: court(x.t, 110), d: court(x.d, 190), src: x.src || src, url: x.url, lang, free: !!(opt.free || x.free), ts: x.ts || 0 }); n++; } bilan.push(`${src} : ${n}`); };
 const essai = async (nom, f) => { try { await f(); } catch (e) { bilan.push(`${nom} : indisponible (${String(e.message || e).slice(0, 60)})`); } };
 
-// Coursera (catalogue public)
-for (const [q, lang] of [['art history', 'en'], ['painting drawing', 'en'], ['african art', 'en'], ['aesthetics philosophy of art', 'en'], ['photography', 'en'], ["histoire de l'art", 'fr'], ['dessin peinture', 'fr']])
-  await essai('Coursera « ' + q + ' »', async () => { const j = await get(`https://api.coursera.org/api/courses.v1?q=search&query=${encodeURIComponent(q)}&limit=12&fields=name,slug,description,primaryLanguages`, 1);
-    add('Coursera', lang, (j.elements || []).map(c => ({ t: c.name, d: c.description, url: 'https://www.coursera.org/learn/' + c.slug, lang: (c.primaryLanguages || [])[0] })).map(c => ({ ...c })), {}); });
 // FUN MOOC (France Université Numérique)
 for (const q of ['art', 'histoire de l\'art', 'dessin', 'photographie'])
   await essai('FUN MOOC « ' + q + ' »', async () => { const j = await get(`https://www.fun-mooc.fr/api/v1.0/courses/?query=${encodeURIComponent(q)}&limit=15`, 1);
     add('FUN MOOC', 'fr', (j.objects || []).map(c => ({ t: typeof c.title === 'string' ? c.title : (c.title && (c.title.fr || c.title.en)) || '', d: typeof c.introduction === 'string' ? c.introduction : '', url: /^https:/.test(c.absolute_url || '') ? c.absolute_url : 'https://www.fun-mooc.fr' + (c.absolute_url || '') })), { free: true }); });
 // Flux spécialisés
 for (const [src, url, lang, opt] of [
-  ['Smarthistory', 'https://smarthistory.org/feed/', 'en', { free: true }],
   ['Open Culture', 'https://www.openculture.com/category/art/feed', 'en', { free: true, cours: true }],
   ['Google Actualités', gn('MOOC "histoire de l\'art"'), 'fr', { cours: true }],
   ['Google Actualités', gn('"formation en ligne" peinture OR dessin OR "arts plastiques"'), 'fr', { cours: true }],
