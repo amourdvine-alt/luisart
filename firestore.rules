@@ -108,10 +108,21 @@ service cloud.firestore {
       allow read: if soi(resource.data.from) || soi(resource.data.to);
       allow create: if soi(nouveau().from) && nouveau().to is string
         && nouveau().to != nouveau().from && texteCourt('text', 5000);
-      allow update: if (soi(resource.data.from) || soi(resource.data.to))
-        && inchange('from') && inchange('to')
-        && seulement(['text', 'img', 'au', 'stk', 'wk', 'loc', 'ex', 'rp', 're', 'of', 'del']);
+      // L'expéditeur modifie ou efface son message ; le destinataire peut seulement
+      // réagir ou répondre à une offre, sans en changer le montant ni l'œuvre.
+      allow update: if inchange('from') && inchange('to') && (
+           (soi(resource.data.from)
+             && seulement(['text', 'img', 'au', 'stk', 'wk', 'loc', 'ex', 'rp', 're', 'of', 'del'])
+             && (offreLibre() || offreIntacte()))
+        || (soi(resource.data.to) && seulement(['re', 'of']) && offreIntacte()));
       allow delete: if soi(resource.data.from);
+    }
+    function offreLibre() { return !(resource.data.get('of', null) is map) || resource.data.of.get('st', '') == 'att'; }
+    function offreIntacte() {
+      return !(resource.data.get('of', null) is map)
+        || (nouveau().get('of', null) is map
+            && nouveau().of.get('amt', null) == resource.data.of.get('amt', null)
+            && nouveau().of.get('wid', null) == resource.data.of.get('wid', null));
     }
     // Accusés de lecture : identifiant = lecteur_interlocuteur
     match /dmr/{id} {
@@ -157,7 +168,7 @@ service cloud.firestore {
     match /works/{id} {
       allow read: if true;
       allow create: if soi(nouveau().aid) && texteCourt('title', 200);
-      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid']))
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid', 'pend']))
         || (peut('val') && seulement(['hid', 'pend']));
       allow delete: if soi(resource.data.aid) || peut('rep');
     }
@@ -210,10 +221,13 @@ service cloud.firestore {
     // Certificats d'authenticité : vérifiables par tous ; seule l'équipe révoque
     match /certs/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid) && (admin() || comptePro());
-      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['rev']) && (admin() || comptePro())) || peut('val');
+      allow create: if admin() || (soi(nouveau().aid) && comptePro() && monOeuvre(id) && !('rev' in nouveau()));
+      allow update: if admin()
+        || (soi(resource.data.aid) && comptePro() && monOeuvre(id) && inchange('aid') && inchange('num') && inchange('ts') && aucun(['rev']))
+        || (peut('val') && seulement(['rev', 'revwhy', 'revts']));
       allow delete: if admin();
     }
+    function monOeuvre(w) { return exists(chemin('works', w)) && get(chemin('works', w)).data.get('aid', '') == request.auth.uid; }
     // Visite guidée d'une œuvre (identifiant = identifiant de l'œuvre)
     match /tour/{id} {
       allow read: if true;
@@ -270,11 +284,12 @@ service cloud.firestore {
       allow read: if soi(resource.data.buyer) || soi(resource.data.seller);
       allow create: if soi(nouveau().buyer);
       allow update: if (soi(resource.data.buyer) || soi(resource.data.seller))
-        && inchange('buyer') && inchange('seller') && inchange('total');
+        && inchange('buyer') && inchange('seller') && inchange('total')
+        && inchange('items') && inchange('num') && inchange('ts');
     }
     match /resv/{id} {
       allow read: if soi(resource.data.uid) || soi(resource.data.aid);
-      allow create: if soi(nouveau().uid) || soi(nouveau().aid);
+      allow create: if (soi(nouveau().uid) || soi(nouveau().aid)) && nouveau().uid is string && nouveau().aid is string;
       allow delete: if soi(resource.data.uid) || soi(resource.data.aid);
     }
     match /reports/{id} {

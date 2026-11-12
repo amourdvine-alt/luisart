@@ -50,6 +50,13 @@ service cloud.firestore {
       return exists(chemin('artists', request.auth.uid))
         && get(chemin('artists', request.auth.uid)).data.get('mem', '') == 'ok';
     }
+    // Compte Pro en cours de validité (création et modification des certificats)
+    function comptePro() {
+      return exists(chemin('artists', request.auth.uid))
+        && get(chemin('artists', request.auth.uid)).data.get('pro', false) == true
+        && (get(chemin('artists', request.auth.uid)).data.get('proUntil', 0) == 0
+            || get(chemin('artists', request.auth.uid)).data.get('proUntil', 0) > request.time.toMillis());
+    }
     function adhesionAuto() {
       return exists(chemin('cfg', 'site')) && get(chemin('cfg', 'site')).data.get('memm', '') == 'auto';
     }
@@ -203,8 +210,8 @@ service cloud.firestore {
     // Certificats d'authenticité : vérifiables par tous ; seule l'équipe révoque
     match /certs/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid);
-      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['rev'])) || peut('val');
+      allow create: if soi(nouveau().aid) && (admin() || comptePro());
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['rev']) && (admin() || comptePro())) || peut('val');
       allow delete: if admin();
     }
     // Visite guidée d'une œuvre (identifiant = identifiant de l'œuvre)
