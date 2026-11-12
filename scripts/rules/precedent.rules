@@ -57,6 +57,13 @@ service cloud.firestore {
         && (get(chemin('artists', request.auth.uid)).data.get('proUntil', 0) == 0
             || get(chemin('artists', request.auth.uid)).data.get('proUntil', 0) > request.time.toMillis());
     }
+    // Membre confirmé (ou administrateur) : requis pour publier et écrire aux autres
+    function membre() { return admin() || membreValide(); }
+    // Publication programmée (champ « at ») : réservée aux comptes Pro
+    function programmeOk() {
+      return nouveau().get('at', 0) == 0 || admin() || comptePro()
+        || (resource != null && nouveau().get('at', 0) == resource.data.get('at', 0));
+    }
     function adhesionAuto() {
       return exists(chemin('cfg', 'site')) && get(chemin('cfg', 'site')).data.get('memm', '') == 'auto';
     }
@@ -106,7 +113,7 @@ service cloud.firestore {
     // ------------------------------------------------------- messages privés
     match /dm/{id} {
       allow read: if soi(resource.data.from) || soi(resource.data.to);
-      allow create: if soi(nouveau().from) && nouveau().to is string
+      allow create: if soi(nouveau().from) && membre() && nouveau().to is string
         && nouveau().to != nouveau().from && texteCourt('text', 5000);
       // L'expéditeur modifie ou efface son message ; le destinataire peut seulement
       // réagir ou répondre à une offre, sans en changer le montant ni l'œuvre.
@@ -167,8 +174,9 @@ service cloud.firestore {
     // L'auteur crée et gère les siens ; l'équipe modère (masquer, valider, supprimer).
     match /works/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid) && texteCourt('title', 200);
-      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid', 'pend']))
+      allow create: if soi(nouveau().aid) && membre() && programmeOk() && texteCourt('title', 200) && texteCourt('desc', 6000);
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid', 'pend']) && programmeOk()
+                        && texteCourt('title', 200) && texteCourt('desc', 6000))
         || (peut('val') && seulement(['hid', 'pend']));
       allow delete: if soi(resource.data.aid) || peut('rep');
     }
@@ -180,14 +188,14 @@ service cloud.firestore {
     }
     match /posts/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid) && texteCourt('text', 5000);
-      allow update: if soi(resource.data.aid) && inchange('aid') && aucun(['hid']);
+      allow create: if soi(nouveau().aid) && membre() && programmeOk() && texteCourt('text', 5000);
+      allow update: if soi(resource.data.aid) && inchange('aid') && aucun(['hid']) && programmeOk() && texteCourt('text', 5000);
       allow delete: if soi(resource.data.aid) || peut('rep');
     }
     match /stat/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid) && texteCourt('text', 2000);
-      allow update: if soi(resource.data.aid) && inchange('aid');
+      allow create: if soi(nouveau().aid) && membre() && texteCourt('text', 2000);
+      allow update: if soi(resource.data.aid) && inchange('aid') && texteCourt('text', 2000);
       allow delete: if soi(resource.data.aid) || peut('rep');
     }
     match /sv/{id} {
@@ -301,7 +309,9 @@ service cloud.firestore {
     // Demandes Pro / certification / suppression : identifiant = type_membre
     match /proreq/{id} {
       allow read: if soi(resource.data.uid) || peut('req');
-      allow create: if soi(nouveau().uid) && nouveau().st == 'att' && id == nouveau().k + '_' + nouveau().uid;
+      // Jamais de donnée d'identité ici : le dossier privé est dans data/users/<membre>/
+      allow create: if soi(nouveau().uid) && nouveau().st == 'att' && id == nouveau().k + '_' + nouveau().uid
+        && !nouveau().keys().hasAny(['pn', 'n', 'img', 'atl', 'ref']);
       allow update: if peut('req')
         || (soi(resource.data.uid) && inchange('uid') && inchange('k') && nouveau().st in ['att', 'non']);
       allow delete: if soi(resource.data.uid) || peut('req');

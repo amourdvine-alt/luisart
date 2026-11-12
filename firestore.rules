@@ -113,8 +113,12 @@ service cloud.firestore {
     // ------------------------------------------------------- messages privés
     match /dm/{id} {
       allow read: if soi(resource.data.from) || soi(resource.data.to);
-      allow create: if soi(nouveau().from) && membre() && nouveau().to is string
-        && nouveau().to != nouveau().from && texteCourt('text', 5000);
+      // Un membre confirmé écrit librement (l'application applique la demande de discussion).
+      // Un visiteur n'envoie qu'UN premier message, créé avec sa demande ; la suite
+      // exige que le destinataire ait accepté (ou qu'il suive / ait écrit au visiteur).
+      allow create: if soi(nouveau().from) && nouveau().to is string
+        && nouveau().to != nouveau().from && texteCourt('text', 5000)
+        && (membre() || discussionOuverte(nouveau().from, nouveau().to));
       // L'expéditeur modifie ou efface son message ; le destinataire peut seulement
       // réagir ou répondre à une offre, sans en changer le montant ni l'œuvre.
       allow update: if inchange('from') && inchange('to') && (
@@ -123,6 +127,12 @@ service cloud.firestore {
              && (offreLibre() || offreIntacte()))
         || (soi(resource.data.to) && seulement(['re', 'of']) && offreIntacte()));
       allow delete: if soi(resource.data.from);
+    }
+    function discussionOuverte(de, a) {
+      return exists(chemin('fol', a + '_' + de))
+        || (exists(chemin('dmok', a + '_' + de)) && get(chemin('dmok', a + '_' + de)).data.st == 'ok')
+        || (exists(chemin('dmok', de + '_' + a)) && get(chemin('dmok', de + '_' + a)).data.st in ['att', 'ok'])
+        || (!exists(chemin('dmok', a + '_' + de)) && getAfter(chemin('dmok', a + '_' + de)).data.get('st', '') == 'att');
     }
     function offreLibre() { return !(resource.data.get('of', null) is map) || resource.data.of.get('st', '') == 'att'; }
     function offreIntacte() {

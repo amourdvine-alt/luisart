@@ -1,7 +1,7 @@
 /* Luisart · tests des règles de sécurité Firestore (émulateur).
    Lancés par le robot avant chaque publication des règles : si un test échoue, rien n'est publié. */
 import { initializeTestEnvironment, assertFails, assertSucceeds } from '@firebase/rules-unit-testing';
-import { doc, setDoc, updateDoc, getDoc, deleteDoc } from 'firebase/firestore';
+import { doc, setDoc, updateDoc, getDoc, deleteDoc, writeBatch } from 'firebase/firestore';
 import fs from 'node:fs';
 
 const env = await initializeTestEnvironment({ projectId: 'luisart-essai', firestore: { rules: fs.readFileSync(process.env.RULES || 'firestore.rules', 'utf8'), host: '127.0.0.1', port: 8080 } });
@@ -62,7 +62,17 @@ await t('compte Pro : révoquer ou rétablir soi-même refusé', non(updateDoc(d
 await t('tout le monde : lire un certificat', oui(getDoc(doc(anonyme, 'certs/wp'))));
 // Messages et offres
 await t('membre : envoie un message', oui(setDoc(doc(alice, 'dm/m2'), { from: 'alice', to: 'paul', text: 'Salut' })));
-await t('visiteur anonyme : message refusé', non(setDoc(doc(inconnu, 'dm/m3'), { from: 'zed', to: 'paul', text: 'Spam' })));
+const lot = (db, ...w) => { const b = writeBatch(db); w.forEach(([p, d]) => b.set(doc(db, p), d)); return b.commit(); };
+await t('visiteur : message seul, sans demande, refusé', non(setDoc(doc(inconnu, 'dm/v0'), { from: 'zed', to: 'paul', text: 'Bonjour' })));
+await t('visiteur : premier message avec sa demande', oui(lot(inconnu, ['dmok/paul_zed', { from: 'zed', to: 'paul', st: 'att', ts: now }], ['dm/v1', { from: 'zed', to: 'paul', text: 'Bonjour' }])));
+await t('visiteur : deuxième message avant acceptation refusé', non(setDoc(doc(inconnu, 'dm/v2'), { from: 'zed', to: 'paul', text: 'Encore' })));
+await t('visiteur : refaire une demande pour contourner refusé', non(lot(inconnu, ['dmok/paul_zed', { from: 'zed', to: 'paul', st: 'att', ts: now }], ['dm/v3', { from: 'zed', to: 'paul', text: 'Encore' }])));
+await t('visiteur : s’accepter lui-même refusé', non(updateDoc(doc(inconnu, 'dmok/paul_zed'), { st: 'ok' })));
+await t('destinataire : accepte la demande', oui(updateDoc(doc(paul, 'dmok/paul_zed'), { st: 'ok', dts: now })));
+await t('visiteur : écrit après acceptation', oui(setDoc(doc(inconnu, 'dm/v4'), { from: 'zed', to: 'paul', text: 'Merci' })));
+await t('visiteur : premier message à un autre artiste', oui(lot(inconnu, ['dmok/alice_zed', { from: 'zed', to: 'alice', st: 'att', ts: now }], ['dm/v5', { from: 'zed', to: 'alice', text: 'Bonjour' }])));
+await t('destinataire : refuse la demande', oui(updateDoc(doc(alice, 'dmok/alice_zed'), { st: 'no', dts: now })));
+await t('visiteur : écrire après un refus refusé', non(setDoc(doc(inconnu, 'dm/v6'), { from: 'zed', to: 'alice', text: 'Svp' })));
 await t('écrire au nom d’un autre refusé', non(setDoc(doc(alice, 'dm/m4'), { from: 'paul', to: 'alice', text: 'x' })));
 await t('destinataire : réécrire le message refusé', non(updateDoc(doc(paul, 'dm/m1'), { text: 'Faux' })));
 await t('destinataire : baisser le prix de l’offre refusé', non(updateDoc(doc(paul, 'dm/m1'), { of: { amt: 1, wid: 'wa', st: 'ok' } })));

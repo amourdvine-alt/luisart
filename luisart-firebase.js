@@ -50,7 +50,8 @@ function mkDb(fs){
     limit:n=>colRef(q.limit(n),path),
     get:()=>q.get().then(sQ,e=>{throw err(e)}),
     onSnapshot:(cb,eb)=>q.onSnapshot(s=>cb(sQ(s)),e=>{console.warn('snapshot',path,e);eb&&eb(err(e))})});
-  return Object.freeze({doc:docRef,collection:p=>colRef(fs.collection(p),p)});
+  const batch=()=>{const b=fs.batch();return {set:(p,d)=>{b.set(fs.doc(p),d)},delete:p=>{b.delete(fs.doc(p))},commit:()=>b.commit().catch(e=>{throw err(e)})}};
+  return Object.freeze({doc:docRef,collection:p=>colRef(fs.collection(p),p),batch});
 }
 
 /* ---------- utilisateur ---------- */
