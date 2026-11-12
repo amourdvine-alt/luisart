@@ -7,6 +7,17 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 21 }
+      - name: Tester les règles dans un émulateur (rien n'est publié si un test échoue)
+        run: |
+          set -e
+          mkdir -p /tmp/essai && cp firestore.rules scripts/rules/test.mjs /tmp/essai/ && cd /tmp/essai
+          echo '{"firestore":{"rules":"firestore.rules"},"emulators":{"firestore":{"host":"127.0.0.1","port":8080},"ui":{"enabled":false}}}' > firebase.json
+          npm init -y >/dev/null && npm i --silent --no-audit --no-fund firebase@10 @firebase/rules-unit-testing@3 firebase-tools@13 2>&1 | tail -2
+          npx firebase emulators:exec --only firestore --project luisart-essai "node test.mjs"
       - name: Vérifier puis publier
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
