@@ -1,0 +1,36 @@
+name: Publier les règles de sécurité Firestore
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  regles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier puis publier
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          set -e
+          P=luisart-21e0b; API=https://firebaserules.googleapis.com/v1/projects/$P
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/sa.json
+          gcloud auth activate-service-account --key-file=/tmp/sa.json --quiet; rm -f /tmp/sa.json
+          TOKEN=$(gcloud auth print-access-token); H="Authorization: Bearer $TOKEN"
+          REL=$(curl -sf -H "$H" "$API/releases/cloud.firestore") || { echo "::error::Lecture des règles en ligne impossible (droits du compte de service ?)"; exit 1; }
+          RS=$(echo "$REL" | jq -r .rulesetName); echo "Règles en ligne : $RS"
+          curl -sf -H "$H" "https://firebaserules.googleapis.com/v1/$RS" | jq -r '.source.files[0].content' > /tmp/enligne.rules
+          mkdir -p sauvegarde && cp /tmp/enligne.rules sauvegarde/regles-en-ligne.rules
+          norm(){ sed 's/[[:space:]]*$//' "$1" | grep -v '^[[:space:]]*$'; }
+          if norm /tmp/enligne.rules | cmp -s - <(norm firestore.rules); then echo "Déjà à jour, rien à faire."; exit 0; fi
+          if ! norm /tmp/enligne.rules | cmp -s - <(norm scripts/rules/precedent.rules); then
+            echo "::error::Les règles en ligne ont été modifiées ailleurs (console Firebase). Rien n'a été publié pour ne pas écraser ces changements."
+            diff <(norm scripts/rules/precedent.rules) <(norm /tmp/enligne.rules) | head -60 || true; exit 1; fi
+          BODY=$(jq -n --rawfile c firestore.rules '{source:{files:[{name:"firestore.rules",content:$c}]}}')
+          NEW=$(curl -s -H "$H" -H 'Content-Type: application/json' -X POST "$API/rulesets" -d "$BODY")
+          NAME=$(echo "$NEW" | jq -r '.name // empty'); [ -n "$NAME" ] || { echo "::error::Règles refusées par Firebase (erreur de syntaxe)"; echo "$NEW" | head -c 1500; exit 1; }
+          curl -sf -H "$H" -H 'Content-Type: application/json' -X PATCH "$API/releases/cloud.firestore" \
+            -d "$(jq -n --arg n "$NAME" --arg r "projects/$P/releases/cloud.firestore" '{release:{name:$r,rulesetName:$n}}')" >/dev/null
+          echo "Règles publiées : $NAME (anciennes règles conservées : $RS)"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: sauvegarde-regles, path: sauvegarde/, if-no-files-found: ignore, retention-days: 90 }
