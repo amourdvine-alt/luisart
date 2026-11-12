@@ -1,5 +1,5 @@
 /* Luisart · service worker : ouverture immédiate depuis l'appareil, mise à jour en arrière-plan */
-const V='luisart-24b0bea0d1';
+const V='luisart-9e3e2a254a';
 const SHELL=['./','./firebase-config.js','./luisart-firebase.js','./manifest.webmanifest','./icons/icon-192.png'];
 const fresh=u=>fetch(new Request(u,{cache:'reload'}));
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>Promise.all(SHELL.map(u=>fresh(u).then(r=>{if(!r.ok)throw new Error(u);return c.put(u,r)})))).then(()=>self.skipWaiting()))});
