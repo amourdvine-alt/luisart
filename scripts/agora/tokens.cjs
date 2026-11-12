@@ -2,7 +2,7 @@
 // sans serveur Firebase. Le certificat Agora reste dans les secrets GitHub et n'est jamais publié.
 //  - cfg/agv                    : jetons « spectateur » de chaque live (lecture publique, ne permettent que de regarder)
 //  - data/users/<uid>/agora     : jetons « artiste » et « invité sur scène » (lisibles par l'artiste seul)
-// Les jetons valent 24 h ; le robot les renouvelle toutes les deux heures.
+// Les jetons valent 24 h ; le robot les renouvelle toutes les vingt minutes.
 'use strict';
 const admin = require('firebase-admin');
 const { RtcTokenBuilder, RtcRole } = require('agora-token');
@@ -34,6 +34,8 @@ const h32 = x => { let h = 2166136261; x = String(x || ''); for (let i = 0; i < 
     }
     await b.commit();
   }
+  const poids = JSON.stringify(t).length;
+  if (poids > 600000) console.log('::warning::La liste des laissez-passer spectateurs approche de la limite (' + Math.round(poids / 1024) + ' Ko sur 1 000). Il faudra la répartir en plusieurs documents.');
   await db.doc('cfg/agv').set({ appId, exp, ts: Date.now(), t });
   console.log('laissez-passer renouvelés :', n, 'artistes | valables jusqu’à', new Date(exp).toISOString());
 })().catch(e => { console.error('ÉCHEC', e.code || '', String(e.message || e).slice(0, 300)); process.exit(1); });

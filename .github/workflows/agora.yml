@@ -1,7 +1,7 @@
 name: Laissez-passer des lives (Agora)
 on:
   schedule:
-    - cron: '23 */2 * * *'
+    - cron: '3,23,43 * * * *'
   workflow_dispatch: {}
 permissions: { contents: read }
 concurrency: { group: agora, cancel-in-progress: false }
