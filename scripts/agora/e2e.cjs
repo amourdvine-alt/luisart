@@ -12,7 +12,7 @@ const SDK = process.argv[2];
   const tV = RtcTokenBuilder.buildTokenWithUid(appId, cert, ch, 0, RtcRole.SUBSCRIBER, 600, 600);
   const tG = RtcTokenBuilder.buildTokenWithUid(appId, cert, ch, 0, RtcRole.PUBLISHER, 600, 600);
   const b = await chromium.launch({ args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required'] });
-  const mk = async () => { const p = await (await b.newContext({ permissions: ['camera', 'microphone'] })).newPage(); p.on('pageerror', e => console.log('  erreur page', String(e).slice(0, 160))); await p.goto('https://example.com/'); await p.addScriptTag({ url: SDK }); await p.evaluate(() => { try { AgoraRTC.setLogLevel(3) } catch (e) { } }); return p; };
+  const mk = async () => { const p = await (await b.newContext({ permissions: ['camera', 'microphone'] })).newPage(); p.on('pageerror', e => console.log('  erreur page', String(e).slice(0, 160))); await p.goto('https://example.com/'); await p.addScriptTag(/^https?:/.test(SDK) ? { url: SDK } : { path: SDK }); await p.evaluate(() => { try { AgoraRTC.setLogLevel(3) } catch (e) { } }); return p; };
   const host = await mk(), view = await mk();
   const t0 = Date.now();
   const rh = await host.evaluate(async ({ appId, ch, tH }) => { try { const c = AgoraRTC.createClient({ mode: 'live', codec: 'vp8' }); await c.setClientRole('host'); await c.join(appId, ch, tH, 1111); const [a, v] = await AgoraRTC.createMicrophoneAndCameraTracks(); await c.publish([a, v]); window.c = c; return 'diffuse' } catch (e) { return 'ÉCHEC ' + (e.code || '') + ' ' + String(e.message || e).slice(0, 160) } }, { appId, ch, tH });

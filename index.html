@@ -4889,9 +4889,9 @@ function leave(){if(!LV)return;const L=LV;clearInterval(L.tk);clearTimeout(L.to)
 /* ---------- transport Agora (jusqu'à ~1 000 spectateurs, 3 invités sur scène) ----------
    Utilisé seulement si le serveur de jetons (fonction liveToken) répond ; sinon le live
    reste en connexion directe (WebRTC) comme avant. Le certificat Agora ne quitte jamais le serveur. */
-const AGSDK='https://cdn.jsdelivr.net/npm/agora-rtc-sdk-ng@4.22.0/AgoraRTC_N-4.22.0.js',MAXG=3;
+const AGSDK=['vendor/agora.js','https://cdn.jsdelivr.net/npm/agora-rtc-sdk-ng@4.22.0'],MAXG=3;
 let AGP=null;
-const agLoad=()=>AGP||(AGP=new Promise((ok,ko)=>{if(window.AgoraRTC)return ok(window.AgoraRTC);const sc=document.createElement('script');sc.src=AGSDK;sc.onload=()=>{try{AgoraRTC.setLogLevel(3)}catch(er){}ok(window.AgoraRTC)};sc.onerror=()=>{AGP=null;ko(new Error('sdk'))};document.head.appendChild(sc)}));
+const agLoad=()=>AGP||(AGP=new Promise((ok,ko)=>{if(window.AgoraRTC)return ok(window.AgoraRTC);let k=0;const essai=()=>{if(k>=AGSDK.length){AGP=null;return ko(new Error('sdk'))}const sc=document.createElement('script');sc.src=AGSDK[k++];sc.onload=()=>{if(!window.AgoraRTC)return essai();try{AgoraRTC.setLogLevel(3)}catch(er){}ok(window.AgoraRTC)};sc.onerror=()=>{sc.remove();essai()};document.head.appendChild(sc)};essai()}));
 const agOK=()=>{try{return !!(window.luisartAuth&&window.luisartAuth.idToken&&window.LUISART_FIREBASE&&!(CFGS&&CFGS.agora===false))}catch(er){return false}};
 const agAuth=async()=>{try{const i=await window.luisartAuth.info();return i&&i.uid||null}catch(er){return null}};
 const h32=x=>{let h=2166136261;x=String(x||'');for(let i=0;i<x.length;i++){h^=x.charCodeAt(i);h=Math.imul(h,16777619)}return Math.abs(h|0)%2000000000||1};
