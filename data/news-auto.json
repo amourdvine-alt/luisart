@@ -1,12 +1,183 @@
 {
- "updated": "2026-11-12T06:15:04.739Z",
+ "updated": "2026-11-12T16:11:27.037Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 515
+  "read": 518
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_1r5qnyz",
+   "cat": "Art mondial",
+   "title": "$160K Jean Arp Sculpture Stolen from Art Cologne Booth",
+   "sub": "ARTnews",
+   "text": "“The fair’s security measures were seriously lacking,” said a Gallery Ludorff employee, who noticed the Arp sculpture had vanished from their crowded booth on the last day of Art Cologne.",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/160k-jean-arp-sculpture-stolen-from-art-cologne-booth-1234805668/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Platzierung-der-gestohlenen-Skulptur-auf-dem-Messestand-C-121-c-LUDORFF-2026.jpg?w=400",
+   "ts": 1794497457000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_7qe022",
+   "cat": "Art mondial",
+   "title": "Rembrandt’s “Night Watch” Is Alive!",
+   "sub": "Hyperallergic",
+   "text": "The Dutch masterpiece is teeming with microbes, and scientists hope this invisible life will be a key to unlocking some of the painting’s mysteries.",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/rembrandts-night-watch-is-alive/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/ARTIS-en-Rijksmuseum---De-Nachtwacht-Leeft--14.----ARTIS--Niels-de-Vries.jpg.jpg",
+   "ts": 1794497400000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1tcgzps",
+   "cat": "Expositions majeures",
+   "title": "SITE Santa Fe Announces Theme and Artist List for 13th International Biennial",
+   "sub": "ARTnews",
+   "text": "Edgar Arceneaux, Firelei Báez, Raven Chacon, Lotus L. Kang, and Cauleen Smith have been commissioned to make new work.",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/site-santa-fe-13th-international-biennial-artist-list-1234805636/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Jeffrey_Gibson-THIS_BURNING_WORLD-ICASF_10-25-22_008.jpg?w=400",
+   "ts": 1794495600000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1by5uk0",
+   "cat": "Expositions majeures",
+   "title": "Phillips Collection Receives $10 M. Gift to Launch Global Vision Fund",
+   "sub": "ARTnews",
+   "text": "The donation comes from Beatriz and Graham Bolton and is the largest from an individual donor in the museum's history.",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/phillips-collection-10-million-gift-beatriz-graham-bolton-1234805659/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Phillips-House-Exterior2_Photo-by-Mariah-Miranda.jpg?w=400",
+   "ts": 1794495600000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1j1fj7n",
+   "cat": "Expositions majeures",
+   "title": "180 000 m² d’exposition : l’Inde est en train de concevoir le plus grand musée du monde",
+   "sub": "Beaux Arts Magazine",
+   "text": "Un projet pharaonique se concrétise en Inde. Mercredi 11 novembre, le comité des affaires économiques …",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-11",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/180-000-m-dexposition-linde-est-en-train-de-concevoir-le-plus-grand-musee-du-monde/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/uneraisina-hill-hemis_2f8k6th-1300x975.jpg",
+   "ts": 1794491693000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_yh7dsq",
+   "cat": "Expositions majeures",
+   "title": "Ces figures « dangereuses » qui nous séduisent : pourquoi Satan et les sorcières reviennent hanter les musées ?",
+   "sub": "Connaissance des Arts",
+   "text": "58 % des Français croient à la voyance, à la numérologie ou à la chiromancie, selon la Fondation Jean Jaurès. Dans un monde anxiogène, Satan, démons et sorcières reviennent sur les cimaises, portés par un public jeune en quête d’un autre au-delà. Cet article Ces figures « dangereuses » qui nous séduisent : pourquoi Satan et les sorcières reviennent hanter les musées ? est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/ces-figures-dangereuses-qui-nous-seduisent-pourquoi-satan-et-les-sorcieres-reviennent-hanter-les-musees-11218380/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vue_expo_suzanne_husky_bordeaux-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794483483000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_ngab8p",
+   "cat": "Art mondial",
+   "title": "Les meilleures expos photo à voir en ce moment à Paris et en région",
+   "sub": "Beaux Arts Magazine",
+   "text": "Quelles expositions voir en ce moment si vous êtes mordus de photo ? Beaux Arts …",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/selections/les-meilleures-expos-photo-a-voir-en-ce-moment-en-france/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2025/11/une127_hl.phot_.2005.169-1300x975.jpg",
+   "ts": 1794482598000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1h2rr0f",
+   "cat": "Art mondial",
+   "title": "« De la culture mondiale, l’IA fait des pâtés »",
+   "sub": "Beaux Arts Magazine",
+   "text": "Alors que l’intelligence artificielle génère des objets culturels qui parviennent à tromper la critique, la …",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/de-la-culture-mondiale-lia-fait-des-pates/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/10/unesothebys-ia-1300x975.jpg",
+   "ts": 1794474012000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_11mokrd",
+   "cat": "Art mondial",
+   "title": "« C’est comme dessiner dans l’espace » : internée après Pearl Harbor, Ruth Asawa, héritière du Bauhaus, célébrée à la Fondation Beyeler",
+   "sub": "Connaissance des Arts",
+   "text": "L’artiste nippo-américaine Ruth Asawa (1926-2013) est célébrée à la Fondation Beyeler de Bâle. Son œuvre protéiforme et prolifique abolit les frontières entre art et artisanat, figuration et abstraction, création et vie quotidienne. Cet article « C’est comme dessiner dans l’espace » : internée après Pearl Harbor, Ruth Asawa, héritière du Bauhaus, célébrée à la Fondation Beyeler est apparu en premier sur Connaissance…",
+   "date": "Publié le 12 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/suisse/cest-comme-dessiner-dans-lespace-internee-apres-pearl-harbor-ruth-asawa-heritiere-du-bauhaus-celebree-a-la-fondation-beyeler-11218337/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_asawa_1-tt-width-653-height-838-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794471340000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_1jq7v66",
    "cat": "Expositions majeures",
@@ -24,7 +195,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/IMG_7194-rotated.jpeg?w=400",
    "ts": 1794439448000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_ebq7vm",
@@ -43,7 +214,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/bro-pls-2.jpg",
    "ts": 1794434354000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_69ncdh",
@@ -62,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/rb1200.jpg",
    "ts": 1794433421000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_112898m",
@@ -81,7 +252,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/83b8ef36-02aa-2de5-2a59-f9f3984f9128.jpg?w=400",
    "ts": 1794431983000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_acm74y",
@@ -100,7 +271,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/Fellows-composite-3-1-1.jpg?w=1024",
    "ts": 1794431700000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_igkkvc",
@@ -119,7 +290,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/split-image-1000_5a7dec.jpg?w=1000",
    "ts": 1794429268000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1szncdj",
@@ -138,7 +309,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/renoir_signatur_auf_probedruck_foto_seele_kurpfalzisches_museum_k.jpg?w=400",
    "ts": 1794428808000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_enh8o4",
@@ -157,7 +328,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/15-By-Design---Brandywine-Museum-of-Art_photo_by_Julie_Schneider-1.jpg",
    "ts": 1794424169000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1275hcx",
@@ -176,7 +347,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Trisha-Baga.jpg",
    "ts": 1794421950000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_kwthlc",
@@ -195,7 +366,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasetp26_pn-saumon_coiffe-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794420030000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_cifnt5",
@@ -214,7 +385,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/annechengpattychang.jpg",
    "ts": 1794414600000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_x2rtpc",
@@ -233,26 +404,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Blank-2-Grids-Collage.jpg",
    "ts": 1794414000000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1vbvqny",
-   "cat": "Expositions majeures",
-   "title": "Art Week NYC Kicks off at Metropolitan Museum of Art with New York Pols and Art Leaders",
-   "sub": "ARTnews",
-   "text": "New York politicians touted their generous investments in the arts.",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/art-week-nyc-kicks-off-metropolitan-museum-art-1234805478/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/art-week-breakfast-metropolitan-museum-2-1.jpeg?w=400",
-   "ts": 1794411534000,
-   "auto": 1,
-   "_score": 4
+   "_score": 5.3
   },
   {
    "id": "auto_52sp3u",
@@ -271,7 +423,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/meme-2-copy.jpeg",
    "ts": 1794410700000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_wyskd6",
@@ -290,7 +442,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/I-Am-the-Hungry-Cat_Ken-Williams-Jr.jpg",
    "ts": 1794410100000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_cdssao",
@@ -309,7 +461,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une9m2a9352-1300x975.jpg",
    "ts": 1794398430000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_x7br8e",
@@ -328,26 +480,7 @@
    "img": "https://cdn.sanity.io/images/cxgd3urn/production/0e446b3e940485a30025e8d1e7693475166c86b5-3500x2625.jpg?rect=0,263,3500,2100&w=1200&h=720&q=85&fit=crop&auto=format",
    "ts": 1794395515000,
    "auto": 1,
-   "_score": 7.8
-  },
-  {
-   "id": "auto_6wu0pp",
-   "cat": "Art mondial",
-   "title": "A New Home for Native Art in New York",
-   "sub": "Hyperallergic",
-   "text": "Inside the Gochman Family Collection’s Katonah space, artist Miles Greenberg takes us behind the scenes of his latest performance, and celebrating 10 years of Mrs. gallery.",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/a-new-home-for-native-art-in-new-york/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/branchline.png",
-   "ts": 1794394800000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 7.7
   },
   {
    "id": "auto_lqwhiw",
@@ -366,7 +499,7 @@
    "img": "https://biz-file.com/c/2611/827522-1200x624.jpg?5",
    "ts": 1794394067000,
    "auto": 1,
-   "_score": 8.8
+   "_score": 8.7
   },
   {
    "id": "auto_eofum9",
@@ -384,44 +517,6 @@
    "src": "Connaissance des Arts",
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_egypte_orleans_1-tt-width-653-height-416-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794384045000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1misld4",
-   "cat": "Art mondial",
-   "title": "L’art comme levier d’émancipation : depuis 15 ans, Rubis Mécénat s’engage auprès de la création contemporaine",
-   "sub": "Beaux Arts Magazine",
-   "text": "Soutenir la jeune création, donner aux artistes les moyens de leurs ambitions, favoriser l’émancipation par …",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/lart-comme-levier-demancipation-depuis-15-ans-rubis-mecenat-sengage-aupres-de-la-creation-contemporaine/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/carte-blanche-a-remi-marcel-beaux-arts-de-paris-courtesy-rubis-mecenat-eglise-saint-eustache-2026.-photo-x3a-instant-productions11-1300x1029.jpeg",
-   "ts": 1794384039000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_168wci2",
-   "cat": "Art mondial",
-   "title": "« Le regard sur le béton commence à changer » : comment la France apprend à restaurer son patrimoine du XXe siècle",
-   "sub": "Connaissance des Arts",
-   "text": "Le patrimoine du XXe siècle regroupe une grande diversité de bâtiments construits avec des matériaux qui se sont révélés moins durables que ceux du passé. Le béton, en particulier, pose des problématiques spécifiques. Cet article « Le regard sur le béton commence à changer » : comment la France apprend à restaurer son patrimoine du XXe siècle est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/le-regard-sur-le-beton-commence-a-changer-comment-la-france-apprend-a-restaurer-son-patrimoine-du-xxe-siecle-11218251/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_restauration-xxe-siecle_perret-tt-width-653-height-980-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794376843000,
    "auto": 1,
    "_score": 5.2
   },
@@ -442,7 +537,7 @@
    "img": "https://images.ladepeche.fr/api/v1/images/view/6af321cf213d2eeec8059d55/hd/image.jpg?v=1",
    "ts": 1794375420000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_yp8m06",
@@ -461,7 +556,7 @@
    "img": "https://assets.ladepeche.fr/img/lazy_standard.jpg?9931565c",
    "ts": 1794370440000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 5.9
   },
   {
    "id": "auto_mnadue",
@@ -480,83 +575,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/20261108_141933.jpg",
    "ts": 1794350125000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1o3emzy",
-   "cat": "Art mondial",
-   "title": "Gochman Collection Builds a Home for Native Art in Westchester",
-   "sub": "Hyperallergic",
-   "text": "The private collection opened its Branchline location in Katonah as a way to bring Native art into public view, though questions linger about its engagement with the local Lenape community.",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/gochman-collection-builds-a-home-for-native-art-in-westchester/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Photo-Nov-05-2026--1-42-01-PM-1.jpg",
-   "ts": 1794349458000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_1fugap5",
-   "cat": "Art mondial",
-   "title": "Mrs. Gallery Marks 10 Years of Getting Art Collectors to Queens",
-   "sub": "Hyperallergic",
-   "text": "A decade since Sara Maria Salamone and Tyler Lafreniere found their storefront space on Craigslist, the gallery presents a rotating anniversary show that channels its evolving nature.",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/mrs-gallery-marks-10-years-of-getting-art-collectors-to-queens/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_9417.jpeg",
-   "ts": 1794347862000,
-   "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_mvl2vz",
-   "cat": "Expositions majeures",
-   "title": "Mexican Duo RojoNegro Installs Colossal Work on UC San Diego Campus",
-   "sub": "Hyperallergic",
-   "text": "María Sosa and Noé Martínez, the Michoacán artists representing Mexico at the Venice Biennale, hand-painted 260 ceramic tiles for the installation.",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/mexican-duo-rojonegro-installs-colossal-work-on-uc-san-diego-campus/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/1_RojoNegro--La-asamblea-del-barro.-Photo-by-Philipp-Scholz-Rittermann.-Courtesy-UC-San-Diego.jpg",
-   "ts": 1794347177000,
-   "auto": 1,
-   "_score": 3.8
-  },
-  {
-   "id": "auto_1drwgw8",
-   "cat": "Expositions majeures",
-   "title": "Actor Says He Removed His Mother’s Art from Venice Biennale Installation as a Pro-Israel Protest",
-   "sub": "ARTnews",
-   "text": "Eric Rasmussen wrote that he did so in response to Denniston Hill having signed a letter against the Israeli Pavilion.",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/art-removed-venice-biennale-denniston-hill-israel-1234805408/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/AVZ-Denniston-Hill-6596.jpg?w=400",
-   "ts": 1794341449000,
-   "auto": 1,
-   "_score": 3.8
+   "_score": 5.1
   },
   {
    "id": "auto_hcx860",
@@ -575,7 +594,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une08.-limperatrice-eugenie-1300x975.jpg",
    "ts": 1794330052000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_10zdmgw",
@@ -594,7 +613,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/10.-musee-national-eugenedelacroix-karen-knorr-sikanders-entrance-chandra-mahal-jaipur-city-palace-jaipur-2013-serie-india-song--courtesy-galerie-les-filles-du-calvaire-paris-1300x1044.jpg",
    "ts": 1794326442000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1m0owcm",
@@ -613,7 +632,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7531.jpg",
    "ts": 1794326400000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 6.3
   },
   {
    "id": "auto_cefipj",
@@ -632,7 +651,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2303846494.jpg?w=1024",
    "ts": 1794321681000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 3.3
   },
   {
    "id": "auto_15g7ye8",
@@ -651,7 +670,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unekunstformen-der-natur-1300x975.jpg",
    "ts": 1794301229000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_15icu77",
@@ -670,7 +689,7 @@
    "img": "https://media.beauxarts.com/uploads/2025/10/weblouvre_fondation_cartier-_boegly-026-v7-1300x975.jpg",
    "ts": 1794288636000,
    "auto": 1,
-   "_score": 5
+   "_score": 3.5
   },
   {
    "id": "auto_1wmpk3z",
@@ -689,26 +708,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": 8.4
-  },
-  {
-   "id": "auto_qzkjv6",
-   "cat": "Expositions majeures",
-   "title": "Pourquoi Klimt portait-il une robe-tunique ? À Paris, le musée Bourdelle dévoile les secrets de l’habit d’artiste",
-   "sub": "Connaissance des Arts",
-   "text": "Blouse d'atelier, tablier de forgeron, smoking : l'exposition « L'étoffe de l'artiste » retrace deux siècles de tenues de peintres et de sculpteurs. Jusqu'au 24 janvier 2027. Cet article Pourquoi Klimt portait-il une robe-tunique ? À Paris, le musée Bourdelle dévoile les secrets de l’habit d’artiste est apparu en premier sur Connaissance des Arts .",
-   "date": "À partir du 20 janvier 2027",
-   "deadline": "",
-   "start": "2027-01-20",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/pourquoi-klimt-portait-il-une-robe-tunique-a-paris-le-musee-bourdelle-devoile-les-secrets-de-lhabit-dartiste-11218278/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_bourdelle_etoffe_artiste_1-tt-width-653-height-501-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794236284000,
-   "auto": 1,
-   "_score": 4.8
+   "_score": 8.2
   },
   {
    "id": "auto_16z1lvz",
@@ -727,7 +727,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_bauchet-bulhal_3-tt-width-653-height-419-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794204022000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 6.2
   },
   {
    "id": "auto_vlqvi4",
@@ -746,7 +746,7 @@
    "img": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/02/01161949/Sanwo-Olu-67.jpg",
    "ts": 1794169152000,
    "auto": 1,
-   "_score": 7.1
+   "_score": 7
   },
   {
    "id": "auto_1c6mlwy",
@@ -765,7 +765,7 @@
    "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
    "ts": 1794104692000,
    "auto": 1,
-   "_score": 7
+   "_score": 6.9
   },
   {
    "id": "auto_wlshmv",
@@ -784,7 +784,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.5
   },
   {
    "id": "auto_8cffwa",
@@ -803,7 +803,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": -8
+   "_score": -9.5
   },
   {
    "id": "auto_d2qklt",
@@ -822,7 +822,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -13.8
+   "_score": -15.3
   },
   {
    "id": "auto_clenpc",
@@ -841,7 +841,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -16.3
+   "_score": -17.8
   },
   {
    "id": "auto_1q1lpb8",
@@ -860,7 +860,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -24.1
+   "_score": -25.6
   },
   {
    "id": "auto_19xs21b",
@@ -879,26 +879,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -22.3
-  },
-  {
-   "id": "auto_189elnp",
-   "cat": "Nouveautés",
-   "title": "11th Edition of ART X Lagos 2026 Will Explore How Cultural Inheritance Informs Contemporary Art",
-   "sub": "My Modern Met",
-   "text": "11th Edition of ART X Lagos 2026 Will Explore How Cultural Inheritance Informs Contemporary Art My Modern Met",
-   "date": "Publié le 1 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://mymodernmet.com/art-x-lagos-2026-preview/",
-   "src": "My Modern Met",
-   "img": "https://mymodernmet.com/wp/wp-content/uploads/2026/11/art-x-lagos-2026-fb-2-1.jpg",
-   "ts": 1793516400000,
-   "auto": 1,
-   "_score": 3.9
+   "_score": -23.8
   },
   {
    "id": "auto_lwnbzz",
@@ -917,7 +898,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -18.1
+   "_score": -19.6
   },
   {
    "id": "auto_yn4tnc",
@@ -936,7 +917,7 @@
    "img": "",
    "ts": 1793343600000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 4.7
   },
   {
    "id": "auto_5rdh82",
@@ -955,7 +936,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -26.5
+   "_score": -28
   },
   {
    "id": "auto_jzywik",
@@ -974,7 +955,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
    "ts": 1793257200000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1370snd",
@@ -993,7 +974,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -26.8
+   "_score": -28.3
   },
   {
    "id": "auto_1yyc40p",
@@ -1012,7 +993,26 @@
    "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
    "ts": 1792911600000,
    "auto": 1,
-   "_score": 3.5
+   "_score": 3.4
+  },
+  {
+   "id": "auto_1ljysmw",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
+   "sub": "Africa News Agency",
+   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
+   "date": "Publié le 25 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://africa-news-agency.com/akaa-2026-quand-lart-contemporain-africain-reinvente-les-recits-culturels/",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792911600000,
+   "auto": 1,
+   "_score": 3.4
   },
   {
    "id": "auto_row3aj",
@@ -1050,7 +1050,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -43.7
+   "_score": -45.2
   },
   {
    "id": "auto_d3k04k",
@@ -1069,7 +1069,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -22
+   "_score": -23.5
   },
   {
    "id": "auto_1nd0yc1",
@@ -1088,7 +1088,7 @@
    "img": "",
    "ts": 1791270000000,
    "auto": 1,
-   "_score": -0.5
+   "_score": -2
   },
   {
    "id": "auto_eyy2sp",
@@ -1107,7 +1107,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -12.5
+   "_score": -14
   },
   {
    "id": "auto_1538qsn",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1791097200000,
    "auto": 1,
-   "_score": -9.5
+   "_score": -11
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -26
+   "_score": -27.5
   }
  ]
 }
