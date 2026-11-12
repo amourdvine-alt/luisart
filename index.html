@@ -4895,7 +4895,15 @@ const agLoad=()=>AGP||(AGP=new Promise((ok,ko)=>{if(window.AgoraRTC)return ok(wi
 const agOK=()=>{try{return !!(window.luisartAuth&&window.luisartAuth.idToken&&window.LUISART_FIREBASE&&!(CFGS&&CFGS.agora===false))}catch(er){return false}};
 const agAuth=async()=>{try{const i=await window.luisartAuth.info();return i&&i.uid||null}catch(er){return null}};
 const h32=x=>{let h=2166136261;x=String(x||'');for(let i=0;i<x.length;i++){h^=x.charCodeAt(i);h=Math.imul(h,16777619)}return Math.abs(h|0)%2000000000||1};
-async function agToken(liveId,role){const tk=await window.luisartAuth.idToken();if(!tk)throw new Error('auth');const pid=((window.LUISART_FIREBASE||{}).config||{}).projectId;const ac=new AbortController(),to=setTimeout(()=>ac.abort(),9000);
+/* Laissez-passer fabriqués à l'avance par le robot GitHub (sans serveur Firebase) :
+   spectateurs → cfg/agv (public), artiste → data/users/<uid>/agora (lui seul), invité → transmis par l'artiste dans livej. */
+async function agTokenRobot(liveId,role){const now=Date.now(),frais=x=>x&&x>now+300000;
+ if(role==='audience'){const d=(await db.doc('cfg/agv').get()).data()||{};if(frais(d.exp)&&d.appId&&d.t&&d.t[liveId])return{appId:d.appId,token:d.t[liveId],uid:h32(uid),expiresAt:d.exp}}
+ else if(role==='host'){const d=(await db.doc('data/users/'+uid+'/agora').get()).data()||{};if(frais(d.exp)&&d.appId&&d.h&&d.ch===liveId)return{appId:d.appId,token:d.h,uid:d.u,expiresAt:d.exp}}
+ else if(role==='guest'){const d=(await db.doc('livej/'+liveId+'_'+uid).get()).data()||{};if(frais(d.gx)&&d.ga&&d.gt)return{appId:d.ga,token:d.gt,uid:h32(uid),expiresAt:d.gx}}
+ return null}
+window.__agTR=agTokenRobot;
+async function agToken(liveId,role){try{const r=await agTokenRobot(liveId,role);if(r)return r}catch(er){}const tk=await window.luisartAuth.idToken();if(!tk)throw new Error('auth');const pid=((window.LUISART_FIREBASE||{}).config||{}).projectId;const ac=new AbortController(),to=setTimeout(()=>ac.abort(),9000);
  try{const r=await fetch('https://europe-west1-'+pid+'.cloudfunctions.net/liveToken',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+tk},body:JSON.stringify({data:{liveId,role}}),signal:ac.signal});const j=await r.json().catch(()=>({}));if(!r.ok||!j.result||!j.result.token)throw new Error((j.error&&j.error.message)||('http '+r.status));return j.result}finally{clearTimeout(to)}}
 const audN=()=>Object.values((LV&&LV.aud)||{}).filter(j=>j.st==='a').length;
 const guestsOf=hid=>((LIVES[hid]||{}).guests||[]).slice(0,MAXG);
@@ -4931,7 +4939,7 @@ async function agWatch(host){const l=LIVES[host]||{},ls=l.ts||0,id=host+'_'+uid;
  LV.to=setTimeout(()=>{if(LV&&LV.st==='conn'){LV.st='fail';paint()}},30000)}
 async function agHand(){if(!LV||!LV.ag||LV.role!=='view'||LV.onStage)return;LV.hand=1;paint();try{await db.doc('livej/'+LV.id).update({hand:Date.now(),no:0,ok:0})}catch(er){}toast(T('Demande envoyée à l’artiste'))}
 async function agAcc(v){if(!LV||LV.role!=='host')return;const g=guestsOf(uid);if(g.includes(v))return;if(g.length>=MAXG)return toast(T('Scène complète : 3 invités maximum'));
- const ng=[...g,v];try{await db.doc('lives/'+uid).update({guests:ng});LIVES[uid]={...(LIVES[uid]||{}),guests:ng};await db.doc('livej/'+uid+'_'+v).update({ok:1})}catch(er){toast(T('Impossible d’inviter cette personne'))}paint()}
+ const ng=[...g,v];try{await db.doc('lives/'+uid).update({guests:ng});LIVES[uid]={...(LIVES[uid]||{}),guests:ng};let gt={};try{const d=(await db.doc('data/users/'+uid+'/agora').get()).data()||{};if(d.g&&d.ch===uid&&d.exp>Date.now()+300000)gt={gt:d.g,ga:d.appId,gx:d.exp}}catch(er){}await db.doc('livej/'+uid+'_'+v).update({ok:1,...gt})}catch(er){toast(T('Impossible d’inviter cette personne'))}paint()}
 async function agRej(v){if(!LV||LV.role!=='host')return;try{await db.doc('livej/'+uid+'_'+v).update({no:1,hand:0})}catch(er){}if(LV.aud&&LV.aud[uid+'_'+v])LV.aud[uid+'_'+v].no=1;paint()}
 async function agKick(v){if(!LV||LV.role!=='host')return;const ng=guestsOf(uid).filter(x=>x!==v);try{await db.doc('lives/'+uid).update({guests:ng});LIVES[uid]={...(LIVES[uid]||{}),guests:ng};await db.doc('livej/'+uid+'_'+v).update({ok:0,hand:0})}catch(er){}paint()}
 async function agDown(){if(!LV||!LV.onStage)return;LV.noStage=1;await agUnstage();try{await db.doc('livej/'+LV.id).update({down:Date.now(),hand:0,ok:0})}catch(er){}}
