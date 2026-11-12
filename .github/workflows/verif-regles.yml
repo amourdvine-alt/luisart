@@ -1,0 +1,22 @@
+name: Vérifier les règles de sécurité (compte d'essai temporaire)
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          K=$(grep -o "apiKey: *['\"][^'\"]*" firebase-config.js | sed "s/.*['\"]//")
+          T=$(curl -sS -X POST "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=$K" -H 'Content-Type: application/json' -d '{"returnSecureToken":true}')
+          TOK=$(echo "$T" | jq -r .idToken); U=$(echo "$T" | jq -r .localId); B="https://firestore.googleapis.com/v1/projects/luisart-21e0b/databases/(default)/documents"
+          ok=1; t(){ r=$(eval "$2"); if [ "$r" = "$3" ]; then echo "OK   $1 ($r)"; else echo "ÉCHEC $1 : $r au lieu de $3"; ok=0; fi; }
+          t "compte ordinaire : créer un certificat refusé" "curl -s -o /dev/null -w '%{http_code}' -X PATCH -H 'Authorization: Bearer $TOK' -H 'Content-Type: application/json' '$B/certs/test_$U' -d '{\"fields\":{\"aid\":{\"stringValue\":\"$U\"},\"num\":{\"stringValue\":\"CA-TEST\"}}}'" 403
+          t "lecture publique des certificats" "curl -s -o /dev/null -w '%{http_code}' '$B/certs?pageSize=1'" 200
+          t "lecture publique des œuvres" "curl -s -o /dev/null -w '%{http_code}' '$B/works?pageSize=1'" 200
+          t "écrire son historique de lives" "curl -s -o /dev/null -w '%{http_code}' -X PATCH -H 'Authorization: Bearer $TOK' -H 'Content-Type: application/json' '$B/data/users/$U/lvlog' -d '{\"fields\":{\"up\":{\"integerValue\":\"1\"}}}'" 200
+          t "lire l'historique d'un autre compte refusé" "curl -s -o /dev/null -w '%{http_code}' '$B/data/users/$U/lvlog'" 403
+          curl -s -o /dev/null -X DELETE -H "Authorization: Bearer $TOK" "$B/data/users/$U/lvlog"
+          curl -s -o /dev/null -X POST "https://identitytoolkit.googleapis.com/v1/accounts:delete?key=$K" -H 'Content-Type: application/json' -d "{\"idToken\":\"$TOK\"}"; echo "compte d'essai supprimé"
+          [ $ok = 1 ]
