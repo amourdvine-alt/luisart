@@ -239,9 +239,14 @@ service cloud.firestore {
     }
     match /mat/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val'));
-      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid'])) || peut('val');
+      allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val')) && articleValide();
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid']) && articleValide()) || peut('val');
       allow delete: if soi(resource.data.aid) || peut('val');
+    }
+    function articleValide() {
+      return texteCourt('name', 120) && texteCourt('desc', 3000)
+        && (!('imgs' in nouveau()) || (nouveau().imgs is list && nouveau().imgs.size() <= 5))
+        && (!('tiers' in nouveau()) || (nouveau().tiers is list && nouveau().tiers.size() <= 3));
     }
     match /offers/{id} {
       allow read: if true;

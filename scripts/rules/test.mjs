@@ -154,6 +154,11 @@ await t('visiteur : appeler quelqu’un qui a accepté sa demande', oui(setDoc(d
 await t('membre : appeler un autre membre', oui(setDoc(doc(alice, 'calls/c2'), { from: 'alice', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
 await t('visiteur non confirmé : annoncer un live refusé', non(setDoc(doc(inconnu, 'lives/zed'), { host: 'zed', st: 'on', ts: 1 })));
 await t('membre : annoncer son live', oui(setDoc(doc(alice, 'lives/alice'), { host: 'alice', st: 'on', ts: 1 })));
+// Boutique de matériel
+await t('membre : publie un article avec prix par quantité', oui(setDoc(doc(alice, 'mat/ma1'), { aid: 'alice', name: 'Toile', img: 'x', tiers: [{ q: 1, p: 5000 }, { q: 10, p: 4500 }], imgs: ['a', 'b'], ts: 1 })));
+await t('article : plus de 5 photos refusé', non(updateDoc(doc(alice, 'mat/ma1'), { imgs: ['1', '2', '3', '4', '5', '6'] })));
+await t('article : nom de plus de 120 caractères refusé', non(updateDoc(doc(alice, 'mat/ma1'), { name: 'x'.repeat(121) })));
+await t('autre membre : modifier l’article refusé', non(updateDoc(doc(paul, 'mat/ma1'), { name: 'Pirate' })));
 // Paiements et réglages
 await t('membre : enregistrer un paiement refusé', non(setDoc(doc(alice, 'pay/p1'), { uid: 'alice', amt: 3000 })));
 await t('membre : modifier les réglages refusé', non(setDoc(doc(alice, 'cfg/pro'), { pmn: 1 })));
