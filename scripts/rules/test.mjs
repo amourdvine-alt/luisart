@@ -94,6 +94,34 @@ await t('administrateur : supprime la pièce d’identité', oui(deleteDoc(doc(a
 await t('demande Pro : sans donnée d’identité', oui(setDoc(doc(alice, 'proreq/pro_alice'), { uid: 'alice', k: 'pro', st: 'att', ts: now, ty: 'art', pl: 'm', dos: 1 })));
 await t('demande Pro : avec numéro de pièce refusée', non(setDoc(doc(paul, 'proreq/pro_paul'), { uid: 'paul', k: 'pro', st: 'att', pn: 'CI1' })));
 await t('demande Pro : se l’accorder soi-même refusé', non(updateDoc(doc(alice, 'proreq/pro_alice'), { st: 'ok' })));
+// Formations
+await env.withSecurityRulesDisabled(async c => { const d = c.firestore();
+  await setDoc(doc(d, 'courses/cf'), { aid: 'paul', title: 'Gratuit', price: 0, pub: true });
+  await setDoc(doc(d, 'courses/cp'), { aid: 'paul', title: 'Payant', price: 15000, pub: true });
+  await setDoc(doc(d, 'courses/cp/ch/c0'), { t: 'Intro', free: true, vid: 'https://youtu.be/x' });
+  await setDoc(doc(d, 'courses/cp/ch/c1'), { t: 'Secret', free: false, vid: 'https://youtu.be/y' }); });
+await t('compte gratuit : créer une formation refusé', non(setDoc(doc(alice, 'courses/ca'), { aid: 'alice', title: 'Ma formation' })));
+await t('compte Pro : créer une formation', oui(setDoc(doc(paul, 'courses/c2'), { aid: 'paul', title: 'Aquarelle', price: 0 })));
+await t('compte Pro : écrire un chapitre de sa formation', oui(setDoc(doc(paul, 'courses/c2/ch/c0'), { t: 'Intro', vid: 'https://youtu.be/z' })));
+await t('autre : écrire un chapitre refusé', non(setDoc(doc(alice, 'courses/c2/ch/c1'), { t: 'Pirate' })));
+await t('tout le monde : lire la fiche', oui(getDoc(doc(anonyme, 'courses/cp'))));
+await t('visiteur : lire un chapitre en aperçu gratuit', oui(getDoc(doc(anonyme, 'courses/cp/ch/c0'))));
+await t('non-inscrit : lire un chapitre payant refusé', non(getDoc(doc(alice, 'courses/cp/ch/c1'))));
+await t('inscription gratuite acceptée d’office', oui(setDoc(doc(alice, 'enroll/cf_alice'), { c: 'cf', uid: 'alice', aid: 'paul', st: 'ok', prog: [] })));
+await t('formation payante : s’inscrire « accepté » soi-même refusé', non(setDoc(doc(alice, 'enroll/cp_alice'), { c: 'cp', uid: 'alice', aid: 'paul', st: 'ok', prog: [] })));
+await t('formation payante : demande en attente', oui(setDoc(doc(alice, 'enroll/cp_alice'), { c: 'cp', uid: 'alice', aid: 'paul', st: 'att', prog: [] })));
+await t('élève : se valider lui-même refusé', non(updateDoc(doc(alice, 'enroll/cp_alice'), { st: 'ok' })));
+await t('en attente : lire le chapitre payant refusé', non(getDoc(doc(alice, 'courses/cp/ch/c1'))));
+await t('en attente : laisser un avis refusé', non(setDoc(doc(alice, 'cav/cp_alice'), { c: 'cp', uid: 'alice', r: 5 })));
+await t('formateur : accepte l’élève', oui(updateDoc(doc(paul, 'enroll/cp_alice'), { st: 'ok', dts: now })));
+await t('élève accepté : lit le chapitre payant', oui(getDoc(doc(alice, 'courses/cp/ch/c1'))));
+await t('élève : met à jour sa progression', oui(updateDoc(doc(alice, 'enroll/cp_alice'), { prog: [0, 1], last: 1 })));
+await t('élève accepté : laisse un avis', oui(setDoc(doc(alice, 'cav/cp_alice'), { c: 'cp', uid: 'alice', r: 5, t: 'Super' })));
+await t('avis : note hors 1 à 5 refusée', non(setDoc(doc(alice, 'cav/cp_alice'), { c: 'cp', uid: 'alice', r: 9 })));
+await t('avis au nom d’un autre refusé', non(setDoc(doc(paul, 'cav/cp_alice'), { c: 'cp', uid: 'alice', r: 1 })));
+await t('tiers : lire l’inscription refusé', non(getDoc(doc(exp, 'enroll/cp_alice'))));
+await t('formateur : s’inscrire à sa propre formation refusé', non(setDoc(doc(paul, 'enroll/cp_paul'), { c: 'cp', uid: 'paul', aid: 'paul', st: 'att' })));
+await t('autre : modifier la formation refusé', non(updateDoc(doc(alice, 'courses/cp'), { price: 1 })));
 // Paiements et réglages
 await t('membre : enregistrer un paiement refusé', non(setDoc(doc(alice, 'pay/p1'), { uid: 'alice', amt: 3000 })));
 await t('membre : modifier les réglages refusé', non(setDoc(doc(alice, 'cfg/pro'), { pmn: 1 })));
