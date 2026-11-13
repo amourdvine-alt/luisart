@@ -122,6 +122,36 @@ await t('avis au nom d’un autre refusé', non(setDoc(doc(paul, 'cav/cp_alice')
 await t('tiers : lire l’inscription refusé', non(getDoc(doc(exp, 'enroll/cp_alice'))));
 await t('formateur : s’inscrire à sa propre formation refusé', non(setDoc(doc(paul, 'enroll/cp_paul'), { c: 'cp', uid: 'paul', aid: 'paul', st: 'att' })));
 await t('autre : modifier la formation refusé', non(updateDoc(doc(alice, 'courses/cp'), { price: 1 })));
+// Galeries 3D personnelles (comptes Pro)
+const salle = (aid, x) => ({ aid, name: 'Galerie ' + aid, intro: 'Bienvenue', style: 'clair', wall: '', works: ['w6'], pub: true, ts: 1, up: 2, ...(x || {}) });
+await env.withSecurityRulesDisabled(async c => { await setDoc(doc(c.firestore(), 'rooms/exp'), salle('exp')); });
+await t('compte gratuit : créer sa galerie 3D refusé', non(setDoc(doc(alice, 'rooms/alice'), salle('alice'))));
+await t('compte Pro : créer sa galerie 3D', oui(setDoc(doc(paul, 'rooms/paul'), salle('paul'))));
+await t('compte Pro : créer une galerie au nom d’un autre refusé', non(setDoc(doc(paul, 'rooms/alice'), salle('alice'))));
+await t('compte Pro : galerie rangée sous un autre identifiant refusé', non(setDoc(doc(paul, 'rooms/alice'), salle('paul'))));
+await t('Pro expiré : modifier sa galerie refusé', non(updateDoc(doc(exp, 'rooms/exp'), { name: 'Encore là' })));
+await t('Pro expiré : supprimer sa galerie reste permis', oui(deleteDoc(doc(exp, 'rooms/exp'))));
+await t('compte Pro : modifier sa galerie', oui(updateDoc(doc(paul, 'rooms/paul'), { name: 'Atelier Paul', style: 'nuit', wall: '#2c2825', pub: false, up: 3 })));
+await t('galerie : ambiance inconnue refusée', non(updateDoc(doc(paul, 'rooms/paul'), { style: 'pirate' })));
+await t('galerie : nom trop long refusé', non(updateDoc(doc(paul, 'rooms/paul'), { name: 'x'.repeat(61) })));
+await t('galerie : plus de 30 œuvres refusé', non(updateDoc(doc(paul, 'rooms/paul'), { works: Array.from({ length: 31 }, (_, i) => 'w' + i) })));
+await t('galerie : champ imprévu refusé', non(updateDoc(doc(paul, 'rooms/paul'), { vues: 999999 })));
+await t('galerie : changer de propriétaire refusé', non(updateDoc(doc(paul, 'rooms/paul'), { aid: 'alice' })));
+await t('autre membre : modifier la galerie refusé', non(updateDoc(doc(alice, 'rooms/paul'), { name: 'Pirate' })));
+await t('autre membre : supprimer la galerie refusé', non(deleteDoc(doc(alice, 'rooms/paul'))));
+await t('administrateur : masquer une galerie', oui(updateDoc(doc(admin, 'rooms/paul'), { hid: true })));
+await t('propriétaire : lever le masquage refusé', non(updateDoc(doc(paul, 'rooms/paul'), { hid: false })));
+await t('propriétaire : modifier une galerie masquée sans toucher au masquage', oui(updateDoc(doc(paul, 'rooms/paul'), { intro: 'Bonjour', up: 4 })));
+await t('tout le monde : lire une galerie', oui(getDoc(doc(anonyme, 'rooms/paul'))));
+await t('visiteur anonyme : créer une galerie refusé', non(setDoc(doc(inconnu, 'rooms/zed'), salle('zed'))));
+// Photos supplémentaires, appels et lives : pas d'intrusion
+await t('membre : ajoute une photo à sa propre œuvre', oui(setDoc(doc(alice, 'wimg/wa_1'), { wid: 'wa', aid: 'alice', k: 'det', img: 'x', i: 1, ts: 1 })));
+await t('membre : glisser une photo dans l’œuvre d’un autre refusé', non(setDoc(doc(paul, 'wimg/wa_2'), { wid: 'wa', aid: 'paul', k: 'det', img: 'x', i: 2, ts: 1 })));
+await t('membre : déplacer sa photo vers l’œuvre d’un autre refusé', non(updateDoc(doc(alice, 'wimg/wa_1'), { wid: 'wp' })));
+await t('visiteur non confirmé : appeler un inconnu refusé', non(setDoc(doc(inconnu, 'calls/c1'), { from: 'zed', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
+await t('membre : appeler un autre membre', oui(setDoc(doc(alice, 'calls/c2'), { from: 'alice', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
+await t('visiteur non confirmé : annoncer un live refusé', non(setDoc(doc(inconnu, 'lives/zed'), { host: 'zed', st: 'on', ts: 1 })));
+await t('membre : annoncer son live', oui(setDoc(doc(alice, 'lives/alice'), { host: 'alice', st: 'on', ts: 1 })));
 // Paiements et réglages
 await t('membre : enregistrer un paiement refusé', non(setDoc(doc(alice, 'pay/p1'), { uid: 'alice', amt: 3000 })));
 await t('membre : modifier les réglages refusé', non(setDoc(doc(alice, 'cfg/pro'), { pmn: 1 })));

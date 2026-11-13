@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pages d'aperçu pour les liens partagés (WhatsApp, Facebook, Telegram, X, iMessage…).
 
-Pour chaque œuvre, artiste, actualité et exposition visibles dans Luisart, ce robot écrit
+Pour chaque œuvre, artiste, actualité, exposition et galerie 3D personnelle visibles dans Luisart, ce robot écrit
 dans <dossier du site>/p/ une petite page avec le titre, la description et une image
 d'aperçu, puis renvoie le visiteur vers l'application.
 
@@ -203,11 +203,13 @@ def write(out, key, hash_, title, desc, jpg, kind='article'):
             ) % dict(t=e(title), d=e(desc), k=kind, u=e(url), i=e(img), j=json.dumps(app), f=key, v=v, a=e(app))
     open(os.path.join(out, 'p', key + '.html'), 'w', encoding='utf-8').write(page)
 
-def build(out, works, artists, news, expos, now_ms):
+OWNER = 'u_Dhq2ev9lvTkXFSHPlQL2HA'
+
+def build(out, works, artists, news, expos, now_ms, rooms=()):
     A = {a['id']: a for a in artists}
     banned = lambda i: (A.get(i) or {}).get('susp') == -1
     live = lambda x: not x.get('at') or x['at'] <= now_ms
-    n = dict(w=0, a=0, n=0, x=0)
+    n = dict(w=0, a=0, n=0, x=0, g=0)
     jobs = []
     # œuvres
     vis = [w for w in works if re.match(r'^w\d{8,}[A-Za-z0-9_-]*$', w['id']) and live(w) and not w.get('hid') and not w.get('pend') and not w.get('demo') and w.get('aid') in A and not banned(w.get('aid'))]
@@ -253,6 +255,19 @@ def build(out, works, artists, news, expos, now_ms):
         jpg = card(load_img(x.get('cover')), 'Exposition virtuelle', t, [rng, clean(x.get('th'), 120)], '', cta="Voir l'exposition")
         write(out, 'x-' + x['id'], 'x=' + x['id'], t + ' — exposition virtuelle Luisart', clean(' · '.join(v for v in [rng, clean(x.get('th'), 140)] if v) or 'Exposition virtuelle sur Luisart.', 190), jpg); n['x'] += 1
     jobs += [(do_expo, x) for x in expos if SAFE.match(x['id']) and x.get('pub') and not x.get('del') and not x.get('nw')]
+    # galeries 3D personnelles (comptes Pro) : ouvertes au public, non masquées, avec au moins une œuvre visible
+    pro = lambda a: a.get('id') == OWNER or (a.get('pro') is True and (not a.get('proUntil') or a.get('proUntil') > now_ms))
+    def room_works(r):
+        mine = {w['id']: w for w in per.get(r['id'], [])}
+        ids = [i for i in (r.get('works') or []) if isinstance(i, str)]
+        return ([mine[i] for i in ids if i in mine] if ids else sorted(mine.values(), key=lambda w: -(w.get('ts') or 0)))[:30]
+    def do_room(r):
+        a = A[r['id']]; nm = clean(a.get('name') or 'Artiste', 60); ws = room_works(r)
+        t = clean(r.get('name') or 'Galerie ' + nm, 60); cnt = '%d œuvre%s exposée%s en 3D' % (len(ws), 's' if len(ws) > 1 else '', 's' if len(ws) > 1 else '')
+        jpg = card(load_img(ws[0].get('img')), 'Galerie 3D', t, ['par ' + nm, clean(r.get('intro'), 90) or cnt], cnt if r.get('intro') else '', cta='Visiter la galerie')
+        write(out, 'g-' + r['id'], 'g=' + r['id'], '%s — galerie 3D de %s' % (t, nm), clean(clean(r.get('intro'), 150) or cnt + ' : entrez dans la salle, approchez-vous des œuvres.', 190), jpg); n['g'] += 1
+    jobs += [(do_room, r) for r in rooms if SAFE.match(r['id']) and r.get('pub') is True and not r.get('hid') and r['id'] in A and not banned(r['id'])
+             and not A[r['id']].get('demo') and A[r['id']].get('mem') in (None, '', 'ok') and pro(A[r['id']]) and room_works(r)]
     def run(j):
         try: j[0](j[1])
         except Exception as er: print('  ignoré', j[1].get('id'), type(er).__name__, str(er)[:120])
@@ -264,13 +279,13 @@ def main():
     out = sys.argv[1] if len(sys.argv) > 1 else '_site'
     get = lambda c: (coll(c) if True else [])
     data = {}; lus = set()
-    for c in ('artists', 'works', 'news', 'expo'):
+    for c in ('artists', 'works', 'news', 'expo', 'rooms'):
         try: data[c] = get(c); lus.add(c)
         except Exception as er: print('lecture impossible :', c, type(er).__name__, str(er)[:160]); data[c] = []
     try: auto = json.load(open(os.path.join(ROOT, 'data', 'news-auto.json'))).get('items', [])
     except Exception: auto = []
-    n = build(out, data['works'], data['artists'], data['news'] + auto, data['expo'], int(time.time() * 1000))
-    print('pages de partage : %(w)d œuvres, %(a)d artistes, %(n)d actualités, %(x)d expositions' % n)
+    n = build(out, data['works'], data['artists'], data['news'] + auto, data['expo'], int(time.time() * 1000), data['rooms'])
+    print('pages de partage : %(w)d œuvres, %(a)d artistes, %(n)d actualités, %(x)d expositions, %(g)d galeries 3D' % n)
     # témoin lu par l'application : elle n'utilise les liens d'aperçu que si ces pages existent vraiment
     if {'artists', 'works'} <= lus:
         os.makedirs(os.path.join(out, 'p'), exist_ok=True); json.dump({'ok': 1}, open(os.path.join(out, 'p', 'ok.json'), 'w'))

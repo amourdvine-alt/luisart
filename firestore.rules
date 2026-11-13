@@ -196,8 +196,11 @@ service cloud.firestore {
     }
     match /wimg/{id} {
       allow read: if true;
-      allow create: if soi(nouveau().aid);
-      allow update: if soi(resource.data.aid) && inchange('aid');
+      // Photos supplémentaires : uniquement sur ses propres œuvres (sinon n'importe qui pourrait
+      // glisser une image dans la fiche d'un autre artiste).
+      allow create: if soi(nouveau().aid) && membre() && nouveau().wid is string
+        && exists(chemin('works', nouveau().wid)) && get(chemin('works', nouveau().wid)).data.aid == nouveau().aid;
+      allow update: if soi(resource.data.aid) && inchange('aid') && inchange('wid');
       allow delete: if soi(resource.data.aid) || peut('rep');
     }
     match /posts/{id} {
@@ -280,6 +283,25 @@ service cloud.firestore {
         && inscrit(nouveau().c) && nouveau().r is int && nouveau().r >= 1 && nouveau().r <= 5 && texteCourt('t', 1000);
       allow delete: if soi(resource.data.uid) || peut('val');
     }
+    // Galeries 3D personnelles : une salle par artiste (à son identifiant), réservée aux comptes Pro.
+    // Lecture publique : la salle ne contient qu'un nom, une ambiance et une liste d'œuvres déjà publiques.
+    // L'équipe ne peut que masquer une salle (hid) ; son propriétaire ne peut pas lever ce masquage.
+    function salleValide() {
+      return nouveau().keys().hasOnly(['aid', 'name', 'intro', 'style', 'wall', 'works', 'pub', 'ts', 'up', 'hid'])
+        && nouveau().name is string && nouveau().name.size() >= 2 && nouveau().name.size() <= 60
+        && texteCourt('intro', 300) && texteCourt('wall', 7)
+        && nouveau().style in ['clair', 'bois', 'terre', 'nuit']
+        && nouveau().works is list && nouveau().works.size() <= 30
+        && nouveau().pub is bool;
+    }
+    match /rooms/{id} {
+      allow read: if true;
+      allow create: if soi(id) && nouveau().aid == id && (admin() || (comptePro() && membre()))
+        && salleValide() && !nouveau().keys().hasAny(['hid']);
+      allow update: if (soi(id) && inchange('aid') && aucun(['hid']) && (admin() || (comptePro() && membre())) && salleValide())
+                    || (peut('val') && seulement(['hid']) && nouveau().hid is bool);
+      allow delete: if soi(id) || peut('val');
+    }
     // Certificats d'authenticité : vérifiables par tous ; seule l'équipe révoque
     match /certs/{id} {
       allow read: if true;
@@ -315,12 +337,14 @@ service cloud.firestore {
     // ---------------------------------------------- appels audio/vidéo et lives
     match /calls/{id} {
       allow read: if soi(resource.data.from) || soi(resource.data.to);
-      allow create: if soi(nouveau().from);
+      // Même règle que les messages : un visiteur n'appelle pas quelqu'un qui n'a pas accepté sa demande.
+      allow create: if soi(nouveau().from) && nouveau().to is string && nouveau().to != nouveau().from
+        && (membre() || discussionOuverte(nouveau().from, nouveau().to));
       allow update: if (soi(resource.data.from) || soi(resource.data.to)) && inchange('from') && inchange('to');
     }
     match /lives/{id} {
       allow read: if true;
-      allow create, update: if soi(id) && nouveau().get('host', id) == id
+      allow create, update: if soi(id) && membre() && nouveau().get('host', id) == id
         && nouveau().get('guests', []).size() <= 3;
       allow delete: if soi(id);
     }

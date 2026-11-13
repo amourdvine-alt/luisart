@@ -134,6 +134,10 @@ service cloud.firestore {
         || (exists(chemin('dmok', de + '_' + a)) && get(chemin('dmok', de + '_' + a)).data.st in ['att', 'ok'])
         || (!exists(chemin('dmok', a + '_' + de)) && getAfter(chemin('dmok', a + '_' + de)).data.get('st', '') == 'att');
     }
+    function inscrit(c) {
+      return exists(chemin('enroll', c + '_' + request.auth.uid))
+        && get(chemin('enroll', c + '_' + request.auth.uid)).data.st == 'ok';
+    }
     function offreLibre() { return !(resource.data.get('of', null) is map) || resource.data.of.get('st', '') == 'att'; }
     function offreIntacte() {
       return !(resource.data.get('of', null) is map)
@@ -235,6 +239,46 @@ service cloud.firestore {
       allow create: if soi(nouveau().aid) && (nouveau().pend == true || membreValide() || peut('val'));
       allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['pend', 'hid'])) || peut('val');
       allow delete: if soi(resource.data.aid) || peut('val');
+    }
+    // Formations (comptes Pro) : la fiche est publique, le contenu des chapitres
+    // n'est lisible que par le formateur, les inscrits acceptés, ou si le chapitre est en aperçu gratuit
+    match /courses/{id} {
+      allow read: if true;
+      allow create: if soi(nouveau().aid) && (admin() || comptePro())
+        && texteCourt('title', 150) && texteCourt('desc', 8000) && texteCourt('cover', 950000)
+        && !nouveau().keys().hasAny(['hid', 'pend']);
+      allow update: if (soi(resource.data.aid) && inchange('aid') && aucun(['hid', 'pend']) && (admin() || comptePro())
+                        && texteCourt('title', 150) && texteCourt('desc', 8000) && texteCourt('cover', 950000))
+                    || (peut('val') && seulement(['hid', 'pend']));
+      allow delete: if soi(resource.data.aid) || peut('val');
+      match /ch/{c} {
+        allow read: if resource.data.get('free', false) == true || admin()
+          || (exists(chemin('courses', id)) && soi(get(chemin('courses', id)).data.aid))
+          || inscrit(id);
+        allow write: if admin()
+          || (exists(chemin('courses', id)) && get(chemin('courses', id)).data.aid == request.auth.uid && comptePro());
+      }
+    }
+    // Inscriptions : visibles par l'élève et le formateur ; gratuite = acceptée d'office,
+    // payante = en attente de validation par le formateur
+    match /enroll/{e} {
+      allow read: if admin() || soi(resource.data.uid) || soi(resource.data.aid);
+      allow create: if soi(nouveau().uid) && nouveau().c is string && e == nouveau().c + '_' + nouveau().uid
+        && exists(chemin('courses', nouveau().c))
+        && nouveau().aid == get(chemin('courses', nouveau().c)).data.aid
+        && nouveau().aid != nouveau().uid
+        && (nouveau().st == 'att'
+            || (nouveau().st == 'ok' && get(chemin('courses', nouveau().c)).data.get('price', 0) == 0));
+      allow update: if (soi(resource.data.uid) && seulement(['prog', 'last']))
+        || ((soi(resource.data.aid) || admin()) && seulement(['st', 'dts']) && nouveau().st in ['ok', 'no', 'att']);
+      allow delete: if soi(resource.data.uid) || soi(resource.data.aid) || admin();
+    }
+    // Avis sur les formations : seulement par les élèves inscrits et acceptés
+    match /cav/{r} {
+      allow read: if true;
+      allow create, update: if soi(nouveau().uid) && nouveau().c is string && r == nouveau().c + '_' + nouveau().uid
+        && inscrit(nouveau().c) && nouveau().r is int && nouveau().r >= 1 && nouveau().r <= 5 && texteCourt('t', 1000);
+      allow delete: if soi(resource.data.uid) || peut('val');
     }
     // Certificats d'authenticité : vérifiables par tous ; seule l'équipe révoque
     match /certs/{id} {

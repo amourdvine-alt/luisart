@@ -3,7 +3,7 @@
 /* Lien partagé dont la page d'aperçu n'existe pas (encore) : on ouvre quand même le bon contenu dans l'application. */
 (function(){var p=location.pathname,i=p.indexOf('/p/'),base=i>=0?p.slice(0,i+1):'/luisart/',h='';
  if(i>=0){var k=decodeURIComponent(p.slice(i+3)).replace(/\.html$/,''),m;
-  if(/^w\d{8,}[A-Za-z0-9_-]*$/.test(k))h='#'+k;else if((m=k.match(/^([nxal])-([A-Za-z0-9_-]{1,80})$/)))h='#'+m[1]+'='+m[2]}
+  if(/^w\d{8,}[A-Za-z0-9_-]*$/.test(k))h='#'+k;else if((m=k.match(/^([nxalg])-([A-Za-z0-9_-]{1,80})$/)))h='#'+m[1]+'='+m[2]}
  location.replace(base+h)})()
 </script>
 <style>body{margin:0;background:#120f0c;color:#f3ece0;font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;text-align:center;padding:60px 24px}a{color:#d9b26f}</style>

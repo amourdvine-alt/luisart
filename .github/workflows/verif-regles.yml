@@ -22,6 +22,8 @@ jobs:
           t "visiteur non membre : envoyer un message refusé" "curl -s -o /dev/null -w '%{http_code}' -X PATCH -H 'Authorization: Bearer $TOK' -H '$J' '$B/dm/essai_$U' -d '{\"fields\":{\"from\":{\"stringValue\":\"$U\"},\"to\":{\"stringValue\":\"quelquun\"},\"text\":{\"stringValue\":\"Spam\"}}}'" 403
           t "son dossier Pro privé : écrire" "curl -s -o /dev/null -w '%{http_code}' -X PATCH -H 'Authorization: Bearer $TOK' -H '$J' '$B/data/users/$U/kyc' -d '{\"fields\":{\"pn\":{\"stringValue\":\"ESSAI\"}}}'" 200
           t "dossier Pro d'un autre : lire refusé" "curl -s -o /dev/null -w '%{http_code}' '$B/data/users/$U/kyc'" 403
+          t "compte ordinaire : créer une galerie 3D refusé" "curl -s -o /dev/null -w '%{http_code}' -X PATCH -H 'Authorization: Bearer $TOK' -H '$J' '$B/rooms/$U' -d '{\"fields\":{\"aid\":{\"stringValue\":\"$U\"},\"name\":{\"stringValue\":\"Essai\"},\"style\":{\"stringValue\":\"clair\"},\"works\":{\"arrayValue\":{}},\"pub\":{\"booleanValue\":true}}}'" 403
+          t "lecture publique des galeries 3D" "curl -s -o /dev/null -w '%{http_code}' '$B/rooms?pageSize=1'" 200
           curl -s -o /dev/null -X DELETE -H "Authorization: Bearer $TOK" "$B/data/users/$U/kyc"
           curl -s -o /dev/null -X DELETE -H "Authorization: Bearer $TOK" "$B/data/users/$U/lvlog"
           curl -s -o /dev/null -X POST "https://identitytoolkit.googleapis.com/v1/accounts:delete?key=$K" -H 'Content-Type: application/json' -d "{\"idToken\":\"$TOK\"}"; echo "compte d'essai supprimé"
