@@ -67,14 +67,14 @@ final.sort((a, b) => ordre.indexOf(a.cat) - ordre.indexOf(b.cat));
 // Enrichissement : vraie page (si possible), image et description officielles (balises de partage)
 const meta = (h, k) => { const m = h.match(new RegExp(`<meta[^>]+(?:property|name)=["']${k}["'][^>]*>`, 'i')); if (!m) return ''; const c = m[0].match(/content=["']([^"']*)["']/i); return c ? decode(c[1]).trim() : ''; };
 const PLATEFORMES = /fun-mooc\.fr|coursera\.org|edx\.org|openclassrooms\.com|futurelearn\.com|khanacademy\.org|udemy\.com|domestika\.org|skillshare\.com|artexplora\.org|mooc/i;
-async function page(u) { const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
-  try { const r = await fetch(u, { signal: c.signal, redirect: 'follow', headers: { ...UA, accept: 'text/html' } }); if (!r.ok) return null; const h = (await r.text()).slice(0, 400000); return { url: r.url, h }; } catch (e) { return null; } finally { clearTimeout(t); } }
+async function page(u, max = 400000) { const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
+  try { const r = await fetch(u, { signal: c.signal, redirect: 'follow', headers: { ...UA, accept: 'text/html' } }); if (!r.ok) return null; const h = (await r.text()).slice(0, max); return { url: r.url, h }; } catch (e) { return null; } finally { clearTimeout(t); } }
 function gnDecode(u) { try { const m = u.match(/news\.google\.com\/rss\/articles\/([^?]+)/); if (!m) return ''; const b = Buffer.from(m[1].replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('latin1'); const h = b.match(/https?:\/\/[\x21-\x7e]+/); return h ? h[0].replace(/[\x00-\x1f\xa0-\xff].*$/, '') : ''; } catch (e) { return ''; } }
 // Google Actualités : retrouver l'adresse réelle de l'article (méthode « batchexecute »)
 let DIAG = 0;
 async function gnResolve(u) {
   const m = u.match(/news\.google\.com\/(?:rss\/)?articles\/([^?/]+)/); if (!m) return '';
-  try { const id = m[1], p = await page('https://news.google.com/rss/articles/' + id); if (!p) return '';
+  try { const id = m[1], p = await page('https://news.google.com/rss/articles/' + id, 5e6); if (!p) return '';
     const sg = (p.h.match(/data-n-a-sg="([^"]+)"/) || [])[1], ts = (p.h.match(/data-n-a-ts="([^"]+)"/) || [])[1]; if (!DIAG++) console.log('diag Google :', p.url.slice(0, 90), p.h.length, 'sg', !!sg, 'ts', !!ts, p.h.slice(0, 160).replace(/\s+/g, ' ')); if (!sg || !ts) return '';
     const req = [[['Fbv4je', `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${id}",${ts},"${sg}"]`, null, 'generic']]];
     const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
