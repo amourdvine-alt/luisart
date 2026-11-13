@@ -70,9 +70,19 @@ const PLATEFORMES = /fun-mooc\.fr|coursera\.org|edx\.org|openclassrooms\.com|fut
 async function page(u) { const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
   try { const r = await fetch(u, { signal: c.signal, redirect: 'follow', headers: { ...UA, accept: 'text/html' } }); if (!r.ok) return null; const h = (await r.text()).slice(0, 400000); return { url: r.url, h }; } catch (e) { return null; } finally { clearTimeout(t); } }
 function gnDecode(u) { try { const m = u.match(/news\.google\.com\/rss\/articles\/([^?]+)/); if (!m) return ''; const b = Buffer.from(m[1].replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('latin1'); const h = b.match(/https?:\/\/[\x21-\x7e]+/); return h ? h[0].replace(/[\x00-\x1f\xa0-\xff].*$/, '') : ''; } catch (e) { return ''; } }
+// Google Actualités : retrouver l'adresse réelle de l'article (méthode « batchexecute »)
+async function gnResolve(u) {
+  const m = u.match(/news\.google\.com\/(?:rss\/)?articles\/([^?/]+)/); if (!m) return '';
+  try { const id = m[1], p = await page('https://news.google.com/rss/articles/' + id); if (!p) return '';
+    const sg = (p.h.match(/data-n-a-sg="([^"]+)"/) || [])[1], ts = (p.h.match(/data-n-a-ts="([^"]+)"/) || [])[1]; if (!sg || !ts) return '';
+    const req = [[['Fbv4je', `["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"${id}",${ts},"${sg}"]`, null, 'generic']]];
+    const c = new AbortController(), t = setTimeout(() => c.abort(), 12000);
+    try { const r = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', { method: 'POST', signal: c.signal, headers: { ...UA, 'content-type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: 'f.req=' + encodeURIComponent(JSON.stringify(req)) });
+      const txt = await r.text(), j = txt.split('\n\n')[1]; if (!j) return ''; const arr = JSON.parse(j); const inner = JSON.parse(arr[0][2]); return /^https:\/\//.test(inner[1]) ? inner[1] : ''; } finally { clearTimeout(t); }
+  } catch (e) { return ''; } }
 let nImg = 0, nUrl = 0;
 for (let i = 0; i < final.length; i += 6) await Promise.all(final.slice(i, i + 6).map(async x => {
-  let u = x.url; if (/news\.google\.com/.test(u)) { const d = gnDecode(u); if (/^https:\/\//.test(d) && !/google\./.test(d)) u = d; }
+  let u = x.url; if (/news\.google\.com/.test(u)) { const d = gnDecode(u); if (/^https:\/\//.test(d) && !/google\./.test(d)) u = d; else { const r = await gnResolve(u); if (r && !/google\./.test(r)) u = r; } }
   const p = await page(u); if (!p) return; let fin = p.url; if (/news\.google\.com/.test(fin)) { const c = meta(p.h, 'og:url'); if (!/^https:\/\//.test(c) || /google\./.test(c)) return; fin = c; const p2 = await page(fin); if (!p2) return; p.h = p2.h; }
   if (fin !== x.url) { x.url = fin; nUrl++; }
   const img = meta(p.h, 'og:image') || meta(p.h, 'twitter:image'), ds = meta(p.h, 'og:description') || meta(p.h, 'description'), sn = meta(p.h, 'og:site_name');
