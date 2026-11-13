@@ -148,7 +148,9 @@ await t('visiteur anonyme : créer une galerie refusé', non(setDoc(doc(inconnu,
 await t('membre : ajoute une photo à sa propre œuvre', oui(setDoc(doc(alice, 'wimg/wa_1'), { wid: 'wa', aid: 'alice', k: 'det', img: 'x', i: 1, ts: 1 })));
 await t('membre : glisser une photo dans l’œuvre d’un autre refusé', non(setDoc(doc(paul, 'wimg/wa_2'), { wid: 'wa', aid: 'paul', k: 'det', img: 'x', i: 2, ts: 1 })));
 await t('membre : déplacer sa photo vers l’œuvre d’un autre refusé', non(updateDoc(doc(alice, 'wimg/wa_1'), { wid: 'wp' })));
-await t('visiteur non confirmé : appeler un inconnu refusé', non(setDoc(doc(inconnu, 'calls/c1'), { from: 'zed', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
+await t('visiteur non confirmé : appeler un inconnu refusé', non(setDoc(doc(inconnu, 'calls/c1'), { from: 'zed', to: 'exp', kind: 'audio', st: 'ring', ts: 1 })));
+await t('visiteur : appeler quelqu’un qui a refusé sa demande refusé', non(setDoc(doc(inconnu, 'calls/c3'), { from: 'zed', to: 'alice', kind: 'audio', st: 'ring', ts: 1 })));
+await t('visiteur : appeler quelqu’un qui a accepté sa demande', oui(setDoc(doc(inconnu, 'calls/c4'), { from: 'zed', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
 await t('membre : appeler un autre membre', oui(setDoc(doc(alice, 'calls/c2'), { from: 'alice', to: 'paul', kind: 'audio', st: 'ring', ts: 1 })));
 await t('visiteur non confirmé : annoncer un live refusé', non(setDoc(doc(inconnu, 'lives/zed'), { host: 'zed', st: 'on', ts: 1 })));
 await t('membre : annoncer son live', oui(setDoc(doc(alice, 'lives/alice'), { host: 'alice', st: 'on', ts: 1 })));
