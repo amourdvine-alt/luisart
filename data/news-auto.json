@@ -1,12 +1,278 @@
 {
- "updated": "2026-11-13T15:57:12.882Z",
+ "updated": "2026-11-14T05:58:51.391Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 522
+  "read": 517
  },
  "count": 60,
  "items": [
+  {
+   "id": "auto_sth49f",
+   "cat": "Expositions majeures",
+   "title": "La Biennale de Dakar 2026, l’art africain à l’honneur dès le 17 novembre",
+   "sub": "Mondafrique",
+   "text": "La Biennale de Dakar 2026, l’art africain à l’honneur dès le 17 novembre Mondafrique",
+   "date": "À partir du 17 novembre 2026",
+   "deadline": "",
+   "start": "2026-11-17",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://mondafrique.com/loisirs-culture/la-biennale-de-dakar-2026-lart-africain-a-lhonneur-des-le-17-novembre/",
+   "src": "Mondafrique",
+   "img": "https://mondafrique.com/wp-content/uploads/2026/11/Biennale-de-Dakar.jpg",
+   "ts": 1794617162000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_19rsolc",
+   "cat": "Expositions majeures",
+   "title": "Whitney Museum Is Selling a de Kooning Painting Just Three Years After Receiving It",
+   "sub": "ARTnews",
+   "text": "The painting was once owned by the museum's former president, David Solinger.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/whitney-museum-de-kooning-yellow-river-christies-auction-1234805966/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/whitney-de-kooning.png?w=1024",
+   "ts": 1794609416000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_1mq6gi7",
+   "cat": "Expositions majeures",
+   "title": "Former Philadelphia Museum of Art Executive Charged $30K to Company Cards",
+   "sub": "ARTnews",
+   "text": "Latasha Harling, the museum’s former chief people and diversity officer, pleaded guilty to receiving stolen property, averting a trial that had been scheduled for Friday.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/former-philadelphia-museum-executive-credit-card-charges-1234805960/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/03/GettyImages-2247591634.jpg?w=1024",
+   "ts": 1794609338000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_1mjajsb",
+   "cat": "Expositions majeures",
+   "title": "Europol Warns of More Aggressive Museum Heists as Thieves Change Tactics and Targets",
+   "sub": "ARTnews",
+   "text": "Museum thefts have become more brazen, rather than stealthy, and are often executed by low-level criminals chosen on an “ad-hoc” basis.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/europol-warns-of-more-aggressive-museum-heists-thieves-change-tactics-targets-1234805942/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/01/2241979631.jpg?w=1024",
+   "ts": 1794607617000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_xnufau",
+   "cat": "Expositions majeures",
+   "title": "Sotheby’s Hedreen Auction Proceeds Will Repay Loan, Not Fund University Museum: Report",
+   "sub": "ARTnews",
+   "text": "The works are reportedly being sold to pay off a debt secured against the collection — a debt Hedreen says stands between him and fulfilling his pledge to Seattle University.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/sothebys-hedreen-auction-proceeds-will-repay-loan-not-fund-university-museum-report-1234805958/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/09/Cecily-Brown-Untitled-Shipwreck.jpg?w=1024",
+   "ts": 1794605763000,
+   "auto": 1,
+   "_score": 4.9
+  },
+  {
+   "id": "auto_c7cczj",
+   "cat": "Événements",
+   "title": "At NYC’s ADAA Art Fair, Unlimited Shrimp and $2K Diebenkorns",
+   "sub": "Hyperallergic",
+   "text": "The Art Dealers Association of America’s chummy five-day show returns to the Upper East Side after quietly canceling last fall’s edition.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/at-nycs-adaa-art-fair-unlimited-shrimp-and-2k-diebenkorns/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_9796.jpeg",
+   "ts": 1794604839000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1yngxyx",
+   "cat": "Art mondial",
+   "title": "45% of US Independent Arts Publications Face Existential Crisis, Report Finds",
+   "sub": "Hyperallergic",
+   "text": "In addition to declining funding, the survey identified a disturbing correlation between censorship concerns and financial precarity.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/45-of-us-independent-arts-publications-face-existential-crisis-report-finds/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Untitled-1-3.jpg",
+   "ts": 1794604636000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_bqht39",
+   "cat": "Art mondial",
+   "title": "The Secret Life of Hockney's Beverly Hills Housewife",
+   "sub": "Hyperallergic",
+   "text": "Taking David Hockney’s painting of arts patron Betty Freeman as his subject, James Cahill tells the engrossing story of two friends who shaped the cultural landscape of 1960s Los Angeles.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-secret-life-of-hockneys-beverly-hills-housewife/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/hockney-freeman-with-painting-1.jpg",
+   "ts": 1794603084000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_l5ghic",
+   "cat": "Art mondial",
+   "title": "The Alchemical Possibilities of an Artist-Poet Collaboration",
+   "sub": "Hyperallergic",
+   "text": "Four decades later, El Museo del Barrio restages Papo Colo's text-and-image show \"Octopus and Others.\"",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/the-alchemical-possibilities-of-an-artist-poet-collaboration/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/260803_EmDB_OctopusandOthers_Install_G1_01-Main-1-1.jpg",
+   "ts": 1794602034000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_187tkkr",
+   "cat": "Art mondial",
+   "title": "The ADAA Fair Is Back, and Sometimes Smaller Really Is Better",
+   "sub": "ARTnews",
+   "text": "After a controversial yearlong hiatus, the ADAA Fair returned to the Park Avenue Armory with a smaller footprint, strong early sales, and a welcome emphasis on actually looking at art.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/adaa-fair-2026-best-booths-sales-new-york-1234805934/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/LAL0015_HR_detail.jpg?w=400",
+   "ts": 1794601638000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1kovmz2",
+   "cat": "Art mondial",
+   "title": "Botanical Artists Show Us What We Stand to Lose",
+   "sub": "Hyperallergic",
+   "text": "Works at the American Society of Botanical Artists' annual exhibition radiate with majesty, and the intricate sumptuousness is agonizing.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/botanical-artists-show-us-what-we-stand-to-lose/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/x-herron_white-violets.jpg",
+   "ts": 1794599576000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_1e5tjtp",
+   "cat": "Expositions majeures",
+   "title": "Seven Museums to Host Solo Exhibitions Celebrating Wolf Kahn’s Centennial",
+   "sub": "Hyperallergic",
+   "text": "Museums in Germany, New York, and Vermont are among those to honor the late abstract landscape painter next year.",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/seven-museums-to-host-solo-exhibitions-celebrating-wolf-kahns-centennial/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Hot-Summer--1990.-Credit-to-the-Wolf-Kahn-Foundation.jpg",
+   "ts": 1794595544000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_p6pcft",
+   "cat": "Art mondial",
+   "title": "Archéologie : en Alsace, une rare nécropole du Ve siècle livre des tombes de guerriers germaniques aux épées et aux parures d’or ornées de…",
+   "sub": "Connaissance des Arts",
+   "text": "Lors d’une fouille préventive menée à Horbourg-Wihr dans le Haut-Rhin, près de Colmar, des archéologues ont mis au jour les vestiges d’un quartier de la ville gallo-romaine ainsi que de riches sépultures humaines et animales. Cet ensemble funéraire exceptionnel du Ve siècle apporte un éclairage nouveau sur l’histoire de l’Alsace, entre la fin de l’Empire romain et l’époque mérovingienne. Cet article Archéologie : en…",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/monuments-patrimoine/archeologie/archeologie-en-alsace-une-rare-necropole-du-ve-siecle-livre-des-tombes-de-guerriers-germaniques-aux-epees-et-aux-parures-dor-ornees-de-grenats-11218456/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_tombe-alsace_10-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794592807000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_lntnav",
+   "cat": "Art mondial",
+   "title": "Avec son sapin ailé et ses vitrines colorées, Castelbajac secoue les traditionnels décors de Noël des Galeries Lafayette",
+   "sub": "Beaux Arts Magazine",
+   "text": "Cette année, le grand magasin du boulevard Haussmann a confié ses vitrines de fin d’année …",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/grand-format/avec-son-sapin-aile-et-ses-vitrines-colorees-castelbajac-secoue-les-traditionnels-decors-de-noel-des-galeries-lafayette/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/uneau-coeur-de-noel-par-jean-charles-de-castelbajac-aux-galeries-lafayette-grand-sapin-1300x975.jpg",
+   "ts": 1794585602000,
+   "auto": 1,
+   "_score": 5.4
+  },
   {
    "id": "auto_17ny2of",
    "cat": "Art mondial",
@@ -24,7 +290,26 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_vente_encheres_hilma_af_klimt_bukowskis_2-tt-width-653-height-842-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794582030000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
+  },
+  {
+   "id": "auto_f6cgya",
+   "cat": "Nouveautés",
+   "title": "Ghanaian artist Rita Mawuena Benissan wins 2026 Sovereign African Art Prize",
+   "sub": "Bizcommunity",
+   "text": "Ghanaian artist Rita Mawuena Benissan wins 2026 Sovereign African Art Prize Bizcommunity",
+   "date": "Publié le 13 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.bizcommunity.com/article/ghanaian-artist-rita-mawuena-benissan-wins-2026-sovereign-african-art-prize-962674a",
+   "src": "Bizcommunity",
+   "img": "https://biz-file.com/c/2611/827816-1200x624.jpg?5",
+   "ts": 1794575177000,
+   "auto": 1,
+   "_score": 7.8
   },
   {
    "id": "auto_pi2qit",
@@ -43,7 +328,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une11_fernand_khnopff_des_caresses_1896-1300x975.jpg",
    "ts": 1794571207000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.3
   },
   {
    "id": "auto_19l40e4",
@@ -59,29 +344,10 @@
    "country": "Côte d'Ivoire",
    "link": "https://www.aip.ci/aip-anna-alix-koffi-veut-retablir-le-passage-de-basquiat-en-cote-divoire-dans-lhistoire-de-lart-contemporain-interview/",
    "src": "AIP - Agence Ivoirienne de Presse",
-   "img": "",
-   "ts": 1794569850000,
+   "img": "https://www.aip.ci/wp-content/uploads/2026/11/Directrice-de-creation-Anna-Alex-Koffi.jpg",
+   "ts": 1794570345000,
    "auto": 1,
-   "_score": 16
-  },
-  {
-   "id": "auto_f6cgya",
-   "cat": "Nouveautés",
-   "title": "Ghanaian artist Rita Mawuena Benissan wins 2026 Sovereign African Art Prize",
-   "sub": "Bizcommunity",
-   "text": "Ghanaian artist Rita Mawuena Benissan wins 2026 Sovereign African Art Prize Bizcommunity",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.bizcommunity.com/article/ghanaian-artist-rita-mawuena-benissan-wins-2026-sovereign-african-art-prize-962674a",
-   "src": "Bizcommunity",
-   "img": "https://biz-file.com/c/2611/827816-1200x624.jpg?5",
-   "ts": 1794567625000,
-   "auto": 1,
-   "_score": 7.9
+   "_score": 15.8
   },
   {
    "id": "auto_jkou9c",
@@ -100,7 +366,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/unekinoe-no-komatsu-1300x975.jpg",
    "ts": 1794567603000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_148jjmm",
@@ -119,7 +385,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/moma-2021-june-1-1.jpg",
    "ts": 1794567600000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1jkf4j5",
@@ -138,7 +404,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_hs-planque-oc_cezanne-tt-width-653-height-535-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794565049000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1q6ajkt",
@@ -157,7 +423,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/Marisa-Merz-GAM-Allestimenti-ph-Perottino-061.jpg?w=400",
    "ts": 1794564000000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 3.9
   },
   {
    "id": "auto_122zcr4",
@@ -176,26 +442,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une15876.raw_-1300x975.jpg",
    "ts": 1794560401000,
    "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_8457ey",
-   "cat": "Art mondial",
-   "title": "Nicolas Flamel : la légende de l’alchimiste qui cachait le fabuleux destin d’un investisseur dans l’immobilier",
-   "sub": "Beaux Arts Magazine",
-   "text": "Entre pierre philosophale et saga d’Harry Potter, l’exposition « Nicolas Flamel, alchimiste de papier » …",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/nicolas-flamel-la-legende-de-lalchimiste-qui-cachait-le-fabuleux-destin-dun-investisseur-dans-limmobilier/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une13-1300x975.jpg",
-   "ts": 1794549625000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_5s6g3x",
@@ -214,7 +461,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_expo_paris_jacquemart_andre_vallotton_autoportrait-tt-width-653-height-824-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794549603000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_m5dx8t",
@@ -233,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_4667.jpg",
    "ts": 1794528098000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_uaqvs8",
@@ -252,26 +499,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Untitled-1-2.jpg",
    "ts": 1794523577000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1rj1jqr",
-   "cat": "Art mondial",
-   "title": "How to Free the Art World From Its Neoliberal Capture",
-   "sub": "Hyperallergic",
-   "text": "In “The Battleground of Art,” curator and activist Marco Baravalle dissects the art establishment's co-optation of radical politics and uplifts the stories of collectives that resist it.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/how-to-free-the-art-world-from-its-neoliberal-capture/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/stenciling_8954-1280.jpg",
-   "ts": 1794520929000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_1ayat7c",
@@ -290,7 +518,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/blue-wave-2.jpg",
    "ts": 1794517518000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_15u5nhb",
@@ -309,7 +537,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-564034069.jpg?w=1024",
    "ts": 1794516871000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 3.3
   },
   {
    "id": "auto_zyjzpu",
@@ -328,64 +556,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2074367135.jpg?w=1024",
    "ts": 1794512945000,
    "auto": 1,
-   "_score": 4.8
-  },
-  {
-   "id": "auto_3uqs6c",
-   "cat": "Art mondial",
-   "title": "« Tout est simple, presque pauvre » : les toiles envoûtantes de Yu Nishimura à savourer dans une exposition gratuite à Paris",
-   "sub": "Connaissance des Arts",
-   "text": "Virtuoses, les peintures silencieuses du Japonais sacrent la fragilité des choses ordinaires et la splendide impermanence du monde. Cet article « Tout est simple, presque pauvre » : les toiles envoûtantes de Yu Nishimura à savourer dans une exposition gratuite à Paris est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/art-contemporain/tout-est-simple-presque-pauvre-les-toiles-envoutantes-de-yu-nishimura-a-savourer-dans-une-exposition-gratuite-a-paris-11218381/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_nishimura_1-tt-width-653-height-976-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794510036000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_geccg0",
-   "cat": "Expositions majeures",
-   "title": "Newark Museum Is Latest Art Institution to Transfer Ownership of David Drake Vessel",
-   "sub": "ARTnews",
-   "text": "The museum said that it was the first to reach out to Drake's descendants, rather than the other way around.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/newark-museum-of-art-david-drake-ownership-transfer-1234805709/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/David-Drake.jpg?w=1000",
-   "ts": 1794506279000,
-   "auto": 1,
-   "_score": 3.4
-  },
-  {
-   "id": "auto_1kg821s",
-   "cat": "Art mondial",
-   "title": "$160,000 Hans Arp Sculpture Stolen From Art Cologne",
-   "sub": "Hyperallergic",
-   "text": "“S’élevant (Rising)” (1962) was snatched from Gallery Ludorff's booth on November 8.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-08",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/160-000-hans-arp-sculpture-stolen-from-art-cologne/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Hans-Arp_Sich-aufrichtend--S-----levant-_1962_---VG-Bild-Kunst--Bonn---LUDORFF-2026-2-1.jpg",
-   "ts": 1794505132000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 3.3
   },
   {
    "id": "auto_7r3ah",
@@ -404,64 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_orsay_legray-tt-width-653-height-497-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794501688000,
    "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1jpw7a5",
-   "cat": "Art mondial",
-   "title": "Hiroshi Sato’s Art Against Enshittification",
-   "sub": "Hyperallergic",
-   "text": "“Insincere ironic detachment is abundant,” the Bay Area artist told Hyperallergic. “What is niche now are sincere depictions of the present.”",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/hiroshi-satos-art-against-enshittification/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_1709.JPG",
-   "ts": 1794501000000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_2lim03",
-   "cat": "Art mondial",
-   "title": "Celebrate Indigenous Cinema and Storytelling with Free Films",
-   "sub": "Hyperallergic",
-   "text": "Available for only two weeks, this curated selection of 14 Indigenous films features stories of resilience, inspiration, and hope.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/celebrate-indigenous-cinema-and-storytelling-with-free-short-films/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Remaining-Native_3.399.1--1-.png",
-   "ts": 1794500685000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_7qe022",
-   "cat": "Art mondial",
-   "title": "Rembrandt’s “Night Watch” Is Alive!",
-   "sub": "Hyperallergic",
-   "text": "The Dutch masterpiece is teeming with microbes, and scientists hope this invisible life will be a key to unlocking some of the painting’s mysteries.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/rembrandts-night-watch-is-alive/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/ARTIS-en-Rijksmuseum---De-Nachtwacht-Leeft--14.----ARTIS--Niels-de-Vries.jpg.jpg",
-   "ts": 1794497400000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1j1fj7n",
@@ -480,7 +594,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneraisina-hill-hemis_2f8k6th-1300x975.jpg",
    "ts": 1794491693000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_yh7dsq",
@@ -499,7 +613,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vue_expo_suzanne_husky_bordeaux-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794483483000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_69ncdh",
@@ -518,7 +632,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/rb1200.jpg",
    "ts": 1794433421000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 3.6
   },
   {
    "id": "auto_kwthlc",
@@ -537,7 +651,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasetp26_pn-saumon_coiffe-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794420030000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_cdssao",
@@ -556,26 +670,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une9m2a9352-1300x975.jpg",
    "ts": 1794398430000,
    "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_x7br8e",
-   "cat": "Nouveautés",
-   "title": "Prize dedicated to African women artists expands to Senegal and announces 2026 winners",
-   "sub": "The Art Newspaper",
-   "text": "Prize dedicated to African women artists expands to Senegal and announces 2026 winners The Art Newspaper",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.theartnewspaper.com/2026/11/11/prize-dedicated-to-african-women-artists-expands-to-senegal-announces-2026-winners",
-   "src": "The Art Newspaper",
-   "img": "https://cdn.sanity.io/images/cxgd3urn/production/0e446b3e940485a30025e8d1e7693475166c86b5-3500x2625.jpg?rect=0,263,3500,2100&w=1200&h=720&q=85&fit=crop&auto=format",
-   "ts": 1794395515000,
-   "auto": 1,
-   "_score": 4.7
+   "_score": 3.5
   },
   {
    "id": "auto_lqwhiw",
@@ -594,7 +689,7 @@
    "img": "https://biz-file.com/c/2611/827522-1200x624.jpg?5",
    "ts": 1794394067000,
    "auto": 1,
-   "_score": 5.7
+   "_score": 4.2
   },
   {
    "id": "auto_eofum9",
@@ -613,7 +708,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_egypte_orleans_1-tt-width-653-height-416-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794384045000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_8atkzm",
@@ -632,7 +727,7 @@
    "img": "https://images.ladepeche.fr/api/v1/images/view/6af321cf213d2eeec8059d55/hd/image.jpg?v=1",
    "ts": 1794375420000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 5.9
   },
   {
    "id": "auto_yp8m06",
@@ -651,26 +746,7 @@
    "img": "https://assets.ladepeche.fr/img/lazy_standard.jpg?9931565c",
    "ts": 1794370440000,
    "auto": 1,
-   "_score": 2.9
-  },
-  {
-   "id": "auto_hcx860",
-   "cat": "Expositions majeures",
-   "title": "Des trésors photographiques inédits de Gustave Le Gray dans une exposition au musée d’Orsay",
-   "sub": "Beaux Arts Magazine",
-   "text": "Au musée d’Orsay, l’exposition « Gustave Le Gray. Peintre photographe » éclaire le parcours de …",
-   "date": "Publié le 10 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/des-tresors-photographiques-inedits-de-gustave-le-gray-dans-une-exposition-au-musee-dorsay/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une08.-limperatrice-eugenie-1300x975.jpg",
-   "ts": 1794330052000,
-   "auto": 1,
-   "_score": 3.4
+   "_score": 1.4
   },
   {
    "id": "auto_1m0owcm",
@@ -689,7 +765,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7531.jpg",
    "ts": 1794326400000,
    "auto": 1,
-   "_score": 3.3
+   "_score": 1.8
   },
   {
    "id": "auto_1wmpk3z",
@@ -708,26 +784,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": 6.6
-  },
-  {
-   "id": "auto_16z1lvz",
-   "cat": "Nouveautés",
-   "title": "« Les tableaux, on ne les possède pas » : Élisabeth Bauchet-Bouhlal, mécène de l’art marocain",
-   "sub": "Connaissance des Arts",
-   "text": "Voilà soixante ans qu’Élisabeth Bauchet-Bouhlal vit à Marrakech, à la tête de l’Es Saadi, hôtel de luxe fondé par ses parents et devenu avec le temps l’écrin de sa collection d’art marocain actuel. Cet article « Les tableaux, on ne les possède pas » : Élisabeth Bauchet-Bouhlal, mécène de l’art marocain est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 9 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/les-tableaux-on-ne-les-possede-pas-elisabeth-bauchet-bouhlal-mecene-de-lart-marocain-11218237/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_bauchet-bulhal_3-tt-width-653-height-419-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794204022000,
-   "auto": 1,
-   "_score": 3.2
+   "_score": 7.9
   },
   {
    "id": "auto_vlqvi4",
@@ -746,7 +803,7 @@
    "img": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/02/01161949/Sanwo-Olu-67.jpg",
    "ts": 1794169152000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.6
   },
   {
    "id": "auto_1c6mlwy",
@@ -765,7 +822,7 @@
    "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
    "ts": 1794104692000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_wlshmv",
@@ -784,7 +841,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 7.1
   },
   {
    "id": "auto_8cffwa",
@@ -803,7 +860,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": -12.5
+   "_score": 6.8
   },
   {
    "id": "auto_d2qklt",
@@ -822,7 +879,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -18.3
+   "_score": -19.8
   },
   {
    "id": "auto_clenpc",
@@ -841,7 +898,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -20.8
+   "_score": -22.3
   },
   {
    "id": "auto_1q1lpb8",
@@ -860,7 +917,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -28.6
+   "_score": -30.1
   },
   {
    "id": "auto_19xs21b",
@@ -879,7 +936,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -26.8
+   "_score": -28.3
   },
   {
    "id": "auto_lwnbzz",
@@ -898,7 +955,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -22.6
+   "_score": -24.1
   },
   {
    "id": "auto_yn4tnc",
@@ -917,7 +974,7 @@
    "img": "",
    "ts": 1793343600000,
    "auto": 1,
-   "_score": 4.4
+   "_score": 4.3
   },
   {
    "id": "auto_5rdh82",
@@ -936,7 +993,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -31
+   "_score": -32.5
   },
   {
    "id": "auto_jzywik",
@@ -955,7 +1012,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
    "ts": 1793257200000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5
   },
   {
    "id": "auto_1370snd",
@@ -974,45 +1031,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -31.3
-  },
-  {
-   "id": "auto_1yyc40p",
-   "cat": "Nouveautés",
-   "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
-   "sub": "RFI",
-   "text": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer» RFI",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20261024-sitor-senghor-akaa-les-artistes-africains-dans-les-grandes-galeries-occidentales-continuent-%C3%A0-y-%C3%AAtre-et-%C3%A0-prosp%C3%A9rer",
-   "src": "RFI",
-   "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
-   "ts": 1792911600000,
-   "auto": 1,
-   "_score": 3.2
-  },
-  {
-   "id": "auto_1ljysmw",
-   "cat": "Nouveautés",
-   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
-   "sub": "Africa News Agency",
-   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
-   "date": "Publié le 25 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://africa-news-agency.com/akaa-2026-quand-lart-contemporain-africain-reinvente-les-recits-culturels/",
-   "src": "Africa News Agency",
-   "img": "",
-   "ts": 1792911600000,
-   "auto": 1,
-   "_score": 3.2
+   "_score": -32.8
   },
   {
    "id": "auto_row3aj",
@@ -1034,25 +1053,6 @@
    "_score": 11
   },
   {
-   "id": "auto_1x0gubd",
-   "cat": "Expositions majeures",
-   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art",
-   "sub": "Middle East Online",
-   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art Middle East Online",
-   "date": "Publié le 19 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://middle-east-online.com/en/erruas-bouhchichi-take-part-dakar-biennale-contemporary-african-art",
-   "src": "Middle East Online",
-   "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
-   "ts": 1792393200000,
-   "auto": 1,
-   "_score": 3
-  },
-  {
    "id": "auto_qehbx7",
    "cat": "Vernissages locaux",
    "title": "Paul Kodjo : Photoromance, l’exposition photo qui raconte Abidjan au Palais de Tokyo",
@@ -1069,7 +1069,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -48.2
+   "_score": -49.7
   },
   {
    "id": "auto_d3k04k",
@@ -1088,7 +1088,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -26.5
+   "_score": -28
   },
   {
    "id": "auto_1nd0yc1",
@@ -1126,7 +1126,7 @@
    "img": "",
    "ts": 1791183600000,
    "auto": 1,
-   "_score": -17
+   "_score": -18.5
   },
   {
    "id": "auto_1eqhp6e",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -30.5
+   "_score": -32
   }
  ]
 }
