@@ -4835,7 +4835,7 @@ function museIsland(){const R=64,CZ=-14,goldL=new THREE.MeshBasicMaterial({color
  /* jardins de palmiers */
  const P=[];const free=(x,z)=>!(Math.abs(x)<16&&z>-36&&z<26)&&!(Math.abs(x)<5.5&&z>0)&&!(Math.abs(x)<31&&z>-50&&z<1.5)&&!(Math.abs(x)<27&&z>-1&&z<25)&&!WINGS.some(([,,,x0,x1,z0,z1])=>x>x0-3&&x<x1+3&&z>z0-3&&z<z1+3)&&Math.hypot(x,z-CZ)<R-8&&!(Math.abs(x)<23&&Math.abs(z-6)<3)&&!(Math.abs(x)<5&&Math.abs(z-FZ)<6);
  for(let i=0;i<64;i++){const a=i/64*Math.PI*2,r=R-9.5+rnd(-1,1),x=Math.cos(a)*r,z=CZ+Math.sin(a)*r;if(!(Math.abs(x)<7&&z>0))P.push([x,z,rnd(7,10)])}
- for(const z of[26,32,38,44])for(const sx of[-1,1])P.push([sx*6.4,z,rnd(6.5,8.5)]);
+ for(const z of[40,46])for(const sx of[-1,1])P.push([sx*6.4,z,rnd(6.5,8.5)]);
  for(let i=0;i<220&&P.length<150;i++){const x=rnd(-R,R),z=CZ+rnd(-R,R);if(free(x,z))P.push([x,z,rnd(6,9.5)])}
  palms(P);
  /* massifs et éclairages de jardin */
@@ -4850,30 +4850,16 @@ function bMusee(){MU.doors=[];MOB=[];HANG.length=0;const H1=6,H2=7,H3=5,H4=4,X=1
  for(const x of[-5,5]){cyl(.06,.08,3.4,M(0x111111,.5,{metalness:.6}),x,1.7,7.5,10);const gl=new THREE.Mesh(new THREE.SphereGeometry(.22,16,12),new THREE.MeshBasicMaterial({color:0xffe2a8}));gl.position.set(x,3.5,7.5);Sc.add(gl)}
  box(8,.16,2.2,M(0xe9e4da,.7),0,.08,1.6);box(8,.16,1.2,M(0xe9e4da,.7),0,.24,1.1,true);
  /* enveloppe */
- const ex=M(0xffffff,.85,{map:plasterT('#f1ece4',[6,2])}),stn=M(0xffffff,.5,{map:stoneT([3,2])}),wl=M(0xffffff,.95,{map:plasterT('#e6e1d9',[4,1.4])}),blue=M(NB,.55,{metalness:.3});
+ const ex=M(0xf2eee6,.85),stn=M(0xffffff,.5,{map:stoneT([3,2])}),wl=M(0xffffff,.95,{map:plasterT('#e6e1d9',[4,1.4])}),blue=M(NB,.55,{metalness:.3});
  wall('z',0,-X,X,8,ex,[[-3,3,4.6]]);
  wall('x',-X,ZB,0,8,ex);wall('x',X,ZB,0,8,ex);wall('z',ZB,-X,X,8,ex);
- /* façade : bloc de pierre sombre, enseigne dorée, lames de bois, fresque */
- box(29,.5,1.2,stn,0,8.95,.3);box(29.2,.08,1.3,goldM(),0,8.68,.3,false);
- box(12.4,4.8,1.4,stn,0,7.1,.75);{const fr=goldM();box(11.6,.05,.06,fr,0,9.2,1.47,false);box(11.6,.05,.06,fr,0,5.1,1.47,false);for(const x of[-5.8,5.8])box(.05,4.15,.06,fr,x,7.15,1.47,false)}
- const lgM=new THREE.MeshStandardMaterial({map:logoTex(),roughness:.35,metalness:.25,emissive:0x2a1a08});const ld=new THREE.Mesh(new THREE.CircleGeometry(.6,64),lgM);ld.position.set(0,8.35,1.49);Sc.add(ld);
- for(const [r,t] of[[.64,.045],[.74,.018]]){const rg=new THREE.Mesh(new THREE.TorusGeometry(r,t,12,96),goldM());rg.position.set(0,8.35,1.5);Sc.add(rg)}
- const st=goldTxt('SAINTÉ',2048,420,300,58),sd=goldTxt('SAINTÉ',2048,420,300,58,1);
- const nmB=plane(9.8,2,new THREE.MeshBasicMaterial({map:sd,transparent:true,depthWrite:false}),.03,6.93,1.475);nmB.receiveShadow=false;
- const nm=plane(9.8,2,new THREE.MeshBasicMaterial({map:st,transparent:true,depthWrite:false}),0,6.97,1.49);nm.receiveShadow=false;
- const gt=plane(6.2,.6,new THREE.MeshBasicMaterial({map:goldTxt('GALERIE D’ART',2048,200,120,34),transparent:true,depthWrite:false}),0,5.78,1.49);gt.receiveShadow=false;
- for(const sx of[-1,1])box(1.1,.025,.03,goldM(),sx*3.75,5.78,1.49,false);
- const halo=new THREE.Mesh(new THREE.PlaneGeometry(11,3.6),new THREE.MeshBasicMaterial({map:CT(512,256,(g,w,h)=>{const r=g.createRadialGradient(w/2,h/2,10,w/2,h/2,w/2);r.addColorStop(0,'rgba(255,190,110,.22)');r.addColorStop(1,'rgba(255,190,110,0)');g.fillStyle=r;g.fillRect(0,0,w,h)}),transparent:true,depthWrite:false}));halo.position.set(0,7.1,1.46);Sc.add(halo);
- for(const sx of[-4.6,4.6]){const sp=new THREE.SpotLight(0xffd7a0,.9,7,Math.PI/6,.7,1.4);sp.position.set(sx,4.95,2.6);sp.target.position.set(sx*.4,8,1.4);Sc.add(sp,sp.target)}
- box(10.4,.35,3.6,stn,0,4.85,1.9);const dlm=new THREE.MeshBasicMaterial({color:0xffe1a8});for(let x=-4.4;x<=4.41;x+=1.1)for(const z of[.8,2.9]){const d=new THREE.Mesh(new THREE.CircleGeometry(.09,12),dlm);d.rotation.x=Math.PI/2;d.position.set(x,4.66,z);Sc.add(d)}
- box(3.4,9.2,1.3,stn,-12.2,4.6,.6);const mw=plane(2.6,4.4,new THREE.MeshBasicMaterial({map:motsT(),transparent:true,depthWrite:false}),-12.2,5,1.27);mw.receiveShadow=false;
- const wood=M(0xffffff,.55,{map:woodT([1,3])});for(let x=-9.8;x<=-6.4;x+=.55)box(.22,8.2,.5,wood,x,4.1,.32);
- const strip=new THREE.MeshBasicMaterial({color:0xffcf8a});box(3.4,.06,.08,strip,-12.2,.12,1.3,false);box(10,.05,.06,strip,0,.05,3.6,false);
- box(4.6,8.6,1.1,ex,10.8,4.3,.5);box(4.8,.4,1.3,stn,10.8,8.75,.5);
- {const fw=W.find(w=>w.img&&w.cat==='Peinture')||W.find(w=>w.img);const mp=plane(3.8,7,M(0x8a5a2b,.7),10.8,4.3,1.07);mp.receiveShadow=false;if(fw)TL().load(fw.img,t=>{t.encoding=THREE.sRGBEncoding;t.anisotropy=AN();const ar=t.image.width/t.image.height,tr=3.8/7;if(ar>tr){t.repeat.set(tr/ar,1);t.offset.set((1-tr/ar)/2,0)}else{t.repeat.set(1,ar/tr);t.offset.set(0,(1-ar/tr)/2)}mp.material=new THREE.MeshStandardMaterial({map:t,roughness:.7,emissive:0xffffff,emissiveMap:t,emissiveIntensity:.18});mp.material.needsUpdate=true})}
- for(const x of[8.7,12.9])box(.08,7.2,.1,goldM(),x,4.3,1.1,false);box(4.3,.08,.1,goldM(),10.8,.7,1.1,false);box(4.3,.08,.1,goldM(),10.8,7.9,1.1,false);
- for(const [x,z] of[[-6,4.6],[6,4.6]]){box(1,1,1,stn,x,.5,z);const b2=new THREE.Mesh(new THREE.IcosahedronGeometry(.62,1),M(0x2f5a30,.9));b2.position.set(x,1.4,z);b2.castShadow=true;Sc.add(b2)}
- for(const x of[-14.5,14.5]){const ul=new THREE.SpotLight(0xffc98a,1.1,14,Math.PI/5,.6,1.2);ul.position.set(x,.3,4);ul.target.position.set(x*.75,7,0);Sc.add(ul,ul.target)}
+ /* façade */
+ box(28.6,1.4,.5,blue,0,8.1,.1);const bd=plane(11,1.2,new THREE.MeshStandardMaterial({map:bandT(),roughness:.5,emissive:0xffffff,emissiveIntensity:.08,emissiveMap:bandT()}),0,8.1,.37);
+ for(let x=-13.2;x<=13.2;x+=1.2){if(Math.abs(x)<3.6)continue;box(.08,7.6,.28,goldM(),x,3.8,.3,false)}
+ box(8.4,.25,3,blue,0,4.95,1.3);box(8.4,.06,.06,goldM(),0,4.82,2.8,false);
+ const ld=new THREE.Mesh(new THREE.CircleGeometry(.85,64),new THREE.MeshStandardMaterial({map:logoTex(),roughness:.45,metalness:.2}));ld.position.set(0,5.95,1.0);Sc.add(ld);
+ const rg=new THREE.Mesh(new THREE.TorusGeometry(.88,.045,16,80),goldM());rg.position.copy(ld.position);Sc.add(rg);ld.position.z=.2;rg.position.z=.2;
+ 
  /* entrée vitrée */
  const glass=new THREE.MeshStandardMaterial({color:0x9fb7c9,roughness:.05,metalness:.6,transparent:true,opacity:.28,depthWrite:false});
  for(const s of[-1,1]){const d=box(1.5,4.3,.06,glass,s*.75,2.15,0,false);d.receiveShadow=false;const fr=box(.06,4.3,.1,goldM(),s*1.5,2.15,0,false);MU.doors.push({o:d,x0:s*.75,s})}
