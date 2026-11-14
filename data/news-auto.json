@@ -1,18 +1,94 @@
 {
- "updated": "2026-11-14T05:58:51.391Z",
+ "updated": "2026-11-14T15:48:21.990Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 517
+  "read": 515
  },
  "count": 60,
  "items": [
   {
+   "id": "auto_e3mis0",
+   "cat": "Art mondial",
+   "title": "« Ils l’ont retrouvé… dans une pomme » : 100 ans après son vol rocambolesque, le Diamant rose dévoile ses secrets au château de Chantilly",
+   "sub": "Connaissance des Arts",
+   "text": "À l’occasion du centenaire du vol du Diamant rose, le château de Chantilly révèle les secrets de l’une des pierres les plus célèbres du monde dans une exposition inédite. Cet article « Ils l’ont retrouvé… dans une pomme » : 100 ans après son vol rocambolesque, le Diamant rose dévoile ses secrets au château de Chantilly est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 14 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/ils-lont-retrouve-dans-une-pomme-100-ans-apres-son-vol-rocambolesque-le-diamant-rose-devoile-ses-secrets-au-chateau-de-chantilly-11218391/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_grand_conde_diamant1-tt-width-653-height-830-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794657656000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1i6uv1c",
+   "cat": "Art mondial",
+   "title": "Photo : Catherine Opie révèle la lumière infinie de la Norvège dans une exposition envoûtante",
+   "sub": "Connaissance des Arts",
+   "text": "Qu’elle photographie une campagne Gucci ou la cabane d’un pêcheur, l’Américaine militante lesbienne témoigne de ce qui fait culture commune. Cet article Photo : Catherine Opie révèle la lumière infinie de la Norvège dans une exposition envoûtante est apparu en premier sur Connaissance des Arts .",
+   "date": "Publié le 14 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/arts-expositions/photographie/photo-catherine-opie-revele-la-lumiere-infinie-de-la-norvege-dans-une-exposition-envoutante-11218471/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_opie_4-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794646815000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_17aap8h",
+   "cat": "Art mondial",
+   "title": "Comment la photographie raconte les villes au travail : deux expositions à découvrir absolument à Saint-Étienne",
+   "sub": "Beaux Arts Magazine",
+   "text": "Des mines aux usines, des paysages urbains aux scènes de la vie quotidienne, la photographie …",
+   "date": "Publié le 14 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/expos/comment-la-photographie-raconte-les-villes-au-travail-deux-expositions-a-decouvrir-absolument-a-saint-etienne/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/une12-1-1300x975.jpg",
+   "ts": 1794636054000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_a6ywip",
+   "cat": "Art mondial",
+   "title": "« Rompre l’isolement » : loin du mythe du créateur solitaire, comment 500 tiers-lieux réinventent l’artisanat d’art en France",
+   "sub": "Connaissance des Arts",
+   "text": "Depuis quelques années, des artisans d’art choisissent d’intégrer des tiers-lieux afin de mutualiser des espaces et des machines. Souvent une réponse à des contraintes financières, ce choix est aussi un moyen d’expérimenter la puissance du collectif. Cet article « Rompre l’isolement » : loin du mythe du créateur solitaire, comment 500 tiers-lieux réinventent l’artisanat d’art en France est apparu en premier sur…",
+   "date": "Publié le 14 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.connaissancedesarts.com/metiers_art/artisan-art/rompre-lisolement-loin-du-mythe-du-createur-solitaire-comment-500-tiers-lieux-reinventent-lartisanat-dart-en-france-11217179/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_enquete_tiers_lieux_chateau_noiseau-tt-width-653-height-1161-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1794636051000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
    "id": "auto_sth49f",
    "cat": "Expositions majeures",
-   "title": "La Biennale de Dakar 2026, l’art africain à l’honneur dès le 17 novembre",
+   "title": "Coup d’envoi le 17 novembre de la Biennale de Dakar 2026",
    "sub": "Mondafrique",
-   "text": "La Biennale de Dakar 2026, l’art africain à l’honneur dès le 17 novembre Mondafrique",
+   "text": "Coup d’envoi le 17 novembre de la Biennale de Dakar 2026 Mondafrique",
    "date": "À partir du 17 novembre 2026",
    "deadline": "",
    "start": "2026-11-17",
@@ -24,7 +100,7 @@
    "img": "https://mondafrique.com/wp-content/uploads/2026/11/Biennale-de-Dakar.jpg",
    "ts": 1794617162000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_19rsolc",
@@ -43,7 +119,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/whitney-de-kooning.png?w=1024",
    "ts": 1794609416000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1mq6gi7",
@@ -62,7 +138,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/03/GettyImages-2247591634.jpg?w=1024",
    "ts": 1794609338000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_1mjajsb",
@@ -81,7 +157,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/01/2241979631.jpg?w=1024",
    "ts": 1794607617000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_xnufau",
@@ -100,7 +176,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/09/Cecily-Brown-Untitled-Shipwreck.jpg?w=1024",
    "ts": 1794605763000,
    "auto": 1,
-   "_score": 4.9
+   "_score": 4.8
   },
   {
    "id": "auto_c7cczj",
@@ -119,7 +195,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_9796.jpeg",
    "ts": 1794604839000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1yngxyx",
@@ -138,7 +214,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Untitled-1-3.jpg",
    "ts": 1794604636000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_bqht39",
@@ -157,7 +233,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/hockney-freeman-with-painting-1.jpg",
    "ts": 1794603084000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_l5ghic",
@@ -176,7 +252,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/260803_EmDB_OctopusandOthers_Install_G1_01-Main-1-1.jpg",
    "ts": 1794602034000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_187tkkr",
@@ -195,7 +271,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/LAL0015_HR_detail.jpg?w=400",
    "ts": 1794601638000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1kovmz2",
@@ -214,7 +290,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/x-herron_white-violets.jpg",
    "ts": 1794599576000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_1e5tjtp",
@@ -233,7 +309,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Hot-Summer--1990.-Credit-to-the-Wolf-Kahn-Foundation.jpg",
    "ts": 1794595544000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_p6pcft",
@@ -252,7 +328,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_tombe-alsace_10-tt-width-653-height-490-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794592807000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_lntnav",
@@ -271,7 +347,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneau-coeur-de-noel-par-jean-charles-de-castelbajac-aux-galeries-lafayette-grand-sapin-1300x975.jpg",
    "ts": 1794585602000,
    "auto": 1,
-   "_score": 5.4
+   "_score": 5.3
   },
   {
    "id": "auto_17ny2of",
@@ -290,7 +366,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_vente_encheres_hilma_af_klimt_bukowskis_2-tt-width-653-height-842-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794582030000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_f6cgya",
@@ -309,26 +385,7 @@
    "img": "https://biz-file.com/c/2611/827816-1200x624.jpg?5",
    "ts": 1794575177000,
    "auto": 1,
-   "_score": 7.8
-  },
-  {
-   "id": "auto_pi2qit",
-   "cat": "Art mondial",
-   "title": "Sans occulter le pillage colonial, le Petit Palais nous plonge dans le bouillonnement créatif de Bruxelles en 1900",
-   "sub": "Beaux Arts Magazine",
-   "text": "Des tableaux de James Ensor aux architectures Art nouveau de Victor Horta, en passant par …",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/sans-occulter-le-pillage-colonial-le-petit-palais-nous-plonge-dans-le-bouillonnement-creatif-de-bruxelles-en-1900/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une11_fernand_khnopff_des_caresses_1896-1300x975.jpg",
-   "ts": 1794571207000,
-   "auto": 1,
-   "_score": 5.3
+   "_score": 7.7
   },
   {
    "id": "auto_19l40e4",
@@ -347,83 +404,7 @@
    "img": "https://www.aip.ci/wp-content/uploads/2026/11/Directrice-de-creation-Anna-Alex-Koffi.jpg",
    "ts": 1794570345000,
    "auto": 1,
-   "_score": 15.8
-  },
-  {
-   "id": "auto_jkou9c",
-   "cat": "Art mondial",
-   "title": "L’audace tentaculaire des shunga, ces estampes et peintures érotiques japonaises, dans une expo à Paris",
-   "sub": "Beaux Arts Magazine",
-   "text": "Restés longtemps cachés par pudeur, les shunga – estampes et peintures japonaises érotiques – sortent …",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/expos/laudace-tentaculaire-des-shunga-ces-estampes-et-peintures-erotiques-japonaises-dans-une-expo-a-paris/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unekinoe-no-komatsu-1300x975.jpg",
-   "ts": 1794567603000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_148jjmm",
-   "cat": "Art mondial",
-   "title": "A Toolkit for a Liberated Art World",
-   "sub": "Hyperallergic",
-   "text": "Amin Husain and Nitasha Dhillon on Marco Baravalle’s new book, plus Jasmine Wahi on the continued fight for arts and culture after the midterm elections.",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/a-toolkit-for-a-liberated-art-world/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/moma-2021-june-1-1.jpg",
-   "ts": 1794567600000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1jkf4j5",
-   "cat": "Art mondial",
-   "title": "Degas, Cezanne, Picasso, Dubuffet : les chefs-d’œuvre de l’art moderne réunis par Jean Planque",
-   "sub": "Connaissance des Arts",
-   "text": "De Cézanne à l’art brut, la collection de Jean Planque dessine un parcours personnel à travers les grands mouvements de l’art moderne. Cet article Degas, Cezanne, Picasso, Dubuffet : les chefs-d’œuvre de l’art moderne réunis par Jean Planque est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/art-moderne/degas-cezanne-picasso-dubuffet-les-chefs-doeuvre-de-lart-moderne-reunis-par-jean-planque-11218400/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_hs-planque-oc_cezanne-tt-width-653-height-535-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794565049000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1q6ajkt",
-   "cat": "Expositions majeures",
-   "title": "How Does an Artist Know When She’s Done? A Major Marisa Merz Retrospective Turns the Question on Its Head",
-   "sub": "ARTnews",
-   "text": "Three venues in Turin honor Arte Povera’s only woman.",
-   "date": "Publié le 13 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-in-america/aia-reviews/marisa-merz-arte-povera-turin-retrospective-1234805723/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Marisa-Merz-GAM-Allestimenti-ph-Perottino-061.jpg?w=400",
-   "ts": 1794564000000,
-   "auto": 1,
-   "_score": 3.9
+   "_score": 14.3
   },
   {
    "id": "auto_122zcr4",
@@ -442,7 +423,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/une15876.raw_-1300x975.jpg",
    "ts": 1794560401000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.2
   },
   {
    "id": "auto_5s6g3x",
@@ -461,7 +442,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_expo_paris_jacquemart_andre_vallotton_autoportrait-tt-width-653-height-824-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794549603000,
    "auto": 1,
-   "_score": 5.3
+   "_score": 5.1
   },
   {
    "id": "auto_m5dx8t",
@@ -480,7 +461,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_4667.jpg",
    "ts": 1794528098000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_uaqvs8",
@@ -499,7 +480,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Untitled-1-2.jpg",
    "ts": 1794523577000,
    "auto": 1,
-   "_score": 5.2
+   "_score": 5.1
   },
   {
    "id": "auto_1ayat7c",
@@ -518,45 +499,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/blue-wave-2.jpg",
    "ts": 1794517518000,
    "auto": 1,
-   "_score": 5.2
-  },
-  {
-   "id": "auto_15u5nhb",
-   "cat": "Expositions majeures",
-   "title": "Lorna Simpson Wins $105,000 Wolfgang Hahn Prize",
-   "sub": "ARTnews",
-   "text": "The award supports the acquisition of work by Cologne's Museum Ludwig.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/lorna-simpson-2027-wolfgang-hahn-prize-1234805680/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-564034069.jpg?w=1024",
-   "ts": 1794516871000,
-   "auto": 1,
-   "_score": 3.3
-  },
-  {
-   "id": "auto_zyjzpu",
-   "cat": "Expositions majeures",
-   "title": "Vienna Actionism Museum to Cease Exhibition Program Following Controversial Otto Muehl Show",
-   "sub": "ARTnews",
-   "text": "Museum shareholders said in a statement that the “justified moral condemnation” of Muehl now overshadows his artistic legacy.",
-   "date": "Publié le 12 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/vienna-actionism-museum-ceases-exhibition-program-1234805741/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-2074367135.jpg?w=1024",
-   "ts": 1794512945000,
-   "auto": 1,
-   "_score": 3.3
+   "_score": 5.1
   },
   {
    "id": "auto_7r3ah",
@@ -575,7 +518,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_orsay_legray-tt-width-653-height-497-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794501688000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_1j1fj7n",
@@ -594,7 +537,7 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/uneraisina-hill-hemis_2f8k6th-1300x975.jpg",
    "ts": 1794491693000,
    "auto": 1,
-   "_score": 5.1
+   "_score": 5
   },
   {
    "id": "auto_yh7dsq",
@@ -613,26 +556,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/10/cda26_vue_expo_suzanne_husky_bordeaux-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794483483000,
    "auto": 1,
-   "_score": 5.1
-  },
-  {
-   "id": "auto_69ncdh",
-   "cat": "Expositions majeures",
-   "title": "Piecing Together Romare Bearden’s Life",
-   "sub": "Hyperallergic",
-   "text": "The best part of the new documentary about the famed artist is watching people interact with his work.",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/piecing-together-romare-beardens-life/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/rb1200.jpg",
-   "ts": 1794433421000,
-   "auto": 1,
-   "_score": 3.6
+   "_score": 5
   },
   {
    "id": "auto_kwthlc",
@@ -651,26 +575,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasetp26_pn-saumon_coiffe-tt-width-653-height-870-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794420030000,
    "auto": 1,
-   "_score": 4.9
-  },
-  {
-   "id": "auto_cdssao",
-   "cat": "Événements",
-   "title": "À la rencontre d’un artiste de l’illusion, le peintre en décors Frantz Wehrlé",
-   "sub": "Beaux Arts Magazine",
-   "text": "Il recrée des décors patrimoniaux, transforme des cloisons sans qualité en murs de pierres, de …",
-   "date": "Publié le 11 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/reportages/a-la-rencontre-dun-artiste-de-lillusion-le-peintre-en-decors-frantz-wehrle/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une9m2a9352-1300x975.jpg",
-   "ts": 1794398430000,
-   "auto": 1,
-   "_score": 3.5
+   "_score": 3.4
   },
   {
    "id": "auto_lqwhiw",
@@ -689,7 +594,7 @@
    "img": "https://biz-file.com/c/2611/827522-1200x624.jpg?5",
    "ts": 1794394067000,
    "auto": 1,
-   "_score": 4.2
+   "_score": 2.7
   },
   {
    "id": "auto_eofum9",
@@ -708,7 +613,7 @@
    "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_exposition_egypte_orleans_1-tt-width-653-height-416-fill-0-crop-0-bgcolor-eeeeee.jpg",
    "ts": 1794384045000,
    "auto": 1,
-   "_score": 4.8
+   "_score": 3.3
   },
   {
    "id": "auto_8atkzm",
@@ -727,7 +632,7 @@
    "img": "https://images.ladepeche.fr/api/v1/images/view/6af321cf213d2eeec8059d55/hd/image.jpg?v=1",
    "ts": 1794375420000,
    "auto": 1,
-   "_score": 5.9
+   "_score": 4.4
   },
   {
    "id": "auto_yp8m06",
@@ -746,7 +651,7 @@
    "img": "https://assets.ladepeche.fr/img/lazy_standard.jpg?9931565c",
    "ts": 1794370440000,
    "auto": 1,
-   "_score": 1.4
+   "_score": -0.1
   },
   {
    "id": "auto_1m0owcm",
@@ -765,7 +670,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7531.jpg",
    "ts": 1794326400000,
    "auto": 1,
-   "_score": 1.8
+   "_score": 0.3
   },
   {
    "id": "auto_1wmpk3z",
@@ -784,7 +689,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_vlqvi4",
@@ -803,7 +708,7 @@
    "img": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/02/01161949/Sanwo-Olu-67.jpg",
    "ts": 1794169152000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.5
   },
   {
    "id": "auto_1c6mlwy",
@@ -822,7 +727,7 @@
    "img": "https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/Art-cover-pix-1.jpg",
    "ts": 1794104692000,
    "auto": 1,
-   "_score": 6.5
+   "_score": 6.4
   },
   {
    "id": "auto_wlshmv",
@@ -841,7 +746,7 @@
    "img": "",
    "ts": 1793974790000,
    "auto": 1,
-   "_score": 7.1
+   "_score": 7
   },
   {
    "id": "auto_8cffwa",
@@ -860,7 +765,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
   },
   {
    "id": "auto_d2qklt",
@@ -879,7 +784,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -19.8
+   "_score": -21.3
   },
   {
    "id": "auto_clenpc",
@@ -898,7 +803,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -22.3
+   "_score": -23.8
   },
   {
    "id": "auto_1q1lpb8",
@@ -917,7 +822,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -30.1
+   "_score": -31.6
   },
   {
    "id": "auto_19xs21b",
@@ -936,7 +841,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -28.3
+   "_score": -29.8
   },
   {
    "id": "auto_lwnbzz",
@@ -955,7 +860,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -24.1
+   "_score": -25.6
   },
   {
    "id": "auto_yn4tnc",
@@ -974,7 +879,7 @@
    "img": "",
    "ts": 1793343600000,
    "auto": 1,
-   "_score": 4.3
+   "_score": 4.2
   },
   {
    "id": "auto_5rdh82",
@@ -993,7 +898,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -32.5
+   "_score": -34
   },
   {
    "id": "auto_jzywik",
@@ -1012,7 +917,7 @@
    "img": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
    "ts": 1793257200000,
    "auto": 1,
-   "_score": 5
+   "_score": 4.9
   },
   {
    "id": "auto_1370snd",
@@ -1031,7 +936,64 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -32.8
+   "_score": -34.3
+  },
+  {
+   "id": "auto_1yyc40p",
+   "cat": "Nouveautés",
+   "title": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer»",
+   "sub": "RFI",
+   "text": "Sitor Senghor (AKAA): «Les artistes africains dans les grandes galeries occidentales continuent à y être et à prospérer» RFI",
+   "date": "Publié le 25 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20261024-sitor-senghor-akaa-les-artistes-africains-dans-les-grandes-galeries-occidentales-continuent-%C3%A0-y-%C3%AAtre-et-%C3%A0-prosp%C3%A9rer",
+   "src": "RFI",
+   "img": "https://s.rfi.fr/media/display/2e9bef56-cff5-11f1-8771-4b25c96ec90e/w:1280/p:16x9/sitor-senghor-photo.jpg",
+   "ts": 1792911600000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
+   "id": "auto_1ljysmw",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels",
+   "sub": "Africa News Agency",
+   "text": "AKAA 2026 : quand l’art contemporain africain réinvente les récits culturels Africa News Agency",
+   "date": "Publié le 25 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://africa-news-agency.com/akaa-2026-quand-lart-contemporain-africain-reinvente-les-recits-culturels/",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792911600000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
+   "id": "auto_17o96cx",
+   "cat": "Nouveautés",
+   "title": "AKAA 2026 : quand l'art contemporain d'Afrique et de sa diaspora se conjugue au féminin en cinq œuvres",
+   "sub": "franceinfo",
+   "text": "AKAA 2026 : quand l'art contemporain d'Afrique et de sa diaspora se conjugue au féminin en cinq œuvres franceinfo",
+   "date": "Publié le 25 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.franceinfo.fr/culture/arts-expos/art-contemporain/akaa-2026-quand-l-art-contemporain-d-afrique-et-de-sa-diaspora-se-conjugue-au-feminin-en-cinq-uvres_8252521.html",
+   "src": "franceinfo",
+   "img": "https://www.franceinfo.fr/pictures/p2x_f1LuoyK5KyGeBav9mKcn-fk/0x184:4134x2510/1500x843/2026/10/25/6add2aa132c47261469640.jpg",
+   "ts": 1792911600000,
+   "auto": 1,
+   "_score": 3
   },
   {
    "id": "auto_row3aj",
@@ -1053,6 +1015,63 @@
    "_score": 11
   },
   {
+   "id": "auto_1x0gubd",
+   "cat": "Expositions majeures",
+   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art",
+   "sub": "Middle East Online",
+   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art Middle East Online",
+   "date": "Publié le 19 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://middle-east-online.com/en/erruas-bouhchichi-take-part-dakar-biennale-contemporary-african-art",
+   "src": "Middle East Online",
+   "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
+   "ts": 1792393200000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
+   "id": "auto_6e41j6",
+   "cat": "Nouveautés",
+   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
+   "sub": "Africa News Agency",
+   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://africa-news-agency.com/contemporary-art-in-london-african-modernism-reclaims-its-place-in-art-history/",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792226088000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
+   "id": "auto_qspgid",
+   "cat": "Expositions majeures",
+   "title": "Modernists brought into the mix at 1-54 Contemporary African art fair",
+   "sub": "The Art Newspaper",
+   "text": "Modernists brought into the mix at 1-54 Contemporary African art fair The Art Newspaper",
+   "date": "Publié le 16 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.theartnewspaper.com/2026/10/16/modernists-brought-into-the-mix-by-1-54-contemporary-african-art-fair",
+   "src": "The Art Newspaper",
+   "img": "https://cdn.sanity.io/images/cxgd3urn/production/52a09504576affe79d75fd7b4895ab3c24cd615d-616x850.jpg?rect=0,240,616,370&w=1200&h=720&q=85&fit=crop&auto=format",
+   "ts": 1792134000000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
    "id": "auto_qehbx7",
    "cat": "Vernissages locaux",
    "title": "Paul Kodjo : Photoromance, l’exposition photo qui raconte Abidjan au Palais de Tokyo",
@@ -1069,7 +1088,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -49.7
+   "_score": -51.2
   },
   {
    "id": "auto_d3k04k",
@@ -1088,7 +1107,7 @@
    "img": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2026/10/cote-divoire-a-la-decouverte-de-la-galerie-jacobleu-le-nouveau-coeur-battant-de-lart-a-abidjan.jpg?fit=1200%2C675&ssl=1",
    "ts": 1791529200000,
    "auto": 1,
-   "_score": -28
+   "_score": -29.5
   },
   {
    "id": "auto_1nd0yc1",
@@ -1110,25 +1129,6 @@
    "_score": 4
   },
   {
-   "id": "auto_eyy2sp",
-   "cat": "Appels à candidatures",
-   "title": "Open Call: Grants for Creative and Artistic Practitioners - fundsforNGOs",
-   "sub": "fundsforNGOs - Grants and Resources for Sustainability",
-   "text": "Open Call: Grants for Creative and Artistic Practitioners fundsforNGOs - Grants and Resources for Sustainability",
-   "date": "Publié le 5 octobre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www2.fundsforngos.org/individuals/open-call-grants-for-creative-and-artistic-practitioners/",
-   "src": "fundsforNGOs - Grants and Resources for Sustainability",
-   "img": "",
-   "ts": 1791183600000,
-   "auto": 1,
-   "_score": -18.5
-  },
-  {
    "id": "auto_1eqhp6e",
    "cat": "Appels à candidatures",
    "title": "Résidence artistique : l’appel à candidatures au Alserkal arts ouvert jusqu'au 1er janvier 2020",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -32
+   "_score": -33.5
   }
  ]
 }
