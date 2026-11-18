@@ -258,7 +258,7 @@ async function enrichImages(items, previous) {
 const FORM_HOSTS = /(submittable\.com|callforentry\.org|forms\.gle|docs\.google\.com\/forms|typeform\.com|jotform\.|airtable\.com\/(shr|app)|zealous\.co|smapply\.|fluxx\.io|artcall\.org|entrythingy\.com|formstack\.com|wufoo\.com|cognitoforms\.com|tally\.so|hsforms\.|forms\.office\.com|forms\.microsoft\.com|surveymonkey\.|survey\.alchemer|fillout\.com|paperform\.co|kizeoforms|framaforms|culture\.gouv\.fr\/.*demarche|demarches-simplifiees\.fr|mapado|eventbrite\.[a-z.]+\/e\/|opencall\.|apply\.)/i;
 const APPLY_TXT = /(apply now|apply here|apply online|apply today|submit (your )?(application|proposal|work|entry)|application form|start (your )?application|^\s*apply\s*$|^\s*submit\s*$|enter now|^\s*register\s*$|postuler|candidater|je candidate|deposer (ma|votre|une) candidature|formulaire|dossier de candidature|s'?inscrire|inscription en ligne|telecharger le dossier)/;
 const APPLY_URL = /\/(apply|application|applications|candidature|candidatures|postuler|submit|submission|submissions|inscription|register|entry|entries|form|formulaire)(\/|\?|#|$|-|\.)/i;
-const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:|\/help\/|\/support\/|\/faq)/i;
+const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:|\/help\/|\/support\/|\/faq|zoom\.us|teams\.microsoft|meet\.google|webinar|calendar)/i;
 function findApply(html, base) {
   let best = null, bs = 0; const host = (() => { try { return new URL(base).host; } catch { return ''; } })();
   const re = /<a\b([^>]*?)href\s*=\s*["']?([^"' >]+)["']?([^>]*)>([\s\S]*?)<\/a>/gi; let m, idx = 0;
@@ -301,6 +301,7 @@ async function resolveApply(it, html, pageUrl) {
     if (org) { const deep = await deeper(org); ap = deep || org; }
   }
   if (!ap && /artrabbit/i.test(it.src || '')) ap = it.link;   // lien « Apply » donné par ArtRabbit
+  ap = String(ap || '').trim(); it.link = String(it.link || '').trim();
   if (ap && ap !== it.link || (ap && /artrabbit/i.test(it.src || ''))) it.apply = ap;
 }
 
