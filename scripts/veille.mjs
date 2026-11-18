@@ -323,6 +323,8 @@ async function main() {
   // On garde les anciennes encore valides si une source tombe en panne
   for (const p of previous) {
     if (p.deadline && Date.parse(p.deadline) < NOW - DAY) continue;
+    p.title = String(p.title || '').replace(/^\s*\[(news|projects|actualites?)\]\s*/i, '');
+    if (p.cat === 'Appels à candidatures' && has(norm(p.title), W.perf) && !has(norm(p.title), W.visual)) continue;
     if (p.cat === 'Appels à candidatures' && (!p.deadline || has(norm(p.title + ' ' + p.text), W.notCall) || has(norm(p.title + ' ' + p.text), W.closed))) continue;
     if (p.end && Date.parse(p.end) < NOW - DAY) continue;
     if (!p.deadline && NOW - (p.ts || 0) > MAX_AGE_DAYS * DAY) continue;
