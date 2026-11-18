@@ -310,14 +310,14 @@ async function resolveApply(it, html, pageUrl) {
     if (p && CLOSED.test(p.html)) return null;
     if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u, ft: p ? tOf(p.html) : '' }; }
     if (!p) return null;
-    const f = formIn(p.html, p.url); if (f) return { kind: 'form', url: f, ft: tOf(p.html) };
+    const f = formIn(p.html, p.url); if (f) { if (FORM_HOSTS.test(f) && f !== u) return judge(f, 0); return { kind: 'form', url: f, ft: tOf(p.html) }; }
     if (depth > 0) for (const c of applyLinks(p.html, p.url).slice(0, 3)) { const r = await judge(c.url, depth - 1); if (r && r.kind !== 'section') return r; }
     const sec = p.html.match(/\bid\s*=\s*["']((?:how-to-)?(?:apply|application|candidature|postuler|comment-postuler|submission|submit)[\w-]*)["']/i);
     if (sec) { try { const x = new URL(p.url); x.hash = sec[1]; return { kind: 'section', url: x.href }; } catch {} }
     return null;
   };
   let best = null;
-  const own = formIn(html, pageUrl); if (own) best = { kind: 'form', url: own };
+  const own = formIn(html, pageUrl); if (own) best = FORM_HOSTS.test(own) ? await judge(own, 0) : { kind: 'form', url: own, ft: tOf(html) };
   if (!best) for (const c of applyLinks(html, pageUrl).slice(0, 3)) { const r = await judge(c.url, 1); if (r && (!best || best.kind === 'section')) best = r; if (best && best.kind !== 'section') break; }
   // site relais (On the Move…) : on va sur le site de l'organisateur
   if (!best && it._dedic) {
