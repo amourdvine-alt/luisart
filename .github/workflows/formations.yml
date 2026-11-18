@@ -1,0 +1,29 @@
+name: Veille formations en art
+on:
+  schedule:
+    - cron: '41 4 * * 1,4'   # lundi et jeudi vers 4 h 41 (heure d'Abidjan)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: formations
+  cancel-in-progress: false
+jobs:
+  formations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Chercher les formations
+        run: node scripts/formations.mjs
+      - name: Enregistrer
+        run: |
+          git config user.name "Luisart Veille"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/formations-auto.json
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Veille : formations du $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

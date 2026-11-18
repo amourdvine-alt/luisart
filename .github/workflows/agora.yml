@@ -1,0 +1,30 @@
+name: Laissez-passer des lives (Agora)
+on:
+  schedule:
+    - cron: '3,23,43 * * * *'
+  workflow_dispatch: {}
+permissions: { contents: read }
+concurrency: { group: agora, cancel-in-progress: false }
+jobs:
+  jetons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: cd scripts/agora && npm init -y >/dev/null && npm i --no-audit --no-fund firebase-admin@12 agora-token@2 playwright@1.47.2 agora-rtc-sdk-ng@4.22.0 >/dev/null
+      - env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          AGORA_APP_ID: ${{ secrets.AGORA_APP_ID }}
+          AGORA_APP_CERT: ${{ secrets.AGORA_APP_CERT }}
+        run: NODE_PATH=scripts/agora/node_modules node scripts/agora/tokens.cjs
+      - name: Essai réel d'un live (seulement en lancement manuel)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          AGORA_APP_ID: ${{ secrets.AGORA_APP_ID }}
+          AGORA_APP_CERT: ${{ secrets.AGORA_APP_CERT }}
+        run: |
+          cd scripts/agora && npx playwright install --with-deps chrome >/dev/null && cd ../..
+          NODE_PATH=scripts/agora/node_modules F=$(node -e "const d='$PWD/scripts/agora/node_modules/agora-rtc-sdk-ng/',p=require(d+'package.json');console.log(d+(typeof p.browser=='string'?p.browser:p.main))"); echo "SDK : $F"
+          PWCH=chrome NODE_PATH=scripts/agora/node_modules node scripts/agora/e2e.cjs "$F"

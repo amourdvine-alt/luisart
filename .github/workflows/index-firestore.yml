@@ -1,0 +1,21 @@
+name: Créer l'index Firestore du robot de candidature
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Créer l'index « cand / st » (portée groupe de collections)
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/sa.json
+          gcloud auth activate-service-account --key-file=/tmp/sa.json --quiet
+          TOKEN=$(gcloud auth print-access-token)
+          BODY='{"indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"st","order":"ASCENDING"}]},{"queryScope":"COLLECTION","fields":[{"fieldPath":"st","order":"DESCENDING"}]},{"queryScope":"COLLECTION","fields":[{"fieldPath":"st","arrayConfig":"CONTAINS"}]},{"queryScope":"COLLECTION_GROUP","fields":[{"fieldPath":"st","order":"ASCENDING"}]}]}}'
+          CODE=$(curl -s -o /tmp/r.json -w '%{http_code}' -X PATCH -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' \
+            "https://firestore.googleapis.com/v1/projects/luisart-21e0b/databases/(default)/collectionGroups/cand/fields/st?updateMask=indexConfig" -d "$BODY")
+          echo "Réponse : $CODE"; head -c 400 /tmp/r.json; echo
+          if [ "$CODE" = 200 ]; then echo "Index demandé : il sera prêt dans quelques minutes."; else echo "::warning::Création refusée ($CODE) : créez l'index depuis la console Firebase."; fi
+          rm -f /tmp/sa.json

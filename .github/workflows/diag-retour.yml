@@ -1,0 +1,15 @@
+name: Diagnostic boutons retour
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: cd scripts/diag && npm init -y >/dev/null && npm i --no-audit --no-fund playwright@1.47.2 >/dev/null && npx playwright install --with-deps chromium >/dev/null
+      - run: NODE_PATH=scripts/diag/node_modules node scripts/diag/retour.cjs
+      - uses: actions/upload-artifact@v4
+        with: { name: captures, path: 'retour-*.png', retention-days: 3 }

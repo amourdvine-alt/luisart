@@ -1,0 +1,59 @@
+name: Gardien des robots
+# Surveille les autres robots : les réactive s'ils ont été désactivés, relance ceux qui ont échoué
+# ou qui sont en retard, et ouvre un signalement (e-mail GitHub au propriétaire) si la panne persiste.
+on:
+  schedule:
+    - cron: '52 */4 * * *' # toutes les 4 heures
+  workflow_dispatch: {}
+permissions: { actions: write, issues: write, contents: read }
+concurrency: { group: gardien, cancel-in-progress: false }
+jobs:
+  garde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      R: ${{ github.repository }}
+    steps:
+      - name: Contrôler et relancer
+        run: |
+          # robot : retard maximal toléré depuis la dernière réussite (en heures)
+          ROBOTS="agora.yml:3 deploy.yml:3 candidature.yml:3 veille.yml:30 formations.yml:110"
+          now=$(date +%s); relance=""; : > rapport.txt
+          # 1. réactiver tout robot désactivé (GitHub coupe les horaires après une longue inactivité)
+          gh api "repos/$R/actions/workflows" --paginate -q '.workflows[] | select(.state != "active") | [.id, .path, .state] | @tsv' | while IFS=$'\t' read -r id path state; do
+            echo "réactivation de $path (état : $state)"; gh api -X PUT "repos/$R/actions/workflows/$id/enable" || echo "- $path : impossible à réactiver ($state)" >> rapport.txt
+          done
+          etat() { # $1 = fichier ; écrit « ok », « echec » ou « retard »
+            local f=${1%%:*} max=${1##*:} last succ age
+            last=$(gh api "repos/$R/actions/workflows/$f/runs?per_page=1&status=completed" -q '.workflow_runs[0].conclusion // "aucun"')
+            succ=$(gh api "repos/$R/actions/workflows/$f/runs?per_page=1&status=success" -q '.workflow_runs[0].created_at // ""')
+            if [ -n "$succ" ]; then age=$(( (now - $(date -d "$succ" +%s)) / 3600 )); else age=9999; fi
+            if [ "$last" != "success" ] && [ "$last" != "aucun" ] && [ "$last" != "cancelled" ]; then echo "echec $age"; elif [ "$age" -gt "$max" ]; then echo "retard $age"; else echo "ok $age"; fi
+          }
+          for r in $ROBOTS; do
+            set -- $(etat "$r"); echo "${r%%:*} : $1 (dernière réussite il y a $2 h)"
+            if [ "$1" != "ok" ]; then relance="$relance $r"; gh api -X POST "repos/$R/actions/workflows/${r%%:*}/dispatches" -f ref=main && echo "  → relancé" || echo "  → relance impossible"; fi
+          done
+          # 2. laisser le temps aux robots relancés, puis revérifier
+          if [ -n "$relance" ]; then
+            sleep 420; now=$(date +%s)
+            for r in $relance; do
+              set -- $(etat "$r"); echo "après relance — ${r%%:*} : $1"
+              [ "$1" = "ok" ] || echo "- ${r%%:*} : $1 (dernière réussite il y a $2 h)" >> rapport.txt
+            done
+          fi
+          # 3. signalement : ouvert si une panne persiste, refermé dès que tout est rentré dans l'ordre
+          n=$(gh issue list -R "$R" --state open --search "Robot en panne in:title" --json number -q '.[0].number // ""')
+          if [ -s rapport.txt ]; then
+            corps="Le gardien a relancé ces robots sans succès :"$'\n\n'"$(cat rapport.txt)"$'\n\n'"Détail : https://github.com/$R/actions"
+            if [ -n "$n" ]; then gh issue comment "$n" -R "$R" --body "$corps"; else gh issue create -R "$R" --title "Robot en panne" --body "$corps"; fi
+            cat rapport.txt; exit 1
+          elif [ -n "$n" ]; then
+            gh issue close "$n" -R "$R" --comment "Tous les robots fonctionnent de nouveau."
+          fi
+          echo "Tous les robots sont à leur poste."
+      - name: Vérifier les règles de sécurité en direct (chaque lundi)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" -lt 4 ]; then gh api -X POST "repos/$R/actions/workflows/verif-regles.yml/dispatches" -f ref=main && echo "vérification lancée"; else echo "pas aujourd'hui"; fi
