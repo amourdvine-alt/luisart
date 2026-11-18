@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-18T16:10:51.796Z",
+ "updated": "2026-11-18T16:27:55.769Z",
  "sources": {
   "ok": 16,
   "fail": 3,
-  "read": 507
+  "read": 508
  },
  "count": 60,
  "items": [
@@ -215,6 +215,44 @@
    "ts": 1795003255000,
    "auto": 1,
    "_score": 5.5
+  },
+  {
+   "id": "auto_szyi3m",
+   "cat": "Expositions majeures",
+   "title": "CULTURE : le Ministre Mamou Daffé à Dakar pour représenter le Mali à la 16ᵉ Biennale de l’art africain contemporain",
+   "sub": "Mali 24",
+   "text": "CULTURE : le Ministre Mamou Daffé à Dakar pour représenter le Mali à la 16ᵉ Biennale de l’art africain contemporain Mali 24",
+   "date": "Publié le 18 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://mali24.info/culture-le-ministre-mamou-daffe-a-dakar-pour-representer-le-mali-a-la-16%E1%B5%89-biennale-de-lart-africain-contemporain/",
+   "src": "Mali 24",
+   "img": "https://mali24.info/wp-content/uploads/2026/11/IMG-20261118-WA0106.jpg",
+   "ts": 1794997600000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_11eum6p",
+   "cat": "Expositions majeures",
+   "title": "Dak’Art 2026 : un agenda de la première semaine de la Biennale",
+   "sub": "Home View Senegal",
+   "text": "Dak’Art 2026 : un agenda de la première semaine de la Biennale Home View Senegal",
+   "date": "Publié le 18 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://dekkbi.com/?p=80752",
+   "src": "Home View Senegal",
+   "img": "https://dekkbi.com/wp-content/uploads/2026/11/DakArt-2026.png",
+   "ts": 1794996752000,
+   "auto": 1,
+   "_score": 7.9
   },
   {
    "id": "auto_1d93v1y",
@@ -559,25 +597,6 @@
    "_score": 7.4
   },
   {
-   "id": "auto_13xrsxt",
-   "cat": "Expositions majeures",
-   "title": "Du musée d’Orsay aux Frac, pourquoi de plus en plus de musées prennent la route",
-   "sub": "Beaux Arts Magazine",
-   "text": "Envoyer ses œuvres sur les routes de France, et aller à la rencontre de publics …",
-   "date": "Publié le 16 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/du-musee-dorsay-aux-frac-pourquoi-de-plus-en-plus-de-musees-prennent-la-route/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unele-mumorsay-collaboration-art-explora-x-musee-dorsay-et-son-exposition-inaugurale-le-grand-bal-photo-musee-dorsay-laetitia-striffling-marcu-4-1300x975.jpg",
-   "ts": 1794819643000,
-   "auto": 1,
-   "_score": 3.5
-  },
-  {
    "id": "auto_dupli6",
    "cat": "Expositions majeures",
    "title": "Exposition « Louvre Photo » : plus de 300 clichés, dont 80 % jamais montrés, révèlent un musée que l’on ne connaissait pas",
@@ -597,44 +616,6 @@
    "_score": 4.9
   },
   {
-   "id": "auto_w03k5x",
-   "cat": "Expositions majeures",
-   "title": "Van Eyck, Renoir, Tapisserie de Bayeux : les 12 expositions à ne pas manquer à Londres cet hiver",
-   "sub": "Connaissance des Arts",
-   "text": "De la réunion inédite des neuf portraits de Van Eyck à la National Gallery à la Tapisserie de Bayeux au British Museum, en passant par Renoir, Ana Mendieta, Julio Le Parc et la Riviera de la Royal Academy, Londres réunit en cette fin d’année douze expositions d’exception, la plupart visibles jusqu’en 2027. Cet article Van Eyck, Renoir, Tapisserie de Bayeux : les 12 expositions à ne pas manquer à Londres cet hiver est…",
-   "date": "Publié le 15 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/londres/van-eyck-renoir-tapisserie-de-bayeux-les-12-expositions-a-ne-pas-manquer-a-londres-cet-hiver-11218495/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_selection_expositions_londres_troop-tt-width-653-height-486-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794732949000,
-   "auto": 1,
-   "_score": 3.3
-  },
-  {
-   "id": "auto_s87jx6",
-   "cat": "Expositions majeures",
-   "title": "« Voilà quelqu’un qui sent comme moi » : le jour où Degas a repéré Mary Cassatt",
-   "sub": "Connaissance des Arts",
-   "text": "Longtemps restée dans l’ombre des grands récits de la modernité, l’Américaine Mary Cassatt rejeta la voie de l’art officiel avant de rejoindre le groupe des impressionnistes. Le musée d’Orsay réhabilite l’artiste à l’occasion du centenaire de sa disparition. Cet article « Voilà quelqu’un qui sent comme moi » : le jour où Degas a repéré Mary Cassatt est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 15 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/paris/voila-quelquun-qui-sent-comme-moi-le-jour-ou-degas-a-repere-mary-cassatt-11218468/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/09/cdasept26_cassatt-entretien_1-tt-width-653-height-900-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794721820000,
-   "auto": 1,
-   "_score": 3.2
-  },
-  {
    "id": "auto_ri058i",
    "cat": "Expositions majeures",
    "title": "In Dakar, the Biennale OFF is a Meeting Space",
@@ -651,7 +632,7 @@
    "img": "https://www.associatedmedias.com/api/og-image/50ad2dc0-f566-4653-8058-be0839baeccb",
    "ts": 1794678889000,
    "auto": 1,
-   "_score": 5.6
+   "_score": 4.1
   },
   {
    "id": "auto_sth49f",
@@ -689,7 +670,7 @@
    "img": "https://www.aip.ci/wp-content/uploads/2026/11/Directrice-de-creation-Anna-Alex-Koffi.jpg",
    "ts": 1794570345000,
    "auto": 1,
-   "_score": 12
+   "_score": 10.5
   },
   {
    "id": "auto_lqwhiw",
@@ -708,7 +689,7 @@
    "img": "https://biz-file.com/c/2611/827522-1200x624.jpg?5",
    "ts": 1794394067000,
    "auto": 1,
-   "_score": -9.3
+   "_score": -10.8
   },
   {
    "id": "auto_yp8m06",
@@ -727,7 +708,7 @@
    "img": "https://assets.ladepeche.fr/img/lazy_standard.jpg?9931565c",
    "ts": 1794370440000,
    "auto": 1,
-   "_score": -12.1
+   "_score": -13.6
   },
   {
    "id": "auto_1m0owcm",
@@ -746,7 +727,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/IMG_7531.jpg",
    "ts": 1794326400000,
    "auto": 1,
-   "_score": -11.7
+   "_score": -13.2
   },
   {
    "id": "auto_1wmpk3z",
@@ -765,7 +746,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6af1cb1473708113dd07cb81/hd/image.jpg?v=1",
    "ts": 1794239640000,
    "auto": 1,
-   "_score": -4.2
+   "_score": -5.7
   },
   {
    "id": "auto_wlshmv",
@@ -803,7 +784,7 @@
    "img": "https://www.finestresullarte.info/rivista/immagini/2026/fn/scultore-associazione-ponte-di-ferro-2.jpg",
    "ts": 1793875281000,
    "auto": 1,
-   "_score": -5.3
+   "_score": -6.8
   },
   {
    "id": "auto_d2qklt",
@@ -822,7 +803,7 @@
    "img": "https://mediasp.twassets.cloud/LL/2026/11/keystone_highres_678344110_8bfe31de88.jpg?rect=0%2C0%2C0%2C0&fp-x=0.5&fp-y=0.5",
    "ts": 1793873699000,
    "auto": 1,
-   "_score": -33.3
+   "_score": -34.8
   },
   {
    "id": "auto_clenpc",
@@ -841,7 +822,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/SAIC-Galleries.jpg",
    "ts": 1793807100000,
    "auto": 1,
-   "_score": -35.8
+   "_score": -37.3
   },
   {
    "id": "auto_1q1lpb8",
@@ -860,7 +841,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/07.24.26_PG_AIA_-advice.jpg?w=1024",
    "ts": 1793642566000,
    "auto": 1,
-   "_score": -43.6
+   "_score": -45.1
   },
   {
    "id": "auto_19xs21b",
@@ -879,7 +860,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/10/0360_240819_MFAH.jpg",
    "ts": 1793631900000,
    "auto": 1,
-   "_score": -41.8
+   "_score": -43.3
   },
   {
    "id": "auto_lwnbzz",
@@ -898,7 +879,7 @@
    "img": "https://images.midilibre.fr/api/v1/images/view/6ae360ad47047b8fb40b9532/hd/image.jpg?v=1",
    "ts": 1793347860000,
    "auto": 1,
-   "_score": -37.6
+   "_score": -39.1
   },
   {
    "id": "auto_yn4tnc",
@@ -936,7 +917,7 @@
    "img": "https://img.maroc24.com/fr/cdn/institut-francais-du-maroc.webp",
    "ts": 1793305740000,
    "auto": 1,
-   "_score": -46
+   "_score": -47.5
   },
   {
    "id": "auto_jzywik",
@@ -974,7 +955,7 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793177872000,
    "auto": 1,
-   "_score": -46.3
+   "_score": -47.8
   },
   {
    "id": "auto_1yyc40p",
@@ -1055,9 +1036,9 @@
   {
    "id": "auto_1x0gubd",
    "cat": "Expositions majeures",
-   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art",
-   "sub": "Middle East Online",
-   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art Middle East Online",
+   "title": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art - middle-east-online.com",
+   "sub": "middle-east-online.com",
+   "text": "Erruas, Bouhchichi to take part in Dakar Biennale of Contemporary African Art middle-east-online.com",
    "date": "Publié le 19 octobre 2026",
    "deadline": "",
    "start": "",
@@ -1065,9 +1046,28 @@
    "place": "",
    "country": "",
    "link": "https://middle-east-online.com/en/erruas-bouhchichi-take-part-dakar-biennale-contemporary-african-art",
-   "src": "Middle East Online",
+   "src": "middle-east-online.com",
    "img": "https://middle-east-online.com/sites/default/files/styles/social_image/public/2026-10/erruas%20Bouhchichi%20.jpg?h=e845b32d&itok=npo5ccUc",
    "ts": 1792393200000,
+   "auto": 1,
+   "_score": 3
+  },
+  {
+   "id": "auto_6e41j6",
+   "cat": "Nouveautés",
+   "title": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History",
+   "sub": "Africa News Agency",
+   "text": "Contemporary Art: In London, African Modernism Reclaims Its Place in Art History Africa News Agency",
+   "date": "Publié le 17 octobre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://africa-news-agency.com/contemporary-art-in-london-african-modernism-reclaims-its-place-in-art-history/",
+   "src": "Africa News Agency",
+   "img": "",
+   "ts": 1792226088000,
    "auto": 1,
    "_score": 3
   },
@@ -1107,7 +1107,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -63.2
+   "_score": -64.7
   },
   {
    "id": "auto_2l6hyz",
@@ -1145,7 +1145,7 @@
    "img": "https://www.adiac-congo.com/sites/all/modules/textsize/images/increase_16.gif",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": -45.5
+   "_score": -47
   }
  ]
 }
