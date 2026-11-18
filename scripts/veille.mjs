@@ -299,15 +299,15 @@ function formIn(html, base) {
 // Cherche le formulaire en suivant au plus 2 niveaux de liens, et ne retient que ce qui est vérifié
 async function resolveApply(it, html, pageUrl) {
   let fetches = 0; const seen = new Set();
-  const get = async u => { if (fetches >= 6 || seen.has(u)) return null; seen.add(u); fetches++; try { const p = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return { html: p.text.slice(0, 700000), url: p.url || u }; } catch { return null; } };
+  const get = async u => { if (fetches >= 6 || seen.has(u)) return null; seen.add(u); fetches++; try { const p = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return { html: p.text.slice(0, 3000000), url: p.url || u }; } catch { return null; } };
   const tOf = h => strip((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '');
   const judge = async (u, depth) => {
     if (u.startsWith('mailto:')) return { kind: 'mail', url: u };
     if (/\.(pdf|docx?)($|\?)/i.test(u)) return { kind: 'pdf', url: u };
     let p = await get(u);
-    if (!p && FORM_HOSTS.test(u)) { try { const r = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); p = { html: r.text.slice(0, 700000), url: r.url || u }; } catch {} }
+    if (!p && FORM_HOSTS.test(u)) { try { const r = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); p = { html: r.text.slice(0, 3000000), url: r.url || u }; } catch {} }
     const CLOSED = /(no longer accepting|not accepting|form is (now )?closed|currently unavailable|this form is closed|closed for submissions|n.accepte plus de reponses|formulaire est ferme)/i;
-    if (p && CLOSED.test(p.html.slice(0, 400000))) return null;
+    if (p && CLOSED.test(p.html)) return null;
     if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u, ft: p ? tOf(p.html) : '' }; }
     if (!p) return null;
     const f = formIn(p.html, p.url); if (f) return { kind: 'form', url: f, ft: tOf(p.html) };
