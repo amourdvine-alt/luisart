@@ -7,7 +7,8 @@ import fs from 'node:fs/promises';
 const OUT = 'data/news-auto.json';
 const NOW = Date.now();
 const DAY = 86400000;
-const MAX_ITEMS = 60;          // nombre d'actualités gardées
+const MAX_ITEMS = 80;          // nombre d'actualités gardées
+const CALL_FRESH_DAYS = 10;    // un appel sans date limite trouvée n'est gardé que s'il a moins de 10 jours
 const MAX_AGE_DAYS = 40;       // âge max d'un article sans date limite
 const TIMEOUT = 15000;
 
@@ -22,8 +23,12 @@ const SOURCES = [
   { url: gn('"open call" African artists', 'en', 'NG'), src: 'Google News', hint: 'call' },
   { url: gn('artist residency "open call" 2027', 'en', 'US'), src: 'Google News', hint: 'call' },
   { url: gn('prix art contemporain Afrique candidature'), src: 'Google Actualités', hint: 'call' },
-  { url: 'https://www.transartists.org/en/rss.xml', src: 'TransArtists', hint: 'call' },
-  { url: 'https://www.e-flux.com/rss/announcements/', src: 'e-flux' },
+  // Sites qui publient les appels eux-mêmes (avec date limite)
+  { url: 'https://on-the-move.org/feed', src: 'On the Move', hint: 'call', dedic: 1 },
+  { url: 'https://www.opportunitiesforafricans.com/feed/', src: 'Opportunities for Africans', hint: 'call', dedic: 1 },
+  { url: 'https://opportunitydesk.org/feed/', src: 'Opportunity Desk', hint: 'call', dedic: 1 },
+  { url: gn('"appel à candidatures" artistes "date limite"'), src: 'Google Actualités', hint: 'call' },
+  { url: gn('"call for artists" deadline Africa', 'en', 'GH'), src: 'Google News', hint: 'call' },
   // Côte d'Ivoire
   { url: gn('exposition Abidjan'), src: 'Google Actualités', hint: 'local' },
   { url: gn('vernissage Abidjan'), src: 'Google Actualités', hint: 'local' },
@@ -76,6 +81,22 @@ async function get(url) {
   } finally { clearTimeout(t); }
 }
 
+/* ---------------- ArtRabbit : page de liste des appels (pas de flux RSS) ---------------- */
+function parseArtRabbit(html) {
+  const out = []; const re = /<span class="l_blue">\s*Deadline\s*([^<]+)<\/span>/gi; let m;
+  while ((m = re.exec(html))) {
+    const before = html.slice(Math.max(0, m.index - 9000), m.index), after = html.slice(m.index, m.index + 3000);
+    const hs = [...before.matchAll(/<h[1-4][^>]*>([\s\S]*?)<\/h[1-4]>/gi)]; if (!hs.length) continue;
+    const h = hs[hs.length - 1], title = strip(h[1]); const body = before.slice(before.lastIndexOf(h[0]) + h[0].length);
+    const apply = (after.match(/<a\s+href=["']?([^"' >]+)["']?[^>]*class="b_submit/i) || [])[1] || 'https://www.artrabbit.com/artist-opportunities';
+    const org = strip((after.match(/Organiser:\s*([^<]+)/i) || [])[1] || ''), loc = strip((after.match(/Locations?:\s*([^<]+)/i) || [])[1] || '');
+    if (!title || title.length < 6) continue;
+    out.push({ title, link: apply.startsWith('http') ? apply : 'https://www.artrabbit.com' + apply, desc: strip(body).slice(0, 700) + ` Deadline ${strip(m[1])}.` + (org ? ` Organisateur : ${org}.` : '') + (loc ? ` Lieu : ${loc}.` : ''), date: NOW, img: '', source: 'ArtRabbit' });
+  }
+  return out;
+}
+const HTML_SOURCES = [{ url: 'https://www.artrabbit.com/artist-opportunities', src: 'ArtRabbit', hint: 'call', dedic: 1, parse: parseArtRabbit }];
+
 /* ---------------- intelligence : classement, dates limites, pertinence ---------------- */
 const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const RX = new Map();
@@ -84,7 +105,10 @@ const W = {
   call: ['appel a candidature', 'appels a candidature', 'appel a projet', 'appel a participation', 'open call', 'call for', 'candidatez', 'candidatures ouvertes', 'inscriptions ouvertes', 'apply now', 'apply by', 'applications open', 'deadline', 'date limite', 'opportunities for artists', 'opportunites pour artistes'],
   call2: ['residence', 'residency', 'bourse', 'grant', 'fellowship', 'prix', 'prize', 'award', 'concours', 'competition'],
   callApply: ['candidat', 'apply', 'application', 'submit', 'soumettre', 'inscri', 'postuler', 'eligib'],
-  notCall: ['laureat', 'laureate', 'winner', 'wins ', 'won ', 'awarded', 'remporte', 'sacre', 'decerne', 'announces new', 'devoile les', 'prized'],
+  notCall: ['laureat', 'laureate', 'winner', 'wins ', 'won ', 'awarded', 'remporte', 'sacre', 'decerne', 'announces new', 'devoile les', 'prized', 'hard truths', 'should a ', 'how to ', 'programs to apply', 'graduate programs', 'mfa, ma', 'phd programs'],
+  // appels réservés à d'autres pays : inutiles pour les artistes de Luisart
+  closed: ['u.s. citizens', 'us citizens', 'american citizens', 'us-based', 'u.s.-based', 'us residents', 'u.s. residents', 'residents of the united states', 'based in the united states', 'uk-based', 'uk residents', 'based in the uk', 'resident in the uk', 'canadian citizens', 'canadian artists', 'residents of canada', 'australian artists', 'australian citizens', 'new zealand artists', 'eu citizens', 'citizens of the eu', 'new york-based', 'nyc-based', 'chicago-based', 'los angeles-based', 'michigan', 'local artists', 'artistes locaux', 'residents of the city', 'reserve aux habitants', 'national park'],
+  open: ['international', 'all nationalities', 'toutes nationalites', 'worldwide', 'open to artists from', 'africa', 'afrique', 'african', 'africain', 'cote d\'ivoire', 'ivory coast', 'west africa', 'francophone', 'global south', 'any country', 'emerging artists from'],
   ci: ['abidjan', 'cote d\'ivoire', 'cote divoire', 'ivoirien', 'ivoirienne', 'ivory coast', 'bingerville', 'grand-bassam', 'yamoussoukro', 'bouake', 'insaac'],
   africa: ['afrique', 'africa', 'african', 'africain', 'dakar', 'lagos', 'accra', 'bamako', 'ouagadougou', 'kinshasa', 'lubumbashi', 'nairobi', 'johannesburg', 'cotonou', 'lome', 'douala', 'yaounde', 'marrakech', 'diaspora', 'senegal', 'nigeria', 'ghana', 'benin', 'cameroun', 'mali', 'burkina'],
   art: ['art ', 'arts', 'art,', 'art.', 'artiste', 'artistic', 'artistique', 'artist', 'peint', 'paint', 'exposition', 'exhibition', 'galerie', 'gallery', 'musee', 'museum', 'sculpt', 'photograph', 'biennale', 'biennial', 'vernissage', 'curat', 'commissaire', 'oeuvre', 'artwork', 'collection'],
@@ -118,7 +142,7 @@ function mk(y, mo, d) {
 }
 function deadline(t) {
   const ds = findDates(t); if (!ds.length) return 0;
-  const k = /(date limite|deadline|cloture|avant le|jusqu'?au|until|apply by|due|closes?|limite de depot|au plus tard)/g;
+  const k = /(date limite|deadline|cloture|clôture|avant le|jusqu'?au|until|apply by|apply before|submit by|closing date|applications close|due|closes?|limite de depot|au plus tard)/g;
   let m, best = 0;
   while ((m = k.exec(t))) { const near = ds.filter(x => x.i > m.index && x.i - m.index < 60).sort((a, b) => a.i - b.i)[0]; if (near) { best = near.d; break; } }
   return best;
@@ -132,14 +156,14 @@ function period(t) {
 const iso = v => v ? new Date(v).toISOString().slice(0, 10) : '';
 const fr = v => { const d = new Date(v); return d.getUTCDate() + ' ' + ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'][d.getUTCMonth()] + ' ' + d.getUTCFullYear(); };
 
-function classify(it, hint) {
+function classify(it, hint, dedic) {
   const t = norm(it.title + ' ' + it.desc);
   const tt = norm(it.title);
   if (has(tt, W.junk) || has(tt, ['parc des expositions', 'music', 'musique', 'chanteur', 'chanteuse'])) return null;
   if (has(t, W.junk) && !has(t, W.art.slice(1))) return null;
   if (!has(t, W.art)) return null;
   const ci = has(t, W.ci), af = ci || has(t, W.africa);
-  const call = !has(t, W.notCall) && (has(t, W.call) || (has(t, W.call2) && has(t, W.callApply)));
+  const call = !has(t, W.notCall) && (has(t, W.call) || (has(t, W.call2) && has(t, W.callApply)) || (dedic && (has(t, W.call2) || has(t, W.callApply))));
   let cat;
   if (call) cat = 'Appels à candidatures';
   else if (ci && has(t, W.local)) cat = 'Vernissages locaux';
@@ -228,6 +252,32 @@ async function enrichImages(items, previous) {
   console.log(`Images : ${ok} trouvées, ${reused} reprises, ${fail} sans image`);
 }
 
+/* ---------------- appels : on lit la vraie page pour trouver la date limite et les conditions ---------------- */
+async function verifyCalls(list) {
+  const calls = list.filter(x => x.cat === 'Appels à candidatures');
+  const q = calls.slice(); let opened = 0, past = 0, closed = 0, nodl = 0, kept = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (q.length) { const it = q.shift(); let txt = it._t || '';
+      try { let real = it.link; try { real = await gnReal(it.link); if (real !== it.link) it.link = real; } catch {}
+        const page = await fetchT(real, { headers: { accept: 'text/html,application/xhtml+xml,*/*;q=0.8' } }, 15000); opened++;
+        const body = page.text.slice(0, 400000).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<nav[\s\S]*?<\/nav>|<footer[\s\S]*?<\/footer>/gi, ' ');
+        txt = norm(strip(body)).slice(0, 60000) + ' ' + txt;
+        if (!it.img) it.img = metaImg(page.text.slice(0, 600000), page.url || real) || '';
+      } catch {}
+      const dl = it.deadline ? Date.parse(it.deadline) : (deadline(norm(it._t || '')) || deadline(txt));
+      if (dl && dl < NOW - DAY) { it._drop = 'clos'; past++; continue; }
+      if (has(txt.slice(0, 20000), W.closed) && !has(txt.slice(0, 20000), W.open)) { it._drop = 'réservé à un autre pays'; closed++; continue; }
+      if (dl) { it.deadline = iso(dl); it.date = 'Date limite : ' + fr(dl); it._score += 3 + Math.max(0, 3 - (dl - NOW) / DAY / 20); }
+      else { const age = (NOW - (it.ts || NOW)) / DAY; if (age > (it._dedic ? CALL_FRESH_DAYS : 5)) { it._drop = 'sans date limite'; nodl++; continue; } it.date = (it.date ? it.date + ' · ' : '') + 'Date limite : voir l’annonce'; }
+      if (has(txt.slice(0, 20000), ['africa', 'afrique', 'african', 'africain', 'cote d\'ivoire', 'ivory coast'])) it._score += 3;
+      if (has(txt.slice(0, 20000), ['international', 'all nationalities', 'toutes nationalites', 'worldwide'])) it._score += 1.5;
+      kept++;
+    }
+  }));
+  for (let i = list.length - 1; i >= 0; i--) if (list[i]._drop) list.splice(i, 1);
+  console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays, ${nodl} sans date et trop anciens`);
+}
+
 /* ---------------- programme principal ---------------- */
 async function main() {
   let previous = [];
@@ -239,10 +289,11 @@ async function main() {
   }));
   results.forEach((r, k) => { if (r.status === 'rejected') { stats.fail++; console.warn('✗', SOURCES[k].src, SOURCES[k].url.slice(0, 90), String(r.reason).slice(0, 80)); } });
   const raw = results.flatMap(r => r.status === 'fulfilled' ? r.value : []);
+  for (const s of HTML_SOURCES) { try { const html = (await fetchT(s.url, { headers: { accept: 'text/html' } }, 20000)).text; const l = s.parse(html); stats.ok++; stats.read += l.length; l.forEach(i => raw.push({ ...i, _s: s })); console.log(s.src, ':', l.length, 'appels lus'); } catch (e) { stats.fail++; console.warn('✗', s.src, String(e.message || e).slice(0, 80)); } }
 
   const fresh = [];
   for (const it of raw) {
-    const c = classify(it, it._s.hint); if (!c) continue;
+    const c = classify(it, it._s.hint, it._s.dedic); if (!c) continue;
     const { title, source } = cleanTitle(it);
     const dl = c.cat === 'Appels à candidatures' ? deadline(c.t) : 0;
     if (dl && dl < NOW - DAY) continue;                                    // appel déjà clos
@@ -260,13 +311,15 @@ async function main() {
       date, deadline: iso(dl), start: iso(pr.start), end: iso(pr.end),
       place: c.ci ? "Côte d'Ivoire" : '', country: c.ci ? "Côte d'Ivoire" : '',
       link: it.link, src: source || it._s.src, img: /^https:\/\//.test(it.img) ? it.img : '',
-      ts: it.date || NOW, auto: 1, _score: c.score,
+      ts: it.date || NOW, auto: 1, _score: c.score, _dedic: !!it._s.dedic, _t: c.t,
     });
   }
+  await verifyCalls(fresh);
 
   // On garde les anciennes encore valides si une source tombe en panne
   for (const p of previous) {
     if (p.deadline && Date.parse(p.deadline) < NOW - DAY) continue;
+    if (p.cat === 'Appels à candidatures' && !p.deadline && NOW - (p.ts || 0) > CALL_FRESH_DAYS * DAY) continue;
     if (p.end && Date.parse(p.end) < NOW - DAY) continue;
     if (!p.deadline && NOW - (p.ts || 0) > MAX_AGE_DAYS * DAY) continue;
     fresh.push({ ...p, _score: (p._score || 2) - 1.5 });
@@ -281,12 +334,12 @@ async function main() {
   // équilibre : au moins quelques appels et quelques nouvelles locales en tête
   const byCat = c => kept.filter(k => k.cat === c);
   const world = new Set(byCat('Art mondial').slice(12));
-  const final = [...new Set([...byCat('Appels à candidatures').slice(0, 18), ...byCat('Vernissages locaux').slice(0, 10), ...kept.filter(k => !world.has(k))])].slice(0, MAX_ITEMS);
+  const final = [...new Set([...byCat('Appels à candidatures').slice(0, 30), ...byCat('Vernissages locaux').slice(0, 10), ...kept.filter(k => !world.has(k))])].slice(0, MAX_ITEMS);
 
   try { await enrichImages(final, previous); } catch (e) { console.warn('Images : étape ignorée', e.message); }
   if (!final.length && previous.length) { console.warn('Aucune nouvelle donnée : on garde le fichier précédent.'); return; }
   const out = { updated: new Date(NOW).toISOString(), sources: { ok: stats.ok, fail: stats.fail, read: stats.read }, count: final.length,
-    items: final.sort((a, b) => b.ts - a.ts).map(({ _score, ...x }) => ({ ...x, _score: Math.round(_score * 10) / 10 })) };
+    items: final.sort((a, b) => b.ts - a.ts).map(({ _score, _dedic, _t, _drop, ...x }) => ({ ...x, _score: Math.round(_score * 10) / 10 })) };
   await fs.mkdir('data', { recursive: true });
   await fs.writeFile(OUT, JSON.stringify(out, null, 1));
   const cats = {}; final.forEach(f => cats[f.cat] = (cats[f.cat] || 0) + 1);
