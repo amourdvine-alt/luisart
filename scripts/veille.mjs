@@ -304,8 +304,9 @@ async function resolveApply(it, html, pageUrl) {
   const judge = async (u, depth) => {
     if (u.startsWith('mailto:')) return { kind: 'mail', url: u };
     if (/\.(pdf|docx?)($|\?)/i.test(u)) return { kind: 'pdf', url: u };
-    const p = await get(u);
-    const CLOSED = /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|closed for submissions|n.accepte plus de reponses|formulaire est ferme)/i;
+    let p = await get(u);
+    if (!p && FORM_HOSTS.test(u)) { try { const r = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); p = { html: r.text.slice(0, 700000), url: r.url || u }; } catch {} }
+    const CLOSED = /(no longer accepting|not accepting|form is (now )?closed|currently unavailable|this form is closed|closed for submissions|n.accepte plus de reponses|formulaire est ferme)/i;
     if (p && CLOSED.test(p.html.slice(0, 400000))) return null;
     if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u, ft: p ? tOf(p.html) : '' }; }
     if (!p) return null;
