@@ -254,6 +254,45 @@ async function enrichImages(items, previous) {
   console.log(`Images : ${ok} trouvées, ${reused} reprises, ${fail} sans image`);
 }
 
+/* ---------------- lien direct pour postuler : on cherche le bouton ou le formulaire sur la page ---------------- */
+const FORM_HOSTS = /(submittable\.com|callforentry\.org|forms\.gle|docs\.google\.com\/forms|typeform\.com|jotform\.|airtable\.com\/(shr|app)|zealous\.co|smapply\.|fluxx\.io|artcall\.org|entrythingy\.com|formstack\.com|wufoo\.com|cognitoforms\.com|tally\.so|hsforms\.|forms\.office\.com|forms\.microsoft\.com|surveymonkey\.|survey\.alchemer|fillout\.com|paperform\.co|kizeoforms|framaforms|culture\.gouv\.fr\/.*demarche|demarches-simplifiees\.fr|mapado|eventbrite\.[a-z.]+\/e\/|opencall\.|apply\.)/i;
+const APPLY_TXT = /(apply now|apply here|apply online|apply today|submit (your )?(application|proposal|work|entry)|application form|start (your )?application|^\s*apply\s*$|^\s*submit\s*$|enter now|^\s*register\s*$|postuler|candidater|je candidate|deposer (ma|votre|une) candidature|formulaire|dossier de candidature|s'?inscrire|inscription en ligne|telecharger le dossier)/;
+const APPLY_URL = /\/(apply|application|applications|candidature|candidatures|postuler|submit|submission|submissions|inscription|register|entry|entries|form|formulaire)(\/|\?|#|$|-|\.)/i;
+const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:)/i;
+function findApply(html, base) {
+  let best = null, bs = 0; const host = (() => { try { return new URL(base).host; } catch { return ''; } })();
+  const re = /<a\b([^>]*?)href\s*=\s*["']?([^"' >]+)["']?([^>]*)>([\s\S]*?)<\/a>/gi; let m, idx = 0;
+  while ((m = re.exec(html))) {
+    idx++; let href = m[2].replace(/&amp;/g, '&'); const attrs = m[1] + ' ' + m[3]; const txt = norm(strip(m[4] + ' ' + ((attrs.match(/(?:title|aria-label)\s*=\s*["']([^"']+)/i) || [])[1] || ''))).trim().slice(0, 120);
+    if (!href || href.startsWith('#') && !/apply|candidat|postul|how-to|comment/i.test(href)) continue;
+    let u; try { u = new URL(href, base); } catch { continue; }
+    if (!/^https?:$|^mailto:$/.test(u.protocol)) continue;
+    const full = u.href; if (BAD_URL.test(full)) continue;
+    let sc = 0;
+    if (FORM_HOSTS.test(full)) sc += 6;
+    if (APPLY_TXT.test(txt)) sc += 5;
+    if (APPLY_URL.test(u.pathname + u.search + u.hash)) sc += 3;
+    if (/class\s*=\s*["'][^"']*(btn|button|cta|wp-block-button|apply)/i.test(attrs)) sc += 1;
+    if (u.protocol === 'mailto:') sc = APPLY_TXT.test(txt) || /candidat|apply|submission|open ?call/i.test(full) ? 3 : 0;
+    if (u.host === host && !APPLY_TXT.test(txt) && !FORM_HOSTS.test(full)) sc -= 2;   // simple lien interne
+    if (/read more|lire la suite|en savoir plus|learn more|share|partager|comment/.test(txt)) sc -= 4;
+    if (sc > bs) { bs = sc; best = full; }
+  }
+  if (bs >= 5) return best;
+  // pas de bouton : une section « comment postuler » dans la page
+  const sec = html.match(/\bid\s*=\s*["']((?:how-to-)?(?:apply|application|candidature|postuler|comment-postuler|submission)[\w-]*)["']/i);
+  if (sec) { try { const u = new URL(base); u.hash = sec[1]; return u.href; } catch {} }
+  return bs >= 3 ? best : '';
+}
+async function resolveApply(it, html, pageUrl) {
+  let ap = findApply(html, pageUrl);
+  // la page trouvée n'est qu'une présentation : on va une page plus loin pour trouver le formulaire
+  if (ap && !ap.startsWith('mailto:') && !ap.includes('#') && !FORM_HOSTS.test(ap)) {
+    try { const p2 = await fetchT(ap, { headers: { accept: 'text/html' } }, 12000); if (p2.status >= 400) ap = ''; else { const deep = findApply(p2.text.slice(0, 600000), p2.url || ap); if (deep && FORM_HOSTS.test(deep)) ap = deep; } } catch { ap = ''; }
+  }
+  if (ap && ap !== it.link) it.apply = ap;
+}
+
 /* ---------------- appels : on lit la vraie page pour trouver la date limite et les conditions ---------------- */
 async function verifyCalls(list) {
   const calls = list.filter(x => x.cat === 'Appels à candidatures');
@@ -264,6 +303,7 @@ async function verifyCalls(list) {
         const page = await fetchT(real, { headers: { accept: 'text/html,application/xhtml+xml,*/*;q=0.8' } }, 15000); opened++;
         const body = page.text.slice(0, 400000).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<nav[\s\S]*?<\/nav>|<footer[\s\S]*?<\/footer>/gi, ' ');
         txt = norm(strip(body)).slice(0, 60000) + ' ' + txt;
+        try { await resolveApply(it, page.text.slice(0, 600000), page.url || real); } catch {}
         if (!it.img) it.img = metaImg(page.text.slice(0, 600000), page.url || real) || '';
       } catch {}
       const dl = it.deadline ? Date.parse(it.deadline) : (deadline(norm(it._t || '')) || deadline(txt));
@@ -279,6 +319,7 @@ async function verifyCalls(list) {
     }
   }));
   for (let i = list.length - 1; i >= 0; i--) if (list[i]._drop) list.splice(i, 1);
+  console.log(`Liens directs pour postuler : ${list.filter(x => x.apply).length}/${list.filter(x => x.cat === 'Appels à candidatures').length}`);
   console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays ou hors sujet, ${nodl} sans date et trop anciens`);
 }
 
