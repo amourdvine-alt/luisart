@@ -255,54 +255,75 @@ async function enrichImages(items, previous) {
 }
 
 /* ---------------- lien direct pour postuler : on cherche le bouton ou le formulaire sur la page ---------------- */
-const FORM_HOSTS = /(submittable\.com|callforentry\.org|forms\.gle|docs\.google\.com\/forms|typeform\.com|jotform\.|airtable\.com\/(shr|app)|zealous\.co|smapply\.|fluxx\.io|artcall\.org|entrythingy\.com|formstack\.com|wufoo\.com|cognitoforms\.com|tally\.so|hsforms\.|forms\.office\.com|forms\.microsoft\.com|surveymonkey\.|survey\.alchemer|fillout\.com|paperform\.co|kizeoforms|framaforms|culture\.gouv\.fr\/.*demarche|demarches-simplifiees\.fr|mapado|eventbrite\.[a-z.]+\/e\/|opencall\.|apply\.)/i;
+const FORM_HOSTS = /(submittable\.com|callforentry\.org|forms\.gle|docs\.google\.com\/forms|typeform\.com|jotform\.|airtable\.com\/(shr|app)|zealous\.co|smapply\.|fluxx\.io|artcall\.org|entrythingy\.com|formstack\.com|wufoo\.com|cognitoforms\.com|tally\.so|hsforms\.|forms\.office\.com|forms\.microsoft\.com|surveymonkey\.|survey\.alchemer|fillout\.com|paperform\.co|kizeoforms|framaforms|culture\.gouv\.fr\/.*demarche|demarches-simplifiees\.fr|opencall\.|apply\.)/i;
 const APPLY_TXT = /(apply now|apply here|apply online|apply today|submit (your )?(application|proposal|work|entry)|application form|start (your )?application|^\s*apply\s*$|^\s*submit\s*$|enter now|^\s*register\s*$|postuler|candidater|je candidate|deposer (ma|votre|une) candidature|formulaire|dossier de candidature|s'?inscrire|inscription en ligne|telecharger le dossier)/;
 const APPLY_URL = /\/(apply|application|applications|candidature|candidatures|postuler|submit|submission|submissions|inscription|register|entry|entries|form|formulaire)(\/|\?|#|$|-|\.)/i;
 const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:|\/help\/|\/support\/|\/faq|zoom\.us|teams\.microsoft|meet\.google|webinar|calendar)/i;
-function findApply(html, base) {
-  let best = null, bs = 0; const host = (() => { try { return new URL(base).host; } catch { return ''; } })();
-  const re = /<a\b([^>]*?)href\s*=\s*["']?([^"' >]+)["']?([^>]*)>([\s\S]*?)<\/a>/gi; let m, idx = 0;
+// liens candidats, du plus probable au moins probable
+function applyLinks(html, base) {
+  const out = []; const host = (() => { try { return new URL(base).host; } catch { return ''; } })();
+  const re = /<a\b([^>]*?)href\s*=\s*["']?([^"' >]+)["']?([^>]*)>([\s\S]*?)<\/a>/gi; let m;
   while ((m = re.exec(html))) {
-    idx++; let href = m[2].replace(/&amp;/g, '&'); const attrs = m[1] + ' ' + m[3]; const txt = norm(strip(m[4] + ' ' + ((attrs.match(/(?:title|aria-label)\s*=\s*["']([^"']+)/i) || [])[1] || ''))).trim().slice(0, 120);
-    if (!href || href.startsWith('#') && !/apply|candidat|postul|how-to|comment/i.test(href)) continue;
+    let href = m[2].replace(/&amp;/g, '&').trim(); const attrs = m[1] + ' ' + m[3]; const txt = norm(strip(m[4] + ' ' + ((attrs.match(/(?:title|aria-label)\s*=\s*["']([^"']+)/i) || [])[1] || ''))).trim().slice(0, 120);
+    if (!href || href.startsWith('#') && !/apply|candidat|postul|form|inscri/i.test(href)) continue;
     let u; try { u = new URL(href, base); } catch { continue; }
-    if (!/^https?:$|^mailto:$/.test(u.protocol)) continue;
     if (/accounts\.google\.com/.test(u.host) && u.searchParams.get('continue')) { try { u = new URL(u.searchParams.get('continue')); } catch { continue; } }
-    const full = u.href; if (BAD_URL.test(full)) continue;
+    if (!/^https?:$|^mailto:$/.test(u.protocol)) continue;
+    const full = u.href.trim(); if (BAD_URL.test(full)) continue;
     let sc = 0;
     if (FORM_HOSTS.test(full)) sc += 6;
     if (APPLY_TXT.test(txt)) sc += 5;
     if (APPLY_URL.test(u.pathname + u.search + u.hash)) sc += 3;
     if (/class\s*=\s*["'][^"']*(btn|button|cta|wp-block-button|apply)/i.test(attrs)) sc += 1;
-    if (u.protocol === 'mailto:') sc = APPLY_TXT.test(txt) || /candidat|apply|submission|open ?call/i.test(full) ? 3 : 0;
-    if (u.host === host && !APPLY_TXT.test(txt) && !FORM_HOSTS.test(full)) sc -= 2;   // simple lien interne
-    if (/read more|lire la suite|en savoir plus|learn more|share|partager|comment/.test(txt)) sc -= 4;
-    if (sc > bs) { bs = sc; best = full; }
+    if (u.protocol === 'mailto:') sc = APPLY_TXT.test(txt) || /candidat|apply|submission|open ?call|entr/i.test(full) ? 4 : 0;
+    if (u.host === host && !APPLY_TXT.test(txt) && !FORM_HOSTS.test(full)) sc -= 2;
+    if (/read more|lire la suite|en savoir plus|learn more|share|partager|comment|faq|webinar|info session/.test(txt)) sc -= 4;
+    if (sc >= 3 && !out.some(o => o.url === full)) out.push({ url: full, sc, txt });
   }
-  if (bs >= 5) return best;
-  // pas de bouton : une section « comment postuler » dans la page
-  const sec = html.match(/\bid\s*=\s*["']((?:how-to-)?(?:apply|application|candidature|postuler|comment-postuler|submission)[\w-]*)["']/i);
-  if (sec) { try { const u = new URL(base); u.hash = sec[1]; return u.href; } catch {} }
-  return bs >= 3 ? best : '';
+  return out.sort((a, b) => b.sc - a.sc);
 }
+// La page contient-elle vraiment un formulaire de candidature à remplir ?
+function formIn(html, base) {
+  // formulaire intégré (Typeform, JotForm, Google Forms… dans un cadre) : on donne directement son adresse
+  const ifr = [...html.matchAll(/<iframe\b[^>]*src\s*=\s*["']([^"']+)["']/gi)].map(x => x[1]).find(x => FORM_HOSTS.test(x) && !BAD_URL.test(x));
+  if (ifr) { try { return new URL(ifr.replace(/&amp;/g, '&'), base).href; } catch {} }
+  for (const f of html.matchAll(/<form\b([^>]*)>([\s\S]*?)<\/form>/gi)) {
+    const at = f[1], b = f[2];
+    if (/search|newsletter|subscribe|login|signin|mc-embedded|comment/i.test(at) || /type\s*=\s*["']?password/i.test(b)) continue;
+    const fields = (b.match(/<(input|textarea|select)\b/gi) || []).length - (b.match(/type\s*=\s*["']?(hidden|submit|button|search|checkbox|radio)/gi) || []).length;
+    const file = /type\s*=\s*["']?file/i.test(b), app = /(portfolio|statement|biograph|\bcv\b|resume|curriculum|artwork|project|proposal|first.?name|last.?name|nom|prenom|telephone|phone)/i.test(b);
+    if (file || (fields >= 4 && app) || fields >= 7) { const id = (at.match(/\bid\s*=\s*["']([^"']+)/i) || [])[1]; try { const u = new URL(base); if (id) u.hash = id; return u.href; } catch { return base; } }
+  }
+  return '';
+}
+// Cherche le formulaire en suivant au plus 2 niveaux de liens, et ne retient que ce qui est vérifié
 async function resolveApply(it, html, pageUrl) {
-  let ap = findApply(html, pageUrl);
-  // la page trouvée n'est qu'une présentation : on va une page plus loin pour trouver le formulaire
-  const deeper = async u => { try { const p2 = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return findApply(p2.text.slice(0, 600000), p2.url || u); } catch { return ''; } };
-  if (ap && !ap.startsWith('mailto:') && !ap.includes('#') && !FORM_HOSTS.test(ap) && !/\.pdf($|\?)/i.test(ap)) {
-    const deep = await deeper(ap); if (deep && FORM_HOSTS.test(deep)) ap = deep;
-  }
-  // site relais (On the Move, Opportunities for Africans…) : on suit le lien vers l'organisateur
-  if (!ap && it._dedic) {
+  let fetches = 0; const seen = new Set();
+  const get = async u => { if (fetches >= 6 || seen.has(u)) return null; seen.add(u); fetches++; try { const p = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return { html: p.text.slice(0, 700000), url: p.url || u }; } catch { return null; } };
+  const judge = async (u, depth) => {
+    if (u.startsWith('mailto:')) return { kind: 'mail', url: u };
+    if (/\.(pdf|docx?)($|\?)/i.test(u)) return { kind: 'pdf', url: u };
+    const p = await get(u);
+    if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u }; }
+    if (!p) return null;
+    const f = formIn(p.html, p.url); if (f) return { kind: 'form', url: f };
+    if (depth > 0) for (const c of applyLinks(p.html, p.url).slice(0, 3)) { const r = await judge(c.url, depth - 1); if (r && r.kind !== 'section') return r; }
+    const sec = p.html.match(/\bid\s*=\s*["']((?:how-to-)?(?:apply|application|candidature|postuler|comment-postuler|submission|submit)[\w-]*)["']/i);
+    if (sec) { try { const x = new URL(p.url); x.hash = sec[1]; return { kind: 'section', url: x.href }; } catch {} }
+    return null;
+  };
+  let best = null;
+  const own = formIn(html, pageUrl); if (own) best = { kind: 'form', url: own };
+  if (!best) for (const c of applyLinks(html, pageUrl).slice(0, 3)) { const r = await judge(c.url, 1); if (r && (!best || best.kind === 'section')) best = r; if (best && best.kind !== 'section') break; }
+  // site relais (On the Move…) : on va sur le site de l'organisateur
+  if (!best && it._dedic) {
     const host = (() => { try { return new URL(pageUrl).host.replace(/^www\./, ''); } catch { return ''; } })();
-    const re = /<a\b[^>]*href\s*=\s*["']?(https?:\/\/[^"' >]+)["']?[^>]*>([\s\S]*?)<\/a>/gi; let m, org = '';
+    const re = /<a\b[^>]*href\s*=\s*["']?(https?:\/\/[^"' >]+)["']?[^>]*>([\s\S]*?)<\/a>/gi; let m;
     while ((m = re.exec(html))) { let u; try { u = new URL(m[1].replace(/&amp;/g, '&')); } catch { continue; } if (u.host.replace(/^www\./, '') === host || BAD_URL.test(u.href) || /(facebook|instagram|twitter|x\.com|linkedin|youtube|tiktok|whatsapp|t\.me|pinterest|google|feedburner|wordpress|gravatar)/i.test(u.host)) continue;
-      const t = norm(strip(m[2])); if (/(more info|more information|plus d'?info|official|site officiel|details|detail|apply|postuler|candidat|call|appel|website|site web|read the call|guidelines|lien)/.test(t)) { org = u.href; break; } }
-    if (org) { const deep = await deeper(org); ap = deep || org; }
+      const t = norm(strip(m[2])); if (/(more info|more information|plus d'?info|official|site officiel|details|apply|postuler|candidat|call|appel|website|site web|guidelines)/.test(t)) { const r = await judge(u.href, 1); if (r) { best = r; break; } } }
   }
-  if (!ap && /artrabbit/i.test(it.src || '')) ap = it.link;   // lien « Apply » donné par ArtRabbit
-  ap = String(ap || '').trim(); it.link = String(it.link || '').trim();
-  if (ap && ap !== it.link || (ap && /artrabbit/i.test(it.src || ''))) it.apply = ap;
+  if (!best && /artrabbit/i.test(it.src || '') && it.link) { const r = await judge(it.link, 1); if (r) best = r; }
+  if (best) { it.apply = best.url.trim(); it.applyKind = best.kind; }
 }
 
 /* ---------------- appels : on lit la vraie page pour trouver la date limite et les conditions ---------------- */
@@ -331,7 +352,7 @@ async function verifyCalls(list) {
     }
   }));
   for (let i = list.length - 1; i >= 0; i--) if (list[i]._drop) list.splice(i, 1);
-  console.log(`Liens directs pour postuler : ${list.filter(x => x.apply).length}/${list.filter(x => x.cat === 'Appels à candidatures').length}`);
+  { const cl = list.filter(x => x.cat === 'Appels à candidatures'), k = t => cl.filter(x => x.applyKind === t).length; console.log(`Liens vérifiés : ${k('form')} formulaires, ${k('mail')} par e-mail, ${k('pdf')} dossiers à télécharger, ${k('section')} sections « comment postuler », ${cl.length - cl.filter(x => x.apply).length} sans lien direct / ${cl.length}`); cl.forEach(x => x.apply && console.log('  ', x.applyKind, '|', x.title.slice(0, 40), '|', x.apply.slice(0, 120))); }
   console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays ou hors sujet, ${nodl} sans date et trop anciens`);
 }
 
@@ -376,6 +397,7 @@ async function main() {
   // On garde les anciennes encore valides si une source tombe en panne
   for (const p of previous) {
     if (p.deadline && Date.parse(p.deadline) < NOW - DAY) continue;
+    if (p.apply && !p.applyKind) { delete p.apply; }
     p.title = String(p.title || '').replace(/^\s*\[(news|projects|actualites?)\]\s*/i, '');
     if (p.cat === 'Appels à candidatures' && has(norm(p.title), W.perf) && !has(norm(p.title), W.visual)) continue;
     if (p.cat === 'Appels à candidatures' && (!p.deadline || has(norm(p.title + ' ' + p.text), W.notCall) || has(norm(p.title + ' ' + p.text), W.closed))) continue;
