@@ -289,10 +289,10 @@ function formIn(html, base) {
   if (ifr) { try { return new URL(ifr.replace(/&amp;/g, '&'), base).href; } catch {} }
   for (const f of html.matchAll(/<form\b([^>]*)>([\s\S]*?)<\/form>/gi)) {
     const at = f[1], b = f[2];
-    if (/search|newsletter|subscribe|login|signin|mc-embedded|comment/i.test(at) || /type\s*=\s*["']?password/i.test(b)) continue;
+    if (/search|newsletter|subscribe|login|signin|mc-embedded|comment|mailchimp|klaviyo/i.test(at) || /type\s*=\s*["']?password|newsletter|subscribe|mailing list|abonn|sign up for|inscrivez-vous a notre/i.test(b)) continue;
     const fields = (b.match(/<(input|textarea|select)\b/gi) || []).length - (b.match(/type\s*=\s*["']?(hidden|submit|button|search|checkbox|radio)/gi) || []).length;
     const file = /type\s*=\s*["']?file/i.test(b), app = /(portfolio|statement|biograph|\bcv\b|resume|curriculum|artwork|project|proposal|first.?name|last.?name|nom|prenom|telephone|phone)/i.test(b);
-    if (file || (fields >= 4 && app) || fields >= 7) { const id = (at.match(/\bid\s*=\s*["']([^"']+)/i) || [])[1]; try { const u = new URL(base); if (id) u.hash = id; return u.href; } catch { return base; } }
+    if (file || (fields >= 5 && app) || fields >= 8) { const id = (at.match(/\bid\s*=\s*["']([^"']+)/i) || [])[1]; try { const u = new URL(base); if (id) u.hash = id; return u.href; } catch { return base; } }
   }
   return '';
 }
@@ -300,13 +300,16 @@ function formIn(html, base) {
 async function resolveApply(it, html, pageUrl) {
   let fetches = 0; const seen = new Set();
   const get = async u => { if (fetches >= 6 || seen.has(u)) return null; seen.add(u); fetches++; try { const p = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return { html: p.text.slice(0, 700000), url: p.url || u }; } catch { return null; } };
+  const tOf = h => strip((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '');
   const judge = async (u, depth) => {
     if (u.startsWith('mailto:')) return { kind: 'mail', url: u };
     if (/\.(pdf|docx?)($|\?)/i.test(u)) return { kind: 'pdf', url: u };
     const p = await get(u);
-    if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u }; }
+    const CLOSED = /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|closed for submissions|n.accepte plus de reponses|formulaire est ferme)/i;
+    if (p && CLOSED.test(p.html.slice(0, 400000))) return null;
+    if (FORM_HOSTS.test(u)) { if (p && /(no longer accepting|not accepting (new )?(responses|submissions)|form is (now )?closed|currently unavailable|this form is closed|n.accepte plus de reponses|formulaire est ferme)/.test(norm(strip(p.html.slice(0, 200000))))) return null; return { kind: 'form', url: u, ft: p ? tOf(p.html) : '' }; }
     if (!p) return null;
-    const f = formIn(p.html, p.url); if (f) return { kind: 'form', url: f };
+    const f = formIn(p.html, p.url); if (f) return { kind: 'form', url: f, ft: tOf(p.html) };
     if (depth > 0) for (const c of applyLinks(p.html, p.url).slice(0, 3)) { const r = await judge(c.url, depth - 1); if (r && r.kind !== 'section') return r; }
     const sec = p.html.match(/\bid\s*=\s*["']((?:how-to-)?(?:apply|application|candidature|postuler|comment-postuler|submission|submit)[\w-]*)["']/i);
     if (sec) { try { const x = new URL(p.url); x.hash = sec[1]; return { kind: 'section', url: x.href }; } catch {} }
@@ -323,6 +326,13 @@ async function resolveApply(it, html, pageUrl) {
       const t = norm(strip(m[2])); if (/(more info|more information|plus d'?info|official|site officiel|details|apply|postuler|candidat|call|appel|website|site web|guidelines)/.test(t)) { const r = await judge(u.href, 1); if (r) { best = r; break; } } }
   }
   if (!best && /artrabbit/i.test(it.src || '') && it.link) { const r = await judge(it.link, 1); if (r) best = r; }
+  if (best && best.kind === 'form' && best.ft) {
+    // le formulaire doit parler de CET appel : au moins un mot en commun avec le titre de l'appel
+    const A = KEYW(it.title), F = KEYW(best.ft); let n = 0; F.forEach(w => A.has(w) && n++);
+    const generic = /^(form|formulaire|application|candidature|submission manager|interface form|loading|apply|typeform|jotform|google forms?)\b/i.test(best.ft.trim()) || F.size <= 2;
+    if (!n && !generic) best = null;
+    else it._ft = best.ft;
+  }
   if (best) { it.apply = best.url.trim(); it.applyKind = best.kind; }
 }
 
@@ -352,6 +362,9 @@ async function verifyCalls(list) {
     }
   }));
   for (let i = list.length - 1; i >= 0; i--) if (list[i]._drop) list.splice(i, 1);
+  const byAp = {}; list.forEach(x => x.apply && x.applyKind === 'form' && (byAp[x.apply] = byAp[x.apply] || []).push(x));
+  Object.values(byAp).filter(g => g.length > 1).forEach(g => { const sc = x => { const F = KEYW(x._ft || ''), A = KEYW(x.title); let n = 0; A.forEach(w => F.has(w) && n++); return n; }; g.sort((a, b) => sc(b) - sc(a)); g.slice(sc(g[0]) > sc(g[1]) ? 1 : 0).forEach(x => { console.log('  formulaire partagé retiré :', x.title.slice(0, 50)); delete x.apply; delete x.applyKind; }); });
+  list.forEach(x => delete x._ft);
   { const cl = list.filter(x => x.cat === 'Appels à candidatures'), k = t => cl.filter(x => x.applyKind === t).length; console.log(`Liens vérifiés : ${k('form')} formulaires, ${k('mail')} par e-mail, ${k('pdf')} dossiers à télécharger, ${k('section')} sections « comment postuler », ${cl.length - cl.filter(x => x.apply).length} sans lien direct / ${cl.length}`); cl.forEach(x => x.apply && console.log('  ', x.applyKind, '|', x.title.slice(0, 40), '|', x.apply.slice(0, 120))); }
   console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays ou hors sujet, ${nodl} sans date et trop anciens`);
 }
