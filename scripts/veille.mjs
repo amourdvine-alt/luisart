@@ -105,9 +105,11 @@ const W = {
   call: ['appel a candidature', 'appels a candidature', 'appel a projet', 'appel a participation', 'open call', 'call for', 'candidatez', 'candidatures ouvertes', 'inscriptions ouvertes', 'apply now', 'apply by', 'applications open', 'deadline', 'date limite', 'opportunities for artists', 'opportunites pour artistes'],
   call2: ['residence', 'residency', 'bourse', 'grant', 'fellowship', 'prix', 'prize', 'award', 'concours', 'competition'],
   callApply: ['candidat', 'apply', 'application', 'submit', 'soumettre', 'inscri', 'postuler', 'eligib'],
-  notCall: ['laureat', 'laureate', 'winner', 'wins ', 'won ', 'awarded', 'remporte', 'sacre', 'decerne', 'announces new', 'devoile les', 'prized', 'hard truths', 'should a ', 'how to ', 'programs to apply', 'graduate programs', 'mfa, ma', 'phd programs'],
+  notCall: ['laureat', 'laureate', 'winner', 'wins ', 'won ', 'awarded', 'remporte', 'sacre', 'decerne', 'announces new', 'devoile les', 'prized', 'hard truths', 'should a ', 'how to ', 'programs to apply', 'graduate programs', 'mfa, ma', 'phd programs', 'freelance', 'coordinator', 'research associate', 'short courses', 'survey', 'vacancy', 'job offer', 'offre d\'emploi', 'startup', 'start-up', 'opportunities: open calls', 'opportunities for artists in'],
+  perf: ['theatre', 'theater', 'dance', 'danse', 'performances', 'performing arts', 'arts de la scene', 'music', 'musique', 'playwright', 'circus', 'cirque', 'opera'],
+  visual: ['visual art', 'visual artist', 'arts visuels', 'arts plastiques', 'plasticien', 'painting', 'painter', 'peint', 'photograph', 'sculpt', 'drawing', 'dessin', 'illustrat', 'printmak', 'textile', 'ceramic', 'mixed media', 'installation'],
   // appels réservés à d'autres pays : inutiles pour les artistes de Luisart
-  closed: ['u.s. citizens', 'us citizens', 'american citizens', 'us-based', 'u.s.-based', 'us residents', 'u.s. residents', 'residents of the united states', 'based in the united states', 'uk-based', 'uk residents', 'based in the uk', 'resident in the uk', 'canadian citizens', 'canadian artists', 'residents of canada', 'australian artists', 'australian citizens', 'new zealand artists', 'eu citizens', 'citizens of the eu', 'new york-based', 'nyc-based', 'chicago-based', 'los angeles-based', 'michigan', 'local artists', 'artistes locaux', 'residents of the city', 'reserve aux habitants', 'national park'],
+  closed: ['u.s. citizens', 'us citizens', 'american citizens', 'us-based', 'u.s.-based', 'us residents', 'u.s. residents', 'residents of the united states', 'based in the united states', 'uk-based', 'uk residents', 'based in the uk', 'resident in the uk', 'canadian citizens', 'canadian artists', 'residents of canada', 'australian artists', 'australian citizens', 'new zealand artists', 'eu citizens', 'citizens of the eu', 'new york-based', 'nyc-based', 'chicago-based', 'los angeles-based', 'michigan', 'local artists', 'artistes locaux', 'resident anywhere in the uk', 'living and working in the united states', 'living in the uk', 'strong connection to', 'arts council england', 'teenagers', 'aged 13', 'under 18', 'st helens', 'must be a resident', 'residents of the city', 'reserve aux habitants', 'national park'],
   open: ['international', 'all nationalities', 'toutes nationalites', 'worldwide', 'open to artists from', 'africa', 'afrique', 'african', 'africain', 'cote d\'ivoire', 'ivory coast', 'west africa', 'francophone', 'global south', 'any country', 'emerging artists from'],
   ci: ['abidjan', 'cote d\'ivoire', 'cote divoire', 'ivoirien', 'ivoirienne', 'ivory coast', 'bingerville', 'grand-bassam', 'yamoussoukro', 'bouake', 'insaac'],
   africa: ['afrique', 'africa', 'african', 'africain', 'dakar', 'lagos', 'accra', 'bamako', 'ouagadougou', 'kinshasa', 'lubumbashi', 'nairobi', 'johannesburg', 'cotonou', 'lome', 'douala', 'yaounde', 'marrakech', 'diaspora', 'senegal', 'nigeria', 'ghana', 'benin', 'cameroun', 'mali', 'burkina'],
@@ -266,7 +268,9 @@ async function verifyCalls(list) {
       } catch {}
       const dl = it.deadline ? Date.parse(it.deadline) : (deadline(norm(it._t || '')) || deadline(txt));
       if (dl && dl < NOW - DAY) { it._drop = 'clos'; past++; continue; }
-      if (has(txt.slice(0, 20000), W.closed) && !has(txt.slice(0, 20000), W.open)) { it._drop = 'réservé à un autre pays'; closed++; continue; }
+      const head = norm(it.title + ' ' + (it._t || '')) + ' ' + txt.slice(0, 20000);
+      if (has(head, W.closed) && !has(head, W.open)) { it._drop = 'réservé à un autre pays'; closed++; continue; }
+      if (has(norm(it.title + ' ' + (it._t || '')), W.notCall) || (has(head, W.perf) && !has(head, W.visual))) { it._drop = 'hors sujet'; closed++; continue; }
       if (dl) { it.deadline = iso(dl); it.date = 'Date limite : ' + fr(dl); it._score += 3 + Math.max(0, 3 - (dl - NOW) / DAY / 20); }
       else { const age = (NOW - (it.ts || NOW)) / DAY; if (age > (it._dedic ? CALL_FRESH_DAYS : 5)) { it._drop = 'sans date limite'; nodl++; continue; } it.date = (it.date ? it.date + ' · ' : '') + 'Date limite : voir l’annonce'; }
       if (has(txt.slice(0, 20000), ['africa', 'afrique', 'african', 'africain', 'cote d\'ivoire', 'ivory coast'])) it._score += 3;
@@ -275,7 +279,7 @@ async function verifyCalls(list) {
     }
   }));
   for (let i = list.length - 1; i >= 0; i--) if (list[i]._drop) list.splice(i, 1);
-  console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays, ${nodl} sans date et trop anciens`);
+  console.log(`Appels : ${calls.length} trouvés, ${opened} pages lues, ${kept} gardés, ${past} déjà clos, ${closed} réservés à d'autres pays ou hors sujet, ${nodl} sans date et trop anciens`);
 }
 
 /* ---------------- programme principal ---------------- */
@@ -319,7 +323,7 @@ async function main() {
   // On garde les anciennes encore valides si une source tombe en panne
   for (const p of previous) {
     if (p.deadline && Date.parse(p.deadline) < NOW - DAY) continue;
-    if (p.cat === 'Appels à candidatures' && !p.deadline && NOW - (p.ts || 0) > CALL_FRESH_DAYS * DAY) continue;
+    if (p.cat === 'Appels à candidatures' && (!p.deadline || has(norm(p.title + ' ' + p.text), W.notCall) || has(norm(p.title + ' ' + p.text), W.closed))) continue;
     if (p.end && Date.parse(p.end) < NOW - DAY) continue;
     if (!p.deadline && NOW - (p.ts || 0) > MAX_AGE_DAYS * DAY) continue;
     fresh.push({ ...p, _score: (p._score || 2) - 1.5 });
