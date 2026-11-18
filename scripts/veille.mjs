@@ -258,7 +258,7 @@ async function enrichImages(items, previous) {
 const FORM_HOSTS = /(submittable\.com|callforentry\.org|forms\.gle|docs\.google\.com\/forms|typeform\.com|jotform\.|airtable\.com\/(shr|app)|zealous\.co|smapply\.|fluxx\.io|artcall\.org|entrythingy\.com|formstack\.com|wufoo\.com|cognitoforms\.com|tally\.so|hsforms\.|forms\.office\.com|forms\.microsoft\.com|surveymonkey\.|survey\.alchemer|fillout\.com|paperform\.co|kizeoforms|framaforms|culture\.gouv\.fr\/.*demarche|demarches-simplifiees\.fr|mapado|eventbrite\.[a-z.]+\/e\/|opencall\.|apply\.)/i;
 const APPLY_TXT = /(apply now|apply here|apply online|apply today|submit (your )?(application|proposal|work|entry)|application form|start (your )?application|^\s*apply\s*$|^\s*submit\s*$|enter now|^\s*register\s*$|postuler|candidater|je candidate|deposer (ma|votre|une) candidature|formulaire|dossier de candidature|s'?inscrire|inscription en ligne|telecharger le dossier)/;
 const APPLY_URL = /\/(apply|application|applications|candidature|candidatures|postuler|submit|submission|submissions|inscription|register|entry|entries|form|formulaire)(\/|\?|#|$|-|\.)/i;
-const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:)/i;
+const BAD_URL = /(facebook\.com\/sharer|twitter\.com\/intent|x\.com\/intent|linkedin\.com\/share|whatsapp|t\.me\/share|pinterest\.com\/pin|\/tag\/|\/category\/|\/author\/|\/feed|wp-login|\/login|\/signin|newsletter|subscribe|mailchimp|\/cart|\/donate|privacy|cookie|\/terms|javascript:|\/help\/|\/support\/|\/faq)/i;
 function findApply(html, base) {
   let best = null, bs = 0; const host = (() => { try { return new URL(base).host; } catch { return ''; } })();
   const re = /<a\b([^>]*?)href\s*=\s*["']?([^"' >]+)["']?([^>]*)>([\s\S]*?)<\/a>/gi; let m, idx = 0;
@@ -267,6 +267,7 @@ function findApply(html, base) {
     if (!href || href.startsWith('#') && !/apply|candidat|postul|how-to|comment/i.test(href)) continue;
     let u; try { u = new URL(href, base); } catch { continue; }
     if (!/^https?:$|^mailto:$/.test(u.protocol)) continue;
+    if (/accounts\.google\.com/.test(u.host) && u.searchParams.get('continue')) { try { u = new URL(u.searchParams.get('continue')); } catch { continue; } }
     const full = u.href; if (BAD_URL.test(full)) continue;
     let sc = 0;
     if (FORM_HOSTS.test(full)) sc += 6;
@@ -287,10 +288,20 @@ function findApply(html, base) {
 async function resolveApply(it, html, pageUrl) {
   let ap = findApply(html, pageUrl);
   // la page trouvée n'est qu'une présentation : on va une page plus loin pour trouver le formulaire
-  if (ap && !ap.startsWith('mailto:') && !ap.includes('#') && !FORM_HOSTS.test(ap)) {
-    try { const p2 = await fetchT(ap, { headers: { accept: 'text/html' } }, 12000); if (p2.status >= 400) ap = ''; else { const deep = findApply(p2.text.slice(0, 600000), p2.url || ap); if (deep && FORM_HOSTS.test(deep)) ap = deep; } } catch { ap = ''; }
+  const deeper = async u => { try { const p2 = await fetchT(u, { headers: { accept: 'text/html' } }, 12000); return findApply(p2.text.slice(0, 600000), p2.url || u); } catch { return ''; } };
+  if (ap && !ap.startsWith('mailto:') && !ap.includes('#') && !FORM_HOSTS.test(ap) && !/\.pdf($|\?)/i.test(ap)) {
+    const deep = await deeper(ap); if (deep && FORM_HOSTS.test(deep)) ap = deep;
   }
-  if (ap && ap !== it.link) it.apply = ap;
+  // site relais (On the Move, Opportunities for Africans…) : on suit le lien vers l'organisateur
+  if (!ap && it._dedic) {
+    const host = (() => { try { return new URL(pageUrl).host.replace(/^www\./, ''); } catch { return ''; } })();
+    const re = /<a\b[^>]*href\s*=\s*["']?(https?:\/\/[^"' >]+)["']?[^>]*>([\s\S]*?)<\/a>/gi; let m, org = '';
+    while ((m = re.exec(html))) { let u; try { u = new URL(m[1].replace(/&amp;/g, '&')); } catch { continue; } if (u.host.replace(/^www\./, '') === host || BAD_URL.test(u.href) || /(facebook|instagram|twitter|x\.com|linkedin|youtube|tiktok|whatsapp|t\.me|pinterest|google|feedburner|wordpress|gravatar)/i.test(u.host)) continue;
+      const t = norm(strip(m[2])); if (/(more info|more information|plus d'?info|official|site officiel|details|detail|apply|postuler|candidat|call|appel|website|site web|read the call|guidelines|lien)/.test(t)) { org = u.href; break; } }
+    if (org) { const deep = await deeper(org); ap = deep || org; }
+  }
+  if (!ap && /artrabbit/i.test(it.src || '')) ap = it.link;   // lien « Apply » donné par ArtRabbit
+  if (ap && ap !== it.link || (ap && /artrabbit/i.test(it.src || ''))) it.apply = ap;
 }
 
 /* ---------------- appels : on lit la vraie page pour trouver la date limite et les conditions ---------------- */
