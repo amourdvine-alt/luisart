@@ -187,7 +187,7 @@ const similar = (a, b) => { const A = KEYW(a), B = KEYW(b); if (!A.size || !B.si
 const hash = s => { let h = 5381; for (const c of s) h = ((h << 5) + h + c.charCodeAt(0)) >>> 0; return h.toString(36); };
 
 function cleanTitle(it) {
-  let t = it.title, src = it.source;
+  let t = it.title.replace(/^\s*\[(news|projects|actualites?)\]\s*/i, ''), src = it.source;
   const m = t.match(/^(.*)\s[-–|]\s([^-–|]{2,60})$/);   // « Titre - Journal » (Google Actualités)
   if (m && (!src || norm(m[2]).includes(norm(src).slice(0, 6)) || it.link.includes('news.google'))) { t = m[1]; src = src || m[2]; }
   return { title: t.trim(), source: src };
@@ -270,7 +270,7 @@ async function verifyCalls(list) {
       if (dl && dl < NOW - DAY) { it._drop = 'clos'; past++; continue; }
       const head = norm(it.title + ' ' + (it._t || '')) + ' ' + txt.slice(0, 20000);
       if (has(head, W.closed) && !has(head, W.open)) { it._drop = 'réservé à un autre pays'; closed++; continue; }
-      if (has(norm(it.title + ' ' + (it._t || '')), W.notCall) || (has(head, W.perf) && !has(head, W.visual))) { it._drop = 'hors sujet'; closed++; continue; }
+      if (has(norm(it.title + ' ' + (it._t || '')), W.notCall) || (has(head, W.perf) && !has(head, W.visual)) || (has(norm(it.title), W.perf) && !has(norm(it.title), W.visual))) { it._drop = 'hors sujet'; closed++; continue; }
       if (dl) { it.deadline = iso(dl); it.date = 'Date limite : ' + fr(dl); it._score += 3 + Math.max(0, 3 - (dl - NOW) / DAY / 20); }
       else { const age = (NOW - (it.ts || NOW)) / DAY; if (age > (it._dedic ? CALL_FRESH_DAYS : 5)) { it._drop = 'sans date limite'; nodl++; continue; } it.date = (it.date ? it.date + ' · ' : '') + 'Date limite : voir l’annonce'; }
       if (has(txt.slice(0, 20000), ['africa', 'afrique', 'african', 'africain', 'cote d\'ivoire', 'ivory coast'])) it._score += 3;
