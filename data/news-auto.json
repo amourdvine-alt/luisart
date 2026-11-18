@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-18T18:29:33.199Z",
+ "updated": "2026-11-18T18:36:08.326Z",
  "sources": {
-  "ok": 22,
-  "fail": 1,
-  "read": 630
+  "ok": 21,
+  "fail": 2,
+  "read": 597
  },
  "count": 80,
  "items": [
@@ -22,7 +22,7 @@
    "link": "https://www.narsfoundation.org/residencies",
    "src": "ArtRabbit",
    "img": "https://cdn.prod.website-files.com/661eaa10978ecb36a03e9700/681e53c31b883bea2af785ff_2025%20Website%20Header_white.avif",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 17.4
   },
@@ -41,7 +41,7 @@
    "link": "https://www.asso-ede.com/pages/qiankun-2027-open-call.html",
    "src": "ArtRabbit",
    "img": "https://www.asso-ede.com/......jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 17.4
   },
@@ -60,7 +60,7 @@
    "link": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 17.1
   },
@@ -79,7 +79,7 @@
    "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#don-bachardy",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 16.5
   },
@@ -98,7 +98,7 @@
    "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#scotland",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 16.5
   },
@@ -117,7 +117,7 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/pastel-society",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/PS005_0.jpg?itok=lcX6P8S_",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 16.4
   },
@@ -136,7 +136,7 @@
    "link": "https://eulsukdo-ecoart.com/en/",
    "src": "ArtRabbit",
    "img": "https://eulsukdo-ecoart.com/wp-content/uploads/eulsukdo/eulsukdo-aerial2.webp",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 16.3
   },
@@ -155,7 +155,7 @@
    "link": "https://www.beamcenter.org/events/2027-beam-camp-project-call-3bpb9\t",
    "src": "ArtRabbit",
    "img": "https://static1.squarespace.com/static/63c1901db3e45e053f386b19/63e3bd68c0f478246b9d689a/6aa1a702e26fea4904ae686c/1794835506572/1.png?format=1500w",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.9
   },
@@ -174,7 +174,7 @@
    "link": "https://artellsmedia.com/awards",
    "src": "ArtRabbit",
    "img": "https://artellsmedia.com/og-covers-v2.png",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.9
   },
@@ -193,7 +193,7 @@
    "link": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
    "src": "ArtRabbit",
    "img": "https://vitalimpacts.org/cdn/shop/files/Ami_Vitale_Sudan-Donate.jpg?v=1634101783",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.9
   },
@@ -212,7 +212,7 @@
    "link": "https://www.openairmt.org/info-1",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.9
   },
@@ -231,7 +231,7 @@
    "link": "https://teenartawards.com/",
    "src": "ArtRabbit",
    "img": "https://static.tildacdn.com/tild3139-3965-4461-a466-663838613363/__2025-09-18__130850.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.9
   },
@@ -250,7 +250,7 @@
    "link": "https://materialworksart.com/main",
    "src": "ArtRabbit",
    "img": "https://freight.cargo.site/w/677/i/V1973228095453400913910208591867/MaterialWorks_ART_CircleGray.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.6
   },
@@ -269,7 +269,7 @@
    "link": "https://filmlondon.org.uk/resource/apply-to-flamin-productions",
    "src": "ArtRabbit",
    "img": "https://film-london.transforms.svdcdn.com/production/The-classic-2.jpg?w=3008&h=2000&q=100&auto=format&fit=crop&dm=1591107401&s=11a01a2709187c1742fceb7e41906491",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.5
   },
@@ -288,7 +288,7 @@
    "link": "https://www.royalacademy.org.uk/page/ra-schools-how-to-apply",
    "src": "ArtRabbit",
    "img": "https://cdn.royalacademy.org.uk/images/00tadbkoh8p7ce1g.jpg?width=800&ratio=4:3&format=auto",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.2
   },
@@ -307,7 +307,7 @@
    "link": "https://decagongallery.com/the-room-next-door-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/the-room-next-door.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.2
   },
@@ -326,7 +326,7 @@
    "link": "https://artcircle.si/en/open-call/",
    "src": "ArtRabbit",
    "img": "https://artcircle.si/wp-content/uploads/2026/04/SLO_2026.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.2
   },
@@ -345,7 +345,7 @@
    "link": "https://emaf.filmchief.com/entry-forms",
    "src": "ArtRabbit",
    "img": "https://emaf.filmchief.com/f/files/emaf-no39_filmchief_500x265px_inv.png?format=w500h500",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15.2
   },
@@ -364,7 +364,7 @@
    "link": "https://visarts.submittable.com/submit",
    "src": "ArtRabbit",
    "img": "https://images.submittable.com/s3/publisher-files.submittable.com/9355/submit-header.jpg?width=982&height=220&mode=crop&anchor=middlecenter&v=1631111466&signature=q35uVS4d2a7%2boVUx9FPWeFurO73usHC0sXw81css1GA%3d",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 15
   },
@@ -383,7 +383,7 @@
    "link": "https://essexcdp.com/commission/shoeburynesscallforproposals/\t",
    "src": "ArtRabbit",
    "img": "https://essexcdp.com/wp-content/uploads/2026/09/Shoeburyness-scaled-e1789643033372.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.7
   },
@@ -401,8 +401,8 @@
    "country": "",
    "link": "https://www.museefabre.fr/appel-candidature-bourse-francois-daulte",
    "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795026573199,
+   "img": "https://www.museefabre.fr/sites/default/files/styles/960x807_middle/public/2022-08/francois_daulte.png?itok=QpFrlIfS",
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -421,7 +421,7 @@
    "link": "https://www.rencontres-arles.com/fr/bourse-de-recherche-curatoriale-2027",
    "src": "ArtRabbit",
    "img": "https://www.rencontres-arles.com/images/og-default.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -440,7 +440,7 @@
    "link": "https://freelandsfoundation.co.uk/engage/apply/residencies/two-together-porthmeor-studios-residencies-2027",
    "src": "ArtRabbit",
    "img": "https://cms.freelandsfoundation.co.uk/assets/4a5ae156-e599-4288-a184-415697f19795.jpg?width=1200&format=jpeg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -459,7 +459,7 @@
    "link": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -478,7 +478,7 @@
    "link": "https://saikoneon.com/apply/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -497,7 +497,7 @@
    "link": "https://www.pkf.org/grants/grant-for-artists/",
    "src": "ArtRabbit",
    "img": "https://pkfstg.wpenginepowered.com/wp-content/uploads/2025/03/AAA-polljack00004-000125-1300x997-jpg.webp",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -516,7 +516,7 @@
    "link": "https://www.arrivalgallery.com/london",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14.4
   },
@@ -535,7 +535,7 @@
    "link": "https://www.arteles.org/back_to_basics_residency.html",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 14
   },
@@ -554,7 +554,7 @@
    "link": "https://thamesfestivaltrust.org/artistic-programme/seed-funders/apply-seed-funder-programme/\t",
    "src": "ArtRabbit",
    "img": "https://thamesfestivaltrust.org/images/uploads/946d18906513ae7b09971251e6b95d2a.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.6
   },
@@ -573,7 +573,7 @@
    "link": "https://decagongallery.com/what-the-streets-hold-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/what-the-streets-hold.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.6
   },
@@ -592,7 +592,7 @@
    "link": "https://www.zku-berlin.org/open-call/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -611,7 +611,7 @@
    "link": "https://toaf.com/artrabbitmar27",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -630,7 +630,7 @@
    "link": "https://www.huge.gallery/open-calls",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -649,7 +649,7 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/RP-26-banner.jpg?itok=Cs4gtDG9",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -668,7 +668,7 @@
    "link": "https://royaldrawingschool.org/courses/postgraduate-drawing-year?utm_campaign=378369253-Marketing_DY28%20recruitment&utm_source=ArtRabbit&utm_medium=listing",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -687,7 +687,7 @@
    "link": "https://linktr.ee/mutephotofestival",
    "src": "ArtRabbit",
    "img": "https://linktr.ee/og/image/mutephotofestival.jpg",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -706,7 +706,7 @@
    "link": "https://www.surveycake.com/s/W2Rpe\t",
    "src": "ArtRabbit",
    "img": "https://www.surveycake.com/s/share-image.png",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -725,7 +725,7 @@
    "link": "https://forms.gle/7rmbD8ubF1Ppz7AC6",
    "src": "ArtRabbit",
    "img": "https://lh3.googleusercontent.com/5zhdXjNZvCeCciDm_w2vW6T8K1UMdkW5nldTSm9HdRa60xcFXP9tD_CR--JfOh0Fj_a9im7myJXLUo8=w1200-h630-p",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.5
   },
@@ -744,7 +744,7 @@
    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeOIa216O2jnl9Xk4ZM6EkQKysRU0vpJwvNHFzOd8SQy1vaYQ/viewform",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 13.4
   },
@@ -763,7 +763,7 @@
    "link": "https://airtable.com/appVBqyF9L6JTM6EI/pagh1TfE1JhIXQEjV/form",
    "src": "ArtRabbit",
    "img": "https://static.airtable.com/images/oembed/airtable_brand.png",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 12.9
   },
@@ -782,7 +782,7 @@
    "link": "https://docs.google.com/forms/d/e/1FAIpQLScQrqdZCqPG_BmV5nBDA5Usy6eY39r8STG0VZWo7eP8ucUwSg/viewform?usp=publish-editor",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 12.8
   },
@@ -801,7 +801,7 @@
    "link": "https://www.artrabbit.comsgfa.oess1.uk",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 12.7
   },
@@ -820,7 +820,7 @@
    "link": "https://screensouth.org/events/screen-south-showcase-artists-2026-7-open-call/\t",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795026573199,
+   "ts": 1795026968326,
    "auto": 1,
    "_score": 12
   },
@@ -841,7 +841,7 @@
    "img": "https://static.wixstatic.com/media/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg/v1/fill/w_2000,h_1429,al_c,q_90,usm_0.66_1.00_0.01/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg",
    "ts": 1795026432540,
    "auto": 1,
-   "_score": 18.9
+   "_score": 17.4
   },
   {
    "id": "auto_d2ecgz",
@@ -860,7 +860,7 @@
    "img": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQe-P_J2qpjEaOvtD2Z5lTnhATHqLXCnwL3M7EzWQJtY4nVnvfGCFFnvr0fjALBtf6VRlLK8EMg03bRy2cb5Eqj8aLwzVd0O4t35Y62warN_zspHx71G4lTculemJGNSjhEY2SCkRrnidGu6V2GC22-fUcu-o7wM4B940uVX3YmSasLwt8mVRObjLYrWyFA=w16383",
    "ts": 1795026432540,
    "auto": 1,
-   "_score": 14.4
+   "_score": 12.9
   },
   {
    "id": "auto_ntuhbw",
@@ -879,7 +879,7 @@
    "img": "",
    "ts": 1795026432540,
    "auto": 1,
-   "_score": 14.1
+   "_score": 12.6
   },
   {
    "id": "auto_10bmkvs",
@@ -898,7 +898,7 @@
    "img": "https://festivalofmaking.co.uk/wp-content/uploads/2025/09/Copy-of-FolkDanceStepHop-FOM_2024-121-Photographer-Robin-Zahler.jpg",
    "ts": 1795026432540,
    "auto": 1,
-   "_score": 13.3
+   "_score": 11.8
   },
   {
    "id": "auto_s8qdwq",
@@ -1107,7 +1107,7 @@
    "img": "https://on-the-move.org/sites/default/files/projects/2026-11/OTM-GBN-Web-Banner.jpg",
    "ts": 1795002152000,
    "auto": 1,
-   "_score": 10.4
+   "_score": 8.9
   },
   {
    "id": "auto_7h4b9p",
@@ -1126,7 +1126,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/StockholmFringe2027.jpg",
    "ts": 1794998407000,
    "auto": 1,
-   "_score": 14.4
+   "_score": 12.9
   },
   {
    "id": "auto_szyi3m",
@@ -1150,7 +1150,7 @@
   {
    "id": "auto_izlvvs",
    "cat": "Appels à candidatures",
-   "title": "[News] Ligeti Center: Artists and Scientists in Residence 2027 ‘Where Sound Shapes Space’ (Germany)",
+   "title": "Ligeti Center: Artists and Scientists in Residence 2027 ‘Where Sound Shapes Space’ (Germany)",
    "sub": "On the Move",
    "text": "The Artists and Scientists in Residence programme is inviting artists and scientists to realise an interdisciplinary artistic-scientific project at ligeti center in Hamburg, Germany, from April to the end of June 2027. Working closely with projects and labs based at the ligeti center, the focus will be on engaging with existing concepts and bringing in personal backgrounds, perspectives, methods, and ideas. For the…",
    "date": "Date limite : 10 janvier 2027",
@@ -1302,7 +1302,7 @@
   {
    "id": "auto_13klw6u",
    "cat": "Appels à candidatures",
-   "title": "[News] Interwoven Residencies in Early European Textiles for Visual Artists 2027 (France, Ireland, UK)",
+   "title": "Interwoven Residencies in Early European Textiles for Visual Artists 2027 (France, Ireland, UK)",
    "sub": "On the Move",
    "text": "Interwoven is an international artist residency project taking place in Normandy, Sussex and Co. Wexford in 2027. The residencies are hosted by Le Shed/Association Cybèle (Rouen Métropole/Gruchet-Saint-Siméon - France), Fabrica (Brighton - UK), and Cow House Studios (Enniscorthy - Ireland). Interwoven offers two contemporary visual artists a month-long opportunity to connect with and investigate local histories, with…",
    "date": "Date limite : 15 décembre 2026",
@@ -1397,7 +1397,7 @@
   {
    "id": "auto_3qvaex",
    "cat": "Appels à candidatures",
-   "title": "[News] Sharjah Art Foundation: Collection Research Fellowship 2027–2029 (UAE, Remote)",
+   "title": "Sharjah Art Foundation: Collection Research Fellowship 2027–2029 (UAE, Remote)",
    "sub": "On the Move",
    "text": "Sharjah Art Foundation is accepting applications for the Sharjah Art Foundation Collection Research Fellowship, a two-year programme (March 2027–March 2029) supporting sustained research into the Foundation’s collection and archives. The first cycle will focus on Hassan Sharif’s studio and archive, a dedicated space within the larger Foundation Collection that houses artworks, objects and documents pertaining to…",
    "date": "Date limite : 30 novembre 2026",
@@ -1449,12 +1449,12 @@
    "img": "https://www.aip.ci/wp-content/uploads/2026/11/Directrice-de-creation-Anna-Alex-Koffi.jpg",
    "ts": 1794570345000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 6
   },
   {
    "id": "auto_1itr1ig",
    "cat": "Appels à candidatures",
-   "title": "[News] ZMINA: Resilience Co-creation Funding of International Cooperation Projects Call #2 Ukraine–Creative Europe Countries",
+   "title": "ZMINA: Resilience Co-creation Funding of International Cooperation Projects Call #2 Ukraine–Creative Europe Countries",
    "sub": "On the Move",
    "text": "The IZOLYATSIA Foundation (UA) and Malý Berlín (SK), together with Trans Europe Halles (SE), have announced the second call for proposals for the co-creation funding of international cooperation projects. The objective of the call is to support co-creation between Ukrainian artists and cultural organisations and their peers from Creative Europe countries on the topic of resilience. Funding will be available for…",
    "date": "Date limite : 4 décembre 2026",
@@ -1487,7 +1487,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/Theatretreffen2027.jpg",
    "ts": 1794568488000,
    "auto": 1,
-   "_score": 14.8
+   "_score": 13.3
   },
   {
    "id": "auto_row3aj",
@@ -1525,7 +1525,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -67.7
+   "_score": -69.2
   }
  ]
 }
