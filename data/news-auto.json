@@ -1,12 +1,31 @@
 {
- "updated": "2026-11-18T22:02:46.348Z",
+ "updated": "2026-11-19T06:14:43.020Z",
  "sources": {
   "ok": 22,
   "fail": 1,
-  "read": 629
+  "read": 635
  },
  "count": 80,
  "items": [
+  {
+   "id": "auto_1wdgewf",
+   "cat": "Appels à candidatures",
+   "title": "OPEN CALL FOR ARTISTS-IN-RESIDENCE 2027 | New York",
+   "sub": "ArtRabbit",
+   "text": "Updated: 10 November 2026 KUNSTRAUM is accepting applications for its 2027 Artist-in-Residence Program in New York. The 3 months residencies are open to international artists working across disciplines. Available terms are Jan–Mar, and Oct–Dec 2027. Who can apply: All kind of Visual Artists What you get: Residents receive studio space with 24/7 access, studio visits, exhibition and sales opportunities, community…",
+   "date": "Date limite : 31 décembre 2026",
+   "deadline": "2026-12-31",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-december-31-2026",
+   "src": "ArtRabbit",
+   "img": "https://static.wixstatic.com/media/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg/v1/fill/w_2000,h_1429,al_c,q_90,usm_0.66_1.00_0.01/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg",
+   "ts": 1795068883020,
+   "auto": 1,
+   "_score": 20.4
+  },
   {
    "id": "auto_pmw741",
    "cat": "Appels à candidatures",
@@ -22,7 +41,7 @@
    "link": "https://www.narsfoundation.org/residencies",
    "src": "ArtRabbit",
    "img": "https://cdn.prod.website-files.com/661eaa10978ecb36a03e9700/681e53c31b883bea2af785ff_2025%20Website%20Header_white.avif",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://narsfoundation.submittable.com/submit/134702/nars-residency-program-rolling-admission-for-international-artists-only",
    "applyKind": "form",
@@ -43,30 +62,9 @@
    "link": "https://www.asso-ede.com/pages/qiankun-2027-open-call.html",
    "src": "ArtRabbit",
    "img": "https://www.asso-ede.com/......jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 17.4
-  },
-  {
-   "id": "auto_q4iakw",
-   "cat": "Appels à candidatures",
-   "title": "Tuwaiq Sculpture 2027 | Open Call for Artists",
-   "sub": "ArtRabbit",
-   "text": "Updated: 11 November 2026 Riyadh Art invites artists from Saudi Arabia and around the world to apply for Tuwaiq Sculpture 2027, taking place in Riyadh in January 2027 under the curatorial theme Where Roots Run Deep . The eighth edition will bring together 20 artists to create large-scale sculptures during a live, three-week symposium, followed by an exhibition. The completed artworks will later be permanently…",
-   "date": "Date limite : 6 décembre 2026",
-   "deadline": "2026-12-06",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27",
-   "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795039366348,
-   "auto": 1,
-   "apply": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27#wpforms-form-19745",
-   "applyKind": "form",
-   "_score": 17.1
   },
   {
    "id": "auto_xsfitw",
@@ -83,7 +81,7 @@
    "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#don-bachardy",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 16.5
   },
@@ -102,7 +100,7 @@
    "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#scotland",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://royaldrawingschool.jotform.com/262841816541863",
    "applyKind": "form",
@@ -123,9 +121,9 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/pastel-society",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/PS005_0.jpg?itok=lcX6P8S_",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 16.4
+   "_score": 16.5
   },
   {
    "id": "auto_r7wfd1",
@@ -142,11 +140,11 @@
    "link": "https://eulsukdo-ecoart.com/en/",
    "src": "ArtRabbit",
    "img": "https://eulsukdo-ecoart.com/wp-content/uploads/eulsukdo/eulsukdo-aerial2.webp",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://eulsukdo-ecoart.com/en/#submit",
    "applyKind": "section",
-   "_score": 16.3
+   "_score": 16.4
   },
   {
    "id": "auto_1nb1io0",
@@ -163,9 +161,9 @@
    "link": "https://www.beamcenter.org/events/2027-beam-camp-project-call-3bpb9\t",
    "src": "ArtRabbit",
    "img": "https://static1.squarespace.com/static/63c1901db3e45e053f386b19/63e3bd68c0f478246b9d689a/6aa1a702e26fea4904ae686c/1794835506572/1.png?format=1500w",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 15.9
+   "_score": 16
   },
   {
    "id": "auto_xgbxl1",
@@ -182,9 +180,9 @@
    "link": "https://artellsmedia.com/awards",
    "src": "ArtRabbit",
    "img": "https://artellsmedia.com/og-covers-v2.png",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 15.9
+   "_score": 16
   },
   {
    "id": "auto_1jt91yj",
@@ -201,9 +199,9 @@
    "link": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
    "src": "ArtRabbit",
    "img": "https://vitalimpacts.org/cdn/shop/files/Ami_Vitale_Sudan-Donate.jpg?v=1634101783",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 15.9
+   "_score": 16
   },
   {
    "id": "auto_hluwu9",
@@ -220,9 +218,9 @@
    "link": "https://www.openairmt.org/info-1",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 15.9
+   "_score": 16
   },
   {
    "id": "auto_jni2ld",
@@ -239,7 +237,7 @@
    "link": "https://teenartawards.com/",
    "src": "ArtRabbit",
    "img": "https://static.tildacdn.com/tild3139-3965-4461-a466-663838613363/__2025-09-18__130850.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 15.9
   },
@@ -258,11 +256,30 @@
    "link": "https://materialworksart.com/main",
    "src": "ArtRabbit",
    "img": "https://freight.cargo.site/w/677/i/V1973228095453400913910208591867/MaterialWorks_ART_CircleGray.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://pci.jotform.com/form/262185636090156",
    "applyKind": "form",
-   "_score": 15.6
+   "_score": 15.7
+  },
+  {
+   "id": "auto_q4iakw",
+   "cat": "Appels à candidatures",
+   "title": "Tuwaiq Sculpture 2027 | Open Call for Artists",
+   "sub": "ArtRabbit",
+   "text": "Updated: 11 November 2026 Riyadh Art invites artists from Saudi Arabia and around the world to apply for Tuwaiq Sculpture 2027, taking place in Riyadh in January 2027 under the curatorial theme Where Roots Run Deep . The eighth edition will bring together 20 artists to create large-scale sculptures during a live, three-week symposium, followed by an exhibition. The completed artworks will later be permanently…",
+   "date": "Date limite : 6 décembre 2026",
+   "deadline": "2026-12-06",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27",
+   "src": "ArtRabbit",
+   "img": "",
+   "ts": 1795068883020,
+   "auto": 1,
+   "_score": 15.7
   },
   {
    "id": "auto_7ekib1",
@@ -279,7 +296,7 @@
    "link": "https://filmlondon.org.uk/resource/apply-to-flamin-productions",
    "src": "ArtRabbit",
    "img": "https://film-london.transforms.svdcdn.com/production/The-classic-2.jpg?w=3008&h=2000&q=100&auto=format&fit=crop&dm=1591107401&s=11a01a2709187c1742fceb7e41906491",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://flamin.wufoo.com/forms/flamin-productions-2026-application-form/",
    "applyKind": "form",
@@ -300,9 +317,9 @@
    "link": "https://www.royalacademy.org.uk/page/ra-schools-how-to-apply",
    "src": "ArtRabbit",
    "img": "https://cdn.royalacademy.org.uk/images/00tadbkoh8p7ce1g.jpg?width=800&ratio=4:3&format=auto",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 15.2
+   "_score": 15.3
   },
   {
    "id": "auto_quuyys",
@@ -319,7 +336,7 @@
    "link": "https://decagongallery.com/the-room-next-door-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/the-room-next-door.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://form.jotform.com/262753790146160",
    "applyKind": "form",
@@ -340,7 +357,7 @@
    "link": "https://artcircle.si/en/open-call/",
    "src": "ArtRabbit",
    "img": "https://artcircle.si/wp-content/uploads/2026/04/SLO_2026.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://artcircle.si/wp-content/uploads/2026/10/OPEN_CALL_AC_Wolfgangsee_2027.pdf",
    "applyKind": "pdf",
@@ -361,7 +378,7 @@
    "link": "https://emaf.filmchief.com/entry-forms",
    "src": "ArtRabbit",
    "img": "https://emaf.filmchief.com/f/files/emaf-no39_filmchief_500x265px_inv.png?format=w500h500",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 15.2
   },
@@ -380,11 +397,11 @@
    "link": "https://visarts.submittable.com/submit",
    "src": "ArtRabbit",
    "img": "https://images.submittable.com/s3/publisher-files.submittable.com/9355/submit-header.jpg?width=982&height=220&mode=crop&anchor=middlecenter&v=1631111466&signature=q35uVS4d2a7%2boVUx9FPWeFurO73usHC0sXw81css1GA%3d",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://visarts.submittable.com/submit",
    "applyKind": "form",
-   "_score": 15
+   "_score": 15.1
   },
   {
    "id": "auto_86qder",
@@ -401,30 +418,9 @@
    "link": "https://essexcdp.com/commission/shoeburynesscallforproposals/\t",
    "src": "ArtRabbit",
    "img": "https://essexcdp.com/wp-content/uploads/2026/09/Shoeburyness-scaled-e1789643033372.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 14.7
-  },
-  {
-   "id": "auto_njk13u",
-   "cat": "Appels à candidatures",
-   "title": "G. & A. Mamidakis Foundation Art Prize 2027",
-   "sub": "ArtRabbit",
-   "text": "Updated: 05 November 2026 The G. & A. Mamidakis Foundation invites international artists to propose a large-scale, site-specific sculptural installation for permanent outdoor display in Agios Nikolaos, Crete. The winning work will become part of the Foundation’s art collection and local cultural heritage. Who can apply: Visual artists worldwide working in sculpture, installation, sound installation, mixed media…",
-   "date": "Date limite : 30 décembre 2026",
-   "deadline": "2026-12-30",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
-   "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795039366348,
-   "auto": 1,
-   "apply": "https://gnamamidakisfoundation.org/en/open-calls-aithseis/",
-   "applyKind": "form",
-   "_score": 14.4
+   "_score": 14.8
   },
   {
    "id": "auto_1jqauw5",
@@ -441,11 +437,11 @@
    "link": "https://www.museefabre.fr/appel-candidature-bourse-francois-daulte",
    "src": "ArtRabbit",
    "img": "https://www.museefabre.fr/sites/default/files/styles/960x807_middle/public/2022-08/francois_daulte.png?itok=QpFrlIfS",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://www.museefabre.fr/sites/default/files/2026-06/candidature_bourse_daulte_2026.pdf",
    "applyKind": "pdf",
-   "_score": 14.4
+   "_score": 14.5
   },
   {
    "id": "auto_sw77pl",
@@ -462,9 +458,9 @@
    "link": "https://www.rencontres-arles.com/fr/bourse-de-recherche-curatoriale-2027",
    "src": "ArtRabbit",
    "img": "https://www.rencontres-arles.com/images/og-default.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 14.4
+   "_score": 14.5
   },
   {
    "id": "auto_19z0szl",
@@ -481,9 +477,30 @@
    "link": "https://freelandsfoundation.co.uk/engage/apply/residencies/two-together-porthmeor-studios-residencies-2027",
    "src": "ArtRabbit",
    "img": "https://cms.freelandsfoundation.co.uk/assets/4a5ae156-e599-4288-a184-415697f19795.jpg?width=1200&format=jpeg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 14.4
+   "_score": 14.5
+  },
+  {
+   "id": "auto_njk13u",
+   "cat": "Appels à candidatures",
+   "title": "G. & A. Mamidakis Foundation Art Prize 2027",
+   "sub": "ArtRabbit",
+   "text": "Updated: 05 November 2026 The G. & A. Mamidakis Foundation invites international artists to propose a large-scale, site-specific sculptural installation for permanent outdoor display in Agios Nikolaos, Crete. The winning work will become part of the Foundation’s art collection and local cultural heritage. Who can apply: Visual artists worldwide working in sculpture, installation, sound installation, mixed media…",
+   "date": "Date limite : 30 décembre 2026",
+   "deadline": "2026-12-30",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
+   "src": "ArtRabbit",
+   "img": "",
+   "ts": 1795068883020,
+   "auto": 1,
+   "apply": "https://gnamamidakisfoundation.org/en/open-calls-aithseis/",
+   "applyKind": "form",
+   "_score": 14.5
   },
   {
    "id": "auto_1voydhk",
@@ -500,7 +517,7 @@
    "link": "https://saikoneon.com/apply/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 14.4
   },
@@ -519,7 +536,7 @@
    "link": "https://www.pkf.org/grants/grant-for-artists/",
    "src": "ArtRabbit",
    "img": "https://pkfstg.wpenginepowered.com/wp-content/uploads/2025/03/AAA-polljack00004-000125-1300x997-jpg.webp",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://bbgm-apply.yourcausegrants.com/apply/programs/afa38443-4f9b-41de-9d80-b14f36899241",
    "applyKind": "form",
@@ -540,7 +557,7 @@
    "link": "https://www.arrivalgallery.com/london",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 14.4
   },
@@ -559,11 +576,11 @@
    "link": "https://www.arteles.org/back_to_basics_residency.html",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://arteles.wufoo.com/forms/r1d20oqb1jyzeol/",
    "applyKind": "form",
-   "_score": 14
+   "_score": 14.1
   },
   {
    "id": "auto_1h4x87c",
@@ -580,11 +597,11 @@
    "link": "https://thamesfestivaltrust.org/artistic-programme/seed-funders/apply-seed-funder-programme/\t",
    "src": "ArtRabbit",
    "img": "https://thamesfestivaltrust.org/images/uploads/946d18906513ae7b09971251e6b95d2a.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://thamesfestivaltrust.org/artistic-programme/seed-funders/apply-seed-funder-programme/",
    "applyKind": "form",
-   "_score": 13.6
+   "_score": 13.7
   },
   {
    "id": "auto_1yiyqih",
@@ -601,11 +618,11 @@
    "link": "https://decagongallery.com/what-the-streets-hold-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/what-the-streets-hold.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://form.jotform.com/262917939737072",
    "applyKind": "form",
-   "_score": 13.6
+   "_score": 13.7
   },
   {
    "id": "auto_1srwq5x",
@@ -622,11 +639,11 @@
    "link": "https://www.zku-berlin.org/open-call/",
    "src": "ArtRabbit",
    "img": "https://www.zku-berlin.org/fileadmin/_processed_/7/a/csm_OPEN_CALL_Main_Visual_Web__c__Kristin_Krause_d9b435fa46.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://apply.zku-berlin.org/open-call-2026",
    "applyKind": "form",
-   "_score": 13.5
+   "_score": 13.6
   },
   {
    "id": "auto_z7v8fu",
@@ -643,9 +660,9 @@
    "link": "https://toaf.com/artrabbitmar27",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 13.5
+   "_score": 13.6
   },
   {
    "id": "auto_1o5zmyv",
@@ -662,7 +679,7 @@
    "link": "https://www.huge.gallery/open-calls",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 13.5
   },
@@ -681,7 +698,7 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/RP-26-banner.jpg?itok=Cs4gtDG9",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 13.5
   },
@@ -700,7 +717,7 @@
    "link": "https://royaldrawingschool.org/courses/postgraduate-drawing-year?utm_campaign=378369253-Marketing_DY28%20recruitment&utm_source=ArtRabbit&utm_medium=listing",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://royaldrawingschool.org/courses/postgraduate-drawing-year/applications#how-to-apply",
    "applyKind": "section",
@@ -721,7 +738,7 @@
    "link": "https://linktr.ee/mutephotofestival",
    "src": "ArtRabbit",
    "img": "https://linktr.ee/og/image/mutephotofestival.jpg",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 13.5
   },
@@ -740,7 +757,7 @@
    "link": "https://www.surveycake.com/s/W2Rpe\t",
    "src": "ArtRabbit",
    "img": "https://www.surveycake.com/s/share-image.png",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 13.5
   },
@@ -759,7 +776,7 @@
    "link": "https://forms.gle/7rmbD8ubF1Ppz7AC6",
    "src": "ArtRabbit",
    "img": "https://lh3.googleusercontent.com/5zhdXjNZvCeCciDm_w2vW6T8K1UMdkW5nldTSm9HdRa60xcFXP9tD_CR--JfOh0Fj_a9im7myJXLUo8=w1200-h630-p",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://docs.google.com/forms/d/e/1FAIpQLSee5TnSkrBOamRnpAhP7jQlXvWoWH6-ft4ZzxFB8ko8v60j0g/viewform?usp=send_form#mG61Hd",
    "applyKind": "form",
@@ -780,9 +797,9 @@
    "link": "https://docs.google.com/forms/d/e/1FAIpQLSeOIa216O2jnl9Xk4ZM6EkQKysRU0vpJwvNHFzOd8SQy1vaYQ/viewform",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 13.4
+   "_score": 13.5
   },
   {
    "id": "auto_1ln81y7",
@@ -799,7 +816,7 @@
    "link": "https://airtable.com/appVBqyF9L6JTM6EI/pagh1TfE1JhIXQEjV/form",
    "src": "ArtRabbit",
    "img": "https://static.airtable.com/images/oembed/airtable_brand.png",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "apply": "https://airtable.com/appVBqyF9L6JTM6EI/pagh1TfE1JhIXQEjV/form",
    "applyKind": "form",
@@ -810,7 +827,7 @@
    "cat": "Appels à candidatures",
    "title": "Inner Landscapes | Open call for artists",
    "sub": "ArtRabbit",
-   "text": "Updated: 18 November 2026 Inner Landscapes is an open call for artists to show us the terrain inside them. We ask one question: what does the landscape inside you look like? Every work is an answer. Painters, photographers, sculptors, video and digital artists, and artists working with AI are all welcome, along with anyone whose medium doesn’t fit a label. The work can be literal or imagined, remembered or invented.…",
+   "text": "Updated: 19 November 2026 Inner Landscapes is an open call for artists to show us the terrain inside them. We ask one question: what does the landscape inside you look like? Every work is an answer. Painters, photographers, sculptors, video and digital artists, and artists working with AI are all welcome, along with anyone whose medium doesn’t fit a label. The work can be literal or imagined, remembered or invented.…",
    "date": "Date limite : 2 janvier 2027",
    "deadline": "2027-01-02",
    "start": "",
@@ -820,7 +837,7 @@
    "link": "https://docs.google.com/forms/d/e/1FAIpQLScQrqdZCqPG_BmV5nBDA5Usy6eY39r8STG0VZWo7eP8ucUwSg/viewform?usp=publish-editor",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 12.8
   },
@@ -839,9 +856,9 @@
    "link": "https://www.artrabbit.comsgfa.oess1.uk",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
-   "_score": 12.7
+   "_score": 12.8
   },
   {
    "id": "auto_18nxwg8",
@@ -858,85 +875,237 @@
    "link": "https://screensouth.org/events/screen-south-showcase-artists-2026-7-open-call/\t",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795039366348,
+   "ts": 1795068883020,
    "auto": 1,
    "_score": 12
   },
   {
-   "id": "auto_161srah",
-   "cat": "Expositions majeures",
-   "title": "BE OPEN Regional Art East Asia 2026",
-   "sub": "ArtRabbit",
-   "text": "Updated: 12 November 2026 BE OPEN Foundation invites emerging artists from East Asia to participate in BE OPEN Regional Art East Asia 2026. The programme showcases art reflecting regional, cultural and ethnic identities through the BE OPEN Art online gallery. Four monthly winners progress to a final selection involving an international jury. Who can apply: Emerging visual artists from China, Hong Kong, Japan, Macau…",
-   "date": "Du 12 novembre 2026 au 30 novembre 2026",
+   "id": "auto_dqs8fn",
+   "cat": "Événements",
+   "title": "Turner « trop souvent placé sur un piédestal » : à Lille, le Palais des beaux-arts met en lumière les artistes oubliés qui l’ont formé",
+   "sub": "Connaissance des Arts",
+   "text": "Au XVIIIe siècle, la pratique du Grand Tour prend de l’ampleur chez les aristocrates et les artistes britanniques ; parallèlement, le genre du paysage acquiert ses lettres de noblesse, comme le rappelle une fascinante exposition au Palais des Beaux-arts de Lille. Rencontre avec son commissaire. Cet article Turner « trop souvent placé sur un piédestal » : à Lille, le Palais des beaux-arts met en lumière les artistes…",
+   "date": "Publié le 19 novembre 2026",
    "deadline": "",
-   "start": "2026-11-12",
-   "end": "2026-11-30",
-   "place": "",
-   "country": "",
-   "link": "https://art.beopenfuture.com/regional-art/",
-   "src": "ArtRabbit",
-   "img": "https://art.beopenfuture.com/wp-content/uploads/elementor/thumbs/Manjushri-reverse-rvqlpok2d4urd3xx0intsdgyy0nk8me6klr4grabhc.jpg",
-   "ts": 1795039366348,
-   "auto": 1,
-   "_score": 5
-  },
-  {
-   "id": "auto_oe8g2y",
-   "cat": "Expositions majeures",
-   "title": "Whitney Museum of American Art: Curatorial Research Associate",
-   "sub": "ArtRabbit",
-   "text": "Updated: 12 November 2026 The Whitney Museum of American Art seeks a part-time Curatorial Research Associate to support a publication accompanying a mid-career survey of a living artist. Responsibilities include archival and secondary research, image permissions, bibliography preparation, checklist management and coordination with partner institutions. Who can apply: Candidates with an MA in Art History (PhD…",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-12",
+   "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://jobs.whitney.org/apply/844uHexOTW/Curatorial-Research-Associate",
-   "src": "ArtRabbit",
-   "img": "https://resumator.s3.amazonaws.com/customer_20171113183725_5ZFOJXMN1ICQN3OQ/social_icons/20171206201538_JazzHR-Social-600x600.png",
-   "ts": 1795039366348,
+   "link": "https://www.connaissancedesarts.com/arts-expositions/lille/turner-trop-souvent-place-sur-un-piedestal-a-lille-le-palais-des-beaux-arts-met-en-lumiere-les-artistes-oublies-qui-lont-forme-11218565/",
+   "src": "Connaissance des Arts",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_turner-entretien_2-tt-width-653-height-435-fill-0-crop-0-bgcolor-eeeeee.jpg",
+   "ts": 1795068048000,
    "auto": 1,
-   "_score": 5
+   "_score": 5.5
   },
   {
-   "id": "auto_1wdgewf",
+   "id": "auto_125oyyi",
+   "cat": "Expositions majeures",
+   "title": "100 ans après, la mythique rencontre entre André Breton et Nadja rejouée dans un spectacle au musée Gustave-Moreau",
+   "sub": "Beaux Arts Magazine",
+   "text": "Un soir d’octobre 1926, sur un trottoir de la rue Lafayette à Paris, André Breton …",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.beauxarts.com/lifestyle/100-ans-apres-la-mythique-rencontre-entre-andre-breton-et-nadja-rejouee-dans-un-spectacle-au-musee-gustave-moreau/",
+   "src": "Beaux Arts Magazine",
+   "img": "https://media.beauxarts.com/uploads/2026/11/uneatelier-3me-etage-muse-national-gustave-moreau-hartl-meyer_53897244710_o-1300x975.jpg",
+   "ts": 1795068014000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1f3rac8",
+   "cat": "Art mondial",
+   "title": "Led by Record-Breaking $190.4 M. van Gogh, Sotheby’s Impressionist and Modern Art Sales Rake in $777.8 M.",
+   "sub": "ARTnews",
+   "text": "The 12-work Blaquier-Arrieta collection brought in $412 million, a record for a single-owner Impressionist-modern sale at the house.",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/sothebys-modern-art-sale-blaquier-arrieta-van-gogh-1234806802/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Chataigniers-en-fleurs-Van-Gogh-Sothebys.png?w=400",
+   "ts": 1795065194000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_1ii60vq",
    "cat": "Appels à candidatures",
-   "title": "OPEN CALL FOR ARTISTS-IN-RESIDENCE 2027 | New York",
-   "sub": "ArtRabbit",
-   "text": "Updated: 10 November 2026 KUNSTRAUM is accepting applications for its 2027 Artist-in-Residence Program in New York. The 3 months residencies are open to international artists working across disciplines. Available terms are Jan–Mar, and Oct–Dec 2027. Who can apply: All kind of Visual Artists What you get: Residents receive studio space with 24/7 access, studio visits, exhibition and sales opportunities, community…",
-   "date": "Date limite : 31 décembre 2026",
-   "deadline": "2026-12-31",
+   "title": "Royal Academy Schools: Postgraduate Programme 2027–2029 (UK)",
+   "sub": "On the Move",
+   "text": "Royal Academy Schools, London, are calling for applications for their three-year postgraduate programme in contemporary fine art, starting in October 2027. The Postgraduate Programme offers contemporary fine artists from all nationalities, backgrounds, practices and media the opportunity to join a creative community. Students benefit from dedicated studio space, access to specialist workshops, lectures, group…",
+   "date": "Date limite : 14 décembre 2026",
+   "deadline": "2026-12-14",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-december-31-2026",
-   "src": "ArtRabbit",
-   "img": "https://static.wixstatic.com/media/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg/v1/fill/w_2000,h_1429,al_c,q_90,usm_0.66_1.00_0.01/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg",
-   "ts": 1795039171700,
+   "link": "https://on-the-move.org/news/royal-academy-schools-postgraduate-programme-2027-2029-uk",
+   "src": "On the Move",
+   "img": "https://on-the-move.org/sites/default/files/news/2026-11/RA-post-grad-2027.jpeg",
+   "ts": 1795061700000,
    "auto": 1,
-   "_score": 17.4
+   "_score": 15.2
   },
   {
-   "id": "auto_biwekb",
-   "cat": "Expositions majeures",
-   "title": "Ouverture de la 16e édition de la Biennale de Dakar",
-   "sub": "La Vie Senegalaise",
-   "text": "Ouverture de la 16e édition de la Biennale de Dakar La Vie Senegalaise",
-   "date": "Publié le 18 novembre 2026",
+   "id": "auto_1788x7q",
+   "cat": "Appels à candidatures",
+   "title": "AIR InSILo: 2027 Residency ‘When the Hourless Seeps’ (Austria)",
+   "sub": "On the Move",
+   "text": "AIR InSILo is calling for applications for their residency programme in Hollabrunn, Austria, for seven weeks between April and July 2027. This year, AIR InSILo works with the invited curator Ahmad Darkhabani and his proposed theme ‘when the hourless seeps’. This open call centres on the fragility of reality and life, inviting artists to examine the structures that construct and stabilise our understanding of them.…",
+   "date": "Date limite : 30 décembre 2026",
+   "deadline": "2026-12-30",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://on-the-move.org/news/air-insilo-2027-residency-when-hourless-seeps-austria",
+   "src": "On the Move",
+   "img": "https://on-the-move.org/sites/default/files/news/2026-11/AIR%20InSILo_Open_Call.jpeg",
+   "ts": 1795060800000,
+   "auto": 1,
+   "_score": 12.9
+  },
+  {
+   "id": "auto_1qfyxfk",
+   "cat": "Nouveautés",
+   "title": "Stanbic IBTC Pension Promotes Knowledge, Legacy At ART X Lagos",
+   "sub": "Independent Newspaper Nigeria",
+   "text": "Stanbic IBTC Pension Promotes Knowledge, Legacy At ART X Lagos Independent Newspaper Nigeria",
+   "date": "Publié le 19 novembre 2026",
    "deadline": "",
    "start": "",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://laviesenegalaise.com/ouverture-de-la-16e-edition-de-la-biennale-de-lart-africain-contemporain/",
-   "src": "La Vie Senegalaise",
-   "img": "https://laviesenegalaise.com/wp-content/uploads/2026/11/Ouverture-de-la-16e-edition-de-la-Biennale-de-Dakar.jpg",
-   "ts": 1795038644000,
+   "link": "https://independent.ng/stanbic-ibtc-pension-promotes-knowledge-legacy-at-art-x-lagos/",
+   "src": "Independent Newspaper Nigeria",
+   "img": "https://independent.ng/wp-content/uploads/2026/10/Stanbic-IBTC-Pension-Managers-e1793154875478.png",
+   "ts": 1795055878000,
    "auto": 1,
    "_score": 8
+  },
+  {
+   "id": "auto_aax9t3",
+   "cat": "Art mondial",
+   "title": "A Tiny Monet With a Wild Backstory Just Fetched More Than 20 Times its Estimate at a Christie’s Day Sale",
+   "sub": "ARTnews",
+   "text": "The painting was commissioned by a French dealer, owned by a notorious Paris fraudster, and later acquired by major American collectors of Impressionism.",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/market/tiny-monet-wild-backstory-7-million-christies-day-sale-1234806754/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/CLAUDE-MONET-La-Barque.jpg?w=400",
+   "ts": 1795053848000,
+   "auto": 1,
+   "_score": 5.5
+  },
+  {
+   "id": "auto_10z37h3",
+   "cat": "Expositions majeures",
+   "title": "Biennale de Dakar 2026 : Diomaye Faye présidera la cérémonie officielle d’ouverture",
+   "sub": "Leral.net",
+   "text": "Biennale de Dakar 2026 : Diomaye Faye présidera la cérémonie officielle d’ouverture Leral.net",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.leral.net/Biennale-de-Dakar-2026-Diomaye-Faye-presidera-la-ceremonie-officielle-d-ouverture_a411621.html",
+   "src": "Leral.net",
+   "img": "https://www.leral.net/photo/art/grande/98746288-68932177.jpg?v=1795050069",
+   "ts": 1795049760000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1hlaiy2",
+   "cat": "Expositions majeures",
+   "title": "Biennale de Dakar 2026 : Diomaye Faye charge trois responsables de préparer l’ouverture",
+   "sub": "Senego.com",
+   "text": "Biennale de Dakar 2026 : Diomaye Faye charge trois responsables de préparer l’ouverture Senego.com",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://senego.com/biennale-de-dakar-2026-diomaye-faye-charge-trois-responsables-de-preparer-louverture_2025572.html",
+   "src": "Senego.com",
+   "img": "https://senego.com/wp-content/uploads/2026/11/tmp592y84hp.jpg",
+   "ts": 1795046841000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_16lgjk",
+   "cat": "Expositions majeures",
+   "title": "Georgia O'Keeffe Painting Found in NYC Closet Sells for $4.9M",
+   "sub": "Hyperallergic",
+   "text": "Calls to exclude Russia from Venice Architecture Biennale, Public Art Fund announces 2027 program, and more in today's art news.",
+   "date": "Publié le 18 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/georgia-okeeffe-painting-found-in-nyc-closet-sells-for-4-9m/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Near-Abiquiu--New-Mexico-I-by-Georgia-O-Keeffe--1--1.jpg",
+   "ts": 1795042575000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_15lxz4",
+   "cat": "Art mondial",
+   "title": "Is My Art Funny to You?",
+   "sub": "Hyperallergic",
+   "text": "A sprawling exhibition across two New York campus galleries explores humor in contemporary art, imploring us to take seriously the jokes artists made and preserved in time.",
+   "date": "Publié le 18 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://hyperallergic.com/is-my-art-funny-to-you/",
+   "src": "Hyperallergic",
+   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Screenshot-2026-11-18-at-4.42.08---PM.jpg",
+   "ts": 1795040544000,
+   "auto": 1,
+   "_score": 5.4
+  },
+  {
+   "id": "auto_soe9uh",
+   "cat": "Expositions majeures",
+   "title": "16e Biennale de l’Art africain contemporain : le Président de la République instruit le gouvernement pour le bon déroulement de l’édition",
+   "sub": "Pressafrik",
+   "text": "16e Biennale de l’Art africain contemporain : le Président de la République instruit le gouvernement pour le bon déroulement de l’édition Pressafrik",
+   "date": "Publié le 18 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.pressafrik.com/16e-Biennale-de-l-Art-africain-contemporain-le-President-de-la-Republique-instruit-le-gouvernement-pour-le-bon_a314800.html",
+   "src": "Pressafrik",
+   "img": "https://www.pressafrik.com/photo/art/grande/98745457-68931612.jpg?v=1795039434",
+   "ts": 1795039140000,
+   "auto": 1,
+   "_score": 7.9
   },
   {
    "id": "auto_5ax3ya",
@@ -955,7 +1124,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/David-Hockney-David-Celia-Stephen-Ian-London-August-1982-Four-Friends-1982.jpeg?w=400",
    "ts": 1795037776000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_hw9okq",
@@ -974,7 +1143,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/VAN-GOGH--CHA--TAIGNIERS-EN-FLEURS-ON-VIEW-AT-SOTHEBY---S-MAISON-IN-HONG-KONG-1.jpg",
    "ts": 1795037477000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_1gumerq",
@@ -993,7 +1162,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/GettyImages-107065193.jpg",
    "ts": 1795037242000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_15glapb",
@@ -1012,7 +1181,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/1975_MENDIETA_Flower-Person-Flower-Body.jpg",
    "ts": 1795035798000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_ailrle",
@@ -1031,26 +1200,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Merani-Detail-Fence-1.JPEG",
    "ts": 1795034565000,
    "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_1q5jqt9",
-   "cat": "Expositions majeures",
-   "title": "New York City’s Transit System Has the State’s Greatest ‘Underground Museum.’ Here’s Why It’s Worth Visiting.",
-   "sub": "ARTnews",
-   "text": "Howardena Pindell and Ivan Forde are making new commissions for the MTA's Arts & Design program.",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.artnews.com/art-news/news/mta-arts-and-design-art-week-nyc-2026-1234806681/",
-   "src": "ARTnews",
-   "img": "https://www.artnews.com/wp-content/uploads/2026/11/Hub-Day-1-MTA-Arts-Tina-Vaz-of-MTA-Arts-and-Design-Howardena-Pindell-and-Ivan-Forde-with-Alex-Greenberger__Photo-Christopher-Garcia-Valle-7-1.jpg?w=1024",
-   "ts": 1795031550000,
-   "auto": 1,
-   "_score": 5
+   "_score": 5.4
   },
   {
    "id": "auto_11s7hvf",
@@ -1069,7 +1219,7 @@
    "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Untitled-Design--5-.jpg",
    "ts": 1795028154000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_s8qdwq",
@@ -1088,7 +1238,7 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/MM_SoCo_1984_005.jpg?w=400",
    "ts": 1795025409000,
    "auto": 1,
-   "_score": 5.5
+   "_score": 5.4
   },
   {
    "id": "auto_4vtk8w",
@@ -1129,44 +1279,6 @@
    "_score": 5.4
   },
   {
-   "id": "auto_1sa8sae",
-   "cat": "Art mondial",
-   "title": "Eleanor Antin Sues Dealer for Withholding Nearly 200 Works",
-   "sub": "Hyperallergic",
-   "text": "The artist filed the complaint six months after terminating her relationship with dealer Richard Saltoun.",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://hyperallergic.com/eleanor-antin-sues-dealer-for-withholding-nearly-200-works/",
-   "src": "Hyperallergic",
-   "img": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/2026/11/Eleanor-Antin-2023-copy.jpg",
-   "ts": 1795015800000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_5fspe3",
-   "cat": "Art mondial",
-   "title": "Yayoi Kusama et Kandinsky : records historiques aux enchères pour les deux artistes",
-   "sub": "Beaux Arts Magazine",
-   "text": "Deux ventes, deux records. Cette semaine à New York, le marché de l’art a consacré …",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/yayoi-kusama-et-kandinsky-records-historiques-aux-encheres-pour-les-deux-artistes/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unekandinsky--christies-images-limited-2026-1300x975.jpg",
-   "ts": 1795011580000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
    "id": "auto_zdgidu",
    "cat": "Expositions majeures",
    "title": "Biennale de Dakar 2026 : un mois pour découvrir la création artistique africaine – Au Sénégal, le cœur du Sénégal - au-senegal.com",
@@ -1183,45 +1295,7 @@
    "img": "https://www.au-senegal.com/local/cache-vignettes/L462xH243/5907b961b141069fc57949dffa3650-5e83e.png",
    "ts": 1795008484000,
    "auto": 1,
-   "_score": 7.9
-  },
-  {
-   "id": "auto_1naj566",
-   "cat": "Expositions majeures",
-   "title": "Sur Arte, un documentaire sensible révèle la passion méconnue d’Émile Zola pour la photographie",
-   "sub": "Beaux Arts Magazine",
-   "text": "« La photographie me repose de la littérature : je regarde, je n’interprète pas. » …",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/sur-arte-un-documentaire-sensible-revele-la-passion-meconnue-demile-zola-pour-la-photographie/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/uneautoportrait-sur-un-canape--ministere-de-la-culture-m-1300x975.jpg",
-   "ts": 1795003257000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_1kw9y5m",
-   "cat": "Art mondial",
-   "title": "Le Van Gogh à 180 millions de dollars sera bien vendu aux enchères ce soir grâce à un accord in extremis avec les héritiers",
-   "sub": "Connaissance des Arts",
-   "text": "Mercredi 18 novembre, Sotheby’s mettra bel et bien aux enchères Châtaigniers en fleurs de Vincent van Gogh, estimé 180 millions de dollars. Sa vente avait été menacée par la demande de retrait du tableau faite par les héritiers d’un collectionneur juif spolié par les nazis. Cet article Le Van Gogh à 180 millions de dollars sera bien vendu aux enchères ce soir grâce à un accord in extremis avec les héritiers est…",
-   "date": "À partir du 18 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-18",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/le-van-gogh-a-180-millions-de-dollars-sera-bien-vendu-aux-encheres-ce-soir-grace-a-un-accord-in-extremis-avec-les-heritiers-11218590/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cda26_van_gogh_chataigners_en_fleurs-tt-width-653-height-791-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1795003255000,
-   "auto": 1,
-   "_score": 5.4
+   "_score": 7.8
   },
   {
    "id": "auto_szyi3m",
@@ -1238,9 +1312,9 @@
    "link": "https://mali24.info/culture-le-ministre-mamou-daffe-a-dakar-pour-representer-le-mali-a-la-16%E1%B5%89-biennale-de-lart-africain-contemporain/",
    "src": "Mali 24",
    "img": "https://mali24.info/wp-content/uploads/2026/11/IMG-20261118-WA0106.jpg",
-   "ts": 1794997600000,
+   "ts": 1794997563000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_izlvvs",
@@ -1261,7 +1335,7 @@
    "auto": 1,
    "apply": "https://ligeti-zentrum.de/wp-content/uploads/2026/11/Call-for-Applications-English.pdf",
    "applyKind": "pdf",
-   "_score": 12.3
+   "_score": 12.2
   },
   {
    "id": "auto_11eum6p",
@@ -1280,83 +1354,7 @@
    "img": "https://dekkbi.com/wp-content/uploads/2026/11/DakArt-2026.png",
    "ts": 1794996752000,
    "auto": 1,
-   "_score": 7.9
-  },
-  {
-   "id": "auto_1d93v1y",
-   "cat": "Art mondial",
-   "title": "« Des caresses » de Fernand Khnopff : le royaume de l’étrange dans une toile au cœur de « Bruxelles 1900 » au Petit Palais",
-   "sub": "Beaux Arts Magazine",
-   "text": "Elle figure en bonne place (et même sur l’affiche) dans l’exposition que consacre, jusqu’au 25 …",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/grand-format/oedipe-et-le-sphinx-au-royaume-de-letrange/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une11_fernand_khnopff_des_caresses_1896-1-1300x975.jpg",
-   "ts": 1794992415000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_13dpuem",
-   "cat": "Expositions majeures",
-   "title": "Ni muses ni soumises, les artistes femmes du surréalisme sortent enfin de l’ombre dans une exposition à Nantes",
-   "sub": "Connaissance des Arts",
-   "text": "Au musée d’arts de Nantes s’ouvre une exposition dédiée aux femmes artistes reliées à l’imaginaire surréaliste. Créatrices mais aussi muses, mécènes, collectionneuses, de la première génération historique mais aussi contemporaines. Cet article Ni muses ni soumises, les artistes femmes du surréalisme sortent enfin de l’ombre dans une exposition à Nantes est apparu en premier sur Connaissance des Arts .",
-   "date": "Publié le 18 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/arts-expositions/surrealisme/ni-muses-ni-soumises-les-artistes-femmes-du-surrealisme-sortent-enfin-de-lombre-dans-une-exposition-a-nantes-11218553/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdadec26_surrelles_hugo-tt-width-653-height-979-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794988811000,
-   "auto": 1,
-   "_score": 5.4
-  },
-  {
-   "id": "auto_pj6xem",
-   "cat": "Art mondial",
-   "title": "Estimé jusqu’à 200 000 €, un surprenant jeu à boire du XVIIe siècle qui « transformait » l’eau en vin mis aux enchères à Paris avec 225…",
-   "sub": "Connaissance des Arts",
-   "text": "Issu des collections Rothschild, ce jeu de table « transformait » l’eau en vin, à la plus grande joie des convives. Emblématiques des « curiosités » de la vente Artcurial du 16 décembre prochain, il incarne à merveille l’esprit festif des tablées patriciennes allemandes de l'âge classique. Cet article Estimé jusqu’à 200 000 €, un surprenant jeu à boire du XVIIe siècle qui « transformait » l’eau en vin mis aux…",
-   "date": "À partir du 16 décembre 2026",
-   "deadline": "",
-   "start": "2026-12-16",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/estime-jusqua-200-000-e-un-surprenant-jeu-a-boire-du-xviie-siecle-qui-transformait-leau-en-vin-mis-aux-encheres-a-paris-avec-225-pieces-dorfevrerie-d-11218538/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2026/11/cdanov26_encheres_1-tt-width-653-height-900-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794981687000,
-   "auto": 1,
-   "_score": 5.3
-  },
-  {
-   "id": "auto_1fbzibs",
-   "cat": "Expositions majeures",
-   "title": "Adjugé 15,1 millions de dollars, un tableau de Yayoi Kusama devient son œuvre la plus chère jamais vendue aux enchères, trois mois après sa…",
-   "sub": "Connaissance des Arts",
-   "text": "Exposée au Whitney Museum en 1961, « No. 3P.B. » est l'une des plus grandes toiles des « Filets de l'infini », la série qui a révélé Yayoi Kusama à l'avant-garde. Cette huile de 1960 a été vendue chez Sotheby's pour la somme record de 15,1 millions de dollars. Cet article Adjugé 15,1 millions de dollars, un tableau de Yayoi Kusama devient son œuvre la plus chère jamais vendue aux enchères, trois mois après sa mort…",
-   "date": "Publié le 17 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.connaissancedesarts.com/marche-art/ventes-encheres/adjuge-151-millions-de-dollars-un-tableau-de-yayoi-kusama-devient-son-oeuvre-la-plus-chere-jamais-vendue-aux-encheres-trois-mois-apres-sa-mort-11218555/",
-   "src": "Connaissance des Arts",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2025/11/cdanoc25_kusama_portrait-tt-width-653-height-914-fill-0-crop-0-bgcolor-eeeeee.jpg",
-   "ts": 1794938421000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 7.8
   },
   {
    "id": "auto_1afakpo",
@@ -1375,26 +1373,7 @@
    "img": "https://acp.cd/app/uploads/2026/11/1-56.jpg",
    "ts": 1794934649000,
    "auto": 1,
-   "_score": 7.7
-  },
-  {
-   "id": "auto_mmw1ex",
-   "cat": "Expositions majeures",
-   "title": "Il passionne les artistes, des surréalistes à JR : sur France 5, un documentaire célèbre 100 ans de Photomaton",
-   "sub": "Beaux Arts Magazine",
-   "text": "Inventé à New York en 1926, le Photomaton fête ses 100 ans et n’a rien …",
-   "date": "Publié le 17 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.beauxarts.com/lifestyle/il-passionne-les-artistes-des-surrealistes-a-jr-sur-france-5-un-documentaire-celebre-100-ans-de-photomaton/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/unephotomaton-la-grande-histoire-de-la-petite-photo-1300x975.jpg",
-   "ts": 1794923572000,
-   "auto": 1,
-   "_score": 5.2
+   "_score": 7.6
   },
   {
    "id": "auto_13klw6u",
@@ -1453,7 +1432,26 @@
    "img": "https://www.opportunitiesforafricans.com/wp-content/uploads/2026/11/zoom-ai-launchpad-startup-grants.jpg",
    "ts": 1794903480000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.5
+  },
+  {
+   "id": "auto_1jezjuq",
+   "cat": "Expositions majeures",
+   "title": "Dakar Biennale Opens 2026 Edition This Week",
+   "sub": "The Art Journal",
+   "text": "Dakar Biennale Opens 2026 Edition This Week The Art Journal",
+   "date": "Publié le 16 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.theartjournal.com/articles/dakar-biennale-opens-2026-edition-this-week",
+   "src": "The Art Journal",
+   "img": "https://2ffgbymciqf94oxb.public.blob.vercel-storage.com/Dak'Art_2018_15-1200x630.jpg",
+   "ts": 1794839870000,
+   "auto": 1,
+   "_score": 7.3
   },
   {
    "id": "auto_14k5w0o",
@@ -1472,7 +1470,7 @@
    "img": "https://cdn.allafrica.com/download/pic/main/main/csiid/00690937:8bc5cf862acf0ed2b8098dfd6d022bec:arc614x376:w1200.jpg",
    "ts": 1794827958000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.3
   },
   {
    "id": "auto_3qvaex",
@@ -1491,7 +1489,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/SharjahArtFoundation.png",
    "ts": 1794801600000,
    "auto": 1,
-   "_score": 13.8
+   "_score": 13.7
   },
   {
    "id": "auto_sth49f",
@@ -1510,7 +1508,7 @@
    "img": "https://mondafrique.com/wp-content/uploads/2026/11/Biennale-de-Dakar.jpg",
    "ts": 1794617162000,
    "auto": 1,
-   "_score": 6.8
+   "_score": 6.7
   },
   {
    "id": "auto_1itr1ig",
@@ -1531,7 +1529,7 @@
    "auto": 1,
    "apply": "https://platform.izolyatsia.org/en/contest/zmina-resilience-cocreation-two#application-form",
    "applyKind": "section",
-   "_score": 14.4
+   "_score": 14.3
   },
   {
    "id": "auto_row3aj",
@@ -1569,7 +1567,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -82.7
+   "_score": -84.2
   }
  ]
 }
