@@ -21,10 +21,13 @@ jobs:
       - name: Installer llama.cpp
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
-          gh release view -R ggml-org/llama.cpp --json assets --jq '.assets[].name' | grep -iE 'ubuntu|linux' || true
-          A=$(gh release view -R ggml-org/llama.cpp --json assets --jq '.assets[].name' | grep -iE 'ubuntu-x64\.(zip|tar\.gz)$' | grep -viE 'vulkan|cuda|rocm|sycl|opencl' | head -1); echo "-> $A"
-          mkdir -p /tmp/l && gh release download -R ggml-org/llama.cpp --pattern "$A" -D /tmp/l
-          cd /tmp/l && (unzip -q *.zip 2>/dev/null || tar xzf *.tar.gz) && find . -name llama-server -type f | head -1 > /tmp/srvpath && cat /tmp/srvpath && nproc
+          U=$(gh api 'repos/ggml-org/llama.cpp/releases?per_page=10' --jq '.[].assets[].browser_download_url' | grep -E 'bin-ubuntu-x64\.(zip|tar\.gz)$' | head -1); echo "-> $U"
+          mkdir -p /tmp/l && cd /tmp/l
+          if [ -n "$U" ]; then curl -sSL -o pkg "$U" && (unzip -q pkg 2>/dev/null || tar xzf pkg); fi
+          if ! find . -name llama-server -type f | grep -q .; then
+            echo "Paquet introuvable : compilation"; git clone -q --depth 1 https://github.com/ggml-org/llama.cpp src && cmake -S src -B b -DLLAMA_CURL=OFF -DGGML_NATIVE=ON >/dev/null && cmake --build b -j $(nproc) --target llama-server >/dev/null
+          fi
+          find . -name llama-server -type f | head -1 > /tmp/srvpath && cat /tmp/srvpath && nproc
       - name: Télécharger l'IA
         run: curl -sSL -o /tmp/m.gguf "${{ matrix.m.u }}" && ls -la /tmp/m.gguf
       - name: Résumer 4 annonces
