@@ -326,7 +326,9 @@
    "img": "https://cdn.royalacademy.org.uk/images/00tadbkoh8p7ce1g.jpg?width=800&ratio=4:3&format=auto",
    "ts": 1795155469244,
    "auto": 1,
-   "_score": 15.3
+   "_score": 15.3,
+   "resume": "L'Académie Royale des Beaux-Arts lance un appel à candidatures pour l'octobre 2027. L'objectif est de créer un environnement professionnel équitable et inclusif. Les candidats peuvent postuler en ligne avant le 14 décembre 2026. Cette initiative vise à promouvoir la diversité et l'égalité dans la communauté artistique.",
+   "titreFr": "Appel à candidatures Royal Academy Schools"
   },
   {
    "id": "auto_quuyys",
@@ -370,7 +372,9 @@
    "auto": 1,
    "apply": "https://artcircle.si/wp-content/uploads/2026/10/OPEN_CALL_AC_Wolfgangsee_2027.pdf",
    "applyKind": "pdf",
-   "_score": 15.3
+   "_score": 15.3,
+   "resume": "Le programme Art Circle Austria 2027 est une résidence d'artiste pour des artistes professionnels en carrière moyenne. Organisé par Art Circle International, il se déroulera du 11 au 19 avril 2027 à Wolfgangsee, Autriche. Les candidats doivent avoir un niveau d'anglais acceptable. Un prix sera remis lors d'une exposition finale. Les candidatures sont acceptées jusqu'au 15 décembre 2026.",
+   "titreFr": "Residence Art Circle en Autriche 2027"
   },
   {
    "id": "auto_j6tg0w",
@@ -586,7 +590,9 @@
    "img": "",
    "ts": 1795155469244,
    "auto": 1,
-   "_score": 14.5
+   "_score": 14.5,
+   "resume": "Arrival Gallery recrute des artistes pour son programme d'expositions à Londres en janvier 2027. Ouvert aux peintres, photographes, sculpteurs, illustrateurs, artistes textile et mixed media, ainsi qu'aux artistes numériques. Les artistes sélectionnés recevront les détails avant de confirmer leur participation. Cette opportunité offre de la visibilité à Londres sans l'envoi de travaux physiques. La date limite de soumission est le 31 décembre 2026.",
+   "titreFr": "Exposition à Londres en janvier 2027"
   },
   {
    "id": "auto_1p9c48b",
@@ -1178,7 +1184,9 @@
    "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1235158834.jpg?w=1024",
    "ts": 1795124953000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "Benin exige la restitution de 35 objets volés au Musée du Quai Branly à Paris. Cette demande intervient après la loi française de 2026 facilitant les retours d'artworks pillés pendant la colonisation. Le président beninois a rencontré le président français pour réitérer cette demande. La collection du musée contient des objets d'Indigenous groupes d'Afrique, d'Asie et d'Océanie.",
+   "titreFr": "Benin demande la restitution de 35 objets volés"
   },
   {
    "id": "auto_1if053w",
