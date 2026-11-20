@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-19T16:10:56.824Z",
+ "updated": "2026-11-20T06:17:49.244Z",
  "sources": {
   "ok": 22,
   "fail": 1,
-  "read": 646
+  "read": 703
  },
  "count": 80,
  "items": [
@@ -22,9 +22,9 @@
    "link": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-december-31-2026",
    "src": "ArtRabbit",
    "img": "https://static.wixstatic.com/media/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg/v1/fill/w_2000,h_1429,al_c,q_90,usm_0.66_1.00_0.01/ee9ca9_ad4ed3a7a4874bfbb5ce88d8a71b5060~mv2.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 20.4
+   "_score": 20.5
   },
   {
    "id": "auto_pmw741",
@@ -41,11 +41,11 @@
    "link": "https://www.narsfoundation.org/residencies",
    "src": "ArtRabbit",
    "img": "https://cdn.prod.website-files.com/661eaa10978ecb36a03e9700/681e53c31b883bea2af785ff_2025%20Website%20Header_white.avif",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://narsfoundation.submittable.com/submit/134702/nars-residency-program-rolling-admission-for-international-artists-only",
    "applyKind": "form",
-   "_score": 17.4
+   "_score": 17.5
   },
   {
    "id": "auto_4opc89",
@@ -62,9 +62,9 @@
    "link": "https://www.asso-ede.com/pages/qiankun-2027-open-call.html",
    "src": "ArtRabbit",
    "img": "https://www.asso-ede.com/......jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 17.4
+   "_score": 17.5
   },
   {
    "id": "auto_q4iakw",
@@ -81,51 +81,11 @@
    "link": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27#wpforms-form-19745",
    "applyKind": "form",
    "_score": 17.2
-  },
-  {
-   "id": "auto_xsfitw",
-   "cat": "Appels à candidatures",
-   "title": "The Don Bachardy Fellowship in London",
-   "sub": "ArtRabbit",
-   "text": "Updated: 20 October 2026 The Don Bachardy Fellowship enables an emerging international postgraduate artist to develop their practice at the Royal Drawing School during the Summer Term (April–July). Named after Californian portrait painter Don Bachardy, the fellowship supports drawing as a foundation for artistic practice. Bachardy studied at the Slade in 1961 and has since drawn and painted over 10,000 portraits from…",
-   "date": "Date limite : 19 novembre 2026",
-   "deadline": "2026-11-19",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#don-bachardy",
-   "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795104656824,
-   "auto": 1,
-   "_score": 16.5
-  },
-  {
-   "id": "auto_5ip1hc",
-   "cat": "Appels à candidatures",
-   "title": "The Dumfries House Residency in Scotland",
-   "sub": "ArtRabbit",
-   "text": "Updated: 21 October 2026 The Dumfries House Residency offers artists the opportunity to develop their practice through drawing and observational work on the historic Dumfries House Estate in East Ayrshire, Scotland. Delivered by the Royal Drawing School, Glasgow School of Art and Dumfries House, alongside the Royal Drawing School’s international partners, the residency supports the development of new work inspired by…",
-   "date": "Date limite : 19 novembre 2026",
-   "deadline": "2026-11-19",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://royaldrawingschool.org/alumni-opportunities/residencies#scotland",
-   "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795104656824,
-   "auto": 1,
-   "apply": "https://royaldrawingschool.jotform.com/262841816541863",
-   "applyKind": "form",
-   "_score": 16.5
   },
   {
    "id": "auto_tf9bpj",
@@ -142,7 +102,7 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/pastel-society",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/PS005_0.jpg?itok=lcX6P8S_",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 16.5
   },
@@ -160,8 +120,8 @@
    "country": "",
    "link": "https://eulsukdo-ecoart.com/en/",
    "src": "ArtRabbit",
-   "img": "https://eulsukdo-ecoart.com/wp-content/uploads/eulsukdo/eulsukdo-aerial2.webp",
-   "ts": 1795104656824,
+   "img": "https://eulsukdo-ecoart.com/wp-content/plugins/eulsukdo-site/images/og-card.jpg",
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://eulsukdo-ecoart.com/en/#submit",
    "applyKind": "section",
@@ -182,7 +142,7 @@
    "link": "https://www.beamcenter.org/events/2027-beam-camp-project-call-3bpb9\t",
    "src": "ArtRabbit",
    "img": "https://static1.squarespace.com/static/63c1901db3e45e053f386b19/63e3bd68c0f478246b9d689a/6aa1a702e26fea4904ae686c/1794835506572/1.png?format=1500w",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 16
   },
@@ -201,7 +161,7 @@
    "link": "https://artellsmedia.com/awards",
    "src": "ArtRabbit",
    "img": "https://artellsmedia.com/og-covers-v2.png",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 16
   },
@@ -220,7 +180,7 @@
    "link": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
    "src": "ArtRabbit",
    "img": "https://vitalimpacts.org/cdn/shop/files/Ami_Vitale_Sudan-Donate.jpg?v=1634101783",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 16
   },
@@ -239,7 +199,7 @@
    "link": "https://www.openairmt.org/info-1",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 16
   },
@@ -258,9 +218,9 @@
    "link": "https://teenartawards.com/",
    "src": "ArtRabbit",
    "img": "https://static.tildacdn.com/tild3139-3965-4461-a466-663838613363/__2025-09-18__130850.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 15.9
+   "_score": 16
   },
   {
    "id": "auto_1o5btp",
@@ -277,7 +237,7 @@
    "link": "https://materialworksart.com/main",
    "src": "ArtRabbit",
    "img": "https://freight.cargo.site/w/677/i/V1973228095453400913910208591867/MaterialWorks_ART_CircleGray.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://pci.jotform.com/form/262185636090156",
    "applyKind": "form",
@@ -298,11 +258,11 @@
    "link": "https://filmlondon.org.uk/resource/apply-to-flamin-productions",
    "src": "ArtRabbit",
    "img": "https://film-london.transforms.svdcdn.com/production/The-classic-2.jpg?w=3008&h=2000&q=100&auto=format&fit=crop&dm=1591107401&s=11a01a2709187c1742fceb7e41906491",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://flamin.wufoo.com/forms/flamin-productions-2026-application-form/",
    "applyKind": "form",
-   "_score": 15.5
+   "_score": 15.6
   },
   {
    "id": "auto_1hi8q2b",
@@ -319,9 +279,9 @@
    "link": "https://adrianibanezgaleria.com/convocatorias/",
    "src": "ArtRabbit",
    "img": "https://adrianibanezgaleria.com/wp-content/uploads/2023/08/2.png",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 15.4
+   "_score": 15.5
   },
   {
    "id": "auto_1gotfna",
@@ -338,7 +298,7 @@
    "link": "https://www.royalacademy.org.uk/page/ra-schools-how-to-apply",
    "src": "ArtRabbit",
    "img": "https://cdn.royalacademy.org.uk/images/00tadbkoh8p7ce1g.jpg?width=800&ratio=4:3&format=auto",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 15.3
   },
@@ -357,11 +317,11 @@
    "link": "https://decagongallery.com/the-room-next-door-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/the-room-next-door.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://form.jotform.com/262753790146160",
    "applyKind": "form",
-   "_score": 15.2
+   "_score": 15.3
   },
   {
    "id": "auto_qh85ri",
@@ -378,11 +338,11 @@
    "link": "https://artcircle.si/en/open-call/",
    "src": "ArtRabbit",
    "img": "https://artcircle.si/wp-content/uploads/2026/04/SLO_2026.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://artcircle.si/wp-content/uploads/2026/10/OPEN_CALL_AC_Wolfgangsee_2027.pdf",
    "applyKind": "pdf",
-   "_score": 15.2
+   "_score": 15.3
   },
   {
    "id": "auto_j6tg0w",
@@ -399,9 +359,9 @@
    "link": "https://emaf.filmchief.com/entry-forms",
    "src": "ArtRabbit",
    "img": "https://emaf.filmchief.com/f/files/emaf-no39_filmchief_500x265px_inv.png?format=w500h500",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 15.2
+   "_score": 15.3
   },
   {
    "id": "auto_mbskvq",
@@ -418,7 +378,7 @@
    "link": "https://visarts.submittable.com/submit",
    "src": "ArtRabbit",
    "img": "https://images.submittable.com/s3/publisher-files.submittable.com/9355/submit-header.jpg?width=982&height=220&mode=crop&anchor=middlecenter&v=1631111466&signature=q35uVS4d2a7%2boVUx9FPWeFurO73usHC0sXw81css1GA%3d",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://visarts.submittable.com/submit",
    "applyKind": "form",
@@ -439,7 +399,7 @@
    "link": "https://essexcdp.com/commission/shoeburynesscallforproposals/\t",
    "src": "ArtRabbit",
    "img": "https://essexcdp.com/wp-content/uploads/2026/09/Shoeburyness-scaled-e1789643033372.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 14.8
   },
@@ -458,7 +418,7 @@
    "link": "https://www.museefabre.fr/appel-candidature-bourse-francois-daulte",
    "src": "ArtRabbit",
    "img": "https://www.museefabre.fr/sites/default/files/styles/960x807_middle/public/2022-08/francois_daulte.png?itok=QpFrlIfS",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://www.museefabre.fr/sites/default/files/2026-06/candidature_bourse_daulte_2026.pdf",
    "applyKind": "pdf",
@@ -479,7 +439,7 @@
    "link": "https://www.rencontres-arles.com/fr/bourse-de-recherche-curatoriale-2027",
    "src": "ArtRabbit",
    "img": "https://www.rencontres-arles.com/images/og-default.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 14.5
   },
@@ -498,7 +458,7 @@
    "link": "https://freelandsfoundation.co.uk/engage/apply/residencies/two-together-porthmeor-studios-residencies-2027",
    "src": "ArtRabbit",
    "img": "https://cms.freelandsfoundation.co.uk/assets/4a5ae156-e599-4288-a184-415697f19795.jpg?width=1200&format=jpeg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 14.5
   },
@@ -517,7 +477,7 @@
    "link": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://gnamamidakisfoundation.org/en/open-calls-aithseis/",
    "applyKind": "form",
@@ -538,9 +498,9 @@
    "link": "https://saikoneon.com/apply/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 14.4
+   "_score": 14.5
   },
   {
    "id": "auto_13jpl25",
@@ -557,11 +517,11 @@
    "link": "https://www.pkf.org/grants/grant-for-artists/",
    "src": "ArtRabbit",
    "img": "https://pkfstg.wpenginepowered.com/wp-content/uploads/2025/03/AAA-polljack00004-000125-1300x997-jpg.webp",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://bbgm-apply.yourcausegrants.com/apply/programs/afa38443-4f9b-41de-9d80-b14f36899241",
    "applyKind": "form",
-   "_score": 14.4
+   "_score": 14.5
   },
   {
    "id": "auto_y1p32i",
@@ -578,9 +538,9 @@
    "link": "https://www.arrivalgallery.com/london",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 14.4
+   "_score": 14.5
   },
   {
    "id": "auto_1p9c48b",
@@ -597,7 +557,7 @@
    "link": "https://craftspace.co.uk/shadow-artist/\t",
    "src": "ArtRabbit",
    "img": "https://i0.wp.com/craftspace.co.uk/wp-content/uploads/2026/01/40Objects_1100x625.jpg?resize=975%2C554&ssl=1",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 14.2
   },
@@ -616,7 +576,7 @@
    "link": "https://www.arteles.org/back_to_basics_residency.html",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://arteles.wufoo.com/forms/r1d20oqb1jyzeol/",
    "applyKind": "form",
@@ -637,9 +597,9 @@
    "link": "https://www.everythingbutthework.com/open-calls",
    "src": "ArtRabbit",
    "img": "https://static1.squarespace.com/static/686f615ef7a25e40d5320c59/t/6a018576cfa3e81e12dcbf66/1778484598722/Q3_Opencallpost-01.png?format=1500w",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 13.8
+   "_score": 13.9
   },
   {
    "id": "auto_1h4x87c",
@@ -656,7 +616,7 @@
    "link": "https://thamesfestivaltrust.org/artistic-programme/seed-funders/apply-seed-funder-programme/\t",
    "src": "ArtRabbit",
    "img": "https://thamesfestivaltrust.org/images/uploads/946d18906513ae7b09971251e6b95d2a.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://thamesfestivaltrust.org/artistic-programme/seed-funders/apply-seed-funder-programme/",
    "applyKind": "form",
@@ -677,7 +637,7 @@
    "link": "https://decagongallery.com/what-the-streets-hold-entry",
    "src": "ArtRabbit",
    "img": "https://decagongallery.com/assets/img/calls/what-the-streets-hold.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://form.jotform.com/262917939737072",
    "applyKind": "form",
@@ -698,7 +658,7 @@
    "link": "https://www.zku-berlin.org/open-call/",
    "src": "ArtRabbit",
    "img": "https://www.zku-berlin.org/fileadmin/_processed_/7/a/csm_OPEN_CALL_Main_Visual_Web__c__Kristin_Krause_d9b435fa46.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://apply.zku-berlin.org/open-call-2026",
    "applyKind": "form",
@@ -719,9 +679,28 @@
    "link": "https://toaf.com/artrabbitmar27",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.6
+  },
+  {
+   "id": "auto_zbkwo1",
+   "cat": "Appels à candidatures",
+   "title": "Wyn Edition III: Open Call for an Artist Commission",
+   "sub": "ArtRabbit",
+   "text": "Updated: 17 November 2026 Focal Point Gallery (Southend-on-Sea) and Wyn invite an artist to create Wyn Edition III, an original artwork spanning 100 bottles of still wine grown and produced in Essex's Crouch Valley. As vineyards reshape the county's landscape, the commission explores Essex's changing identity and turns the bottle into both artwork and record of place. Who can apply: Artists aged 18 and over with a…",
+   "date": "Date limite : 20 décembre 2026",
+   "deadline": "2026-12-20",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://docs.google.com/forms/d/e/1FAIpQLSeOIa216O2jnl9Xk4ZM6EkQKysRU0vpJwvNHFzOd8SQy1vaYQ/viewform",
+   "src": "ArtRabbit",
+   "img": "",
+   "ts": 1795155469244,
+   "auto": 1,
+   "_score": 13.5
   },
   {
    "id": "auto_1o5zmyv",
@@ -738,7 +717,7 @@
    "link": "https://www.huge.gallery/open-calls",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.5
   },
@@ -757,7 +736,7 @@
    "link": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters",
    "src": "ArtRabbit",
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/RP-26-banner.jpg?itok=Cs4gtDG9",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.5
   },
@@ -776,7 +755,7 @@
    "link": "https://utopos-biennale.net/viewpoint.html",
    "src": "ArtRabbit",
    "img": "https://utopos-biennale.net/media/posts/27/viewpoint-fi-2.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.5
   },
@@ -795,7 +774,7 @@
    "link": "https://royaldrawingschool.org/courses/postgraduate-drawing-year?utm_campaign=378369253-Marketing_DY28%20recruitment&utm_source=ArtRabbit&utm_medium=listing",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://royaldrawingschool.org/courses/postgraduate-drawing-year/applications#how-to-apply",
    "applyKind": "section",
@@ -816,7 +795,7 @@
    "link": "https://linktr.ee/mutephotofestival",
    "src": "ArtRabbit",
    "img": "https://linktr.ee/og/image/mutephotofestival.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.5
   },
@@ -835,7 +814,7 @@
    "link": "https://www.surveycake.com/s/W2Rpe\t",
    "src": "ArtRabbit",
    "img": "https://www.surveycake.com/s/share-image.png",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 13.5
   },
@@ -854,29 +833,10 @@
    "link": "https://forms.gle/7rmbD8ubF1Ppz7AC6",
    "src": "ArtRabbit",
    "img": "https://lh3.googleusercontent.com/5zhdXjNZvCeCciDm_w2vW6T8K1UMdkW5nldTSm9HdRa60xcFXP9tD_CR--JfOh0Fj_a9im7myJXLUo8=w1200-h630-p",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://docs.google.com/forms/d/e/1FAIpQLSee5TnSkrBOamRnpAhP7jQlXvWoWH6-ft4ZzxFB8ko8v60j0g/viewform?usp=send_form#mG61Hd",
    "applyKind": "form",
-   "_score": 13.5
-  },
-  {
-   "id": "auto_zbkwo1",
-   "cat": "Appels à candidatures",
-   "title": "Wyn Edition III: Open Call for an Artist Commission",
-   "sub": "ArtRabbit",
-   "text": "Updated: 17 November 2026 Focal Point Gallery (Southend-on-Sea) and Wyn invite an artist to create Wyn Edition III, an original artwork spanning 100 bottles of still wine grown and produced in Essex's Crouch Valley. As vineyards reshape the county's landscape, the commission explores Essex's changing identity and turns the bottle into both artwork and record of place. Who can apply: Artists aged 18 and over with a…",
-   "date": "Date limite : 20 décembre 2026",
-   "deadline": "2026-12-20",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://docs.google.com/forms/d/e/1FAIpQLSeOIa216O2jnl9Xk4ZM6EkQKysRU0vpJwvNHFzOd8SQy1vaYQ/viewform",
-   "src": "ArtRabbit",
-   "img": "",
-   "ts": 1795104656824,
-   "auto": 1,
    "_score": 13.5
   },
   {
@@ -894,11 +854,11 @@
    "link": "https://airtable.com/appVBqyF9L6JTM6EI/pagh1TfE1JhIXQEjV/form",
    "src": "ArtRabbit",
    "img": "https://static.airtable.com/images/oembed/airtable_brand.png",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "apply": "https://airtable.com/appVBqyF9L6JTM6EI/pagh1TfE1JhIXQEjV/form",
    "applyKind": "form",
-   "_score": 12.9
+   "_score": 13
   },
   {
    "id": "auto_1y9ewrb",
@@ -915,9 +875,9 @@
    "link": "https://award.futuretense.hk/",
    "src": "ArtRabbit",
    "img": "https://freight.cargo.site/w/1000/i/I3225007117135956161390237400273/screenshot-4165614994.jpg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 12.9
+   "_score": 13
   },
   {
    "id": "auto_z34rof",
@@ -934,9 +894,9 @@
    "link": "https://docs.google.com/forms/d/e/1FAIpQLScQrqdZCqPG_BmV5nBDA5Usy6eY39r8STG0VZWo7eP8ucUwSg/viewform?usp=publish-editor",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 12.8
+   "_score": 12.9
   },
   {
    "id": "auto_s892j7",
@@ -953,7 +913,7 @@
    "link": "https://www.artrabbit.comsgfa.oess1.uk",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 12.8
   },
@@ -972,9 +932,9 @@
    "link": "https://creativecrawley.com/get_involved/artist-callout-large-scale-participatory-game/",
    "src": "ArtRabbit",
    "img": "https://creativecrawley.com/wp-content/themes/creative-crawley/assets/s.svg",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 12.6
+   "_score": 12.7
   },
   {
    "id": "auto_1h7rnhz",
@@ -991,9 +951,9 @@
    "link": "https://creativecrawley.com/get_involved/artist-callout-town-wide-parade/",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
-   "_score": 12.6
+   "_score": 12.7
   },
   {
    "id": "auto_18nxwg8",
@@ -1010,66 +970,161 @@
    "link": "https://screensouth.org/events/screen-south-showcase-artists-2026-7-open-call/\t",
    "src": "ArtRabbit",
    "img": "",
-   "ts": 1795104656824,
+   "ts": 1795155469244,
    "auto": 1,
    "_score": 12
   },
   {
-   "id": "auto_cw0nzw",
-   "cat": "Appels à candidatures",
-   "title": "Pays de Grasse : un appel à candidatures lancé pour une (…)",
-   "sub": "Art cote d'azur",
-   "text": "Pays de Grasse : un appel à candidatures lancé pour une (…) Art cote d'azur",
-   "date": "Publié le 19 novembre 2026 · Date limite : voir l’annonce",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://artcotedazur.petitesaffiches.fr/actualite,109/art-contemporain,034/pays-de-grasse-un-appel-a,14599.html",
-   "src": "Art cote d'azur",
-   "img": "",
-   "ts": 1795104144000,
-   "auto": 1,
-   "_score": 9
-  },
-  {
-   "id": "auto_1c7pub",
+   "id": "auto_eihend",
    "cat": "Expositions majeures",
-   "title": "L’hallucinante escroquerie d’Earl Stendahl, le marchand d’art qui a inondé les musées américains d’objets précolombiens pillés ou falsifiés",
-   "sub": "Beaux Arts Magazine",
-   "text": "Marchand d’art proche des stars hollywoodiennes et des grands collectionneurs, Earl Stendahl a contribué à …",
-   "date": "Publié le 19 novembre 2026",
+   "title": "Biennale de Dakar 2026 : les expositions ouvrent ce 20 novembre, 79 artistes annoncés",
+   "sub": "BENIN WEB TV",
+   "text": "Biennale de Dakar 2026 : les expositions ouvrent ce 20 novembre, 79 artistes annoncés BENIN WEB TV",
+   "date": "À partir du 20 novembre 2026",
    "deadline": "",
-   "start": "",
+   "start": "2026-11-20",
    "end": "",
    "place": "",
    "country": "",
-   "link": "https://www.beauxarts.com/vu/lhallucinante-escroquerie-dearl-stendahl-le-marchand-dart-qui-a-inonde-les-musees-americains-dobjets-precolombiens-pilles-ou-falsifies/",
-   "src": "Beaux Arts Magazine",
-   "img": "https://media.beauxarts.com/uploads/2026/11/une5b59b8fb-fbcf-4190-a9c9-4e575269771f_1067x600-1300x975.jpg",
-   "ts": 1795104029000,
-   "auto": 1,
-   "_score": 5.5
-  },
-  {
-   "id": "auto_blvxfz",
-   "cat": "Expositions majeures",
-   "title": "Dans un monde \"conflictuel\", une 16e Biennale de Dakar \"pour transformer la fragilité en force\"",
-   "sub": "Yahoo Actualités",
-   "text": "Dans un monde \"conflictuel\", une 16e Biennale de Dakar \"pour transformer la fragilité en force\" Yahoo Actualités",
-   "date": "Publié le 19 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://fr.news.yahoo.com/monde-conflictuel-16e-biennale-dakar-140849042.html",
-   "src": "Yahoo Actualités",
-   "img": "https://s.yimg.com/lo/mysterio/api/a0ecc7bc733718efee7aae249f03e5129f3cc17e23530f1ea0cab5499ae05588/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Ffr%2Fafp.fr%2Fac3f32960d2b404cfba2319aced7b167.jpg",
-   "ts": 1795097329000,
+   "link": "https://beninwebtv.com/biennale-dakar-2026-ouverture-public-20-novembre-79-artistes/",
+   "src": "BENIN WEB TV",
+   "img": "https://beninwebtv.com/wp-content/uploads/2026/11/biennale-dakar-ancien-palais-justice-archive.webp",
+   "ts": 1795154352000,
    "auto": 1,
    "_score": 8
+  },
+  {
+   "id": "auto_1uj6w7u",
+   "cat": "Nouveautés",
+   "title": "Dak’Art, vitrine de l’art contemporain africain",
+   "sub": "Dakar92",
+   "text": "Dak’Art, vitrine de l’art contemporain africain Dakar92",
+   "date": "Publié le 20 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://dakar92.com/dakart-vitrine-de-lart-contemporain-africain/",
+   "src": "Dakar92",
+   "img": "https://dakar92.com/wp-content/uploads/2026/11/DakArt-vitrine-de-lart-contemporain-africain.webp",
+   "ts": 1795152646000,
+   "auto": 1,
+   "_score": 8
+  },
+  {
+   "id": "auto_1d1iv8o",
+   "cat": "Expositions majeures",
+   "title": "Biennale-Dak’Art 2026 : Le chef de l'Etat, Bassirou Diomaye Faye ouvre la 16e Biennale et appelle l’Afrique à assumer sa puissance créatrice",
+   "sub": "DAKARACTU.COM",
+   "text": "Biennale-Dak’Art 2026 : Le chef de l'Etat, Bassirou Diomaye Faye ouvre la 16e Biennale et appelle l’Afrique à assumer sa puissance créatrice DAKARACTU.COM",
+   "date": "Publié le 20 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.dakaractu.com/Biennale-Dak-Art-2026-Le-chef-de-l-Etat-Bassirou-Diomaye-Faye-ouvre-la-16e-Biennale-et-appelle-l-Afrique-a-assumer-sa_a278405.html",
+   "src": "DAKARACTU.COM",
+   "img": "https://www.dakaractu.com/photo/art/grande/98757213-68941344.jpg?v=1795135211",
+   "ts": 1795135140000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_cp8h1v",
+   "cat": "Nouveautés",
+   "title": "Diomaye Faye a ouvert Dak’Art 2026 et plaidé pour un marché commun de l’art africain",
+   "sub": "Senego.com",
+   "text": "Diomaye Faye a ouvert Dak’Art 2026 et plaidé pour un marché commun de l’art africain Senego.com",
+   "date": "Publié le 20 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://senego.com/diomaye-faye-a-ouvert-dakart-2026-et-plaide-pour-un-marche-commun-de-lart-africain_2025930.html",
+   "src": "Senego.com",
+   "img": "https://senego.com/wp-content/uploads/2026/11/tmp7ec1v8ti.jpg",
+   "ts": 1795132853000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1s5cz34",
+   "cat": "Expositions majeures",
+   "title": "Dak’Art 2026 : le président Diomaye Faye ouvre la 16e Biennale de l’art africain contemporain",
+   "sub": "NDARINFO",
+   "text": "Dak’Art 2026 : le président Diomaye Faye ouvre la 16e Biennale de l’art africain contemporain NDARINFO",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.ndarinfo.com/Dak-Art-2026-le-president-Diomaye-Faye-ouvre-la-16e-Biennale-de-l-art-africain-contemporain_a47276.html",
+   "src": "NDARINFO",
+   "img": "",
+   "ts": 1795125240000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_mz238e",
+   "cat": "Expositions majeures",
+   "title": "Benin Puts Pressure on Musée du Quai Branly in Paris to Return 35 Looted Objects",
+   "sub": "ARTnews",
+   "text": "One of the most important contested objects is a hammered iron sculpture of Gou, a god of metalworking and war.",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.artnews.com/art-news/news/benin-musee-du-quai-branly-paris-looted-objects-1234806938/",
+   "src": "ARTnews",
+   "img": "https://www.artnews.com/wp-content/uploads/2026/11/GettyImages-1235158834.jpg?w=1024",
+   "ts": 1795124953000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_1if053w",
+   "cat": "Expositions majeures",
+   "title": "Dakar art Biennale aims to turn 'fragility into strength'",
+   "sub": "Yahoo",
+   "text": "Dakar art Biennale aims to turn 'fragility into strength' Yahoo",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.yahoo.com/news/world/articles/dakar-art-biennale-aims-turn-175713841.html",
+   "src": "Yahoo",
+   "img": "https://s.yimg.com/lo/mysterio/api/003927200d4ae2690127d4e1befc9cd01f503691bea9b1cba34a0aa7adeec5ff/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fafp.com%2F99749d2d1fb80d33d350289255684d99.jpg",
+   "ts": 1795111033000,
+   "auto": 1,
+   "_score": 7.9
+  },
+  {
+   "id": "auto_14bk02l",
+   "cat": "Expositions majeures",
+   "title": "Dans un monde \"conflictuel\", une 16e Biennale de Dakar \"pour transformer la fragilité en force\"",
+   "sub": "franceinfo",
+   "text": "Dans un monde \"conflictuel\", une 16e Biennale de Dakar \"pour transformer la fragilité en force\" franceinfo",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.franceinfo.fr/culture/arts-expos/dans-un-monde-conflictuel-une-16e-biennale-de-dakar-pour-transformer-la-fragilite-en-force_8290253.html",
+   "src": "franceinfo",
+   "img": "https://www.franceinfo.fr/pictures/Ex75RcvOl9CzBOXqaUKKJJBSBKo/0x100:1280x820/1500x843/2026/11/19/6aff191494852437501125.jpg",
+   "ts": 1795104019000,
+   "auto": 1,
+   "_score": 7.9
   },
   {
    "id": "auto_1ls185n",
@@ -1088,7 +1143,26 @@
    "img": "https://medias.africaradio.com/photos/1200/117469-la-16e-biennale-de-l-art-africain-contemporain-de-dakar-s-ouvre-ce-jeudi-19-novembre-et-se-tiendra?v=1795095478",
    "ts": 1795096800000,
    "auto": 1,
-   "_score": 8
+   "_score": 7.8
+  },
+  {
+   "id": "auto_2wvqjg",
+   "cat": "Nouveautés",
+   "title": "Deux expositions OFF pour renforcer les passerelles artistiques entre Dakar et Moscou",
+   "sub": "SenePlus",
+   "text": "Deux expositions OFF pour renforcer les passerelles artistiques entre Dakar et Moscou SenePlus",
+   "date": "Publié le 19 novembre 2026",
+   "deadline": "",
+   "start": "",
+   "end": "",
+   "place": "",
+   "country": "",
+   "link": "https://www.seneplus.com/article/deux-expositions-pour-renforcer-les-passerelles-artistiques-entre-dakar-et-moscou",
+   "src": "SenePlus",
+   "img": "",
+   "ts": 1795090802000,
+   "auto": 1,
+   "_score": 7.8
   },
   {
    "id": "auto_uedxme",
@@ -1107,45 +1181,7 @@
    "img": "",
    "ts": 1795088440000,
    "auto": 1,
-   "_score": 8
-  },
-  {
-   "id": "auto_1x2u4rc",
-   "cat": "Expositions majeures",
-   "title": "Biennale de Dakar 2026 : les expositions ouvrent au public dès le 20 novembre",
-   "sub": "Bénin Web TV",
-   "text": "Biennale de Dakar 2026 : les expositions ouvrent au public dès le 20 novembre Bénin Web TV",
-   "date": "À partir du 20 novembre 2026",
-   "deadline": "",
-   "start": "2026-11-20",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://beninwebtv.bj/biennale-de-dakar-2026-les-expositions-ouvrent-au-public-des-le-20-novembre/",
-   "src": "Bénin Web TV",
-   "img": "https://beninwebtv.bj/wp-content/uploads/wpwap-preview/og-624999-624998-1795082645.jpg",
-   "ts": 1795082871000,
-   "auto": 1,
-   "_score": 7.9
-  },
-  {
-   "id": "auto_1ix15vi",
-   "cat": "Expositions majeures",
-   "title": "Biennale de Lagos 2026 : l'Afrique réinvente l'art | L'observateur",
-   "sub": "L'observateur",
-   "text": "Biennale de Lagos 2026 : l'Afrique réinvente l'art | L'observateur L'observateur",
-   "date": "Publié le 19 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://lobservateur.info/article/120432/afrique/biennale-de-lagos-2026-lafrique-reinvente-lart",
-   "src": "L'observateur",
-   "img": "https://lobservateur.info/observateur/uploads/images/2026/11/19/27305.png",
-   "ts": 1795079220000,
-   "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_wyl5au",
@@ -1164,7 +1200,7 @@
    "img": "https://sanslimitesn.com/wp-content/uploads/2026/11/IMG_5373-900x563.jpeg.webp",
    "ts": 1795074284000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.8
   },
   {
    "id": "auto_1ii60vq",
@@ -1183,7 +1219,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/RA-post-grad-2027.jpeg",
    "ts": 1795061700000,
    "auto": 1,
-   "_score": 15.2
+   "_score": 15
   },
   {
    "id": "auto_1788x7q",
@@ -1202,26 +1238,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/AIR%20InSILo_Open_Call.jpeg",
    "ts": 1795060800000,
    "auto": 1,
-   "_score": 12.9
-  },
-  {
-   "id": "auto_1qfyxfk",
-   "cat": "Nouveautés",
-   "title": "Stanbic IBTC Pension Promotes Knowledge, Legacy At ART X Lagos",
-   "sub": "Independent Newspaper Nigeria",
-   "text": "Stanbic IBTC Pension Promotes Knowledge, Legacy At ART X Lagos Independent Newspaper Nigeria",
-   "date": "Publié le 19 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://independent.ng/stanbic-ibtc-pension-promotes-knowledge-legacy-at-art-x-lagos/",
-   "src": "Independent Newspaper Nigeria",
-   "img": "https://independent.ng/wp-content/uploads/2026/10/Stanbic-IBTC-Pension-Managers-e1793154875478.png",
-   "ts": 1795055878000,
-   "auto": 1,
-   "_score": 6.5
+   "_score": 12.7
   },
   {
    "id": "auto_10z37h3",
@@ -1240,7 +1257,7 @@
    "img": "https://www.leral.net/photo/art/grande/98746288-68932177.jpg?v=1795050069",
    "ts": 1795049760000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_1hlaiy2",
@@ -1259,7 +1276,7 @@
    "img": "https://senego.com/wp-content/uploads/2026/11/tmp592y84hp.jpg",
    "ts": 1795046841000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_soe9uh",
@@ -1278,7 +1295,7 @@
    "img": "https://www.pressafrik.com/photo/art/grande/98745457-68931612.jpg?v=1795039434",
    "ts": 1795039140000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.7
   },
   {
    "id": "auto_zdgidu",
@@ -1297,7 +1314,7 @@
    "img": "https://www.au-senegal.com/local/cache-vignettes/L462xH243/5907b961b141069fc57949dffa3650-5e83e.png",
    "ts": 1795008484000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.6
   },
   {
    "id": "auto_szyi3m",
@@ -1316,7 +1333,7 @@
    "img": "https://mali24.info/wp-content/uploads/2026/11/IMG-20261118-WA0106.jpg",
    "ts": 1794997563000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.5
   },
   {
    "id": "auto_izlvvs",
@@ -1337,7 +1354,7 @@
    "auto": 1,
    "apply": "https://ligeti-zentrum.de/wp-content/uploads/2026/11/Call-for-Applications-English.pdf",
    "applyKind": "pdf",
-   "_score": 12.1
+   "_score": 12
   },
   {
    "id": "auto_11eum6p",
@@ -1356,7 +1373,7 @@
    "img": "https://dekkbi.com/wp-content/uploads/2026/11/DakArt-2026.png",
    "ts": 1794996752000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.5
   },
   {
    "id": "auto_1afakpo",
@@ -1375,7 +1392,7 @@
    "img": "https://acp.cd/app/uploads/2026/11/1-56.jpg",
    "ts": 1794934649000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.4
   },
   {
    "id": "auto_13klw6u",
@@ -1396,7 +1413,7 @@
    "auto": 1,
    "apply": "https://docs.google.com/forms/d/e/1FAIpQLSdg-TWMhHEX-SZhcHloku2zFfow8_bjkaxNmPivEtnLosEyig/viewform?usp=header",
    "applyKind": "form",
-   "_score": 14.7
+   "_score": 14.6
   },
   {
    "id": "auto_ptrtit",
@@ -1415,26 +1432,7 @@
    "img": "https://www.seneplus.com/sites/default/files/2026-11/biennale26.jpg",
    "ts": 1794918085000,
    "auto": 1,
-   "_score": 7.5
-  },
-  {
-   "id": "auto_9x7iht",
-   "cat": "Nouveautés",
-   "title": "The Zoom AI Launchpad Startup Grants 2027 for startups worldwide.",
-   "sub": "Opportunities for Africans",
-   "text": "Application Deadline: Ongoing Applications are now open for the 2027 Zoom AI Launchpad Startup Grants. AI Launchpad is a grant program designed for startups building innovative products powered by artificial intelligence.… The post The Zoom AI Launchpad Startup Grants 2027 for startups worldwide. appeared first on Opportunities For Africans .",
-   "date": "Publié le 17 novembre 2026",
-   "deadline": "",
-   "start": "",
-   "end": "",
-   "place": "",
-   "country": "",
-   "link": "https://www.opportunitiesforafricans.com/the-zoom-ai-launchpad-startup-grants-2027-for-startups-worldwide/",
-   "src": "Opportunities for Africans",
-   "img": "https://www.opportunitiesforafricans.com/wp-content/uploads/2026/11/zoom-ai-launchpad-startup-grants.jpg",
-   "ts": 1794903480000,
-   "auto": 1,
-   "_score": 6
+   "_score": 7.3
   },
   {
    "id": "auto_1jezjuq",
@@ -1453,7 +1451,7 @@
    "img": "https://2ffgbymciqf94oxb.public.blob.vercel-storage.com/Dak'Art_2018_15-1200x630.jpg",
    "ts": 1794839870000,
    "auto": 1,
-   "_score": 5.8
+   "_score": 7.1
   },
   {
    "id": "auto_14k5w0o",
@@ -1472,7 +1470,7 @@
    "img": "https://cdn.allafrica.com/download/pic/main/main/csiid/00690937:8bc5cf862acf0ed2b8098dfd6d022bec:arc614x376:w1200.jpg",
    "ts": 1794827958000,
    "auto": 1,
-   "_score": 7.2
+   "_score": 7.1
   },
   {
    "id": "auto_3qvaex",
@@ -1491,7 +1489,7 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/SharjahArtFoundation.png",
    "ts": 1794801600000,
    "auto": 1,
-   "_score": 13.6
+   "_score": 13.5
   },
   {
    "id": "auto_sth49f",
@@ -1510,7 +1508,7 @@
    "img": "https://mondafrique.com/wp-content/uploads/2026/11/Biennale-de-Dakar.jpg",
    "ts": 1794617162000,
    "auto": 1,
-   "_score": 6.6
+   "_score": 6.4
   },
   {
    "id": "auto_1itr1ig",
@@ -1531,7 +1529,7 @@
    "auto": 1,
    "apply": "https://platform.izolyatsia.org/en/contest/zmina-resilience-cocreation-two#application-form",
    "applyKind": "section",
-   "_score": 14.2
+   "_score": 14.1
   },
   {
    "id": "auto_row3aj",
@@ -1569,7 +1567,7 @@
    "img": "https://cdn.sortiraparis.com/images/80/115278/1329606-paul-kodjo-photoromance-les-photoromans-d-abidjan-s-exposent-au-palais-de-tokyo.jpg",
    "ts": 1792069425000,
    "auto": 1,
-   "_score": -85.7
+   "_score": -87.2
   }
  ]
 }
