@@ -50,7 +50,7 @@ function check(o, src) {
   const grams = new Set(); for (let i = 0; i + 10 <= sw.length; i++) grams.add(sw.slice(i, i + 10).join(' '));
   for (let i = 0; i + 10 <= rw.length; i++) if (grams.has(rw.slice(i, i + 10).join(' '))) return 'recopié';
   const digits = s => (s.match(/\d[\d\s.,]*\d|\d/g) || []).map(n => n.replace(/[\s.,]/g, '')).filter(n => n.length >= 2);
-  const sd = new Set(digits(src + ' ' + d.items.find(i => i.id === o._id)?.date)); const bad = digits(r + ' ' + t).filter(n => !sd.has(n) && !(+n <= 31));
+  const it0 = d.items.find(i => i.id === o._id) || {}; const sd = new Set(digits(src + ' ' + (it0.title || '') + ' ' + (it0.text || '') + ' ' + (it0.date || '') + ' ' + (it0.deadline || '').replace(/-/g, ' '))); const bad = digits(r + ' ' + t).filter(n => !sd.has(n) && !(+n <= 31));
   if (bad.length) return 'chiffre absent du texte : ' + bad.join(',');
   return '';
 }
