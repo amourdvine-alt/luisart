@@ -21,8 +21,10 @@ jobs:
       - name: Installer llama.cpp
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
-          gh release download -R ggml-org/llama.cpp --pattern '*-bin-ubuntu-x64.zip' -D /tmp/l
-          cd /tmp/l && unzip -q *.zip && find . -name llama-server -type f | head -1 > /tmp/srvpath && cat /tmp/srvpath && nproc
+          gh release view -R ggml-org/llama.cpp --json assets --jq '.assets[].name' | grep -iE 'ubuntu|linux' || true
+          A=$(gh release view -R ggml-org/llama.cpp --json assets --jq '.assets[].name' | grep -iE 'ubuntu-x64\.(zip|tar\.gz)$' | grep -viE 'vulkan|cuda|rocm|sycl|opencl' | head -1); echo "-> $A"
+          mkdir -p /tmp/l && gh release download -R ggml-org/llama.cpp --pattern "$A" -D /tmp/l
+          cd /tmp/l && (unzip -q *.zip 2>/dev/null || tar xzf *.tar.gz) && find . -name llama-server -type f | head -1 > /tmp/srvpath && cat /tmp/srvpath && nproc
       - name: Télécharger l'IA
         run: curl -sSL -o /tmp/m.gguf "${{ matrix.m.u }}" && ls -la /tmp/m.gguf
       - name: Résumer 4 annonces
