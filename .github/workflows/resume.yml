@@ -24,7 +24,7 @@ jobs:
           N=$(node -e "
             const fs=require('fs'),c=require('crypto');const d=JSON.parse(fs.readFileSync('data/news-auto.json'));let k={};try{k=JSON.parse(fs.readFileSync('data/resumes.json'))}catch{}
             const key=x=>c.createHash('sha1').update((x.title||'')+'|'+(x.link||'')).digest('hex').slice(0,12);
-            const t=d.items.filter(x=>x.link&&!/news\.google\./.test(x.link)&&!(k[x.id]&&k[x.id].k===key(x))).length;
+            const t=d.items.filter(x=>x.link&&!/news\.google\./.test(x.link)&&!(k[x.id]&&k[x.id].k===key(x)&&(k[x.id].r||(k[x.id].fail||0)>=3))).length;
             console.log(Math.min(8,Math.ceil(t/5)))")
           echo "À résumer → $N robot(s)"
           echo "n=$N" >> $GITHUB_OUTPUT

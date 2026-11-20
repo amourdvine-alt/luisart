@@ -10,7 +10,8 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const d = JSON.parse(fs.readFileSync('data/news-auto.json', 'utf8'));
 let cache = {}; try { cache = JSON.parse(fs.readFileSync('data/resumes.json', 'utf8')); } catch {}
 export const keyOf = x => crypto.createHash('sha1').update((x.title || '') + '|' + (x.link || '')).digest('hex').slice(0, 12);
-let todo = d.items.filter(x => x.link && !/news\.google\./.test(x.link) && !(cache[x.id] && cache[x.id].k === keyOf(x))).sort((a, b) => a.id < b.id ? -1 : 1);
+const done = x => { const c = cache[x.id]; return c && c.k === keyOf(x) && (c.r || (c.fail || 0) >= 3); };
+let todo = d.items.filter(x => x.link && !/news\.google\./.test(x.link) && !done(x)).sort((a, b) => a.id < b.id ? -1 : 1);
 todo = todo.filter((_, i) => i % NPARTS === PART); if (LIMIT) todo = todo.slice(0, LIMIT);
 console.log(`Part ${PART + 1}/${NPARTS} : ${todo.length} annonces à résumer`);
 
@@ -30,11 +31,11 @@ async function getText(x) {
   return (x.text || '').length > 200 ? x.text : '';
 }
 const SCHEMA = { type: 'object', properties: { titre: { type: 'string' }, resume: { type: 'string' } }, required: ['titre', 'resume'] };
-async function ask(x, src, temp) {
+async function ask(x, src, temp, strict) {
   const call = x.cat === 'Appels à candidatures';
   const msg = [
     { role: 'system', content: "Tu es rédacteur pour Luisart, une application pour artistes en Côte d'Ivoire. Tu écris en français simple et correct. Tu reformules avec tes propres mots, tu ne recopies jamais des phrases du texte. Tu n'inventes rien : une information absente du texte n'apparaît pas dans le résumé." },
-    { role: 'user', content: `Catégorie : ${x.cat}\nTitre d'origine : ${x.title}\nSource : ${x.sub || ''}\n${x.deadline ? 'Date limite vérifiée : ' + x.date.replace(/^.*Date limite : /, '') + '\n' : ''}\nTexte de l'annonce :\n"""\n${src}\n"""\n\nRéponds en JSON avec :\n- "titre" : le titre traduit en français, court et clair (12 mots maximum).\n- "resume" : un résumé de 4 à 7 phrases en français. ${call ? "Dis de quoi il s'agit, qui organise, où, à qui c'est ouvert (conditions), ce qui est offert (bourse, résidence, prix, exposition), s'il y a des frais, comment postuler et la date limite si elle est donnée." : "Dis de quoi il s'agit, qui, où, quand, et ce qu'il faut retenir pour un artiste."} Pas de liste, pas de lien, pas de titre dans le résumé.` }];
+    { role: 'user', content: `Catégorie : ${x.cat}\nTitre d'origine : ${x.title}\nSource : ${x.sub || ''}\n${x.deadline ? 'Date limite vérifiée : ' + x.date.replace(/^.*Date limite : /, '') + '\n' : ''}\nTexte de l'annonce :\n"""\n${src}\n"""\n\nRéponds en JSON avec :\n- "titre" : le titre traduit en français, court et clair (12 mots maximum).\n- "resume" : un résumé de 4 à 7 phrases en français. ${call ? "Dis de quoi il s'agit, qui organise, où, à qui c'est ouvert (conditions), ce qui est offert (bourse, résidence, prix, exposition), s'il y a des frais, comment postuler et la date limite si elle est donnée." : "Dis de quoi il s'agit, qui, où, quand, et ce qu'il faut retenir pour un artiste."} Pas de liste, pas de lien, pas de titre dans le résumé.${strict ? " IMPORTANT : reformule entièrement avec des phrases courtes et différentes ; ne reprends aucune suite de plus de 5 mots du texte, et n'écris aucun nombre qui n'est pas dans le texte." : ''}` }];
   const r = await fetch(SERVER + '/v1/chat/completions', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: AbortSignal.timeout(600000),
     body: JSON.stringify({ model: MODEL, messages: msg, temperature: temp, max_tokens: 450, response_format: { type: 'json_object', schema: SCHEMA } }) });
   const j = await r.json(); const c = j.choices?.[0]?.message?.content || '';
@@ -58,11 +59,12 @@ const out = {}; let ok = 0, skip = 0, fail = 0;
 for (const x of todo) {
   if (Date.now() > DEADLINE) { console.log('Temps écoulé : le reste sera fait au prochain passage'); break; }
   const t0 = Date.now(); const src = await getText(x);
-  if (!src) { skip++; console.log('— pas de texte lisible :', x.title.slice(0, 60)); continue; }
+  const prevFail = (cache[x.id] && cache[x.id].k === keyOf(x) && cache[x.id].fail) || 0;
+  if (!src) { skip++; out[x.id] = { k: keyOf(x), fail: prevFail + 1, ts: Date.now() }; console.log('— pas de texte lisible :', x.title.slice(0, 60)); continue; }
   let res = null, why = '';
-  for (const temp of [0.3, 0.1]) { try { const o = await ask(x, src, temp); o._id = x.id; why = check(o, src); if (!why) { res = o; break; } } catch (e) { why = 'erreur ' + String(e.message || e).slice(0, 60); } }
+  for (const [temp, strict] of [[0.3, 0], [0.1, 0], [0.5, 1]]) { try { const o = await ask(x, src, temp, strict); o._id = x.id; why = check(o, src); if (!why) { res = o; break; } } catch (e) { why = 'erreur ' + String(e.message || e).slice(0, 60); } }
   const s = ((Date.now() - t0) / 1000).toFixed(0);
-  if (!res) { fail++; console.log(`✗ ${s}s ${why} | ${x.title.slice(0, 60)}`); continue; }
+  if (!res) { fail++; out[x.id] = { k: keyOf(x), fail: prevFail + 1, ts: Date.now() }; console.log(`✗ ${s}s ${why} | ${x.title.slice(0, 60)}`); continue; }
   ok++; out[x.id] = { k: keyOf(x), titre: res.titre.trim(), r: res.resume.trim(), ts: Date.now() };
   console.log(`✓ ${s}s | ${x.title.slice(0, 60)}`); if (PROBE) console.log(`   → ${res.titre}\n   ${res.resume}\n`);
 }
