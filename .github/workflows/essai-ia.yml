@@ -1,0 +1,34 @@
+name: Essai IA résumés
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        m:
+          - { n: qwen2.5-1.5b, u: 'https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf' }
+          - { n: gemma2-2b, u: 'https://huggingface.co/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf' }
+          - { n: llama3.2-3b, u: 'https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf' }
+          - { n: qwen2.5-7b, u: 'https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q4_K_M.gguf' }
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - name: Installer llama.cpp
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh release download -R ggml-org/llama.cpp --pattern '*-bin-ubuntu-x64.zip' -D /tmp/l
+          cd /tmp/l && unzip -q *.zip && find . -name llama-server -type f | head -1 > /tmp/srvpath && cat /tmp/srvpath && nproc
+      - name: Télécharger l'IA
+        run: curl -sSL -o /tmp/m.gguf "${{ matrix.m.u }}" && ls -la /tmp/m.gguf
+      - name: Résumer 4 annonces
+        env: { LIMIT: 4, PROBE: 1, MAX_MIN: 30 }
+        run: |
+          S=$(cat /tmp/srvpath); B=$(dirname $S); LD_LIBRARY_PATH=/tmp/l/$B:$LD_LIBRARY_PATH nohup /tmp/l/$S -m /tmp/m.gguf -c 4096 -t $(nproc) --port 8080 --jinja > /tmp/srv.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf localhost:8080/health && break; sleep 2; done; echo
+          node scripts/resume/resume.mjs || true
+          grep -E "prompt eval time|       eval time" /tmp/srv.log | tail -4
