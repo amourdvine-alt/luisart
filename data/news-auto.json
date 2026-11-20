@@ -1064,7 +1064,9 @@
    "img": "https://media.beauxarts.com/uploads/2026/11/24-543642-1-1-1300x975.jpg",
    "ts": 1795190710000,
    "auto": 1,
-   "_score": 8.5
+   "_score": 8.5,
+   "resume": "Le Bénin demande la restitution de 35 trésors pillés, dont une sculpture du dieu Gou fascinante pour Picasso et Apollinaire. Cette demande fait partie d'un effort pour récupérer des biens culturels volés pendant la colonisation. La sculpture, datant de 1858-1860, est conservée au musée du quai Branly-Jacques Chirac. Une nouvelle loi française permet désormais des restitutions sans vote spécifique pour chaque objet. Le retour de cette sculpture serait symbolique pour le Bénin.",
+   "titreFr": "Bénin réclame 35 trésors pillés à la France"
   },
   {
    "id": "auto_1ta6huq",
@@ -1102,7 +1104,9 @@
    "img": "https://cdn.allafrica.com/download/pic/main/main/csiid/00690970:6dae1752c8970ad6e297bc1a504f14e3:arc614x376:w1200.jpg",
    "ts": 1795180043000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "La 16e Biennale Dak'Art 2026, inaugurée le 19 novembre 2026 par Bassirou Diomaye Faye, met l'accent sur la créativité africaine. Le président sénégalais a plaidé pour une meilleure circulation des œuvres et la création d'un marché africain de l'art. Cette édition, sous le thème '(Anti)fragilité', vise à valoriser l'art contemporain africain et ses capacités de résilience.",
+   "titreFr": "Dak'Art 2026 : Faye appelle à un marché africain de l'art"
   },
   {
    "id": "auto_vub2st",
@@ -1121,7 +1125,9 @@
    "img": "https://www.enca.com/sites/default/files/styles/large/public/afp/2026-11/doc-D82B7ZQ-%40photo1.jpg.webp?itok=dMPsoozE",
    "ts": 1795179375000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "La 16e Biennale d'art contemporain africain, intitulée 'Anti-fragilité', s'est ouverte à Dakar du 20 novembre au 19 décembre 2026. Cette exposition, qui met en avant la transformation de la vulnérabilité en créativité, réunit 54 artistes d'Afrique et de la diaspora. Le Congo est le pays invité d'honneur, avec un pavillon national célébrant la richesse de l'art congolais. L'événement propose également une multitude de projets artistiques dans le cadre du programme 'OFF'.",
+   "titreFr": "Biennale d'art contemporain africain à Dakar"
   },
   {
    "id": "auto_10b72js",
@@ -1140,7 +1146,9 @@
    "img": "https://actu.rts.sn/wp-content/uploads/2026/11/IMG_5935.webp",
    "ts": 1795178618000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "La 16e édition de Dak’Art a couronné l'artiste congolais Beau Disundi avec le prestigieux Grand Prix Léopold Sédar Senghor. Doté de 20 millions de FCFA, ce prix récompense son approche artistique sur les rapports économiques et culturels. Le palmarès, marqué par la diversité, a également récompensé d'autres artistes africains pour leurs œuvres innovantes.",
+   "titreFr": "Beau Disundi remporte le Grand Prix Dak’Art 2026"
   },
   {
    "id": "auto_4jgg86",
@@ -1159,7 +1167,9 @@
    "img": "https://static-content.rtbf.be/article/image/1920x1080/9/8/b/515330f682fa4a6d7985d296442fe45a.jpg",
    "ts": 1795172697000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La 16e Biennale d'art africain contemporain à Dakar, intitulée 'l'(Anti) fragilité', se déroule du 11 au 19 décembre. Elle rassemble 54 artistes de 17 pays, abordant la résilience créative. Le pays invité est la République démocratique du Congo. L'artiste Morad Montazami explore la transformation de la fragilité en force artistique.",
+   "titreFr": "Biennale d'art africain contemporain à Dakar"
   },
   {
    "id": "auto_1nxoi1h",
@@ -1178,7 +1188,9 @@
    "img": "https://actualite.cd/sites/default/files/styles/1200_630/public/2026-11/WhatsApp%20Image%202026-11-20%20at%2013.03.38%20%281%29.jpeg?itok=bj4Rucgv",
    "ts": 1795172301000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La République démocratique du Congo participe à la Biennale de Dakar 2026 en tant que pays invité d'honneur. L'exposition intitulée 'Quatrième Temps : Le Temps comme matière vivante' met en lumière la richesse de son patrimoine artistique, de la mémoire à la création contemporaine. Elle se déroulera du 20 novembre au 19 décembre 2026. Dix artistes congolais de différentes générations sont représentés, dirigés par Steve Bandoma Sando. Fally Ipupa est également invité pour renforcer la visibilité des expressions artistiques congolaises.",
+   "titreFr": "Exposition de la RDC à Dak’Art 2026"
   },
   {
    "id": "auto_1oj6t5i",
@@ -1218,7 +1230,9 @@
    "auto": 1,
    "apply": "https://visit-energy.com/en/apply#form",
    "applyKind": "form",
-   "_score": 15.9
+   "_score": 15.9,
+   "resume": "Le programme Mensch Maschine VISIT 2027 offre quatre résidences à des artistes internationaux. Organisé par la JUNGE AKADEMIE, E-WERK Luckenwalde et Ujazdowski Castle, il se déroule du 13 août au 10 novembre 2027. Les artistes reçus bénéficient d'un budget de 20 000 EUR et d'un studio à E-WERK Luckenwalde. Un symposium est prévu en octobre. Les candidatures sont ouvertes jusqu'au 1er décembre 2026.",
+   "titreFr": "Residence Mensch Maschine VISIT 2027"
   },
   {
    "id": "auto_185aqza",
@@ -1237,7 +1251,9 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/fwd_pattern_photos-04_a.2000x1200.jpeg",
    "ts": 1795165088000,
    "auto": 1,
-   "_score": 16
+   "_score": 16,
+   "resume": "On the Move propose des subventions pour la mobilité internationale des artistes littéraires émergents et des professionnels en Afrique de l'Ouest. Les candidats peuvent solliciter 600 ou 1000 EUR pour des voyages. Des subventions de 1400 EUR sont également offertes aux organisateurs d'événements pour inviter des artistes littéraires émergents. Les dossiers doivent être soumis avant le 30 novembre 2026 pour des voyages en janvier-juin 2027.",
+   "titreFr": "Subvention pour la mobilité littéraire"
   },
   {
    "id": "auto_18pjcan",
