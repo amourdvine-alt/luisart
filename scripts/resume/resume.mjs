@@ -10,7 +10,7 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const d = JSON.parse(fs.readFileSync('data/news-auto.json', 'utf8'));
 let cache = {}; try { cache = JSON.parse(fs.readFileSync('data/resumes.json', 'utf8')); } catch {}
 export const keyOf = x => crypto.createHash('sha1').update((x.title || '') + '|' + (x.link || '')).digest('hex').slice(0, 12);
-let todo = d.items.filter(x => x.link && !(cache[x.id] && cache[x.id].k === keyOf(x))).sort((a, b) => a.id < b.id ? -1 : 1);
+let todo = d.items.filter(x => x.link && !/news\.google\./.test(x.link) && !(cache[x.id] && cache[x.id].k === keyOf(x))).sort((a, b) => a.id < b.id ? -1 : 1);
 todo = todo.filter((_, i) => i % NPARTS === PART); if (LIMIT) todo = todo.slice(0, LIMIT);
 console.log(`Part ${PART + 1}/${NPARTS} : ${todo.length} annonces à résumer`);
 
@@ -34,7 +34,7 @@ async function ask(x, src, temp) {
   const call = x.cat === 'Appels à candidatures';
   const msg = [
     { role: 'system', content: "Tu es rédacteur pour Luisart, une application pour artistes en Côte d'Ivoire. Tu écris en français simple et correct. Tu reformules avec tes propres mots, tu ne recopies jamais des phrases du texte. Tu n'inventes rien : une information absente du texte n'apparaît pas dans le résumé." },
-    { role: 'user', content: `Catégorie : ${x.cat}\nTitre d'origine : ${x.title}\nSource : ${x.sub || ''}\n\nTexte de l'annonce :\n"""\n${src}\n"""\n\nRéponds en JSON avec :\n- "titre" : le titre traduit en français, court et clair (12 mots maximum).\n- "resume" : un résumé de 4 à 7 phrases en français. ${call ? "Dis de quoi il s'agit, qui organise, où, à qui c'est ouvert (conditions), ce qui est offert (bourse, résidence, prix, exposition), s'il y a des frais, comment postuler et la date limite si elle est donnée." : "Dis de quoi il s'agit, qui, où, quand, et ce qu'il faut retenir pour un artiste."} Pas de liste, pas de lien, pas de titre dans le résumé.` }];
+    { role: 'user', content: `Catégorie : ${x.cat}\nTitre d'origine : ${x.title}\nSource : ${x.sub || ''}\n${x.deadline ? 'Date limite vérifiée : ' + x.date.replace(/^.*Date limite : /, '') + '\n' : ''}\nTexte de l'annonce :\n"""\n${src}\n"""\n\nRéponds en JSON avec :\n- "titre" : le titre traduit en français, court et clair (12 mots maximum).\n- "resume" : un résumé de 4 à 7 phrases en français. ${call ? "Dis de quoi il s'agit, qui organise, où, à qui c'est ouvert (conditions), ce qui est offert (bourse, résidence, prix, exposition), s'il y a des frais, comment postuler et la date limite si elle est donnée." : "Dis de quoi il s'agit, qui, où, quand, et ce qu'il faut retenir pour un artiste."} Pas de liste, pas de lien, pas de titre dans le résumé.` }];
   const r = await fetch(SERVER + '/v1/chat/completions', { method: 'POST', headers: { 'content-type': 'application/json' }, signal: AbortSignal.timeout(600000),
     body: JSON.stringify({ model: MODEL, messages: msg, temperature: temp, max_tokens: 450, response_format: { type: 'json_object', schema: SCHEMA } }) });
   const j = await r.json(); const c = j.choices?.[0]?.message?.content || '';

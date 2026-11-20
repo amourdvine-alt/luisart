@@ -19,12 +19,14 @@ jobs:
         with:
           node-version: 22
       - name: Chercher les actualités
-        run: node scripts/veille.mjs
+        run: |
+          node scripts/veille.mjs
+          node scripts/resume/merge.mjs   # remet les résumés déjà écrits par l'IA
       - name: Enregistrer
         run: |
           git config user.name "Luisart Veille"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news-auto.json
+          git add data/news-auto.json data/resumes.json
           if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
           git commit -m "Veille : actualités du $(date -u +%Y-%m-%d)"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
