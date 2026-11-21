@@ -613,7 +613,9 @@
    "img": "https://www.mallgalleries.org.uk/sites/default/files/styles/meta_facebook/public/banner-images/RBA26%20015%202.jpg?itok=rA2ShJ6I",
    "ts": 1795241160258,
    "auto": 1,
-   "_score": 14.1
+   "_score": 14.1,
+   "resume": "L'Royal Society of British Artists organise l'exposition annuelle 2027, ouverte à tous les artistes. Des prix et bourses sont offerts, y compris l'Huaicun Zhang Award de 10 000 £. Les artistes peuvent soumettre jusqu'à six œuvres, dont les frais sont de 22 £ par œuvre. Les candidatures sont acceptées en ligne du 7 septembre 2026 au 8 janvier 2027.",
+   "titreFr": "Appel à candidatures Royal Society of British Artists 2027"
   },
   {
    "id": "auto_1xfvo81",
@@ -1083,7 +1085,9 @@
    "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/BBYUVHSRFRBLXD6RE72VRZN4JE.jpg?api_key=ksat_9a37fc89631abedf",
    "ts": 1795203552000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La 16e Biennale d'art contemporain africain à Dakar explore comment transformer la fragilité en pouvoir. Des artistes comme Deb's et Studio Dialogues présentent leurs œuvres, notamment des peintures et des installations. L'exposition se déroule dans l'ancien Palais de Justice à Dakar, du 20 novembre 2026. Cette exposition attire de nombreux visiteurs intéressés par ces créations qui abordent la résilience. Les artistes s'efforcent de montrer comment la fragilité peut devenir une force.",
+   "titreFr": "Biennale d'art contemporain à Dakar"
   },
   {
    "id": "auto_1du40iy",
@@ -1697,7 +1701,9 @@
    "img": "https://artafricamagazine.org/wp-content/uploads/2026/10/20240524-VOICE-NAE-LOW-489.jpg.webp",
    "ts": 1791961200000,
    "auto": 1,
-   "_score": 15.1
+   "_score": 15.1,
+   "resume": "New Art Exchange propose l'open call RESIDE 2027/28 pour artistes et créateurs. Le programme offre 8 semaines de studio, une bourse de 4 000 £ et soutien professionnel. Ouvert aux individus et collectifs de tous médias, avec un intérêt particulier pour les projets communautaires. Les candidatures se font sur le site web de l'organisation jusqu'au 9 décembre 2026.",
+   "titreFr": "Appel à candidatures RESIDE 2027/28 de New Art Exchange"
   }
  ]
 }
