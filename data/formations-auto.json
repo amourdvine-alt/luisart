@@ -1,5 +1,5 @@
 {
- "updated": 1795066687812,
+ "updated": 1795412684320,
  "items": [
   {
    "t": "« Cartooning for Peace & Governance » – Formation d’artistes au dessin de presse en Somalie",
@@ -79,6 +79,19 @@
    "ci": false
   },
   {
+   "t": "Les cours Histoires d’Art reviennent pour une nouvelle saison hautement culturelle !",
+   "d": "Vous aimez l’art et vous souhaitez prendre un peu de temps pour découvrir ou approfondir son histoire ? Suivez nos cours HISTOIRES D'ART !",
+   "src": "Grand Palais",
+   "site": "https://www.grandpalais.fr",
+   "url": "https://www.grandpalais.fr/fr/magazine/les-cours-histoires-dart-reviennent-pour-une-nouvelle-saison-hautement-culturelle",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Histoire de l’art",
+   "img": "https://www.grandpalais.fr/sites/default/files/migrate/field_magazine_carousel_thumb/bandeau-800x400.jpg",
+   "ci": false
+  },
+  {
    "t": "Un MOOC pour tout savoir sur les animaux dans l’histoire de l’art",
    "d": "À travers les collections des 10 musées de Strasbourg, un cours en ligne gratuit propose de questionner les représentations des animaux dans l’art. Cette initiative est permise par l’association entre les Musées de la Ville de Strasbourg et la Fondation Orange. Le cours proposé permettra ainsi de percer le mystère des représentations artistiques de l’animal et son histoire.",
    "src": "Connaissance des Arts",
@@ -141,6 +154,19 @@
    "ty": "cours",
    "cat": "Histoire de l’art",
    "img": "https://media.beauxarts.com/uploads/2017/07/unnamed-e1499433963263-1-1.jpg",
+   "ci": false
+  },
+  {
+   "t": "« L’instant figé, quand l’art saisit le mouvement », le nouveau MOOC du Louvre et Orange",
+   "d": "À l’occasion de l’exposition « Corps en mouvement. La danse au musée », qui se tient actuellement à la Petite Galerie du musée du Louvre, un MOOC est proposé en collaboration avec Orange autour de l’instant figé et de l’art en mouvement.",
+   "src": "Connaissance des Arts",
+   "site": "https://www.connaissancedesarts.com",
+   "url": "https://www.connaissancedesarts.com/arts-expositions/linstant-fige-quand-lart-saisit-le-mouvement-le-nouveau-mooc-du-louvre-et-orange-1162198/",
+   "lang": "fr",
+   "free": false,
+   "ty": "cours",
+   "cat": "Histoire de l’art",
+   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2017/02/854739-500x281-tt-width-653-height-630-fill-0-crop-1-bgcolor-ffffff.jpg",
    "ci": false
   },
   {
@@ -261,17 +287,29 @@
    "ci": false
   },
   {
-   "t": "Photographie : COVERAGE organise un atelier de formation",
-   "d": "Samedi 31 août 2013. Bingerville. La structure COVERAGE dirigée par le photographe professionnel, Thierry Gouégnon a organisé un atelier de formation en photographie (Worhshop) à l’attention de férus de ce métier.",
-   "src": "Abidjan.net News",
-   "site": "https://news.abidjan.net",
-   "url": "https://news.abidjan.net/photos/150018-photographie-coverage-organise-un-atelier-de-formation",
+   "t": "Les cours photo à suivre depuis votre canapé !",
+   "d": "Que vous soyez photographes en herbe ou professionnels, cette sélection de cours photo vous permettra d’approfondir vos connaissances et vos techniques.",
+   "src": "Fisheye Magazine",
+   "site": "https://fisheyemagazine.fr",
+   "url": "https://fisheyemagazine.fr/article/les-cours-photo-a-suivre-depuis-votre-canape/",
    "lang": "fr",
    "free": false,
    "ty": "article",
    "cat": "Photographie",
-   "img": "https://media-files.abidjan.net/photo/Thierrygouegnon-0010.jpg",
-   "ci": true
+   "img": "https://fisheyemagazine.fr//wp-content/uploads/import/2020/03/les-cours-photo-a-suivre-depuis-votre-canape-1024x780.jpg",
+   "ci": false
+  },
+  {
+   "t": "Photographie : COVERAGE organise un atelier de formation",
+   "d": "",
+   "src": "Abidjan.net News",
+   "site": "https://news.abidjan.net",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRISUdhS05XN2MxNGlxN2ItUWpWVFg0WS1peXhrcUVVZjZHMkM5RDk2SUcxelNaWUM4NHFlUkVPd2xwbUJKd00yTXNmSDJmd1VTdjAxZUhEa3VaT3ktS1NCMjNmWk5QdmtTVUVBUXNDaGtHVzNFcjFINVZMWW0wbjk1Mm4wenl6N0RnUndZRkQ5M0UtMFFNeA?oc=5",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Photographie",
+   "ci": false
   },
   {
    "t": "Le guide des écoles d'art 2026",
@@ -297,6 +335,18 @@
    "ty": "cours",
    "cat": "Autres formations",
    "img": "https://actualites.uqam.ca/wp-content/uploads/2024/02/mooc-autochtones.jpg",
+   "ci": false
+  },
+  {
+   "t": "L’UQAM et le MBAM offrent un cours virtuel gratuit sur l’art autochtone",
+   "d": "",
+   "src": "Radio-Canada",
+   "site": "https://ici.radio-canada.ca",
+   "url": "https://ici.radio-canada.ca/article/info/1920682/uqam-mbam-ohtehra-art-autochtone-aujourdhui-guy-sioui-durand",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Autres formations",
    "ci": false
   },
   {
