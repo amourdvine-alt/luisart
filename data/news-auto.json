@@ -1104,7 +1104,9 @@
    "img": "https://s.rfi.fr/media/display/a44eeee2-e6a2-11f1-b552-e56ab3dc0809/w:1280/p:16x9/1-396.jpg",
    "ts": 1795438924000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "La 16ème Biennale de Dakar, intitulée 'Anti-fragilité', se déroule du 19 novembre au 19 décembre 2026 à Dakar. 75 propositions artistiques, venant d'Afrique et du monde, sont exposées. L'événement met en lumière la résistance artistique face à la fragilité du monde. Des artistes comme Serigne Ibrahima Dieye et Fatiha Zemmouri participent. Des invités comme Morad Montazami et Caroline Déodat animent les émissions. L'application RFI propose des reportages et interviews.",
+   "titreFr": "Biennale de Dakar 2026 : résistance artistique face à la fragilité"
   },
   {
    "id": "auto_63u4sn",
@@ -1123,7 +1125,9 @@
    "img": "https://www.mediacongo.net/cache/exposition-rdc-dakar-culture-yolande-elebe-chrysda_jpg_711_473_1.jpeg",
    "ts": 1795430790000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La République démocratique du Congo participe à la 16ème Biennale de l'art africain contemporain de Dakar en qualité de pays invité d'honneur. La ministre de la Culture, Yolande Elebe Ma Ndembo, a ouvert la participation avec des œuvres réunies dans le pavillon national. Des artistes comme Fally Ipupa ont pris part à la cérémonie. L'exposition met en valeur la diversité de la création congolaise, notamment à travers des arts visuels et musicaux.",
+   "titreFr": "La RDC expose son patrimoine artistique à Dakar"
   },
   {
    "id": "auto_ks0m9f",
@@ -1142,7 +1146,9 @@
    "img": "",
    "ts": 1795417964000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "L'exposition «Palimpseste de villes africaines» explore les transformations urbaines africaines à travers des œuvres d'artistes, d'architectes et de photographes. Organisée du 20 novembre 2026 au 27 février 2027 à Dakar, elle se décline sur plusieurs sites. Les commissaires Olufèmi Hinson Yovo et Ken Aïcha Sy présentent des perspectives multiples sur les villes africaines, mettant en lumière leurs transformations et leurs imaginaires. L'exposition invite à réfléchir sur la résilience et l'adaptation des territoires urbains.",
+   "titreFr": "Exposition sur les transformations urbaines africaines"
   },
   {
    "id": "auto_nwpapu",
@@ -1279,7 +1285,9 @@
    "img": "",
    "ts": 1795368420000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.8,
+   "resume": "Des ministres africains se sont réunis au Musée des Civilisations noires pour discuter de la création d'emplois dans les industries culturelles. Le Mali a souligné l'importance de l'implication des communautés, le Cap-Vert a insisté sur les revenus des artistes et l'insertion professionnelle des jeunes, tandis que le Maroc a présenté l'expérience de Rabat. Ces discussions visent à structurer un secteur culturel qui valorise les savoir-faire locaux et crée des emplois pour les artistes.",
+   "titreFr": "Développement des industries culturelles en Afrique"
   },
   {
    "id": "auto_9w8fu",
