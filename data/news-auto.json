@@ -238,7 +238,9 @@
    "img": "https://cdn.sanity.io/images/4sbs20z1/bba-dev/3c58795490b0878cea0a59c4afb76d70b747cf41-2794x2366.jpg?fit=crop&auto=format&v=126jl57",
    "ts": 1795414741016,
    "auto": 1,
-   "_score": 15.8
+   "_score": 15.8,
+   "resume": "Le BBA Artist Prize 2027 est un appel à candidatures pour artistes de tout niveau et de toutes disciplines. Organisé par BBA Gallery à Berlin, il offre une exposition et un jury professionnel. Les artistes peuvent soumettre jusqu'à 5 œuvres pour un coût de 15% réduit. La date limite est le 7 décembre 2026.",
+   "titreFr": "BBA Artist Prize 2027"
   },
   {
    "id": "auto_7ekib1",
@@ -672,7 +674,9 @@
    "img": "",
    "ts": 1795414741016,
    "auto": 1,
-   "_score": 14
+   "_score": 14,
+   "resume": "COMMON THINGS est un appel à candidatures organisé par SPIRA9 ART & OTHERING. Ouvert à tous les artistes et praticiens créatifs, cet appel explore comment les objets familiers et les expériences quotidiennes influencent notre perception du monde. Il propose de soumettre des œuvres qui transforment le familier en expériences intellectuelles et émotionnelles puissantes. Les candidatures sont acceptées jusqu'au 14 décembre 2026.",
+   "titreFr": "Appel à candidatures : COMMON THINGS"
   },
   {
    "id": "auto_1h4x87c",
@@ -1119,7 +1123,9 @@
    "img": "https://selectabisso.com/wp-content/uploads/2026/11/photo-output_1-1-scaled.jpeg",
    "ts": 1795378854000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "Dak’Art 2026, organisée du 19 novembre au 19 décembre 2026, explore les arts de la réparation à travers l'ancien Palais de justice à Dakar. 79 artistes et designers africains et de diaspora sont sélectionnés. L'exposition, intitulée '(Anti)fragilité', met en avant les savoirs de soin et les pratiques d'entraide. La Guadeloupe est représentée par Clémence Lollia Hilaire. Le Grand Prix Léopold Sédar Senghor est remis à Beau Disundi Nzazi.",
+   "titreFr": "Dak’Art 2026 explore les arts de la réparation"
   },
   {
    "id": "auto_1un2qey",
@@ -1176,7 +1182,9 @@
    "img": "",
    "ts": 1795372020000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "Des ministres africains se sont réunis au Musée des Civilisations noires pour discuter de la création d'emplois dans le secteur culturel. Le Mali a souligné l'importance de la participation des communautés, le Cap-Vert a plaidé pour des revenus pour les artistes et l'insertion professionnelle des jeunes, tandis que le Maroc a partagé son expérience de Capitale africaine de la culture. Ces discussions visent à structurer le secteur culturel et à permettre aux artistes de vivre de leur travail.",
+   "titreFr": "Développement de la culture en Afrique"
   },
   {
    "id": "auto_9c0nm4",
@@ -1359,7 +1367,9 @@
    "img": "",
    "ts": 1795251960000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.5,
+   "resume": "La 16e Biennale de l'art africain contemporain s'est ouverte le 19 novembre 2026 à Dakar. Bassirou Diomaye Faye a défendu la manifestation malgré les difficultés économiques et proposé un marché commun de l'art africain. La République démocratique du Congo, pays invité d'honneur, a abordé la mémoire et la transmission. Beau Disundi Nzazi a remporté le Grand Prix du Chef de l'État. L'édition se concentre sur l'antifragilité et les stratégies de réparation artistiques.",
+   "titreFr": "16e Biennale de Dakar : Ouverture et appel à circuler l'art africain"
   },
   {
    "id": "auto_1nu6mtu",
