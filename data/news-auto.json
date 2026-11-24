@@ -1083,7 +1083,9 @@
    "img": "https://backoffice.lepetitjournal.com/sites/default/files/2026-11/biennale%20dakar.jpg",
    "ts": 1795496604000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "La 16e Biennale de l'art africain contemporain se tiendra du 19 novembre au 19 décembre 2026 à Dakar. Organisée autour du concept d'antifragilité, elle réunit 79 artistes pour valoriser la réparation et le contrecoup. Le directeur artistique, Morad Montazami, présente trois chapitres et cinq lignes de fuite. Faouzi Laatiris est Grand Témoin, Serigne Mbaye Camara a carte blanche et Ngoor est hommage. L'événement inclut des rencontres scientifiques, des défilés et des projections-débats. Pour les artistes, il faut retenir l'importance des stratégies du contrecoup et des dialogues diasporiques.",
+   "titreFr": "Biennale de Dakar 2026 : l'(anti)fragilité comme force créatrice"
   },
   {
    "id": "auto_1snq75j",
@@ -1121,7 +1123,9 @@
    "img": "https://bloximages.newyork1.vip.townnews.com/miamitimesonline.com/content/tncms/assets/v3/editorial/c/f0/cf0f23ab-4329-457e-ab71-215056b549c6/6b0477e63f0bd.image.jpg?crop=1765%2C927%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
    "ts": 1795454580000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La 16e Biennale d'art contemporain africain à Dakar explore le concept d’(anti)fragilité. Des artistes de 54 pays africains et de la diaspora exposent leurs œuvres, reflétant la vulnérabilité et la résilience. L’événement, fondé en 1989, met en lumière l’art africain face aux défis économiques et sociaux. L’art est vu comme un moyen de surmonter les crises et de concevoir de nouveaux systèmes de pensée.",
+   "titreFr": "Biennale d'art contemporain africain à Dakar"
   },
   {
    "id": "auto_1wdgewf",
@@ -1304,7 +1308,9 @@
    "img": "https://www.fratmat.info/uploads/images/2026/11/23/302431.jpg",
    "ts": 1795379520000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.6,
+   "resume": "Dak’Art 2026, la 16e Biennale de l'Art africain contemporain à Dakar, présente 54 artistes dont l'œuvre explore la mémoire, les identités et les renaissances. Des installations, peintures et vidéos interpellent sur les blessures historiques et les espoirs d'avenir. Cheikh Ndiaye et Dèb’s questionnent la solidarité et l'interdépendance, tandis que Stéphane Foucaud et Hady Barry revisitent l'exil et la mémoire familiale. Souad Abdelrasoul et Bitibiza Muongo explorent les violences symboliques et la fatigue des femmes. L'exposition se tient du 19 novembre au 19 décembre 2026.",
+   "titreFr": "Dak’Art 2026 : L'Afrique raconte ses mémoires"
   },
   {
    "id": "auto_bb0d0x",
