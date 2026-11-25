@@ -1083,7 +1083,9 @@
    "img": "",
    "ts": 1795615140000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "L'ancien cinéma Empire à Dakar accueille l'exposition collective 'Renaissance' jusqu'au 18 décembre. Organisée par Tidiane Oumar Ba, elle célèbre Djibril Sy et inclut des artistes locaux et internationaux. Des projections, des installations et des événements cap-verdiens sont prévus pour relancer la salle comme lieu de rassemblement culturel.",
+   "titreFr": "Exposition à l'ancien cinéma Empire à Dakar"
   },
   {
    "id": "auto_154az63",
@@ -1104,7 +1106,9 @@
    "auto": 1,
    "apply": "https://www.culture.gouv.fr/catalogue-des-demarches-et-subventions/appels-a-projet-partenaires/residence-mission-photographie-a-la-communaute-de-communes-des-deux-rives",
    "applyKind": "form",
-   "_score": 16.2
+   "_score": 16.2,
+   "resume": "La Communauté de communes des Deux Rives organise une résidence de photographie dans une région rurale de l'Occitanie, France. Ouverte aux artistes photographes et collectifs, elle vise à explorer la région à travers la photographie. Le résident bénéficiera d'une bourse de 18 000 EUR, d'une immersion en décembre 2026 et d'hébergement. Proficient en français et permis de conduire requis. Date limite : 30 novembre 2026.",
+   "titreFr": "Residence de photographie en France"
   },
   {
    "id": "auto_1qftpfp",
@@ -1142,7 +1146,9 @@
    "img": "https://backoffice.lepetitjournal.com/sites/default/files/2026-11/Affiche%20de%20la%20Biennale%20de%20Dakar.jpg",
    "ts": 1795583130000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La 16e Biennale Dak'Art 2026, sur le thème « (Anti)fragilité », a récompensé cinq artistes et duos. Le Grand Prix a été attribué à Beau Disundi Nzazi, Miriam Hillawi Abraham a remporté le Prix de la Révélation, Nú Barreto le Prix UEMOA, et Vanessa Amoah Opoku & Joy Weinberger le Prix de la CEDEAO. Papisto Boy a reçu un Prix posthume. Les œuvres sont exposées au Cap-Vert à Dakar jusqu'au 19 décembre 2026.",
+   "titreFr": "Palmarès de la 16e Biennale Dak'Art 2026"
   },
   {
    "id": "auto_fslfwn",
@@ -1199,7 +1205,9 @@
    "img": "https://s.rfi.fr/media/display/afbd2ffa-e73d-11f1-bbb4-e56ab3dc0809/w:1280/p:16x9/HadyBarry-FilleAinee-DakArt2026-02-vue-de-salle-1.jpg",
    "ts": 1795519511000,
    "auto": 1,
-   "_score": 7.7
+   "_score": 7.7,
+   "resume": "Dominique Zinkpè, artiste béninois, expose son œuvre 'Ascension' à la Biennale de Dakar. Il partage son travail avec des jeunes artistes envoûtés par l'art contemporain africain. Cette biennale, qui se tient du 21 novembre 2026, rassemble 55 artistes et souligne la diversité de la création africaine. Zinkpè présente une installation mêlant installation, dessin, peinture, sculpture et vidéo, offrant une vision unique de l'Afrique contemporaine.",
+   "titreFr": "Dominique Zinkpè explique son œuvre à la Biennale de Dakar"
   },
   {
    "id": "auto_1qz22x3",
@@ -1300,7 +1308,9 @@
    "img": "https://actualite.cd/sites/default/files/styles/1200_630/public/2026-11/4ae5c0f1-29f4-43db-8ab6-5a0cd8ba2f61.jpeg?itok=RVwHWaSS",
    "ts": 1795478476000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.6,
+   "resume": "La République démocratique du Congo participe à la 16e Biennale de l'art africain contemporain à Dakar en 2026. Le pays présente ses artistes et son patrimoine au travers du pavillon national et des expositions du OFF. Des œuvres d'artistes confirmés et nouveaux talents sont exposées, soulignant la richesse de la création congolaise. La ministre de la Culture et l'artiste Fally Ipupa prennent part à la cérémonie d'ouverture.",
+   "titreFr": "Participation de la RDC à la Biennale de Dakar"
   },
   {
    "id": "auto_1bogeps",
@@ -1359,7 +1369,9 @@
    "img": "https://www.gulftoday.ae/gulftoday/uploads/images/2026/11/23/1129052.webp",
    "ts": 1795432256000,
    "auto": 1,
-   "_score": 7.5
+   "_score": 7.5,
+   "resume": "L'exposition du 16e Biennale de l'art contemporain africain à Dakar explore la notion d'anti-fragilité. Organisée par Morad Montazami, elle réunit 54 artistes africains et de la diaspora. Cette année, l'art sert de réponse aux crises économiques et identitaires. Les œuvres varient de silkworms à des statues de centaures, montrant la résilience humaine. L'exposition souligne l'importance de l'art comme ressource pour tous, en temps de crise.",
+   "titreFr": "Art africain à Dakar : fragilité comme force"
   },
   {
    "id": "auto_63u4sn",
@@ -1399,7 +1411,9 @@
    "img": "",
    "ts": 1795428945000,
    "auto": 1,
-   "_score": 7.4
+   "_score": 7.4,
+   "resume": "Mamou Daffé, ministre malien de la Culture, a participé à un panel à la Biennale de Dakar 2026. Les discussions portaient sur l'importance des industries culturelles et créatives pour le développement économique et territorial. Daffé a souligné la richesse culturelle africaine et la nécessité d'intégrer ces secteurs dans les politiques publiques. Cette rencontre a permis d'échanger sur la gouvernance et l'ingénierie culturelle.",
+   "titreFr": "Mamou Daffé défend les industries culturelles à Dakar"
   },
   {
    "id": "auto_ks0m9f",
@@ -1683,7 +1697,9 @@
    "img": "",
    "ts": 1573804800000,
    "auto": 1,
-   "_score": 10.2
+   "_score": 10.2,
+   "resume": "La résidence d'été Alserkal arts foundation à Dubaï offre un espace d'échanges pour artistes, écrivains, architectes et chercheurs. Elle est ouverte aux citoyens et résidents permanents de la région Measa. Les candidats doivent soumettre un CV, une déclaration professionnelle et d'intention. Des services incluent hébergement, allocation de subsistance et accès à un studio de création. Les candidatures se font en ligne et la date limite est le 1er janvier 2020.",
+   "titreFr": "Résidence d'été à Dubaï pour artistes du Moyen-Orient, Afrique et Asie du sud"
   }
  ]
 }
