@@ -1083,7 +1083,9 @@
    "img": "https://image.okayafrica.com/1442253.jpg?imageId=1442253&x=0&y=18.23&cropw=100&croph=63.55&panox=0&panoy=18.23&panow=100&panoh=63.55&width=1200&height=683",
    "ts": 1795624141000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "Le Mosi-Oa-Tunya Perennial, une biennale d'art contemporain en Zambie, vise à challenger les biennales traditionnelles en Afrique. Organisée par LoCA, cette édition, qui s'est tenue en septembre, met l'accent sur l'artiste emergent et l'auto-funding. Les artistes abordent des thèmes comme la résistance, la théorie critique et la subsistance. Cette initiative, inspirée par la smuggling, encourage une approche alternative et résistante de l'art contemporain africain.",
+   "titreFr": "Mosi-Oa-Tunya Perennial : une biennale alternative en Zambie"
   },
   {
    "id": "auto_8e7ztb",
@@ -1102,7 +1104,9 @@
    "img": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/11/25/la-fondation-blachere-est-un-qg-de-l-art-contemporain-africain-1795622466_5dca74f3070b6a1da74f3070bdfda7v_.jpg",
    "ts": 1795622467000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La Fondation Blachère, à Bonnieux, organise une exposition gratuite intitulée 'Sénégal, paroles de lumière' du 26 novembre au 6 mars. Cette exposition, consacrée aux artistes contemporains africains, se déroule dans le cadre des 'Family days' du 26 au 28 novembre. Elle présente plus de 45 artistes majeurs de la scène sénégalaise.",
+   "titreFr": "Exposition gratuite de la Fondation Blachère à Bonnieux"
   },
   {
    "id": "auto_jmuyat",
@@ -1165,7 +1169,9 @@
    "img": "https://s.rfi.fr/media/display/69bc72be-e8ae-11f1-b0be-95e072ff0a91/w:1280/p:16x9/21-nov-ancienpalais-22.jpg",
    "ts": 1795604347000,
    "auto": 1,
-   "_score": 7.9
+   "_score": 7.9,
+   "resume": "La 16ème Biennale d'art de Dakar met l'accent sur le design avec des créateurs du Sénégal, du Nigeria, du Mali et d'autres pays. Des designers comme Aissa Dionne et Boubacar Doumbia exposent leurs travaux. La Biennale propose également des expositions OFF, comme celle de Cheikh Ngom, premier architecte sénégalais à avoir fondé son propre cabinet. Cette édition célèbre la diversité et l'innovation dans le domaine du design africain.",
+   "titreFr": "Design sénégalais à la Biennale d'art de Dakar"
   },
   {
    "id": "auto_dzau52",
@@ -1632,7 +1638,9 @@
    "img": "https://www.artshebdomedias.com/wp-content/uploads/2026/10/visuel-rosa-bonheur-scaled.jpg",
    "ts": 1793170800000,
    "auto": 1,
-   "_score": 9
+   "_score": 9,
+   "resume": "Il s'agit d'une résidence d'art plastique et visuel à Chevilly-Larue, près de Paris. Organisée par la commune, elle offre une immersion de 6 semaines pour co-créer avec les habitants. Le budget est de 6500 euros, avec 2000 € pour frais de production. Les candidatures, ouvertes aux artistes individuels ou collectifs, doivent être envoyées avant le 15 décembre 2026.",
+   "titreFr": "Résidence artistique à Chevilly-Larue"
   },
   {
    "id": "auto_row3aj",
@@ -1672,7 +1680,9 @@
    "auto": 1,
    "apply": "https://framaforms.org/appel-a-candidatures-residences-dartistes-2027-ville-de-poitiers-grand-poitiers-1758027379",
    "applyKind": "form",
-   "_score": 11.4
+   "_score": 11.4,
+   "resume": "Grand Poitiers Communauté Urbaine et la Ville de Poitiers organisent des résidences d'artistes pour 2027. Ouvert aux artistes locaux, l'appel est pour des résidences de 1 à 2 semaines au Prieuré ou à la Villa Bloch. Des bourses de 500 à 2000 € sont offertes. Les candidatures, avec un dossier de présentation, sont à envoyer avant le 27 novembre 2026.",
+   "titreFr": "Appel à candidatures pour résidences d'artistes à Poitiers et Jaunay-Marigny"
   },
   {
    "id": "auto_1eqhp6e",
