@@ -1,6 +1,45 @@
 {
- "updated": 1795412684320,
+ "updated": 1795671489171,
  "items": [
+  {
+   "t": "Web Zone : Raimiti Ravello lance des cours de peinture en ligne",
+   "d": "Plus besoin d’attendre un vernissage pour découvrir les oeuvres de nos artistes préférés. Aujourd’hui, l’art sort des galeries et se montre sur la Toile. Au fenua, on connait tous ou presque les oeuvres du peintre Raimiti Ravello, petit-fils de François Ravello, également artiste. Mais c’est principalement grâce aux réseaux sociaux que le plus jeune s’est […]",
+   "src": "TNTV News - Tahiti Nui Télévision",
+   "site": "https://www.tntvnews.pf",
+   "url": "https://www.tntvnews.pf/polynesie/culture/web-zone-raimiti-ravello-lance-des-cours-de-peinture-en-ligne/",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Techniques et pratique",
+   "img": "https://www.tntvnews.pf/tntv/wp-content/uploads/Raimiti.jpg",
+   "ci": false
+  },
+  {
+   "t": "Quels sont les meilleurs sites et applications pour apprendre le dessin ?",
+   "d": "Apprendre le dessin est désormais accessible à tous grâce à internet et aux applications mobiles. Ces plateformes offrent des ressources variées des tutoriels pour débutants aux techniques avancées.",
+   "src": "Lepetitjournal.com",
+   "site": "https://lepetitjournal.com",
+   "url": "https://lepetitjournal.com/ho-chi-minh/education/meilleurs-sites-applications-apprendre-dessin-414592",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Techniques et pratique",
+   "img": "https://backoffice.lepetitjournal.com/sites/default/files/2025-06/meilleurs-sites-applications-apprendre-dessin.jpg",
+   "ci": false
+  },
+  {
+   "t": "Tassin-la-Demi-Lune. De l’école d’art aux films : elle a participé à la réalisation du dessin animé Flow",
+   "d": "Elodie D’Ambrosio, 36 ans et originaire de Tassin, travaille dans le domaine du cinéma. Mais pas n’importe lequel, celui du cinéma d’animation.",
+   "src": "Le Progrès",
+   "site": "https://www.leprogres.fr",
+   "url": "https://www.leprogres.fr/culture-loisirs/2024/11/08/de-l-ecole-d-art-aux-films-elle-a-participe-a-la-realisation-du-dessin-anime-flow",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Techniques et pratique",
+   "img": "https://cdn-s-www.leprogres.fr/images/52058CE4-37B3-452E-A399-C41A881D3B85/FB1200/photo-1731089317.jpg",
+   "ci": false
+  },
   {
    "t": "« Cartooning for Peace & Governance » – Formation d’artistes au dessin de presse en Somalie",
    "d": "\"Cartooning for Peace & Governance\" a pour objectif de sensibiliser les artistes somaliens aux possibilités qu’offre le dessin de presse en tant qu’outil pédagogique et de sensibilisation.",
@@ -27,6 +66,32 @@
    "ci": false
   },
   {
+   "t": "Apprendre à dessiner, les leçons de dessin en ligne tous niveaux",
+   "d": "Apprendre à dessiner est une école de formation en ligne spécialisée dans les arts, qui propose des cours accessibles à tous les niveaux pour apprendre le dessin à son rythme.",
+   "src": "Les Adresses Incontournables",
+   "site": "https://www.marieclaire.fr",
+   "url": "https://www.marieclaire.fr/adresses-incontournables/apprendre-a-dessiner/",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Techniques et pratique",
+   "img": "https://www.marieclaire.fr/adresses-incontournables/wp-content/uploads/AA-pit-graf.jpg",
+   "ci": false
+  },
+  {
+   "t": "On a testé : un atelier de peinture avec le Paon",
+   "d": "Commençons par le commencement. Le Paon est une plateforme proposant des ateliers d'arts plastiques. Collage, poterie, gouache, crayon, céramique, stabilo et",
+   "src": "Lyon CityCrunch",
+   "site": "https://lyon.citycrunch.fr",
+   "url": "https://lyon.citycrunch.fr/on-a-teste-un-atelier-de-peinture-avec-le-paon/2022/03/23/",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Techniques et pratique",
+   "img": "https://lyon.citycrunch.fr/wp-content/uploads/sites/3/2022/03/Ateleier-peinture-Lyon.jpg",
+   "ci": false
+  },
+  {
    "t": "MOOC : La sculpture grecque d’Alexandre à Cléopâtre (Partie II)",
    "d": "A partir du 08 janvier 2017, lancement du MOOC: La sculpture grecque d’Alexandre à Cléopâtre (Partie II) de François Queyrel (EPHE) en collaboration avec de Ségolène de Pontbriand (ENS / AOROC)",
    "src": "PSL | ENS",
@@ -50,6 +115,19 @@
    "ty": "cours",
    "cat": "Techniques et pratique",
    "img": "https://1c1fef7b-2fa0-455a-987d-673bcdd072ae.svc.edge.scw.cloud/media/filer_public_thumbnails/filer_public/44/0c/440cb2d0-964d-4f33-8b4a-1f9c6ee6b2af/shot_230421_085952.png__1200x630_q85_crop_replace_alpha-%23FFFFFF_subsampling-2_upscale.jpg",
+   "ci": false
+  },
+  {
+   "t": "Behold the Most Detailed Painting in History: The Ghent Altarpiece",
+   "d": "These days, if you want to see a particular painting, you can almost certainly pull it up online in seconds. In more and more cases, the resolution of the image will be so high that you…",
+   "src": "Open Culture",
+   "site": "",
+   "url": "https://www.openculture.com/2026/11/behold-the-most-detailed-painting-in-history-the-ghent-altarpiece.html",
+   "lang": "en",
+   "free": true,
+   "ty": "cours",
+   "cat": "Techniques et pratique",
+   "img": "https://cdn8.openculture.com/2026/11/22221549/hq720-1.jpg",
    "ci": false
   },
   {
@@ -154,6 +232,19 @@
    "ty": "cours",
    "cat": "Histoire de l’art",
    "img": "https://media.beauxarts.com/uploads/2017/07/unnamed-e1499433963263-1-1.jpg",
+   "ci": false
+  },
+  {
+   "t": "Trois bonnes raisons de suivre le MOOC Orange : une brève histoire de l’art",
+   "d": "Depuis le 24 avril 2017, Orange et la Réunion des Musées nationaux-Grand Palais ont uni leurs forces pour proposer au grand public un MOOC (massive open online course dans la langue de Shakespeare) consacré à l’art. Intitulé « Une brève histoire de l’art, de la Renaissance au XXe siècle », le programme de cours livre toutes les clés afin de mieux comprendre et reconnaître les grandes œuvres du patrimoine…",
+   "src": "Beaux Arts",
+   "site": "https://www.beauxarts.com",
+   "url": "https://www.beauxarts.com/lifestyle/trois-bonnes-raisons-de-suivre-le-mooc-orange-une-breve-histoire-de-lart/",
+   "lang": "fr",
+   "free": false,
+   "ty": "cours",
+   "cat": "Histoire de l’art",
+   "img": "https://media.beauxarts.com/uploads/2017/07/unnamed-e1499433963263-1.jpg",
    "ci": false
   },
   {
@@ -287,28 +378,41 @@
    "ci": false
   },
   {
-   "t": "Les cours photo à suivre depuis votre canapé !",
-   "d": "Que vous soyez photographes en herbe ou professionnels, cette sélection de cours photo vous permettra d’approfondir vos connaissances et vos techniques.",
+   "t": "« Une brève histoire de la photographie » : un MOOC gratuit sur la photo",
+   "d": "La Rmn-Grand Palais et la Fondation Orange s'associent à l'occasion d'un 4ème MOOC dédié à la photographie. Les inscriptions sont ouvertes.",
    "src": "Fisheye Magazine",
    "site": "https://fisheyemagazine.fr",
-   "url": "https://fisheyemagazine.fr/article/les-cours-photo-a-suivre-depuis-votre-canape/",
+   "url": "https://fisheyemagazine.fr/article/une-breve-histoire-de-la-photographie-un-mooc-gratuit-sur-la-photo/",
    "lang": "fr",
    "free": false,
-   "ty": "article",
+   "ty": "cours",
    "cat": "Photographie",
-   "img": "https://fisheyemagazine.fr//wp-content/uploads/import/2020/03/les-cours-photo-a-suivre-depuis-votre-canape-1024x780.jpg",
+   "img": "https://fisheyemagazine.fr//wp-content/uploads/import/2018/10/une-breve-histoire-de-la-photographie-un-mooc-gratuit-sur-la-photo-1024x576.png",
    "ci": false
   },
   {
    "t": "Photographie : COVERAGE organise un atelier de formation",
-   "d": "",
+   "d": "Samedi 31 août 2013. Bingerville. La structure COVERAGE dirigée par le photographe professionnel, Thierry Gouégnon a organisé un atelier de formation en photographie (Worhshop) à l’attention de férus de ce métier.",
    "src": "Abidjan.net News",
    "site": "https://news.abidjan.net",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRISUdhS05XN2MxNGlxN2ItUWpWVFg0WS1peXhrcUVVZjZHMkM5RDk2SUcxelNaWUM4NHFlUkVPd2xwbUJKd00yTXNmSDJmd1VTdjAxZUhEa3VaT3ktS1NCMjNmWk5QdmtTVUVBUXNDaGtHVzNFcjFINVZMWW0wbjk1Mm4wenl6N0RnUndZRkQ5M0UtMFFNeA?oc=5",
+   "url": "https://news.abidjan.net/photos/150018-photographie-coverage-organise-un-atelier-de-formation",
    "lang": "fr",
    "free": false,
    "ty": "article",
    "cat": "Photographie",
+   "img": "https://media-files.abidjan.net/photo/Thierrygouegnon-0010.jpg",
+   "ci": true
+  },
+  {
+   "t": "À Lamballe, la reprise des cours aura lieu le 14 septembre à l’école d’arts plastiques Art’L",
+   "d": "",
+   "src": "Le Télégramme",
+   "site": "https://www.letelegramme.fr",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRXQwTkVfSzljQmVjempWMV83UFNPMmdKSkFpLVA1c09tMWRVMllaZEQ0aDliSWZjZVBBbEhXMzBKWXNaZVBsRTBWZnp0RjZxNU9HVjRveGwybmpmM2VBb0lveEdySWpJalZGdGwxLWxlSW8wVGhpRzZhYWVpclFCSC1TMy0tUGp1NnNhNW9DTWlkU1VkeFdJMDdZcUpYUDBRT3NKSW94ZWpIa0xNOGt0U3BKbWpzSFZadVVSQmJUS2pJNGlRTTdaWmtzRm9jUk9TV295Yk9QZG14aW0tTDYtd2dIV291UTU2ZC1HOG1MdlNDeldya2c?oc=5",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Autres formations",
    "ci": false
   },
   {
@@ -325,6 +429,19 @@
    "ci": false
   },
   {
+   "t": "Ateliers du Sahel : Une dizaine de journalistes formés sur l'interprétation de l’art visuel et l’écriture…",
+   "d": "En prélude de la Biennale, L’association de la presse Culturelle (APCS), en collaboration avec les ateliers du Sahel et de l’artiste plasticien Kalidou Kassé a procédé à l’ouverture officielle de l’atelier de formation et de partage autour des critères et perspectives de lecture e...",
+   "src": "DAKARACTU.COM",
+   "site": "https://www.dakaractu.com",
+   "url": "https://www.dakaractu.com/Ateliers-du-Sahel-Une-dizaine-de-journalistes-formes-sur-l-interpretation-de-l-art-visuel-et-l-ecriture-des-critiques-d_a253610.html",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Autres formations",
+   "img": "https://www.dakaractu.com/photo/art/grande/82991630-59471166.jpg?v=1727107385",
+   "ci": false
+  },
+  {
    "t": "Le MOOC sur l’art autochtone s’enrichit",
    "d": "L’UQAM et le MBAM ajoutent trois webinaires à l’offre de cours en ligne avec des personnalités reconnues en art contemporain autochtone.",
    "src": "Actualités UQAM",
@@ -338,11 +455,24 @@
    "ci": false
   },
   {
-   "t": "L’UQAM et le MBAM offrent un cours virtuel gratuit sur l’art autochtone",
+   "t": "Maliyo Games et Google offrent une formation en ligne gratuite pour les artistes de jeux vidéo en Afrique",
+   "d": "Le studio de développement de jeux mobiles Maliyo Games s’est associé à Google pour lancer un programme de formation en",
+   "src": "AITN",
+   "site": "https://afriqueitnews.com",
+   "url": "https://afriqueitnews.com/tech-media/maliyo-games-google-offrent-formation-ligne-gratuite-artistes-jeux-video-afrique/",
+   "lang": "fr",
+   "free": false,
+   "ty": "article",
+   "cat": "Autres formations",
+   "img": "https://afriqueitnews.com/wp-content/uploads/Maliyo-Games.jpeg",
+   "ci": false
+  },
+  {
+   "t": "Interview : Le PAON, des ateliers d’arts plastiques pour tous",
    "d": "",
-   "src": "Radio-Canada",
-   "site": "https://ici.radio-canada.ca",
-   "url": "https://ici.radio-canada.ca/article/info/1920682/uqam-mbam-ohtehra-art-autochtone-aujourdhui-guy-sioui-durand",
+   "src": "Bonjoursenior.fr",
+   "site": "https://www.bonjoursenior.fr",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcDV2TDVoMzRBNHExSWttZHZQNW5xdDNYTHNLd05BZHRfZzVwTS0wNWVuWFZmSEJhYXYybHRDNUg1RnRJYkNGN3FGQTVZazlRcVB3XzdmaWxDS19JZWZyRS1hUEJPakVBdjRXRHlKSWFKeExvV0kyeXFfRTlMdU1Zb1JxOHlmcjFNSDRYMWFwNTJxVGtkM3FnU1JYRG1uZw?oc=5",
    "lang": "fr",
    "free": false,
    "ty": "article",
@@ -350,29 +480,15 @@
    "ci": false
   },
   {
-   "t": "Le Centre Pompidou lance un MOOC sur l’art 100% féminin",
-   "d": "Le nouveau MOOC (Massive Open Online Courses) du Centre Pompidou, « Elles font l’art », sera consacré aux femmes artistes de 1900 à nos jours. Ce cours en ligne est gratuit et accessible à tous à partir du 25 janvier 2021 sur la plateforme FUN. Les inscriptions sont dès à présent ouvertes.",
-   "src": "Connaissance des Arts",
-   "site": "https://www.connaissancedesarts.com",
-   "url": "https://www.connaissancedesarts.com/musees/centre-pompidou/le-centre-pompidou-lance-un-mooc-sur-lart-100-feminin-11151503/",
-   "lang": "fr",
-   "free": false,
-   "ty": "cours",
-   "cat": "Autres formations",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2020/02/cda2020_frida_khalo_pompidou_vip_parcours_art_moderne-tt-width-1200-height-630-fill-0-crop-1-bgcolor-ffffff.jpg",
-   "ci": false
-  },
-  {
    "t": "6 MOOC sur l’art pour s’occuper",
-   "d": "Musées en ligne, expositions virtuelles, idées d’activités pour s’occuper seul ou en famille… Les solutions ne manquent pas pour tromper l’ennui et profiter du modeste cadeau d’un maudit virus : le temps. Aujourd’hui, continuez votre exploration artistique avec notre sélection de MOOC.",
+   "d": "",
    "src": "Connaissance des Arts",
    "site": "https://www.connaissancedesarts.com",
-   "url": "https://www.connaissancedesarts.com/arts-expositions/confines-mais-cultives-4-mooc-sur-lart-pour-soccuper-11135450/",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObHdKVXp6Tm1hSnZhMEpLZE5QeXF6dU1Tb0lLdnVLcnUxY1NLaldKUUZ0NTJtOTNUcWFZT2VVWUNjamcxVzJFZEdVVXBNU1QxZ1doc1MzSHVja3RMcFgtRkJyRWRKNDhsM1JLZUpYTzItandHN3hPYlB0V2lNNDFZaVh5YXZkQWRxTVo1eENLLWFYN1M3U1ItZDJYM180UnJzTElEdjU1SnpzVXgzRTJvVzR3d3lOdw?oc=5",
    "lang": "fr",
    "free": false,
-   "ty": "cours",
+   "ty": "article",
    "cat": "Autres formations",
-   "img": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2020/03/cda20_mooc_4_coronavirus_ok-tt-width-1200-height-630-fill-0-crop-1-bgcolor-ffffff.jpg",
    "ci": false
   },
   {
@@ -424,7 +540,7 @@
    "free": false,
    "ty": "article",
    "cat": "Autres formations",
-   "img": "https://storage.ghost.io/c/16/43/16435400-f27e-4b41-b5f7-d0c24f5ce4de/content/images/size/w1200/2026/03/AAP_1.png",
+   "img": "https://storage.ghost.io/c/16/43/16435400-f27e-4b41-b5f7-d0c24f5ce4de/content/images/2026/03/AAP_1.png",
    "ci": false
   }
  ]
