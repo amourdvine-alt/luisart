@@ -1257,7 +1257,9 @@
    "img": "https://afrique.le360.ma/resizer/v2/ERCLX5ILD5BVVK3IJYUXLRWN2I.png?auth=7eaf74500eb8ee56068cf115c45ecc4e37cdce7fb3a6fac6fb9f390f993c92f7&smart=true&width=1200&height=630",
    "ts": 1795764780000,
    "auto": 1,
-   "_score": 7.8
+   "_score": 7.8,
+   "resume": "L'exposition 'Trait d’union' rassemble huit artistes sénégalais et marocains pour une création collective à Toubab Dialaw. Organisée dans le cadre de la 16e Biennale de Dakar, elle vise à renforcer les liens culturels entre les deux pays. Les artistes partagent leurs techniques et créent ensemble, découvrant de nombreuses affinités. Cette exposition, présentée au Musée Théodore Monod, souligne l'importance du dialogue artistique pour approfondir les relations entre le Sénégal et le Maroc.",
+   "titreFr": "Exposition artistique entre Sénégal et Maroc"
   },
   {
    "id": "auto_1tuo07m",
@@ -1276,7 +1278,9 @@
    "img": "https://on-the-move.org/sites/default/files/news/2026-11/mbzuai-campus-image-02.jpeg",
    "ts": 1795752000000,
    "auto": 1,
-   "_score": 16.2
+   "_score": 16.2,
+   "resume": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) recherche des artistes professionnels pour créer une œuvre d'art suspendue sur son campus à Abu Dhabi. Cet appel est ouvert aux artistes et équipes mondiaux avec une expérience en sculpture ou installation publique. L'œuvre sera acquise par l'université et intégrée dans sa collection permanente. Les artistes devront répondre à l'un des thèmes proposés. Il y a deux étapes d'application et un budget maximum de 250 000 dollars. Les questions doivent être posées avant le 29 novembre.",
+   "titreFr": "Appel d'offres pour une œuvre d'art suspendue"
   },
   {
    "id": "auto_9w8fu",
@@ -1396,7 +1400,9 @@
    "img": "",
    "ts": 1795682691000,
    "auto": 1,
-   "_score": 7.6
+   "_score": 7.6,
+   "resume": "La 16e Biennale de l'art africain contemporain à Dakar explore trois axes : la résilience de l'art, la transmission des héritages culturels et les migrations. Ces discussions visent à comprendre comment l'art s'adapte, à questionner les mécanismes de domination et à reconsidérer les migrations. L'accent est mis sur le potentiel des industries culturelles pour le développement économique. Ces réflexions sont cruciales pour les artistes, offrant des perspectives sur la création et le patrimoine.",
+   "titreFr": "Biennale de Dakar : réflexions sur l'art, la transmission et les migrations"
   },
   {
    "id": "auto_jmuyat",
