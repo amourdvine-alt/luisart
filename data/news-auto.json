@@ -1236,7 +1236,9 @@
    "img": "",
    "ts": 1795782480000,
    "auto": 1,
-   "_score": 8
+   "_score": 8,
+   "resume": "À Saint-Louis, le Gaec-Africa organise une exposition intitulée 'Grains de mil, grains de monde' dans le cadre de la Biennale de l'art africain contemporain. Cette initiative vise à réhabiliter le mil, symbole de solidarité et de patrimoine identitaire. Le chargé de l'organisation, Mouhamadou Mansour Ndong, souligne l'importance du mil pour la nutrition et la culture africaine, déplorant son déclin progressif. L'exposition met en avant les multiples aspects du mil, de son rôle alimentaire à sa place dans la construction traditionnelle, en passant par son héritage colonial. Elle encourage les Africains à repenser leur rapport à l'alimentation et à l'environnement.",
+   "titreFr": "Exposition sur le mil à Saint-Louis"
   },
   {
    "id": "auto_1tuo07m",
@@ -1335,7 +1337,9 @@
    "img": "https://on-the-move.org/sites/default/files/2026-11/OTM_guide_mobilite_France_2027_COV_HOR.jpeg",
    "ts": 1795705850000,
    "auto": 1,
-   "_score": 10.3
+   "_score": 10.3,
+   "resume": "Ce guide 2026-2027 répertorie les opportunités de financements pour la mobilité internationale des artistes et professionnels de la culture vers et depuis la France. Il est produit par On the Move avec le soutien du ministère français de la Culture. Seules les financements réguliers accessibles en ligne sont inclus. Il offre des opportunités pour les sortants et entrants, sans frais, et peut être consulté en ligne. La postulation se fait en ligne et les dates limites sont indiquées.",
+   "titreFr": "Guide des Financements de la Mobilité Internationale vers et depuis la France"
   },
   {
    "id": "auto_1e0j2zw",
